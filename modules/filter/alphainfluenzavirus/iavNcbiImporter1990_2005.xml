@@ -1,0 +1,21 @@
+<!-- Import Betainfluenzavirus sequences from NCBI -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-iav-nuccore-1990-2005</sourceName>
+
+  <!-- The eSearchTerm is a standard NCBI entrez text query. 
+       An alternative to eSearchTerm is to specify specific GI numbers or Primary Accessions 
+       to retrieve. See ncbiImporterGiNumbers.xml and ncbiImporterPrimaryAccessions.xml for syntax examples -->
+  <eSearchTerm>"Alphainfluenzavirus"[Organism] AND 600:2600[SLEN] AND 1990/1/1:2005/1/1[Publication Date]</eSearchTerm>
+  <!-- This specifies the field of the GenBank document which will be used as the GLUE sequence ID. The options are:
+       GI_NUMBER (default if omitted)
+       PRIMARY_ACCESSION -->
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  <!-- Maximum number of NCBI records to return. If omitted, defaults to 4000 -->
+  <eSearchRetMax>1000000</eSearchRetMax>
+  <!-- Retrieval operates in batches to avoid overloading NCBI. 
+       This is the number of sequences to retrieve per batch -->
+  <eFetchBatchSize>800</eFetchBatchSize>
+  
+</ncbiImporter>

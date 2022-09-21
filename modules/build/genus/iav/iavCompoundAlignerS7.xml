@@ -1,0 +1,22 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>M1</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>M2</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>M3</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>M4</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>M42</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>S7_whole_genome</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

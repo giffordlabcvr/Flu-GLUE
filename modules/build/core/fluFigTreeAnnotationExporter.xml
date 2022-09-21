@@ -1,0 +1,71 @@
+<figTreeAnnotationExporter>
+
+	<figTreeAnnotation>
+		<annotationName>sequenceID</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>Pubmed ID</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.pubmed_id')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>length</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.length')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+			
+	<figTreeAnnotation>
+		<annotationName>gb_segment</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_segment')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+			
+	<figTreeAnnotation>
+		<annotationName>name</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.name')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+			
+	<figTreeAnnotation>
+		<annotationName>full_name</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.full_name')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+			
+	<figTreeAnnotation>
+		<annotationName>lab_construct</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.lab_construct')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
+	<figTreeAnnotation>
+		<annotationName>isolate</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.isolate')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
+	<figTreeAnnotation>
+		<annotationName>sample_date</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.sample_date')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
+	<figTreeAnnotation>
+		<annotationName>place_sampled</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.place_sampled')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
+	<figTreeAnnotation>
+		<annotationName>country</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.country')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
+	<figTreeAnnotation>
+		<annotationName>collection_year</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.collection_year')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
+	<figTreeAnnotation>
+		<annotationName>host_sci_name</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.host_sci_name')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+
+
+</figTreeAnnotationExporter>
+                                                                                    

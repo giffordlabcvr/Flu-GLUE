@@ -1,0 +1,16 @@
+delete module fastaAlignmentExporter
+create module -t fastaAlignmentExporter
+
+module fastaAlignmentExporter
+
+  export AL_IAV_SEG1 -r REF_S1_IAV_MASTER_NC_002023 -f S1_whole_genome -a -e -o alignments/export/iav/AL_IAV_SEG1.fna
+  export AL_IAV_SEG2 -r REF_S2_IAV_MASTER_NC_002021 -f S2_whole_genome -a -e -o alignments/export/iav/AL_IAV_SEG2.fna
+  export AL_IAV_SEG3 -r REF_S3_IAV_MASTER_NC_002022 -f S3_whole_genome -a -e -o alignments/export/iav/AL_IAV_SEG3.fna
+  export AL_IAV_SEG4 -r REF_S4_IAV_MASTER_NC_002017 -f S4_whole_genome -a -e -o alignments/export/iav/AL_IAV_SEG4.fna
+  export AL_IAV_SEG5 -r REF_S5_IAV_MASTER_NC_002019 -f S5_whole_genome -a -e -o alignments/export/iav/AL_IAV_SEG5.fna
+  export AL_IAV_SEG6 -r REF_S6_IAV_MASTER_NC_002018 -f S6_whole_genome -a -e -o alignments/export/iav/AL_IAV_SEG6.fna
+  export AL_IAV_SEG7 -r REF_S7_IAV_MASTER_NC_002016 -f S7_whole_genome -a -e -o alignments/export/iav/AL_IAV_SEG7.fna
+  export AL_IAV_SEG8 -r REF_S8_IAV_MASTER_NC_002020 -f S8_whole_genome -a -e -o alignments/export/iav/AL_IAV_SEG8.fna
+  exit
+  
+  

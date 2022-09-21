@@ -1,0 +1,11 @@
+# Delete importer modules
+delete module icvNcbiImporter
+
+# Create importer modules
+create module -f modules/genus/icv/icvNcbiImporter.xml
+
+# Run import
+module icvNcbiImporter import
+
+# Import source
+export source ncbi-nuccore-icv

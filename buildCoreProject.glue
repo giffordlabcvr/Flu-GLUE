@@ -1,0 +1,11 @@
+delete project flu
+
+create project flu "GLUE project for the flu" --minVersion 1.1.41
+
+schema-project flu
+
+  run file glue/core/fluSchemaExtensions.glue
+  exit
+
+run file glue/core/buildFluCoreProject.glue
+

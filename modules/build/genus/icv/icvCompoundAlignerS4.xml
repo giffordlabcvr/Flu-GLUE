@@ -1,0 +1,10 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>HEF</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>S4_whole_genome</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

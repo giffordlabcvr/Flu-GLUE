@@ -1,0 +1,14 @@
+delete module fastaAlignmentExporter
+create module -t fastaAlignmentExporter
+
+module fastaAlignmentExporter
+
+  export AL_IBV_SEG1 -r REF_S1_IBV_CQ903172 -f S1_whole_genome -a -e -o alignments/export/ibv/AL_IBV_SEG1.fna
+  export AL_IBV_SEG2 -r REF_S2_IBV_CQ903173 -f S2_whole_genome -a -e -o alignments/export/ibv/AL_IBV_SEG2.fna
+  export AL_IBV_SEG3 -r REF_S3_IBV_CQ903174 -f S3_whole_genome -a -e -o alignments/export/ibv/AL_IBV_SEG3.fna
+  export AL_IBV_SEG4 -r REF_S4_IBV_CQ903175 -f S4_whole_genome -a -e -o alignments/export/ibv/AL_IBV_SEG4.fna
+  export AL_IBV_SEG5 -r REF_S5_IBV_CQ903177 -f S5_whole_genome -a -e -o alignments/export/ibv/AL_IBV_SEG5.fna
+  export AL_IBV_SEG6 -r REF_S6_IBV_CQ903176 -f S6_whole_genome -a -e -o alignments/export/ibv/AL_IBV_SEG6.fna
+  export AL_IBV_SEG7 -r REF_S7_IBV_CQ903178 -f S7_whole_genome -a -e -o alignments/export/ibv/AL_IBV_SEG7.fna
+  export AL_IBV_SEG8 -r REF_S8_IBV_CQ903179 -f S8_whole_genome -a -e -o alignments/export/ibv/AL_IBV_SEG8.fna
+  exit

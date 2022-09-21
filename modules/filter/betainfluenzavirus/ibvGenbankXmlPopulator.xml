@@ -1,0 +1,167 @@
+<genbankXmlPopulator>
+
+	<gbPrimaryAccession>
+		<propertyPopulator property="gb_primary_accession"/>
+	</gbPrimaryAccession>
+	<gbAccessionVersion>
+		<propertyPopulator property="gb_accession_version"/>
+	</gbAccessionVersion>
+	
+	<!-- #### TOP LEVEL DATA -->	
+	<gbLength>
+		<propertyPopulator property="length"/>
+	</gbLength>
+	<gbUpdateDate>
+		<propertyPopulator property="gb_update_date"/>
+	</gbUpdateDate>
+	<gbCreateDate>
+		<propertyPopulator property="gb_create_date"/>
+	</gbCreateDate>
+
+
+	<!-- #### ORGANISM -->			
+	<gbOrganism>
+		<propertyPopulator property="full_name">
+		</propertyPopulator>
+	</gbOrganism>
+
+	<!-- #### Exclude patent sequences etc-->	
+	<gbDivision>
+		<propertyPopulator property="lab_construct">
+			<matchPattern>PATENT</matchPattern>
+			<outputTemplate>true</outputTemplate>
+		</propertyPopulator>
+	</gbDivision>
+	
+
+	<!-- #### PUBMED ID -->			
+	<gbReference>
+		<gbRefPubmed>
+			<propertyPopulator property="pubmed_id"/>
+		</gbRefPubmed>
+	</gbReference>
+	
+	
+	<gbFeature key="source">
+	
+		<gbQualifier name="strain">
+			<propertyPopulator property="strain"/>
+		</gbQualifier>
+		<gbQualifier name="isolate">
+			<propertyPopulator property="strain"/>
+		</gbQualifier>
+		
+		
+		<gbQualifier name="isolation_source">
+			<propertyPopulator property="isolation_source"/>
+		</gbQualifier>
+		<gbQualifier name="lab_host">
+			<propertyPopulator property="lab_host"/>
+		</gbQualifier>
+		
+		
+		<gbQualifier name="country">
+			<propertyPopulator property="country"/>
+			<propertyPopulator property="place_sampled">
+				<matchPattern>^.*:(.*)$</matchPattern>
+				<outputTemplate>${g1?trim}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+
+		<gbQualifier name="host">
+			<propertyPopulator property="host_sci_name">
+
+				<!-- #### Human -->																																									
+				<valueConverter>
+					<matchPattern>.*Homo [sS]apiens.*</matchPattern>
+					<outputTemplate>Homo sapiens</outputTemplate>
+				</valueConverter>
+
+				<!-- #### Avian -->																																									
+                <valueConverter>
+                    <matchPattern>.*[cC]hicken.*</matchPattern>
+                    <outputTemplate>Gallus gallus</outputTemplate>
+                </valueConverter>
+
+                <valueConverter>
+                    <matchPattern>.*[dD]uck.*</matchPattern>
+                    <outputTemplate>Anas platyrhynchos</outputTemplate>
+                </valueConverter>
+
+
+				<!-- #### Dromedary -->																																									
+                <valueConverter>
+                    <matchPattern>.*[dD]romedary camel.*</matchPattern>
+                    <outputTemplate>Camelus dromedarius</outputTemplate>
+                </valueConverter>
+
+				<!-- #### Porcine -->																																									
+ 				<valueConverter>
+					<matchPattern>.*[Pp]ig.*</matchPattern>
+					<matchPattern>.*[Pp]iglet.*</matchPattern>
+					<matchPattern>.*[Ss]wine.*</matchPattern>
+					<matchPattern>.*Sus scrofa domesticus*</matchPattern>
+					<matchPattern>.*Sus scrofa*</matchPattern>
+					<matchPattern>.*[Pp]orcine.*</matchPattern>
+					<matchPattern>.*[Ww]ild boar.*</matchPattern>
+					<outputTemplate>Sus scrofa</outputTemplate>
+				</valueConverter>
+
+				<!-- #### Bovine -->																																													
+ 				<valueConverter>
+					<matchPattern>.*[Cc]ow.*</matchPattern>
+					<matchPattern>.*[Bb]ovine.*</matchPattern>
+					<matchPattern>.*[Cc]attle.*</matchPattern>
+					<matchPattern>.*[Cc]alf.*</matchPattern>
+					<outputTemplate>Bos taurus</outputTemplate>
+				</valueConverter>	
+
+				<!-- #### Equids -->			
+ 				<valueConverter>
+					<matchPattern>.*[Hh]orse.*</matchPattern>
+					<outputTemplate>Equus caballus</outputTemplate>
+				</valueConverter>					 			
+ 				<valueConverter>
+					<matchPattern>.*[Ee]quine.*</matchPattern>
+					<outputTemplate>Equus caballus</outputTemplate>
+				</valueConverter>		
+				<valueConverter>
+					<matchPattern>.*[Dd]onkey.*</matchPattern>
+					<outputTemplate>Equus asinus</outputTemplate>
+				</valueConverter>
+
+
+				
+			</propertyPopulator>
+		</gbQualifier>
+
+		<!-- #### SEGMENT -->			
+		<gbQualifier name="segment">
+			<propertyPopulator property="gb_segment">
+				<matchPattern>(\d+)</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+				<overwriteExistingNonNull>false</overwriteExistingNonNull>
+			</propertyPopulator>
+		</gbQualifier>
+
+		
+		<gbQualifier name="collection_date">
+			<propertyPopulator property="collection_month_day">
+				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+			<propertyPopulator property="collection_month">
+				<matchPattern>\d{2}-([A-Za-z]{3})-\d{4}</matchPattern>
+				<outputTemplate>${g1?upper_case}</outputTemplate>
+			</propertyPopulator>
+			<propertyPopulator property="collection_year">
+				<matchPattern>(\d{4})</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+		
+		
+		
+	</gbFeature>
+	
+</genbankXmlPopulator>

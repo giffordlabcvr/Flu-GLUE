@@ -1,0 +1,14 @@
+delete module fastaAlignmentExporter
+create module -t fastaAlignmentExporter
+
+module fastaAlignmentExporter
+
+  export AL_ICV_SEG1 -r REF_S1_ICV_NC_006307 -f S1_whole_genome -a -e -o alignments/export/icv/AL_ICV_SEG1.fna
+  export AL_ICV_SEG2 -r REF_S2_ICV_NC_006308 -f S2_whole_genome -a -e -o alignments/export/icv/AL_ICV_SEG2.fna
+  export AL_ICV_SEG3 -r REF_S3_ICV_NC_006309 -f S3_whole_genome -a -e -o alignments/export/icv/AL_ICV_SEG3.fna
+  export AL_ICV_SEG4 -r REF_S4_ICV_NC_006310 -f S4_whole_genome -a -e -o alignments/export/icv/AL_ICV_SEG4.fna
+  export AL_ICV_SEG5 -r REF_S5_ICV_NC_006311 -f S5_whole_genome -a -e -o alignments/export/icv/AL_ICV_SEG5.fna
+  export AL_ICV_SEG6 -r REF_S6_ICV_NC_006312 -f S6_whole_genome -a -e -o alignments/export/icv/AL_ICV_SEG6.fna
+  export AL_ICV_SEG7 -r REF_S7_ICV_NC_006306 -f S7_whole_genome -a -e -o alignments/export/icv/AL_ICV_SEG7.fna
+  exit
+  

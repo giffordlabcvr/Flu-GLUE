@@ -1,0 +1,10 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>cdNS1</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>S7_whole_genome</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

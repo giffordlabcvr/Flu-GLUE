@@ -1,0 +1,44 @@
+<textFilePopulator>
+	<columnDelimiterRegex>\t</columnDelimiterRegex>
+	
+	<textFileColumn>
+		<identifier>true</identifier>
+		<header>accession</header>
+		<property>gb_primary_accession</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>virus_name</header>
+		<property>name</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+
+	<textFileColumn>
+		<header>virus_full_name</header>
+		<property>full_name</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>virus_genus</header>
+		<property>genus</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+		
+	<textFileColumn>
+		<header>host_group</header>
+		<property>isolate_data.host_group</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>segment</header>
+		<property>gb_segment</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+	
+</textFilePopulator>
+
+
+								

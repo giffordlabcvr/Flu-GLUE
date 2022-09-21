@@ -1,0 +1,5 @@
+# Build core project
+run file buildCoreProject.glue
+
+# Build genus-level extension projects
+run file buildGenusLevelExtensions.glue

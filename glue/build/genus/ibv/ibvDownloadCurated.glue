@@ -1,0 +1,9 @@
+# Delete importer modules
+delete module ibvNcbiImporter
+
+# Create importer modules
+create module -f modules/genus/ibv/ibvNcbiImporter.xml ibvNcbiImporter
+
+# Download NCBI sequences
+module ibvNcbiImporter import
+

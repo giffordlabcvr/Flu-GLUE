@@ -1,0 +1,10 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>NP</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>S5_whole_genome</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

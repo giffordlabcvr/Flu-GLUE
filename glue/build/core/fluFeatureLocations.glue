@@ -1,0 +1,468 @@
+# Define feature locations on project reference sequences
+      
+
+# ALPHAINFLUENZAVIRUS
+
+reference REF_S1_IAV_MASTER_NC_002023 
+  add feature-location S1_whole_genome
+  feature-location S1_whole_genome add segment 1 2341
+  add feature-location S1_5UTR
+  feature-location S1_5UTR add segment 1 27
+  add feature-location PB2
+  feature-location PB2 add segment 28 2307
+  add feature-location PB2-S1
+  feature-location PB2-S1 
+    add segment 28 1512 --spliceIndex 1
+    add segment 1895 1936 --spliceIndex 2
+    exit
+  add feature-location PB2-UFO
+  feature-location PB2-UFO add segment 3 233
+  add feature-location S1_3UTR
+  feature-location S1_3UTR add segment 2308 2341
+  exit
+
+reference REF_S2_IAV_MASTER_NC_002021 
+  add feature-location S2_whole_genome
+  feature-location S2_whole_genome add segment 1 2341
+  add feature-location S2_5UTR
+  feature-location S2_5UTR add segment 1 24
+  add feature-location PB1
+  feature-location PB1 add segment 25 2298
+  add feature-location PB1-N40
+  feature-location PB1-N40 add segment 142 2298
+  add feature-location PB1-F2
+  feature-location PB1-F2 add segment 119 388
+  add feature-location PB1-UFO
+  feature-location PB1-UFO add segment 3 230
+  add feature-location S2_3UTR
+  feature-location S2_3UTR add segment 2299 2341
+  exit
+
+reference REF_S3_IAV_MASTER_NC_002022 
+  add feature-location S3_whole_genome
+  feature-location S3_whole_genome add segment 1 2233
+  add feature-location S3_5UTR
+  feature-location S3_5UTR add segment 1 24
+  add feature-location PA
+  feature-location PA add segment 25 2175
+  add feature-location PA-N155
+  feature-location PA-N155 add segment 487 2169 
+  add feature-location PA-N182
+  feature-location PA-N182 add segment 568 2169
+  add feature-location PA-X
+  feature-location PA-X 
+    add segment 25 597 --spliceIndex 1
+    add segment 599 784 --spliceIndex 2
+    exit
+  add feature-location PA-UFO
+  feature-location PA-UFO add segment 3 188
+  add feature-location S3_3UTR
+  feature-location S3_3UTR add segment 2176 2233
+  exit
+  
+reference REF_S4_IAV_MASTER_NC_002017 
+  add feature-location S4_whole_genome
+  feature-location S4_whole_genome add segment 1 1778
+  add feature-location S4_5UTR
+  feature-location S4_5UTR add segment 1 32
+  add feature-location HA
+  feature-location HA add segment 33 1733
+  add feature-location HA-UFO
+  feature-location HA-UFO add segment 2 130
+  add feature-location S4_3UTR
+  feature-location S4_3UTR add segment 1734 1778
+  exit
+
+reference REF_S5_IAV_MASTER_NC_002019 
+  add feature-location S5_whole_genome
+  feature-location S5_whole_genome add segment 1 1565
+  add feature-location S5_5UTR
+  feature-location S5_5UTR add segment 1 45
+  add feature-location NP
+  feature-location NP add segment 46 1542
+  add feature-location NP-ext
+  feature-location NP-ext add segment 1 1542
+  add feature-location S5_3UTR
+  feature-location S5_3UTR add segment 1543 1565
+  exit
+
+reference REF_S6_IAV_MASTER_NC_002018 
+  add feature-location S6_whole_genome
+  feature-location S6_whole_genome add segment 1 1413
+  add feature-location S6_5UTR
+  feature-location S6_5UTR add segment 1 20
+  add feature-location NA
+  feature-location NA add segment 21 1385
+  add feature-location NA43
+  feature-location NA43 add segment 63 1385
+  add feature-location S6_3UTR
+  feature-location S6_3UTR add segment 1386 1413
+  exit
+
+reference REF_S7_IAV_MASTER_NC_002016 
+  add feature-location S7_whole_genome
+  feature-location S7_whole_genome add segment 1 1027
+  add feature-location S7_5UTR
+  feature-location S7_5UTR add segment 1 25
+  add feature-location M1
+  feature-location M1 add segment 26 784
+  add feature-location M2
+  feature-location M2 
+    add segment 26 52 --spliceIndex 1
+    add segment 741 1007 --spliceIndex 2
+    exit
+  add feature-location M3
+  feature-location M3 add segment 755 784
+  add feature-location M4
+  feature-location M4 add segment 26 145
+  add feature-location M42
+  feature-location M42
+    add segment 114 146 --spliceIndex 1
+    add segment 741 1007 --spliceIndex 2
+    exit
+  add feature-location S7_3UTR
+  feature-location S7_3UTR add segment 1008 1027
+  exit
+
+reference REF_S8_IAV_MASTER_NC_002020 
+  add feature-location S8_whole_genome
+  feature-location S8_whole_genome add segment 1 890
+  add feature-location S8_5UTR
+  feature-location S8_5UTR add segment 1 26
+  add feature-location NS1
+  feature-location NS1 add segment 27 719
+  add feature-location tNS1
+  feature-location tNS1 add segment 261 719
+  add feature-location NS3
+  feature-location NS3 
+    add segment 27 401 --spliceIndex 1
+    add segment 531 719 --spliceIndex 2
+    exit
+  add feature-location NEP
+  feature-location NEP 
+    add segment 27 56 --spliceIndex 1
+    add segment 529 864 --spliceIndex 2
+    exit
+  add feature-location NEG8
+  feature-location NEG8 add segment 143 793
+  add feature-location S8_3UTR
+  feature-location S8_3UTR add segment 865 890
+  exit
+
+
+# BETAINFLUENZAVIRUS
+
+# Add feature locations
+reference REF_S1_IBV_CQ903172
+  add feature-location S1_whole_genome
+  feature-location S1_whole_genome add segment 1 2396
+  add feature-location S1_5UTR
+  feature-location S1_5UTR add segment 1 23
+  add feature-location PB2_B
+  feature-location PB2_B add segment 24 2336
+  add feature-location S1_3UTR
+  feature-location S1_3UTR add segment 2337 2396
+  exit  
+
+reference REF_S2_IBV_CQ903173
+  add feature-location S2_whole_genome
+  feature-location S2_whole_genome add segment 1 2368
+  add feature-location S2_5UTR
+  feature-location S2_5UTR add segment 1 20
+  add feature-location PB1_B
+  feature-location PB1_B add segment 21 2279
+  add feature-location S2_3UTR
+  feature-location S2_3UTR add segment 2280 2368
+  exit
+  
+reference REF_S3_IBV_CQ903174 
+  add feature-location S3_whole_genome
+  feature-location S3_whole_genome add segment 1 2307
+  add feature-location S3_5UTR
+  feature-location S3_5UTR add segment 1 29
+  add feature-location PA
+  feature-location PA add segment 30 2210
+  add feature-location S3_3UTR
+  feature-location S3_3UTR add segment 2211 2307
+  exit
+  
+reference REF_S4_IBV_CQ903175
+  add feature-location S4_whole_genome
+  feature-location S4_whole_genome add segment 1 1882
+  add feature-location S4_5UTR
+  feature-location S4_5UTR add segment 1 33
+  add feature-location HA
+  feature-location HA add segment 34 1788
+  add feature-location S4_3UTR
+  feature-location S4_3UTR add segment 1789 1882
+  exit
+
+reference REF_S5_IBV_CQ903177
+  add feature-location S5_whole_genome
+  feature-location S5_whole_genome add segment 1 1841
+  add feature-location S5_5UTR
+  feature-location S5_5UTR add segment 1 57
+  add feature-location NP
+  feature-location NP add segment 58 1740
+  add feature-location S5_3UTR
+  feature-location S5_3UTR add segment 1741 1841
+  exit
+
+reference REF_S6_IBV_CQ903176
+  add feature-location S6_whole_genome
+  feature-location S6_whole_genome add segment 1 1557
+  add feature-location S6_5UTR
+  feature-location S6_5UTR add segment 1 46
+  add feature-location NB
+  feature-location NB add segment 47 349
+  add feature-location NA
+  feature-location NA add segment 54 1454
+  add feature-location S6_3UTR
+  feature-location S6_3UTR add segment 1455 1557
+  exit
+
+reference REF_S7_IBV_CQ903178
+  add feature-location S7_whole_genome
+  feature-location S7_whole_genome add segment 1 1191
+  add feature-location S7_5UTR
+  feature-location S7_5UTR add segment 1 24
+  add feature-location M1
+  feature-location M1 add segment 25 771
+  add feature-location BM2
+  feature-location BM2 add segment 771 1100  
+ add feature-location S7_3UTR
+  feature-location S7_3UTR add segment 1101 1191
+  exit
+
+reference REF_S8_IBV_CQ903179
+  add feature-location S8_whole_genome
+  feature-location S8_whole_genome add segment 1 1096
+  add feature-location S8_5UTR
+  feature-location S8_5UTR add segment 1 42
+  add feature-location NS1
+  feature-location NS1 add segment 43 888
+  add feature-location NEP
+  feature-location NEP
+    add segment 43 75 --spliceIndex 1
+    add segment 731 1066 --spliceIndex 2
+    exit
+  add feature-location S8_3UTR
+  feature-location S8_3UTR add segment 1067 1096
+  exit
+
+
+      
+
+# GAMMAINFLUENZAVIRUS
+
+reference REF_S1_ICV_NC_006307
+
+  add feature-location S1_whole_genome
+  feature-location S1_whole_genome add segment 1 2365
+  add feature-location S1_5UTR
+  feature-location S1_5UTR add segment 1 21
+  add feature-location PB2
+  feature-location PB2 add segment 22 2346
+  add feature-location S1_3UTR
+  feature-location S1_3UTR add segment 2347 2365  
+  exit
+
+reference REF_S2_ICV_NC_006308
+
+  add feature-location S2_whole_genome
+  feature-location S2_whole_genome add segment 1 2363
+  add feature-location S2_5UTR
+  feature-location S2_5UTR add segment 1 17
+  add feature-location PB1
+  feature-location PB1 add segment 18 2282
+  add feature-location S2_3UTR
+  feature-location S2_3UTR add segment 2283 2363  
+  exit
+
+reference REF_S3_ICV_NC_006309
+
+  add feature-location S3_whole_genome
+  feature-location S3_whole_genome add segment 1 2183
+  add feature-location S3_5UTR
+  feature-location S3_5UTR add segment 1 21
+  add feature-location P3
+  feature-location P3 add segment 22 2151
+  add feature-location S3_3UTR
+  feature-location S3_3UTR add segment 2152 2183  
+  exit
+
+reference REF_S4_ICV_NC_006310
+
+  add feature-location S4_whole_genome
+  feature-location S4_whole_genome add segment 1 2073
+  add feature-location S4_5UTR
+  feature-location S4_5UTR add segment 1 21
+  add feature-location HEF
+  feature-location HEF add segment 22 1989
+  add feature-location S4_3UTR
+  feature-location S4_3UTR add segment 1990 2073  
+  exit
+
+reference REF_S5_ICV_NC_006311
+
+  add feature-location S5_whole_genome
+  feature-location S5_whole_genome add segment 1 1807
+  add feature-location S5_5UTR
+  feature-location S5_5UTR add segment 1 29
+  add feature-location NP
+  feature-location NP add segment 30 1727
+  add feature-location S5_3UTR
+  feature-location S5_3UTR add segment 1728 1807  
+  exit 
+
+
+reference REF_S6_ICV_NC_006312
+
+  add feature-location S6_whole_genome
+  feature-location S6_whole_genome add segment 1 1180
+  add feature-location S6_5UTR
+  feature-location S6_5UTR add segment 1 25
+  add feature-location P42
+  feature-location P42 add segment 26 1150  
+  add feature-location CM1
+  feature-location CM1
+    add segment 26 753 --spliceIndex 1
+    add segment 982 982 --spliceIndex 2
+	exit
+  add feature-location M1_prime
+  feature-location M1_prime add segment 26 802
+  add feature-location CM2
+  feature-location CM2 add segment 803 1150  
+  add feature-location S6_3UTR
+  feature-location S6_3UTR add segment 1151 1180  
+  exit
+
+
+reference REF_S7_ICV_NC_006306
+
+  add feature-location S7_whole_genome
+  feature-location S7_whole_genome add segment 1 935  
+  add feature-location S7_5UTR
+  feature-location S7_5UTR add segment 1 26  
+  add feature-location cdNS1
+  feature-location cdNS1 add segment 27 767  
+  add feature-location CNEP
+  feature-location CNEP 
+    add segment 27 213 --spliceIndex 1
+    add segment 527 888 --spliceIndex 2
+	exit
+  add feature-location S7_3UTR
+  feature-location S7_3UTR add segment 889 935  
+  exit
+
+# DELTAINFLUENZAVIRUS
+
+reference REF_S1_IDV_NC_036616
+
+  add feature-location S1_whole_genome
+  feature-location S1_whole_genome add segment 1 2364  
+  add feature-location S1_5UTR
+  feature-location S1_5UTR add segment 1 14  
+  add feature-location PB2
+  feature-location PB2 add segment 15 2333
+  add feature-location S1_3UTR
+  feature-location S1_3UTR add segment 2334 2364  
+  exit
+  
+reference REF_S2_IDV_NC_036615
+
+  add feature-location S2_whole_genome
+  feature-location S2_whole_genome add segment 1 2330
+  add feature-location S2_5UTR
+  feature-location S2_5UTR add segment 1 25
+  add feature-location PB1
+  feature-location PB1 add segment 26 2287
+  add feature-location S2_3UTR
+  feature-location S2_3UTR add segment 2288 2330  
+  exit
+  
+reference REF_S3_IDV_NC_036619
+
+  add feature-location S3_whole_genome
+  feature-location S3_whole_genome add segment 1 2195
+  add feature-location S3_5UTR
+  feature-location S3_5UTR add segment 1 22
+  add feature-location P3
+  feature-location P3 add segment 23 2155
+  add feature-location S3_3UTR
+  feature-location S3_3UTR add segment 2156 2195  
+  exit
+  
+reference REF_S4_IDV_NC_036618
+
+  add feature-location S4_whole_genome
+  feature-location S4_whole_genome add segment 1 2049
+  add feature-location S4_5UTR
+  feature-location S4_5UTR add segment 1 24
+  add feature-location HEF
+  feature-location HEF add segment 25 2019
+  add feature-location S4_3UTR
+  feature-location S4_3UTR add segment 2020 2049  
+  exit
+  
+reference REF_S5_IDV_NC_036617
+
+  add feature-location S5_whole_genome
+  feature-location S5_whole_genome add segment 1 1775
+  add feature-location S5_5UTR
+  feature-location S5_5UTR add segment 1 27
+  add feature-location NP
+  feature-location NP add segment 28 1686
+  add feature-location S5_3UTR
+  feature-location S5_3UTR add segment 1687 1775  
+  exit
+  
+reference REF_S6_IDV_NC_036620
+
+  add feature-location S6_whole_genome
+  feature-location S6_whole_genome add segment 1 1219
+  add feature-location S6_5UTR
+  feature-location S6_5UTR add segment 1 28
+  add feature-location P42
+  feature-location P42 add segment 29 1192
+  add feature-location S6_3UTR
+  feature-location S6_3UTR add segment 1193 1219  
+  exit
+  
+reference REF_S7_IDV_NC_036621
+
+  add feature-location S7_whole_genome
+  feature-location S7_whole_genome add segment 1 868
+  add feature-location S7_5UTR
+  feature-location S7_5UTR add segment 1 28
+  add feature-location cdNS1
+  feature-location cdNS1 add segment 29 760
+  add feature-location DNEP
+  feature-location DNEP 
+    add segment 29 218 --spliceIndex 1
+    add segment 484 848 --spliceIndex 2
+	exit
+  add feature-location S7_3UTR
+  feature-location S7_3UTR add segment 849 868 
+  exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

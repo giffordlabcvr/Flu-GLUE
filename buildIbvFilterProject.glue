@@ -1,0 +1,36 @@
+delete project betainfluenza_filter
+
+create project betainfluenza_filter "GLUE project for filtering betainfluenzavirus data" --minVersion 1.1.41
+
+schema-project betainfluenza_filter
+
+  run file glue/fluSchemaExtensions.glue
+  exit
+
+project betainfluenza_filter
+
+  # Create extension modules  
+  run file glue/fluModules.glue
+
+  # Import sources 
+  run file glue/loadSources.glue
+
+  # Import data from GenBank XML
+  module genbankXmlPopulator populate
+ 
+  # Import tabular data (e.g. corrections to GenBank)
+
+  # Define references
+  run file glue/ibvReferences.glue
+
+  # Run segment recogniser
+  run script glue/doSegmentRecognition.js
+    
+  # Run genotyping procedure  
+  run script glue/doGenotying.js
+    
+  # Validate
+  validate
+
+  exit
+  

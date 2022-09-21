@@ -1,0 +1,13 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>NB</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>NA</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>S6_whole_genome</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

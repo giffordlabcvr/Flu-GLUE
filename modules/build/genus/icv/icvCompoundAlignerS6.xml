@@ -1,0 +1,13 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>CM1</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>CM2</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>S6_whole_genome</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

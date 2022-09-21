@@ -1,0 +1,37 @@
+delete module fastaAlignmentExporter
+create module -t fastaAlignmentExporter
+
+module fastaAlignmentExporter
+
+  export AL_IAV_SEG1 -r REF_S1_IAV_MASTER_NC_002023 -f PB2 -a -e -o alignments/export/iav/AL_IAV_SEG1_PB2.fna
+  export AL_IAV_SEG1 -r REF_S1_IAV_MASTER_NC_002023 -f PB2-S1 -a -e -o alignments/export/iav/AL_IAV_SEG1_PB2-S1.fna
+  
+  export AL_IAV_SEG2 -r REF_S2_IAV_MASTER_NC_002021 -f PB1 -a -e -o alignments/export/iav/AL_IAV_SEG1_PB1.fna
+  export AL_IAV_SEG2 -r REF_S2_IAV_MASTER_NC_002021 -f PB1-F2 -a -e -o alignments/export/iav/AL_IAV_SEG1_PB1-F2.fna
+  export AL_IAV_SEG2 -r REF_S2_IAV_MASTER_NC_002021 -f PB1-N40 -a -e -o alignments/export/iav/AL_IAV_SEG1_PB1-N40.fna
+  
+  export AL_IAV_SEG3 -r REF_S3_IAV_MASTER_NC_002022  -f PA -a -e  -o alignments/export/iav/AL_IAV_SEG3_PA.fna
+  export AL_IAV_SEG3 -r REF_S3_IAV_MASTER_NC_002022  -f PA-N155 -a -e  -o alignments/export/iav/AL_IAV_SEG3_PA-N155.fna
+  export AL_IAV_SEG3 -r REF_S3_IAV_MASTER_NC_002022  -f PA-N155 -a -e  -o alignments/export/iav/AL_IAV_SEG3_PA-N155.fna
+  export AL_IAV_SEG3 -r REF_S3_IAV_MASTER_NC_002022  -f PA-N182 -a -e  -o alignments/export/iav/AL_IAV_SEG3_PA-N182.fna
+  export AL_IAV_SEG3 -r REF_S3_IAV_MASTER_NC_002022  -f PA-X -a -e  -o alignments/export/iav/AL_IAV_SEG3_PA-X.fna
+
+  export AL_IAV_SEG4 -r REF_S4_IAV_MASTER_NC_002017  -f HA -a -e -o alignments/export/iav/AL_IAV_SEG4_HA.fna
+
+  export AL_IAV_SEG5 -r REF_S5_IAV_MASTER_NC_002019 -f NP -a -e -o alignments/export/iav/AL_IAV_SEG5_NP.fna
+
+  export AL_IAV_SEG6 -r REF_S6_IAV_MASTER_NC_002018 -f NA -a -e -o alignments/export/iav/AL_IAV_SEG6_NA.fna
+
+  export AL_IAV_SEG7 -r REF_S7_IAV_MASTER_NC_002016 -f M1 -a -e -o alignments/export/iav/AL_IAV_SEG7_M1.fna
+  export AL_IAV_SEG7 -r REF_S7_IAV_MASTER_NC_002016 -f M2 -a -e -o alignments/export/iav/AL_IAV_SEG7_M2.fna
+  export AL_IAV_SEG7 -r REF_S7_IAV_MASTER_NC_002016 -f M3 -a -e -o alignments/export/iav/AL_IAV_SEG7_M3.fna
+  export AL_IAV_SEG7 -r REF_S7_IAV_MASTER_NC_002016 -f M4 -a -e -o alignments/export/iav/AL_IAV_SEG7_M4.fna
+  export AL_IAV_SEG7 -r REF_S7_IAV_MASTER_NC_002016 -f M42 -a -e -o alignments/export/iav/AL_IAV_SEG7_M42.fna
+
+  export AL_IAV_SEG8 -r REF_S8_IAV_MASTER_NC_002020 -f NEP -a -e -o alignments/export/iav/AL_IAV_SEG8_NEP.fna
+  export AL_IAV_SEG8 -r REF_S8_IAV_MASTER_NC_002020 -f NS1 -a -e -o alignments/export/iav/AL_IAV_SEG8_NS1.fna
+  export AL_IAV_SEG8 -r REF_S8_IAV_MASTER_NC_002020 -f NS3 -a -e -o alignments/export/iav/AL_IAV_SEG8_NS3.fna
+  export AL_IAV_SEG8 -r REF_S8_IAV_MASTER_NC_002020 -f NEG8 -a -e -o alignments/export/iav/AL_IAV_SEG8_NEG8.fna
+  exit
+  
+  

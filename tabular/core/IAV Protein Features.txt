@@ -1,0 +1,187 @@
+Influenza A virus Protein Features:
+
+PB2: aa 1-759 (H1N1, A/PR/8/34, UniProt)
+
+Structural domains/motifs.
+
+PB2 cap-binding domain: aa 318–483
+PB2 host adaptation domain: aa 538-676
+NLS: aa 687-759
+
+Pathogenecity: K627 in human influenza strains (e.g. A/Los Angeles/2/87 (H5N1)) , is E627 in avian strains (e.g. A/Mallard/NY/78 virus (H2N2))
+
+
+Phosphorylation Sites: S742
+
+
+
+
+PB2-S1: aa 1-510 (H1N1, A/PR/8/34, UniProt)
+
+
+
+PB1: aa 1-757 (H1N1, A/PR/8/34, UniProt)
+
+N-terminal interaction with PA: aa 1-25
+C-terminal interaction with PB2 N-terminus: aa 678-757
+Phosphorylations Sites: T223
+
+
+PB1-N40:aa 1-717
+
+
+
+PB1-F2: aa 1-87
+
+Note that most H1N1 strains produce a truncated version of 57aa in length or none. human H3N2 or avian H5N1 produce full-length 87-90aa proteins. Rarely up to 101aa in length in some strains (mainly human H3N2).
+
+N-terminal domain: 1-40
+C-terminal domain: 50-87
+
+Amphipathic helix: aa 69-83
+
+Protein stability: aa 68-71
+
+
+PA: aa 1-716 (H1N1, A/PR/8/34, UniProt)
+
+N-terminal endonuclease domain: aa 1-198 - involved in binding PB2
+C-terminal domain: aa 254-716 - involved in binding PB1
+
+Phosphorylation Sites: S224/S225
+
+
+PA-N155: aa 1-562
+
+
+
+PA-N182: aa 1-535
+
+
+
+PA-X: aa 1-252
+
+C-terminal region: 192-252
+
+Frameshift (+1) motif: UCC UUU C*GU C
+                       UCC UUU  GUC - C* at position 191 is not read for PA-X translation.
+
+C-terminal residues important for suppression of host gene expression: aa 233-252 (not found in 2009pdm H1N1).
+
+Residues important for shutoff function: R195, K198, R199, K202, K203, K206.
+
+
+HA: aa 1-565 (H1N1, A/PR/8/34, UniProt)
+
+Signal peptide: MKANLLVLLCALAAADA (H1N1, GenBank/UniProt)
+
+Cleavage site (HACS): Varies depending on host species and between strains. Monobasic HACS associated with low-pathogenecity in avian strains. Polybasic associated with high-pathogenecity. Pathogenecity of avian strains is generally low but H5 or H7 variants can mutate into high-pathogenecity variants.
+Leaves HA0 converted into HA1 and HA2 which are 327 and 222 aa in length respectively.
+
+R343, at cleavage site, is highly conserved.
+
+PS----IQSR/G (H1N1, aa 338-344)
+PEIPKRKRR/GLF (avian H7N7)
+PQRERRRKKR/G (A/Hong Kong/483/97)
+
+
+### Features
+
+
+HA1: DTICIGYHANNSTDTVDTVLEKNVTVTHSVNLLEDSHNGKLCRLKGIAPLQLGKCNIAGWLLGNPECDPLLPVRSWSYIVETPNSENGICYPGDFIDYEELREQLSSVSSFERFEIFPKESSWPNHNTNGVTAACSHEGKSSFYRNLLWLTEKEGSYPKLKNSYVNKKGKEVLVLWGIHHPPNSKEQQNLYQNENAYVSVVTSNYNRRFTPEIAERPKVRDQAGRMNYYWTLLKPGDTIIFEANGNLIAPMYAFALSRGFGSGIITSNASMHECNTKCQTPLGAINSSLPYQNIHPVTIGECPKYVRSAKLRMVTGLRNIPSIQSR
+HA2: GLFGAIAGFIEGGWTGMIDGWYGYHHQNEQGSGYAADQKSTQNAINGITNKVNTVIEKMNIQFTAVGKEFNKLEKRMENLNKKVDDGFLDIWTYNAELLVLLENERTLDFHDSNVKNLYEKVKSQLKNNAKEIGNGCFEFYHKCDNECMESVRNGTYDYPKYSEESKLNREKVDGVKLESMGIYQILAIYSTVASSLVLLVSLGAISFWMCSNGSLQCRICI
+
+Fusion peptide: HA2 aa 1-23 GLFGAIAGFIEGGWTG-MI-DGWYG (H1N1, MI vary depending on strain). aa 15 in this sequence varies amongst HA subtypes.
+Disulphide bridge: C21-C480, links HA1 and HA2 (H1N1)
+
+Transmembrane region: aa 529-549 (H1N1)
+
+### Variations
+
+
+Glycosylation Sites: N27/N28, N40, N285, N303, N497 (UniProt)
+
+Palmitolyation Sites: C554, C561, C564 (UniProt)
+
+Phosphorylation Sites: T358 (highly variable residue between HA subtypes).
+
+
+NP: aa 1-498 (H1N1, A/PR/8/34, UniProt)
+
+Flexible tail-loop: aa 402-428
+
+Phosphorylation Sites: S9/Y10, Y78, S165, T188, Y296/S97, S377/T378, S402/S403, S457, T472/S473
+
+
+NA: aa 1-454 (H1N1, A/PR/8/34, UniProt)
+
+Phosphorylation Sites: S160/S164/S166
+
+
+M1: aa 1-252 (H1N1, A/PR/8/34, UniProt)
+
+Phosphorylation Sites: S2/T5, T9/Y10, T37, T108, Y132, T168/T169, S195/S196, S224/S225/S226
+
+
+M2: aa 1-97 (H1N1, A/PR/8/34, UniProt)
+
+Glycosylation Sites: N20 (UniProt)
+
+Palmitolyation Sites: C50 (UniProt)
+
+Phosphorylation Sites: S64/S65 (Hutchinson et al), S82, S93 (UniProt)
+
+
+M3:
+
+
+M4:
+
+
+M42: aa 1-99
+
+
+NS1: aa 1-230 (H1N1, A/PR/8/34, UniProt) - range of 215-237aa
+
+N-terminal RNA-binding domain: aa 1-73 - Mutations R38A and K41A abrogate binding.
+Linker sequence: aa 74-88
+Effector domain: aa 89-202
+C-terminal tail: aa 203-237
+Nuclear export signal: aa 137-146
+Nuclear localisation sequences: aa 35-41 and aa 216-221
+Highly conserved sites: F103 and M106 in seasonal human IAV strains (H1N1, H3N2, H2N2) - 99.6% of strains have these. However, our master strain, A/PR/8/34, is one of select few with S103. 10.1073/pnas.0805213105.
+
+Hydrophobic pocket residues involved in CPSF30 binding: aa K110, I117, I119, Q121, V180, G183, G184, and W187 
+Residues which influence CPSF30 binding: aa 55, 64, 90, 103, 106, 108, 114, 123, 125, 131, 139, 186, 189, 194, 205 - highly strain dependant.
+CPSF30 binding is strain specific and is lacking in A/PR/8/34 and 2009pdm H1N1.
+
+TRIM-25 binding residues: E96/E97 - E96A/E97A abrogate this.
+
+Phosphorylation Sites: T49, Y73, T80, S83
+
+
+NS3: aa 1-194
+
+Mutation responsible for variant: D125G (corresponds to an A374G substitution in nucleotide sequence, GAT -> GGT)
+
+
+
+NEP: aa 1-121 (H1N1, A/PR/8/34, UniProt)
+
+Helices: aa 64-85 (KWREQLGQKFEEIRWLIEEVRH) and 94-115 (FEQITFMQALHLLLEVEQEIRT) (UniProt)
+Nuclear Export Signal: aa 12-21 (ILLRMSKMQL) and 85-94 (HKLKITENSF) (UniProt)
+
+
+NEG8:
+
+
+References:
+
+Bruns K, Studtrucker N, Sharma A, Fossen T, Mitzner D, Eissmann A, Tessmer U, Röder R, Henklein P, Wray V, Schubert U. Structural characterization and oligomerization of PB1-F2, a proapoptotic influenza A virus protein. J Biol Chem. 2007 Jan 5;282(1):353-63. doi: 10.1074/jbc.M606494200.
+
+Gack MU, Albrecht RA, Urano T, et al. Influenza A virus NS1 targets the ubiquitin ligase TRIM25 to evade recognition by the host viral RNA sensor RIG-I. Cell Host Microbe. 2009;5(5):439-449. doi:10.1016/j.chom.2009.04.006.
+
+
+=================
+
+

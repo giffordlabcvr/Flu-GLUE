@@ -1,0 +1,96 @@
+  delete module raxmlPhylogenyGenerator
+  delete module fluPhyloUtility
+  delete module fluFigTreeAnnotationExporter
+  
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/extension/fluPhyloUtility.xml
+  create module -f modules/extension/fluFigTreeAnnotationExporter.xml
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny IDV_SEG1 -a -o trees/idv_seg1.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny IDV_SEG2 -a -o trees/idv_seg2.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny IDV_SEG3 -a -o trees/idv_seg3.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny IDV_SEG4 -a -o trees/idv_seg4.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny IDV_SEG5 -a -o trees/idv_seg5.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny IDV_SEG6 -a -o trees/idv_seg6.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny IDV_SEG7 -a -o trees/idv_seg7.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny IDV_SEG8 -a -o trees/idv_seg8.tre NEWICK_BOOTSTRAPS 
+    exit
+
+
+  module fluPhyloUtility 
+	reroot-phylogeny \
+      --inputFile trees/idv_seg1.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/idv_seg1MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/idv_seg2.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/idv_seg2MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/idv_seg3.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/idv_seg3MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/idv_seg4.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/idv_seg4MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/idv_seg5.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/idv_seg5MidpointRerooted.tree NEWICK_BOOTSTRAPS
+ 
+	reroot-phylogeny \
+      --inputFile trees/idv_seg6.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/idv_seg6MidpointRerooted.tree NEWICK_BOOTSTRAPS
+ 
+	reroot-phylogeny \
+      --inputFile trees/idv_seg7.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/idv_seg7MidpointRerooted.tree NEWICK_BOOTSTRAPS
+ 
+	reroot-phylogeny \
+      --inputFile trees/idv_seg8.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/idv_seg8MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+
+
+  module fluFigTreeAnnotationExporter 
+    export figtree-annotation IDV_SEG1 -f trees/idv_seg1FigtreeAnnotations.tsv
+    export figtree-annotation IDV_SEG2 -f trees/idv_seg2FigtreeAnnotations.tsv
+    export figtree-annotation IDV_SEG3 -f trees/idv_seg3FigtreeAnnotations.tsv
+    export figtree-annotation IDV_SEG1 -f trees/idv_seg4FigtreeAnnotations.tsv
+    export figtree-annotation IDV_SEG2 -f trees/idv_seg5FigtreeAnnotations.tsv
+    export figtree-annotation IDV_SEG3 -f trees/idv_seg6FigtreeAnnotations.tsv
+    export figtree-annotation IDV_SEG2 -f trees/idv_seg7FigtreeAnnotations.tsv
+    export figtree-annotation IDV_SEG3 -f trees/idv_seg8FigtreeAnnotations.tsv
+  exit
+  
+  

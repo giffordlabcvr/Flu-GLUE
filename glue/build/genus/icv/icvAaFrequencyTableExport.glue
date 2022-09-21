@@ -1,0 +1,36 @@
+# For exporting amino-acid frequency tables for ICV proteins
+
+console set cmd-output-file-format tab
+
+console set next-cmd-output-file amino-acid-freq/icv/ICV-variation-PB2.tsv
+alignment AL_ICV_SEG1 amino-acid frequency -c -w "sequence.source.name = 'ncbi-nuccore-icv'" -r REF_S1_ICV_NC_006307 -f PB2 -l 1 775
+
+console set next-cmd-output-file amino-acid-freq/icv/ICV-variation-PB1.tsv
+alignment AL_ICV_SEG2 amino-acid frequency -c -w "sequence.source.name = 'ncbi-nuccore-icv'" -r REF_S2_ICV_NC_006308 -f PB1 -l 1 755
+
+console set next-cmd-output-file amino-acid-freq/icv/ICV-variation-P3.tsv
+alignment AL_ICV_SEG3 amino-acid frequency -c -w "sequence.source.name = 'ncbi-nuccore-icv'" -r REF_S3_ICV_NC_006309 -f P3 -l 1 710
+
+console set next-cmd-output-file amino-acid-freq/icv/ICV-variation-HEF.tsv
+alignment AL_ICV_SEG4 amino-acid frequency -c -w "sequence.source.name = 'ncbi-nuccore-icv'" -r REF_S4_ICV_NC_006310 -f HEF -l 1 656
+
+console set next-cmd-output-file amino-acid-freq/icv/ICV-variation-NP.tsv
+alignment AL_ICV_SEG5 amino-acid frequency -c -w "sequence.source.name = 'ncbi-nuccore-icv'" -r REF_S5_ICV_NC_006311 -f NP -l 1 566
+
+console set next-cmd-output-file amino-acid-freq/icv/ICV-variation-CM1.tsv
+alignment AL_ICV_SEG6 amino-acid frequency -c -w "sequence.source.name = 'ncbi-nuccore-icv'" -r REF_S6_ICV_NC_006312 -f CM1 -l 1 243
+
+console set next-cmd-output-file amino-acid-freq/icv/ICV-variation-CM2.tsv
+alignment AL_ICV_SEG6 amino-acid frequency -c -w "sequence.source.name = 'ncbi-nuccore-icv'" -r REF_S6_ICV_NC_006312 -f CM2 -l 1 116
+
+console set next-cmd-output-file amino-acid-freq/icv/ICV-variation-M1_prime.tsv
+alignment AL_ICV_SEG6 amino-acid frequency -c -w "sequence.source.name = 'ncbi-nuccore-icv'" -r REF_S6_ICV_NC_006312 -f M1_prime -l 1 259
+
+console set next-cmd-output-file amino-acid-freq/icv/ICV-variation-P42.tsv
+alignment AL_ICV_SEG6 amino-acid frequency -c -w "sequence.source.name = 'ncbi-nuccore-icv'" -r REF_S6_ICV_NC_006312 -f P42 -l 1 375
+	
+console set next-cmd-output-file amino-acid-freq/icv/ICV-variation-cdNS1.tsv
+alignment AL_ICV_SEG7 amino-acid frequency -c -w "sequence.source.name = 'ncbi-nuccore-icv'" -r REF_S7_ICV_NC_006306 -f cdNS1 -l 1 247
+
+console set next-cmd-output-file amino-acid-freq/icv/ICV-variation-CNEP.tsv
+alignment AL_ICV_SEG7 amino-acid frequency -c -w "sequence.source.name = 'ncbi-nuccore-icv'" -r REF_S7_ICV_NC_006306 -f CNEP -l 1 183
