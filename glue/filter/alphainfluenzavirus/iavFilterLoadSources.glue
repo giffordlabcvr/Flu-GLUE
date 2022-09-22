@@ -1,6 +1,29 @@
 
   # Import NCBI sources 
-  import source sources/ncbi-refseqs/
-  import source ../../../../Sources/flu/ncbi-iav-nuccore-1970-1990
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-1990-2005  
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2005-2010
+  import source sources/iav-filter-ncbi-refseqs/
+  
+  # 'set 1'
+  #import source sources/ncbi-iav-nuccore-2010-2011
+  #import source sources/ncbi-iav-nuccore-2011-2012
+  #import source sources/ncbi-iav-nuccore-2012-2013
+
+  # 'set 2'
+  #import source sources/ncbi-iav-nuccore-2013-2014
+  #import source sources/ncbi-iav-nuccore-2014-2015
+
+  # 'set 3'
+  import source sources/ncbi-iav-nuccore-2015-2016
+  import source sources/ncbi-iav-nuccore-2016-2017
+
+  # 'set 4'
+  #import source sources/ncbi-iav-nuccore-2017-2018
+  #import source sources/ncbi-iav-nuccore-2018-2019
+
+  # 'set 5'
+  #import source sources/ncbi-iav-nuccore-2019-2020
+
+  # 'set 6'
+  #import source sources/ncbi-iav-nuccore-2020-2021
+
+  # 'set 7'
+  #import source sources/ncbi-iav-nuccore-2021-2022

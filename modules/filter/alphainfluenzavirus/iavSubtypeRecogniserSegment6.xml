@@ -16,6 +16,8 @@
 		
 		<referenceSequence>REF_S6_IAV_N7_KX978763</referenceSequence>
 		<referenceSequence>REF_S6_IAV_N8_KX978990</referenceSequence>
+		<referenceSequence>REF_S6_IAV_N8_CY079173</referenceSequence>
+		
 		<referenceSequence>REF_S6_IAV_N9_CY067680</referenceSequence>
 		<referenceSequence>REF_S6_IAV_N10_CY103894</referenceSequence>
 		
@@ -112,6 +114,14 @@
 				  <referenceSequence>REF_S6_IAV_N8_KX978990</referenceSequence>
 		</recognitionCategory>
 		
+		<recognitionCategory>
+				<id>N8</id>
+				<minimumIdentityPct>75</minimumIdentityPct>
+				  <minimumBitScore>500</minimumBitScore>
+				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
+				  <referenceSequence>REF_S6_IAV_N8_CY079173</referenceSequence>
+		</recognitionCategory>
+
 		<recognitionCategory>
 				<id>N9</id>
 				<minimumIdentityPct>75</minimumIdentityPct>

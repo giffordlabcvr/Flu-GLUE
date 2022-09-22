@@ -45,7 +45,7 @@
 	<gbFeature key="source">
 
 		<gbQualifier name="serotype">
-			<propertyPopulator property="serotype"/>
+			<propertyPopulator property="gb_subtype"/>
 		</gbQualifier>
 	
 		<gbQualifier name="strain">
@@ -56,18 +56,17 @@
 			<propertyPopulator property="strain"/>
 		</gbQualifier>
 		
-		
 		<gbQualifier name="isolation_source">
 			<propertyPopulator property="iso_source"/>
 		</gbQualifier>
+		
 		<gbQualifier name="lab_host">
 			<propertyPopulator property="lab_host"/>
 		</gbQualifier>
-		
-		
+				
 		<gbQualifier name="country">
-			<propertyPopulator property="country"/>
-			<propertyPopulator property="place_sampled">
+			<propertyPopulator property="iso_country"/>
+			<propertyPopulator property="iso_region">
 				<matchPattern>^.*:(.*)$</matchPattern>
 				<outputTemplate>${g1?trim}</outputTemplate>
 			</propertyPopulator>
@@ -1372,15 +1371,15 @@
 
 		
 		<gbQualifier name="collection_date">
-			<propertyPopulator property="collection_month_day">
+			<propertyPopulator property="iso_day">
 				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
-			<propertyPopulator property="collection_month">
+			<propertyPopulator property="iso_month">
 				<matchPattern>\d{2}-([A-Za-z]{3})-\d{4}</matchPattern>
 				<outputTemplate>${g1?upper_case}</outputTemplate>
 			</propertyPopulator>
-			<propertyPopulator property="collection_year">
+			<propertyPopulator property="iso_year">
 				<matchPattern>(\d{4})</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>

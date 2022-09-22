@@ -51,7 +51,7 @@ _.each(allResults, function(resultObj)  {
 	 glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
 	 
 	 	 if (recogniserLineage) {
-		 	glue.command(["set", "field", "rec_lineage", recogniserLineage]);
+		 	glue.command(["set", "field", "rec_subtype", recogniserLineage]);
  	 	 }
  	 
 	 });
