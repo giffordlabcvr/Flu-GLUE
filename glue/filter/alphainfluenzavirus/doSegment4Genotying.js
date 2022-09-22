@@ -3,12 +3,12 @@ var allResults = [];
 
 glue.inMode("module/iavSubtypeRecogniserSegment4", function(){
 
-	 var recogniserResult = glue.command(["recognise","sequence","-w", "recogniser_segment = 4"]);
+	 var recogniserResult = glue.command(["recognise","sequence","-w", "rec_segment = 4"]);
      recogniserResult = recogniserResult["blastSequenceRecogniserResult"];
 	 //glue.log("INFO", "Segment recogniser result was:", recogniserResult);
     
 
-     // Iterate through rows updating recogniser_segment field
+     // Iterate through rows updating rec_segment field
      
      
      var tableRows = recogniserResult["row"];
@@ -51,7 +51,7 @@ _.each(allResults, function(resultObj)  {
 	 glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
 	 
 	 	 if (recogniserLineage) {
-		 	glue.command(["set", "field", "recogniser_lineage", recogniserLineage]);
+		 	glue.command(["set", "field", "rec_lineage", recogniserLineage]);
  	 	 }
  	 
 	 });

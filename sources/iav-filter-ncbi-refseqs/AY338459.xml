@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY338459</GBSeq_locus>
+    <GBSeq_length>1737</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>21-JUL-2017</GBSeq_update-date>
+    <GBSeq_create-date>04-FEB-2004</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/Netherlands/219/2003(H7N7)) segment 4 hemagglutinin (HA) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY338459</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY338459.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY338459.1|</GBSeqid>
+      <GBSeqid>gi|37786136</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza A virus (A/Netherlands/219/2003(H7N7))</GBSeq_source>
+    <GBSeq_organism>Influenza A virus (A/Netherlands/219/2003(H7N7))</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1737</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Fouchier,R.A.</GBAuthor>
+          <GBAuthor>Schneeberger,P.M.</GBAuthor>
+          <GBAuthor>Rozendaal,F.W.</GBAuthor>
+          <GBAuthor>Broekman,J.M.</GBAuthor>
+          <GBAuthor>Kemink,S.A.</GBAuthor>
+          <GBAuthor>Munster,V.</GBAuthor>
+          <GBAuthor>Kuiken,T.</GBAuthor>
+          <GBAuthor>Rimmelzwaan,G.F.</GBAuthor>
+          <GBAuthor>Schutten,M.</GBAuthor>
+          <GBAuthor>Van Doornum,G.J.</GBAuthor>
+          <GBAuthor>Koch,G.</GBAuthor>
+          <GBAuthor>Bosman,A.</GBAuthor>
+          <GBAuthor>Koopmans,M.</GBAuthor>
+          <GBAuthor>Osterhaus,A.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Avian influenza A virus (H7N7) associated with human conjunctivitis and a fatal case of acute respiratory distress syndrome</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 101 (5), 1356-1361 (2004)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1073/pnas.0308352100</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>14745020</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1737</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Fouchier,R.A.M.</GBAuthor>
+          <GBAuthor>Munster,V.</GBAuthor>
+          <GBAuthor>Rimmelzwaan,G.F.</GBAuthor>
+          <GBAuthor>Osterhaus,A.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (10-JUL-2003) Department of Virology, Erasmus MC, Dr. Molewaterplein 50, Rotterdam 3015 GE, The Netherlands</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1737</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Fouchier,R.A.M.</GBAuthor>
+          <GBAuthor>Munster,V.</GBAuthor>
+          <GBAuthor>Rimmelzwaan,G.F.</GBAuthor>
+          <GBAuthor>Osterhaus,A.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-JUL-2017) Department of Virology, Erasmus MC, Dr. Molewaterplein 50, Rotterdam 3015 GE, The Netherlands</GBReference_journal>
+        <GBReference_remark>Amino acid sequence updated by database staff</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1737</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1737</GBInterval_to>
+            <GBInterval_accession>AY338459.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus (A/Netherlands/219/2003(H7N7))</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/Netherlands/219/2003</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H7N7</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:680693</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>4</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>22..1710</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>22</GBInterval_from>
+            <GBInterval_to>1710</GBInterval_to>
+            <GBInterval_accession>AY338459.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>HA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>22..1710</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>22</GBInterval_from>
+            <GBInterval_to>1710</GBInterval_to>
+            <GBInterval_accession>AY338459.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>HA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>receptor binding protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hemagglutinin</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAR02640.2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNTQILVFALVASIPTNADKICLGHHAVSNGTKVNTLTERGVEVVNATETVERTNVPRICSKGKRTVDLGQCGLLGTITGPPQCDQFLEFSADLIIERREGSDVCYPGKFVNEEALRQILRESGGIDKETMGFTYSGIRTNGTTSACRRSGSSFYAEMKWLLSNTDNAAFPQMTKSYKNTRKDPALIIWGIHHSGSTTEQTKLYGSGNKLITVGSSNYQQSFVPSPGARPQVNGQSGRIDFHWLILNPNDTVTFSFNGAFIAPDRASFLRGKSMGIQSEVQVDANCEGDCYHSGGTIISNLPFQNINSRAVGKCPRYVKQESLLLATGMKNVPEIPKRRRRGLFGAIAGFIENGWEGLIDGWYGFRHQNAQGEGTAADYKSTQSAIDQITGKLNRLIEKTNQQFELIDNEFTEVERQIGNVINWTRDSMTEVWSYNAELLVAMENQHTIDLADSEMNKLYERVKRQLRENAEEDGTGCFEIFHKCDDDCMASIRNNTYDHSKYREEAIQNRIQIDPVKLSSGYKDVILWFSFGASCFILLAIAMGLVFICVKNGNMRCTICI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcaaaagcaggggatacaaaatgaacactcaaatcctggtattcgctctggtggcgagcattccgacaaatgcagacaagatctgccttgggcatcatgccgtgtcaaacgggactaaagtaaacacattaactgagagaggagtggaagtcgttaatgcaactgaaacggtggaacgaacaaacgttcccaggatctgctcaaaagggaaaaggacagttgacctcggtcaatgtggacttctgggaacaatcactgggccaccccaatgtgaccaattcctagaattttcggccgacttaattattgagaggcgagaaggaagtgatgtctgttatcctgggaaattcgtgaatgaagaagctctgaggcaaattctcagagagtcaggcggaattgacaaggagacaatgggattcacctacagcggaataagaactaatggaacaaccagtgcatgtaggagatcaggatcttcattctatgcagagatgaaatggctcctgtcaaacacagacaatgctgctttcccgcaaatgactaagtcatacaagaacacaaggaaagacccagctctgataatatgggggatccaccattccggatcaactacagaacagaccaagctatatgggagtggaaacaaactgataacagttgggagttctaattaccaacagtcctttgtaccgagtccaggagcgagaccacaagtgaatggccaatctggaagaattgactttcattggctgatactaaaccctaatgacacggtcactttcagtttcaatggggccttcatagctccagaccgtgcaagctttctgagagggaagtccatgggaattcagagtgaagtacaggttgatgccaattgtgaaggagattgctatcatagtggagggacaataataagtaatttgccctttcagaacataaatagcagggcagtaggaaaatgtccgagatatgttaagcaagagagtctgctgttggcaacaggaatgaagaatgttcccgaaatcccaaagaggaggaggagaggcctatttggtgctatagcgggtttcattgaaaatggatgggaaggtttgattgatgggtggtatggcttcaggcatcaaaatgcacaaggggagggaactgctgcagattacaaaagcacccaatcagcaattgatcaaataacagggaaattaaatcggcttatagaaaaaactaaccaacagtttgagttaatagacaacgaattcactgaggttgaaaggcaaattggcaatgtgataaactggaccagagattccatgacagaagtgtggtcctataacgctgaactcttagtagcaatggagaatcagcacacaattgatctggccgactcagaaatgaacaaactgtacgaacgagtgaagagacaactgagagagaatgccgaagaagatggcactggttgcttcgaaatatttcacaagtgtgatgacgactgcatggccagtattagaaacaacacctatgatcacagcaagtacagggaagaagcaatacaaaatagaatacagattgacccagtcaaactaagcagcggctacaaagatgtgatactttggtttagcttcggggcatcatgtttcatacttctggccattgcaatgggccttgtcttcatatgtgtgaagaatggaaacatgcggtgcactatttgtatataagtttggaaaaacacccttgtttctact</GBSeq_sequence>
+  </GBSeq>

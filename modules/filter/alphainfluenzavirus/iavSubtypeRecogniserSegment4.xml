@@ -9,6 +9,7 @@
 	  <referenceSequence>REF_S4_IAV_H3_AB284320</referenceSequence>
 	  <referenceSequence>REF_S4_IAV_H3_NC_007366</referenceSequence>
 	  <referenceSequence>REF_S4_IAV_H4_CY014630</referenceSequence>
+	  <referenceSequence>REF_S4_IAV_H4_AF285883</referenceSequence>	  
 	  <referenceSequence>REF_S4_IAV_H5_HM006759</referenceSequence>
 	  <referenceSequence>REF_S4_IAV_H5_KR732539</referenceSequence>
 	  <referenceSequence>REF_S4_IAV_H5_CY015115</referenceSequence>
@@ -92,7 +93,15 @@
 	  	<minimumTotalAlignLength>300</minimumTotalAlignLength>
 	  	<referenceSequence>REF_S4_IAV_H4_CY014630</referenceSequence>
 	</recognitionCategory>
-	
+
+	<recognitionCategory>
+		<id>H4</id>
+		<minimumIdentityPct>75</minimumIdentityPct>
+	  	<minimumBitScore>500</minimumBitScore>
+	  	<minimumTotalAlignLength>300</minimumTotalAlignLength>
+	  	<referenceSequence>REF_S4_IAV_H4_AF285883</referenceSequence>
+	</recognitionCategory>
+
 	<recognitionCategory>
 		<id>H5</id>
 		<minimumIdentityPct>75</minimumIdentityPct>

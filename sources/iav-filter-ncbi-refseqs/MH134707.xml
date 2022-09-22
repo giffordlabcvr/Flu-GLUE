@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH134707</GBSeq_locus>
+    <GBSeq_length>1469</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>31-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>31-AUG-2018</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/yellow-billed pintail/Chile/C14831/2016(H12N5)) segment 6 neuraminidase (NA) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MH134707</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH134707.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH134707.1|</GBSeqid>
+      <GBSeqid>gi|1384890048</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA309181</GBSeq_project>
+    <GBSeq_source>Influenza A virus</GBSeq_source>
+    <GBSeq_organism>Influenza A virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1469</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Jimenez-Bluhm,P.</GBAuthor>
+          <GBAuthor>Hamilton,C.</GBAuthor>
+          <GBAuthor>van Bakel,H.</GBAuthor>
+          <GBAuthor>Kriti,D.</GBAuthor>
+          <GBAuthor>Schultz-Cherry,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_consortium>Centers of Excellence for Influenza Research and Surveillance (CEIRS)</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-MAR-2018) St. Jude Center of Excellence for Influenza Research and Surveillance (CEIRS), Memphis, TN 38105, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>This submission was made by the CEIRS Data Processing and Coordinating Center (DPCC) on behalf of the St. Jude Center of Excellence for Influenza Research and Surveillance (CEIRS). This work was supported by National Institute of Allergy and Infectious Diseases, National Institutes of Health, grant HHSN272201400006C.; ; ##Assembly-Data-START## ; Assembly Method :: CLC Genomic Workbench v. 9 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1469</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1469</GBInterval_to>
+            <GBInterval_accession>MH134707.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/yellow-billed pintail/Chile/C14831/2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H12N5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Anas georgica</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11320</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Chile</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>18-Aug-2016</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>21..1442</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>21</GBInterval_from>
+            <GBInterval_to>1442</GBInterval_to>
+            <GBInterval_accession>MH134707.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>21..1442</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>21</GBInterval_from>
+            <GBInterval_to>1442</GBInterval_to>
+            <GBInterval_accession>MH134707.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>neuraminidase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AWF93303.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNPNQKIITIGSVSLALVVLNILLHIASIAIGIVSVTKESSTSSPCNTTEIYNETVRLETITIPINNTVYIERESHQEPEFLNNTEPLCNASGFAIVSKDNGIRIGSRGHVFVIREPFVACGPTECRTFFLTQGALLNDKHSNNTVKDRSPYRALMSVPLGSSPSAYQAKFESVAWSATACHDGKKWMAIGVSGADDDAYAVIHYGGVPTDVVRSWRKQILRTQESSCVCMEGDCYWVMTDGPANNQASYKIFKSHKGMVTNEREVSFQGGHIEECSCYPNLGKVECVCRDNWNGMNRPILIFDEDLNYKVGYLCAGVPTDTPRVQDSSFTGSCTNAVGGSGTNNYGVKGFGFRQGNSVWAGRTVSISSRSGFEVLLIEDGWTKTSKTVIKKVEVLNNKNWSGYSGAFTIPVTMTGKQCLVPCFWLEMIRGKPEERTSIWTSSSSTVFCGVSSEVPGWSWDDGAILPFDIDKM</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcaaaagcaggagtttaaaatgaatccaaatcagaaaataataacaattggttctgtgtcgttggcactagtcgtactcaacatactgctccatattgcgtcaatagcaataggaatagtatcagtgacaaaagaaagcagcacatcatcaccctgcaacaccactgaaatttacaatgaaaccgtaagactggaaaccataacaattcctatcaacaacactgtgtacatagaaagggagtcacatcaagaacctgagtttttgaacaatacagaacctctatgcaatgcatccggatttgcaatagtttccaaggataatggaatcagaatcgggtcaagagggcatgtgtttgtcataagggaaccatttgtggcatgtggcccaacagagtgtaggacatttttcttaactcaaggcgccttgctgaatgataaacactccaacaatacggtgaaagatagaagtccttatcgggcgttgatgagtgtaccattaggatcttcacccagtgcttaccaggccaaatttgaatctgtcgcatggtcggccacagcatgccatgacggcaaaaaatggatggcaataggagtgagtggtgcagatgatgatgcttatgcagtaatccattatgggggggtgccaacagatgtggtgagatcatggagaaagcaaattctaaggacacaggagtcatcatgcgtgtgtatggagggagattgctattgggtaatgacagacggtcctgcaaacaatcaagctagttacaagatcttcaagtctcacaaggggatggtaacaaatgaaagagaagtgtcatttcagggaggtcatattgaagagtgctcctgctaccccaatttgggtaaggtggagtgcgtttgccgagacaattggaatggaatgaataggccaattctgatttttgacgaggacttgaattacaaagtaggttatttatgtgctggagtaccaacagacactccaagggttcaagacagcagcttcactggctcttgcactaatgctgttggagggagtggaaccaacaattatggggtcaagggatttggcttcagacagggtaatagtgtgtgggcaggaaggacagttagcatttcgtcacgtagtggatttgaggttctgttgatagaagatggttggactaaaacaagcaagaccgtcatcaaaaaagtggaggttctcaacaataagaattggtcaggatacagcggagccttcaccattccagtcacaatgactggtaaacagtgcttagttccatgcttctggctggagatgataagaggaaaacctgaagagaggacaagcatttggacctctagtagctccactgtattttgtggtgtctcaagtgaagtcccaggatggtcctgggatgatggagcaattcttccttttgacatcgataagatgtagtctgtaaaaaaactccttgtttctact</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA309181</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

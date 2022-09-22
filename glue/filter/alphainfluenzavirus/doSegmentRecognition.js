@@ -54,7 +54,7 @@ _.each(allResults, function(resultObj)  {
 	 
 		 
 	 	 if (recogniserSeg) {
-		 	glue.command(["set", "field", "recogniser_segment", recogniserSeg]);
+		 	glue.command(["set", "field", "rec_segment", recogniserSeg]);
  	 	 }
 
  	 

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>NC_002018</GBSeq_locus>
+    <GBSeq_length>1413</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/Puerto Rico/8/1934(H1N1)) segment 6, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>NC_002018</GBSeq_primary-accession>
+    <GBSeq_accession-version>NC_002018.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>ref|NC_002018.1|</GBSeqid>
+      <GBSeqid>gnl|NCBI_GENOMES|10228</GBSeqid>
+      <GBSeqid>gi|8486127</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Influenza A virus (A/Puerto Rico/8/1934(H1N1))</GBSeq_source>
+    <GBSeq_organism>Influenza A virus (A/Puerto Rico/8/1934(H1N1))</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>141..233</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Blok,J.</GBAuthor>
+          <GBAuthor>Air,G.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Block deletions in the neuraminidase genes from some influenza A viruses of the N1 subtype</GBReference_title>
+        <GBReference_journal>Virology 118 (1), 229-234 (1982)</GBReference_journal>
+        <GBReference_pubmed>7080440</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1413</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Fields,S.</GBAuthor>
+          <GBAuthor>Winter,G.</GBAuthor>
+          <GBAuthor>Brownlee,G.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Structure of the neuraminidase gene in human influenza virus A/PR/8/34</GBReference_title>
+        <GBReference_journal>Nature 290 (5803), 213-217 (1981)</GBReference_journal>
+        <GBReference_pubmed>7010182</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..206</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Blok,J.</GBAuthor>
+          <GBAuthor>Air,G.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Comparative nucleotide sequences at the 3' end of the neuraminidase gene from eleven influenza type A viruses</GBReference_title>
+        <GBReference_journal>Virology 107 (1), 50-60 (1980)</GBReference_journal>
+        <GBReference_pubmed>7445434</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>4</GBReference_reference>
+        <GBReference_position>1..1413</GBReference_position>
+        <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-JUN-2000) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence is identical to J02146.; [2],[1] sequence determined either by analysis of cloned cdna fragments [2] or by analysis of cdna synthesized with either poly-adenylated vrna template or vrna template and dodecamer primer [1]. assignment of coding region by consideration of open reading frames. [3] compares this na sequence with 11 other influenza strains and finds that the strains collected from 1933-1935 have deletions of 33 to 48bp in their seg 6 vrna 3' ends. the sequence figure for [3] was unclear at the extreme 3' end (bases 228-233). Complete source information:~influenza A/Puerto Rico/8/34 [2]: rna &amp; cdna to rna from human; [1],[3]: cdna to rna grown in chicken embryos, originally from human. [3] specifies A/Puerto Rico/8/34(mt. sinai).; COMPLETENESS: full length.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1413</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1413</GBInterval_to>
+            <GBInterval_accession>NC_002018.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus (A/Puerto Rico/8/1934(H1N1))</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/Puerto Rico/8/1934(H1N1)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:211044</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>6</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>21..1385</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>21</GBInterval_from>
+            <GBInterval_to>1385</GBInterval_to>
+            <GBInterval_accession>NC_002018.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>FLUAVs6gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:956530</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>21..1385</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>21</GBInterval_from>
+            <GBInterval_to>1385</GBInterval_to>
+            <GBInterval_accession>NC_002018.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>FLUAVs6gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>neuraminidase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_040981.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:956530</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNPNQKIITIGSICLVVGLISLILQIGNIISIWISHSIQTGSQNHTGICNQNIITYKNSTWVKDTTSVILTGNSSLCPIRGWAIYSKDNSIRIGSKGDVFVIREPFISCSHLECRTFFLTQGALLNDRHSNGTVKDRSPYRALMSCPVGEAPSPYNSRFESVAWSASACHDGMGWLTIGISGPDNGAVAVLKYNGIITETIKSWRKKILRTQESECACVNGSCFTIMTDGPSDGLASYKIFKIEKGKVTKSIELNAPNSHYEECSCYPDTGKVMCVCRDNWHGSNRPWVSFDQNLDYQIGYICSGVFGDNPRPKDGTGSCGPVYVDGANGVKGFSYRYGNGVWIGRTKSHSSRHGFEMIWDPNGWTETDSKFSVRQDVVAMTDWSGYSGSFVQHPELTGLDCIRPCFWVELIRGRPKEKTIWTSASSISFCGVNSDTVDWSWPDGAELPFTIDK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcgaaagcaggggtttaaaatgaatccaaatcagaaaataataaccattggatcaatctgtctggtagtcggactaattagcctaatattgcaaatagggaatataatctcaatatggattagccattcaattcaaactggaagtcaaaaccatactggaatatgcaaccaaaacatcattacctataaaaatagcacctgggtaaaggacacaacttcagtgatattaaccggcaattcatctctttgtcccatccgtgggtgggctatatacagcaaagacaatagcataagaattggttccaaaggagacgtttttgtcataagagagccctttatttcatgttctcacttggaatgcaggaccttttttctgacccaaggtgccttactgaatgacaggcattcaaatgggactgttaaggacagaagcccttatagggccttaatgagctgccctgtcggtgaagctccgtccccgtacaattcaagatttgaatcggttgcttggtcagcaagtgcatgtcatgatggcatgggctggctaacaatcggaatttcaggtccagataatggagcagtggctgtattaaaatacaacggcataataactgaaaccataaaaagttggaggaagaaaatattgaggacacaagagtctgaatgtgcctgtgtaaatggttcatgttttactataatgactgatggcccgagtgatgggctggcctcgtacaaaattttcaagatcgaaaaggggaaggttactaaatcaatagagttgaatgcacctaattctcactatgaggaatgttcctgttaccctgataccggcaaagtgatgtgtgtgtgcagagacaattggcatggttcgaaccggccatgggtgtctttcgatcaaaacctggattatcaaataggatacatctgcagtggggttttcggtgacaacccgcgtcccaaagatggaacaggcagctgtggtccagtgtatgttgatggagcaaacggagtaaagggattttcatataggtatggtaatggtgtttggataggaaggaccaaaagtcacagttccagacatgggtttgagatgatttgggatcctaatggatggacagagactgatagtaagttctctgtgaggcaagatgttgtggcaatgactgattggtcagggtatagcgggagtttcgttcaacatcctgagctaacagggctagactgtataaggccgtgcttctgggttgaattaatcaggggacgacctaaagaaaaaacaatctggactagtgcgagcagcatttctttttgtggcgtgaatagtgatactgtagattggtcttggccagacggtgctgagttgccattcaccattgacaagtagtctgttcaaaaaactccttgtttctact</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA485481</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

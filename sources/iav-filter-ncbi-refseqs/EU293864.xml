@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EU293864</GBSeq_locus>
+    <GBSeq_length>1718</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-NOV-2008</GBSeq_update-date>
+    <GBSeq_create-date>30-NOV-2008</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/black-headed gull/Turkmenistan/13/76(H16N3)) hemagglutinin (HA) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>EU293864</GBSeq_primary-accession>
+    <GBSeq_accession-version>EU293864.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EU293864.1|</GBSeqid>
+      <GBSeqid>gi|169126450</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza A virus (A/black-headed gull/Turkmenistan/13/76(H16N3))</GBSeq_source>
+    <GBSeq_organism>Influenza A virus (A/black-headed gull/Turkmenistan/13/76(H16N3))</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1718</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Munster,V.J.</GBAuthor>
+          <GBAuthor>Lexmond,P.</GBAuthor>
+          <GBAuthor>Yamnikova,S.S.</GBAuthor>
+          <GBAuthor>Lomakina,N.F.</GBAuthor>
+          <GBAuthor>Osterhaus,A.D.M.E.</GBAuthor>
+          <GBAuthor>Fouchier,R.A.F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Sequence analysis of influenza A virus isolates (subtypes H13 and H16) from gulls</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1718</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Munster,V.J.</GBAuthor>
+          <GBAuthor>Lexmond,P.</GBAuthor>
+          <GBAuthor>Yamnikova,S.S.</GBAuthor>
+          <GBAuthor>Lomakina,N.F.</GBAuthor>
+          <GBAuthor>Osterhaus,A.D.M.E.</GBAuthor>
+          <GBAuthor>Fouchier,R.A.F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-NOV-2007) Virology, Erasmus Medical Center Rotterdam, Dr Molewaterplein 50, Rotterdam, Zuid Holland 3015 GE, The Netherlands</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1718</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1718</GBInterval_to>
+            <GBInterval_accession>EU293864.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus (A/black-headed gull/Turkmenistan/13/76(H16N3))</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/black-headed gull/Turkmenistan/13/76</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H16N3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:505683</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>4</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1704</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1704</GBInterval_to>
+            <GBInterval_accession>EU293864.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>HA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1704</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1704</GBInterval_to>
+            <GBInterval_accession>EU293864.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>HA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>receptor binding protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hemagglutinin</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACA48475.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MMIKVLYFLIIVLGRYSKADKICIGYLSNNSSDTVDTLTENGVPVTSSVDLVETNHTGTYCSLNGISPIHLGDCSFEGWIVGNPSCATNINIREWSYLIEDPNAPNKLCYPGELDNNGELRHLFSGVNSFSRTELINPSKWGNVLDGVTASCLDRGASSFYRNLVWLVKQKIGEYPVVKGEYNNTTGRDVLVLWGIHHPDTETTATNLYVNKNPYTLVSTKEWSKRYELEIGTRIGDGQRSWMKLYWHLMHPGERIMFESNGGLIAPRYGYIIEKYGTGRIFQSGVRMAKCNTKCQTSLGGINTNKTFQNIERNALGDCPKYIKSGQLKLATGLRNVPIPIGERGLFGAIAGFIEGGWPGLINGWYGFQHQNEQGTGIAADKASTQKAINEITTKINNIIEKMNGNYDSIRGEFNQVEKRINMLADRVDDAVTDIWSYNAKLLVLIENDRTLDLHDANVRNLHDQVKRALKSNAIDEGDGCFNLLHKCNDSCMETIRNGTYNHEDYREESQLKRQEIEGIKLKTEDNVYKVLSIYSCIASSIVLVGLILAFIMWACSNGSCRFNVCI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgatgattaaagtgctctactttctcatcatagtgcttggcaggtattcaaaagcagacaaaatatgcataggatacctaagcaataattcttcagatacagtggacacactaacagagaacggagttcctgtgaccagctcagttgatctcgttgaaacaaatcatactggaacatactgctcattgaatggtatcagtccgattcatcttggtgactgcagctttgagggatggattgtaggaaacccctcctgtgccaccaacatcaacatcagagagtggtcatatttaattgaagaccctaatgcccccaacaaactctgctacccaggggagttagacaacaatggagaactacgacacctcttcagcggagtgaactcttttagcagaacagaactgataaatcccagcaaatggggaaatgttctggatggagtcactgcttcttgcctcgatagaggggcaagcagtttttacaggaacttggtctggctagtgaagcaaaaaattggagaatatcctgttgtaaaaggggaatacaacaacacaacgggcagagatgttctagtactttgggggattcaccatccggatacagaaacaacagccacaaacctatatgtcaacaaaaacccctacacactagtatcaacaaaggagtggagcaaacggtatgaacttgaaattggaaccagaataggcgatggacagagaagttggatgaaactatattggcatctcatgcacccgggagaaaggataatgtttgagagtaatgggggccttatagcacccagatatggatacatcattgagaaatacggaacgggacgaattttccaaagtggagtgagaatggccaaatgcaacacaaagtgtcaaacgtcattaggtgggataaacactaacaaaactttccagaacatagaaagaaatgcccttggggactgcccaaagtacataaagtctggacaactgaagcttgcaactggactgagaaatgttcccattcccattggtgaaagaggtctgtttggtgcaattgcaggcttcatagaaggagggtggcctggtctaattaatggatggtatggtttccaacatcagaacgaacaggggacgggcattgctgcggataaagcttccactcagaaagcaataaatgaaataacaacaaagattaacaacataatagagaagatgaacggaaactatgattcgataagaggggaattcaatcaagtagagaagaggattaacatgctcgccgatcgagttgatgatgcagtaactgatatatggtcgtacaatgctaaacttcttgtactaattgaaaatgatagaacgctggacttgcatgacgcaaatgtcagaaacttacatgatcaggtcaagagggcattgaaaagtaatgccattgatgaaggagatggttgcttcaatcttcttcacaaatgcaatgactcatgcatggaaaccattagaaatgggacctacaatcatgaagattacagggaagaatcacaactgaagaggcaggagattgaggggataaaattaaagactgaagacaatgtttataaagtactgtcaatttatagctgcattgcaagcagtattgtgctggtaggtctcatacttgcatttataatgtgggcatgcagcaatgggagttgccggtttaatgtttgtatataatcggaaaaaacacc</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF098538</GBSeq_locus>
+    <GBSeq_length>963</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>16-OCT-1999</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/chicken/chiapis/15224/97) hemagglutinin HA1 gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF098538</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF098538.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF098538.1|</GBSeqid>
+      <GBSeqid>gi|6048746</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza A virus (A/chicken/chiapis/15224/97(H5N1))</GBSeq_source>
+    <GBSeq_organism>Influenza A virus (A/chicken/chiapis/15224/97(H5N1))</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..963</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zhou,N.N.</GBAuthor>
+          <GBAuthor>Shortridge,K.F.</GBAuthor>
+          <GBAuthor>Claas,E.C.</GBAuthor>
+          <GBAuthor>Krauss,S.L.</GBAuthor>
+          <GBAuthor>Webster,R.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Rapid evolution of H5N1 influenza viruses in chickens in Hong Kong</GBReference_title>
+        <GBReference_journal>J. Virol. 73 (4), 3366-3374 (1999)</GBReference_journal>
+        <GBReference_pubmed>10074191</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..963</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zhou,N.N.</GBAuthor>
+          <GBAuthor>Krauss,S.</GBAuthor>
+          <GBAuthor>Webster,R.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-OCT-1998) Virology and Molecular Biology, St. Jude Children's Research Hospital, 332 N. Lauderdale, Memphis, TN 38105, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..963</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>963</GBInterval_to>
+            <GBInterval_accession>AF098538.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus (A/chicken/chiapis/15224/97(H5N1))</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/chicken/chiapis/15224/97</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:100856</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>chromosome</GBQualifier_name>
+            <GBQualifier_value>segment 4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>RT-PCR amplified and cloned from virus grown in embryonated chicken eggs</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;963</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>963</GBInterval_to>
+            <GBInterval_accession>AF098538.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hemagglutinin HA1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAF02301.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>DQICIGYHANNSTKQVDTIMEKNVTVTHAQDILEKEHNGRLCSLKGVKPLILKDCSVAGWLLGNPMCDEFLNVPEWSYIVEKDNPSNGLCYPGNFDDYEELKHLMSSTNHFEKIQIFPRSSWSDHDASSGVSSACPYNGRSSFFRNVVWLIKKNNVYRTIKRNYTNTNVEDLLILWGIHHPNDAAEQIKLYQNPNTYVSVGTSTLNQRSIPKIATRPKVNGQSGRMEFFWTILRPNDSIFFESTGNFIAPEYAYKIIKKGNSAVMKSELDYGNCNAKCQTPVGAINSSLPFHNVHPFTIGECPRYVKSKKLVLATGLRNVP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaccaaatctgcattggttatcatgcaaacaattcaacaaaacaagttgacacaatcatggaaaagaatgtgacggtcacacatgctcaggacatactagaaaaagaacacaatggaagactctgcagtcttaaaggagtgaagcccctcattctgaaggattgcagtgtagctgggtggcttcttggaaatccaatgtgtgatgaattcctgaatgtgccggaatggtcatacattgtggaaaaagacaacccatccaatggcctgtgttatcctggaaacttcgacgattatgaagaactgaagcatttaatgagcagcacaaatcactttgagaaaattcagatatttcctaggagctcttggtccgaccatgatgcctcatcaggagtgagctcagcatgcccatacaatggtaggtcttcctttttcaggaatgtagtgtggttgatcaagaagaataatgtgtaccggacaataaagaggaattacaccaacaccaatgtagaagaccttttaatactatggggaattcatcaccctaatgatgcagctgaacagataaaactctaccagaacccgaacacttacgtgtcagtgggaacatcaacactgaaccagaggtcaatcccaaaaatagccaccagacccaaggtgaacggacagagtggaaggatggaatttttttggacaatattaaggccgaacgattcaatcttctttgagagtactgggaactttatagctcccgaatatgcatacaagattattaaaaaagggaactcagcagtcatgaaaagtgaactggattatggtaactgtaatgccaaatgtcagaccccagtgggtgctataaattccagtctgcccttccacaatgtccatccctttaccattggggagtgccccaggtatgtcaaatcgaagaaactggtccttgcaacagggctaagaaacgtaccc</GBSeq_sequence>
+  </GBSeq>

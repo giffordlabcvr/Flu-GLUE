@@ -1,0 +1,39 @@
+
+  table sequence
+  
+    # GenBank entry details
+    create field gb_primary_accession VARCHAR
+    create field gb_accession_version VARCHAR
+    create field gb_create_date DATE
+    create field gb_update_date DATE
+    create field name VARCHAR 100  
+    create field full_name VARCHAR 200
+    create field length INTEGER
+    
+    # Study link (if any)
+    create field pubmed_id VARCHAR 50
+
+    # Isolate details
+    create field lab_construct BOOLEAN
+    create field iso_host VARCHAR 100
+    create field iso_source VARCHAR 200
+    create field collection_year INTEGER 
+    create field sample_date DATE
+    create field collection_month VARCHAR
+    create field collection_month_day INTEGER         
+    create field country VARCHAR 200
+    create field place_sampled VARCHAR 200
+    create field gb_segment INTEGER
+    create field rec_segment VARCHAR
+    create field rec_lineage VARCHAR
+    create field strain VARCHAR 200
+    create field serotype VARCHAR 200
+    create field lab_host VARCHAR 300
+    
+  exit
+
+  table alignment
+    create field clade_category VARCHAR 20
+    create field phylogeny CLOB
+  exit 
+

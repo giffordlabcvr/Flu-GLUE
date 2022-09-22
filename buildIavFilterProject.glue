@@ -4,16 +4,16 @@ create project alphainfluenza_filter "GLUE project for filtering alphainfluenzav
 
 schema-project alphainfluenza_filter
 
-  run file glue/fluSchemaExtensions.glue
+  run file glue/filter/alphainfluenzavirus/iavFilterSchemaExtensions.glue
   exit
 
 project alphainfluenza_filter
 
   # Create extension modules  
-  run file glue/fluModules.glue
+  run file glue/filter/alphainfluenzavirus/iavFilterModules.glue
 
   # Import sources 
-  run file glue/loadSources.glue
+  run file glue/filter/alphainfluenzavirus/iavFilterLoadSources.glue
 
   # Import data from GenBank XML
   module genbankXmlPopulator populate
@@ -21,15 +21,15 @@ project alphainfluenza_filter
   # Import tabular data (e.g. corrections to GenBank)
 
   # Define references
-  run file glue/iavReferences.glue
+  run file glue/filter/alphainfluenzavirus/iavFilterReferences.glue
 
   # Run segment recogniser
-  run script glue/doSegmentRecognition.js
+  run script glue/filter/alphainfluenzavirus/doSegmentRecognition.js
     
   # Run genotyping procedures
-  run script glue/doSegment4Genotying.js
-  run script glue/doSegment6Genotying.js
-  run script glue/doSegment8Genotying.js
+  run script glue/filter/alphainfluenzavirus/doSegment4Genotying.js
+  run script glue/filter/alphainfluenzavirus/doSegment6Genotying.js
+  run script glue/filter/alphainfluenzavirus/doSegment8Genotying.js
 
     
   # Validate
