@@ -1,6 +1,6 @@
 
   # Import NCBI sources 
-  import source ../../../../Sources/flu/iav-filter-ncbi-refseqs/
+  import source sources/iav-filter-ncbi-refseqs/
 
   # 'set 0'
   import source ../../../../Sources/flu/ncbi-iav-nuccore-1970-1990
@@ -17,8 +17,8 @@
   #import source ../../../../Sources/flu/ncbi-iav-nuccore-2014-2015
 
   # 'set 3'
-  import source ../../../../Sources/flu/ncbi-iav-nuccore-2015-2016
-  import source ../../../../Sources/flu/ncbi-iav-nuccore-2016-2017
+  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2015-2016
+  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2016-2017
 
   # 'set 4'
   #import source ../../../../Sources/flu/ncbi-iav-nuccore-2017-2018
