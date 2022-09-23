@@ -840,7 +840,7 @@
                 <!-- #### Procellariiformes (seabirds - albatrosses, shearwaters, petrels) -->
 
                  <valueConverter>
-                    <matchPattern>.*[sS]outhern [gG]iant] [pP]etrel.*</matchPattern>
+                    <matchPattern>.*[pP]etrel.*</matchPattern>
                     <outputTemplate>Macronectes giganteus</outputTemplate>
                 </valueConverter>              
 
@@ -855,7 +855,6 @@
                 <valueConverter>
                     <matchPattern>.*PIGEON.*</matchPattern>
                     <matchPattern>.*[pP]iegon.*</matchPattern>
-                    <matchPattern>.*[pP]igeon.*</matchPattern>
                     <outputTemplate>Columba livia</outputTemplate>
                 </valueConverter>
 
@@ -985,8 +984,13 @@
                     <outputTemplate>Podoces sp.</outputTemplate>
                 </valueConverter>                                                
                 
+                 <valueConverter>
+                    <matchPattern>.*Sturnira lilium; gender M.*</matchPattern>
+                    <outputTemplate>Sturnira lilium</outputTemplate>
+                </valueConverter>                
+
                 <valueConverter>
-                    <matchPattern>.*[Mm]agpie [rR]obin.*</matchPattern>
+                    <matchPattern>.*[Mm]agpie robin.*</matchPattern>
                     <outputTemplate>Copsychus saularis</outputTemplate>
                 </valueConverter>
 
@@ -1216,7 +1220,6 @@
 					<matchPattern>.*Sus [sS]crofa*</matchPattern>
 					<matchPattern>.*[Pp]orcine.*</matchPattern>
 					<matchPattern>.*[Ww]ild boar.*</matchPattern>
-					<matchPattern>.*[Pp]ig:.*</matchPattern>
 					<outputTemplate>Sus scrofa</outputTemplate>
 				</valueConverter>
 
@@ -1296,12 +1299,6 @@
                     <matchPattern>.*Artibeus planirostris.*</matchPattern>
                     <outputTemplate>Artibeus planirostris</outputTemplate>
                 </valueConverter>
-
-                 <valueConverter>
-                    <matchPattern>.*[lL]ittle [yY]ellow-[sS]houldered [bB]at.*</matchPattern>
-                    <matchPattern>.*[lL]ittle [yY]ellow [sS]houldered [bB]at.*</matchPattern>
-                    <outputTemplate>Sturnira lilium</outputTemplate>
-                </valueConverter>                
 				
 				<!-- #### Canines -->			
  				<valueConverter>

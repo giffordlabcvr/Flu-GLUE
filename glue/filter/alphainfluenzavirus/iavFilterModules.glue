@@ -1,6 +1,6 @@
-  create module -f modules/filter/alphainfluenzavirus/iavGenbankXmlPopulator.xml genbankXmlPopulator
-  create module -f modules/filter/alphainfluenzavirus/fluTabularUtility.xml 
-  create module -f modules/filter/alphainfluenzavirus/iavSegmentRecogniser.xml
-  create module -f modules/filter/alphainfluenzavirus/iavSubtypeRecogniserSegment4.xml
-  create module -f modules/filter/alphainfluenzavirus/iavSubtypeRecogniserSegment6.xml
-  create module -f modules/filter/alphainfluenzavirus/iavSubtypeRecogniserSegment8.xml
+  create module -f filter/alphainfluenzavirus/modules/iavGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f filter/alphainfluenzavirus/modules/fluTabularUtility.xml 
+  create module -f filter/alphainfluenzavirus/modules/iavSegmentRecogniser.xml
+  create module -f filter/alphainfluenzavirus/modules/iavSubtypeRecogniserSegment4.xml
+  create module -f filter/alphainfluenzavirus/modules/iavSubtypeRecogniserSegment6.xml
+  create module -f filter/alphainfluenzavirus/modules/iavSubtypeRecogniserSegment8.xml
