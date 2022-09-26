@@ -8,7 +8,7 @@ glue.inMode("module/ibvSegmentRecogniser", function(){
 	 //glue.log("INFO", "Segment recogniser result was:", recogniserResult);
     
 
-     // Iterate through rows updating recogniser_segment field
+     // Iterate through rows updating rec_segment field
      
      
      var tableRows = recogniserResult["row"];
@@ -53,7 +53,7 @@ _.each(allResults, function(resultObj)  {
 	 glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
 	 
 	 	 if (recogniserSeg) {
-		 	glue.command(["set", "field", "recogniser_segment", recogniserSeg]);
+		 	glue.command(["set", "field", "rec_segment", recogniserSeg]);
  	 	 }
  	 
 	 });

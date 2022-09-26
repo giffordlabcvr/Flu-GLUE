@@ -27,7 +27,7 @@ project betainfluenza_filter
   run script glue/filter/betainfluenzavirus/doSegmentRecognition.js
     
   # Run genotyping procedure  
-  run script glue/filter/betainfluenzavirus/doGenotying.js
+  run script glue/filter/betainfluenzavirus/doSegment4Genotying.js
     
   # Validate
   validate
