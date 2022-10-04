@@ -2,7 +2,7 @@
 delete module icvNcbiImporter
 
 # Create importer modules
-create module -f modules/genus/icv/icvNcbiImporter.xml
+create module -f modules/build/genus/icv/icvNcbiImporter.xml
 
 # Run import
 module icvNcbiImporter import

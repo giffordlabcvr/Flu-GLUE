@@ -1,6 +1,6 @@
-  create module -f modules/core/fluGenbankXmlPopulator.xml genbankXmlPopulator
-  create module -f modules/core/fluTabularUtility.xml 
-  create module -f modules/core/blastFastaAlignmentImporter.xml blastFastaAlignmentImporter
-  create module -f modules/core/rootAlignmentImporter.xml 
-  create module -f modules/core/unconstrainedAlignmentImporter.xml 
+  create module -f modules/build/core/fluGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/build/core/fluTabularUtility.xml 
+  create module -f modules/build/core/blastFastaAlignmentImporter.xml blastFastaAlignmentImporter
+  create module -f modules/build/core/rootAlignmentImporter.xml 
+  create module -f modules/build/core/unconstrainedAlignmentImporter.xml 
 
