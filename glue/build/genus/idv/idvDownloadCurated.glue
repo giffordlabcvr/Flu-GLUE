@@ -2,7 +2,7 @@
 delete module idvNcbiImporter
 
 # Create importer modules
-create module -f modules/genus/idv/idvNcbiImporter.xml
+create module -f modules/build/genus/idv/idvNcbiImporter.xml
 
 # Run import
 module idvNcbiImporter import

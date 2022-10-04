@@ -6,9 +6,9 @@ multi-delete alignment -w "name like 'IDV_SEG%'"
 alignment AL_ROOT_SEG_1-2_All_PB2
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-idv' and gb_segment = 1"
+  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 1"
   extract child AL_IDV_SEG1   --refName REF_S1_IDV_NC_036616 
-  demote member AL_IDV_SEG1   --whereClause "sequence.source.name = 'ncbi-nuccore-idv'" 
+  demote member AL_IDV_SEG1   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
   
   exit
 
@@ -17,9 +17,9 @@ alignment AL_ROOT_SEG_1-2_All_PB2
 alignment AL_ROOT_SEG_2-1_All_PB1
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-idv' and gb_segment = 2"
+  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 2"
   extract child AL_IDV_SEG2   --refName REF_S2_IDV_NC_036615
-  demote member AL_IDV_SEG2   --whereClause "sequence.source.name = 'ncbi-nuccore-idv'" 
+  demote member AL_IDV_SEG2   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
   
   exit
 
@@ -28,9 +28,9 @@ alignment AL_ROOT_SEG_2-1_All_PB1
 alignment AL_ROOT_SEG_3_All_PA
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-idv' and gb_segment = 3"
+  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 3"
   extract child AL_IDV_SEG3   --refName REF_S3_IDV_NC_036619
-  demote member AL_IDV_SEG3   --whereClause "sequence.source.name = 'ncbi-nuccore-idv'" 
+  demote member AL_IDV_SEG3   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
 
   exit
 
@@ -38,9 +38,9 @@ alignment AL_ROOT_SEG_3_All_PA
 alignment AL_ROOT_SEG_4_CD_HEF
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-idv' and gb_segment = 4"
+  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 4"
   extract child AL_IDV_SEG4   --refName REF_S4_IDV_NC_036618
-  demote member AL_IDV_SEG4   --whereClause "sequence.source.name = 'ncbi-nuccore-idv'" 
+  demote member AL_IDV_SEG4   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
 
   exit
 
@@ -49,9 +49,9 @@ alignment AL_ROOT_SEG_4_CD_HEF
 alignment AL_ROOT_SEG_5_All_NP
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-idv' and gb_segment = 5"
+  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 5"
   extract child AL_IDV_SEG5   --refName REF_S5_IDV_NC_036617
-  demote member AL_IDV_SEG5   --whereClause "sequence.source.name = 'ncbi-nuccore-idv'" 
+  demote member AL_IDV_SEG5   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
   exit
 
 
@@ -59,9 +59,9 @@ alignment AL_ROOT_SEG_5_All_NP
 alignment AL_ROOT_SEG_6_CD_M
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-idv' and gb_segment = 6"
+  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 6"
   extract child AL_IDV_SEG6   --refName REF_S6_IDV_NC_036620
-  demote member AL_IDV_SEG6   --whereClause "sequence.source.name = 'ncbi-nuccore-idv'" 
+  demote member AL_IDV_SEG6   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
   
   exit
 
@@ -69,9 +69,9 @@ alignment AL_ROOT_SEG_6_CD_M
 alignment AL_ROOT_SEG_7_CD_NS
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-idv' and gb_segment = 7"
+  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 7"
   extract child AL_IDV_SEG7   --refName REF_S7_IDV_NC_036621
-  demote member AL_IDV_SEG7   --whereClause "sequence.source.name = 'ncbi-nuccore-idv'" 
+  demote member AL_IDV_SEG7   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
 
   exit
 
