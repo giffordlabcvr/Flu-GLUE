@@ -1,4 +1,7 @@
 
+  # GenBank populator  
+  create module -f modules/build/genus/idv/idvGenbankXmlPopulator.xml 
+
   # IDV aligners  
   create module -f modules/build/genus/idv/idvCompoundAlignerS1.xml 
   create module -f modules/build/genus/idv/idvCompoundAlignerS2.xml 
