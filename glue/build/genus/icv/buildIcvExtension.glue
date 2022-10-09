@@ -10,10 +10,12 @@ project flu
   run script glue/build/genus/icv/icvLoadIsolateData.js
 
   # Import data from GenBank XML
+  delete module 
+  create module -f icvNcbiImporter
   module genbankXmlPopulator populate
 
   # Define constrained alignment tree for extension project
-  run file glue/build/genus/icv/icvAlignmentTree.glue
+  run file glue/build/genus/icv/icvGenbankXmlPopulator.glue
    
   # Validate
   validate
