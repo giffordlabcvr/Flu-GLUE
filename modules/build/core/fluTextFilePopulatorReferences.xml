@@ -27,14 +27,14 @@
 	</textFileColumn>
 		
 	<textFileColumn>
-		<header>host_group</header>
-		<property>isolate_data.host_group</property>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
-	</textFileColumn>
-	
-	<textFileColumn>
 		<header>segment</header>
 		<property>gb_segment</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+		
+	<textFileColumn>
+		<header>segment</header>
+		<property>rec_segment</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
 	</textFileColumn>
 	

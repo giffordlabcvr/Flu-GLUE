@@ -49,12 +49,10 @@
     create field isolate VARCHAR 200
     create field sample_date DATE
     create field place_sampled VARCHAR 100
-    create field country_iso VARCHAR
     create field country VARCHAR 200
     create field collection_year INTEGER 
     create field collection_month VARCHAR
     create field collection_month_day INTEGER
-    create field host_group VARCHAR 100
     create field host_sci_name VARCHAR 100
   exit
 
