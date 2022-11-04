@@ -3,7 +3,8 @@
 
 # ALPHAINFLUENZAVIRUS
 
-reference REF_S1_IAV_MASTER_NC_002023 
+reference REF_S1_IAV_MASTER_NC_002023
+
   add feature-location S1_whole_genome
   feature-location S1_whole_genome add segment 1 2341
   add feature-location S1_5UTR
@@ -21,7 +22,8 @@ reference REF_S1_IAV_MASTER_NC_002023
   feature-location S1_3UTR add segment 2308 2341
   exit
 
-reference REF_S2_IAV_MASTER_NC_002021 
+reference REF_S2_IAV_MASTER_NC_002021
+
   add feature-location S2_whole_genome
   feature-location S2_whole_genome add segment 1 2341
   add feature-location S2_5UTR
@@ -38,8 +40,8 @@ reference REF_S2_IAV_MASTER_NC_002021
   feature-location S2_3UTR add segment 2299 2341
   exit
 
-reference REF_S3_IAV_MASTER_NC_002022 
-  add feature-location S3_whole_genome
+reference REF_S3_IAV_MASTER_NC_002022
+
   feature-location S3_whole_genome add segment 1 2233
   add feature-location S3_5UTR
   feature-location S3_5UTR add segment 1 24
@@ -60,7 +62,8 @@ reference REF_S3_IAV_MASTER_NC_002022
   feature-location S3_3UTR add segment 2176 2233
   exit
   
-reference REF_S4_IAV_MASTER_NC_002017 
+reference REF_S4_IAV_MASTER_NC_002017
+
   add feature-location S4_whole_genome
   feature-location S4_whole_genome add segment 1 1778
   add feature-location S4_5UTR
@@ -73,7 +76,8 @@ reference REF_S4_IAV_MASTER_NC_002017
   feature-location S4_3UTR add segment 1734 1778
   exit
 
-reference REF_S5_IAV_MASTER_NC_002019 
+reference REF_S5_IAV_MASTER_NC_002019
+
   add feature-location S5_whole_genome
   feature-location S5_whole_genome add segment 1 1565
   add feature-location S5_5UTR
@@ -86,7 +90,8 @@ reference REF_S5_IAV_MASTER_NC_002019
   feature-location S5_3UTR add segment 1543 1565
   exit
 
-reference REF_S6_IAV_MASTER_NC_002018 
+reference REF_S6_IAV_MASTER_NC_002018
+
   add feature-location S6_whole_genome
   feature-location S6_whole_genome add segment 1 1413
   add feature-location S6_5UTR
@@ -99,7 +104,8 @@ reference REF_S6_IAV_MASTER_NC_002018
   feature-location S6_3UTR add segment 1386 1413
   exit
 
-reference REF_S7_IAV_MASTER_NC_002016 
+reference REF_S7_IAV_MASTER_NC_002016
+
   add feature-location S7_whole_genome
   feature-location S7_whole_genome add segment 1 1027
   add feature-location S7_5UTR
@@ -125,6 +131,7 @@ reference REF_S7_IAV_MASTER_NC_002016
   exit
 
 reference REF_S8_IAV_MASTER_NC_002020 
+
   add feature-location S8_whole_genome
   feature-location S8_whole_genome add segment 1 890
   add feature-location S8_5UTR

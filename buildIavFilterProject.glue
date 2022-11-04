@@ -24,12 +24,12 @@ project alphainfluenza_filter
   run file glue/filter/alphainfluenzavirus/iavFilterReferences.glue
 
   # Run segment recogniser
-  run script glue/filter/alphainfluenzavirus/doSegmentRecognition.js
+  #run script glue/filter/alphainfluenzavirus/doSegmentRecognition.js
     
   # Run genotyping procedures
-  run script glue/filter/alphainfluenzavirus/doSegment4Genotying.js
-  run script glue/filter/alphainfluenzavirus/doSegment6Genotying.js
-  run script glue/filter/alphainfluenzavirus/doSegment8Genotying.js
+  #run script glue/filter/alphainfluenzavirus/doSegment4Genotying.js
+  #run script glue/filter/alphainfluenzavirus/doSegment6Genotying.js
+  #run script glue/filter/alphainfluenzavirus/doSegment8Genotying.js
 
     
   # Validate
