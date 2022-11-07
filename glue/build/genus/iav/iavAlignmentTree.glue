@@ -38,9 +38,9 @@ alignment AL_ROOT_SEG_3_All_PA
 alignment AL_ROOT_SEG_4_AB_HA
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-iav' and gb_segment = 4"
+  add member -w "source.name = 'iav-ncbi-refseqs-seg4' and gb_segment = 4"
   extract child AL_IAV_SEG4   --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4   --whereClause "sequence.source.name = 'ncbi-nuccore-iav'" 
+  demote member AL_IAV_SEG4   -a 
 
   exit
 

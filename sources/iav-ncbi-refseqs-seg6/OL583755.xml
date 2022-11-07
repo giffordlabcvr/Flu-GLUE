@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OL583755</GBSeq_locus>
+    <GBSeq_length>1410</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-NOV-2021</GBSeq_update-date>
+    <GBSeq_create-date>24-NOV-2021</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/mallard/New Hampshire/AH0190828/2021(H5N3)) segment 6 neuraminidase (NA) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>OL583755</GBSeq_primary-accession>
+    <GBSeq_accession-version>OL583755.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OL583755.1|</GBSeqid>
+      <GBSeqid>gi|2152694097</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza A virus</GBSeq_source>
+    <GBSeq_organism>Influenza A virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1410</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>USDA Wildlife Services,a.</GBAuthor>
+          <GBAuthor>USDA National Veterinary Services Laboratories,a.</GBAuthor>
+          <GBAuthor>Pennsylvania Veterinary Laboratory,a.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>2021-2022 Avian Influenza Surveillance in Waterfowl in the United States</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1410</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Franzen,K.M.</GBAuthor>
+          <GBAuthor>Love,E.R.</GBAuthor>
+          <GBAuthor>Chinh,T.T.</GBAuthor>
+          <GBAuthor>Killian,M.L.</GBAuthor>
+          <GBAuthor>Koster,L.G.</GBAuthor>
+          <GBAuthor>Bevins,S.N.</GBAuthor>
+          <GBAuthor>Linder,T.J.</GBAuthor>
+          <GBAuthor>Lenoch,J.B.</GBAuthor>
+          <GBAuthor>Dilione,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-NOV-2021) Diagnostic Virology Laboratory, National Veterinary Services Laboratories, 1920 Dayton Avenue, Ames, IA 50010, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: IRMA v. 0.6.7; SeqMan NGen v. 14 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1410</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1410</GBInterval_to>
+            <GBInterval_accession>OL583755.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/mallard/New Hampshire/AH0190828/2021</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H5N3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>AH0190828</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>oropharyngeal/cloacal swab pool from individual bird</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>mallard; live bird surveillance</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11320</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA: Merrimack County, New Hampshire</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>08-Sep-2021</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>NVSL accession 21-027093-007; original swab</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1410</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1410</GBInterval_to>
+            <GBInterval_accession>OL583755.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1410</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1410</GBInterval_to>
+            <GBInterval_accession>OL583755.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>neuraminidase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>UFE16479.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNPNQKIITIGVVNTTLSTIALLIGVGNLIFNTVIHEKIGDHQTVTHPTITIPAIPNCSDTIITYNNTVINNITTTIITEVERPFKSPLPLCPFRGFFPFHKDNAIRLGENKDVIVTREPYISCDNDNCWSFALAQGALLGTKHSNGTIKDRTPYRSLIRFPIGTAPVLGNYKEICIAWSSSSCFDGKEWMHVCMTGNDNDASAQIIYAGKMTDSIKSWRKDILRTQESECQCIDGTCVVAVTDGPAANSADHRVYWIREGKIIKYEDVPKTKIQHLEECSCYVDIDVYCICRDNWKGSNRPWMRINNETILETGYVCSKFHSDTPRPADPSTMSCDSPSNVNGGPGVKGFGFKAGNDVWLGRTVSTSGRSGFEVIKVTEGWINSPNHAKSVTQTLVSNNDWSGYSGSFIVKTKDCFQPCFYVELIRGRPNKNDDVSWTSNSIVTFCGLDNEPGSGNWPDGSNIGFMPK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgaatccaaatcagaagataataacaatcggggtagtgaataccactctgtcaacaatagcccttctcattggagtgggaaacctaatcttcaacacagtcatacatgagaaaataggagatcaccaaacagttacccatccaacaataacgatccctgcgataccgaactgcagtgacactataataacatacaataacactgtgataaacaacataacaacaacgataataactgaagtagaaaggccttttaaatctccactaccactgtgccccttcagaggattcttcccttttcacaaggacaatgcaatacgactgggtgagaacaaagacgtcatagtcacaagggagccctacatcagctgtgataatgacaactgctggtcttttgctctcgcacaaggagcattgctaggaactaaacatagcaatggaaccattaaggacagaacaccatataggtctctaattcgctttccgataggaacagctccagtactaggaaattacaaggagatatgcattgcttggtcgagcagcagttgctttgacggaaaagagtggatgcatgtgtgcatgacaggaaatgataatgatgcaagtgctcagataatatatgcagggaaaatgacagactccatcaaatcatggagaaaggacatactaagaactcaggagtctgaatgccaatgcattgacgggacttgtgttgttgctgtcacagatggccctgctgctaatagcgcagaccacagggtttattggataagggaggggaagataataaagtacgaagatgttcccaaaacaaagatacaacacttagaagaatgttcttgctatgtagacattgatgtttactgtatatgtagggacaattggaagggttctaacagaccttggatgagaatcaacaacgaaactatactggaaacaggatacgtgtgcagtaaatttcactcagacactcccaggccagccgacccttcaacaatgtcatgtgactccccaagcaatgtcaatggaggaccaggagtgaagggatttggtttcaaagccggcaatgatgtgtggttaggtagaacagtgtcaaccagtggtagatcgggctttgaagtcatcaaagttacagaggggtggatcaactctcccaaccatgccaaatcagttacacagacactggtatccaacaatgactggtcgggctattcgggtagtttcattgtcaaaaccaaggactgttttcagccctgcttctatgttgagctcatacgagggaggcccaacaagaatgacgatgtttcttggacaagcaatagtatagttactttctgtgggctagacaatgaacctggatcgggaaattggccggatggatctaacattgggtttatgcccaagtaa</GBSeq_sequence>
+  </GBSeq>

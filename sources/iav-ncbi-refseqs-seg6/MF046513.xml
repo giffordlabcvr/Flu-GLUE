@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MF046513</GBSeq_locus>
+    <GBSeq_length>1413</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>27-NOV-2017</GBSeq_update-date>
+    <GBSeq_create-date>11-JUL-2017</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/ruddy turnstone/Delaware Bay/368/2016(H10N4)) segment 6 neuraminidase (NA) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MF046513</GBSeq_primary-accession>
+    <GBSeq_accession-version>MF046513.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MF046513.2|</GBSeqid>
+      <GBSeqid>gi|1280052447</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA297868</GBSeq_project>
+    <GBSeq_source>Influenza A virus (A/ruddy turnstone/Delaware Bay/368/2016(H10N4))</GBSeq_source>
+    <GBSeq_organism>Influenza A virus (A/ruddy turnstone/Delaware Bay/368/2016(H10N4))</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1413</GBReference_position>
+        <GBReference_consortium>Centers of Excellence for Influenza Research and Surveillance (CEIRS)</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-MAY-2017) St. Jude Center of Excellence for Influenza Research and Surveillance (CEIRS), Memphis, TN 38105, USA</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1413</GBReference_position>
+        <GBReference_consortium>Centers of Excellence for Influenza Research and Surveillance (CEIRS)</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-NOV-2017) St. Jude Center of Excellence for Influenza Research and Surveillance (CEIRS), Memphis, TN 38105, USA</GBReference_journal>
+        <GBReference_remark>Sequence update by submitter</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Nov 27, 2017 this sequence version replaced MF046513.1.; This submission was made by the CEIRS Data Processing and Coordinating Center (DPCC) on behalf of the St. Jude Center of Excellence for Influenza Research and Surveillance (CEIRS). This work was supported by National Institute of Allergy and Infectious Diseases, National Institutes of Health, grant HHSN272201400006C.; ##Assembly-Data-START## ; Assembly Method :: IRMA v.0.6.7 ; Sequencing Technology :: IonTorrent ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1413</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1413</GBInterval_to>
+            <GBInterval_accession>MF046513.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus (A/ruddy turnstone/Delaware Bay/368/2016(H10N4))</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/ruddy turnstone/Delaware Bay/368/2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H10N4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Arenaria interpres</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1985814</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>24-May-2016</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1413</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1413</GBInterval_to>
+            <GBInterval_accession>MF046513.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1413</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1413</GBInterval_to>
+            <GBInterval_accession>MF046513.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>neuraminidase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ASJ82031.2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNPNQKIITIGSVSIILTTVGLLLQITSLCSIWFSHYNQVAQTHEQPCSNNTTNYYNETFVNVTNVQNNYTTIAEPSAPDVVHYSSGRDLCPIRGWAPLSKDNGIRIGSRGEVFVIREPFISCSISECRTFFLTQGALLNDKHSNGTVKDRSPFRTLMSCPIGVAPSPSNSRFESVAWSATACSDGPGWLTLGITGPDSTAVAVLKYNGIITDTLKSWKGNIMRTQESECVCQDEFCYTLVTDGPSDAQAFYKILKIRKGKIVSMKDVDATGFHFEECSCYPSGTEIECVCRDNWRGSNRPWIRFNSDLDYQIGYVCSGIFGDNPRPVDGTGSCNGPVNNGKGRYGVKGFSFRYGDGVWIGRTKSLESRSGFEMVWDANGWVSTDKDSNGVQDIIDNDNWSGYSGSFSIRGETTGKNCTVPCFWVEMIRGQPKEKTIWTSGSSIAFCGVNSDTTGWSWPDGALLPFDIDK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgaatccaaatcagaaaatcataaccataggcagtgttagtattatattaacgacagtgggtcttcttctccaaataacaagtttatgctcaatatggttcagccattacaaccaggtggcacagacacacgaacaaccttgttctaacaacacgacgaattactacaatgagacttttgttaatgttaccaatgtgcagaacaattataccacgatagctgagccctcagcccctgacgtagttcactactctagtggaagagatttgtgtccaataagaggatgggcaccactgagcaaggacaatggaattaggattggatcccgaggcgaagtatttgtcatacgggagcccttcatatcatgttccatcagtgaatgcagaacctttttcttaacccagggagcccttctcaatgacaaacactcaaatggaacagtgaaagataggagtcccttccgcacattgatgagttgtcccataggagtagccccttctcctagtaatagccgctttgaatctgtggcatggtctgctactgcatgtagcgacggacccggttggctaacattaggaatcactggcccagattctactgctgtagcagtattgaaatataatggtataataacagacacattgaaaagctggaaggggaacattatgcgaacacaagagtccgagtgtgtatgccaggatgagttttgttatactctggtaacagatgggccgtccgatgcacaagctttctataagatattgaaaatcagaaaggggaagatagtaagtatgaaggatgtggatgcaacaggttttcatttcgaagagtgttcctgctatccaagtggaacggaaattgagtgtgtctgtcgggacaactggcggggaagcaaccgaccatggataagattcaacagtgatcttgattaccaaatcggctatgtatgtagtgggatatttggggacaaccccagacccgtggatggcacaggctcatgtaatggcccagtgaataatgggaaaggtagatatggggtgaaagggttcagcttcaggtatggggatggcgtttggataggaagaacaaagagcttggaatccagaagtggtttcgagatggtgtgggatgctaacggatgggtgtcgacagacaaggattcaaatggtgtacaggatattatagataacgataattggtctggttacagcgggagcttcagcattagaggagaaacaacaggcaagaattgcactgtaccatgtttttgggttgagatgataagagggcaacccaaagaaaaaaccatatggaccagtggtagtagtattgcgttctgtggtgttaattctgataccacaggttggtcatggcccgatggcgctctattgccctttgacatagacaagtaa</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA297868</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

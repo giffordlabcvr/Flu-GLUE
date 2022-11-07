@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MN795768</GBSeq_locus>
+    <GBSeq_length>1534</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-JUL-2020</GBSeq_update-date>
+    <GBSeq_create-date>01-JUL-2020</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/common teal/Shanghai/JDS110203/2019(H12N8)) segment 5 nucleocapsid protein (NP) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MN795768</GBSeq_primary-accession>
+    <GBSeq_accession-version>MN795768.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MN795768.1|</GBSeqid>
+      <GBSeqid>gi|1782103974</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza A virus</GBSeq_source>
+    <GBSeq_organism>Influenza A virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1534</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tang,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Emergence and evolution of H10-H12 subtype influenza virus in wild birds in China</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1534</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tang,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-DEC-2019) East China Normal University, School of Life Science, Zhongshan North Road No. 3663, Shanghai 200000, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1534</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1534</GBInterval_to>
+            <GBInterval_accession>MN795768.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/common teal/Shanghai/JDS110203/2019</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H12N8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>JDS110203</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>nasal swab</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>common teal</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11320</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China: Shanghai</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>02-Nov-2019</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>34..1530</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>34</GBInterval_from>
+            <GBInterval_to>1530</GBInterval_to>
+            <GBInterval_accession>MN795768.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>34..1530</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>34</GBInterval_from>
+            <GBInterval_to>1530</GBInterval_to>
+            <GBInterval_accession>MN795768.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleocapsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QGT76041.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MASQGTKRSYEQMETGGERQNATEIRASVGRMVGGIGRFYIQMCTELKLSDYEGRLIQNSITIERMVLSAFDERRNKYLEEHPSAGKDPKKTGGPIYRRRDGKWVRELILYDKEEIRRIWRQANNGEDATAGLTHLMIWHSNLNDATYQRTRALVRTGMDPRMCSLMQGSTLPRRSGAAGAAVKGVGTMVMELIRMIKRGINDRNFWRGENGRRTRIAYERMCNILKGKFQTAAQRAMMDQVRESRNPGNAEIEDLIFLARSALILRGSVAHKSCLPACVYGLAVASGYDFEREGYSLVGIDPFRLLQNSQVFSLIRPNENPAHKSQLVWMACHSAAFEDLRVSSFIRGTRVVPRGQLSTRGVQIASNENMETMDSSTLELRSRYWAIRTRSGGNTNQQRASAGQISVQPTFSVQRNLPFERATIMAAFTGNTEGRTSDMRTEIIRMMESARPEDVSFQGRGVFELSDEKATNPIVPSFDMSNEGSYFFGDNAEEYDN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gggaaaattcactcactgagtgacatcaacaccatggcgtctcaaggcaccaaacgatcttatgaacagatggagactggtggagagcgccagaatgccactgagatcagagcatctgttggaagaatggttggtggaattgggaggttctacatacagatgtgcactgagctcaaactcagcgactatgaaggaagactgatccagaacagcataacaatagagagaatggttctctctgcatttgatgaaaggaggaacaaatatctggaagaacaccccagtgcggggaaggacccgaagaaaactggaggtccaatttatcgaaggagagatgggaaatgggtgagagaactgatcctgtatgacaaagaggagatcagaaggatctggcgtcaagcgaacaatggagaggacgcaactgctggtctcactcacctgatgatctggcattccaatctaaatgatgccacataccagaggacaagagctctcgtgcgtactgggatggaccccaggatgtgctctcttatgcaaggatcaactctcccaaggaggtctggagctgctggtgcagcagtaaagggagtcgggacgatggtgatggaactaattcggatgataaagcgaggaattaatgatcggaacttctggagaggcgagaacggacgaaggacaaggattgcatatgagagaatgtgcaacatcctcaaagggaaattccaaacagcagcacaaagagcaatgatggaccaggtgcgtgaaagcaggaatcctggcaatgctgaaattgaagatcttatctttctggcacggtctgcactcatcctgagaggatcagtggcccataagtcctgcttgcctgcttgtgtatacggactcgctgtggccagtggatacgactttgagagagaagggtactctctagttggaatagatcctttccgtctgcttcaaaacagccaggtcttcagtctcattagaccaaatgaaaatccagcacacaagagtcagttggtgtggatggcatgtcattctgcagcattcgaggatctgagagtctcaagtttcatcagaggaacaagagtagttccaagaggacaactatccaccagaggagttcaaattgcttcaaatgagaacatggaaacaatggactccagcactcttgaactgagaagcagatattgggctataagaaccaggagtggaggaaacaccaatcaacagagagcatctgcaggacaaatcagcgtacagcccactttttcggtacagagaaatcttcccttcgaaagagcgaccattatggcggcgttcacagggaatactgagggcagaacatccgacatgaggactgaaatcataagaatgatggaaagtgccagaccagaagatgtgtctttccaggggcggggagtcttcgagctctcggacgaaaaggcaacgaacccgatcgtgccttcctttgacatgagtaatgaaggatcttatttcttcggagacaatgcagaggagtatgacaattaaatgt</GBSeq_sequence>
+  </GBSeq>

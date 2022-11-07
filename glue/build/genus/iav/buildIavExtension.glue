@@ -1,25 +1,26 @@
+# 
 project flu
 
   # Create extension modules  
-  run file glue/genus/iav/iavModules.glue
+  run file glue/build/genus/iav/iavModules.glue
 
   # Import sources 
-  run file glue/genus/iav/iavLoadSources.glue
+  run file glue/build/genus/iav/iavLoadSources.glue
 
   # Link imported sequences to isolate table 
-  run script glue/genus/iav/iavLoadIsolateData.js
+  run script glue/build/genus/iav/iavLoadIsolateData.js
 
   # Import data from GenBank XML
-  module genbankXmlPopulator populate
+  create module -f modules/build/genus/iav/iavGenbankXmlPopulator.xml
+  module iavGenbankXmlPopulator populate
 
   # Run segment recogniser
-  run script glue/genus/iav/iavCheckSegments.js
+  #run script glue/build/genus/iav/iavCheckSegments.js
 
   # Define constrained alignment tree for extension project
-  run file glue/genus/iav/iavAlignmentTree.glue
+  #run file glue/build/genus/iav/iavAlignmentTree.glue
    
   # Validate
   validate
 
   exit
-  

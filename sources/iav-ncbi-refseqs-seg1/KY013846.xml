@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KY013846</GBSeq_locus>
+    <GBSeq_length>2296</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-APR-2017</GBSeq_update-date>
+    <GBSeq_create-date>04-APR-2017</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/mallard/Minnesota/UGAI15-4803/2015(H4N8)) segment 1 polymerase PB2 (PB2) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KY013846</GBSeq_primary-accession>
+    <GBSeq_accession-version>KY013846.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KY013846.1|</GBSeqid>
+      <GBSeqid>gi|1104591301</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza A virus (A/mallard/Minnesota/UGAI15-4803/2015(H4N8))</GBSeq_source>
+    <GBSeq_organism>Influenza A virus (A/mallard/Minnesota/UGAI15-4803/2015(H4N8))</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2296</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Reeves,A.B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-OCT-2016) Alaska Science Center, U.S. Geological Survey, 4210 University Dr, Anchorage, AK 99508, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank Accession Numbers KY013846-KY013853 represent sequences from the 8 segments of Influenza A virus (A/mallard/Minnesota/UGAI15-4803/2015(H4N8)).; ##Assembly-Data-START## ; Assembly Method :: Geneious v. 9.1.3 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2296</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2296</GBInterval_to>
+            <GBInterval_accession>KY013846.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus (A/mallard/Minnesota/UGAI15-4803/2015(H4N8))</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/mallard/Minnesota/UGAI15-4803/2015</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H4N8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>oropharyngeal/cloacal swab pool from individual bird</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Anas platyrhynchos (mallard); gender: M; age: hatch year</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1911780</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA: Thief Lake; Marshall Co., Minnesota</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lat_lon</GBQualifier_name>
+            <GBQualifier_value>48.49900 N 95.92600 W</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>11-Sep-2015</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>[virus wizard]</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>2..2281</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2</GBInterval_from>
+            <GBInterval_to>2281</GBInterval_to>
+            <GBInterval_accession>KY013846.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>PB2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>2..2281</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2</GBInterval_from>
+            <GBInterval_to>2281</GBInterval_to>
+            <GBInterval_accession>KY013846.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>PB2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase PB2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>APD69168.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MERIKELRDLMSQSRTREILTKTTVDHMAIIKKYTSGRQEKNPALRMKWMMAMKYPITADKRIMEMIPERNEQGQTLWSKTNDAGSDRVMVSPLAVTWWNRNGPTTNTVHYPKVYKTYFEKVERLKHGTFGPVHFRNQVKIRRRVDINPGHADLSAKEAQDVIMEVVFPNEVGARILTSESQLTITKEKKEELHDCKIAPLMVAYMLERELVRKTRFLPVAGGTSSVYIEVLHLTQGTCWEQMYTPGGEVRNDDVDQSLIIAARNIVRRATVSADPLASLLEMCHSTQIGGIRMVDILRQNPTEEQAVDICKAAMGLRISSSFSFGGFTFKRTSGSSVKREEEVLTGNLQTLKIRVHEGYEEFTMVGRRATAILRKATRRLIQLIVSGRDEQSIAEAIIVAMVFSQEDCMIKAVRGDLNFVNRANQRLNPMHQLLRHFQKDAKVLFQNWGIELIDNVMGMIGILPDMTPSTEMSLRGIRVSKMGVDEYSSTERVVVSIDRFLRVRDQRGNVLLSPEEVSETQGTEKLTITYSSSMMWEINGPESVLVNTYQWIIRNWEIVKIQWSQDPTMLYNKMEFEPFQSLVPKAARGQYSGFVRTLFQQMRDVLGTFDTVQIIKLLPFAAAPPEQSRMQFSSLTVNVRGSGMRILVRGNSPVFNYNKATKRLTVLGKDAGALTEDPDEGTAGVESAVLRGFLILGKEDKRYGPALSINELSNLAKGEKANVLIGQGDVVLVMKRKRDSSILTDSQTATKRIRMAIN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tatggagagaataaaagaactaagagatctaatgtcacagtctcgcactcgcgagatactaaccaaaaccactgttgaccacatggccataatcaaaaagtacacatcgggaaggcaagagaagaaccccgcactcaggatgaaatggatgatggcaatgaaatatccgatcacagcagataagcgaataatggaaatgatccctgaaaggaatgaacaagggcaaaccctctggagcaaaacaaacgatgccggatcagatcgagtgatggtatcacctctggctgtgacatggtggaataggaatggaccaacaacaaatacagttcactacccaaaggtatataaaacttatttcgaaaaagttgaaaggttgaaacacgggacctttggtcctgtacacttcagaaaccaagtcaagataagacggagggtcgacataaacccaggccatgctgacctcagtgccaaagaggcgcaagatgtaatcatggaagttgtctttccaaatgaagtgggagcgagaatactgacatcggagtcacaactgacgataacaaaggagaagaaggaagaactccatgactgcaaaatcgcccctctgatggttgcatacatgctggaaagagagttggtccgcaagacgaggtttctcccagtggctggtggaacaagcagtgtctacattgaggtgctgcatttgacccagggaacatgctgggagcagatgtatactccaggaggagaagtgagaaacgatgatgtagaccagagcttgattattgctgccaggaacatagtaagaagggcaacagtatcagcagacccactagcatctctactggagatgtgccacagcacacaaattgggggaataaggatggtagacattcttcggcaaaatccaacagaggaacaagccgtggacatatgcaaggcagcaatgggcttgagaattagctcatctttcagctttggtggattcacttttaaaagaacaagtggatcgtcagtcaaaagagaagaagaagtgcttacaggcaaccttcaaacattgaaaataagagtacatgaggggtatgaagagttcacaatggttgggagaagagcaacggccattctcaggaaggcaaccagaaggctgatccagctaatagtaagtggaagagacgagcagtcaattgctgaagcaataattgtggccatggtattctcacaagaggactgcatgattaaggcagttcgaggtgacctgaactttgtcaatagggcgaaccagcggctgaacccaatgcatcaactcttgaggcacttccaaaaggatgcaaaagtgcttttccaaaattggggaattgaactcattgacaatgtgatgggaatgatcgggatattgcccgacatgaccccaagtactgagatgtcgctgcggggaataagagtcagtaagatgggagtagatgaatactccagtacagagcgagtagtagtaagcatcgatcgatttttaagagttcgagaccaacgggggaacgtactattatcacccgaagaagtaagcgagacacaaggaacagagaaactgacaatcacttattcgtcatcaatgatgtgggaaatcaatggccctgagtcagtgttggtcaatacctatcagtggataatcagaaactgggaaattgtaaaaattcaatggtcgcaggatcccacaatgttgtataataagatggaattcgagccatttcagtctctggttcctaaggcagccagaggtcaatacagtgggttcgtgagaacactattccagcaaatgcgagatgtgcttggaacatttgacactgttcagataataaaactcctcccctttgctgctgccccaccagaacaaagtaggatgcaattctcctccctgactgtgaatgtgagaggatcaggaatgagaatactggtaagaggcaattccccagtgttcaattacaataaggccaccaagaggctcacagttctagggaaagatgcaggtgcattgaccgaagatccagatgagggcacagctggagtggagtctgctgttttaagaggattcctcattttgggcaaagaagacaagagatatggcccagcactgagcatcaatgaattgagcaatcttgcaaagggagagaaggctaatgtgctaattgggcaaggagacgtggtgttggtgatgaaacggaaacgggactctagcatacttactgacagccagacagcgaccaaaagaattcggatggccatcaattagtgtcgaattgtttaa</GBSeq_sequence>
+  </GBSeq>

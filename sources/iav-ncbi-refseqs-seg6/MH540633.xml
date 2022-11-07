@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH540633</GBSeq_locus>
+    <GBSeq_length>1434</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>02-JUL-2018</GBSeq_update-date>
+    <GBSeq_create-date>02-JUL-2018</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/Missouri/44/2018(H1N1)) segment 6 neuraminidase (NA) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MH540633</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH540633.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH540633.1|</GBSeqid>
+      <GBSeqid>gi|1409673537</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA37813</GBSeq_project>
+    <GBSeq_source>Influenza A virus</GBSeq_source>
+    <GBSeq_organism>Influenza A virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1434</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Jernigan,D.</GBAuthor>
+          <GBAuthor>Wentworth,D.</GBAuthor>
+          <GBAuthor>Katz,J.</GBAuthor>
+          <GBAuthor>Barnes,J.</GBAuthor>
+          <GBAuthor>Garten,R.</GBAuthor>
+          <GBAuthor>Xu,X.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Influenza Sequencing Activity group</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1434</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Jernigan,D.</GBAuthor>
+          <GBAuthor>Wentworth,D.</GBAuthor>
+          <GBAuthor>Katz,J.</GBAuthor>
+          <GBAuthor>Barnes,J.</GBAuthor>
+          <GBAuthor>Garten,R.</GBAuthor>
+          <GBAuthor>Xu,X.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (26-JUN-2018) WHO Collaborating Center for Surveillance, Epidemiology and Control of Influenza, Influenza Division, Centers for Disease Control and Prevention, 1600 Clifton Road, N.E., Atlanta, GA 30333, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##FluData-START## ; EPI_ISOLATE_ID :: EPI_ISL_311514 ; NAME :: A/Missouri/44/2018 ; TYPE :: H1N1 ; Segment_name :: NA ; HOST_AGE :: 86 ; HOST_GENDER :: F ; PASSAGE :: Original ; LOCATION :: United States / Missouri ; COLLECT_DATE :: 10-Apr-2018 ; Lineage :: A(H1N1)pdm09 ; SPECIMEN_ID :: 180673 ORIGINAL ; SENDER_LAB :: Missouri Department. of Health &amp; Senior Services ; SEQLAB_SAMPLE_ID :: 3026017659 ; EPI_SEQUENCE_ID :: EPI1238829 ; ##FluData-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1434</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1434</GBInterval_to>
+            <GBInterval_accession>MH540633.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/Missouri/44/2018</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H1N1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11320</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA: Missouri</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>10-Apr-2018</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>passage details:Original</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>9..1418</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>9</GBInterval_from>
+            <GBInterval_to>1418</GBInterval_to>
+            <GBInterval_accession>MH540633.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>9..1418</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>9</GBInterval_from>
+            <GBInterval_to>1418</GBInterval_to>
+            <GBInterval_accession>MH540633.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>neuraminidase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AWX41655.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNPNQKIITIGSICMTIGMANLILQIGNIISIWVSHSIQIGNQSQIETCNQSVITYENNTWVNQTYVNISNTNFAARQSVASVKLAGNSSLCPVSGWAIYSKDNSVRIGSKGDVFVIREPFISCSPLECRTFFLTQGALLNDKHSNGTIKDRSPYRTLMSCPIGEVPSPYNSRFESVAWSASACHDGTNWLTIGISGPDSGAVAVLKYNGIITDTIKSWRNNILRTQESECACVNGSCFTIMTDGPSDGQASYKIFRIEKGKIIKSVEMKAPNYHYEECSCYPDSSEITCVCRDNWHGSNRPWVSFNQNLEYQMGYICSGVFGDNPRPNDKTGSCGPVSSNGANGVKGFSFKYGNGVWIGRTKSISSRKGFEMIWDPNGWTGTDNKFSIKQDIVGINEWSGYSGSFVQHPELTGLDCIRPCFWVELIRGRPEENTIWTSGSSISFCGVDSDTVGWSWPDGAELPFTIDK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agtttaaaatgaatccaaaccaaaagataataaccattggttcgatctgtatgacaattggaatggctaacttgatattacaaattggaaacataatctcaatatgggttagccactcaattcaaattggaaatcaaagccagattgaaacatgcaatcaaagcgtcattacttatgaaaacaacacttgggtaaatcagacatatgttaacatcagcaacaccaactttgctgctagacagtcagtggcttccgtgaaattagcgggcaattcctctctctgccctgttagtggatgggctatatacagtaaagacaacagtgtaagaatcggttccaagggggatgtgtttgtcataagggaaccattcatatcatgctctcccttggaatgcagaaccttcttcttgactcaaggggctttgctaaatgacaaacattccaatggaaccattaaagacaggagcccatatcgaaccctaatgagctgtcctattggtgaagttccctctccatacaactcaagatttgagtcagtcgcttggtcagcaagtgcttgtcatgatggcaccaattggctaacaattggaatttctggcccagacagtggggcagtggctgtgttaaaatacaatggcataataacagacactatcaagagttggaggaacaatatattgagaacacaagagtctgaatgtgcatgtgtaaatggttcttgctttaccataatgaccgatggaccaagtgatggacaggcctcatacaaaatcttcagaatagaaaagggaaagataatcaaatcagtcgaaatgaaagcccctaattatcactatgaggaatgctcctgttaccctgattctagtgaaatcacatgtgtgtgcagggataactggcatggctcgaatcgaccgtgggtgtctttcaaccagaatctggaatatcagatgggatacatatgcagtggggttttcggagacaatccacgccctaatgataagacaggcagttgtggtccagtatcgtctaatggagcaaatggagtaaaaggattttcattcaaatacggcaatggtgtttggatagggagaactaagagcattagttcaagaaaaggttttgagatgatttgggatccgaatggatggactgggactgacaataaattctcaataaagcaagatatcgtaggaataaatgagtggtcagggtatagcgggagttttgttcagcatccagaactaacagggctggattgtataagaccttgcttctgggttgaactaataagaggacgacccgaagagaacacaatctggactagcgggagcagcatatccttttgtggtgtagacagtgacactgtgggttggtcttggccagacggtgctgagttgccatttaccattgacaagtaatttgttcaaaaaaact</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA37813</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

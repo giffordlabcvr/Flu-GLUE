@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KY575214</GBSeq_locus>
+    <GBSeq_length>1469</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>31-JUL-2017</GBSeq_update-date>
+    <GBSeq_create-date>31-JUL-2017</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/green winged teal/Mexico-Sonora/829/2009(H6N5)) segment 6 neuraminidase (NA) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KY575214</GBSeq_primary-accession>
+    <GBSeq_accession-version>KY575214.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KY575214.1|</GBSeqid>
+      <GBSeqid>gi|1148884741</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza A virus (A/green winged teal/Mexico-Sonora/829/2009(H6N5))</GBSeq_source>
+    <GBSeq_organism>Influenza A virus (A/green winged teal/Mexico-Sonora/829/2009(H6N5))</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1469</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Isa,P.</GBAuthor>
+          <GBAuthor>Paulin,L.F.</GBAuthor>
+          <GBAuthor>Hernandez,J.</GBAuthor>
+          <GBAuthor>Montalvo-Corral,M.</GBAuthor>
+          <GBAuthor>Lopez,S.</GBAuthor>
+          <GBAuthor>Arias,C.F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>High diversity of avian influenza virus subtypes in migratory waterfowl from Pacific flyway wetlands in Mexico</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1469</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Isa,P.</GBAuthor>
+          <GBAuthor>Paulin,L.F.</GBAuthor>
+          <GBAuthor>Hernandez,J.</GBAuthor>
+          <GBAuthor>Montalvo-Corral,M.</GBAuthor>
+          <GBAuthor>Lopez,S.</GBAuthor>
+          <GBAuthor>Arias,C.F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-FEB-2017) Departamento de Genetica del Desarrollo y Fisiologia Molecular, Instituto de Biotecnologia, UNAM, Av. Universidad 2001, Cuernavaca, Morelos 62210, Mexico</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank Accession Numbers KY575209-KY575216 represent sequences from the 8 segments of Influenza A virus (A/green winged teal/Mexico-Sonora/829/2009(H6N5)).; ##Assembly-Data-START## ; Assembly Method :: SAMtools v. 0.1.18 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1469</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1469</GBInterval_to>
+            <GBInterval_accession>KY575214.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus (A/green winged teal/Mexico-Sonora/829/2009(H6N5))</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/green winged teal/Mexico-Sonora/829/2009</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H6N5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>cloacal swab</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>green winged teal; female</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1954157</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Mexico: Sonora</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>10-Jan-2009</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>21..1442</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>21</GBInterval_from>
+            <GBInterval_to>1442</GBInterval_to>
+            <GBInterval_accession>KY575214.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>21..1442</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>21</GBInterval_from>
+            <GBInterval_to>1442</GBInterval_to>
+            <GBInterval_accession>KY575214.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>neuraminidase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AQS26631.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNPNQKIITIGSVSLALVVLNILLHIASIVIGIISVTKESSISSPCNTTEVYNETVRLETITIPINNTVYIERESRQEPEFLNNTEPLCNVSGFAIVSKDNGIRIGSRGHVFVIREPFVACGPTECRTFFLTQGALLNDKHSNNTVKDRSPYRALMSVPLGSSPNAYQAKFESVAWSATACHDGKEWLAVGISGSDDDAYAVIHYGGMPTDVVRSWRKQILRTQESSCVCVKGHCYWVMTDGPANNQASYKIFKSHKGMVTSEREVSFQGGHIEECSCYPNLGKVECVCRDNWNGMNRPILTFDEDLNYEVGYLCAGIPTDTPRVQDSSFSGSCTNAVGGSGTNNYGVKGFGFRQGNSVWAGRTVSISSRSGFEILLIEDGWTKTSKTVVKKVEVLNNKNWSGYSGAFTIPITMTNKQCLVPCFWLEMIRGKPEERTSIWTSSSSTVFCGVSSEVPGWSWDDGAILPFDIDKM</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcaaaagcaggagtttaaaatgaatccaaatcagaaaataataacaattggttctgtgtcattggcactagttgtactcaacatactgcttcatattgcatcaatagtcataggaataatatcagtgacaaaagaaagcagtatatcatcaccctgcaacaccactgaggtttacaatgaaactgtaaggctggaaactataacaattcctattaacaacactgtttacatcgaaagagagtcacgtcaagaacctgagtttttaaacaacacagaacctctctgcaatgtatccgggtttgcaatagtctccaaagacaatggaatcagaattgggtcaaggggacatgtgtttgtcataagagaaccttttgtagcatgtggtccaacagaatgtaggacatttttcctaacgcaaggtgccttactgaatgataaacattccaacaatacagtgaaggataggagtccttaccgcgcattgatgagtgtgccattaggatcttcacccaatgcttaccaggccaagtttgagtctgtcgcatggtcggccacagcatgccatgatggcaaagagtggctggcagtagggataagtggttcagatgacgatgcttatgcagtaatccattatggggggatgccaacagatgtggtgagatcatggagaaagcaaattctaagaacacaagaatcgtcatgtgtgtgtgtgaaagggcactgttattgggtaatgacggatggtcctgcgaataatcaggctagttacaaaattttcaagtctcataaagggatggtgacaagtgaaagagaagtgtcatttcagggaggtcacattgaagagtgctcttgctatcccaacttgggtaaagtggagtgcgtttgccgagataattggaatggaatgaatagaccaattttgacttttgatgaggacttgaactatgaggtgggttatttatgtgccggaataccgacagacactccacgggttcaagacagtagtttcagtggttcctgtactaatgctgttggagggagtgggacgaacaactatggagtgaaggggtttggcttcagacaaggtaacagtgtgtgggcaggaagaacagttagcatttcatcccgaagtgggtttgagatcctattgatagaagacggttggaccaaaacaagcaaaactgtcgtcaaaaaggtggaggtcctcaacaataagaattggtcagggtacagcggagctttcaccatcccaatcacaatgactaataaacaatgcttagttccatgtttctggctggaaatgataagaggaaaaccagaagagaggacaagcatttggacctctagtagctccacggtattttgtggtgtttcaagtgaggtcccagggtggtcctgggatgatggagcaattcttccctttgacatcgataagatgtaatttgtgaaaaaactccttgtttctact</GBSeq_sequence>
+  </GBSeq>

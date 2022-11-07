@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MW380656</GBSeq_locus>
+    <GBSeq_length>2318</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>23-DEC-2020</GBSeq_update-date>
+    <GBSeq_create-date>23-DEC-2020</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/Mallard(Anas platyrhynchos)/South Korea/KNU 2019-49/2019(H6N6)) segment 1 polymerase PB2 (PB2) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MW380656</GBSeq_primary-accession>
+    <GBSeq_accession-version>MW380656.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MW380656.1|</GBSeqid>
+      <GBSeqid>gi|1946828322</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza A virus</GBSeq_source>
+    <GBSeq_organism>Influenza A virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2318</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Durairaj,K.</GBAuthor>
+          <GBAuthor>Nguyen,N.M.</GBAuthor>
+          <GBAuthor>Tuong,H.T.</GBAuthor>
+          <GBAuthor>Yeo,S.J.</GBAuthor>
+          <GBAuthor>Park,H.</GBAuthor>
+          <GBAuthor>Sung,H.W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>H6N6 2019 Isolation in South Korea</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2318</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Durairaj,K.</GBAuthor>
+          <GBAuthor>Nguyen,N.M.</GBAuthor>
+          <GBAuthor>Tuong,H.T.</GBAuthor>
+          <GBAuthor>Yeo,S.J.</GBAuthor>
+          <GBAuthor>Park,H.</GBAuthor>
+          <GBAuthor>Sung,H.W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-DEC-2020) Department of Infection Biology, Zoonosis Research Center, School of Medicine, Wonkwang University, Shin-dong, Iksan, Jeolabuk-do 54538, South Korea</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: gsMapper v. 2.8 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2318</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2318</GBInterval_to>
+            <GBInterval_accession>MW380656.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/Mallard(Anas platyrhynchos)/South Korea/KNU 2019-49/2019</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H6N6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>KNU 2019-49</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>feces</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Mallard(Anas platyrhynchos)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11320</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>South Korea</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>19-Sep-2019</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>17..2296</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>17</GBInterval_from>
+            <GBInterval_to>2296</GBInterval_to>
+            <GBInterval_accession>MW380656.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>PB2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>17..2296</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>17</GBInterval_from>
+            <GBInterval_to>2296</GBInterval_to>
+            <GBInterval_accession>MW380656.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>PB2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase PB2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QPZ88687.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNRIKELRDLMSQSRTREILTKTTVDHMAIIKKYTSGRQEKNPALRMKWMMAMKYPITADKKIMEMIPERNEQGQTLWSKTNDAGSDRVMVSPLAVTWWNRNGPTTSTVHYPKVYKTYFEKVKRLKHGTFGPVHFRNQVKIRRRVDINPGHADLSAKEAQDVIMEIVFPNEVGARILTSESQMTIKKEKKEELQDCKIAPLMVAYMLERELVRKTRFLPVAGGTSSVYIEVLHLTQGTCWEQMYTPGGEVRNDDIDQSLIIAARNIVRRATVSADPLASLLEMCHSTQIGGIRMVDILRQNPTEEQAVDICKAAMGLRISSSFSFGGFTFKRTSGSSIKREEEVLTGNLQTLKIRVHEGYEEFTMVGRRATAILRKATRRLIQLIVSGRDEQSIAEAIIVAMVFSQEDCMIKAVRGDLNFVNRANQRLNPMHQLLRHFQKDAKVLFQNWGLEPIDNIMGMVGILPDMTPSTEMSLRGVRVSKMGVDEYSNTERVVVSIDRFLRVRDQQGNVLLSPEEVSETQGTEKLTITYSSSMMWELNGPESVLVNTYQWIIRNWENVKIQWSQDPTMLYNKMEFEPFQSLVPKAARGQYSGFVRTLFQQMRDVLGTFDTVQIIKLLPFAAAPPEQSRMQFSSLTVNVRGSGMRILVRGNSPAFNYNKSTKRLTVLGKDAGALTEDPDEGKAGVESAVLRGFLILGKEDKRYGPALSINELSNLAKGEKANVLIGQGDVVLVMKRKRDSSILTDSQTATKRIRMAIN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcaaattttattcagtatgaacagaataaaagaactaagagatctaatgtcacagtctcgcacccgcgagatactgacaaagaccactgtggaccatatggccataatcaaaaagtacacatcaggaagacaggaaaagaatcccgccctcaggatgaaatggatgatggcaatgaaatacccgatcacagctgacaagaagataatggagatgattcctgaacgaaatgaacaaggccaaactctttggagcaagacaaacgatgccggatcagacagagtaatggtatcacctctggctgtgacttggtggaacaggaatgggccaacaacaagcacagtccactatcccaaggtgtacaaaacctactttgaaaaggttaaaagattaaaacacggaacctttggccccgtccatttccggaatcaagtcaaaatacgccgcagggttgacataaatccaggccatgcggatctcagtgcaaaagaggcacaagatgttataatggagattgttttcccaaatgaggttggagctaggatattgacttcagaatcacaaatgacaataaaaaaggaaaagaaagaagagctccaggattgtaagattgctccattgatggtggcatatatgttggagagagaattggtccgcaagacaagattcctaccagtggctggcgggacaagcagcgtgtatatagaagtgttacatttgactcaaggaacctgctgggaacaaatgtacacaccaggaggggaagtgagaaatgatgacattgaccagagtttaatcattgctgctagaaacattgtgagaagagcaacagtgtcggcagacccgttggcatcactcttggagatgtgccacagtacacaaattggcgggataagaatggtggatattcttaggcaaaatccaacagaagagcaagctgtagacatatgtaaggcagcaatgggtctgagaattagttcatccttcagttttggaggtttcactttcaaaagaacaagtggttcttctattaaaagagaggaagaagtgcttacaggcaacctccaaacattgaaaataagagtacatgaaggatatgaagaattcacaatggttggacgaagagcaacagcaattctgaggaaggcaaccagaaggctgattcaattgatagtaagtgggagagacgaacaatcaattgctgaggcaatcattgtagcaatggtattctcacaggaggactgtatgataaaggcagtccgaggtgatttgaactttgtgaacagagcgaaccaacggctgaatcccatgcatcaactcctgaggcatttccaaaaagacgcaaaggtactattccagaactggggacttgaacccatcgacaatataatggggatggttggaatattgcctgatatgactcccagcacagaaatgtcattgagaggagtgagagtcagtaaaatgggagtagacgaatattctaacactgaaagagtggtcgtgagcattgatcgtttcctaagagtacgggatcagcaagggaacgtactcttatctcctgaagaagttagtgaaacacaaggaacggaaaagttaacgataacatattcatcatctatgatgtgggagcttaacggcccagaatcggtgctggtcaacacataccaatggatcattagaaattgggagaatgtgaaaattcaatggtctcaagaccctactatgttatacaataagatggaatttgagccctttcaatctttggtacctaaagctgctagaggccaatacagtgggtttgtaaggacactattccagcaaatgcgtgatgtgctgggaacatttgacactgttcaaataataaagctgctaccatttgcagcagcaccaccagaacaaagcagaatgcaattttcttctctgacagtgaatgtacgaggatctgggatgaggatacttgtaagaggtaattctcctgcatttaattataacaaatcaactaagaggctaacagtcctcgggaaagatgcaggtgcacttacagaagatccggatgagggaaaagcaggagtagaatctgcagtactgagaggatttctaattctaggcaaagaagacaagagatatggaccagcattgagcattaacgagttgagcaatcttgctaaaggggagaaggctaatgtgttgatagggcaaggagacgtggtgttggtaatgaaacggaaacgggactctagcatacttactgacagtcagacagcgaccaaaagaattcgtatggccatcaattagtgttgaattgtttaaaaacgac</GBSeq_sequence>
+  </GBSeq>

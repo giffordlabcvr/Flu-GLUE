@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MW186784</GBSeq_locus>
+    <GBSeq_length>2327</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>20-SEP-2022</GBSeq_update-date>
+    <GBSeq_create-date>03-NOV-2020</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/duck/Moscow/5712U/2019(H11N6)) segment 1 polymerase PB2 (PB2) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MW186784</GBSeq_primary-accession>
+    <GBSeq_accession-version>MW186784.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MW186784.1|</GBSeqid>
+      <GBSeqid>gi|1921530280</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza A virus</GBSeq_source>
+    <GBSeq_organism>Influenza A virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2327</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Boravleva,E.</GBAuthor>
+          <GBAuthor>Treshchalina,A.</GBAuthor>
+          <GBAuthor>Postnikova,Y.</GBAuthor>
+          <GBAuthor>Gambaryan,A.</GBAuthor>
+          <GBAuthor>Belyakova,A.</GBAuthor>
+          <GBAuthor>Sadykova,G.</GBAuthor>
+          <GBAuthor>Prilipov,A.</GBAuthor>
+          <GBAuthor>Lomakina,N.</GBAuthor>
+          <GBAuthor>Ishmukhametov,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular Characteristics, Receptor Specificity, and Pathogenicity of Avian Influenza Viruses Isolated from Wild Ducks in Russia</GBReference_title>
+        <GBReference_journal>Int J Mol Sci 23 (18), 10829 (2022)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>https://doi.org/10.3390/ijms231810829</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2327</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lomakina,N.F.</GBAuthor>
+          <GBAuthor>Treshchalina,A.A.</GBAuthor>
+          <GBAuthor>Sadykova,G.K.</GBAuthor>
+          <GBAuthor>Prilipov,A.G.</GBAuthor>
+          <GBAuthor>Gambaryan,A.S.</GBAuthor>
+          <GBAuthor>Postnikova,Y.N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (29-OCT-2020) The Russian Ministry of Health, The Gamaleya National Research Centre for Epidemiology and Microbiology, Gamalei street, 18, Moscow 123098, Russia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2327</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2327</GBInterval_to>
+            <GBInterval_accession>MW186784.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/duck/Moscow/5712U/2019</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H11N6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>5712U</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>feces</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>duck; Anas platyrhynchos</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11320</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Russia: Moscow</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>21-Oct-2019</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>28..2307</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>28</GBInterval_from>
+            <GBInterval_to>2307</GBInterval_to>
+            <GBInterval_accession>MW186784.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>PB2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>28..2307</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>28</GBInterval_from>
+            <GBInterval_to>2307</GBInterval_to>
+            <GBInterval_accession>MW186784.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>PB2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase PB2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QOU09666.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MERIKELRDLMSQSRTREILTKTTVDHMAIIKKYTSGRQEKNPALRMKWMMAMKYPITADKRIMEMIPERNEQGQTLWSKTNDAGSDRVMVSPLAVTWWNRNGPTTSTVHYPKVYKTYFEKVERLKHGTFGPVHFRNQVKIRRRVDINPGHADLSAKEAQDVIMEVVFPNEVGARILTSESQLTITKEKKEELQDCKIAPLMVAYMLERELVRKTRFLPVAGGTSSVYIEVLHLTQGTCWEQMYTPGGEVRNDDVDQSLIIAARNIVRRATVSADPLASLLEMCHSTQIGGVRMVDILRQNPTEEQAVDICKAAMGLRISSSFSFGGFTFKRTSGSSVKREEEVLTGNLQTLKIRVHEGYEEFTMVGRRATAILRKATRRLVQLIVSGRDEQSIAEAIIVAMVFSQEDCMIKAVRGDLNFVNRANQRLNPMHQLLRHFQKDAKVLFQNWGVEPIDNVMGMIGILPDMTPSTEMSLRGVRVSRMGVDEYSSTERVVVSIDRFLRVRDQRGNVLLSPEEVSETQGTEKLTITYSSSMMWEINGPESVLVNTYQWIIRNWETVKIQWSQDPTMLYNKMEFEPFQSLVPKAARGQYSGFVRTLFQQMRDVLGTFDTVQIIKLLPFAAAPPEQSRMQFSSLTVNVRGSGMRILVRGNSPVFNYNKATKRLTVLGKDAGALTEDPDEGTAGVESAVLRGFLILGKEDKRYGPALSINELSNLAKGEKANVLIGQGDVVLVMKRKRDSSILTDSQTATKRIRMAIN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcgaaagcaggtcaaatatattcaatatggagagaataaaagaactaagagatttaatgtcgcagtctcgcactcgcgagatactgacaaaaaccactgtggaccatatggccataataaagaaatacacatcaggaagacaggagaagaaccctgccctcaggatgaagtggatgatggcaatgaaataccctattacagcagacaaaagaataatggagatgatccctgaaaggaatgagcaaggtcagactctctggagcaaaacaaatgacgctggatcagacagagtgatggtgtcacctctggctgtaacatggtggaatagaaatgggccaacgacaagtacagtccattacccaaaggtttacaaaacctactttgaaaaggtagaaagattgaaacatggaacctttggccctgttcactttcgaaatcaggttaagatacgccgcagggttgacataaacccgggccatgcagatctcagtgccaaagaagcacaggatgtcatcatggaggtcgttttcccaaatgaagttggagccaggatattgacatcagaatcacaattaacaataacaaaagaaaagaaggaggaacttcaggactgtaagattgctcctttgatggtggcgtacatgttggagagagaactggttcgcaaaaccagatttttaccagtagctggcggaacaagcagcgtatatatcgaggtattgcatttgactcaagggacctgctgggaacaaatgtacacaccgggaggggaagtgagaaatgatgatgttgatcagagtttgatcattgctgctagaaatatcgttaggagagcaacagtatcagcagacccattggcttcactcttggaaatgtgccacagtacacaaattggcggggtaaggatggtagacattcttagacagaacccaacagaagagcaagccgtggatatatgcaaagcagcaatgggtttaagaatcagttcatccttcagctttggaggtttcactttcaaaagaacaagtggatcgtctgtcaaaagagaagaagaagtgctcacaggcaacctccaaacactgaaaataagagtacatgaaggatatgaggaattcacaatggttggacgaagagctacagccattttaaggaaagcaaccagaaggctggtccaattaatagtgagtggaagagacgagcagtcaatcgctgaagcaatcatagtggcaatggttttctcacaagaggactgcatgataaaagcagtacgaggtgatttgaattttgttaatagagcgaatcagcgactaaatcccatgcatcaacttctgaggcatttccaaaaggatgcaaaggtgctgtttcaaaactggggggttgaaccaattgacaatgtaatggggatgattggaatactgcctgacatgacccccagcacggagatgtcactgagaggagtgagagtcagcagaatgggagtggatgaatattccagtactgagagggtggtcgtgagcattgaccgtttcttgagagtccgagatcagagaggaaacgtactcctgtctcctgaggaagttagtgaaacacagggaacagaaaaactgacgataacatattcatcgtccatgatgtgggaaatcaatggtccggaatccgtgctagtcaacacatatcaatggatcatcagaaattgggagactgtgaagattcaatggtcccaagaccccacgatgttgtacaataagatggaatttgagcccttccaatccttggtgcccaaggctgccagaggccagtatagtggatttgtgaggacattgttccagcagatgcgtgatgtgctgggaacatttgatactgtccaaataataaagctcctgccctttgcagcagccccaccggaacagagtaggatgcagttttcctctctgactgtgaacgtgagaggttcaggaatgagaatacttgtgagaggcaactcccctgtattcaactataacaaggccaccaagagactcacagttcttggaaaggatgcaggtgccttgacagaagatccagatgagggaacagcaggagtggagtctgcagtattaagaggatttctaattctgggcaaagaggacaaaagatatggaccagcattgagcatcaacgaactgagtaatcttgcgaaaggggaaaaggctaatgtgttgatagggcaaggagacgtggtgttggtaatgaaacggaaacgggactctagcatacttactgacagccagacagcgaccaaaagaattcggatggccatcaattagtgtcgaattgtttaaaaacg</GBSeq_sequence>
+  </GBSeq>

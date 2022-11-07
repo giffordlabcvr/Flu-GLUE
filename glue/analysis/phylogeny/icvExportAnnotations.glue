@@ -2,13 +2,13 @@
   create module -f modules/analysis/phylogeny/fluFigTreeAnnotationExporter.xml
 
   module fluFigTreeAnnotationExporter 
-    export figtree-annotation AL_ICV_SEG1 -f trees/icv_seg1FigtreeAnnotations.tsv
-    export figtree-annotation AL_ICV_SEG2 -f trees/icv_seg2FigtreeAnnotations.tsv
-    export figtree-annotation AL_ICV_SEG3 -f trees/icv_seg3FigtreeAnnotations.tsv
-    export figtree-annotation AL_ICV_SEG4 -f trees/icv_seg4FigtreeAnnotations.tsv
-    export figtree-annotation AL_ICV_SEG5 -f trees/icv_seg5FigtreeAnnotations.tsv
-    export figtree-annotation AL_ICV_SEG6 -f trees/icv_seg6FigtreeAnnotations.tsv
-    export figtree-annotation AL_ICV_SEG7 -f trees/icv_seg7FigtreeAnnotations.tsv
+    export figtree-annotation AL_ICV_SEG1 -f trees/icv/icv_seg1FigtreeAnnotations.tsv
+    export figtree-annotation AL_ICV_SEG2 -f trees/icv/icv_seg2FigtreeAnnotations.tsv
+    export figtree-annotation AL_ICV_SEG3 -f trees/icv/icv_seg3FigtreeAnnotations.tsv
+    export figtree-annotation AL_ICV_SEG4 -f trees/icv/icv_seg4FigtreeAnnotations.tsv
+    export figtree-annotation AL_ICV_SEG5 -f trees/icv/icv_seg5FigtreeAnnotations.tsv
+    export figtree-annotation AL_ICV_SEG6 -f trees/icv/icv_seg6FigtreeAnnotations.tsv
+    export figtree-annotation AL_ICV_SEG7 -f trees/icv/icv_seg7FigtreeAnnotations.tsv
   exit
   
   

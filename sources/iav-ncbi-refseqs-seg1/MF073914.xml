@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MF073914</GBSeq_locus>
+    <GBSeq_length>2338</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-JUN-2017</GBSeq_update-date>
+    <GBSeq_create-date>04-JUN-2017</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/Cygnus olor/Belgium/1567/2017(H5N8)) segment 1 polymerase PB2 (PB2) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MF073914</GBSeq_primary-accession>
+    <GBSeq_accession-version>MF073914.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MF073914.1|</GBSeqid>
+      <GBSeqid>gi|1198363837</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza A virus (A/Cygnus olor/Belgium/1567/2017(H5N8))</GBSeq_source>
+    <GBSeq_organism>Influenza A virus (A/Cygnus olor/Belgium/1567/2017(H5N8))</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2338</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Steensels,M.</GBAuthor>
+          <GBAuthor>Lambrecht,B.</GBAuthor>
+          <GBAuthor>Vandenbussche,F.</GBAuthor>
+          <GBAuthor>Van Borm,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (10-MAY-2017) Avian Virology and Immunology, Veterinary and Agrochemical Research Center (CODA-CERVA), Groeselenberg 99, Ukkel, Brussels 1180, Belgium</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: IVA v. 1.0.0. ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2338</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2338</GBInterval_to>
+            <GBInterval_accession>MF073914.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus (A/Cygnus olor/Belgium/1567/2017(H5N8))</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/Cygnus olor/Belgium/1567/2017</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H5N8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>allantoic fluid, pool lung-trachea</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Cygnus olor</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1986414</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Belgium</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>21-Feb-2017</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>passage details: egg passage 1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>25..2304</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>25</GBInterval_from>
+            <GBInterval_to>2304</GBInterval_to>
+            <GBInterval_accession>MF073914.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>PB2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>25..2304</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>25</GBInterval_from>
+            <GBInterval_to>2304</GBInterval_to>
+            <GBInterval_accession>MF073914.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>PB2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase PB2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ARU07101.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MERIKELRDLMSQSRTREILTKTTVDHMAIIKKYTSGRQEKNPALRMKWMMAMKYPITADKRIMEMIPERNEQGQTLWSKTNDAGSDRVMVSPLAVTWWNRNGPTTSTVHYPKVYKTYFEKVERLKHGTFGPVHFRNQVKIRRRVDINPGHADLSAKEAQDVIMEVVFPNEVGARILTSESQLTITKEKKEELQDCKIAPLMVAYMLERELVRKTRFLPVAGGTSSVYIEVLHLTQGTCWEQMYTPGGEVRNDDIDQSLIIAARNIVRRATVSADPLASLLEMCHSTQIGGIRMVDILRQNPTEEQAVDICKAAMGLRISSSFSFGGFTFKRTSGSSVKREEEVLTGNLQTLKIRVHEGYEEFTMVGRRATAILRKATRRLIQLIVSGRDEQSIAEAIIVAMVFSQEDCMIKAVRGDLNFVNRANQRLNPMHQLLRHFQKDAKVLFQNWGVEPIDNVMGMIGILPDMTPSTEMSLRGVRVSKMGVDEYSSTERVVVSIDRFLRVRDQRGNVLLSPEEVSETQGTEKLTITYSSSMMWEINGPESVLVNTYQWIIRNWETVKIQWSQDPTMLYNKMEFEPFQSLVPKAARGQYSGFVRTLFQQMRDVLGTFDTVQIIKLLPFAAAPPEQSRMQFSSLTVNVRGSGMRILVRGNSPVFNYNKATKRLTVLGKDAGALTEDPDEGTAGVESAVLRGFLILGKEDKRYGPALSINELSNLAKGEKANVLIGQGDVVLVMKRKRDSSILTDSQTATKRIRMAIN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaaagcaggtcaaatatattcaatatggagagaataaaagaactaagagatttgatgtcgcagtctcgcactcgcgagatactgacaaagaccacggtggaccatatggccataatcaagaaatatacgtcaggaagacaggagaagaatcctgcacttaggatgaaatggatgatggcaatgaaatacccgattacagcagacaaaaggataatggagatgattcctgaaagaaatgagcaaggtcagactctttggagcaaaacaaatgatgctggatcagacagagtgatggtgtcacctctggcagtgacgtggtggaatagaaatggaccaacaacaagtacagtccattatccaaaggtttacaaaacttactttgaaaaggttgaaaggttaaagcatggaaccttcggccctgttcattttcgaaatcaggttaagatacgccgcagggttgacataaacccgggccatgcagatctcagtgctaaagaagcacaagacgtcatcatggaggtcgttttcccaaacgaagtcggagccaggattttgacatcagagtcacagttgacaataacaaaggaaaagaaggaggagcttcaggactgtaagattgcccctttaatggtggcatacatgttggaaagagaactggttcgcaaaaccagattcctgccagtagctggtgggacaagcagcgtgtatatcgaggtattgcacttgactcaagggacctgctgggaacaaatgtacacaccgggaggagaagtgagaaatgatgacattgatcagagtttaattattgctgctagaaatattgttaggagagcaacagtatcagcagacccattggcttcgctcctggagatgtgccatagtacacaaattggcgggataaggatggtagacatccttagacagaacccaacagaagagcaagccgtggatatatgcaaagcagcaatgggtctaagaatcagttcatccttcagctttggaggtttcactttcaaaaggacaagtggatcatctgtcaaaagagaagaggaagtgctcaccggcaacctccaaacattgaaaataagagtacatgaagggtatgaggaattcacaatggttgggcgaagagcaacagccattctaaggaaagcaaccagaaggttaatccaattgatagtgagtgggagggacgagcagtcaatcgccgaagcgatcatagtggcaatggtgttctcccaagaagattgcatgataaaagcagtacggggtgatttgaatttcgtcaatagagcgaatcagcggctcaatcctatgcatcaacttctgaggcatttccagaaggatgcaaaggtactgttccaaaactggggagttgaacccattgacaatgtaatggggatgataggaatattgcctgatatgacacccagtacagagatgtcactaagaggggtgagagtcagcaaaatgggagtggatgaatattccagtactgagagagtggtcgtgagtattgatcgttttttgagggtccgagaccagagagggaacgtgctcctgtctcctgaagaggttagtgaaacacagggaacagagaagctgacgataacatactcatcatctatgatgtgggaaattaacggcccggaatcagtattagttaacacatatcaatggatcattagaaactgggaaactgtgaagattcaatggtcccaagatccgacaatgctatacaacaagatggagtttgagccctttcagtccttggtgcctaaggctgccagaggccagtatagtggatttgtgaggacgctattccagcagatgcgtgatgtgctggggacctttgacactgtccagataataaagctacttccatttgcagcagccccaccggaacagagtaggatgcagttctcctctctaactgtaaacgtaagaggttcaggaatgagaatacttgtgagaggcaattcccctgtgttcaactataacaaggcaaccaagaggcttacagtccttggaaaggatgcaggtgcattgacagaagacccagatgaggggacggcaggggtggagtctgcggtattaagagggttcctaattctgggcaaagaagacaaaagatatggaccagcattgagcatcaatgaattgagcaatcttgcgaagggggagaaggctaatgtgttgatagggcaaggagacgtggtgttggtgatgaaacggaaacgggactctagcatacttactgacagccagacagcgaccaaaagaattcggatggccatcaattagtgtcgaattgtttaaaaacgaccttgtttctact</GBSeq_sequence>
+  </GBSeq>
