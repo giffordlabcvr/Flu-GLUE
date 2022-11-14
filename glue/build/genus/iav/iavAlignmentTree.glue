@@ -5,53 +5,48 @@ multi-delete alignment -w "name like 'IAV_SEG%'"
 alignment AL_ROOT_SEG_1-2_All_PB2
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-iav' and gb_segment = 1"
-  extract child AL_IAV_SEG1   --refName REF_S1_IAV_MASTER_NC_002023
-  demote member AL_IAV_SEG1   --whereClause "sequence.source.name = 'ncbi-nuccore-iav'" 
+  add member -w "source.name = 'iav-ncbi-refseqs-seg1' and gb_segment = 1"
+  extract child AL_IAV_SEG1 --refName REF_S1_IAV_MASTER_NC_002023
+  demote member AL_IAV_SEG1 -w "sequence.source.name = 'iav-ncbi-refseqs-seg1'"
   
   exit
-
-
-# Create constrained alignment tree for curated sequence alignments
 
 alignment AL_ROOT_SEG_2-1_All_PB1
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-iav' and gb_segment = 2"
-  extract child AL_IAV_SEG2   --refName REF_S2_IAV_MASTER_NC_002021
-  demote member AL_IAV_SEG2   --whereClause "sequence.source.name = 'ncbi-nuccore-iav'" 
+  add member -w "source.name = 'iav-ncbi-refseqs-seg2'"
+  extract child AL_IAV_SEG2 --refName REF_S2_IAV_MASTER_NC_002021
+  demote member AL_IAV_SEG2 -w "sequence.source.name = 'iav-ncbi-refseqs-seg2'"
   
   exit
-
 
 # Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT_SEG_3_All_PA
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-iav' and gb_segment = 3"
-  extract child AL_IAV_SEG3   --refName REF_S3_IAV_MASTER_NC_002022
-  demote member AL_IAV_SEG3   --whereClause "sequence.source.name = 'ncbi-nuccore-iav'" 
-
+  add member -w "source.name = 'iav-ncbi-refseqs-seg3'"
+  extract child AL_IAV_SEG3 --refName REF_S3_IAV_MASTER_NC_002022
+  demote member AL_IAV_SEG3 -w "sequence.source.name = 'iav-ncbi-refseqs-seg3'"
+  
   exit
 
 # Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT_SEG_4_AB_HA
 
   # Add segment members
-  add member -w "source.name = 'iav-ncbi-refseqs-seg4' and gb_segment = 4"
-  extract child AL_IAV_SEG4   --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4   -a 
+  add member -w "source.name = 'iav-ncbi-refseqs-seg4'"
+  extract child AL_IAV_SEG4 --refName REF_S4_IAV_MASTER_NC_002017
+  demote member AL_IAV_SEG4 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4'"
 
   exit
-
 
 # Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT_SEG_5_All_NP
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-iav' and gb_segment = 5"
-  extract child AL_IAV_SEG5   --refName REF_S5_IAV_MASTER_NC_002019
-  demote member AL_IAV_SEG5   --whereClause "sequence.source.name = 'ncbi-nuccore-iav'" 
+  add member -w "source.name = 'iav-ncbi-refseqs-seg5'"
+  extract child AL_IAV_SEG5 --refName REF_S5_IAV_MASTER_NC_002019
+  demote member AL_IAV_SEG5 -w "sequence.source.name = 'iav-ncbi-refseqs-seg5'"
   exit
 
 
@@ -59,9 +54,9 @@ alignment AL_ROOT_SEG_5_All_NP
 alignment AL_ROOT_SEG_6_AB_NA
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-iav' and gb_segment = 6"
-  extract child AL_IAV_SEG6   --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG6   --whereClause "sequence.source.name = 'ncbi-nuccore-iav'" 
+  add member -w "source.name = 'iav-ncbi-refseqs-seg6'"
+  extract child AL_IAV_SEG6 --refName REF_S6_IAV_MASTER_NC_002018
+  demote member AL_IAV_SEG6 -w "sequence.source.name = 'iav-ncbi-refseqs-seg6'"
   
   exit
 
@@ -69,9 +64,9 @@ alignment AL_ROOT_SEG_6_AB_NA
 alignment AL_ROOT_SEG_7_AB_M
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-iav' and gb_segment = 7"
-  extract child AL_IAV_SEG7   --refName REF_S7_IAV_MASTER_NC_002016
-  demote member AL_IAV_SEG7   --whereClause "sequence.source.name = 'ncbi-nuccore-iav'" 
+  add member -w "source.name = 'iav-ncbi-refseqs-seg7'"
+  extract child AL_IAV_SEG7 --refName REF_S7_IAV_MASTER_NC_002016
+  demote member AL_IAV_SEG7 -w "sequence.source.name = 'iav-ncbi-refseqs-seg7'"
 
   exit
 
@@ -79,9 +74,9 @@ alignment AL_ROOT_SEG_7_AB_M
 alignment AL_ROOT_SEG_8_AB_NS
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-iav' and gb_segment = 8"
-  extract child AL_IAV_SEG8   --refName REF_S8_IAV_MASTER_NC_002020
-  demote member AL_IAV_SEG8   --whereClause "sequence.source.name = 'ncbi-nuccore-iav'" 
+  add member -w "source.name = 'iav-ncbi-refseqs-seg8'"
+  extract child AL_IAV_SEG8 --refName REF_S8_IAV_MASTER_NC_002020
+  demote member AL_IAV_SEG8 -w "sequence.source.name = 'iav-ncbi-refseqs-seg8'"
   
   exit
 
