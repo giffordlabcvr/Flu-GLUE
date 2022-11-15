@@ -3,7 +3,7 @@
  alignment AL_ROOT_SEG_1-2_All_PB2
    set field displayName "Influenzavirus PB2-containing segment align"
    add member -w "gb_segment = 1 and genus = 'Alphainfluenzavirus'"
-   add member -w "gb_segment = 1 and genus = 'Betainfluenzavirus'"
+   add member -w "gb_segment = 2 and genus = 'Betainfluenzavirus'"
    add member -w "gb_segment = 1 and genus = 'Gammainfluenzavirus'"
    add member -w "gb_segment = 1 and genus = 'Deltainfluenzavirus'"
    exit
@@ -12,18 +12,16 @@
  alignment AL_ROOT_SEG_2-1_All_PB1
    set field displayName "Influenzavirus PB1-containing segment align"
    add member -w "gb_segment = 2 and genus = 'Alphainfluenzavirus'"
-   add member -w "gb_segment = 2 and genus = 'Betainfluenzavirus'"
+   add member -w "gb_segment = 1 and genus = 'Betainfluenzavirus'"
    add member -w "gb_segment = 2 and genus = 'Gammainfluenzavirus'"
    add member -w "gb_segment = 2 and genus = 'Deltainfluenzavirus'"
    exit
-
 
  create alignment  AL_ROOT_SEG_3_All_PA -r REF_S3_IAV_MASTER_NC_002022  
  alignment AL_ROOT_SEG_3_All_PA
    set field displayName "Influenzavirus gb_segment 3"
    add member -w "gb_segment = 3"
    exit
-
 
  create alignment  AL_ROOT_SEG_4_AB_HA -r REF_S4_IAV_MASTER_NC_002017  
  alignment AL_ROOT_SEG_4_AB_HA

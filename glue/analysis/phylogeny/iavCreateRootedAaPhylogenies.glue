@@ -7,32 +7,32 @@
   create module -f modules/analysis/phylogeny/fluFigTreeAnnotationExporter.xml
 
   module raxmlPhylogenyGenerator
-    generate amino-acid phylogeny AL_IAV_SEG1_OUTGROUP -a -o trees/iav/iav_seg1.tre NEWICK_BOOTSTRAPS 
+    generate amino-acid phylogeny AL_ROOT_SEG_1-2_All_PB2 -r REF_S1_IAV_MASTER_NC_002023 -f PB2 -c -a -o trees/iav/iav_seg1+2_pb2_aa_outgroup.tre NEWICK_BOOTSTRAPS
     exit
 
   module raxmlPhylogenyGenerator
-    generate amino-acid phylogeny AL_IAV_SEG2_OUTGROUP -a -o trees/iav/iav_seg2.tre NEWICK_BOOTSTRAPS 
+    generate amino-acid phylogeny AL_ROOT_SEG_2-1_All_PB1 -r REF_S2_IAV_MASTER_NC_002021 -f PB1 -c -a -o trees/iav/iav_seg2+1_pb1_aa_outgroup.tre NEWICK_BOOTSTRAPS
     exit
 
   module raxmlPhylogenyGenerator
-    generate amino-acid phylogeny AL_IAV_SEG3_OUTGROUP -a -o trees/iav/iav_seg3.tre NEWICK_BOOTSTRAPS 
+    generate amino-acid phylogeny AL_ROOT_SEG_3_All_PA -r REF_S3_IAV_MASTER_NC_002022 -f PA -c -a -o trees/iav/iav_seg3_pa_aa_outgroup.tre NEWICK_BOOTSTRAPS
     exit
 
   module raxmlPhylogenyGenerator
-    generate amino-acid phylogeny AL_IAV_SEG4_OUTGROUP -a -o trees/iav/iav_seg4.tre NEWICK_BOOTSTRAPS 
+    generate amino-acid phylogeny AL_ROOT_SEG_4_AB_HA -r REF_S4_IAV_MASTER_NC_002017 -f HA -c -a -o trees/iav/iav_seg4_ha_aa_outgroup.tre NEWICK_BOOTSTRAPS
     exit
 
   module raxmlPhylogenyGenerator
-    generate amino-acid phylogeny AL_IAV_SEG5_OUTGROUP -a -o trees/iav/iav_seg5.tre NEWICK_BOOTSTRAPS 
+    generate amino-acid phylogeny AL_ROOT_SEG_5_All_NP -r REF_S5_IAV_MASTER_NC_002019 -f NP -c -a -o trees/iav/iav_seg5_np_aa_outgroup.tre NEWICK_BOOTSTRAPS
     exit
 
   module raxmlPhylogenyGenerator
-    generate amino-acid phylogeny AL_IAV_SEG6_OUTGROUP -a -o trees/iav/iav_seg6.tre NEWICK_BOOTSTRAPS 
+    generate amino-acid phylogeny AL_ROOT_SEG_6_CD_M -r REF_S6_IAV_MASTER_NC_002018 -f CD -c -a -o trees/iav/iav_seg5_cd_aa_outgroup.tre NEWICK_BOOTSTRAPS
     exit
 
-  module raxmlPhylogenyGenerator
-    generate amino-acid phylogeny AL_IAV_SEG7_OUTGROUP -a -o trees/iav/iav_seg7.tre NEWICK_BOOTSTRAPS 
-    exit
+  #module raxmlPhylogenyGenerator
+  #  generate amino-acid phylogeny AL_IAV_SEG7_OUTGROUP -a -o trees/iav/iav_seg7.tre NEWICK_BOOTSTRAPS 
+  #  exit
 
   module raxmlPhylogenyGenerator
     generate amino-acid phylogeny AL_IAV_SEG8_OUTGROUP -a -o trees/iav/iav_seg8.tre NEWICK_BOOTSTRAPS 
