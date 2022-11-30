@@ -13,7 +13,61 @@ create reference REF_S8_IAV_NSa_MASTER_NC_002020 iav-filter-ncbi-refseqs NC_0020
 
 # Additional references for genotyping
 
-# Influenza A virus HA references (IAV)
+# Influenza A virus segment 1 references (IAV)
+create reference REF_S1_IAV_A1_MH500872  iav-filter-ncbi-refseqs MH500872
+create reference REF_S1_IAV_A2_CY240835  iav-filter-ncbi-refseqs CY240835
+create reference REF_S1_IAV_A3_LC371815  iav-filter-ncbi-refseqs LC371815
+create reference REF_S1_IAV_A3_MW848669  iav-filter-ncbi-refseqs MW848669
+create reference REF_S1_IAV_A4_MF959980  iav-filter-ncbi-refseqs MF959980
+create reference REF_S1_IAV_A4_LC314499  iav-filter-ncbi-refseqs LC314499
+create reference REF_S1_IAV_A5_LC371839  iav-filter-ncbi-refseqs LC371839
+create reference REF_S1_IAV_A5_MW106492  iav-filter-ncbi-refseqs MW106492
+create reference REF_S1_IAV_A5_OL371652  iav-filter-ncbi-refseqs OL371652
+create reference REF_S1_IAV_B1_MK045456  iav-filter-ncbi-refseqs MK045456
+create reference REF_S1_IAV_B2_MK045456  iav-filter-ncbi-refseqs MK077421
+create reference REF_S1_IAV_B3_MH597323  iav-filter-ncbi-refseqs MH597323
+create reference REF_S1_IAV_B4_MZ565617  iav-filter-ncbi-refseqs MZ565617
+create reference REF_S1_IAV_B5_MH596900  iav-filter-ncbi-refseqs MH596900
+create reference REF_S1_IAV_B6_MK239128  iav-filter-ncbi-refseqs MK239128
+create reference REF_S1_IAV_B7_MW169636  iav-filter-ncbi-refseqs MW169636
+create reference REF_S1_IAV_B8_MH597960  iav-filter-ncbi-refseqs MH597960
+create reference REF_S1_IAV_B9_MH598164  iav-filter-ncbi-refseqs MH598164
+create reference REF_S1_IAV_B10_MN988211  iav-filter-ncbi-refseqs MN988211
+
+# Influenza A virus segment 2 references (IAV)
+create reference REF_S2_IAV_A1_MN055191  iav-filter-ncbi-refseqs MN055191
+create reference REF_S2_IAV_B1_OL371253  iav-filter-ncbi-refseqs OL371253
+create reference REF_S2_IAV_C1_KU322227  iav-filter-ncbi-refseqs KU322227
+create reference REF_S2_IAV_C1_MK239099  iav-filter-ncbi-refseqs MK239099
+create reference REF_S2_IAV_D1_MZ945738  iav-filter-ncbi-refseqs MZ945738
+create reference REF_S2_IAV_D1_OL370765  iav-filter-ncbi-refseqs OL370765
+create reference REF_S2_IAV_E1_LC431474  iav-filter-ncbi-refseqs LC431474
+create reference REF_S2_IAV_E1_OM966132  iav-filter-ncbi-refseqs OM966132
+
+# Influenza A virus segment 3 references (IAV)
+create reference REF_S3_IAV_A1_KU322270  iav-filter-ncbi-refseqs KU322270
+create reference REF_S3_IAV_A2_MN055196  iav-filter-ncbi-refseqs MN055196
+create reference REF_S3_IAV_A2_MN055196  iav-filter-ncbi-refseqs KY644159
+create reference REF_S3_IAV_A3_KY990795  iav-filter-ncbi-refseqs KY990795
+create reference REF_S3_IAV_A3_MW876043  iav-filter-ncbi-refseqs MW876043
+create reference REF_S3_IAV_A4_MZ945779  iav-filter-ncbi-refseqs MZ945779
+create reference REF_S3_IAV_A4_MZ945739  iav-filter-ncbi-refseqs MZ945739
+create reference REF_S3_IAV_A5_MW109583  iav-filter-ncbi-refseqs MW109583
+create reference REF_S3_IAV_A5_MW109695  iav-filter-ncbi-refseqs MW109695
+create reference REF_S3_IAV_A6_MH502499  iav-filter-ncbi-refseqs MH502499
+create reference REF_S3_IAV_A6_MF147443  iav-filter-ncbi-refseqs MF147443
+create reference REF_S3_IAV_A7_MH061510  iav-filter-ncbi-refseqs MH061510
+create reference REF_S3_IAV_A7_MK239124  iav-filter-ncbi-refseqs MK239124
+create reference REF_S3_IAV_A7_MH502287  iav-filter-ncbi-refseqs MH502287
+create reference REF_S3_IAV_A8_MF978419  iav-filter-ncbi-refseqs MF978419
+create reference REF_S3_IAV_A10_MZ565339  iav-filter-ncbi-refseqs MZ565339
+create reference REF_S3_IAV_A11_MH578883  iav-filter-ncbi-refseqs MH578883
+create reference REF_S3_IAV_A11_MW875660  iav-filter-ncbi-refseqs MW875660
+create reference REF_S3_IAV_A12_MW875660  iav-filter-ncbi-refseqs MW547620
+create reference REF_S3_IAV_A12_OM373269  iav-filter-ncbi-refseqs OM373269
+create reference REF_S3_IAV_A12_MW333285  iav-filter-ncbi-refseqs MW333285
+
+# Influenza A virus segment 4 (HA) references (IAV)
 create reference REF_S4_IAV_H1_MK159405  iav-filter-ncbi-refseqs MK159405
 create reference REF_S4_IAV_H1_CY031336  iav-filter-ncbi-refseqs CY031336
 create reference REF_S4_IAV_H1_MW244325  iav-filter-ncbi-refseqs MW244325
@@ -42,7 +96,25 @@ create reference REF_S4_IAV_H16_MF146268 iav-filter-ncbi-refseqs MF146268
 create reference REF_S4_IAV_H17_CY103892 iav-filter-ncbi-refseqs CY103892
 create reference REF_S4_IAV_H18_CY125945 iav-filter-ncbi-refseqs CY125945
 
-# Influenza A virus NA references (IAV)
+# Influenza A virus segment 5 references (IAV)
+create reference REF_S5_IAV_A1_KY561179  iav-filter-ncbi-refseqs KY561179
+create reference REF_S5_IAV_A2_KU322356  iav-filter-ncbi-refseqs KU322356
+create reference REF_S5_IAV_A3_MW024907  iav-filter-ncbi-refseqs MW024907
+create reference REF_S5_IAV_A4_KY644165  iav-filter-ncbi-refseqs KY644165
+create reference REF_S5_IAV_A4_CY241066  iav-filter-ncbi-refseqs CY241066
+create reference REF_S5_IAV_A6_MW857527  iav-filter-ncbi-refseqs MW857527
+create reference REF_S5_IAV_A7_MH502497  iav-filter-ncbi-refseqs MH502497
+create reference REF_S5_IAV_A7_MF145885  iav-filter-ncbi-refseqs MF145885
+create reference REF_S5_IAV_A8_KY415760  iav-filter-ncbi-refseqs KY415760
+create reference REF_S5_IAV_A8_MW342701  iav-filter-ncbi-refseqs MW342701
+create reference REF_S5_IAV_A9_OL371256  iav-filter-ncbi-refseqs OL371256
+create reference REF_S5_IAV_A9_OL371512  iav-filter-ncbi-refseqs OL371512
+create reference REF_S5_IAV_A10_MZ565045  iav-filter-ncbi-refseqs MZ565045
+create reference REF_S5_IAV_A11_MF978417  iav-filter-ncbi-refseqs MF978417
+create reference REF_S5_IAV_A11_MW876094  iav-filter-ncbi-refseqs MW876094
+create reference REF_S5_IAV_A11_MH578837  iav-filter-ncbi-refseqs MH578837
+
+# Influenza A virus segment 6 (NA) references (IAV)
 create reference REF_S6_IAV_N1_MK159404  iav-filter-ncbi-refseqs MK159404
 create reference REF_S6_IAV_N1_AF342820  iav-filter-ncbi-refseqs AF342820
 create reference REF_S6_IAV_N2_NC_007368 iav-filter-ncbi-refseqs NC_007368
@@ -60,6 +132,16 @@ create reference REF_S6_IAV_N10_CY103894 iav-filter-ncbi-refseqs CY103894
 create reference REF_S6_IAV_N11_CY125947 iav-filter-ncbi-refseqs CY125947
 create reference REF_S6_IAV_N1_X15281    iav-filter-ncbi-refseqs X15281
 create reference REF_S6_IAV_NZ_L06582    iav-filter-ncbi-refseqs L06582
+
+# Influenza A virus segment 7 references (IAV)
+create reference REF_S7_IAV_A_KY635810  iav-filter-ncbi-refseqs KY635810
+create reference REF_S7_IAV_A_MH579025  iav-filter-ncbi-refseqs MH579025
+create reference REF_S7_IAV_A_KY273001  iav-filter-ncbi-refseqs KY273001
+create reference REF_S7_IAV_B_MN055192  iav-filter-ncbi-refseqs MN055192
+create reference REF_S7_IAV_B_MH569266  iav-filter-ncbi-refseqs MH569266
+create reference REF_S7_IAV_B1_MW024909 iav-filter-ncbi-refseqs MW024909
+create reference REF_S7_IAV_B2_KU322442 iav-filter-ncbi-refseqs KU322442
+create reference REF_S7_IAV_B3_MZ565343 iav-filter-ncbi-refseqs MZ565343
 
 # Influenza A virus references for segment 8 (NS) (IAV)
 create reference REF_S8_IAV_NSb_CY005144  iav-filter-ncbi-refseqs CY005144
