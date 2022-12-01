@@ -1,9 +1,9 @@
 
 var allResults = [];
 
-glue.inMode("module/iavSubtypeRecogniserSegment1", function(){
+glue.inMode("module/iavSubtypeRecogniserSegment2", function(){
 
-	 var recogniserResult = glue.command(["recognise","sequence","-w", "rec_segment = 1"]);
+	 var recogniserResult = glue.command(["recognise","sequence","-w", "rec_segment = 2"]);
      recogniserResult = recogniserResult["blastSequenceRecogniserResult"];
 	 //glue.log("INFO", "Segment recogniser result was:", recogniserResult);
     

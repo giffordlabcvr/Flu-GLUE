@@ -1,167 +1,181 @@
 <blastSequenceRecogniser>
 		<blastRunner/>
 		
-		<referenceSequence>REF_S6_IAV_N1_MK159404</referenceSequence>
-		<referenceSequence>REF_S6_IAV_N1_AF342820</referenceSequence>
-
-		<referenceSequence>REF_S6_IAV_N2_NC_007368</referenceSequence>
-		<referenceSequence>REF_S6_IAV_N2_MK968546</referenceSequence>
-			
-		<referenceSequence>REF_S6_IAV_N3_CY005059</referenceSequence>
-		
-		<referenceSequence>REF_S6_IAV_N4_CY096650</referenceSequence>
-		<referenceSequence>REF_S6_IAV_N5_MH134707</referenceSequence>
-		<referenceSequence>REF_S6_IAV_N6_CY005135</referenceSequence>
-		<referenceSequence>REF_S6_IAV_N7_CY005802</referenceSequence>
-		
-		<referenceSequence>REF_S6_IAV_N7_KX978763</referenceSequence>
-		<referenceSequence>REF_S6_IAV_N8_KX978990</referenceSequence>
-		<referenceSequence>REF_S6_IAV_N8_CY079173</referenceSequence>
-		
-		<referenceSequence>REF_S6_IAV_N9_CY067680</referenceSequence>
-		<referenceSequence>REF_S6_IAV_N10_CY103894</referenceSequence>
-		
-		<referenceSequence>REF_S6_IAV_N11_CY125947</referenceSequence>
-		<referenceSequence>REF_S6_IAV_N1_X15281</referenceSequence>
-		<referenceSequence>REF_S6_IAV_NZ_L06582</referenceSequence>
-
+		<referenceSequence>REF_S1_IAV_A1_MH500872</referenceSequence>
+		<referenceSequence>REF_S1_IAV_A2_CY240835</referenceSequence>
+		<referenceSequence>REF_S1_IAV_A3_LC371815</referenceSequence>
+		<referenceSequence>REF_S1_IAV_A3_MW848669</referenceSequence>		
+		<referenceSequence>REF_S1_IAV_A4_MF959980</referenceSequence>	
+		<referenceSequence>REF_S1_IAV_A4_LC314499</referenceSequence>
+		<referenceSequence>REF_S1_IAV_A5_LC371839</referenceSequence>
+		<referenceSequence>REF_S1_IAV_A5_MW106492</referenceSequence>
+		<referenceSequence>REF_S1_IAV_A5_OL371652</referenceSequence>	
+		<referenceSequence>REF_S1_IAV_B1_MK045456</referenceSequence>
+		<referenceSequence>REF_S1_IAV_B2_MK045456</referenceSequence>
+		<referenceSequence>REF_S1_IAV_B3_MH597323</referenceSequence>	
+		<referenceSequence>REF_S1_IAV_B4_MZ565617</referenceSequence>
+		<referenceSequence>REF_S1_IAV_B5_MH596900</referenceSequence>		
+		<referenceSequence>REF_S1_IAV_B6_MK239128</referenceSequence>
+		<referenceSequence>REF_S1_IAV_B7_MW169636</referenceSequence>		
+		<referenceSequence>REF_S1_IAV_B8_MH597960</referenceSequence>
+		<referenceSequence>REF_S1_IAV_B9_MH598164</referenceSequence>	
+		<referenceSequence>REF_S1_IAV_B10_MN988211</referenceSequence>
 		
 		<recognitionCategory>
-				<id>N1</id>
+				<id>A1</id>
 				<minimumIdentityPct>75</minimumIdentityPct>
 				  <minimumBitScore>500</minimumBitScore>
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N1_MK159404</referenceSequence>
+				  <referenceSequence>REF_S1_IAV_A1_MH500872</referenceSequence>
 		</recognitionCategory>
 
-		<recognitionCategory>
-				<id>N1</id>
-				<minimumIdentityPct>75</minimumIdentityPct>
-				  <minimumBitScore>500</minimumBitScore>
-				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N1_AF342820</referenceSequence>
-		</recognitionCategory>	
 			
 		<recognitionCategory>
-				<id>N2</id>
+				<id>A2</id>
 				<minimumIdentityPct>75</minimumIdentityPct>
 				  <minimumBitScore>500</minimumBitScore>
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N2_NC_007368</referenceSequence>
+				  <referenceSequence>REF_S1_IAV_A2_CY240835</referenceSequence>
 		</recognitionCategory>
 			
 		<recognitionCategory>
-				<id>N2</id>
+				<id>A3</id>
 				<minimumIdentityPct>75</minimumIdentityPct>
 				  <minimumBitScore>500</minimumBitScore>
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N2_MK968546</referenceSequence>
+				  <referenceSequence>REF_S1_IAV_A3_LC371815</referenceSequence>
 		</recognitionCategory>
 		
 		<recognitionCategory>
-				<id>N3</id>
+				<id>A3</id>
 				<minimumIdentityPct>75</minimumIdentityPct>
 				  <minimumBitScore>500</minimumBitScore>
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N3_CY005059</referenceSequence>
+				  <referenceSequence>REF_S1_IAV_A3_MW848669</referenceSequence>
 		</recognitionCategory>
 		
 		<recognitionCategory>
-				<id>N4</id>
+				<id>A4</id>
 				<minimumIdentityPct>75</minimumIdentityPct>
 				  <minimumBitScore>500</minimumBitScore>
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N4_CY096650</referenceSequence>
+				  <referenceSequence>REF_S1_IAV_A4_MF959980</referenceSequence>
 		</recognitionCategory>
 		
 		<recognitionCategory>
-				<id>N5</id>
+				<id>A4</id>
 				<minimumIdentityPct>75</minimumIdentityPct>
 				  <minimumBitScore>500</minimumBitScore>
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N5_MH134707</referenceSequence>
+				  <referenceSequence>REF_S1_IAV_A4_LC314499</referenceSequence>
 		</recognitionCategory>
 		
 		<recognitionCategory>
-				<id>N6</id>
+				<id>A5</id>
 				<minimumIdentityPct>75</minimumIdentityPct>
 				  <minimumBitScore>500</minimumBitScore>
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N6_CY005135</referenceSequence>
+				  <referenceSequence>REF_S1_IAV_A5_LC371839</referenceSequence>
 		</recognitionCategory>
 		
 		<recognitionCategory>
-				<id>N7</id>
+				<id>A5</id>
 				<minimumIdentityPct>75</minimumIdentityPct>
 				  <minimumBitScore>500</minimumBitScore>
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N7_CY005802</referenceSequence>
+				  <referenceSequence>REF_S1_IAV_A5_MW106492</referenceSequence>
 		</recognitionCategory>
 		
 		<recognitionCategory>
-				<id>N7</id>
+				<id>A5</id>
 				<minimumIdentityPct>75</minimumIdentityPct>
 				  <minimumBitScore>500</minimumBitScore>
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N7_KX978763</referenceSequence>
+				  <referenceSequence>REF_S1_IAV_A5_OL371652</referenceSequence>
+		</recognitionCategory>
+
+
+		<recognitionCategory>
+				<id>B1</id>
+				<minimumIdentityPct>75</minimumIdentityPct>
+				  <minimumBitScore>500</minimumBitScore>
+				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
+				  <referenceSequence>REF_S1_IAV_B1_MK045456</referenceSequence>
+		</recognitionCategory>
+			
+		<recognitionCategory>
+				<id>B2</id>
+				<minimumIdentityPct>75</minimumIdentityPct>
+				  <minimumBitScore>500</minimumBitScore>
+				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
+				  <referenceSequence>REF_S1_IAV_B2_MK045456</referenceSequence>
+		</recognitionCategory>
+			
+		<recognitionCategory>
+				<id>B3</id>
+				<minimumIdentityPct>75</minimumIdentityPct>
+				  <minimumBitScore>500</minimumBitScore>
+				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
+				  <referenceSequence>REF_S1_IAV_B3_MH597323</referenceSequence>
 		</recognitionCategory>
 		
 		<recognitionCategory>
-				<id>N8</id>
+				<id>B4</id>
 				<minimumIdentityPct>75</minimumIdentityPct>
 				  <minimumBitScore>500</minimumBitScore>
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N8_KX978990</referenceSequence>
+				  <referenceSequence>REF_S1_IAV_B4_MZ565617</referenceSequence>
 		</recognitionCategory>
 		
 		<recognitionCategory>
-				<id>N8</id>
+				<id>B5</id>
 				<minimumIdentityPct>75</minimumIdentityPct>
 				  <minimumBitScore>500</minimumBitScore>
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N8_CY079173</referenceSequence>
+				  <referenceSequence>REF_S1_IAV_B5_MH596900</referenceSequence>
+		</recognitionCategory>
+		
+		<recognitionCategory>
+				<id>B6</id>
+				<minimumIdentityPct>75</minimumIdentityPct>
+				  <minimumBitScore>500</minimumBitScore>
+				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
+				  <referenceSequence>REF_S1_IAV_B6_MK239128</referenceSequence>
+		</recognitionCategory>
+		
+		<recognitionCategory>
+				<id>B7</id>
+				<minimumIdentityPct>75</minimumIdentityPct>
+				  <minimumBitScore>500</minimumBitScore>
+				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
+				  <referenceSequence>REF_S1_IAV_B7_MW169636</referenceSequence>
+		</recognitionCategory>
+		
+		<recognitionCategory>
+				<id>B8</id>
+				<minimumIdentityPct>75</minimumIdentityPct>
+				  <minimumBitScore>500</minimumBitScore>
+				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
+				  <referenceSequence>REF_S1_IAV_B8_MH597960</referenceSequence>
+		</recognitionCategory>
+		
+		<recognitionCategory>
+				<id>B9</id>
+				<minimumIdentityPct>75</minimumIdentityPct>
+				  <minimumBitScore>500</minimumBitScore>
+				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
+				  <referenceSequence>REF_S1_IAV_B9_MH598164</referenceSequence>
 		</recognitionCategory>
 
 		<recognitionCategory>
-				<id>N9</id>
+				<id>B10</id>
 				<minimumIdentityPct>75</minimumIdentityPct>
 				  <minimumBitScore>500</minimumBitScore>
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N9_CY067680</referenceSequence>
-		</recognitionCategory>
-		
-		<recognitionCategory>
-				<id>N10</id>
-				<minimumIdentityPct>75</minimumIdentityPct>
-				  <minimumBitScore>500</minimumBitScore>
-				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N10_CY103894</referenceSequence>
-		</recognitionCategory>
-		
-		<recognitionCategory>
-				<id>N11</id>
-				<minimumIdentityPct>75</minimumIdentityPct>
-				  <minimumBitScore>500</minimumBitScore>
-				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N11_CY125947</referenceSequence>
-		</recognitionCategory>
-		
-
-		<recognitionCategory>
-				<id>N1</id>
-				<minimumIdentityPct>75</minimumIdentityPct>
-				  <minimumBitScore>500</minimumBitScore>
-				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_N1_X15281</referenceSequence>
+				  <referenceSequence>REF_S1_IAV_B10_MN988211</referenceSequence>
 		</recognitionCategory>
 
-		<recognitionCategory>
-				<id>NZ</id>
-				<minimumIdentityPct>75</minimumIdentityPct>
-				  <minimumBitScore>500</minimumBitScore>
-				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S6_IAV_NZ_L06582</referenceSequence>
-		</recognitionCategory>
+
 		
 		<!-- if one category result has an HSP with an identity percent more than 1.5 higher than the highest identity percent
          score in a second category result, the second category result is discarded -->
