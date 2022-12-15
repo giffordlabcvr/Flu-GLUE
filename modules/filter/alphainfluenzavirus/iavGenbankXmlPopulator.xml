@@ -107,25 +107,39 @@
                 <!-- #### Non-specific avian species -->
 				
 				<valueConverter>
+                    <matchPattern>.*^[bB]irds$.*</matchPattern>
+                    <matchPattern>.*^[mM]igratory bird$.*</matchPattern>
+                    <matchPattern>.*[uU]nidentified [wW]ild [bB]ird.*</matchPattern>
                     <matchPattern>.*^[aA]vian$.*</matchPattern>
                     <matchPattern>.*[aA]quatic [bB]ird.*</matchPattern>               
                     <matchPattern>.*[wW]ild [wW]aterbird.*</matchPattern>
                     <matchPattern>.*[wW]ild [wW]aterfowl.*</matchPattern>
-                    <matchPattern>.*^[wW]ild [bB]ird$.*</matchPattern>
+                    <matchPattern>.*^[wW]ild [bB]ird.*</matchPattern>
+                    <matchPattern>.*^[uU]nknown wild bird.*</matchPattern>
                     <matchPattern>.*[wW]ildfowl.*</matchPattern> 
                     <matchPattern>.*[wW]aterfowl.*</matchPattern>
                     <matchPattern>.*[wW]ater [fF]owl.*</matchPattern>         
                     <matchPattern>.*^[bB]ird$.*</matchPattern>
-                    <matchPattern>.*^[sS]horebird$.*</matchPattern>
+                    <matchPattern>.*^[sS]horebird.*</matchPattern>
                     <matchPattern>.*[sS]oftbill.*</matchPattern>
-                    <matchPattern>.*[sS]oftbill; quarantined.*</matchPattern>                    
+                    <matchPattern>.*[sS]oftbill;.*</matchPattern>
+                    <matchPattern>.*^bird; mixed organ pool.*</matchPattern>
+                    <matchPattern>.*^domestic bird.*</matchPattern>
+                    <matchPattern>.*^[cC]loacal swab.*</matchPattern>
                     <outputTemplate>Aves</outputTemplate>
                 </valueConverter>
 
                 <!-- #### Paleognathae (ratites) -->
+
                                 																																										
 				<valueConverter>
+                    <matchPattern>.*^[rR]hea$.*</matchPattern>                  
+                    <outputTemplate>Rhea sp.</outputTemplate>
+                </valueConverter>
+                               																																										
+				<valueConverter>
                     <matchPattern>.*[oO]strich.*</matchPattern>
+                    <matchPattern>.*^[sS]truthio$.*</matchPattern>                   
                     <outputTemplate>Struthio camelus</outputTemplate>
                 </valueConverter>
 
@@ -146,7 +160,7 @@
                     <matchPattern>.*Poulltry.*</matchPattern>
                     <matchPattern>.*POULTRY.*</matchPattern>
                     <matchPattern>.*[pP]oultry.*</matchPattern>
-                    <outputTemplate>Gallanseriformes</outputTemplate>                 
+                    <outputTemplate>Gallanseriformes</outputTemplate>               
                 </valueConverter>
 
 
@@ -169,7 +183,8 @@
 					<matchPattern>.*Layer.*</matchPattern>
 					<matchPattern>.*[Rr]ooster.*</matchPattern>
 					<matchPattern>.*^[cC]hick$.*</matchPattern>
-					<matchPattern>.*[sS]ilky [fF]owl.*</matchPattern>				
+					<matchPattern>.*[sS]ilky [fF]owl.*</matchPattern>
+					<matchPattern>.*[fF]ighting [bB]ird.*</matchPattern>		
                     <outputTemplate>Gallus gallus</outputTemplate>
                 </valueConverter>
 
@@ -191,7 +206,7 @@
                 </valueConverter>             
 
                 <valueConverter>
-                    <matchPattern>.*[pP]partridge.*</matchPattern>
+                    <matchPattern>.*[pP]artridge.*</matchPattern>
                     <matchPattern>.*[pP]eacock.*</matchPattern>
                     <outputTemplate>Phasianidae sp.</outputTemplate>
                 </valueConverter>
@@ -218,6 +233,8 @@
                 </valueConverter>
  
                 <valueConverter>
+                	<matchPattern>.*[jJ]apanese [qQ]uail.*</matchPattern>
+                	<matchPattern>.*[dD]omesticated [qQ]uail.*</matchPattern>
                     <matchPattern>.*^[qQ]uail$.*</matchPattern>
                     <matchPattern>.*^QUAIL$.*</matchPattern>
                     <matchPattern>.*^quail; farm$.*</matchPattern> 
@@ -265,11 +282,12 @@
                               
                 <valueConverter>
                     <matchPattern>.*duck; Anas sp.*</matchPattern>
+                    <matchPattern>.*^meat duck.*</matchPattern>
                     <matchPattern>.*Anas sp. (duck).*</matchPattern>
                     <matchPattern>.*Duck(Anas sp.).*</matchPattern>
                     <matchPattern>.*^[Dd]abbling [dD]uck$.*</matchPattern> 
                     <matchPattern>.*[dD]omesticated [dD]uck.*</matchPattern>
-                    <matchPattern>.*Anas platyrhynchos x Anas acuta.*</matchPattern> 
+                    <matchPattern>.*[lL]ive bird market duck.*</matchPattern>
                     <outputTemplate>Anas sp.</outputTemplate>
                 </valueConverter>
 
@@ -281,23 +299,18 @@
                 </valueConverter>
 
                 <valueConverter>
-                	<matchPattern>.*^[dD]uck$.*</matchPattern>
-                    <matchPattern>.*^duck; 8 M$.*</matchPattern>
-                    <matchPattern>.*[fF]eral [dD]uck.*</matchPattern>
-                    <matchPattern>.*[wW]ild [dD]uck.*</matchPattern>
-                    <matchPattern>.*^[dD]uck; backyard$.*</matchPattern>
-                    <matchPattern>.*^[dD]uck; age Adult$.*</matchPattern>
-                    <matchPattern>.*^[dD]uck; age juvenile$.*</matchPattern>
-                    <matchPattern>.*[dD]uck; female; 1 Y.*</matchPattern>
-                    <matchPattern>.*[dD]uck; female; 8 M.*</matchPattern>
-                    <matchPattern>.*[dD]uck; gender F.*</matchPattern>
-                    <matchPattern>.*[dD]uck; gender F; age Adult.*</matchPattern>
-                    <matchPattern>.*[dD]uck; gender M; age Adult.*</matchPattern> 
-                    <matchPattern>.*^[sS]hoveler$.*</matchPattern>
-                    <matchPattern>.*^shoveler; gender M; age 1$.*</matchPattern>
-                    <matchPattern>.*^shoveller duck$.*</matchPattern>
-                    <matchPattern>.*^[pP]ochard$.*</matchPattern>
-                    <matchPattern>.*pochard; gender M; age 3.*</matchPattern>
+                    <matchPattern>.*^[cC]ygnus sp.*</matchPattern>
+                    <outputTemplate>Cygnus sp.</outputTemplate>
+                </valueConverter>
+
+                <valueConverter>
+                    <matchPattern>.*^[fF]eral [dD]uck.*</matchPattern>
+                    <matchPattern>.*^[wW]ild [dD]uck.*</matchPattern>
+                    <matchPattern>.*^[dD]uck.*</matchPattern>
+                    <matchPattern>.*^[dD]uck;.*</matchPattern>
+                    <matchPattern>.*^[sS]hoveler.*</matchPattern>
+                    <matchPattern>.*^[pP]ochard;.*</matchPattern>
+                    <matchPattern>.*^[pP]ochard.*</matchPattern>
                     <matchPattern>.*^[sS]wan$.*</matchPattern>
                     <matchPattern>.*^[tT]eal$.*</matchPattern>
                     <matchPattern>.*^[tT]eal [dD]uck$.*</matchPattern>
@@ -309,19 +322,41 @@
                     <matchPattern>.*[Tt]eal; gender M; age 2.*</matchPattern>
                     <matchPattern>.*[tT]eal; gender M; age Hatch Year.*</matchPattern>
                     <matchPattern>.*[bB]reeder [dD]uck.*</matchPattern>
-                    <matchPattern>.*[Hh]ousehold [dD]uck.*</matchPattern> 
-                    <outputTemplate>Anseriformes sp</outputTemplate>
+                    <matchPattern>.*[Hh]ousehold [dD]uck.*</matchPattern>
+                    <matchPattern>.*[Ll]ive bird market ducks.*</matchPattern>
+                    <matchPattern>.*[Ll]ive bird market goose.*</matchPattern>
+                    <outputTemplate>Anseriformes sp.</outputTemplate>
                 </valueConverter>
 
+                <valueConverter>
+                    <matchPattern>.*[mM]ulard [dD]uck.*</matchPattern>
+                    <matchPattern>.*^[mM]ule [dD]uck;.*</matchPattern>
+                    <matchPattern>.*^[mM]ule [dD]uck.*</matchPattern>
+                    <outputTemplate>Anas platyrhynchos × Cairina moschata</outputTemplate>
+                </valueConverter>
 
                 <valueConverter>
                     <matchPattern>.*[wW]igeon.*</matchPattern>
+                    <matchPattern>.*[wW]idgeon.*</matchPattern>
                     <outputTemplate>Mareca sp.</outputTemplate>
                 </valueConverter>
+
+                <valueConverter>
+                    <matchPattern>.*[dD]uck\(Anas sp.\).*</matchPattern>
+                    <matchPattern>.*[aA]nas sp. \(duck\).*</matchPattern>
+                    <matchPattern>.*[gG]rey duck.*</matchPattern>
+                    <outputTemplate>Anas sp.</outputTemplate>
+                </valueConverter>
                 
+                 <valueConverter>
+                    <matchPattern>.*[sS]wan; Cygnus sp.*</matchPattern>
+                    <outputTemplate>Cygnus sp.</outputTemplate>
+                </valueConverter> 
+
                 <valueConverter>
                     <matchPattern>.*[nN]orthern [pP]intail.*</matchPattern>
-                    <matchPattern>.*[pP]intail.*</matchPattern>            
+                    <matchPattern>.*[pP]intail.*</matchPattern>  
+                    <matchPattern>.*^[Aa]nas acuta;.*</matchPattern>          
                     <outputTemplate>Anas acuta</outputTemplate>
                 </valueConverter>
 
@@ -333,7 +368,8 @@
                     <matchPattern>.*[gG]reen [wW]ing [tT]eal.*</matchPattern>
                     <matchPattern>.*[gG]reen -[wW]ing [tT]eal.*</matchPattern>
                     <matchPattern>.*[gG]reen-[wW]ing [tT]eal.*</matchPattern>
-                    <matchPattern>.*[gG]reenwing [dD]uck.*</matchPattern>              
+                    <matchPattern>.*[gG]reenwing [dD]uck.*</matchPattern>
+                    <matchPattern>.*^[Aa]nas carolinensis;.*</matchPattern>        
                     <outputTemplate>Anas carolinensis</outputTemplate>
 				</valueConverter>
                 
@@ -348,7 +384,7 @@
                     <matchPattern>.*[cC]ommom [tT]eal.*</matchPattern>
                     <matchPattern>.*[eE]urasian [tT]eal.*</matchPattern>
                     <matchPattern>.*[eE]uropean [tT]eal.*</matchPattern>
-                    <matchPattern>.*Anas crecca.*</matchPattern>
+                    <matchPattern>.*[aA]nas crecca.*</matchPattern>
                     <outputTemplate>Anas crecca</outputTemplate>
                 </valueConverter>
  
@@ -376,10 +412,10 @@
                     <matchPattern>.*[pP]eckin_duck.*</matchPattern>
                     <matchPattern>.*[pP]eking [dD]uck.*</matchPattern>
                     <matchPattern>.*[wW]hite [pP]eckin [dD]uck.*</matchPattern>
-                    <matchPattern>.*Anas platyrhynchos var.domestica.*</matchPattern>
-                    <matchPattern>.*Anas platyrhynchos var. domestica.*</matchPattern> 
-                    <matchPattern>.*Anas platyrhynchos; 90A82127.*</matchPattern>
-                    <matchPattern>.*Anas platyrhynchos var. domesticus.*</matchPattern>
+                    <matchPattern>.*^[Aa]nas platyrhynchos var.domestica.*</matchPattern>
+                    <matchPattern>.*^[Aa]nas platyrhynchos var. domestica.*</matchPattern> 
+                    <matchPattern>.*^[Aa]nas platyrhynchos;.*</matchPattern>
+                    <matchPattern>.*^[Aa]nas platyrhynchos var. domesticus.*</matchPattern>
                     <matchPattern>.*[dD]omestic [dD]uck.*</matchPattern>
                     <matchPattern>.*Anas platyrhynchos a migratory duck.*</matchPattern>
                     <matchPattern>.*Duck; Anas platyrhynchos var.domesticus.*</matchPattern>
@@ -387,11 +423,12 @@
                     <matchPattern>.*Anas Platyrhynchos.*</matchPattern>
                     <matchPattern>.*duck; Anas platyrhynchos domesticus.*</matchPattern>
                     <matchPattern>.*Anas platyrhynchos domesticus.*</matchPattern>
-                    <matchPattern>.*Anas platyrhynchos; male; hatch year.*</matchPattern>
-                    <matchPattern>.*Anas platyrhynchos, duck.*</matchPattern>
+                    <matchPattern>.*Anas platyrhynchos f. domestica.*</matchPattern>
                     <matchPattern>.*Anas platyrhynchos \(Khaki Campbell duck\).*</matchPattern>
                     <matchPattern>.*Anas platyrhynchos migratory duck.*</matchPattern>
-                    <matchPattern>.*Anas platyrhynchos; gender M; age Hatch Year.*</matchPattern>
+                    <matchPattern>.*Anas platyrhynchos var.domesticus.*</matchPattern>
+                    <matchPattern>.*Aves Anserformes Anas platyrhynchos var.domestica.*</matchPattern>
+                    <matchPattern>.*^Anas platyrhynchos,.*</matchPattern>
                     <outputTemplate>Anas platyrhynchos</outputTemplate>
                 </valueConverter>
 
@@ -399,6 +436,7 @@
                     <matchPattern>.*[iI]ndian [sS]pot-[bB]illed [dD]uck.*</matchPattern>
                     <matchPattern>.*[sS]pot [Bb]illed [dD]uck.*</matchPattern>
                     <matchPattern>.*[sS]pot-billed [dD]uck.*</matchPattern>
+                    <matchPattern>.*[sS]pot-billed_[dD]uck.*</matchPattern>
                     <matchPattern>.*Anas poecilorhyncha, duck.*</matchPattern>
                     <outputTemplate>Anas poecilorhyncha</outputTemplate>
                 </valueConverter>
@@ -406,7 +444,7 @@
 				<valueConverter>
                     <matchPattern>.*[aA]merican [bB]lack [dD]uck.*</matchPattern>
                     <matchPattern>.*[bB]lack [dD]uck.*</matchPattern>
-                    <matchPattern>.*[bB]lack duck; gender M; age Adult.*</matchPattern>
+                    <matchPattern>.*^[bB]lack duck;.*</matchPattern>
                     <outputTemplate>Anas rubripes</outputTemplate>
                 </valueConverter>
                
@@ -419,6 +457,7 @@
                 
 				<valueConverter>
                     <matchPattern>.*[cC]innamon [tT]eal.*</matchPattern>
+                    <matchPattern>.*^[Aa]nas cyanoptera;.*</matchPattern>
                     <outputTemplate>Anas cyanoptera</outputTemplate>
                 </valueConverter>
 
@@ -426,6 +465,7 @@
                     <matchPattern>.*[Bb]lue-[wW]inged [tT]eal.*</matchPattern>
                     <matchPattern>.*[Bb]lue [wW]inged [tT]eal.*</matchPattern>
                     <matchPattern>.*Anas discors; female; hatch year.*</matchPattern>
+                    <matchPattern>.*^[Aa]nas discors;.*</matchPattern>
                     <outputTemplate>Anas discors</outputTemplate>
                 </valueConverter>
 
@@ -442,9 +482,10 @@
                                 
                 <valueConverter>
                     <matchPattern>.*[nN]orthern [sS]hoveler.*</matchPattern>
+                    <matchPattern>.*[sS]hoveller [dD]uck.*</matchPattern>
                     <matchPattern>.*Northern Shoveler(Spatula clypeata).*</matchPattern>
                     <matchPattern>.*[nN]orthern_[sS]hoveler.*</matchPattern>
-                    <matchPattern>.*Anas clypeata (shovelar).*</matchPattern>
+                    <matchPattern>.*Anas clypeata.*</matchPattern>
                     <outputTemplate>Anas clypeata</outputTemplate>
                 </valueConverter>
   
@@ -507,6 +548,7 @@
                 </valueConverter>
               
                 <valueConverter>
+                    <matchPattern>.*^[sS]caup$.*</matchPattern>
                     <matchPattern>.*[gG]reater [sS]caup.*</matchPattern>
                     <matchPattern>.*^Aythya marila \(duck\)$.*</matchPattern>
                     <outputTemplate>Aythya marila</outputTemplate>
@@ -554,6 +596,7 @@
                 <valueConverter>
                     <matchPattern>.*[cC]ommon [gG]oldeneye.*</matchPattern>
                     <matchPattern>.*[gG]oldeneye.*</matchPattern>
+                    <matchPattern>.*^[bB]ucefala clangula.*</matchPattern>
                     <outputTemplate>Bucephala clangula</outputTemplate>
                 </valueConverter>
                 
@@ -758,10 +801,16 @@
                     <matchPattern>.*[wW]hite [fF]ront [gG]oose.*</matchPattern>
                     <outputTemplate>Anser albifrons</outputTemplate>
 				</valueConverter>
-                
+
+				<valueConverter>
+                    <matchPattern>.*[eE]gyptian [gG]oose.*</matchPattern>
+                    <outputTemplate>Alopochen aegyptiaca</outputTemplate>
+				</valueConverter>
+                                                
 				<valueConverter>
                     <matchPattern>.*[gG]reylag [gG]oose.*</matchPattern>
-                    <matchPattern>.*^[gG]rey [gG]oose$.*</matchPattern> 
+                    <matchPattern>.*^[gG]rey [gG]oose$.*</matchPattern>
+                    <matchPattern>.*^[gG]oose; Anser anser domesticus.*</matchPattern>
                     <outputTemplate>Anser anser</outputTemplate>
 				</valueConverter>
                                 
@@ -801,8 +850,20 @@
                 </valueConverter>
 
                  <valueConverter>
+                    <matchPattern>.*[rR]oss's [gG]oose.*</matchPattern>
+                    <outputTemplate>Anser rossii</outputTemplate>
+                </valueConverter>
+
+                 <valueConverter>
                     <matchPattern>.*[cC]omb [dD]uck.*</matchPattern>
                     <outputTemplate>Sarkidiornis sylvicola</outputTemplate>
+                </valueConverter>
+
+                 <valueConverter>
+                    <matchPattern>.*Branta bernicla \(brant\).*</matchPattern>
+                    <matchPattern>.*Branta bernicla.*</matchPattern>
+                    <matchPattern>.*[bB]rent [gG]oose.*</matchPattern>
+                    <outputTemplate>Branta bernicla</outputTemplate>
                 </valueConverter>
                                 
                  <valueConverter>
@@ -826,7 +887,7 @@
                     <matchPattern>.*[sS]pur [wW]inged [gG]oose.*</matchPattern>
                     <matchPattern>.*[sS]pur [wW]inged [gG]oose (Plectropterus gambensis).*</matchPattern>
                     <outputTemplate>Plectropterus gambensis</outputTemplate>
-                </valueConverter> 
+                </valueConverter>
                                
                  <valueConverter>
                     <matchPattern>.*[wW]hooper [sS]wan.*</matchPattern>
@@ -847,6 +908,7 @@
                     <matchPattern>.*Cygnus olor; female; hatch year 2016.*</matchPattern>
                     <matchPattern>.*Cygnus olor; hatch year 2015.*</matchPattern>
                     <matchPattern>.*Cygnus olor; hatch year 2016.*</matchPattern>
+                    <matchPattern>.*Cygnus [Oo]lor.*</matchPattern>
                     <outputTemplate>Cygnus olor</outputTemplate>
                 </valueConverter>                
 
@@ -864,29 +926,30 @@
 
                  <valueConverter>
                     <matchPattern>.*^Histrionicus histrionicus \(harlequin duck\)$.*</matchPattern>
+                    <matchPattern>.*[hH]arlequin [dD]uck.*</matchPattern>
                     <outputTemplate>Histrionicus histrionicus</outputTemplate>
                 </valueConverter>
 
-                 <valueConverter>
-                    <matchPattern>.*Branta bernicla \(brant\).*</matchPattern>
-                    <matchPattern>.*Branta bernicla.*</matchPattern>
-                    <outputTemplate>Branta bernicla</outputTemplate>
-                </valueConverter>
                                                
                 <!-- #### Charadriformes (seabirds and shorebirds - gulls, terns, stilts etc.) -->
 
 				<valueConverter>
                     <matchPattern>.*[tT]urnstone.*</matchPattern>
-                    <outputTemplate>Arenaria sp</outputTemplate>
+                    <outputTemplate>Arenaria sp.</outputTemplate>
+                </valueConverter>
+                
+				<valueConverter>
+                    <matchPattern>.*[oO]yster [cC]atcher.*</matchPattern>
+                    <outputTemplate>Haematopodidae sp.</outputTemplate>
                 </valueConverter>
 
 				<valueConverter>
                     <matchPattern>.*^[gG]ull$.*</matchPattern>
-                    <matchPattern>.*^[gG]ull; After hatch year$.*</matchPattern>
+                    <matchPattern>.*^[gG]ull;.*</matchPattern>
                     <matchPattern>.*^[sS]terna$.*</matchPattern>
                     <matchPattern>.*^[tT]ern$.*</matchPattern>
                     <matchPattern>.*^[sS]eagull$.*</matchPattern>
-                    <outputTemplate>Laridae sp</outputTemplate>
+                    <outputTemplate>Laridae sp.</outputTemplate>
                 </valueConverter>
                                 
 				<valueConverter>
@@ -987,6 +1050,7 @@
  
                 <valueConverter>
                     <matchPattern>.*[cC]ommon [sS]nipe.*</matchPattern>
+                    <matchPattern>.*^[sS]nipe$.*</matchPattern>
                     <outputTemplate>Gallinago gallinago</outputTemplate>
                 </valueConverter> 
 
@@ -995,6 +1059,16 @@
                     <matchPattern>.*[bB]lack-winged_curlew.*</matchPattern>
                     <matchPattern>.*^Himantopus himantopus melanurus$.*</matchPattern>
                     <outputTemplate>Himantopus himantopus</outputTemplate>
+                </valueConverter>
+
+                <valueConverter>
+                    <matchPattern>.*[bB]lack-[nN]ecked [sS]tilt.*</matchPattern>
+                    <outputTemplate>Himantopus mexicanus</outputTemplate>
+                </valueConverter>
+
+                <valueConverter>
+                    <matchPattern>.*^African [oO]ystercatcher.*</matchPattern>
+                    <outputTemplate>Haematopus moquini</outputTemplate>
                 </valueConverter>
                                 
 				<valueConverter>
@@ -1005,6 +1079,11 @@
 				<valueConverter>
                     <matchPattern>.*[lL]aughing [gG]ull.*</matchPattern>
                     <outputTemplate>Leucophaeus atricilla</outputTemplate>
+                </valueConverter>
+  
+				<valueConverter>
+                    <matchPattern>.*[fF]ranklin [sS]eagull.*</matchPattern>
+                    <outputTemplate>Leucophaeus pipixcan</outputTemplate>
                 </valueConverter>
                                 
 				<valueConverter>
@@ -1024,6 +1103,7 @@
 
                 <valueConverter>
                     <matchPattern>.*[cC]ommon [gG]ull.*</matchPattern>
+                    <matchPattern>.*[mM]ew [gG]ull.*</matchPattern>
                     <outputTemplate>Larus canus</outputTemplate>
                 </valueConverter> 
                  
@@ -1119,6 +1199,7 @@
                 </valueConverter>               
               
                  <valueConverter>
+                    <matchPattern>.*^[Cc]urlew$.*</matchPattern>
                     <matchPattern>.*[eE]urasian_Curlew.*</matchPattern>
                     <matchPattern>.*[eE]urasian [cC]urlew.*</matchPattern>
                     <outputTemplate>Numenius arquata</outputTemplate>
@@ -1190,7 +1271,7 @@
                 <valueConverter>
                     <matchPattern>.*^[sS]hearwater$.*</matchPattern>
                     <matchPattern>.*^[pP]etrel$.*</matchPattern>
-                    <outputTemplate>Procellariiformes sp</outputTemplate>
+                    <outputTemplate>Procellariiformes sp.</outputTemplate>
                 </valueConverter>
 
 
@@ -1274,15 +1355,20 @@
                     <outputTemplate>Falco tinnunculus</outputTemplate>
                 </valueConverter> 
 
+				<valueConverter>
+                    <matchPattern>.*[sS]aker [fF]alcon.*</matchPattern>
+                    <outputTemplate>Falco cherrug</outputTemplate>
+				</valueConverter>
+
                 <valueConverter>
                     <matchPattern>.*[pP]eregrine [fF]alcon.*</matchPattern>
                     <outputTemplate>Falco peregrinus</outputTemplate>
                 </valueConverter>
 
-				<valueConverter>
-                    <matchPattern>.*[sS]aker [fF]alcon.*</matchPattern>
-                    <outputTemplate>Falco cherrug</outputTemplate>
-				</valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[gG]yrfalcon.*</matchPattern>
+                    <outputTemplate>Falco rusticolus</outputTemplate>
+                </valueConverter>
 
 				<valueConverter>
                     <matchPattern>.*[cC]ommon [kK]etrel.*</matchPattern>
@@ -1298,7 +1384,7 @@
 
                  <valueConverter>
                     <matchPattern>.*^harrier$.*</matchPattern>
-                    <outputTemplate>Accipitriformes sp</outputTemplate>
+                    <outputTemplate>Accipitriformes sp.</outputTemplate>
                 </valueConverter>
                 
                  <valueConverter>
@@ -1356,7 +1442,7 @@
 				<valueConverter>
                     <matchPattern>.*^[Hh]awk$.*</matchPattern>
                     <matchPattern>.*^[eE]agle$.*</matchPattern>
-                    <outputTemplate>Accipitriformes sp</outputTemplate>
+                    <outputTemplate>Accipitriformes sp.</outputTemplate>
                 </valueConverter>               
 
                
@@ -1435,6 +1521,11 @@
                 </valueConverter>
 
                  <valueConverter>
+                    <matchPattern>.*^[Cc]row;.*</matchPattern>
+                    <outputTemplate>Corvus sp.</outputTemplate>
+                </valueConverter> 
+
+                 <valueConverter>
                     <matchPattern>.*[rR]ook.*</matchPattern>
                     <outputTemplate>Corvus frugilegus</outputTemplate>
                 </valueConverter> 
@@ -1442,6 +1533,12 @@
                  <valueConverter>
                     <matchPattern>.*[rR]aven.*</matchPattern>
                     <outputTemplate>Corvus corax</outputTemplate>
+                </valueConverter> 
+
+                 <valueConverter>
+                    <matchPattern>.*[Bb]lue-and-white flycatcher.*</matchPattern>
+                    <matchPattern>.*[wW]hite flycatcher.*</matchPattern>
+                    <outputTemplate>Cyanoptila cyanomelana</outputTemplate>
                 </valueConverter> 
 
                  <valueConverter>
@@ -1545,12 +1642,12 @@
 
                  <valueConverter>
                     <matchPattern>.*[sS]hrike$.*</matchPattern>
-                    <outputTemplate>Laniidae sp</outputTemplate>
+                    <outputTemplate>Laniidae sp.</outputTemplate>
                 </valueConverter>
                 
                  <valueConverter>
                     <matchPattern>.*^[fF]inch$.*</matchPattern>
-                    <outputTemplate>Fringillidae sp</outputTemplate>
+                    <outputTemplate>Fringillidae sp.</outputTemplate>
                 </valueConverter>
 
                  <valueConverter>
@@ -1565,6 +1662,11 @@
                               
                                                                 
                 <!-- #### Apodiformes (swifts, swallows) -->
+
+                <valueConverter>
+                    <matchPattern>.*^[sS]wiftlet.*</matchPattern>
+                    <outputTemplate>Apodidae sp.</outputTemplate>
+                </valueConverter>  
 
                 <valueConverter>
                     <matchPattern>.*[sS]wift [Tt]ern.*</matchPattern>
@@ -1585,7 +1687,7 @@
 
                 <valueConverter>
                     <matchPattern>.*[pP]arrot$.*</matchPattern>
-                    <outputTemplate>Psittaciformes sp</outputTemplate>
+                    <outputTemplate>Psittaciformes sp.</outputTemplate>
                 </valueConverter>
                 
                 <!-- #### Sphenisciformes (penguins) -->
@@ -1603,9 +1705,15 @@
                 <!-- #### Pelecaniformes (pelicans, egrets, herons, ibises, spoonbills) -->
 
 				<valueConverter>
+                    <matchPattern>.*[pP]elican$.*</matchPattern>
+                    <outputTemplate>Pelecanus sp.</outputTemplate>
+                </valueConverter>
+
+
+				<valueConverter>
                     <matchPattern>.*[eE]gret$.*</matchPattern>
                     <matchPattern>.*[hH]eron$.*</matchPattern>
-                    <outputTemplate>Ardeidae sp</outputTemplate>
+                    <outputTemplate>Ardeidae sp.</outputTemplate>
                 </valueConverter>
                                           
 				<valueConverter>
@@ -1656,13 +1764,26 @@
                     <matchPattern>.*[cC]ommon [cC]oot.*</matchPattern>
                     <matchPattern>.*[wW]ater coot.*</matchPattern>
                     <matchPattern>.*[wW]atercoot.*</matchPattern>
+                    <matchPattern>.*^[cC]oot;.*</matchPattern>
+                    <matchPattern>.*^[cC]oot$.*</matchPattern>
                     <outputTemplate>Fulica atra</outputTemplate>
                 </valueConverter>
+                
+                <valueConverter>
+                    <matchPattern>.*[rR]ed-fronted [cC]oot.*</matchPattern>
+                    <matchPattern>.*^[rR]ed-fronted [cC]oot;.*</matchPattern>
+                    <outputTemplate>Fulica rufifrons</outputTemplate>
+                </valueConverter>
+
+                <valueConverter>
+                    <matchPattern>.*^[mM]oorhen$.*</matchPattern>
+                     <outputTemplate>Gallinula sp.</outputTemplate>
+                </valueConverter>                     
 
                 <valueConverter>
                     <matchPattern>.*^[Cc]oot$.*</matchPattern>
                     <matchPattern>.*^[Rr]ails$.*</matchPattern>
-                    <outputTemplate>Rallidae sp</outputTemplate>
+                    <outputTemplate>Rallidae sp.</outputTemplate>
                 </valueConverter>
                                    
                 <valueConverter>
@@ -1699,6 +1820,11 @@
         
 
                 <!-- #### Podicipediformes (grebes) -->                                         
+
+				<valueConverter>
+                    <matchPattern>.*^[gG]rebe$.*</matchPattern>
+                    <outputTemplate>Podicipedidae sp.</outputTemplate>
+				</valueConverter>                
 
                 <valueConverter>
                     <matchPattern>.*[gG]reat [cC]rested [gG]rebe.*</matchPattern>
@@ -1773,6 +1899,16 @@
                     <outputTemplate>Ciconia ciconia</outputTemplate>
                 </valueConverter> 
                 
+                <!-- #### Psittaciformes (parrots, cockatoos, macaws) --> 
+                
+                <valueConverter>
+                    <matchPattern>.*^[mM]acaw$.*</matchPattern>
+                    <matchPattern>.*^[cC]ockatoo$.*</matchPattern>
+                    <matchPattern>.*^psittacine.*</matchPattern>
+                    <outputTemplate>Psittaciformes sp.</outputTemplate>
+                </valueConverter>
+
+                
                 <!-- #### Cathartiformes (condors) --> 
                 
                 <valueConverter>
@@ -1787,6 +1923,13 @@
                     <matchPattern>.*[nN]orthern [lL]apwing.*</matchPattern>
                     <outputTemplate>Vanellus vanellus</outputTemplate>
                 </valueConverter>
+
+                
+                <valueConverter>
+                    <matchPattern>.*[sS]pur-winged [lL]apwing.*</matchPattern>
+                    <outputTemplate>Vanellus spinosus</outputTemplate>
+                </valueConverter>
+
 
                 <valueConverter>
                     <matchPattern>.*^Pluvialis fulva \(Pacific golden plover\); age HY => 8$.*</matchPattern>
@@ -1829,17 +1972,18 @@
 
 				<!-- #### Porcine -->																																									
  				<valueConverter>
-					<matchPattern>.*^[Pp]iglet$.*</matchPattern>
-					<matchPattern>.*pig; 4 weeks</matchPattern>
-					<matchPattern>.*pig; 5 weeks</matchPattern>
-					<matchPattern>.*pig; gender Female; age Adult</matchPattern>
-					<matchPattern>.*^[Ss]wine.*</matchPattern>
+					<matchPattern>.*^[Pp]iglet.*</matchPattern>
+					<matchPattern>.*^[Pp]ig;.*</matchPattern>
+					<matchPattern>.*^[Pp]ig$.*</matchPattern>
+					<matchPattern>.*^[Pp]igs$.*</matchPattern>
+					<matchPattern>.*^[Ss]wine$.*</matchPattern>
+					<matchPattern>.*^[Ss]wine;.*</matchPattern>
 					<matchPattern>.*Sus [sS]crofa domesticus*</matchPattern>
 					<matchPattern>.*Sus [sS]crofa*</matchPattern>
 					<matchPattern>.*[Pp]orcine.*</matchPattern>
-					<matchPattern>.*^[Ww]ild boar$.*</matchPattern>
-					<matchPattern>.*^[Pp]ig$.*</matchPattern>
-					<matchPattern>.*pig; imported from USA.*</matchPattern>					
+					<matchPattern>.*^[Ww]ild [bB]oar.*</matchPattern>
+					<matchPattern>.*^[Ww]ild [bB]oar;.*</matchPattern>
+					<matchPattern>.*^[Ss]us domesticus;.*</matchPattern>
 					<outputTemplate>Sus scrofa</outputTemplate>
 				</valueConverter>	
 				
@@ -1847,9 +1991,15 @@
  				<valueConverter>
 					<matchPattern>.*[Bb]ovine.*</matchPattern>
 					<matchPattern>.*[Cc]attle.*</matchPattern>
-					<matchPattern>.*[Cc]alf.*</matchPattern>
+					<matchPattern>.*^[Cc]alf$.*</matchPattern>
 					<outputTemplate>Bos taurus</outputTemplate>
 				</valueConverter>
+
+ 				<valueConverter>
+					<matchPattern>.*^[Cc]amel;.*</matchPattern>
+					<outputTemplate>Camelidae sp.</outputTemplate>
+				</valueConverter>
+
 				
 				<!-- #### Cetacean -->																																													
  				<valueConverter>
@@ -1877,7 +2027,7 @@
 
 				<valueConverter>
 					<matchPattern>.*^[Mm]ule$.*</matchPattern>
-					<outputTemplate>Equus sp</outputTemplate>
+					<outputTemplate>Equus sp.</outputTemplate>
 				</valueConverter>
 				
 				
@@ -1907,6 +2057,11 @@
 				</valueConverter>				
 
  				<valueConverter>
+					<matchPattern>.*^[lL]ion$.*</matchPattern>
+					<outputTemplate>Panthera leo</outputTemplate>
+				</valueConverter>				
+
+ 				<valueConverter>
 					<matchPattern>.*[fF]eline.*</matchPattern>
 					<matchPattern>.*^[cC]at$.*</matchPattern>
 					<outputTemplate>Felidae sp.</outputTemplate>
@@ -1930,6 +2085,8 @@
 
  				<valueConverter>
 					<matchPattern>.*[cC]anine.*</matchPattern>
+					<matchPattern>.*[cC]anis lupus familiaris.*</matchPattern>
+					<matchPattern>.*[dD]omestic [dD]og.*</matchPattern>
 					<matchPattern>.*[pP]et [dD]og.*</matchPattern>
 					<matchPattern>.*[cC]anis [lL]upus [fF]amiliaris breed miniature schnauzer.*</matchPattern>
 					<matchPattern>.*Canis lupus familiaris; breed: Tibetan mastiff.*</matchPattern>
@@ -1940,7 +2097,9 @@
 				<!-- #### Pinnipeds -->			
  				<valueConverter>
 					<matchPattern>.*[hH]arbor [sS]eal.*</matchPattern>
-					<matchPattern>.*[hH]arbor [sS]eal; male; juvenile.*</matchPattern>
+					<matchPattern>.*[hH]arbour [sS]eal.*</matchPattern>
+					<matchPattern>.*^[hH]arbor [sS]eal;.*</matchPattern>
+					<matchPattern>.*^[hH]arbour [sS]eal;.*</matchPattern>
 					<outputTemplate>Phoca vitulina</outputTemplate>
 				</valueConverter>
 		
@@ -1957,20 +2116,20 @@
 
 				<valueConverter>
 					<matchPattern>.*^[sS]eal$.*</matchPattern>
-					<outputTemplate>Pinnipedia sp</outputTemplate>
+					<outputTemplate>Pinnipedia sp.</outputTemplate>
 				</valueConverter>
 								
 				<!-- #### Civets -->			
+ 				<valueConverter>
+					<matchPattern>.*[cC]ivet [cC]at.*</matchPattern>
+					<outputTemplate>Viverridae sp.</outputTemplate>
+				</valueConverter>			
+				
  				<valueConverter>
 					<matchPattern>.*[mM]asked palm civet.*</matchPattern>
 					<outputTemplate>Paguma larvata</outputTemplate>
 				</valueConverter>
 
- 				<valueConverter>
-					<matchPattern>.*[cC]ivet [cC]at.*</matchPattern>
-					<outputTemplate>Viverridae sp</outputTemplate>
-				</valueConverter>			
-				
 				<!-- #### Meerkats -->			
  				<valueConverter>
 					<matchPattern>.*[mM]eerkat.*</matchPattern>
@@ -2027,7 +2186,7 @@
 
  				<valueConverter>
 					<matchPattern>.*[pP]ika.*</matchPattern>
-					<outputTemplate>Ochotonidae sp</outputTemplate>
+					<outputTemplate>Ochotonidae sp.</outputTemplate>
 				</valueConverter>
 							 	
 				<!-- #### Rodents -->			

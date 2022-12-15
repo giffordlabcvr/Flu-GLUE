@@ -8,7 +8,7 @@
 		<referenceSequence>REF_S1_IAV_A4_MF959980</referenceSequence>	
 		<referenceSequence>REF_S1_IAV_A4_LC314499</referenceSequence>
 		<referenceSequence>REF_S1_IAV_A5_LC371839</referenceSequence>
-		<referenceSequence>REF_S1_IAV_A5_MW106492</referenceSequence>
+
 		<referenceSequence>REF_S1_IAV_A5_OL371652</referenceSequence>	
 		<referenceSequence>REF_S1_IAV_B1_MK045456</referenceSequence>
 		<referenceSequence>REF_S1_IAV_B2_MK045456</referenceSequence>
@@ -77,14 +77,7 @@
 				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
 				  <referenceSequence>REF_S1_IAV_A5_LC371839</referenceSequence>
 		</recognitionCategory>
-		
-		<recognitionCategory>
-				<id>A5</id>
-				<minimumIdentityPct>75</minimumIdentityPct>
-				  <minimumBitScore>500</minimumBitScore>
-				  <minimumTotalAlignLength>300</minimumTotalAlignLength>
-				  <referenceSequence>REF_S1_IAV_A5_MW106492</referenceSequence>
-		</recognitionCategory>
+
 		
 		<recognitionCategory>
 				<id>A5</id>
