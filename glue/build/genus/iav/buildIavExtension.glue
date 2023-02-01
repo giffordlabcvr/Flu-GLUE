@@ -7,6 +7,9 @@ project flu
   # Import sources 
   run file glue/build/genus/iav/iavLoadSources.glue
 
+  # Import references 
+  run file glue/build/genus/iav/iavReferences.glue
+
   # Link imported sequences to isolate table 
   run script glue/build/genus/iav/iavLoadIsolateData.js
 
@@ -16,7 +19,7 @@ project flu
 
   # Run segment recogniser
   #run script glue/build/genus/iav/iavCheckSegments.js
-
+ 
   # Define constrained alignment tree for extension project
   run file glue/build/genus/iav/iavAlignmentTree.glue
    

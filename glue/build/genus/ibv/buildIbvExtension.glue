@@ -12,11 +12,6 @@ project flu
   # Link imported sequences to isolate table 
   run script glue/genus/ibv/ibvLoadIsolateData.js
 
-
-  # Import references 
-  run file glue/genus/ibv/ibvReferences.glue
-
-
   # Import data from GenBank XML
   module genbankXmlPopulator populate
 
