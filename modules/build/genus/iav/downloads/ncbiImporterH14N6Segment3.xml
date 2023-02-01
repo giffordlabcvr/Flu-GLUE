@@ -1,0 +1,13 @@
+<!-- NCBI import module for IAV subtype 'H14N6' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-3</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>CY133271</primaryAccession> <!-- # A/mallard/Wisconsin/10OS3941/2010 -->
+		<primaryAccession>CY133386</primaryAccession> <!-- # A/northern shoveler/Missouri/10OS4673/2010 -->
+		<primaryAccession>KC110604</primaryAccession> <!-- # A/long-tailed duck/Wisconsin/10OS4225/2010 -->
+		<primaryAccession>KJ195667</primaryAccession> <!-- # A/blue-winged teal/Guatemala/CIP049H106-62/2011 -->
+		<primaryAccession>KC110596</primaryAccession> <!-- # A/long-tailed duck/Wisconsin/10OS3912/2010 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

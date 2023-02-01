@@ -1,0 +1,2007 @@
+<!-- NCBI import module for IAV subtype 'H5N1' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-6</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>LC167776</primaryAccession> <!-- # A/environment/Vietnam/HU3-1485/2015 -->
+		<primaryAccession>CY029939</primaryAccession> <!-- # A/chicken/Vietnam/15/2004 -->
+		<primaryAccession>HM172204</primaryAccession> <!-- # A/chicken/Xinjiang/54/2005 -->
+		<primaryAccession>CY029225</primaryAccession> <!-- # A/silky chicken/Shantou/541/2003(H5N1) -->
+		<primaryAccession>GU182240</primaryAccession> <!-- # A/environment/Hunan/2-16/2007 -->
+		<primaryAccession>MF112816</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-75/2015 -->
+		<primaryAccession>FJ390063</primaryAccession> <!-- # A/plateau pika/Qinghai/04/2007 -->
+		<primaryAccession>CY030540</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-45/2007(H5N1) -->
+		<primaryAccession>KF001390</primaryAccession> <!-- # A/Cambodia/X0125302/2013 -->
+		<primaryAccession>KP662586</primaryAccession> <!-- # A/crow/India/03CA06/2012 -->
+		<primaryAccession>CY036063</primaryAccession> <!-- # A/crested goshawk/Hong Kong/458/2007(H5N1) -->
+		<primaryAccession>CY047477</primaryAccession> <!-- # A/duck/Omsk/1822/2006(H5N1) -->
+		<primaryAccession>CY029169</primaryAccession> <!-- # A/quail/Shantou/3846/2002(H5N1) -->
+		<primaryAccession>CY029442</primaryAccession> <!-- # A/duck/Yunnan/5948/2003(H5N1) -->
+		<primaryAccession>HM172167</primaryAccession> <!-- # A/chicken/Sichuan/81/2005 -->
+		<primaryAccession>KY171288</primaryAccession> <!-- # A/duck/Vietnam/R2-5-1589-15/2013 -->
+		<primaryAccession>CY030329</primaryAccession> <!-- # A/duck/Vietnam/NCVD-12/2007(H5N1) -->
+		<primaryAccession>LC331873</primaryAccession> <!-- # A/chicken/Vietnam/HU4-1316/2015 -->
+		<primaryAccession>EU263982</primaryAccession> <!-- # A/human/China/GD02/2006 -->
+		<primaryAccession>KY614826</primaryAccession> <!-- # A/chicken/Semarang/04141225-07/2014 -->
+		<primaryAccession>KY635726</primaryAccession> <!-- # A/duck/Bangladesh/25893/2015 -->
+		<primaryAccession>MW466314</primaryAccession> <!-- # A/duck/Bangladesh/41320/2019 -->
+		<primaryAccession>KY614866</primaryAccession> <!-- # A/chicken/Majalengka/08160070-001/2016 -->
+		<primaryAccession>CY036231</primaryAccession> <!-- # A/black-crowned night heron/Hong Kong/659/2008(H5N1) -->
+		<primaryAccession>AY950248</primaryAccession> <!-- # A/Chicken/Henan/16/2004 -->
+		<primaryAccession>EU931014</primaryAccession> <!-- # A/duck/Vietnam/218/2005 -->
+		<primaryAccession>CY048605</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-92/2007(H5N1) -->
+		<primaryAccession>CY029673</primaryAccession> <!-- # A/Muscovy duck/Vietnam/39/2007(H5N1) -->
+		<primaryAccession>GU050430</primaryAccession> <!-- # A/duck/Ha Tinh/07-53/2007 -->
+		<primaryAccession>CY030257</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-3/2007(H5N1) -->
+		<primaryAccession>MW676438</primaryAccession> <!-- # A/DUCK/Hunan/44/2010 -->
+		<primaryAccession>CY090110</primaryAccession> <!-- # A/chicken/India/100071/2008 -->
+		<primaryAccession>KY635622</primaryAccession> <!-- # A/duck/Bangladesh/28389/2016 -->
+		<primaryAccession>CY029260</primaryAccession> <!-- # A/silky chicken/Shantou/475/2004(H5N1) -->
+		<primaryAccession>FJ455822</primaryAccession> <!-- # A/environment/Qinghai/1/2008 -->
+		<primaryAccession>JX420232</primaryAccession> <!-- # A/Muscovy duck/Hai Duong/46/2007 -->
+		<primaryAccession>EU146827</primaryAccession> <!-- # A/Indonesia/604H/2006 -->
+		<primaryAccession>KU042800</primaryAccession> <!-- # A/duck/Zhejiang/1220092/2014 -->
+		<primaryAccession>CY029288</primaryAccession> <!-- # A/duck/Hunan/300/2003(H5N1) -->
+		<primaryAccession>MF112811</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-70/2015 -->
+		<primaryAccession>KC261473</primaryAccession> <!-- # A/duck/Eastern China/057/2007 -->
+		<primaryAccession>KP674457</primaryAccession> <!-- # A/crow/India/01CA02/2014 -->
+		<primaryAccession>KR271017</primaryAccession> <!-- # A/thick-billed_murre/Greenland/9045-2K/2014 -->
+		<primaryAccession>AB265202</primaryAccession> <!-- # A/whooper swan/Mongolia/2/06 -->
+		<primaryAccession>KF001374</primaryAccession> <!-- # A/Cambodia/X0123311/2013 -->
+		<primaryAccession>CY098311</primaryAccession> <!-- # A/duck/Lao/6/2010 -->
+		<primaryAccession>HQ908479</primaryAccession> <!-- # A/chicken/Egypt/1063/2010 -->
+		<primaryAccession>MH791746</primaryAccession> <!-- # A/duck/Bangladesh/34105/2017 -->
+		<primaryAccession>KR732467</primaryAccession> <!-- # A/chicken/Egypt/07118-NLQP/2007 -->
+		<primaryAccession>JN808043</primaryAccession> <!-- # A/duck/Korea/Cheonan/2010 -->
+		<primaryAccession>KF881328</primaryAccession> <!-- # A/chicken/Egypt/S3093A/2011 -->
+		<primaryAccession>CY036079</primaryAccession> <!-- # A/Japanese white-eye/Hong Kong/737/2007(H5N1) -->
+		<primaryAccession>MF112754</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-13/2015 -->
+		<primaryAccession>CY030409</primaryAccession> <!-- # A/Muscovy duck/Vietnam/NCVD-23/2007(H5N1) -->
+		<primaryAccession>KY635744</primaryAccession> <!-- # A/duck/Bangladesh/27820/2015 -->
+		<primaryAccession>HQ200574</primaryAccession> <!-- # A/chicken/Cambodia/LC1AL/2007 -->
+		<primaryAccession>MW749015</primaryAccession> <!-- # A/duck/Bangladesh/45729/2020 -->
+		<primaryAccession>GQ227361</primaryAccession> <!-- # A/pika/Qinghai/BI/2007 -->
+		<primaryAccession>EU146786</primaryAccession> <!-- # A/Indonesia/560H/2006 -->
+		<primaryAccession>KC261477</primaryAccession> <!-- # A/chicken/Eastern China/ZG16/2010 -->
+		<primaryAccession>GQ202209</primaryAccession> <!-- # A/tree sparrow/Jiangsu/1/2008 -->
+		<primaryAccession>CY111123</primaryAccession> <!-- # A/chicken/India/96880/2008 -->
+		<primaryAccession>AB478034</primaryAccession> <!-- # A/village chicken/Kyaing Tong/2433/2007 -->
+		<primaryAccession>KT717191</primaryAccession> <!-- # A/chicken/India/01CA09/2012 -->
+		<primaryAccession>GU050399</primaryAccession> <!-- # A/chicken/Cao Bang/07-42/2007 -->
+		<primaryAccession>KY170937</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-3185/2013 -->
+		<primaryAccession>JN646733</primaryAccession> <!-- # A/duck/Zhejiang/2248/2011 -->
+		<primaryAccession>CY098414</primaryAccession> <!-- # A/duck/Lao/975/2010 -->
+		<primaryAccession>LC379960</primaryAccession> <!-- # A/chicken/Egypt/CL69/2013 -->
+		<primaryAccession>KU201866</primaryAccession> <!-- # A/American wigeon/Washington/196340/2015 -->
+		<primaryAccession>GQ412065</primaryAccession> <!-- # A/chicken/Korea/USQ284/2008 -->
+		<primaryAccession>LC167688</primaryAccession> <!-- # A/environment/Vietnam/HU3-970/2015 -->
+		<primaryAccession>CY116648</primaryAccession> <!-- # A/Indonesia/5/2005 -->
+		<primaryAccession>KC616514</primaryAccession> <!-- # A/chicken/Bangladesh/12VIR-7140-17/2012 -->
+		<primaryAccession>AB972749</primaryAccession> <!-- # A/muscovy duck/Long An/46/2013 -->
+		<primaryAccession>KJ682261</primaryAccession> <!-- # A/chicken/Bhutan/413/2012 -->
+		<primaryAccession>KU971406</primaryAccession> <!-- # A/chicken/Ghana/15VIR5480-12/2015 -->
+		<primaryAccession>CY019426</primaryAccession> <!-- # A/Indonesia/CDC1047/2007 -->
+		<primaryAccession>HM172200</primaryAccession> <!-- # A/duck/Jiangxi/80/2005 -->
+		<primaryAccession>CY029358</primaryAccession> <!-- # A/duck/Yunnan/215/2003(H5N1) -->
+		<primaryAccession>MG957551</primaryAccession> <!-- # A/duck/Bangladesh/32247/2017 -->
+		<primaryAccession>HQ200582</primaryAccession> <!-- # A/chicken/Cambodia/LC3AL/2007 -->
+		<primaryAccession>CY016278</primaryAccession> <!-- # A/chicken/Nigeria/641/2006 -->
+		<primaryAccession>CY037772</primaryAccession> <!-- # A/chicken/Sihala/NARC3303.4/2006(H5N1) -->
+		<primaryAccession>KY171312</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-3184/2013 -->
+		<primaryAccession>KJ682279</primaryAccession> <!-- # A/chicken/Bhutan/298/2012 -->
+		<primaryAccession>CY029029</primaryAccession> <!-- # A/duck/Shantou/1930/2001(H5N1) -->
+		<primaryAccession>AY818141</primaryAccession> <!-- # A/Viet Nam/1203/2004 -->
+		<primaryAccession>CY016302</primaryAccession> <!-- # A/chicken/Sudan/1784-10/2006 -->
+		<primaryAccession>EU748905</primaryAccession> <!-- # A/falcon/Saudi Arabia/D1795/2005 -->
+		<primaryAccession>KT361936</primaryAccession> <!-- # A/duck/Bangladesh/21469/2013 -->
+		<primaryAccession>HM172206</primaryAccession> <!-- # A/chicken/Liaoning/A-1/2007 -->
+		<primaryAccession>CY033171</primaryAccession> <!-- # A/chicken/Vietnam/830/2004 -->
+		<primaryAccession>OL477526</primaryAccession> <!-- # A/chicken/Lesotho/352.3/2021 -->
+		<primaryAccession>LC500368</primaryAccession> <!-- # A/goose/Vietnam/HU10-1141/2018 -->
+		<primaryAccession>AB684173</primaryAccession> <!-- # A/black swan/Yamaguchi/1/2011 -->
+		<primaryAccession>FM165532</primaryAccession> <!-- # A/Peking duck/R1959/Germany/2007 -->
+		<primaryAccession>KY629463</primaryAccession> <!-- # A/environment/Bangladesh/23223/2014 -->
+		<primaryAccession>JN588851</primaryAccession> <!-- # A/duck/Cambodia/PV027D1/2010 -->
+		<primaryAccession>KT220541</primaryAccession> <!-- # A/chicken/Egypt/F9514A/2014 -->
+		<primaryAccession>HM172205</primaryAccession> <!-- # A/chicken/Ningxia/24/2006 -->
+		<primaryAccession>MH127651</primaryAccession> <!-- # A/mink/China/CY/2017 -->
+		<primaryAccession>GU182160</primaryAccession> <!-- # A/chicken/Hunan/8/2008 -->
+		<primaryAccession>CY034722</primaryAccession> <!-- # A/chicken/Laos/P0171/2007(H5N1) -->
+		<primaryAccession>KJ682227</primaryAccession> <!-- # A/chicken/Bhutan/415/2012 -->
+		<primaryAccession>KU057282</primaryAccession> <!-- # A/tiger/Yunnan/tig1412/2014 -->
+		<primaryAccession>GU050533</primaryAccession> <!-- # A/muscovy duck/Thai Binh/07-90/2007 -->
+		<primaryAccession>HM006753</primaryAccession> <!-- # A/Chicken/Laos/Xaythiani 26/2006 -->
+		<primaryAccession>LC106091</primaryAccession> <!-- # A/duck/Dakahlia/1536CAG/2015 -->
+		<primaryAccession>GU050359</primaryAccession> <!-- # A/duck/Soc Trang/07-25/2007 -->
+		<primaryAccession>CY014430</primaryAccession> <!-- # A/Indonesia/CDC624E/2006 -->
+		<primaryAccession>KP097957</primaryAccession> <!-- # A/duck/Vietnam/NCVD-KA261/2012 -->
+		<primaryAccession>CY014290</primaryAccession> <!-- # A/Indonesia/CDC596/2006 -->
+		<primaryAccession>KJ682301</primaryAccession> <!-- # A/wild bird/Bhutan/329/2012 -->
+		<primaryAccession>EU146803</primaryAccession> <!-- # A/Indonesia/567H/2006 -->
+		<primaryAccession>KX160195</primaryAccession> <!-- # A/chicken/Ningxia/2/2012 -->
+		<primaryAccession>MT020006</primaryAccession> <!-- # A/chicken/Viet Nam/HU12-661/2019 -->
+		<primaryAccession>HQ636462</primaryAccession> <!-- # A/Hong Kong/6841/2010 -->
+		<primaryAccession>DQ914816</primaryAccession> <!-- # A/chicken/Shanxi/2/2006 -->
+		<primaryAccession>CY029036</primaryAccession> <!-- # A/chicken/Shantou/2535/2001(H5N1) -->
+		<primaryAccession>KP872897</primaryAccession> <!-- # A/quail/Vietnam/CVVI-50/2014 -->
+		<primaryAccession>MF112742</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-1/2015 -->
+		<primaryAccession>HM172203</primaryAccession> <!-- # A/duck/Hunan/11/2007 -->
+		<primaryAccession>CY020351</primaryAccession> <!-- # A/cygnus olor/Italy/808/2006 -->
+		<primaryAccession>HM172169</primaryAccession> <!-- # A/chicken/Fujian/1/2007 -->
+		<primaryAccession>CY036095</primaryAccession> <!-- # A/peregrine falcon/Hong Kong/1143/2007(H5N1) -->
+		<primaryAccession>KJ682281</primaryAccession> <!-- # A/chicken/Bhutan/1030/2012 -->
+		<primaryAccession>KF881418</primaryAccession> <!-- # A/chicken/Egypt/Q1769B/2010 -->
+		<primaryAccession>KY171209</primaryAccession> <!-- # A/duck/Vietnam/NCVD14-A499/2014 -->
+		<primaryAccession>LC106089</primaryAccession> <!-- # A/turkey/Menia/15248S/2015 -->
+		<primaryAccession>GQ122511</primaryAccession> <!-- # A/chicken/East Java/UT6021/2006 -->
+		<primaryAccession>AB684209</primaryAccession> <!-- # A/chicken/Nara/1/2011 -->
+		<primaryAccession>GQ122557</primaryAccession> <!-- # A/chicken/East Java/UT6020/2006 -->
+		<primaryAccession>AB979505</primaryAccession> <!-- # A/duck/Vietnam/LBM638/2014 -->
+		<primaryAccession>MF112782</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-41/2015 -->
+		<primaryAccession>JN646731</primaryAccession> <!-- # A/duck/Zhejiang/2244/2011 -->
+		<primaryAccession>CY016901</primaryAccession> <!-- # A/duck/Egypt/2253-3/2006 -->
+		<primaryAccession>AB829747</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM399/2013 -->
+		<primaryAccession>CY190133</primaryAccession> <!-- # A/environment/Maryland/06OS1175/2006 -->
+		<primaryAccession>CY061304</primaryAccession> <!-- # A/chicken/West Bengal/239022/2010 -->
+		<primaryAccession>CY019402</primaryAccession> <!-- # A/Indonesia/CDC1032T/2007 -->
+		<primaryAccession>AB787203</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM258/2012 -->
+		<primaryAccession>HQ200476</primaryAccession> <!-- # A/duck/Cambodia/D3PV/2006 -->
+		<primaryAccession>CY040984</primaryAccession> <!-- # A/duck/Laos/P0137/2007(H5N1) -->
+		<primaryAccession>EF523703</primaryAccession> <!-- # A/tufted duck/Denmark/6540/06 -->
+		<primaryAccession>MF112818</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-77/2016 -->
+		<primaryAccession>KM267775</primaryAccession> <!-- # A/crow/India/02CA02/2012 -->
+		<primaryAccession>KU042805</primaryAccession> <!-- # A/pigeon/Zhejiang/112090/2014 -->
+		<primaryAccession>AY950249</primaryAccession> <!-- # A/WildDuck/Guangdong/314/2004 -->
+		<primaryAccession>HQ131676</primaryAccession> <!-- # A/great crested grebe/Tyva/22/2010 -->
+		<primaryAccession>HM114459</primaryAccession> <!-- # A/Vietnam/UT3028II/2003 -->
+		<primaryAccession>MN994195</primaryAccession> <!-- # A/chicken/Bangladesh/NRL-AI-8469/2017 -->
+		<primaryAccession>CY048565</primaryAccession> <!-- # A/ostrich/Nigeria/08RS848-84/2007(H5N1) -->
+		<primaryAccession>CY048413</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-59/2007(H5N1) -->
+		<primaryAccession>JN808028</primaryAccession> <!-- # A/baikal teal/Korea/Q524/2010 -->
+		<primaryAccession>CY017690</primaryAccession> <!-- # A/Indonesia/CDC887/2006 -->
+		<primaryAccession>OL477471</primaryAccession> <!-- # A/chicken/Lesotho/341.10/2021 -->
+		<primaryAccession>MF112821</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-80/2016 -->
+		<primaryAccession>CY029120</primaryAccession> <!-- # A/goose/Shantou/157/2002(H5N1) -->
+		<primaryAccession>CY098711</primaryAccession> <!-- # A/Beijing/1/2009 -->
+		<primaryAccession>CY126122</primaryAccession> <!-- # A/chicken/Giza/CAI6/2008 -->
+		<primaryAccession>MF112834</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-93/2016 -->
+		<primaryAccession>AB615239</primaryAccession> <!-- # A/tufted duck/Fukushima/2/2011 -->
+		<primaryAccession>CY014234</primaryAccession> <!-- # A/feline/Indonesia/CDC1/2006 -->
+		<primaryAccession>FJ784768</primaryAccession> <!-- # A/duck/Hunan/1930/2007 -->
+		<primaryAccession>EU931022</primaryAccession> <!-- # A/duck/Vietnam/219/2005 -->
+		<primaryAccession>MK744025</primaryAccession> <!-- # A/duck/Jiangxi/34/2011 -->
+		<primaryAccession>CY029274</primaryAccession> <!-- # A/duck/Hunan/795/2002(H5N1) -->
+		<primaryAccession>HQ677024</primaryAccession> <!-- # A/chicken/Huadong/4/2008 -->
+		<primaryAccession>KP097979</primaryAccession> <!-- # A/duck/Vietnam/NCVD-A672/2011 -->
+		<primaryAccession>KJ682277</primaryAccession> <!-- # A/chicken/Bhutan/934/2012 -->
+		<primaryAccession>KF881605</primaryAccession> <!-- # A/chicken/Egypt/S3280E/2011 -->
+		<primaryAccession>FJ966205</primaryAccession> <!-- # A/crow/Assam/142119/2008 -->
+		<primaryAccession>KP097977</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-03.08/2008 -->
+		<primaryAccession>CY036119</primaryAccession> <!-- # A/silver-eared mesia/Hong Kong/2065/2007(H5N1) -->
+		<primaryAccession>MW466418</primaryAccession> <!-- # A/duck/Bangladesh/41248/2019 -->
+		<primaryAccession>CY029400</primaryAccession> <!-- # A/chicken/Yunnan/1628/2003(H5N1) -->
+		<primaryAccession>CY097352</primaryAccession> <!-- # A/mallard/Wisconsin/2576/2009 -->
+		<primaryAccession>EU930958</primaryAccession> <!-- # A/duck/Vietnam/210/2005 -->
+		<primaryAccession>KF881612</primaryAccession> <!-- # A/goose/Egypt/M2794E/2011 -->
+		<primaryAccession>KJ682315</primaryAccession> <!-- # A/chicken/Bhutan/257/2012 -->
+		<primaryAccession>KT867338</primaryAccession> <!-- # A/duck/India/11CA08/2014 -->
+		<primaryAccession>CY036255</primaryAccession> <!-- # A/magpie robin/Hong Kong/1097/2008(H5N1) -->
+		<primaryAccession>KJ682287</primaryAccession> <!-- # A/wild bird/Bhutan/325/2012 -->
+		<primaryAccession>CY029204</primaryAccession> <!-- # A/pheasant/Shantou/40/2003(H5N1) -->
+		<primaryAccession>KT361982</primaryAccession> <!-- # A/duck/Bangladesh/21907/2014 -->
+		<primaryAccession>CY029950</primaryAccession> <!-- # A/chicken/Kuwait/KISR2/2007(H5N1) -->
+		<primaryAccession>AB786686</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM228/2012 -->
+		<primaryAccession>EU329179</primaryAccession> <!-- # A/wild duck/Hunan/021/2005 -->
+		<primaryAccession>CY098816</primaryAccession> <!-- # A/environment/Guizhou/7/2009 -->
+		<primaryAccession>CY036191</primaryAccession> <!-- # A/house crow/Hong Kong/5288/2007(H5N1) -->
+		<primaryAccession>KU971350</primaryAccession> <!-- # A/chicken/Niger/15VIR2060-8/2015 -->
+		<primaryAccession>KY171400</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-2716/2013 -->
+		<primaryAccession>CY048125</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-106/2007(H5N1) -->
+		<primaryAccession>KY171570</primaryAccession> <!-- # A/duck/Vietnam/NCVD-0193/2012 -->
+		<primaryAccession>KJ682293</primaryAccession> <!-- # A/chicken/Bhutan/349/2012 -->
+		<primaryAccession>KX513169</primaryAccession> <!-- # A/duck/Vietnam/ST1490-3/2012 -->
+		<primaryAccession>MF112745</primaryAccession> <!-- # A/duck/Nigeria/16VIR5840-4/2015 -->
+		<primaryAccession>KY171530</primaryAccession> <!-- # A/duck/Vietnam/NCVD-2848/2013 -->
+		<primaryAccession>CY016821</primaryAccession> <!-- # A/cygnus olor/Croatia/1/2005 -->
+		<primaryAccession>LC010754</primaryAccession> <!-- # A/muscovy duck/Long An/87/2014 -->
+		<primaryAccession>HM440117</primaryAccession> <!-- # A/swine/Banten/UT6008/2007 -->
+		<primaryAccession>KF369216</primaryAccession> <!-- # A/Cambodia/W0526301/2012 -->
+		<primaryAccession>MT090513</primaryAccession> <!-- # A/duck/Bangladesh/40532/2019 -->
+		<primaryAccession>KY629449</primaryAccession> <!-- # A/duck/Bangladesh/24044/2014 -->
+		<primaryAccession>CY029246</primaryAccession> <!-- # A/chicken/Shantou/3744/2003(H5N1) -->
+		<primaryAccession>KJ682243</primaryAccession> <!-- # A/chicken/Bhutan/1026/2012 -->
+		<primaryAccession>JN808036</primaryAccession> <!-- # A/common Ketrel/Korea/Q197/2011 -->
+		<primaryAccession>KY614914</primaryAccession> <!-- # A/chicken/Banyuwangi/04160330/2016 -->
+		<primaryAccession>EU443572</primaryAccession> <!-- # A/cygnus olor/Czech Republic/10814/06 -->
+		<primaryAccession>HQ200555</primaryAccession> <!-- # A/chicken/Cambodia/047LC3b/2005 -->
+		<primaryAccession>KY635809</primaryAccession> <!-- # A/duck/Bangladesh/25887/2015 -->
+		<primaryAccession>AB684166</primaryAccession> <!-- # A/chicken/Miyazaki/11/2011 -->
+		<primaryAccession>EU221251</primaryAccession> <!-- # A/duck/Nong-Khai/Thailand/KU-56/2007 -->
+		<primaryAccession>MF112820</primaryAccession> <!-- # A/turkey/Nigeria/16VIR5840-79/2016 -->
+		<primaryAccession>JX013486</primaryAccession> <!-- # A/parrot/Guangdong/C99/2005 -->
+		<primaryAccession>HQ908463</primaryAccession> <!-- # A/chicken/Egypt/096L-NLQP/2009 -->
+		<primaryAccession>CY014313</primaryAccession> <!-- # A/Indonesia/CDC523/2006 -->
+		<primaryAccession>KX513344</primaryAccession> <!-- # A/duck/Vietnam/ST1488-1/2012 -->
+		<primaryAccession>JN646728</primaryAccession> <!-- # A/duck/Zhejiang/224/2011 -->
+		<primaryAccession>KY635589</primaryAccession> <!-- # A/duck/Bangladesh/25683/2015 -->
+		<primaryAccession>CY029316</primaryAccession> <!-- # A/duck/Hunan/533/2004(H5N1) -->
+		<primaryAccession>CY017045</primaryAccession> <!-- # A/swan/Slovenia/760/2006 -->
+		<primaryAccession>MW961494</primaryAccession> <!-- # A/chicken/Nigeria/VRD21-98_21VIR2288-6/2021 -->
+		<primaryAccession>CY186669</primaryAccession> <!-- # A/mallard/Illinois/12OS5080/2012 -->
+		<primaryAccession>KF881568</primaryAccession> <!-- # A/chicken/Egypt/S3802B/2011 -->
+		<primaryAccession>CY033179</primaryAccession> <!-- # A/duck/Vietnam/942B/2004 -->
+		<primaryAccession>KU057274</primaryAccession> <!-- # A/tiger/Yunnan/tig1404/2014 -->
+		<primaryAccession>CY061296</primaryAccession> <!-- # A/chicken/West Bengal/239020/2010 -->
+		<primaryAccession>OM938402</primaryAccession> <!-- # A/duck/Bangladesh/46160/2020 -->
+		<primaryAccession>EU443570</primaryAccession> <!-- # A/cygnus olor/Czech Republic/10732/07 -->
+		<primaryAccession>HM114555</primaryAccession> <!-- # A/Vietnam/UT31239/2007 -->
+		<primaryAccession>KU311516</primaryAccession> <!-- # A/pheasant/TienGiang/0026/2013 -->
+		<primaryAccession>KP097951</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-KA57/2012 -->
+		<primaryAccession>KY063742</primaryAccession> <!-- # A/turkey/Missouri/16-014037-7/2016 -->
+		<primaryAccession>EU329184</primaryAccession> <!-- # A/wild duck/Hunan/211/2005 -->
+		<primaryAccession>AY737308</primaryAccession> <!-- # A/duck/Guangdong/173/04 -->
+		<primaryAccession>GU052435</primaryAccession> <!-- # A/pigeon/Thailand/1B/2004 -->
+		<primaryAccession>CY031003</primaryAccession> <!-- # A/turkey/England/N50-92/1991(H5N1) -->
+		<primaryAccession>MH546333</primaryAccession> <!-- # A/blue-winged teal/Texas/16-031241-1/2016 -->
+		<primaryAccession>CY110856</primaryAccession> <!-- # A/common buzzard/Bulgaria/38WB/2010 -->
+		<primaryAccession>EU700510</primaryAccession> <!-- # A/saker falcon/Kuwait/0286/2007 -->
+		<primaryAccession>LC167768</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-1411/2015 -->
+		<primaryAccession>GQ122565</primaryAccession> <!-- # A/chicken/East Java/UT6023/2006 -->
+		<primaryAccession>KJ682249</primaryAccession> <!-- # A/chicken/Bhutan/345/2012 -->
+		<primaryAccession>GQ227394</primaryAccession> <!-- # A/pika/Qinghai/QW/2007 -->
+		<primaryAccession>KY629526</primaryAccession> <!-- # A/chicken/Bangladesh/22482/2014 -->
+		<primaryAccession>DQ094284</primaryAccession> <!-- # A/chicken/Viet Nam/DN-045/2004 -->
+		<primaryAccession>CY041300</primaryAccession> <!-- # A/chicken/Egypt/0891/2008 -->
+		<primaryAccession>GU727679</primaryAccession> <!-- # A/duck/Eastern China/909/2009 -->
+		<primaryAccession>CY029745</primaryAccession> <!-- # A/Muscovy duck/Vietnam/54/2007(H5N1) -->
+		<primaryAccession>CY089423</primaryAccession> <!-- # A/duck/India/02CA10/2011 -->
+		<primaryAccession>CY029211</primaryAccession> <!-- # A/chicken/Shantou/133/2003(H5N1) -->
+		<primaryAccession>CY098592</primaryAccession> <!-- # A/Jiangxi/1/2005 -->
+		<primaryAccession>AY950245</primaryAccession> <!-- # A/Chicken/Henan/210/2004 -->
+		<primaryAccession>GQ122541</primaryAccession> <!-- # A/chicken/East Java/UT6045/2007 -->
+		<primaryAccession>CY046072</primaryAccession> <!-- # A/chicken/India/WB-NIV2653/2008(H5N1) -->
+		<primaryAccession>CY016805</primaryAccession> <!-- # A/duck/Cote d'Ivoire/1787-18/2006 -->
+		<primaryAccession>KM267844</primaryAccession> <!-- # A/duck/Bangladesh/14VIR1121-17/2013 -->
+		<primaryAccession>LC167648</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-835/2015 -->
+		<primaryAccession>LC167720</primaryAccession> <!-- # A/duck/Vietnam/HU3-1265/2015 -->
+		<primaryAccession>EF205171</primaryAccession> <!-- # A/goose/Krasnoozerskoe/627/05 -->
+		<primaryAccession>KY170913</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-2816/2013 -->
+		<primaryAccession>KT362032</primaryAccession> <!-- # A/duck/Bangladesh/21329/2013 -->
+		<primaryAccession>CY088771</primaryAccession> <!-- # A/Bangladesh/3233/2011 -->
+		<primaryAccession>KU311564</primaryAccession> <!-- # A/duck/CaMau/0237/2015 -->
+		<primaryAccession>AB684180</primaryAccession> <!-- # A/chicken/Aichi/2/2011 -->
+		<primaryAccession>KY629538</primaryAccession> <!-- # A/duck/Bangladesh/22996/2014 -->
+		<primaryAccession>AB760265</primaryAccession> <!-- # A/hooded crane/Kagoshima/4612J003/2010 -->
+		<primaryAccession>KX160180</primaryAccession> <!-- # A/chicken/Liaoning/S4092/2011 -->
+		<primaryAccession>MF112790</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-49/2015 -->
+		<primaryAccession>CY036071</primaryAccession> <!-- # A/house crow/Hong Kong/719/2007(H5N1) -->
+		<primaryAccession>CY029737</primaryAccession> <!-- # A/duck/Vietnam/53/2007(H5N1) -->
+		<primaryAccession>MF112766</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-25/2015 -->
+		<primaryAccession>EU930998</primaryAccession> <!-- # A/chicken/Vietnam/216/2005 -->
+		<primaryAccession>LC167600</primaryAccession> <!-- # A/chicken/Vietnam/HU3-721/2015 -->
+		<primaryAccession>KT867330</primaryAccession> <!-- # A/duck/India/11TR03/2014 -->
+		<primaryAccession>CY098725</primaryAccession> <!-- # A/Hunan/1/2009 -->
+		<primaryAccession>CY048501</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-74/2007(H5N1) -->
+		<primaryAccession>HM172196</primaryAccession> <!-- # A/chicken/Liaoning/A-11/2006 -->
+		<primaryAccession>CY098650</primaryAccession> <!-- # A/Sichuan/3/2006 -->
+		<primaryAccession>MG668925</primaryAccession> <!-- # A/Thailand/NBL1/2006 -->
+		<primaryAccession>OL311389</primaryAccession> <!-- # A/India/SARI-4571/2021 -->
+		<primaryAccession>MF112762</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-21/2015 -->
+		<primaryAccession>MF112812</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-71/2015 -->
+		<primaryAccession>MF112784</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-43/2015 -->
+		<primaryAccession>LC167792</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-Z2/2015 -->
+		<primaryAccession>CY098739</primaryAccession> <!-- # A/Guizhou/1/2009 -->
+		<primaryAccession>MH791847</primaryAccession> <!-- # A/quail/Bangladesh/34292/2017 -->
+		<primaryAccession>MF112827</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-86/2016 -->
+		<primaryAccession>AB979465</primaryAccession> <!-- # A/duck/Vietnam/LBM632/2014 -->
+		<primaryAccession>CY029537</primaryAccession> <!-- # A/Muscovy duck/Vietnam/1455/2006(H5N1) -->
+		<primaryAccession>KP097981</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-A937/2011 -->
+		<primaryAccession>CY041008</primaryAccession> <!-- # A/chicken/Laos/17/2008(H5N1) -->
+		<primaryAccession>GU050461</primaryAccession> <!-- # A/duck/Ninh Binh/07-68/2007 -->
+		<primaryAccession>AB741568</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM66/2011 -->
+		<primaryAccession>KF881721</primaryAccession> <!-- # A/chicken/Egypt/Q2247B/2010 -->
+		<primaryAccession>KR732455</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-421/2010 -->
+		<primaryAccession>HM172180</primaryAccession> <!-- # A/chicken/Anhui/39/2004 -->
+		<primaryAccession>KJ643882</primaryAccession> <!-- # A/crow/India/11CL01/2011 -->
+		<primaryAccession>CY036103</primaryAccession> <!-- # A/house crow/Hong Kong/1203/2007(H5N1) -->
+		<primaryAccession>CY014531</primaryAccession> <!-- # A/Indonesia/CDC739/2006 -->
+		<primaryAccession>CY030883</primaryAccession> <!-- # A/duck/Yunnan/4873/2006(H5N1) -->
+		<primaryAccession>KY614922</primaryAccession> <!-- # A/duck/Klaten/04160386/2016 -->
+		<primaryAccession>MF112825</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-84/2016 -->
+		<primaryAccession>HQ200468</primaryAccession> <!-- # A/duck/Cambodia/D1PV/2006 -->
+		<primaryAccession>GU052512</primaryAccession> <!-- # A/turkey/England/50-92/1991 -->
+		<primaryAccession>CY111600</primaryAccession> <!-- # A/Thailand/1(KAN-1)/2004 -->
+		<primaryAccession>LC331865</primaryAccession> <!-- # A/chicken/Vietnam/HU4-1312/2015 -->
+		<primaryAccession>KJ907601</primaryAccession> <!-- # A/meerkat/Shanghai/SH-1/2012 -->
+		<primaryAccession>MF112749</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-8/2015 -->
+		<primaryAccession>GQ184264</primaryAccession> <!-- # A/chicken/Egypt/0813-NLQP/2008 -->
+		<primaryAccession>FJ445228</primaryAccession> <!-- # A/mute swan/Hungary/3472/2006 -->
+		<primaryAccession>GU186755</primaryAccession> <!-- # A/duck/Bac Lieu/07-06/2007 -->
+		<primaryAccession>JF758695</primaryAccession> <!-- # A/environment/Maryland/1156/2006 -->
+		<primaryAccession>MG042399</primaryAccession> <!-- # A/duck/Bangladesh/31549/2016 -->
+		<primaryAccession>MF112786</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-45/2015 -->
+		<primaryAccession>HM440101</primaryAccession> <!-- # A/swine/North Sumatra/UT6004/2006 -->
+		<primaryAccession>KX513302</primaryAccession> <!-- # A/duck/Vietnam/ST1491-1/2012 -->
+		<primaryAccession>AB462297</primaryAccession> <!-- # A/Shanghai/1/2006 -->
+		<primaryAccession>KU971571</primaryAccession> <!-- # A/chicken/Ivory Coast/15VIR2742-3/2015 -->
+		<primaryAccession>CY029569</primaryAccession> <!-- # A/duck/Vietnam/2/2007(H5N1) -->
+		<primaryAccession>KF881547</primaryAccession> <!-- # A/goose/Egypt/M2788E/2011 -->
+		<primaryAccession>MF694104</primaryAccession> <!-- # A/mallard duck/Netherlands/41/2015 -->
+		<primaryAccession>CY081342</primaryAccession> <!-- # A/environment/Maryland/1152/2006 -->
+		<primaryAccession>MT090588</primaryAccession> <!-- # A/duck/Bangladesh/40416/2019 -->
+		<primaryAccession>KR732573</primaryAccession> <!-- # A/duck/Egypt/0923-NLQP/2009 -->
+		<primaryAccession>CY029386</primaryAccession> <!-- # A/chicken/Yunnan/1251/2003(H5N1) -->
+		<primaryAccession>CY126210</primaryAccession> <!-- # A/chicken/Giza/CAI22/2008 -->
+		<primaryAccession>EU850418</primaryAccession> <!-- # A/chicken/Thailand/NS-341/2008 -->
+		<primaryAccession>HM172178</primaryAccession> <!-- # A/duck/Hunan/70/2004 -->
+		<primaryAccession>FJ436943</primaryAccession> <!-- # A/swan/Mangystau/3/2006 -->
+		<primaryAccession>CY116672</primaryAccession> <!-- # A/ferret/Indonesia/5-F3/2005 -->
+		<primaryAccession>KF888540</primaryAccession> <!-- # A/environment/Bangladesh/9675/2011 -->
+		<primaryAccession>MF116321</primaryAccession> <!-- # A/duck/China/E53/2012 -->
+		<primaryAccession>EU146761</primaryAccession> <!-- # A/Indonesia/546H/2006 -->
+		<primaryAccession>CY048213</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-15/2006(H5N1) -->
+		<primaryAccession>CY016797</primaryAccession> <!-- # A/mallard/Italy/835/2006 -->
+		<primaryAccession>KY614850</primaryAccession> <!-- # A/chicken/Lampung Utara/03160218/2016 -->
+		<primaryAccession>KP336322</primaryAccession> <!-- # A/chicken/India/12CL2168/2013 -->
+		<primaryAccession>CY029990</primaryAccession> <!-- # A/chicken/Kuwait/KISR8/2007(H5N1) -->
+		<primaryAccession>GU050469</primaryAccession> <!-- # A/chicken/Bac Giang/07-74/2007 -->
+		<primaryAccession>JN808049</primaryAccession> <!-- # A/duck/Korea/IC360/2011 -->
+		<primaryAccession>AB684113</primaryAccession> <!-- # A/chicken/Kagoshima/I-2/2011 -->
+		<primaryAccession>CY030425</primaryAccession> <!-- # A/duck/Vietnam/NCVD-25/2007(H5N1) -->
+		<primaryAccession>CY014422</primaryAccession> <!-- # A/Indonesia/CDC624/2006 -->
+		<primaryAccession>AY609314</primaryAccession> <!-- # A/Chicken/Guangdong/174/04 -->
+		<primaryAccession>KF881626</primaryAccession> <!-- # A/chicken/Egypt/M7217B/2013 -->
+		<primaryAccession>KU201858</primaryAccession> <!-- # A/American wigeon/Washington/196336/2015 -->
+		<primaryAccession>AY950244</primaryAccession> <!-- # A/Chicken/Henan/1/2004 -->
+		<primaryAccession>GU186771</primaryAccession> <!-- # A/duck/Hau Giang/07-12/2007 -->
+		<primaryAccession>CY045401</primaryAccession> <!-- # A/shorebird/Delaware/189/2007 -->
+		<primaryAccession>CY014237</primaryAccession> <!-- # A/Indonesia/CDC184/2005 -->
+		<primaryAccession>CY029529</primaryAccession> <!-- # A/duck/Vietnam/1233/2005(H5N1) -->
+		<primaryAccession>HM114539</primaryAccession> <!-- # A/Vietnam/UT30850/2005 -->
+		<primaryAccession>JQ710459</primaryAccession> <!-- # A/Eurasian eagle owl/Korea/23/2010 -->
+		<primaryAccession>ON943070</primaryAccession> <!-- # A/poultry/Benin/21-A-08-033-O/2021 -->
+		<primaryAccession>KF881657</primaryAccession> <!-- # A/chicken/Egypt/S2938D/2011 -->
+		<primaryAccession>DQ997134</primaryAccession> <!-- # A/chicken/Hubei/wl/1997 -->
+		<primaryAccession>MW749744</primaryAccession> <!-- # A/duck/Bangladesh/45726/2020 -->
+		<primaryAccession>MN994203</primaryAccession> <!-- # A/crow/Bangladesh/NRL-AI-1615/2017 -->
+		<primaryAccession>KY171344</primaryAccession> <!-- # A/duck/Vietnam/NCVD-1648/2012 -->
+		<primaryAccession>KY614993</primaryAccession> <!-- # A/chicken/Denpasar/06160095/2016 -->
+		<primaryAccession>CY016845</primaryAccession> <!-- # A/chicken/Viet Nam/6/2005 -->
+		<primaryAccession>AB742289</primaryAccession> <!-- # A/duck/Vietnam/LBM139/2012 -->
+		<primaryAccession>CY017053</primaryAccession> <!-- # A/quail/Viet Nam/15/2005 -->
+		<primaryAccession>CY095484</primaryAccession> <!-- # A/mallard/Ontario/26078/2007 -->
+		<primaryAccession>EF124796</primaryAccession> <!-- # A/Owston's civet/Vietnam/1/2005 -->
+		<primaryAccession>CY190101</primaryAccession> <!-- # A/environment/Maryland/06OS1166/2006 -->
+		<primaryAccession>MF112781</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-40/2015 -->
+		<primaryAccession>KY171073</primaryAccession> <!-- # A/chicken/Vietnam/NCVD14-A380/2014 -->
+		<primaryAccession>CY111083</primaryAccession> <!-- # A/chicken/India/82544/2008 -->
+		<primaryAccession>MH135646</primaryAccession> <!-- # A/chicken/Bangladesh/32806/2017 -->
+		<primaryAccession>KR732533</primaryAccession> <!-- # A/chicken/Garut/BBVW-223/2007 -->
+		<primaryAccession>CY110740</primaryAccession> <!-- # A/whooper swan/Hamanaka/2011 -->
+		<primaryAccession>FJ784773</primaryAccession> <!-- # A/chicken/Hubei/3002/2007 -->
+		<primaryAccession>KY614834</primaryAccession> <!-- # A/chicken/Sleman/04141596/2014 -->
+		<primaryAccession>KP702167</primaryAccession> <!-- # A/Egypt/MOH-NRC-7271/2014 -->
+		<primaryAccession>CY014386</primaryAccession> <!-- # A/Indonesia/CDC582/2006 -->
+		<primaryAccession>CY029232</primaryAccession> <!-- # A/partridge/Shantou/2886/2003(H5N1) -->
+		<primaryAccession>KF001463</primaryAccession> <!-- # A/duck/Cambodia/261W7M2/2013 -->
+		<primaryAccession>CY041040</primaryAccession> <!-- # A/duck/Laos/25/2006(H5N1) -->
+		<primaryAccession>AB612903</primaryAccession> <!-- # A/duck/Hokkaido/WZ83/2010 -->
+		<primaryAccession>HM440069</primaryAccession> <!-- # A/swine/Banten/UT3063/2005 -->
+		<primaryAccession>HM172210</primaryAccession> <!-- # A/duck/Guangdong/23/2004 -->
+		<primaryAccession>CY029141</primaryAccession> <!-- # A/goose/Shantou/753/2002(H5N1) -->
+		<primaryAccession>KF888418</primaryAccession> <!-- # A/chicken/Bangladesh/9636/2010 -->
+		<primaryAccession>AB979497</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM636/2014 -->
+		<primaryAccession>CY098768</primaryAccession> <!-- # A/water/Hebei/1/2009 -->
+		<primaryAccession>OM938316</primaryAccession> <!-- # A/duck/Bangladesh/46156/2020 -->
+		<primaryAccession>KU143340</primaryAccession> <!-- # A/chicken/Wuhan/HAQL16/2014 -->
+		<primaryAccession>AY059489</primaryAccession> <!-- # A/Goose/Hong Kong/ww491/2000(H5N1) -->
+		<primaryAccession>JX420216</primaryAccession> <!-- # A/duck/Bac Lieu/1213/2007 -->
+		<primaryAccession>MF112809</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-68/2015 -->
+		<primaryAccession>CY029609</primaryAccession> <!-- # A/duck/Vietnam/8/2007(H5N1) -->
+		<primaryAccession>KR732405</primaryAccession> <!-- # A/chicken/WestJava/SMI-PAT/2006 -->
+		<primaryAccession>KF369208</primaryAccession> <!-- # A/Cambodia/W0329318/2012 -->
+		<primaryAccession>HM172174</primaryAccession> <!-- # A/shrike/Tibet/13/2006 -->
+		<primaryAccession>MF112756</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-15/2015 -->
+		<primaryAccession>CY030281</primaryAccession> <!-- # A/duck/Vietnam/NCVD-6/2007(H5N1) -->
+		<primaryAccession>KM213392</primaryAccession> <!-- # A/ruddy turnstone/Iceland/2899/2013 -->
+		<primaryAccession>GQ122439</primaryAccession> <!-- # A/quail/Yogjakarta/UT1023/2004 -->
+		<primaryAccession>JN588859</primaryAccession> <!-- # A/Cambodia/V0417301/2011 -->
+		<primaryAccession>MF112819</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-78/2016 -->
+		<primaryAccession>MH791711</primaryAccession> <!-- # A/duck/Bangladesh/34285/2017 -->
+		<primaryAccession>HM114571</primaryAccession> <!-- # A/Vietnam/UT31244III/2007 -->
+		<primaryAccession>KM110967</primaryAccession> <!-- # A/crow/India/11TI07/2011 -->
+		<primaryAccession>MW676471</primaryAccession> <!-- # A/CHICKEN/Hunan/118/2010 -->
+		<primaryAccession>MF116319</primaryAccession> <!-- # A/duck/China/E26/2012 -->
+		<primaryAccession>CY098462</primaryAccession> <!-- # A/duck/Lao/987/2010 -->
+		<primaryAccession>CY029197</primaryAccession> <!-- # A/pheasant/Shantou/4567/2002(H5N1) -->
+		<primaryAccession>KY171562</primaryAccession> <!-- # A/duck/Vietnam/NCVD-0145/2012 -->
+		<primaryAccession>MG042466</primaryAccession> <!-- # A/duck/Bangladesh/31297/2016 -->
+		<primaryAccession>KT285367</primaryAccession> <!-- # A/turkey/India/01CA01/2015 -->
+		<primaryAccession>JN588854</primaryAccession> <!-- # A/chicken/Cambodia/008LC1/2011 -->
+		<primaryAccession>CY029071</primaryAccession> <!-- # A/quail/Shantou/5164/2001(H5N1) -->
+		<primaryAccession>EU594351</primaryAccession> <!-- # A/duck/Hubei/Hangmei01/2006 -->
+		<primaryAccession>GU050367</primaryAccession> <!-- # A/duck/Vinh Long/07-26/2007 -->
+		<primaryAccession>DQ997115</primaryAccession> <!-- # A/chicken/Hubei/wj/1997 -->
+		<primaryAccession>MG042128</primaryAccession> <!-- # A/duck/Bangladesh/30890/2016 -->
+		<primaryAccession>JX420160</primaryAccession> <!-- # A/chicken/Bac Lieu/1214/2007 -->
+		<primaryAccession>MF112802</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-61/2015 -->
+		<primaryAccession>MF112835</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-94/2016 -->
+		<primaryAccession>GU052144</primaryAccession> <!-- # A/Hong Kong/485/1997 -->
+		<primaryAccession>MF112826</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-85/2016 -->
+		<primaryAccession>KM872067</primaryAccession> <!-- # A/crow/India/01TR01/2012 -->
+		<primaryAccession>GQ122487</primaryAccession> <!-- # A/chicken/Sulawesi Selatan/UT2094/2005 -->
+		<primaryAccession>MF112750</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-9/2015 -->
+		<primaryAccession>EF587279</primaryAccession> <!-- # A/Beijing/01/2003 -->
+		<primaryAccession>CY089471</primaryAccession> <!-- # A/chicken/India/CL03485/2011 -->
+		<primaryAccession>OM938373</primaryAccession> <!-- # A/duck/Bangladesh/46162/2020 -->
+		<primaryAccession>KY415705</primaryAccession> <!-- # A/duck/Hubei/ZYSYF2/2016 -->
+		<primaryAccession>KX513317</primaryAccession> <!-- # A/duck/Vietnam/ST1551-3/2012 -->
+		<primaryAccession>KM267749</primaryAccession> <!-- # A/crow/India/11TI11/2011 -->
+		<primaryAccession>CY098623</primaryAccession> <!-- # A/Zhejiang/1/2006 -->
+		<primaryAccession>CY098676</primaryAccession> <!-- # A/Fujian/1/2007 -->
+		<primaryAccession>CY030353</primaryAccession> <!-- # A/duck/Vietnam/NCVD-16/2007(H5N1) -->
+		<primaryAccession>KC616508</primaryAccession> <!-- # A/chicken/Bangladesh/12VIR-7140-11/2012 -->
+		<primaryAccession>CY190205</primaryAccession> <!-- # A/environment/Maryland/06OS1195/2006 -->
+		<primaryAccession>GQ227381</primaryAccession> <!-- # A/pika/Qinghai/GRL/2007 -->
+		<primaryAccession>OM938210</primaryAccession> <!-- # A/duck/Bangladesh/46095/2020 -->
+		<primaryAccession>LC167680</primaryAccession> <!-- # A/duck/Vietnam/HU3-898/2015 -->
+		<primaryAccession>AF509109</primaryAccession> <!-- # A/Chicken/Hong Kong/873.3/01 (H5N1) -->
+		<primaryAccession>CY030313</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-10/2007(H5N1) -->
+		<primaryAccession>CY029064</primaryAccession> <!-- # A/duck/Shantou/4912/2001(H5N1) -->
+		<primaryAccession>AB684151</primaryAccession> <!-- # A/chicken/Miyazaki/8/2011 -->
+		<primaryAccession>AY818143</primaryAccession> <!-- # A/quail/Vietnam/36/04 -->
+		<primaryAccession>CY016294</primaryAccession> <!-- # A/chicken/Sudan/1784-7/2006 -->
+		<primaryAccession>CY029513</primaryAccession> <!-- # A/duck/Vietnam/1228/2005(H5N1) -->
+		<primaryAccession>MG042294</primaryAccession> <!-- # A/duck/Bangladesh/30892/2016 -->
+		<primaryAccession>CY020679</primaryAccession> <!-- # A/chicken/Sudan/2115-12/2006 -->
+		<primaryAccession>MH135541</primaryAccession> <!-- # A/duck/Bangladesh/33287/2017 -->
+		<primaryAccession>AB684137</primaryAccession> <!-- # A/chicken/Miyazaki/MT2/2011 -->
+		<primaryAccession>CY030533</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-44/2007(H5N1) -->
+		<primaryAccession>GU050541</primaryAccession> <!-- # A/duck/Nam Dinh/07-91/2007 -->
+		<primaryAccession>CY098384</primaryAccession> <!-- # A/duck/Lao/961/2010 -->
+		<primaryAccession>AB979489</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM635/2014 -->
+		<primaryAccession>KY614953</primaryAccession> <!-- # A/chicken/Kediri/04160512/2016 -->
+		<primaryAccession>KJ682231</primaryAccession> <!-- # A/chicken/Bhutan/352/2012 -->
+		<primaryAccession>CY029505</primaryAccession> <!-- # A/duck/Yunnan/522/2004(H5N1) -->
+		<primaryAccession>CY126146</primaryAccession> <!-- # A/chicken/Menofia/CAI10/2010 -->
+		<primaryAccession>LC167704</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-1079/2015 -->
+		<primaryAccession>CY126170</primaryAccession> <!-- # A/chicken/Giza/CAI15/2008 -->
+		<primaryAccession>AB979457</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM631/2014 -->
+		<primaryAccession>CY029966</primaryAccession> <!-- # A/chicken/Kuwait/KISR5/2007(H5N1) -->
+		<primaryAccession>KJ682255</primaryAccession> <!-- # A/chicken/Bhutan/935/2012 -->
+		<primaryAccession>AB972693</primaryAccession> <!-- # A/duck/Vietnam/LBM568/2014 -->
+		<primaryAccession>JN588857</primaryAccession> <!-- # A/Cambodia/V0219301/2011 -->
+		<primaryAccession>JF758666</primaryAccession> <!-- # A/environment/Maryland/1149/2006 -->
+		<primaryAccession>CY048229</primaryAccession> <!-- # A/duck/Nigeria/08RS848-20/2006 -->
+		<primaryAccession>EU930982</primaryAccession> <!-- # A/Muscovy duck/Vietnam/213/2005 -->
+		<primaryAccession>KM267852</primaryAccession> <!-- # A/duck/Bangladesh/14VIR1121-18/2013 -->
+		<primaryAccession>CY098586</primaryAccession> <!-- # A/Guangxi/1/2005 -->
+		<primaryAccession>CY029281</primaryAccession> <!-- # A/duck/Hunan/1340/2002(H5N1) -->
+		<primaryAccession>EF362428</primaryAccession> <!-- # A/Ck/India/NIV33491/06 -->
+		<primaryAccession>GU272008</primaryAccession> <!-- # A/chicken/West Bengal/193936/2009 -->
+		<primaryAccession>CY030321</primaryAccession> <!-- # A/Muscovy duck/Vietnam/NCVD-11/2007(H5N1) -->
+		<primaryAccession>HM172171</primaryAccession> <!-- # A/chicken/Jiangsu/18/2008 -->
+		<primaryAccession>CY020695</primaryAccession> <!-- # A/turkey/Ivory Coast/4372-2/2006 -->
+		<primaryAccession>HM114483</primaryAccession> <!-- # A/Vietnam/UT3040/2004 -->
+		<primaryAccession>EF523705</primaryAccession> <!-- # A/great crested grebe/Denmark/7498/06 -->
+		<primaryAccession>MG042202</primaryAccession> <!-- # A/duck/Bangladesh/30160/2016 -->
+		<primaryAccession>CY126130</primaryAccession> <!-- # A/chicken/Giza/CAI7/2008 -->
+		<primaryAccession>AB684158</primaryAccession> <!-- # A/chicken/Miyazaki/9/2011 -->
+		<primaryAccession>MF112765</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-24/2015 -->
+		<primaryAccession>CY036151</primaryAccession> <!-- # A/scaly-breasted munia/Hong Kong/2572/2007(H5N1) -->
+		<primaryAccession>HM627939</primaryAccession> <!-- # A/openbill stork/Thailand/VSMU-8-BKK/2004 -->
+		<primaryAccession>MF116323</primaryAccession> <!-- # A/chicken/China/E96/2012 -->
+		<primaryAccession>LC194833</primaryAccession> <!-- # A/chicken/Vietnam/HU3-83/2015(H5N1) -->
+		<primaryAccession>LC363982</primaryAccession> <!-- # A/duck/Vietnam/HU5-1571/2016 -->
+		<primaryAccession>EU146811</primaryAccession> <!-- # A/Indonesia/569H/2006 -->
+		<primaryAccession>EF523702</primaryAccession> <!-- # A/whooper swan/Denmark/7224/06 -->
+		<primaryAccession>KX513330</primaryAccession> <!-- # A/duck/Vietnam/QT1483/2012 -->
+		<primaryAccession>AB684223</primaryAccession> <!-- # A/chicken/Chiba/1/2011 -->
+		<primaryAccession>CY021519</primaryAccession> <!-- # A/chicken/Ivory Coast/1787-35/2006 -->
+		<primaryAccession>KF888410</primaryAccession> <!-- # A/duck/Bangladesh/19099/2013 -->
+		<primaryAccession>CY015083</primaryAccession> <!-- # A/chicken/Scotland/1959 -->
+		<primaryAccession>KP762510</primaryAccession> <!-- # A/chicken/Jiangsu/2477/2014 -->
+		<primaryAccession>AB478032</primaryAccession> <!-- # A/chicken/Hmawbi/517/2007 -->
+		<primaryAccession>KJ682275</primaryAccession> <!-- # A/wild bird/Bhutan/308/2012 -->
+		<primaryAccession>KF160884</primaryAccession> <!-- # A/turkey/Ontario/6213/1966 -->
+		<primaryAccession>MN994187</primaryAccession> <!-- # A/chicken/Bangladesh/NRL-AI-8468/2017 -->
+		<primaryAccession>HM172172</primaryAccession> <!-- # A/chicken/Shanxi/10/2006 -->
+		<primaryAccession>AB979473</primaryAccession> <!-- # A/duck/Vietnam/LBM633/2014 -->
+		<primaryAccession>CY111067</primaryAccession> <!-- # A/chicken/India/81754/2008 -->
+		<primaryAccession>GQ122505</primaryAccession> <!-- # A/chicken/East Java/UT6019/2006 -->
+		<primaryAccession>DQ997406</primaryAccession> <!-- # A/goose/Fujian/bb/2003 -->
+		<primaryAccession>CY029309</primaryAccession> <!-- # A/duck/Hunan/1386/2003(H5N1) -->
+		<primaryAccession>KU971563</primaryAccession> <!-- # A/duck/Ivory Coast/15VIR2742-2/2015 -->
+		<primaryAccession>DQ997277</primaryAccession> <!-- # A/goose/Jilin/hb/2003 -->
+		<primaryAccession>DQ997514</primaryAccession> <!-- # A/duck/Guangxi/xa/2001 -->
+		<primaryAccession>CY030305</primaryAccession> <!-- # A/duck/Vietnam/NCVD-9/2007(H5N1) -->
+		<primaryAccession>GU050493</primaryAccession> <!-- # A/muscovy duck/Son La/07-85/2007 -->
+		<primaryAccession>KX867867</primaryAccession> <!-- # A/mink/China/G/2015 -->
+		<primaryAccession>KJ682245</primaryAccession> <!-- # A/chicken/Bhutan/1031/2012 -->
+		<primaryAccession>MT106924</primaryAccession> <!-- # A/chicken/Viet Nam/HU12-665/2019 -->
+		<primaryAccession>CY029043</primaryAccession> <!-- # A/goose/Shantou/4325/2001(H5N1) -->
+		<primaryAccession>CY029633</primaryAccession> <!-- # A/chicken/Vietnam/29/2007(H5N1) -->
+		<primaryAccession>HQ200459</primaryAccession> <!-- # A/Cambodia/P0322095/2005 -->
+		<primaryAccession>MF112795</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-54/2015 -->
+		<primaryAccession>MH578774</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/105/2007 -->
+		<primaryAccession>CY034200</primaryAccession> <!-- # A/chicken/Vietnam/18/2004 -->
+		<primaryAccession>CY126266</primaryAccession> <!-- # A/chicken/Menofia/CAI39/2010 -->
+		<primaryAccession>HM114611</primaryAccession> <!-- # A/Vietnam/UT31413II/2008 -->
+		<primaryAccession>HM114619</primaryAccession> <!-- # A/Vietnam/HN31432M/2008 -->
+		<primaryAccession>KY171328</primaryAccession> <!-- # A/duck/Vietnam/NCVD-3188/2013 -->
+		<primaryAccession>OM938202</primaryAccession> <!-- # A/duck/Bangladesh/46158/2020 -->
+		<primaryAccession>CY126178</primaryAccession> <!-- # A/chicken/Giza/CAI17/2009 -->
+		<primaryAccession>AY653195</primaryAccession> <!-- # A/chicken/Jilin/9/2004(H5N1) -->
+		<primaryAccession>MF112768</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-27/2015 -->
+		<primaryAccession>FJ839923</primaryAccession> <!-- # A/chicken/Assam/140203/2008 -->
+		<primaryAccession>CY144749</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI07-699/2007 -->
+		<primaryAccession>CY029982</primaryAccession> <!-- # A/chicken/Kuwait/KISR7/2007(H5N1) -->
+		<primaryAccession>CY190165</primaryAccession> <!-- # A/environment/Maryland/06OS1186/2006 -->
+		<primaryAccession>EU128239</primaryAccession> <!-- # A/Anhui/1/2005 -->
+		<primaryAccession>LC010770</primaryAccession> <!-- # A/muscovy duck/Long An/89/2014 -->
+		<primaryAccession>MK418741</primaryAccession> <!-- # A/Avian/Viet Nam/Egg/2014 -->
+		<primaryAccession>HM114563</primaryAccession> <!-- # A/Vietnam/UT31244II/2007 -->
+		<primaryAccession>HM172202</primaryAccession> <!-- # A/chicken/Tibet/6/2008 -->
+		<primaryAccession>KX513390</primaryAccession> <!-- # A/muscovy duck/LS154/2013 -->
+		<primaryAccession>HM114547</primaryAccession> <!-- # A/Vietnam/UT31203A/2007 -->
+		<primaryAccession>CY029498</primaryAccession> <!-- # A/duck/Yunnan/485/2004(H5N1) -->
+		<primaryAccession>CY046184</primaryAccession> <!-- # A/duck/France/080036/2008(H5N1) -->
+		<primaryAccession>KF881314</primaryAccession> <!-- # A/duck/Egypt/M2583C/2010 -->
+		<primaryAccession>CY017640</primaryAccession> <!-- # A/Indonesia/CDC938/2006 -->
+		<primaryAccession>KF881671</primaryAccession> <!-- # A/chicken/Egypt/Q5283C/2012 -->
+		<primaryAccession>KF638581</primaryAccession> <!-- # A/chicken/Ningxia/222/2012 -->
+		<primaryAccession>CY043930</primaryAccession> <!-- # A/shorebird/Delaware/472/2007 -->
+		<primaryAccession>MF112806</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-65/2015 -->
+		<primaryAccession>KC690158</primaryAccession> <!-- # A/domestic green-winged teal/Hunan/3450/2006 -->
+		<primaryAccession>JX534599</primaryAccession> <!-- # A/wild duck/Fujian/2/2011 -->
+		<primaryAccession>GU050319</primaryAccession> <!-- # A/avian/Hong Kong/0719/2007 -->
+		<primaryAccession>MF112792</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-51/2015 -->
+		<primaryAccession>KU311493</primaryAccession> <!-- # A/pheasant/TienGiang/0022/2013 -->
+		<primaryAccession>KP097955</primaryAccession> <!-- # A/duck/Vietnam/NCVD-KA250/2012 -->
+		<primaryAccession>JQ794472</primaryAccession> <!-- # A/duck/Thailand/TS04/2006 -->
+		<primaryAccession>CY016941</primaryAccession> <!-- # A/chicken/Nigeria/1047-30/2006 -->
+		<primaryAccession>KY629551</primaryAccession> <!-- # A/chicken/Bangladesh/22478/2014 -->
+		<primaryAccession>CY029267</primaryAccession> <!-- # A/chicken/Hunan/23/2002(H5N1) -->
+		<primaryAccession>KP715074</primaryAccession> <!-- # A/common pochard/Shanxi/16B/2015 -->
+		<primaryAccession>GU052451</primaryAccession> <!-- # A/magpie/Korea/Y:S-M1/2004 -->
+		<primaryAccession>HM114595</primaryAccession> <!-- # A/Vietnam/UT31394II/2008 -->
+		<primaryAccession>HM172188</primaryAccession> <!-- # A/chicken/Guizhou/7/2008 -->
+		<primaryAccession>KX513256</primaryAccession> <!-- # A/duck/Vietnam/QT1726/2013 -->
+		<primaryAccession>CY029106</primaryAccession> <!-- # A/chicken/Shantou/9/2002(H5N1) -->
+		<primaryAccession>KY635567</primaryAccession> <!-- # A/duck/Bangladesh/25845/2015 -->
+		<primaryAccession>LC106087</primaryAccession> <!-- # A/duck/Cairo/157CA/2015 -->
+		<primaryAccession>HM114579</primaryAccession> <!-- # A/Vietnam/UT31312II/2007 -->
+		<primaryAccession>KY635494</primaryAccession> <!-- # A/duck/Bangladesh/26188/2015 -->
+		<primaryAccession>CY040992</primaryAccession> <!-- # A/chicken/Laos/13/2008(H5N1) -->
+		<primaryAccession>EU930942</primaryAccession> <!-- # A/duck/Vietnam/208/2005 -->
+		<primaryAccession>JQ277227</primaryAccession> <!-- # A/chicken/Sheny/0606/2008 -->
+		<primaryAccession>KX513185</primaryAccession> <!-- # A/duck/Vietnam/ST1491-3/2012 -->
+		<primaryAccession>GU186674</primaryAccession> <!-- # A/chicken/Hong Kong/409.1/2002 -->
+		<primaryAccession>GU050517</primaryAccession> <!-- # A/duck/Nam Dinh/07-88/2007 -->
+		<primaryAccession>KT867370</primaryAccession> <!-- # A/chicken/India/04CA17/2015 -->
+		<primaryAccession>EF541472</primaryAccession> <!-- # A/Thailand/SP83/2004 -->
+		<primaryAccession>KP035014</primaryAccession> <!-- # A/chicken/Egypt/14VIR784-11-133AL/2013 -->
+		<primaryAccession>MK744009</primaryAccession> <!-- # A/duck/Jiangxi/120/2011 -->
+		<primaryAccession>JN808029</primaryAccession> <!-- # A/eurasian eagle owl/Korea/Q133/2011 -->
+		<primaryAccession>AB828695</primaryAccession> <!-- # A/muscovy duck/Quang Ninh/49/2013 -->
+		<primaryAccession>KU971485</primaryAccession> <!-- # A/chicken/Burkina Faso/15VIR1774-2/2015 -->
+		<primaryAccession>CY089469</primaryAccession> <!-- # A/chicken/India/CA0303/2011 -->
+		<primaryAccession>KY614906</primaryAccession> <!-- # A/chicken/Sleman/04160326/2016 -->
+		<primaryAccession>CY029393</primaryAccession> <!-- # A/chicken/Yunnan/1252/2003(H5N1) -->
+		<primaryAccession>MW676474</primaryAccession> <!-- # A/CHICKEN/Hunan/100/2010 -->
+		<primaryAccession>CY029407</primaryAccession> <!-- # A/duck/Yunnan/4072/2003(H5N1) -->
+		<primaryAccession>GU052059</primaryAccession> <!-- # A/goose/Hong Kong/1032.9/2000 -->
+		<primaryAccession>JN588852</primaryAccession> <!-- # A/chicken/Cambodia/PV025LC2/2010 -->
+		<primaryAccession>MG042264</primaryAccession> <!-- # A/duck/Bangladesh/31103/2016 -->
+		<primaryAccession>MT090327</primaryAccession> <!-- # A/duck/Bangladesh/38287/2019 -->
+		<primaryAccession>KX513170</primaryAccession> <!-- # A/duck/Vietnam/ST1488-2/2012 -->
+		<primaryAccession>KJ643874</primaryAccession> <!-- # A/crow/India/11CA01/2011 -->
+		<primaryAccession>EU871812</primaryAccession> <!-- # A/chicken/West Bengal/80995/2008 -->
+		<primaryAccession>CY029015</primaryAccession> <!-- # A/duck/Shantou/1101/2001(H5N1) -->
+		<primaryAccession>CY046114</primaryAccession> <!-- # A/chicken/India/WB-NIV529/2008(H5N1) -->
+		<primaryAccession>GQ184254</primaryAccession> <!-- # A/chicken/Egypt/06553-NLQP/2006 -->
+		<primaryAccession>CY126218</primaryAccession> <!-- # A/chicken/Giza/CAI23/2008 -->
+		<primaryAccession>GU050453</primaryAccession> <!-- # A/muscovy duck/Bac Gieng/07-66/2007 -->
+		<primaryAccession>EU930886</primaryAccession> <!-- # A/duck/Vietnam/201/2005 -->
+		<primaryAccession>CY133983</primaryAccession> <!-- # A/mallard/California/2535P/2011 -->
+		<primaryAccession>KC683527</primaryAccession> <!-- # A/swine/Jiangsu/2/2009 -->
+		<primaryAccession>FJ434374</primaryAccession> <!-- # A/mute swan/Aktau/1460/2006 -->
+		<primaryAccession>GU186710</primaryAccession> <!-- # A/chicken/Yamaguchi/7/2004 -->
+		<primaryAccession>MG280522</primaryAccession> <!-- # A/gadwall duck/Tennessee/17OS0341/2017 -->
+		<primaryAccession>LC500440</primaryAccession> <!-- # A/duck/Vietnam/HU10-1815/2018 -->
+		<primaryAccession>GQ122573</primaryAccession> <!-- # A/chicken/South Kalimantan/UT6028/2006 -->
+		<primaryAccession>LC500416</primaryAccession> <!-- # A/duck/Vietnam/HU10-1756/2018 -->
+		<primaryAccession>KJ643898</primaryAccession> <!-- # A/chicken/India/01CA06/2012 -->
+		<primaryAccession>EF205174</primaryAccession> <!-- # A/chicken/Tula/4/05 -->
+		<primaryAccession>CY190189</primaryAccession> <!-- # A/environment/Maryland/06OS1193/2006 -->
+		<primaryAccession>KU042803</primaryAccession> <!-- # A/pigeon/Zhejiang/727097/2014 -->
+		<primaryAccession>CY029561</primaryAccession> <!-- # A/duck/Vietnam/1/2007(H5N1) -->
+		<primaryAccession>CY034690</primaryAccession> <!-- # A/chicken/Laos/P0020/2007(H5N1) -->
+		<primaryAccession>JQ714229</primaryAccession> <!-- # A/duck/Cambodia/083D1/2011 -->
+		<primaryAccession>HM114531</primaryAccession> <!-- # A/Vietnam/UT30408III/2005 -->
+		<primaryAccession>AB828591</primaryAccession> <!-- # A/duck/Quang Ninh/53/2013 -->
+		<primaryAccession>EU669199</primaryAccession> <!-- # A/chicken/Thailand/ICRC-V586/2008 -->
+		<primaryAccession>AB849462</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM436/2013 -->
+		<primaryAccession>KT867362</primaryAccession> <!-- # A/duck/India/03CA01/2015 -->
+		<primaryAccession>CY111107</primaryAccession> <!-- # A/chicken/India/83093/2008 -->
+		<primaryAccession>CY034768</primaryAccession> <!-- # A/duck/Vietnam/177/2005 -->
+		<primaryAccession>EU871813</primaryAccession> <!-- # A/chicken/West Bengal/81010/2008 -->
+		<primaryAccession>KF001450</primaryAccession> <!-- # A/duck/Cambodia/202W6M1/2013 -->
+		<primaryAccession>EU147295</primaryAccession> <!-- # A/avian/Russia/5354-vac/2005 -->
+		<primaryAccession>KF881705</primaryAccession> <!-- # A/duck/Egypt/S6419C/2012 -->
+		<primaryAccession>JN588843</primaryAccession> <!-- # A/duck/Cambodia/TK05D8T/2010 -->
+		<primaryAccession>MG042250</primaryAccession> <!-- # A/duck/Bangladesh/31299/2016 -->
+		<primaryAccession>EU930934</primaryAccession> <!-- # A/duck/Vietnam/207/2005 -->
+		<primaryAccession>LC500384</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU10-1703/2018 -->
+		<primaryAccession>KP732549</primaryAccession> <!-- # A/chicken/TongHai/302/2014 -->
+		<primaryAccession>EU146731</primaryAccession> <!-- # A/Indonesia/341H/2006 -->
+		<primaryAccession>KY614842</primaryAccession> <!-- # A/chicken/Lampung Utara/03160217/2016 -->
+		<primaryAccession>GU052091</primaryAccession> <!-- # A/Hong Kong/378.1/2001 -->
+		<primaryAccession>CY014502</primaryAccession> <!-- # A/Indonesia/CDC699/2006 -->
+		<primaryAccession>LC167528</primaryAccession> <!-- # A/duck/Vietnam/HU3-567/2015 -->
+		<primaryAccession>GU052535</primaryAccession> <!-- # A/duck/Phu Tho/07-92/2007 -->
+		<primaryAccession>LC364014</primaryAccession> <!-- # A/duck/Vietnam/HU5-1575/2016 -->
+		<primaryAccession>MF112771</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-30/2015 -->
+		<primaryAccession>CY016861</primaryAccession> <!-- # A/chicken/Viet Nam/9/2005 -->
+		<primaryAccession>MH791588</primaryAccession> <!-- # A/duck/Bangladesh/34102/2017 -->
+		<primaryAccession>GU050477</primaryAccession> <!-- # A/chicken/Ha Nam/07-83/2007 -->
+		<primaryAccession>KP035032</primaryAccession> <!-- # A/duck/Egypt/14VIR784-4-133AD/2013 -->
+		<primaryAccession>KJ682263</primaryAccession> <!-- # A/chicken/Bhutan/407/2012 -->
+		<primaryAccession>CY098753</primaryAccession> <!-- # A/Hunan/2/2009 -->
+		<primaryAccession>JX534575</primaryAccession> <!-- # A/wild duck/Jilin/HF/2011 -->
+		<primaryAccession>CY090126</primaryAccession> <!-- # A/chicken/India/81766/2008 -->
+		<primaryAccession>LC167728</primaryAccession> <!-- # A/chicken/Vietnam/HU3-1308/2015 -->
+		<primaryAccession>AB684120</primaryAccession> <!-- # A/chicken/Aichi/T1/2011 -->
+		<primaryAccession>KJ907617</primaryAccession> <!-- # A/chicken/Wuxi/WX-33/2013 -->
+		<primaryAccession>KY614874</primaryAccession> <!-- # A/chicken/Kuningan/08160178-003/2016 -->
+		<primaryAccession>CY063862</primaryAccession> <!-- # A/Cygnus olor/Caspian Sea/2006 -->
+		<primaryAccession>JQ638678</primaryAccession> <!-- # A/goose/Jiangsu/k0403/2010 -->
+		<primaryAccession>GU186658</primaryAccession> <!-- # A/duck/Viet Nam/NCVDCDC9/2005 -->
+		<primaryAccession>KY171488</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-2750/2013 -->
+		<primaryAccession>JF758701</primaryAccession> <!-- # A/environment/Maryland/1158/2006 -->
+		<primaryAccession>AB259714</primaryAccession> <!-- # A/duck/Hokkaido/Vac-1/04 -->
+		<primaryAccession>LC500424</primaryAccession> <!-- # A/duck/Vietnam/HU10-1757/2018 -->
+		<primaryAccession>KJ682311</primaryAccession> <!-- # A/chicken/Bhutan/414/2012 -->
+		<primaryAccession>GU186519</primaryAccession> <!-- # A/ruddy turnstone/DE/509531/2007 -->
+		<primaryAccession>KR732495</primaryAccession> <!-- # A/bar-headed goose/Mongolia/X53/2009 -->
+		<primaryAccession>CY098800</primaryAccession> <!-- # A/environment/Guizhou/2/2009 -->
+		<primaryAccession>MH135480</primaryAccession> <!-- # A/chicken/Bangladesh/32747/2017 -->
+		<primaryAccession>LC167656</primaryAccession> <!-- # A/environment/Vietnam/HU3-861/2015 -->
+		<primaryAccession>CY048533</primaryAccession> <!-- # A/guinea fowl/Nigeria/08RS848-78/2007(H5N1) -->
+		<primaryAccession>KU143339</primaryAccession> <!-- # A/chicken/Wuhan/HAQL07/2014 -->
+		<primaryAccession>HM172186</primaryAccession> <!-- # A/duck/Yunnan/47/2006 -->
+		<primaryAccession>HM114451</primaryAccession> <!-- # A/Vietnam/UT3028/2003 -->
+		<primaryAccession>OL636394</primaryAccession> <!-- # A/goose/Czech Republic/18520-1/2021 -->
+		<primaryAccession>CY029113</primaryAccession> <!-- # A/chicken/Shantou/28/2002(H5N1) -->
+		<primaryAccession>KF001480</primaryAccession> <!-- # A/civet cat/Cambodia/X0313307/2013 -->
+		<primaryAccession>EU146699</primaryAccession> <!-- # A/Indonesia/298H/2006 -->
+		<primaryAccession>MF112758</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-17/2015 -->
+		<primaryAccession>KU971438</primaryAccession> <!-- # A/chicken/Ghana/15VIR5480-26/2015 -->
+		<primaryAccession>KP097976</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-KA448/2013 -->
+		<primaryAccession>KF042286</primaryAccession> <!-- # A/hill myna/Heilongjiang/0704/2012 -->
+		<primaryAccession>MF112785</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-44/2015 -->
+		<primaryAccession>JN808053</primaryAccession> <!-- # A/wild bird/Korea/IS18/2011 -->
+		<primaryAccession>CY033187</primaryAccession> <!-- # A/duck/Vietnam/NCVD08/2005 -->
+		<primaryAccession>AB684085</primaryAccession> <!-- # A/chicken/Shimane/1/2010 -->
+		<primaryAccession>MH135409</primaryAccession> <!-- # A/duck/Bangladesh/32914/2017 -->
+		<primaryAccession>GQ122535</primaryAccession> <!-- # A/chicken/East Java/UT6044/2007 -->
+		<primaryAccession>CY014282</primaryAccession> <!-- # A/Indonesia/CDC595/2006 -->
+		<primaryAccession>CY126028</primaryAccession> <!-- # A/chicken/Menofia/CAI29/2009 -->
+		<primaryAccession>CY089477</primaryAccession> <!-- # A/chicken/India/TR0383/2011 -->
+		<primaryAccession>AB760257</primaryAccession> <!-- # A/hooded crane/Kagoshima/4612J001/2010 -->
+		<primaryAccession>LC010722</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM668/2014 -->
+		<primaryAccession>KR732529</primaryAccession> <!-- # A/duck/Vietnam NamDinh/NCVD-88/2007 -->
+		<primaryAccession>CY028718</primaryAccession> <!-- # A/chicken/Vietnam/24/2004 -->
+		<primaryAccession>CY126202</primaryAccession> <!-- # A/chicken/Qalubia/CAI21/2008 -->
+		<primaryAccession>MF112797</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-56/2015 -->
+		<primaryAccession>JX235401</primaryAccession> <!-- # A/Indonesia/UT3006/2005 -->
+		<primaryAccession>LC167504</primaryAccession> <!-- # A/duck/Vietnam/HU3-386/2015 -->
+		<primaryAccession>KM267767</primaryAccession> <!-- # A/chicken/India/03CA03/2012 -->
+		<primaryAccession>KF881364</primaryAccession> <!-- # A/chicken/Egypt/Q1118D/2010 -->
+		<primaryAccession>HM208704</primaryAccession> <!-- # A/chicken/Lahore/NARC-3320/2006 -->
+		<primaryAccession>KY629473</primaryAccession> <!-- # A/duck/Bangladesh/23659/2014 -->
+		<primaryAccession>KY614882</primaryAccession> <!-- # A/chicken/Subang/08160018-002/2016 -->
+		<primaryAccession>AB684194</primaryAccession> <!-- # A/chicken/Mie/1/2011 -->
+		<primaryAccession>KY629440</primaryAccession> <!-- # A/duck/Bangladesh/22399/2014 -->
+		<primaryAccession>KR732426</primaryAccession> <!-- # A/chicken/Pekalongan/BBVW/2007 -->
+		<primaryAccession>HM114499</primaryAccession> <!-- # A/Vietnam/UT3047III/2004 -->
+		<primaryAccession>KJ682233</primaryAccession> <!-- # A/chicken/Bhutan/347/2012 -->
+		<primaryAccession>CY111091</primaryAccession> <!-- # A/chicken/India/82580/2008 -->
+		<primaryAccession>CY098422</primaryAccession> <!-- # A/environment/Lao/977/2010 -->
+		<primaryAccession>KY171368</primaryAccession> <!-- # A/duck/Vietnam/NCVD-2047/2012 -->
+		<primaryAccession>EU146650</primaryAccession> <!-- # A/Indonesia/160H/2005 -->
+		<primaryAccession>KF881321</primaryAccession> <!-- # A/turkey/Egypt/S6405A/2012 -->
+		<primaryAccession>CY179413</primaryAccession> <!-- # A/mallard/Wisconsin/568/1982 -->
+		<primaryAccession>KY171500</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-1088/2013 -->
+		<primaryAccession>CY030345</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-15/2007(H5N1) -->
+		<primaryAccession>KU971318</primaryAccession> <!-- # A/chicken/Niger/15VIR2060-14/2015 -->
+		<primaryAccession>MF112794</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-53/2015 -->
+		<primaryAccession>MK641388</primaryAccession> <!-- # A/bar-headed goose/China/F/2015 -->
+		<primaryAccession>LC050617</primaryAccession> <!-- # A/duck/Quang Ninh/15c111/2013 -->
+		<primaryAccession>KU311477</primaryAccession> <!-- # A/pheasant/TienGiang/0020/2013 -->
+		<primaryAccession>KF881440</primaryAccession> <!-- # A/chicken/Egypt/Q1184B/2010 -->
+		<primaryAccession>KY776497</primaryAccession> <!-- # A/chicken/Jiangsu/YB7/2015 -->
+		<primaryAccession>EF564746</primaryAccession> <!-- # A/mallard/ON/499/2005 -->
+		<primaryAccession>JN808037</primaryAccession> <!-- # A/eurasian eagle owl/Korea/Q178/2011 -->
+		<primaryAccession>FJ445018</primaryAccession> <!-- # A/chicken/Iran/53-3/2008 -->
+		<primaryAccession>MH791626</primaryAccession> <!-- # A/duck/Bangladesh/34743/2018 -->
+		<primaryAccession>KP336370</primaryAccession> <!-- # A/northern pintail/India/03OR320/2013 -->
+		<primaryAccession>HM172197</primaryAccession> <!-- # A/chicken/Hebei/A-8/2009 -->
+		<primaryAccession>CY146694</primaryAccession> <!-- # A/duck/Hunan/S4150/2011 -->
+		<primaryAccession>KF888426</primaryAccession> <!-- # A/duck/Bangladesh/17753/2012 -->
+		<primaryAccession>JQ673613</primaryAccession> <!-- # A/environment/Cambodia/C85W/2011 -->
+		<primaryAccession>KY171352</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-1982/2012 -->
+		<primaryAccession>HM440109</primaryAccession> <!-- # A/swine/East Java/UT6005/2006 -->
+		<primaryAccession>KJ682283</primaryAccession> <!-- # A/chicken/Bhutan/416/2012 -->
+		<primaryAccession>GU186747</primaryAccession> <!-- # A/Muscovy duck/Ca Mau/07-04/2007 -->
+		<primaryAccession>CY048373</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-50/2006(H5N1) -->
+		<primaryAccession>MF112807</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-66/2015 -->
+		<primaryAccession>KY171496</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-1096/2013 -->
+		<primaryAccession>GU727671</primaryAccession> <!-- # A/duck/Eastern China/108/2008 -->
+		<primaryAccession>FM165524</primaryAccession> <!-- # A/Cygnus olor/R1372/Germany/2007 -->
+		<primaryAccession>KT361990</primaryAccession> <!-- # A/duck/Bangladesh/20399/2013 -->
+		<primaryAccession>EU146795</primaryAccession> <!-- # A/Indonesia/546bH/2006 -->
+		<primaryAccession>CY030241</primaryAccession> <!-- # A/duck/Vietnam/NCVD-1/2007(H5N1) -->
+		<primaryAccession>CY036721</primaryAccession> <!-- # A/chicken/Vietnam/NCVD11/2005 -->
+		<primaryAccession>AB787211</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM260/2012 -->
+		<primaryAccession>KU057298</primaryAccession> <!-- # A/peacock/Yunnan/3/2015 -->
+		<primaryAccession>CY098824</primaryAccession> <!-- # A/environment/Guizhou/9/2009 -->
+		<primaryAccession>CY116680</primaryAccession> <!-- # A/ferret/Indonesia/5-F5/2005 -->
+		<primaryAccession>KX513327</primaryAccession> <!-- # A/swallow/Vietnam/NT24/2013 -->
+		<primaryAccession>KX160149</primaryAccession> <!-- # A/chicken/Gansu/5/2012 -->
+		<primaryAccession>KP702175</primaryAccession> <!-- # A/Egypt/MOH-NRC-7305/2014 -->
+		<primaryAccession>CY029176</primaryAccession> <!-- # A/chicken/Shantou/3900/2002(H5N1) -->
+		<primaryAccession>KU311556</primaryAccession> <!-- # A/domestic duck/VinhLong/0186/2013 -->
+		<primaryAccession>KP662561</primaryAccession> <!-- # A/chicken/Bhutan/01CL140/2012 -->
+		<primaryAccession>MF112841</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-100/2016 -->
+		<primaryAccession>GU066391</primaryAccession> <!-- # A/chicken/Assam/142007/2008 -->
+		<primaryAccession>AB525193</primaryAccession> <!-- # A/mountain hawk-eagle/Kumamoto/1/07 -->
+		<primaryAccession>KX513205</primaryAccession> <!-- # A/Muscovy duck/Vietnam/BG80-2/2013 -->
+		<primaryAccession>KY171049</primaryAccession> <!-- # A/duck/Vietnam/NCVD-3208/2013 -->
+		<primaryAccession>JX534559</primaryAccession> <!-- # A/wild duck/Shandong/2/2011 -->
+		<primaryAccession>KJ682259</primaryAccession> <!-- # A/chicken/Bhutan/260/2012 -->
+		<primaryAccession>CY190197</primaryAccession> <!-- # A/environment/Maryland/06OS1194/2006 -->
+		<primaryAccession>AB742265</primaryAccession> <!-- # A/duck/Vietnam/LBM132/2012 -->
+		<primaryAccession>GU050383</primaryAccession> <!-- # A/chicken/Nam Dinh/07-32/2007 -->
+		<primaryAccession>CY029190</primaryAccession> <!-- # A/silky chicken/Shantou/4071/2002(H5N1) -->
+		<primaryAccession>MF112810</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-69/2015 -->
+		<primaryAccession>CY126162</primaryAccession> <!-- # A/chicken/Qalubia/CAI14/2008 -->
+		<primaryAccession>MN994259</primaryAccession> <!-- # A/environment/Bangladesh/NRL-AI-1610/2016 -->
+		<primaryAccession>KF881713</primaryAccession> <!-- # A/chicken/Egypt/Q1995A/2010 -->
+		<primaryAccession>GQ122451</primaryAccession> <!-- # A/duck/East Java/UT1046/2004 -->
+		<primaryAccession>CY126186</primaryAccession> <!-- # A/chicken/Qalubia/CAI19/2008 -->
+		<primaryAccession>CY014298</primaryAccession> <!-- # A/Indonesia/CDC597/2006 -->
+		<primaryAccession>HM172187</primaryAccession> <!-- # A/chicken/Gansu/44/2004 -->
+		<primaryAccession>KP336328</primaryAccession> <!-- # A/crow/India/01CA12/2012 -->
+		<primaryAccession>MH135399</primaryAccession> <!-- # A/chicken/Bangladesh/33395/2017 -->
+		<primaryAccession>CY036055</primaryAccession> <!-- # A/scaly-breasted munia/Hong Kong/45/2007(H5N1) -->
+		<primaryAccession>GU052021</primaryAccession> <!-- # A/goose/Hong Kong/437-6/1999 -->
+		<primaryAccession>CY133999</primaryAccession> <!-- # A/mallard/California/2536P/2011 -->
+		<primaryAccession>CY029601</primaryAccession> <!-- # A/duck/Vietnam/7/2007(H5N1) -->
+		<primaryAccession>MF112836</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-95/2016 -->
+		<primaryAccession>CY126258</primaryAccession> <!-- # A/chicken/Sharkia/CAI38/2009 -->
+		<primaryAccession>MT106932</primaryAccession> <!-- # A/chicken/Viet Nam/HU12-666/2019 -->
+		<primaryAccession>EU443566</primaryAccession> <!-- # A/Mergus albellus/Slovakia/Vh212/06 -->
+		<primaryAccession>JQ714214</primaryAccession> <!-- # A/duck/Cambodia/072D6/2011 -->
+		<primaryAccession>KT361944</primaryAccession> <!-- # A/duck/Bangladesh/21327/2013 -->
+		<primaryAccession>AB684106</primaryAccession> <!-- # A/chicken/Miyazaki/S4/2011 -->
+		<primaryAccession>EF523698</primaryAccession> <!-- # A/grey lag goose/Denmark/6692/06 -->
+		<primaryAccession>KT587288</primaryAccession> <!-- # A/pigeon/Hubei/RP25/2012 -->
+		<primaryAccession>KX513125</primaryAccession> <!-- # A/duck/Vietnam/QT1481/2012 -->
+		<primaryAccession>JF510047</primaryAccession> <!-- # A/wild duck/Korea/CSM4-12/2009 -->
+		<primaryAccession>EU146686</primaryAccession> <!-- # A/Indonesia/538H/2006 -->
+		<primaryAccession>MF112743</primaryAccession> <!-- # A/duck/Nigeria/16VIR5840-2/2015 -->
+		<primaryAccession>KP097978</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-A015/2008 -->
+		<primaryAccession>KF001406</primaryAccession> <!-- # A/Cambodia/X0212301/2013 -->
+		<primaryAccession>CY029491</primaryAccession> <!-- # A/duck/Yunnan/426/2004(H5N1) -->
+		<primaryAccession>CY021391</primaryAccession> <!-- # A/chicken/Sudan/2115-10/2006 -->
+		<primaryAccession>CY037764</primaryAccession> <!-- # A/chicken/Rawalakot/NARC2441A/2006(H5N1) -->
+		<primaryAccession>GU186682</primaryAccession> <!-- # A/environment/Hong Kong/674.15/2002 -->
+		<primaryAccession>AB828362</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM344/2013 -->
+		<primaryAccession>KF182743</primaryAccession> <!-- # A/duck/Vietnam/QB1207/2012 -->
+		<primaryAccession>KX513398</primaryAccession> <!-- # A/duck/Vietnam/QT1458-1/2012 -->
+		<primaryAccession>KF881540</primaryAccession> <!-- # A/duck/Egypt/M2583D/2010 -->
+		<primaryAccession>CY029477</primaryAccession> <!-- # A/chicken/Yunnan/6957/2003(H5N1) -->
+		<primaryAccession>CY029092</primaryAccession> <!-- # A/chicken/Shantou/5738/2001(H5N1) -->
+		<primaryAccession>CY029713</primaryAccession> <!-- # A/duck/Vietnam/50/2007(H5N1) -->
+		<primaryAccession>KJ682285</primaryAccession> <!-- # A/wild bird/Bhutan/328/2012 -->
+		<primaryAccession>DQ835315</primaryAccession> <!-- # A/China/GD01/2006 -->
+		<primaryAccession>CY061887</primaryAccession> <!-- # A/teal/Germany/Wv632/2005 -->
+		<primaryAccession>AB760273</primaryAccession> <!-- # A/hooded crane/Kagoshima/4612J004/2010 -->
+		<primaryAccession>KC616512</primaryAccession> <!-- # A/chicken/Bangladesh/12VIR-7140-15/2012 -->
+		<primaryAccession>CY040928</primaryAccession> <!-- # A/duck/Laos/P0161/2007(H5N1) -->
+		<primaryAccession>LC194825</primaryAccession> <!-- # A/chicken/Vietnam/HU3-67/2015(H5N1) -->
+		<primaryAccession>MF112783</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-42/2015 -->
+		<primaryAccession>CY030891</primaryAccession> <!-- # A/duck/Yunnan/5310/2006(H5N1) -->
+		<primaryAccession>DQ997173</primaryAccession> <!-- # A/duck/Hubei/wq/2003 -->
+		<primaryAccession>CY080381</primaryAccession> <!-- # A/chicken/West Bengal/81537/2008 -->
+		<primaryAccession>AB675546</primaryAccession> <!-- # A/tufted duck/Fukushima/7/2011 -->
+		<primaryAccession>JN808030</primaryAccession> <!-- # A/quail/Korea/GC395/2011 -->
+		<primaryAccession>KM267836</primaryAccession> <!-- # A/duck/Bangladesh/14VIR1121-16/2013 -->
+		<primaryAccession>CY029577</primaryAccession> <!-- # A/Muscovy duck/Vietnam/4/2007(H5N1) -->
+		<primaryAccession>MF112751</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-10/2015 -->
+		<primaryAccession>KY926757</primaryAccession> <!-- # A/chicken/Cameroon/16VIR3791-16/2016 -->
+		<primaryAccession>EF473082</primaryAccession> <!-- # A/chicken/Indonesia/7/2003 -->
+		<primaryAccession>CY029085</primaryAccession> <!-- # A/duck/Shantou/5526/2001(H5N1) -->
+		<primaryAccession>KJ682229</primaryAccession> <!-- # A/yellow billed duck/Bhutan/358/2012 -->
+		<primaryAccession>LC167672</primaryAccession> <!-- # A/chicken/Vietnam/HU3-885/2015 -->
+		<primaryAccession>LC106086</primaryAccession> <!-- # A/chicken/Kafr_Elsheikh/UT-151CAD/2015 -->
+		<primaryAccession>GU052115</primaryAccession> <!-- # A/goose/Viet Nam/324/2001 -->
+		<primaryAccession>KX513192</primaryAccession> <!-- # A/swallow/Vietnam/NT22/2013 -->
+		<primaryAccession>KP739423</primaryAccession> <!-- # A/American green-winged teal/Washington/195750/2014 -->
+		<primaryAccession>HM440093</primaryAccession> <!-- # A/swine/East Java/UT6003/2006 -->
+		<primaryAccession>KX513325</primaryAccession> <!-- # A/swallow/Vietnam/NT25/2013 -->
+		<primaryAccession>AB807882</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM295/2012 -->
+		<primaryAccession>KF369224</primaryAccession> <!-- # A/chicken/Cambodia/W0530389/2012 -->
+		<primaryAccession>MG957522</primaryAccession> <!-- # A/duck/Bangladesh/31992/2017 -->
+		<primaryAccession>KU971327</primaryAccession> <!-- # A/chicken/Niger/15VIR2060-5/2015 -->
+		<primaryAccession>EU930894</primaryAccession> <!-- # A/chicken/Vietnam/202/2005 -->
+		<primaryAccession>GQ122523</primaryAccession> <!-- # A/chicken/South Kalimantan/UT6029/2006 -->
+		<primaryAccession>KJ682305</primaryAccession> <!-- # A/chicken/Bhutan/265/2012 -->
+		<primaryAccession>CY030337</primaryAccession> <!-- # A/duck/Vietnam/NCVD-13/2007(H5N1) -->
+		<primaryAccession>MH791753</primaryAccession> <!-- # A/duck/Bangladesh/34749/2018 -->
+		<primaryAccession>JX420176</primaryAccession> <!-- # A/chicken/Ha Tay/44/2007 -->
+		<primaryAccession>KR732553</primaryAccession> <!-- # A/chicken/West Java/TJA/2008 -->
+		<primaryAccession>GU052467</primaryAccession> <!-- # A/goose/Hong Kong/668.1/2001 -->
+		<primaryAccession>KF001414</primaryAccession> <!-- # A/Cambodia/X0219301/2013 -->
+		<primaryAccession>CY034232</primaryAccession> <!-- # A/duck/Vietnam/NCVD05/2005 -->
+		<primaryAccession>JX094832</primaryAccession> <!-- # A/turtle dove/Guangdong/300/2005 -->
+		<primaryAccession>EU930990</primaryAccession> <!-- # A/duck/Vietnam/215/2005 -->
+		<primaryAccession>CY098746</primaryAccession> <!-- # A/Guangxi/1/2009 -->
+		<primaryAccession>EU930910</primaryAccession> <!-- # A/duck/Vietnam/204/2005 -->
+		<primaryAccession>DQ997523</primaryAccession> <!-- # A/goose/Guangdong/xb/2001 -->
+		<primaryAccession>CY031182</primaryAccession> <!-- # A/duck/Vietnam/942A/2004 -->
+		<primaryAccession>MW676463</primaryAccession> <!-- # A/CHICKEN/Hunan/240/2010 -->
+		<primaryAccession>EU146633</primaryAccession> <!-- # A/Indonesia/7/2005 -->
+		<primaryAccession>KR732471</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-117/2008 -->
+		<primaryAccession>KX513121</primaryAccession> <!-- # A/duck/Vietnam/LS101/2013 -->
+		<primaryAccession>MN994219</primaryAccession> <!-- # A/crow/Bangladesh/NRL-AI-689/2016 -->
+		<primaryAccession>KF001444</primaryAccession> <!-- # A/duck/Cambodia/191W5M4/2013 -->
+		<primaryAccession>KP715090</primaryAccession> <!-- # A/whooper swan/Henan/01B/2015 -->
+		<primaryAccession>KP336314</primaryAccession> <!-- # A/duck/Bhutan/01TR03/2013 -->
+		<primaryAccession>KT220557</primaryAccession> <!-- # A/chicken/Egypt/F9514E/2014 -->
+		<primaryAccession>CY036247</primaryAccession> <!-- # A/grey heron/Hong Kong/1046/2008(H5N1) -->
+		<primaryAccession>CY094817</primaryAccession> <!-- # A/chicken/Vietnam/NCVD10/2005 -->
+		<primaryAccession>GQ122529</primaryAccession> <!-- # A/chicken/East Java/UT6031/2007 -->
+		<primaryAccession>LC167560</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-584/2015 -->
+		<primaryAccession>CY029379</primaryAccession> <!-- # A/chicken/Yunnan/1083/2003(H5N1) -->
+		<primaryAccession>JQ794456</primaryAccession> <!-- # A/chicken/Thailand/TS02/2006 -->
+		<primaryAccession>KY171376</primaryAccession> <!-- # A/muscovy duck/Vietnam/NCVD-2074/2012 -->
+		<primaryAccession>GU052160</primaryAccession> <!-- # A/chicken/Indonesia/9/2003 -->
+		<primaryAccession>JN646730</primaryAccession> <!-- # A/duck/Zhejiang/2243/2011 -->
+		<primaryAccession>CY030915</primaryAccession> <!-- # A/goose/Yunnan/4371/2006(H5N1) -->
+		<primaryAccession>CY048469</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-7/2006(H5N1) -->
+		<primaryAccession>MH791789</primaryAccession> <!-- # A/duck/Bangladesh/34745/2018 -->
+		<primaryAccession>HM440141</primaryAccession> <!-- # A/swine/South Kalimantan/UT6015/2006 -->
+		<primaryAccession>CY098327</primaryAccession> <!-- # A/duck/Lao/9/2010 -->
+		<primaryAccession>HM172207</primaryAccession> <!-- # A/chicken/Xinjiang/27/2006 -->
+		<primaryAccession>FJ784761</primaryAccession> <!-- # A/duck/Hunan/689/2006 -->
+		<primaryAccession>EU146707</primaryAccession> <!-- # A/Indonesia/304H/2006 -->
+		<primaryAccession>AB478033</primaryAccession> <!-- # A/quail/Thanatpin/2283/2007 -->
+		<primaryAccession>CY048109</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-102/2007(H5N1) -->
+		<primaryAccession>KU311532</primaryAccession> <!-- # A/domestic duck/LongAn/0183/2013 -->
+		<primaryAccession>KY171296</primaryAccession> <!-- # A/duck/Vietnam/NCVD-2885/2013 -->
+		<primaryAccession>EU636694</primaryAccession> <!-- # A/turkey/England/50-92/91 -->
+		<primaryAccession>FJ784765</primaryAccession> <!-- # A/duck/Henan/1650/2006 -->
+		<primaryAccession>KM267828</primaryAccession> <!-- # A/duck/Bangladesh/14VIR1121-12/2013 -->
+		<primaryAccession>JN808042</primaryAccession> <!-- # A/white fronted goose/Korea/Q27/2011 -->
+		<primaryAccession>CY094849</primaryAccession> <!-- # A/quail/Vietnam/7B/2004 -->
+		<primaryAccession>CY040912</primaryAccession> <!-- # A/duck/Laos/P0127/2007(H5N1) -->
+		<primaryAccession>CY126194</primaryAccession> <!-- # A/chicken/Qalubia/CAI20/2008 -->
+		<primaryAccession>EU430497</primaryAccession> <!-- # A/domestic Mallard duck/Hunan/67/2005 -->
+		<primaryAccession>MG042327</primaryAccession> <!-- # A/chicken/Bangladesh/30065/2016 -->
+		<primaryAccession>FJ784775</primaryAccession> <!-- # A/duck/Hunan/3315/2006 -->
+		<primaryAccession>CY048485</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-71/2007(H5N1) -->
+		<primaryAccession>KY558863</primaryAccession> <!-- # A/chicken/Egypt/F12505E/2016 -->
+		<primaryAccession>JX420200</primaryAccession> <!-- # A/duck/Cao Bang/43/2007 -->
+		<primaryAccession>KJ682251</primaryAccession> <!-- # A/chicken/Bhutan/406/2012 -->
+		<primaryAccession>LC363998</primaryAccession> <!-- # A/duck/Vietnam/HU5-1573/2016 -->
+		<primaryAccession>LC167640</primaryAccession> <!-- # A/chicken/Vietnam/HU3-800/2015 -->
+		<primaryAccession>CY029641</primaryAccession> <!-- # A/Muscovy duck/Vietnam/33/2007(H5N1) -->
+		<primaryAccession>CY017069</primaryAccession> <!-- # A/duck/Viet Nam/18/2005 -->
+		<primaryAccession>HM172194</primaryAccession> <!-- # A/chicken/Shandong/A-5/2006 -->
+		<primaryAccession>MH135648</primaryAccession> <!-- # A/duck/Bangladesh/32822/2017 -->
+		<primaryAccession>AB829739</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM398/2013 -->
+		<primaryAccession>HM114488</primaryAccession> <!-- # A/Vietnam/UT3040II/2004 -->
+		<primaryAccession>AB684237</primaryAccession> <!-- # A/chicken/Chiba/2/2011 -->
+		<primaryAccession>CY126250</primaryAccession> <!-- # A/chicken/Menofia/CAI36/2010 -->
+		<primaryAccession>CY134007</primaryAccession> <!-- # A/mallard/California/2536V/2011 -->
+		<primaryAccession>JX420192</primaryAccession> <!-- # A/Muscovy duck/Ca Mau/22/2007 -->
+		<primaryAccession>DQ997183</primaryAccession> <!-- # A/chicken/Jiangsu/cz1/2002 -->
+		<primaryAccession>KY629481</primaryAccession> <!-- # A/duck/Bangladesh/23656/2014 -->
+		<primaryAccession>LC167624</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-759/2015 -->
+		<primaryAccession>KY629531</primaryAccession> <!-- # A/duck/Bangladesh/23660/2014 -->
+		<primaryAccession>CY030385</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-20/2007(H5N1) -->
+		<primaryAccession>MW676429</primaryAccession> <!-- # A/DUCK/Hunan/76/2011 -->
+		<primaryAccession>MW099625</primaryAccession> <!-- # A/duck/Hunan/3.07_YYGK34L3-OC/2018 -->
+		<primaryAccession>AB458241</primaryAccession> <!-- # A/whooper swan/Aomori/1/2008(H5N1) -->
+		<primaryAccession>CY020623</primaryAccession> <!-- # A/chicken/Afghanistan/1573-47/2006 -->
+		<primaryAccession>EF523701</primaryAccession> <!-- # A/tufted duck/Denmark/6431/06 -->
+		<primaryAccession>CY048205</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-14/2006(H5N1) -->
+		<primaryAccession>MF112800</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-59/2015 -->
+		<primaryAccession>MN994251</primaryAccession> <!-- # A/environment/Bangladesh/NRL-AI-1003/2016 -->
+		<primaryAccession>LC167752</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-1403/2015 -->
+		<primaryAccession>AB979513</primaryAccession> <!-- # A/duck/Vietnam/LBM639/2014 -->
+		<primaryAccession>MF112823</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-82/2016 -->
+		<primaryAccession>GU083619</primaryAccession> <!-- # A/chicken/West Bengal/81760/2008 -->
+		<primaryAccession>GQ184285</primaryAccession> <!-- # A/chicken/Egypt/08124S-NLQP/2008 -->
+		<primaryAccession>LC010778</primaryAccession> <!-- # A/muscovy duck/Long An/90/2014 -->
+		<primaryAccession>HM114587</primaryAccession> <!-- # A/Vietnam/HN31388M1/2007 -->
+		<primaryAccession>JN808039</primaryAccession> <!-- # A/duck/Korea/NJ83/2011 -->
+		<primaryAccession>GU596986</primaryAccession> <!-- # A/duck/Shandong/009/2008 -->
+		<primaryAccession>CY030495</primaryAccession> <!-- # A/goose/Laos/NCVD-39/2007(H5N1) -->
+		<primaryAccession>HM440085</primaryAccession> <!-- # A/swine/Banten/UT6001/2006 -->
+		<primaryAccession>CY029372</primaryAccession> <!-- # A/duck/Yunnan/662/2003(H5N1) -->
+		<primaryAccession>GQ122493</primaryAccession> <!-- # A/chicken/Central Java/UT3091/2005 -->
+		<primaryAccession>GQ412064</primaryAccession> <!-- # A/chicken/Korea/Gimje/2008 -->
+		<primaryAccession>LC363990</primaryAccession> <!-- # A/duck/Vietnam/HU5-1572/2016 -->
+		<primaryAccession>KU971586</primaryAccession> <!-- # A/turtledove/Ivory Coast/15VIR2742-7/2015 -->
+		<primaryAccession>MT200012</primaryAccession> <!-- # A/Domestic duck/Viet Nam/A_duck_Vietnam_HU12-1540_2019/2019 -->
+		<primaryAccession>MT106908</primaryAccession> <!-- # A/chicken/Viet Nam/HU12-669/2019 -->
+		<primaryAccession>LC167616</primaryAccession> <!-- # A/chicken/Vietnam/HU3-737/2015 -->
+		<primaryAccession>MF112764</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-23/2015 -->
+		<primaryAccession>GQ122445</primaryAccession> <!-- # A/chicken/East Kalimantan/UT1035/2004 -->
+		<primaryAccession>CY098776</primaryAccession> <!-- # A/water/Hebei/2/2009 -->
+		<primaryAccession>KY171113</primaryAccession> <!-- # A/duck/Vietnam/NCVD14-A389/2014 -->
+		<primaryAccession>KP233706</primaryAccession> <!-- # A/duck/Hunan/316/2005 -->
+		<primaryAccession>KR732482</primaryAccession> <!-- # A/duck/Vietnam Hau Giang/NCVD-12/2007 -->
+		<primaryAccession>KC261474</primaryAccession> <!-- # A/goose/Eastern China/223/2008 -->
+		<primaryAccession>KY614945</primaryAccession> <!-- # A/duck/Lamongan/04160434/2016 -->
+		<primaryAccession>CY020671</primaryAccession> <!-- # A/chicken/Sudan/2115-9/2006 -->
+		<primaryAccession>MH135440</primaryAccession> <!-- # A/duck/Bangladesh/33848/2017 -->
+		<primaryAccession>MF112787</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-46/2015 -->
+		<primaryAccession>AB819039</primaryAccession> <!-- # A/duck/Soc Trang/8/2012 -->
+		<primaryAccession>KP097947</primaryAccession> <!-- # A/duck/Vietnam/NCVD-KA25/2011 -->
+		<primaryAccession>CY029705</primaryAccession> <!-- # A/Muscovy duck/Vietnam/49/2007(H5N1) -->
+		<primaryAccession>LC364307</primaryAccession> <!-- # A/duck/Vietnam/HU8-1621/2017 -->
+		<primaryAccession>MW676417</primaryAccession> <!-- # A/PIGEON/Hunan/185/2010 -->
+		<primaryAccession>GU354075</primaryAccession> <!-- # A/chicken/West Bengal/142121/2008 -->
+		<primaryAccession>KF277184</primaryAccession> <!-- # A/Viet Nam/CM32/2011 -->
+		<primaryAccession>AB786678</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM227/2012 -->
+		<primaryAccession>KJ907609</primaryAccession> <!-- # A/chicken/Wuxi/WX-32/2013 -->
+		<primaryAccession>KR732392</primaryAccession> <!-- # A/chicken/WestJava/TASIKO B/2006 -->
+		<primaryAccession>CY098690</primaryAccession> <!-- # A/Hunan/1/2008 -->
+		<primaryAccession>KY170921</primaryAccession> <!-- # A/pheasant/Vietnam/NCVD-2999/2013 -->
+		<primaryAccession>CY048365</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-5/2006(H5N1) -->
+		<primaryAccession>AY059485</primaryAccession> <!-- # A/Duck/Hong Kong/ww381/2000(H5N1) -->
+		<primaryAccession>CY098454</primaryAccession> <!-- # A/duck/Lao/986/2010 -->
+		<primaryAccession>MF112804</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-63/2015 -->
+		<primaryAccession>AB189055</primaryAccession> <!-- # A/crow/Kyoto/53/2004(H5N1) -->
+		<primaryAccession>AB807755</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM315/2012 -->
+		<primaryAccession>LC010738</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM670/2014 -->
+		<primaryAccession>EU443568</primaryAccession> <!-- # A/turkey/Czech Republic/10309-3/07 -->
+		<primaryAccession>LC167552</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-579/2015 -->
+		<primaryAccession>MF112813</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-72/2015 -->
+		<primaryAccession>HM172190</primaryAccession> <!-- # A/wild duck/Liaoning/8/2006 -->
+		<primaryAccession>CY126154</primaryAccession> <!-- # A/chicken/Qalubia/CAI12/2008 -->
+		<primaryAccession>MW961454</primaryAccession> <!-- # A/chicken/Nigeria/VRD21-102_21VIR2370-424/2021 -->
+		<primaryAccession>CY017189</primaryAccession> <!-- # A/duck/Viet Nam/19/2005 -->
+		<primaryAccession>GU050509</primaryAccession> <!-- # A/muscovy duck/Nam Dinh/07-87/2007 -->
+		<primaryAccession>CY029769</primaryAccession> <!-- # A/Muscovy duck/Vietnam/57/2007(H5N1) -->
+		<primaryAccession>CY020631</primaryAccession> <!-- # A/chicken/Afghanistan/1573-65/2006 -->
+		<primaryAccession>KX513147</primaryAccession> <!-- # A/duck/Vietnam/ST1491-2/2012 -->
+		<primaryAccession>FJ868027</primaryAccession> <!-- # A/chicken/Sukhothai/NIAH114843/2008 -->
+		<primaryAccession>KY926773</primaryAccession> <!-- # A/chicken/Cameroon/16VIR3791-22/2016 -->
+		<primaryAccession>JF758811</primaryAccession> <!-- # A/mallard/Maryland/802/2007 -->
+		<primaryAccession>AB684216</primaryAccession> <!-- # A/chicken/Miyazaki/13/2011 -->
+		<primaryAccession>HQ200443</primaryAccession> <!-- # A/chicken/Cambodia/LC/2006 -->
+		<primaryAccession>KY635628</primaryAccession> <!-- # A/duck/Bangladesh/28250/2016 -->
+		<primaryAccession>DQ997378</primaryAccession> <!-- # A/chicken/Jilin/hf/2002 -->
+		<primaryAccession>EF205172</primaryAccession> <!-- # A/turkey/Suzdalka/12/05 -->
+		<primaryAccession>KF881634</primaryAccession> <!-- # A/chicken/Egypt/Q1089E/2010 -->
+		<primaryAccession>AB786694</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM229/2012 -->
+		<primaryAccession>CY016869</primaryAccession> <!-- # A/chicken/Viet Nam/10/2005 -->
+		<primaryAccession>CY019394</primaryAccession> <!-- # A/Indonesia/CDC1032N/2007 -->
+		<primaryAccession>HM172193</primaryAccession> <!-- # A/chicken/Xinjiang/28/2006 -->
+		<primaryAccession>GU356585</primaryAccession> <!-- # A/chicken/West Bengal/148713/2009 -->
+		<primaryAccession>CY014274</primaryAccession> <!-- # A/Indonesia/CDC594/2006 -->
+		<primaryAccession>MH791894</primaryAccession> <!-- # A/duck/Bangladesh/34026/2017 -->
+		<primaryAccession>KY614977</primaryAccession> <!-- # A/chicken/Sukoharjo/04160454/2016 -->
+		<primaryAccession>KX160157</primaryAccession> <!-- # A/chicken/Gansu/6/2012 -->
+		<primaryAccession>AB458249</primaryAccession> <!-- # A/whooper swan/Aomori/2/2008(H5N1) -->
+		<primaryAccession>DQ323673</primaryAccession> <!-- # A/chicken/Kurgan/3/2005(H5N1) -->
+		<primaryAccession>AB824273</primaryAccession> <!-- # A/muscovy duck/Quang Ninh/9/2013 -->
+		<primaryAccession>FJ784763</primaryAccession> <!-- # A/chicken/Henan/1362/2006 -->
+		<primaryAccession>KU971302</primaryAccession> <!-- # A/chicken/Niger/15VIR2060-1/2015 -->
+		<primaryAccession>KT285359</primaryAccession> <!-- # A/chicken/India/04CA01/2015 -->
+		<primaryAccession>AB786702</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM230/2012 -->
+		<primaryAccession>CY080357</primaryAccession> <!-- # A/chicken/Sikkim/151466/2009 -->
+		<primaryAccession>EU443569</primaryAccession> <!-- # A/chicken/Czech Republic/11242-38/07 -->
+		<primaryAccession>AB593449</primaryAccession> <!-- # A/duck/Vietnam/G12/2008 -->
+		<primaryAccession>EU930950</primaryAccession> <!-- # A/chicken/Vietnam/209/2005 -->
+		<primaryAccession>KJ003989</primaryAccession> <!-- # A/duck/Hubei/xn/2007 -->
+		<primaryAccession>HM172209</primaryAccession> <!-- # A/duck/Hunan/69/2004 -->
+		<primaryAccession>JF758738</primaryAccession> <!-- # A/environment/Maryland/1170/2006 -->
+		<primaryAccession>KF888524</primaryAccession> <!-- # A/chicken/Bangladesh/15083/2012 -->
+		<primaryAccession>MN994097</primaryAccession> <!-- # A/chicken/Bangladesh/NRL-AI-2109/2017 -->
+		<primaryAccession>DQ997164</primaryAccession> <!-- # A/duck/Hubei/wp/2003 -->
+		<primaryAccession>MW676476</primaryAccession> <!-- # A/DUCK/Hunan/210_1/2010 -->
+		<primaryAccession>JN808047</primaryAccession> <!-- # A/turkey/Korea/DDC518/2011 -->
+		<primaryAccession>MG957614</primaryAccession> <!-- # A/duck/Bangladesh/32664/2017 -->
+		<primaryAccession>CY098847</primaryAccession> <!-- # A/water/Hunan/3/2009 -->
+		<primaryAccession>HM172198</primaryAccession> <!-- # A/chicken/Xinjiang/78/2005 -->
+		<primaryAccession>EU146674</primaryAccession> <!-- # A/Indonesia/245H/2005 -->
+		<primaryAccession>CY014236</primaryAccession> <!-- # A/Indonesia/CDC326N/2006 -->
+		<primaryAccession>CY014179</primaryAccession> <!-- # A/Indonesia/CDC7/2005 -->
+		<primaryAccession>MG042171</primaryAccession> <!-- # A/duck/Bangladesh/30885/2016 -->
+		<primaryAccession>CY019370</primaryAccession> <!-- # A/Indonesia/CDC1031T2/2007 -->
+		<primaryAccession>JX534567</primaryAccession> <!-- # A/wild duck/Shandong/628/2011 -->
+		<primaryAccession>KY437769</primaryAccession> <!-- # A/goose/Yangzhou/0403/2014 -->
+		<primaryAccession>LC167584</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-662/2015 -->
+		<primaryAccession>MW965497</primaryAccession> <!-- # A/duck/Sidenreng Rappang/A07180110-11/2018 -->
+		<primaryAccession>HQ724525</primaryAccession> <!-- # A/chicken/Kurgan/3654at/2005 -->
+		<primaryAccession>CY029344</primaryAccession> <!-- # A/chicken/Yunnan/1215/2002(H5N1) -->
+		<primaryAccession>MK641364</primaryAccession> <!-- # A/bar-headed goose/China/133/2015 -->
+		<primaryAccession>KP715082</primaryAccession> <!-- # A/common pochard/Henan/09L/2015 -->
+		<primaryAccession>CY016789</primaryAccession> <!-- # A/chicken/Afghanistan/1207/2006 -->
+		<primaryAccession>KP097965</primaryAccession> <!-- # A/duck/Vietnam/NCVD-KA311/2012 -->
+		<primaryAccession>AB684129</primaryAccession> <!-- # A/chicken/Miyazaki/N7/2011 -->
+		<primaryAccession>MW676437</primaryAccession> <!-- # A/DUCK/Hunan/47/2011 -->
+		<primaryAccession>CY030377</primaryAccession> <!-- # A/duck/Vietnam/NCVD-19/2007(H5N1) -->
+		<primaryAccession>CY126226</primaryAccession> <!-- # A/chicken/Giza/CAI24/2008 -->
+		<primaryAccession>LC106088</primaryAccession> <!-- # A/duck/Menia/1543S/2015 -->
+		<primaryAccession>CY098319</primaryAccession> <!-- # A/duck/Lao/7/2010 -->
+		<primaryAccession>GU052443</primaryAccession> <!-- # A/duck/Viet Nam/NCVDCDC14/2005 -->
+		<primaryAccession>DQ997284</primaryAccession> <!-- # A/chicken/Jilin/hd/2002 -->
+		<primaryAccession>KP892993</primaryAccession> <!-- # A/chicken/BC/FAV2/2015 -->
+		<primaryAccession>GU052029</primaryAccession> <!-- # A/goose/Hong Kong/437-8/1999 -->
+		<primaryAccession>KY629464</primaryAccession> <!-- # A/duck/Bangladesh/22811/2014 -->
+		<primaryAccession>EU146682</primaryAccession> <!-- # A/Indonesia/283H/2006 -->
+		<primaryAccession>AB684230</primaryAccession> <!-- # A/mandarin duck/Miyazaki/22M-765/2011 -->
+		<primaryAccession>MF112759</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-18/2015 -->
+		<primaryAccession>JQ701721</primaryAccession> <!-- # A/duck/Cambodia/072D1/2011 -->
+		<primaryAccession>DQ997157</primaryAccession> <!-- # A/chicken/Hubei/wo/2003 -->
+		<primaryAccession>KY629513</primaryAccession> <!-- # A/duck/Bangladesh/22806/2014 -->
+		<primaryAccession>GU186726</primaryAccession> <!-- # A/duck/Lang Son/201/2005 -->
+		<primaryAccession>KF881447</primaryAccession> <!-- # A/goose/Egypt/M2788A/2011 -->
+		<primaryAccession>CY094801</primaryAccession> <!-- # A/chicken/Vietnam/945/2004 -->
+		<primaryAccession>CY094809</primaryAccession> <!-- # A/chicken/Vietnam/949B/2004 -->
+		<primaryAccession>FJ010996</primaryAccession> <!-- # A/chicken/Jalgaon/12419/2006 -->
+		<primaryAccession>GU182152</primaryAccession> <!-- # A/duck/Hunan/3/2007 -->
+		<primaryAccession>AB760241</primaryAccession> <!-- # A/hooded crane/Kagoshima/1/2010 -->
+		<primaryAccession>CY098605</primaryAccession> <!-- # A/Sichuan/2/2006 -->
+		<primaryAccession>CY036111</primaryAccession> <!-- # A/blue magpie/Hong Kong/1993/2007(H5N1) -->
+		<primaryAccession>FJ784766</primaryAccession> <!-- # A/duck/Henan/1652/2006 -->
+		<primaryAccession>HM172179</primaryAccession> <!-- # A/great cormorant/Tibet/12/2006 -->
+		<primaryAccession>GU083663</primaryAccession> <!-- # A/chicken/West Bengal/170564/2009 -->
+		<primaryAccession>HM172208</primaryAccession> <!-- # A/chicken/Xinjiang/16/2005 -->
+		<primaryAccession>GU252824</primaryAccession> <!-- # A/duck/Tripura/103597/2008 -->
+		<primaryAccession>HM440149</primaryAccession> <!-- # A/swine/North Sumatra/UT6034/2007 -->
+		<primaryAccession>CY029127</primaryAccession> <!-- # A/partridge/Shantou/478/2002(H5N1) -->
+		<primaryAccession>LC167608</primaryAccession> <!-- # A/environment/Vietnam/HU3-726/2015 -->
+		<primaryAccession>KX513361</primaryAccession> <!-- # A/duck/Vietnam/QT1728/2013 -->
+		<primaryAccession>FJ784770</primaryAccession> <!-- # A/duck/Hunan/1994/2007 -->
+		<primaryAccession>GQ227389</primaryAccession> <!-- # A/pika/Qinghai/SHK/2007 -->
+		<primaryAccession>CY030503</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-40/2007(H5N1) -->
+		<primaryAccession>LC167744</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-1360/2015 -->
+		<primaryAccession>CY017672</primaryAccession> <!-- # A/Indonesia/CDC836/2006 -->
+		<primaryAccession>HQ695911</primaryAccession> <!-- # A/mallard/Korea/1195/2010 -->
+		<primaryAccession>GU477542</primaryAccession> <!-- # A/brown-headed gull/Qinghai/9/2009 -->
+		<primaryAccession>JQ710451</primaryAccession> <!-- # A/mandarin duck/Korea/PSC24-24/2010 -->
+		<primaryAccession>KP097958</primaryAccession> <!-- # A/duck/Vietnam/NCVD-KA262/2012 -->
+		<primaryAccession>KU971493</primaryAccession> <!-- # A/domestic bird/Burkina Faso/15VIR1774-22/2015 -->
+		<primaryAccession>KP732563</primaryAccession> <!-- # A/chicken/DaLi/302/2014 -->
+		<primaryAccession>CY034216</primaryAccession> <!-- # A/chicken/Vietnam/NCVD09/2005 -->
+		<primaryAccession>CY166738</primaryAccession> <!-- # A/northern shoveler/Mississippi/11OS5805/2011 -->
+		<primaryAccession>KJ682289</primaryAccession> <!-- # A/chicken/Bhutan/417/2012 -->
+		<primaryAccession>KX513308</primaryAccession> <!-- # A/duck/Vietnam/QT1480/2012 -->
+		<primaryAccession>DQ094276</primaryAccession> <!-- # A/chicken/Viet Nam/TN-025/2004 -->
+		<primaryAccession>CY116696</primaryAccession> <!-- # A/ferret/Indonesia/5-F7/2005 -->
+		<primaryAccession>MF112747</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-6/2015 -->
+		<primaryAccession>CY029435</primaryAccession> <!-- # A/chicken/Yunnan/5686/2003(H5N1) -->
+		<primaryAccession>LC167760</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-1408/2015 -->
+		<primaryAccession>AY059490</primaryAccession> <!-- # A/Duck/Hong Kong/2986.1/2000(H5N1) -->
+		<primaryAccession>MN994227</primaryAccession> <!-- # A/crow/Bangladesh/NRL-AI-690/2016 -->
+		<primaryAccession>GU083627</primaryAccession> <!-- # A/chicken/West Bengal/106181/2008 -->
+		<primaryAccession>KX247643</primaryAccession> <!-- # A/Egypt/MOH-NRC-8434/2014 -->
+		<primaryAccession>GU354083</primaryAccession> <!-- # A/chicken/Sikkim/151464/2009 -->
+		<primaryAccession>AF509100</primaryAccession> <!-- # A/Chicken/Hong Kong/715.5/01 (H5N1) -->
+		<primaryAccession>LC167800</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-Z10/2015 -->
+		<primaryAccession>MF112773</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-32/2015 -->
+		<primaryAccession>CY089475</primaryAccession> <!-- # A/chicken/India/CA0302/2011 -->
+		<primaryAccession>CY030249</primaryAccession> <!-- # A/duck/Vietnam/NCVD-2/2007(H5N1) -->
+		<primaryAccession>CY017680</primaryAccession> <!-- # A/Indonesia/CDC836T/2006 -->
+		<primaryAccession>KF001488</primaryAccession> <!-- # A/chicken/Cambodia/X0124310/2013 -->
+		<primaryAccession>CY030433</primaryAccession> <!-- # A/duck/Vietnam/NCVD-26/2007(H5N1) -->
+		<primaryAccession>LC010714</primaryAccession> <!-- # A/muscovy duck/Quang Ninh/48c1-4-1/2013 -->
+		<primaryAccession>KT285327</primaryAccession> <!-- # A/crow/India/01CA15/2012 -->
+		<primaryAccession>CY020647</primaryAccession> <!-- # A/chicken/Egypt/2253-1/2006 -->
+		<primaryAccession>MW871690</primaryAccession> <!-- # A/chicken/Indonesia/4998T/2018 -->
+		<primaryAccession>CY034714</primaryAccession> <!-- # A/chicken/Laos/P0169/2007(H5N1) -->
+		<primaryAccession>GU182248</primaryAccession> <!-- # A/environment/Hunan/2-1/2007 -->
+		<primaryAccession>MF112763</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-22/2015 -->
+		<primaryAccession>AB972741</primaryAccession> <!-- # A/muscovy duck/Long An/43/2013 -->
+		<primaryAccession>EU146666</primaryAccession> <!-- # A/Indonesia/239H/2005 -->
+		<primaryAccession>CY041016</primaryAccession> <!-- # A/chicken/Laos/33/2008(H5N1) -->
+		<primaryAccession>MW676431</primaryAccession> <!-- # A/DUCK/Hunan/70/2010 -->
+		<primaryAccession>MF112788</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-47/2015 -->
+		<primaryAccession>MW063637</primaryAccession> <!-- # A/Duck/Egypt/S75-P10-du/2019 -->
+		<primaryAccession>GU052107</primaryAccession> <!-- # A/goose/Viet Nam/113/2001 -->
+		<primaryAccession>HM172185</primaryAccession> <!-- # A/bar-headed goose/Tibet/8/2006 -->
+		<primaryAccession>JX420152</primaryAccession> <!-- # A/duck/Son La/34/2007 -->
+		<primaryAccession>CY029008</primaryAccession> <!-- # A/chicken/Shantou/904/2001(H5N1) -->
+		<primaryAccession>KY635722</primaryAccession> <!-- # A/duck/Bangladesh/24915/2015 -->
+		<primaryAccession>GQ122457</primaryAccession> <!-- # A/quail/Yogjakarta/UT1075/2004 -->
+		<primaryAccession>HM172168</primaryAccession> <!-- # A/goose/Hubei/65/2005 -->
+		<primaryAccession>CY014229</primaryAccession> <!-- # A/Indonesia/CDC326T/2006 -->
+		<primaryAccession>CY036159</primaryAccession> <!-- # A/long-tailed shrike/Hong Kong/2762/2007(H5N1) -->
+		<primaryAccession>GU050375</primaryAccession> <!-- # A/duck/Can Tho/07-28/2007 -->
+		<primaryAccession>KT361956</primaryAccession> <!-- # A/duck/Bangladesh/21269/2013 -->
+		<primaryAccession>KJ682271</primaryAccession> <!-- # A/chicken/Bhutan/507/2012 -->
+		<primaryAccession>KC683526</primaryAccession> <!-- # A/swine/Jiangsu/1/2008 -->
+		<primaryAccession>CY040944</primaryAccession> <!-- # A/chicken/Laos/A0464/2007(H5N1) -->
+		<primaryAccession>KR732481</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-675/2011 -->
+		<primaryAccession>CY014438</primaryAccession> <!-- # A/Indonesia/CDC625/2006 -->
+		<primaryAccession>KM267757</primaryAccession> <!-- # A/crow/India/11TI16/2011 -->
+		<primaryAccession>MF112837</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-96/2016 -->
+		<primaryAccession>HM172192</primaryAccession> <!-- # A/chicken/Xinjiang/68/2005 -->
+		<primaryAccession>CY126075</primaryAccession> <!-- # A/chicken/Menofia/CAI42/2009 -->
+		<primaryAccession>CY014414</primaryAccession> <!-- # A/Indonesia/CDC623E/2006 -->
+		<primaryAccession>CY029958</primaryAccession> <!-- # A/chicken/Kuwait/KISR3/2007(H5N1) -->
+		<primaryAccession>CY029553</primaryAccession> <!-- # A/duck/Vietnam/1771/2005(H5N1) -->
+		<primaryAccession>MF112760</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-19/2015 -->
+		<primaryAccession>CY016286</primaryAccession> <!-- # A/chicken/Nigeria/957-20/2006 -->
+		<primaryAccession>CY029183</primaryAccession> <!-- # A/chicken/Shantou/4059/2002(H5N1) -->
+		<primaryAccession>CY034208</primaryAccession> <!-- # A/chicken/Vietnam/890/2004 -->
+		<primaryAccession>EF041481</primaryAccession> <!-- # A/duck/South Africa/811/2004 -->
+		<primaryAccession>JN588846</primaryAccession> <!-- # A/chicken/Cambodia/TKCMB8F/2010 -->
+		<primaryAccession>CY098832</primaryAccession> <!-- # A/water/Xinjiang/3/2009 -->
+		<primaryAccession>MN994243</primaryAccession> <!-- # A/crow/Bangladesh/NRL-AI-8473/2017 -->
+		<primaryAccession>MG042339</primaryAccession> <!-- # A/duck/Bangladesh/30818/2016 -->
+		<primaryAccession>GU186666</primaryAccession> <!-- # A/environment/Viet Nam/NCVDCDC59/2005 -->
+		<primaryAccession>KC535010</primaryAccession> <!-- # A/Japanese white-eye/Taoyuan/Q454/2012 -->
+		<primaryAccession>JX420136</primaryAccession> <!-- # A/Muscovy duck/Ca Mau/1181/2006 -->
+		<primaryAccession>KJ682273</primaryAccession> <!-- # A/wild bird/Bhutan/327/2012 -->
+		<primaryAccession>CY029414</primaryAccession> <!-- # A/duck/Yunnan/4645/2003(H5N1) -->
+		<primaryAccession>KY063734</primaryAccession> <!-- # A/chicken/New Jersey/15-002659-2/2015 -->
+		<primaryAccession>MW676465</primaryAccession> <!-- # A/CHICKEN/Hunan/176/2010 -->
+		<primaryAccession>CY014406</primaryAccession> <!-- # A/Indonesia/CDC623/2006 -->
+		<primaryAccession>HM590791</primaryAccession> <!-- # A/chicken/Thailand/ICRC-7356/2010 -->
+		<primaryAccession>LC167512</primaryAccession> <!-- # A/duck/Vietnam/HU3-408/2015 -->
+		<primaryAccession>KX513257</primaryAccession> <!-- # A/duck/Vietnam/QT1484/2012 -->
+		<primaryAccession>GU050445</primaryAccession> <!-- # A/duck/Mong Cai/07-58/2007 -->
+		<primaryAccession>CY053887</primaryAccession> <!-- # A/environment/Maryland/1192/2006 -->
+		<primaryAccession>KF881500</primaryAccession> <!-- # A/duck/Egypt/M2583A/2010 -->
+		<primaryAccession>CY030979</primaryAccession> <!-- # A/goose/Yunnan/6193/2006(H5N1) -->
+		<primaryAccession>MT106948</primaryAccession> <!-- # A/chicken/Viet Nam/HU12-668/2019 -->
+		<primaryAccession>KJ682307</primaryAccession> <!-- # A/chicken/Bhutan/1028/2012 -->
+		<primaryAccession>CY017656</primaryAccession> <!-- # A/Indonesia/CDC940/2006 -->
+		<primaryAccession>CY041000</primaryAccession> <!-- # A/chicken/Laos/16/2008(H5N1) -->
+		<primaryAccession>CY029777</primaryAccession> <!-- # A/chicken/Malaysia/5223/2007(H5N1) -->
+		<primaryAccession>MF112767</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-26/2015 -->
+		<primaryAccession>LC167632</primaryAccession> <!-- # A/chicken/Vietnam/HU3-770/2015 -->
+		<primaryAccession>AB465594</primaryAccession> <!-- # A/chicken/Egypt/CL6/2007 -->
+		<primaryAccession>CY016813</primaryAccession> <!-- # A/chicken/Cote d'Ivoire/1787-34/2006 -->
+		<primaryAccession>LC106090</primaryAccession> <!-- # A/duck/Cairo/1578CA/2015 -->
+		<primaryAccession>EU850426</primaryAccession> <!-- # A/chicken/Thailand/NS-342/2008 -->
+		<primaryAccession>CY030923</primaryAccession> <!-- # A/goose/Yunnan/4389/2006(H5N1) -->
+		<primaryAccession>CY014454</primaryAccession> <!-- # A/Indonesia/CDC634P/2006 -->
+		<primaryAccession>JN808033</primaryAccession> <!-- # A/baikal teal/Korea/Q34/2011 -->
+		<primaryAccession>KF881699</primaryAccession> <!-- # A/chicken/Egypt/M2773A/2011 -->
+		<primaryAccession>AB576204</primaryAccession> <!-- # A/pigeon/Thailand/VSMU-7-NPT/2004 -->
+		<primaryAccession>CY014187</primaryAccession> <!-- # A/chicken/Indonesia/CDC25/2005 -->
+		<primaryAccession>CY035243</primaryAccession> <!-- # A/falcon/Saudi Arabia/D1936/2007(H5N1) -->
+		<primaryAccession>EU814505</primaryAccession> <!-- # A/rook/Rostov-on-Don/26/2007 -->
+		<primaryAccession>LC364006</primaryAccession> <!-- # A/duck/Vietnam/HU5-1574/2016 -->
+		<primaryAccession>CY126242</primaryAccession> <!-- # A/chicken/Menofia/CAI35/2010 -->
+		<primaryAccession>MH791578</primaryAccession> <!-- # A/duck/Bangladesh/34104/2017 -->
+		<primaryAccession>LC106092</primaryAccession> <!-- # A/duck/Giza/15292S/2015 -->
+		<primaryAccession>CY030393</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-21/2007(H5N1) -->
+		<primaryAccession>GU252832</primaryAccession> <!-- # A/goose/Tripura/103596/2008 -->
+		<primaryAccession>CY036705</primaryAccession> <!-- # A/chicken/Vietnam/925/2004 -->
+		<primaryAccession>AB979481</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM634/2014 -->
+		<primaryAccession>CY098683</primaryAccession> <!-- # A/Anhui/1/2007 -->
+		<primaryAccession>EU930926</primaryAccession> <!-- # A/duck/Vietnam/206/2005 -->
+		<primaryAccession>GQ412067</primaryAccession> <!-- # A/duck/Korea/JEQ149/2008 -->
+		<primaryAccession>KC616516</primaryAccession> <!-- # A/chicken/Bangladesh/12VIR-7140-19/2012 -->
+		<primaryAccession>MK744041</primaryAccession> <!-- # A/duck/Jiangxi/44/2011 -->
+		<primaryAccession>HM172181</primaryAccession> <!-- # A/goose/Guangdong/72/2004 -->
+		<primaryAccession>AB827993</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM330/2013 -->
+		<primaryAccession>HM172462</primaryAccession> <!-- # A/bar-headed goose/Qinghai/3/2005 -->
+		<primaryAccession>CY019418</primaryAccession> <!-- # A/Indonesia/CDC1046T/2007 -->
+		<primaryAccession>CY014545</primaryAccession> <!-- # A/Indonesia/CDC759/2006 -->
+		<primaryAccession>HM172182</primaryAccession> <!-- # A/duck/Anhui/1/06 -->
+		<primaryAccession>CY029253</primaryAccession> <!-- # A/chukar/Shantou/4690/2003(H5N1) -->
+		<primaryAccession>CY030899</primaryAccession> <!-- # A/duck/Yunnan/6490/2006(H5N1) -->
+		<primaryAccession>MF112799</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-58/2015 -->
+		<primaryAccession>KY629504</primaryAccession> <!-- # A/duck/Bangladesh/23655/2014 -->
+		<primaryAccession>LC167808</primaryAccession> <!-- # A/chicken/Vietnam/HU3-Z12/2015 -->
+		<primaryAccession>MF112814</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-73/2015 -->
+		<primaryAccession>CY098446</primaryAccession> <!-- # A/duck/Lao/981/2010 -->
+		<primaryAccession>CY030265</primaryAccession> <!-- # A/Muscovy duck/Vietnam/NCVD-4/2007(H5N1) -->
+		<primaryAccession>KM267794</primaryAccession> <!-- # A/pigeon/Bhutan/01BR01/2012 -->
+		<primaryAccession>CY014515</primaryAccession> <!-- # A/Indonesia/CDC644/2006 -->
+		<primaryAccession>AB742281</primaryAccession> <!-- # A/duck/Vietnam/LBM136/2012 -->
+		<primaryAccession>MF112779</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-38/2015 -->
+		<primaryAccession>KJ682295</primaryAccession> <!-- # A/chicken/Bhutan/297/2012 -->
+		<primaryAccession>CY111075</primaryAccession> <!-- # A/chicken/India/81890/2008 -->
+		<primaryAccession>FJ445244</primaryAccession> <!-- # A/goose/Hungary/14756/2006 -->
+		<primaryAccession>HM172212</primaryAccession> <!-- # A/chicken/Shandong/A-10/2006 -->
+		<primaryAccession>AB824265</primaryAccession> <!-- # A/muscovy duck/Quang Ninh/6/2013 -->
+		<primaryAccession>MF969274</primaryAccession> <!-- # A/swine/Zhejiang/SW57/2015 -->
+		<primaryAccession>FJ719836</primaryAccession> <!-- # A/chicken/Manipur/NIV9743/2007 -->
+		<primaryAccession>MK389387</primaryAccession> <!-- # A/Avian/Viet Nam/Egg/2017 -->
+		<primaryAccession>KY629461</primaryAccession> <!-- # A/duck/Bangladesh/23163/2014 -->
+		<primaryAccession>CY020703</primaryAccession> <!-- # A/turkey/Ivory Coast/4372-3/2006 -->
+		<primaryAccession>KX513202</primaryAccession> <!-- # A/duck/Vietnam/QT1455-1/2012 -->
+		<primaryAccession>MH135519</primaryAccession> <!-- # A/chicken/Bangladesh/33167/2017 -->
+		<primaryAccession>CY030361</primaryAccession> <!-- # A/duck/Vietnam/NCVD-17/2007(H5N1) -->
+		<primaryAccession>KU310449</primaryAccession> <!-- # A/chicken/France/150169a/2015 -->
+		<primaryAccession>CY030447</primaryAccession> <!-- # A/duck/Vietnam/NCVD-30/2007(H5N1) -->
+		<primaryAccession>MG905335</primaryAccession> <!-- # A/chicken/Cameroon/16V3771/2016 -->
+		<primaryAccession>KJ682257</primaryAccession> <!-- # A/chicken/Bhutan/367/2012 -->
+		<primaryAccession>CY014479</primaryAccession> <!-- # A/Indonesia/CDC599N/2006 -->
+		<primaryAccession>LC194817</primaryAccession> <!-- # A/duck/Vietnam/HU3-16/2015(H5N1) -->
+		<primaryAccession>MF112833</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-92/2016 -->
+		<primaryAccession>MF112772</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-31/2015 -->
+		<primaryAccession>AB742273</primaryAccession> <!-- # A/duck/Vietnam/LBM133/2012 -->
+		<primaryAccession>EU146625</primaryAccession> <!-- # A/Indonesia/6/2005 -->
+		<primaryAccession>KT867354</primaryAccession> <!-- # A/duck/India/12TR04/2014 -->
+		<primaryAccession>CY029134</primaryAccession> <!-- # A/duck/Shantou/700/2002(H5N1) -->
+		<primaryAccession>JN808048</primaryAccession> <!-- # A/pheasant/Korea/PT411/2011 -->
+		<primaryAccession>CY036135</primaryAccession> <!-- # A/scaly-breasted munia/Hong Kong/2433/2007(H5N1) -->
+		<primaryAccession>LC331889</primaryAccession> <!-- # A/chicken/Vietnam/HU4-1328/2015 -->
+		<primaryAccession>KP035024</primaryAccession> <!-- # A/chicken/Egypt/14VIR784-5-1318S/2013 -->
+		<primaryAccession>KC815882</primaryAccession> <!-- # A/mallard/Italy/3401/2005 -->
+		<primaryAccession>EU930878</primaryAccession> <!-- # A/chicken/Vietnam/200/2005 -->
+		<primaryAccession>MF112778</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-37/2015 -->
+		<primaryAccession>JN588855</primaryAccession> <!-- # A/Cambodia/U0417030/2010 -->
+		<primaryAccession>KY171538</primaryAccession> <!-- # A/duck/Vietnam/NCVD-0004/2013 -->
+		<primaryAccession>GU083647</primaryAccession> <!-- # A/chicken/West Bengal/82613/2008 -->
+		<primaryAccession>MF112793</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-52/2015 -->
+		<primaryAccession>LC194841</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-97/2015(H5N1) -->
+		<primaryAccession>CY080365</primaryAccession> <!-- # A/chicken/West Bengal/155508/2009 -->
+		<primaryAccession>MT090457</primaryAccession> <!-- # A/duck/Bangladesh/40524/2019 -->
+		<primaryAccession>AB822992</primaryAccession> <!-- # A/chicken/Soc Trang/4/2012 -->
+		<primaryAccession>CY014494</primaryAccession> <!-- # A/Indonesia/CDC669P/2006 -->
+		<primaryAccession>CY029050</primaryAccession> <!-- # A/duck/Shantou/4407/2001(H5N1) -->
+		<primaryAccession>KX513111</primaryAccession> <!-- # A/duck/Vietnam/QT1455-2/2012 -->
+		<primaryAccession>EF205169</primaryAccession> <!-- # A/chicken/Omsk/14/05 -->
+		<primaryAccession>MH791612</primaryAccession> <!-- # A/duck/Bangladesh/34101/2017 -->
+		<primaryAccession>KX513229</primaryAccession> <!-- # A/duck/Vietnam/ST1489-3/2012 -->
+		<primaryAccession>FR687261</primaryAccession> <!-- # A/chicken/Egypt/Q1011/2010 -->
+		<primaryAccession>FJ868035</primaryAccession> <!-- # A/chicken/Uthaithani/NIAH115067/2008 -->
+		<primaryAccession>MT547696</primaryAccession> <!-- # A/Duck/Viet Nam/HU12-1378/2019 -->
+		<primaryAccession>KY635451</primaryAccession> <!-- # A/duck/Bangladesh/25890/2015 -->
+		<primaryAccession>ON943073</primaryAccession> <!-- # A/poultry/Benin/21-A-09-031-O/2021 -->
+		<primaryAccession>KJ682237</primaryAccession> <!-- # A/chicken/Bhutan/331/2012 -->
+		<primaryAccession>KF881526</primaryAccession> <!-- # A/chicken/Egypt/S3280B/2011 -->
+		<primaryAccession>CY036127</primaryAccession> <!-- # A/common kestrel/Hong Kong/2372/2007(H5N1) -->
+		<primaryAccession>AB760281</primaryAccession> <!-- # A/hooded crane/Kagoshima/110214-3/2011 -->
+		<primaryAccession>MT200004</primaryAccession> <!-- # A/Domestic duck/Viet Nam/A_duck_Vietnam_HU12-1587_2019/2019 -->
+		<primaryAccession>EU930966</primaryAccession> <!-- # A/Muscovy duck/Vietnam/211/2005 -->
+		<primaryAccession>MW676452</primaryAccession> <!-- # A/DUCK/Hunan/16/2010 -->
+		<primaryAccession>CY031621</primaryAccession> <!-- # A/duck/Vietnam/NCVD01/2005 -->
+		<primaryAccession>CY126098</primaryAccession> <!-- # A/duck/El Fayoum/CAI1/2010 -->
+		<primaryAccession>KY171225</primaryAccession> <!-- # A/duck/Vietnam/NCVD14-A502/2014 -->
+		<primaryAccession>KC616513</primaryAccession> <!-- # A/chicken/Bangladesh/12VIR-7140-16/2012 -->
+		<primaryAccession>CY017029</primaryAccession> <!-- # A/duck/Niger/914/2006 -->
+		<primaryAccession>CY029463</primaryAccession> <!-- # A/chicken/Yunnan/6797/2003(H5N1) -->
+		<primaryAccession>MN994155</primaryAccession> <!-- # A/chicken/Bangladesh/NRL-AI-8051/2017 -->
+		<primaryAccession>KY614937</primaryAccession> <!-- # A/muscovy duck/Pekalongan/04160460/2016 -->
+		<primaryAccession>MW676448</primaryAccession> <!-- # A/DUCK/Hunan/183/2010 -->
+		<primaryAccession>MF112770</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-29/2015 -->
+		<primaryAccession>JN808034</primaryAccession> <!-- # A/chicken/Korea/YS171/2011 -->
+		<primaryAccession>MH135423</primaryAccession> <!-- # A/duck/Bangladesh/33841/2017 -->
+		<primaryAccession>HM114467</primaryAccession> <!-- # A/Vietnam/UT3030/2003 -->
+		<primaryAccession>JN588858</primaryAccession> <!-- # A/Cambodia/V0401301/2011 -->
+		<primaryAccession>KX513296</primaryAccession> <!-- # A/duck/Vietnam/QT1455-3/2012 -->
+		<primaryAccession>HM627931</primaryAccession> <!-- # A/openbill stork/Thailand/VSMU-6-BKK/2004 -->
+		<primaryAccession>HM627915</primaryAccession> <!-- # A/openbill stork/Thailand/VSMU-4-NSN/2004 -->
+		<primaryAccession>JF975563</primaryAccession> <!-- # A/swan/Shanghai/10/2009 -->
+		<primaryAccession>CY030289</primaryAccession> <!-- # A/duck/Vietnam/NCVD-7/2007(H5N1) -->
+		<primaryAccession>KJ682309</primaryAccession> <!-- # A/chicken/Bhutan/259/2012 -->
+		<primaryAccession>CY029470</primaryAccession> <!-- # A/chicken/Yunnan/6885/2003(H5N1) -->
+		<primaryAccession>KY171432</primaryAccession> <!-- # A/duck/Vietnam/NCVD-2727/2013 -->
+		<primaryAccession>CY019434</primaryAccession> <!-- # A/Indonesia/CDC1047S/2007 -->
+		<primaryAccession>KY614890</primaryAccession> <!-- # A/quail/Sukoharjo/04152003/2015 -->
+		<primaryAccession>CY055193</primaryAccession> <!-- # A/turkey/Egypt/7/2007 -->
+		<primaryAccession>AY854191</primaryAccession> <!-- # A/duck/Shandong/093/2004 -->
+		<primaryAccession>AB972717</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM571/2014 -->
+		<primaryAccession>JN808045</primaryAccession> <!-- # A/chicken/Korea/PT412/2011 -->
+		<primaryAccession>MG042322</primaryAccession> <!-- # A/duck/Bangladesh/31096/2016 -->
+		<primaryAccession>MW961470</primaryAccession> <!-- # A/chicken/Nigeria/VRD21-37_21VIR2288-2/2021 -->
+		<primaryAccession>EF205168</primaryAccession> <!-- # A/chicken/Suzdalka/06/05 -->
+		<primaryAccession>FJ839921</primaryAccession> <!-- # A/chicken/Assam/140187/2008 -->
+		<primaryAccession>KX513388</primaryAccession> <!-- # A/duck/Vietnam/QT1730/2013 -->
+		<primaryAccession>KJ643890</primaryAccession> <!-- # A/chicken/India/01CA03/2012 -->
+		<primaryAccession>FJ784762</primaryAccession> <!-- # A/chicken/Anhui/1089/2007 -->
+		<primaryAccession>HQ630837</primaryAccession> <!-- # A/grebe/Tyva/2/2010 -->
+		<primaryAccession>MT090193</primaryAccession> <!-- # A/duck/Bangladesh/38175/2019 -->
+		<primaryAccession>CY029323</primaryAccession> <!-- # A/duck/Hunan/733/2004(H5N1) -->
+		<primaryAccession>GQ227369</primaryAccession> <!-- # A/pika/Qinghai/HMH/2007 -->
+		<primaryAccession>CY017061</primaryAccession> <!-- # A/chicken/Viet Nam/17/2005 -->
+		<primaryAccession>HM172175</primaryAccession> <!-- # A/duck/Anhui/56/2005 -->
+		<primaryAccession>CY014370</primaryAccession> <!-- # A/Indonesia/CDC523E/2006 -->
+		<primaryAccession>CY040952</primaryAccession> <!-- # A/duck/Laos/A0503/2007(H5N1) -->
+		<primaryAccession>AB972725</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM573/2014 -->
+		<primaryAccession>KX513191</primaryAccession> <!-- # A/duck/Vietnam/QT1456-1/2012 -->
+		<primaryAccession>CY098376</primaryAccession> <!-- # A/duck/Lao/959/2010 -->
+		<primaryAccession>AB612911</primaryAccession> <!-- # A/duck/Hokkaido/WZ101/2010 -->
+		<primaryAccession>HM590799</primaryAccession> <!-- # A/chicken/Thailand/ICRC-7372/2010 -->
+		<primaryAccession>GU354067</primaryAccession> <!-- # A/chicken/Nandurbar/7979/2006 -->
+		<primaryAccession>CY098670</primaryAccession> <!-- # A/Anhui/1/2006 -->
+		<primaryAccession>MT106940</primaryAccession> <!-- # A/chicken/Viet Nam/HU12-667/2019 -->
+		<primaryAccession>JN808040</primaryAccession> <!-- # A/chicken/Korea/Asan90/2011 -->
+		<primaryAccession>CY016877</primaryAccession> <!-- # A/chicken/Viet Nam/11/2005 -->
+		<primaryAccession>CY090118</primaryAccession> <!-- # A/chicken/India/241272/2010 -->
+		<primaryAccession>DQ997271</primaryAccession> <!-- # A/chicken/Jilin/ha/2003 -->
+		<primaryAccession>CY094825</primaryAccession> <!-- # A/duck/Vietnam/CK177/2005 -->
+		<primaryAccession>MH135531</primaryAccession> <!-- # A/duck/Bangladesh/33892/2017 -->
+		<primaryAccession>MT090386</primaryAccession> <!-- # A/duck/Bangladesh/40528/2019 -->
+		<primaryAccession>CY098792</primaryAccession> <!-- # A/duck feces/Hebei/5/2009 -->
+		<primaryAccession>LC010730</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM669/2014 -->
+		<primaryAccession>KC616499</primaryAccession> <!-- # A/chicken/Bangladesh/12VIR-7140-1/2011 -->
+		<primaryAccession>CY133991</primaryAccession> <!-- # A/mallard/California/2535V/2011 -->
+		<primaryAccession>MF112755</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-14/2015 -->
+		<primaryAccession>CY030471</primaryAccession> <!-- # A/duck/Laos/NCVD-35/2007(H5N1) -->
+		<primaryAccession>KR063680</primaryAccession> <!-- # A/chicken/Egypt/A10351A/2014 -->
+		<primaryAccession>GQ122549</primaryAccession> <!-- # A/chicken/East Java/UT6017/2006 -->
+		<primaryAccession>MF112803</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-62/2015 -->
+		<primaryAccession>AB828099</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM335/2013 -->
+		<primaryAccession>LC500360</primaryAccession> <!-- # A/goose/Vietnam/HU10-1140/2018 -->
+		<primaryAccession>HM114507</primaryAccession> <!-- # A/Vietnam/UT3062/2004 -->
+		<primaryAccession>CY016781</primaryAccession> <!-- # A/cygnus cygnus/Iran/754/2006 -->
+		<primaryAccession>AB684187</primaryAccession> <!-- # A/chicken/Wakayama/1/2011 -->
+		<primaryAccession>CY036207</primaryAccession> <!-- # A/little egret/Hong Kong/8863/2007(H5N1) -->
+		<primaryAccession>MW749730</primaryAccession> <!-- # A/Environment/Banglaldesh/45537/2020 -->
+		<primaryAccession>CY029057</primaryAccession> <!-- # A/goose/Shantou/4885/2001(H5N1) -->
+		<primaryAccession>AB189047</primaryAccession> <!-- # A/chicken/Kyoto/3/2004(H5N1) -->
+		<primaryAccession>AB760249</primaryAccession> <!-- # A/hooded crane/Kagoshima/2/2010 -->
+		<primaryAccession>AB465595</primaryAccession> <!-- # A/duck/Egypt/D2br10/2007 -->
+		<primaryAccession>CY016837</primaryAccession> <!-- # A/chicken/Viet Nam/2/2005 -->
+		<primaryAccession>EU146642</primaryAccession> <!-- # A/Indonesia/175H/2005 -->
+		<primaryAccession>AB818499</primaryAccession> <!-- # A/chicken/Soc Trang/3/2012 -->
+		<primaryAccession>JN808044</primaryAccession> <!-- # A/chicken/Korea/IC546/2011 -->
+		<primaryAccession>CY017664</primaryAccession> <!-- # A/Indonesia/CDC835/2006 -->
+		<primaryAccession>ON943069</primaryAccession> <!-- # A/poultry/Benin/21-A-08-009-O/2021 -->
+		<primaryAccession>KY635599</primaryAccession> <!-- # A/duck/Bangladesh/27892/2015 -->
+		<primaryAccession>KY170878</primaryAccession> <!-- # A/duck/Vietnam/NCVD14-A340/2014 -->
+		<primaryAccession>CY029625</primaryAccession> <!-- # A/duck/Vietnam/18/2007(H5N1) -->
+		<primaryAccession>CY014539</primaryAccession> <!-- # A/Indonesia/CDC742/2006 -->
+		<primaryAccession>LC167736</primaryAccession> <!-- # A/chicken/Vietnam/HU3-1317/2015 -->
+		<primaryAccession>AB847567</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM438/2013 -->
+		<primaryAccession>GU186702</primaryAccession> <!-- # A/whooper swan/Mongolia/244/2005 -->
+		<primaryAccession>AB972733</primaryAccession> <!-- # A/duck/Vietnam/LBM578/2014 -->
+		<primaryAccession>CY014233</primaryAccession> <!-- # A/Indonesia/CDC390/2006 -->
+		<primaryAccession>GQ122481</primaryAccession> <!-- # A/chicken/Sulawesi Selatan/UT2093/2005 -->
+		<primaryAccession>MF112776</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-35/2015 -->
+		<primaryAccession>KY415706</primaryAccession> <!-- # A/duck/Hubei/ZYSYF25/2016 -->
+		<primaryAccession>AB189063</primaryAccession> <!-- # A/crow/Osaka/102/2004(H5N1) -->
+		<primaryAccession>HM172166</primaryAccession> <!-- # A/duck/Hubei/49/2005 -->
+		<primaryAccession>CY029022</primaryAccession> <!-- # A/duck/Shantou/1437/2001(H5N1) -->
+		<primaryAccession>LC167696</primaryAccession> <!-- # A/environment/Vietnam/HU3-977/2015 -->
+		<primaryAccession>HM172464</primaryAccession> <!-- # A/pied megpie/Liaoning/7/2006 -->
+		<primaryAccession>FJ784776</primaryAccession> <!-- # A/duck/Hunan/3340/2006 -->
+		<primaryAccession>AY950247</primaryAccession> <!-- # A/Chicken/Henan/13/2004 -->
+		<primaryAccession>EF523697</primaryAccession> <!-- # A/buzzard/Denmark/6370/06 -->
+		<primaryAccession>KF881664</primaryAccession> <!-- # A/duck/Egypt/Q2645C/2010 -->
+		<primaryAccession>CY063320</primaryAccession> <!-- # A/great crested-grebe/Qinghai/1/2009 -->
+		<primaryAccession>KU971342</primaryAccession> <!-- # A/chicken/Niger/15VIR2060-7/2015 -->
+		<primaryAccession>MK641380</primaryAccession> <!-- # A/bar-headed goose/China/70/2015 -->
+		<primaryAccession>MK744001</primaryAccession> <!-- # A/chicken/Jiangxi/25/2011 -->
+		<primaryAccession>CY048389</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-54/2006(H5N1) -->
+		<primaryAccession>EU443564</primaryAccession> <!-- # A/cygnus olor/Czech Republic/6111/06 -->
+		<primaryAccession>KJ907633</primaryAccession> <!-- # A/duck/Jilin/JL-SIV/2013 -->
+		<primaryAccession>EF541470</primaryAccession> <!-- # A/Thailand/16/2004 -->
+		<primaryAccession>MF116320</primaryAccession> <!-- # A/goose/China/E43/2012 -->
+		<primaryAccession>EF205173</primaryAccession> <!-- # A/chicken/Krasnodar/123/06 -->
+		<primaryAccession>AY059483</primaryAccession> <!-- # A/Goose/Hong Kong/ww26/2000(H5N1) -->
+		<primaryAccession>CY034698</primaryAccession> <!-- # A/duck/Laos/P0050/2007(H5N1) -->
+		<primaryAccession>CY029449</primaryAccession> <!-- # A/duck/Yunnan/6080/2003(H5N1) -->
+		<primaryAccession>JF758684</primaryAccession> <!-- # A/environment/Maryland/1153/2006 -->
+		<primaryAccession>AB684144</primaryAccession> <!-- # A/chicken/Oita/1/2011 -->
+		<primaryAccession>CY098840</primaryAccession> <!-- # A/environment/Xinjiang/6/2009 -->
+		<primaryAccession>CY077112</primaryAccession> <!-- # A/ruddy turnstone/Delaware/103/2007 -->
+		<primaryAccession>MH791760</primaryAccession> <!-- # A/duck/Bangladesh/34199/2017 -->
+		<primaryAccession>CY036215</primaryAccession> <!-- # A/grey heron/Hong Kong/3088/2007(H5N1) -->
+		<primaryAccession>KF888442</primaryAccession> <!-- # A/duck/Bangladesh/18949/2013 -->
+		<primaryAccession>MW375481</primaryAccession> <!-- # A/Mallard(Anas platyrhynchos)/South Korea/KNU2019-20/2019 -->
+		<primaryAccession>CY031038</primaryAccession> <!-- # A/environment/Maryland/1189/2006 -->
+		<primaryAccession>AY950246</primaryAccession> <!-- # A/Chicken/Henan/12/2004 -->
+		<primaryAccession>LC167568</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-589/2015 -->
+		<primaryAccession>KX513165</primaryAccession> <!-- # A/duck/Vietnam/QT1727/2013 -->
+		<primaryAccession>CY098392</primaryAccession> <!-- # A/duck/Lao/962/2010 -->
+		<primaryAccession>GU182232</primaryAccession> <!-- # A/environment/Hunan/1-12/2007 -->
+		<primaryAccession>CY040960</primaryAccession> <!-- # A/duck/Laos/A0617/2007(H5N1) -->
+		<primaryAccession>HM172184</primaryAccession> <!-- # A/chicken/Xinjiang/53/2005 -->
+		<primaryAccession>MW466291</primaryAccession> <!-- # A/duck/Bangladesh/41258/2019 -->
+		<primaryAccession>KX644143</primaryAccession> <!-- # A/chicken/Lebanon/157/2016 -->
+		<primaryAccession>HM172463</primaryAccession> <!-- # A/chicken/Jiangxi/25/2004 -->
+		<primaryAccession>CY190141</primaryAccession> <!-- # A/environment/Maryland/06OS1177/2006 -->
+		<primaryAccession>KR732520</primaryAccession> <!-- # A/chicken/WestJava(Sbg)/29/2007(H5N1) -->
+		<primaryAccession>GU083655</primaryAccession> <!-- # A/chicken/West Bengal/162642/2009 -->
+		<primaryAccession>CY036263</primaryAccession> <!-- # A/magpie robin/Hong Kong/1897/2008(H5N1) -->
+		<primaryAccession>HQ200451</primaryAccession> <!-- # A/duck/Cambodia/D14AL/2006 -->
+		<primaryAccession>KY635799</primaryAccession> <!-- # A/duck/Bangladesh/26251/2015 -->
+		<primaryAccession>KU971422</primaryAccession> <!-- # A/chicken/Ghana/15VIR5480-18/2015 -->
+		<primaryAccession>JN808035</primaryAccession> <!-- # A/duck/Korea/YA54/2011 -->
+		<primaryAccession>KF001457</primaryAccession> <!-- # A/duck/Cambodia/250W7M1/2013 -->
+		<primaryAccession>CY014398</primaryAccession> <!-- # A/Indonesia/CDC610/2006 -->
+		<primaryAccession>MF112817</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-76/2015 -->
+		<primaryAccession>MT090602</primaryAccession> <!-- # A/duck/Bangladesh/40832/2019 -->
+		<primaryAccession>MH135543</primaryAccession> <!-- # A/duck/Bangladesh/33415/2017 -->
+		<primaryAccession>CY098784</primaryAccession> <!-- # A/water/Hebei/3/2009 -->
+		<primaryAccession>GU186763</primaryAccession> <!-- # A/chicken/Bac Lieu/07-10/2007 -->
+		<primaryAccession>MN994211</primaryAccession> <!-- # A/crow/Bangladesh/NRL-AI-1616/2017 -->
+		<primaryAccession>AB823757</primaryAccession> <!-- # A/chicken/Soc Trang/2/2012 -->
+		<primaryAccession>AY059487</primaryAccession> <!-- # A/Duck/Hong Kong/ww461/2000(H5N1) -->
+		<primaryAccession>DQ094281</primaryAccession> <!-- # A/chicken/Viet Nam/TG-023/2004 -->
+		<primaryAccession>JN588841</primaryAccession> <!-- # A/chicken/Cambodia/TLC1/2009 -->
+		<primaryAccession>KX513109</primaryAccession> <!-- # A/duck/Vietnam/QT1456-2/2012 -->
+		<primaryAccession>OM938346</primaryAccession> <!-- # A/duck/Bangladesh/46252/2020 -->
+		<primaryAccession>FM163442</primaryAccession> <!-- # A/chicken/Poland/R3248/2007 -->
+		<primaryAccession>KP762502</primaryAccession> <!-- # A/chicken/Jiangsu/927/2013 -->
+		<primaryAccession>GU052083</primaryAccession> <!-- # A/Chicken/Hong Kong/317.5/2001 -->
+		<primaryAccession>MG042412</primaryAccession> <!-- # A/duck/Bangladesh/31098/2016 -->
+		<primaryAccession>KJ682235</primaryAccession> <!-- # A/chicken/Bhutan/317/2012 -->
+		<primaryAccession>JQ794448</primaryAccession> <!-- # A/duck/Thailand/TS01/2006 -->
+		<primaryAccession>JQ673612</primaryAccession> <!-- # A/environment/Cambodia/C57W/2011 -->
+		<primaryAccession>KR732427</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-398/2010 -->
+		<primaryAccession>GU050343</primaryAccession> <!-- # A/avian/Hong Kong/1993/2007 -->
+		<primaryAccession>CY036239</primaryAccession> <!-- # A/great egret/Hong Kong/807/2008(H5N1) -->
+		<primaryAccession>CY034776</primaryAccession> <!-- # A/duck/Vietnam/NCVD06/2005 -->
+		<primaryAccession>GU050391</primaryAccession> <!-- # A/duck/Hai Duong/07-40/2007 -->
+		<primaryAccession>FJ654297</primaryAccession> <!-- # A/chicken/Primorsky/85/2008 -->
+		<primaryAccession>CY036697</primaryAccession> <!-- # A/chicken/Vietnam/921/2004 -->
+		<primaryAccession>MF112808</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-67/2015 -->
+		<primaryAccession>CY029456</primaryAccession> <!-- # A/duck/Yunnan/6603/2003(H5N1) -->
+		<primaryAccession>CY187007</primaryAccession> <!-- # A/mallard/Ohio/12OS2218/2012 -->
+		<primaryAccession>CY014230</primaryAccession> <!-- # A/Indonesia/CDC357/2006 -->
+		<primaryAccession>MW676461</primaryAccession> <!-- # A/CHICKEN/Hunan/388/2010 -->
+		<primaryAccession>EU871822</primaryAccession> <!-- # A/turkey/Ontario/84/1983 -->
+		<primaryAccession>KJ682297</primaryAccession> <!-- # A/chicken/Bhutan/330/2012 -->
+		<primaryAccession>CY048341</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-44/2006(H5N1) -->
+		<primaryAccession>OL371377</primaryAccession> <!-- # A/wild waterbird/Queensland/P17-14428-30/2017 -->
+		<primaryAccession>KY171217</primaryAccession> <!-- # A/chicken/Vietnam/NCVD14-A501/2014 -->
+		<primaryAccession>DQ094280</primaryAccession> <!-- # A/chicken/Viet Nam/CT-018/2004 -->
+		<primaryAccession>CY014378</primaryAccession> <!-- # A/Indonesia/CDC523T/2006 -->
+		<primaryAccession>CY028702</primaryAccession> <!-- # A/chicken/Vietnam/10/2004 -->
+		<primaryAccession>AB610974</primaryAccession> <!-- # A/whooper swan/Hokkaido/4/2011 -->
+		<primaryAccession>LC656319</primaryAccession> <!-- # A/Muscovy duck/Vietnam/LBM992c/2017 -->
+		<primaryAccession>MK641372</primaryAccession> <!-- # A/bar-headed goose/China/47/2015 -->
+		<primaryAccession>CY031629</primaryAccession> <!-- # A/muscovy duck/Vietnam/NCVD02/2005 -->
+		<primaryAccession>CY017648</primaryAccession> <!-- # A/Indonesia/CDC938E/2006 -->
+		<primaryAccession>KU311540</primaryAccession> <!-- # A/domestic duck/VinhLong/0184/2013 -->
+		<primaryAccession>GU050525</primaryAccession> <!-- # A/chicken/Thai Binh/07-89/2007 -->
+		<primaryAccession>KX513300</primaryAccession> <!-- # A/duck/Vietnam/ST1489-1/2012 -->
+		<primaryAccession>LC497219</primaryAccession> <!-- # A/chicken/Vietnam/HU10-1044/2018 -->
+		<primaryAccession>EU875395</primaryAccession> <!-- # A/chicken/Thailand/ICRC-213/2007 -->
+		<primaryAccession>KF001504</primaryAccession> <!-- # A/chicken/Cambodia/X0305302/2013 -->
+		<primaryAccession>DQ997254</primaryAccession> <!-- # A/swine/Henan/wy/2004 -->
+		<primaryAccession>GU182200</primaryAccession> <!-- # A/environment/Hunan/5-25/2007 -->
+		<primaryAccession>JN646732</primaryAccession> <!-- # A/duck/Zhejiang/2245/2011 -->
+		<primaryAccession>MG279888</primaryAccession> <!-- # A/black duck/Tennessee/17OS0306/2017 -->
+		<primaryAccession>LC010746</primaryAccession> <!-- # A/muscovy duck/Long An/86/2014 -->
+		<primaryAccession>GU182192</primaryAccession> <!-- # A/environment/Hunan/6-45/2008 -->
+		<primaryAccession>CY080389</primaryAccession> <!-- # A/chicken/West Bengal/82583/2008 -->
+		<primaryAccession>CY098760</primaryAccession> <!-- # A/Hubei/1/2010 -->
+		<primaryAccession>KJ682303</primaryAccession> <!-- # A/chicken/Bhutan/505/2012 -->
+		<primaryAccession>JX420168</primaryAccession> <!-- # A/chicken/Hai Duong/41/2007 -->
+		<primaryAccession>KY635784</primaryAccession> <!-- # A/duck/Bangladesh/26182/2015 -->
+		<primaryAccession>KP715066</primaryAccession> <!-- # A/whooper swan/Shanxi/17L/2015 -->
+		<primaryAccession>CY146702</primaryAccession> <!-- # A/duck/Hunan/S4220/2011 -->
+		<primaryAccession>MT200020</primaryAccession> <!-- # A/Domestic duck/Viet Nam/A_duck_Vietnam_HU12-1542_2019/2019 -->
+		<primaryAccession>GU186533</primaryAccession> <!-- # A/mallard/PA/454069-9/2006 -->
+		<primaryAccession>KX513217</primaryAccession> <!-- # A/duck/Vietnam/QT1456-3/2012 -->
+		<primaryAccession>MH546701</primaryAccession> <!-- # A/mallard/North Dakota/16-036222-1/2016 -->
+		<primaryAccession>HQ025951</primaryAccession> <!-- # A/Silver Pheasant/Thailand/VSMU-1-CBI/2005 -->
+		<primaryAccession>JX420240</primaryAccession> <!-- # A/Muscovy duck/Ca Mau/1159/2006 -->
+		<primaryAccession>CY116688</primaryAccession> <!-- # A/ferret/Indonesia/5-F6/2005 -->
+		<primaryAccession>EU146715</primaryAccession> <!-- # A/Indonesia/292H/2006 -->
+		<primaryAccession>MT019998</primaryAccession> <!-- # A/chicken/Viet Nam/HU12-657/2019 -->
+		<primaryAccession>CY031174</primaryAccession> <!-- # A/duck/Vietnam/7A/2004 -->
+		<primaryAccession>HM172461</primaryAccession> <!-- # A/chicken/Liaoning/23/2005 -->
+		<primaryAccession>CY016829</primaryAccession> <!-- # A/duck/Viet Nam/1/2005 -->
+		<primaryAccession>KY635642</primaryAccession> <!-- # A/duck/Bangladesh/24958/2015 -->
+		<primaryAccession>AB598121</primaryAccession> <!-- # A/Cambodia/408008/2005 -->
+		<primaryAccession>KF001436</primaryAccession> <!-- # A/duck/Cambodia/143W4M4/2013 -->
+		<primaryAccession>KY926749</primaryAccession> <!-- # A/chicken/Cameroon/16VIR3791-12/2016 -->
+		<primaryAccession>CY028710</primaryAccession> <!-- # A/chicken/Vietnam/23/2004 -->
+		<primaryAccession>EU871937</primaryAccession> <!-- # A/common gull/Chany/P/2006 -->
+		<primaryAccession>MK744017</primaryAccession> <!-- # A/duck/Jiangxi/130/2011 -->
+		<primaryAccession>HM172199</primaryAccession> <!-- # A/chicken/Xinjiang/67/2005 -->
+		<primaryAccession>KY629558</primaryAccession> <!-- # A/duck/Bangladesh/22991/2014 -->
+		<primaryAccession>CY041032</primaryAccession> <!-- # A/chicken/Laos/37/2008(H5N1) -->
+		<primaryAccession>KF881469</primaryAccession> <!-- # A/chicken/Egypt/Q1182E/2010 -->
+		<primaryAccession>KJ682299</primaryAccession> <!-- # A/wild bird/Bhutan/356/2012 -->
+		<primaryAccession>CY048333</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-42/2006(H5N1) -->
+		<primaryAccession>EU930974</primaryAccession> <!-- # A/chicken/Vietnam/212/2005 -->
+		<primaryAccession>MK744033</primaryAccession> <!-- # A/duck/Jiangxi/35/2011 -->
+		<primaryAccession>FM163450</primaryAccession> <!-- # A/turkey/Poland/R3249/2007 -->
+		<primaryAccession>KF813115</primaryAccession> <!-- # A/tiger/Jiangsu/01/2013 -->
+		<primaryAccession>GU052044</primaryAccession> <!-- # A/goose/Hong Kong/485.3/2000 -->
+		<primaryAccession>LC364331</primaryAccession> <!-- # A/muscovy duck/Vietnam/HU8-1751/2017 -->
+		<primaryAccession>KC261476</primaryAccession> <!-- # A/chicken/North China/k0604/2010 -->
+		<primaryAccession>JF758823</primaryAccession> <!-- # A/wood duck/Ohio/623/2004 -->
+		<primaryAccession>KJ682313</primaryAccession> <!-- # A/chicken/Bhutan/418/2012 -->
+		<primaryAccession>GU186787</primaryAccession> <!-- # A/wild duck/Ohio/623/2004 -->
+		<primaryAccession>CY030417</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-24/2007(H5N1) -->
+		<primaryAccession>KC616507</primaryAccession> <!-- # A/chicken/Bangladesh/12VIR-7140-10/2012 -->
+		<primaryAccession>CY048197</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-122/2007(H5N1) -->
+		<primaryAccession>AY818142</primaryAccession> <!-- # A/chicken/Vietnam/C58/04 -->
+		<primaryAccession>LC050609</primaryAccession> <!-- # A/muscovy duck/Quang Ninh/7c121/2013 -->
+		<primaryAccession>MH791875</primaryAccession> <!-- # A/duck/Bangladesh/34590/2018 -->
+		<primaryAccession>KU311485</primaryAccession> <!-- # A/pheasant/TienGiang/0021/2013 -->
+		<primaryAccession>AB972701</primaryAccession> <!-- # A/duck/Vietnam/LBM569/2014 -->
+		<primaryAccession>LC167544</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-575/2015 -->
+		<primaryAccession>JX420224</primaryAccession> <!-- # A/Muscovy duck/Ca Mau/1185/2006 -->
+		<primaryAccession>GU050415</primaryAccession> <!-- # A/duck/Phu Tho/07-48/2007 -->
+		<primaryAccession>MN994235</primaryAccession> <!-- # A/crow/Bangladesh/NRL-AI-8471/2017 -->
+		<primaryAccession>LC167536</primaryAccession> <!-- # A/duck/Vietnam/HU3-574/2015 -->
+		<primaryAccession>MF116322</primaryAccession> <!-- # A/chicken/China/E93/2012 -->
+		<primaryAccession>MF112757</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-16/2015 -->
+		<primaryAccession>AB972685</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM567/2014 -->
+		<primaryAccession>JQ673614</primaryAccession> <!-- # A/environment/Cambodia/C425D/2011 -->
+		<primaryAccession>MH135448</primaryAccession> <!-- # A/duck/Bangladesh/33772/2017 -->
+		<primaryAccession>GU050351</primaryAccession> <!-- # A/muscovy duck/Bac Ninh/07-69/2007 -->
+		<primaryAccession>HM172173</primaryAccession> <!-- # A/chicken/Hunan/41/2004 -->
+		<primaryAccession>EU931006</primaryAccession> <!-- # A/Muscovy duck/Vietnam/217/2005 -->
+		<primaryAccession>HM114523</primaryAccession> <!-- # A/Vietnam/HN30262IIIM3/2004 -->
+		<primaryAccession>GU050501</primaryAccession> <!-- # A/duck/Thai Ninh/07-86/2007 -->
+		<primaryAccession>GU052152</primaryAccession> <!-- # A/chicken/Indonesia/8/2003 -->
+		<primaryAccession>KU971462</primaryAccession> <!-- # A/partridge/Ghana/15VIR5480-5/2015 -->
+		<primaryAccession>CY014235</primaryAccession> <!-- # A/Indonesia/CDC329/2006 -->
+		<primaryAccession>MW466425</primaryAccession> <!-- # A/duck/Bangladesh/41253/2019 -->
+		<primaryAccession>JN646727</primaryAccession> <!-- # A/duck/Zhejiang/213/2011 -->
+		<primaryAccession>AY059491</primaryAccession> <!-- # A/Goose/Hong Kong/3014.8/2000(H5N1) -->
+		<primaryAccession>CY048421</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-6/2006(H5N1) -->
+		<primaryAccession>MH791579</primaryAccession> <!-- # A/duck/Bangladesh/34752/2018 -->
+		<primaryAccession>CY036175</primaryAccession> <!-- # A/common magpie/Hong Kong/5052/2007(H5N1) -->
+		<primaryAccession>KJ682247</primaryAccession> <!-- # A/wild bird/Bhutan/357/2012 -->
+		<primaryAccession>MH791541</primaryAccession> <!-- # A/duck/Bangladesh/34751/2018 -->
+		<primaryAccession>AB684099</primaryAccession> <!-- # A/chicken/Miyazaki/M6/2011 -->
+		<primaryAccession>KF881493</primaryAccession> <!-- # A/chicken/Egypt/Q2247A/2010 -->
+		<primaryAccession>JX294929</primaryAccession> <!-- # A/chicken/India/03CL488/2011 -->
+		<primaryAccession>KJ682269</primaryAccession> <!-- # A/chicken/Bhutan/346/2012 -->
+		<primaryAccession>CY111059</primaryAccession> <!-- # A/chicken/India/81753/2008 -->
+		<primaryAccession>CY014232</primaryAccession> <!-- # A/Indonesia/CDC370E/2006 -->
+		<primaryAccession>CY029974</primaryAccession> <!-- # A/chicken/Kuwait/KISR6/2007(H5N1) -->
+		<primaryAccession>CY029239</primaryAccession> <!-- # A/pheasant/Shantou/3535/2003(H5N1) -->
+		<primaryAccession>GQ122499</primaryAccession> <!-- # A/chicken/East Java/UT6016/2006 -->
+		<primaryAccession>KY171320</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-3186/2013 -->
+		<primaryAccession>JQ701714</primaryAccession> <!-- # A/marabou stork/Cambodia/TM068/2011 -->
+		<primaryAccession>KF881692</primaryAccession> <!-- # A/chicken/Egypt/Q1397D/2010 -->
+		<primaryAccession>CY029428</primaryAccession> <!-- # A/duck/Yunnan/5169/2003(H5N1) -->
+		<primaryAccession>JN808031</primaryAccession> <!-- # A/chicken/Korea/SJ378/2011 -->
+		<primaryAccession>JN808052</primaryAccession> <!-- # A/mandarin duck/Korea/Q525/2010 -->
+		<primaryAccession>CY019362</primaryAccession> <!-- # A/Indonesia/CDC1031T/2007 -->
+		<primaryAccession>JQ794465</primaryAccession> <!-- # A/chicken/Thailand/TS03/2006 -->
+		<primaryAccession>MF112828</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-87/2016 -->
+		<primaryAccession>KY170905</primaryAccession> <!-- # A/duck/Vietnam/R2-02-623-2/2013 -->
+		<primaryAccession>CY116656</primaryAccession> <!-- # A/ferret/Indonesia/5-F1/2005 -->
+		<primaryAccession>GU272000</primaryAccession> <!-- # A/chicken/West Bengal/155505/2009 -->
+		<primaryAccession>KM028001</primaryAccession> <!-- # A/swine/Guangxi/592/2011 -->
+		<primaryAccession>AY737291</primaryAccession> <!-- # A/chicken/Guangdong/191/04 -->
+		<primaryAccession>HM172191</primaryAccession> <!-- # A/chicken/Shandong/A-1/2009 -->
+		<primaryAccession>MF112761</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-20/2015 -->
+		<primaryAccession>HM440061</primaryAccession> <!-- # A/swine/Banten/UT3062/2005 -->
+		<primaryAccession>GU182144</primaryAccession> <!-- # A/chicken/Hunan/3/2007 -->
+		<primaryAccession>KT762441</primaryAccession> <!-- # A/chicken/Guangxi/S2039/2009 -->
+		<primaryAccession>JN808051</primaryAccession> <!-- # A/duck/Korea/AS117/2011 -->
+		<primaryAccession>CY133959</primaryAccession> <!-- # A/mallard/California/2531V/2011 -->
+		<primaryAccession>GU083639</primaryAccession> <!-- # A/chicken/West Bengal/100879/2008 -->
+		<primaryAccession>KY171738</primaryAccession> <!-- # A/duck/Vietnam/NCVD-15A60/2015 -->
+		<primaryAccession>MF112824</primaryAccession> <!-- # A/duck/Nigeria/16VIR5840-83/2016 -->
+		<primaryAccession>KY629458</primaryAccession> <!-- # A/chicken/Bangladesh/23974/2014 -->
+		<primaryAccession>MW100224</primaryAccession> <!-- # A/duck/Hunan/03.07_YYGK1L3-OC/2018 -->
+		<primaryAccession>MN994267</primaryAccession> <!-- # A/environment/Bangladesh/NRL-AI-990/2016 -->
+		<primaryAccession>CY014507</primaryAccession> <!-- # A/Indonesia/CDC644T/2006 -->
+		<primaryAccession>KY171554</primaryAccession> <!-- # A/duck/Vietnam/NCVD-0021/2012 -->
+		<primaryAccession>CY098598</primaryAccession> <!-- # A/Fujian/1/2005 -->
+		<primaryAccession>CY029421</primaryAccession> <!-- # A/duck/Yunnan/5090/2003(H5N1) -->
+		<primaryAccession>MF112780</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-39/2015 -->
+		<primaryAccession>CY029351</primaryAccession> <!-- # A/duck/Yunnan/119/2003(H5N1) -->
+		<primaryAccession>DQ997211</primaryAccession> <!-- # A/mallard/Guangxi/wt/2004 -->
+		<primaryAccession>GU050327</primaryAccession> <!-- # A/avian/Hong Kong/0828/2007 -->
+		<primaryAccession>MN994171</primaryAccession> <!-- # A/chicken/Bangladesh/NRL-AI-8251/2017 -->
+		<primaryAccession>KJ682239</primaryAccession> <!-- # A/chicken/Bhutan/359/2012 -->
+		<primaryAccession>JX912993</primaryAccession> <!-- # A/duck/Egypt/Q4596D/2012 -->
+		<primaryAccession>KP097963</primaryAccession> <!-- # A/duck/Vietnam/NCVD-KA309/2012 -->
+		<primaryAccession>KT362024</primaryAccession> <!-- # A/duck/Bangladesh/21980/2014 -->
+		<primaryAccession>CY029721</primaryAccession> <!-- # A/Muscovy duck/Vietnam/51/2007(H5N1) -->
+		<primaryAccession>GU050407</primaryAccession> <!-- # A/muscovy duck/Ha Nam/07-47/2007 -->
+		<primaryAccession>CY021375</primaryAccession> <!-- # A/chicken/Afghanistan/1573-7/2006 -->
+		<primaryAccession>CY029665</primaryAccession> <!-- # A/duck/Vietnam/38/2007(H5N1) -->
+		<primaryAccession>EF523704</primaryAccession> <!-- # A/whooper swan/Denmark/7275/06 -->
+		<primaryAccession>CY019354</primaryAccession> <!-- # A/Indonesia/CDC1031/2007 -->
+		<primaryAccession>MF112805</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-64/2015 -->
+		<primaryAccession>EU930902</primaryAccession> <!-- # A/duck/Vietnam/203/2005 -->
+		<primaryAccession>CY029484</primaryAccession> <!-- # A/chicken/Yunnan/207/2004(H5N1) -->
+		<primaryAccession>MF112791</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-50/2015 -->
+		<primaryAccession>CY190157</primaryAccession> <!-- # A/environment/Maryland/06OS1181/2006 -->
+		<primaryAccession>HQ200598</primaryAccession> <!-- # A/Cambodia/S1211394/2008 -->
+		<primaryAccession>AB636526</primaryAccession> <!-- # A/muscovy duck/Vietnam/OIE-559/2011 -->
+		<primaryAccession>MG042409</primaryAccession> <!-- # A/duck/Bangladesh/31295/2016 -->
+		<primaryAccession>MW466383</primaryAccession> <!-- # A/duck/Bangladesh/43411/2020 -->
+		<primaryAccession>CY080373</primaryAccession> <!-- # A/chicken/West Bengal/174881/2009 -->
+		<primaryAccession>GU182224</primaryAccession> <!-- # A/environment/Hunan/1-35/2007 -->
+		<primaryAccession>KU042802</primaryAccession> <!-- # A/goose/Zhejiang/727098/2014 -->
+		<primaryAccession>KY614961</primaryAccession> <!-- # A/chicken/Pati/04160433/2016 -->
+		<primaryAccession>CY048461</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-68/2007(H5N1) -->
+		<primaryAccession>CY016853</primaryAccession> <!-- # A/chicken/Viet Nam/8/2005 -->
+		<primaryAccession>CY146646</primaryAccession> <!-- # A/duck/Hunan/S4030/2011 -->
+		<primaryAccession>EU874900</primaryAccession> <!-- # A/chicken/Guangdong/1/2005 -->
+		<primaryAccession>CY133079</primaryAccession> <!-- # A/mallard/Wisconsin/10OS2672/2010 -->
+		<primaryAccession>CY126012</primaryAccession> <!-- # A/chicken/Sharkia/CAI27/2009 -->
+		<primaryAccession>MG042414</primaryAccession> <!-- # A/duck/Bangladesh/31294/2016 -->
+		<primaryAccession>KP662569</primaryAccession> <!-- # A/chicken/Bhutan/01TR12/2012 -->
+		<primaryAccession>CY034224</primaryAccession> <!-- # A/duck/Vietnam/367/2005 -->
+		<primaryAccession>CY020711</primaryAccession> <!-- # A/turkey/Ivory Coast/4372-4/2006 -->
+		<primaryAccession>HM172201</primaryAccession> <!-- # A/chicken/Henan/A-7/2006 -->
+		<primaryAccession>MN994147</primaryAccession> <!-- # A/chicken/Bangladesh/NRL-AI-3237/2017 -->
+		<primaryAccession>CY111099</primaryAccession> <!-- # A/chicken/India/82616/2008 -->
+		<primaryAccession>KY614898</primaryAccession> <!-- # A/duck/Sukoharjo/04160290/2016 -->
+		<primaryAccession>FR687260</primaryAccession> <!-- # A/chicken/Egypt/Q1185/2010 -->
+		<primaryAccession>GU477541</primaryAccession> <!-- # A/great black-headed gull/Qinghai/8/2009 -->
+		<primaryAccession>GQ386151</primaryAccession> <!-- # A/bean goose/Tyva/10/2009 -->
+		<primaryAccession>JQ673611</primaryAccession> <!-- # A/environment/Cambodia/C53W/2011 -->
+		<primaryAccession>CY016949</primaryAccession> <!-- # A/chicken/Nigeria/1047-34/2006 -->
+		<primaryAccession>MF112748</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-7/2015 -->
+		<primaryAccession>EU499378</primaryAccession> <!-- # A/Laos/Nong Khai 1/2007 -->
+		<primaryAccession>CY014228</primaryAccession> <!-- # A/Indonesia/CDC292T/2005 -->
+		<primaryAccession>HM440133</primaryAccession> <!-- # A/swine/East Java/UT6012/2007 -->
+		<primaryAccession>MF112769</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-28/2015 -->
+		<primaryAccession>KP872891</primaryAccession> <!-- # A/quail/Vietnam/CVVI-49/2010 -->
+		<primaryAccession>GU186511</primaryAccession> <!-- # A/turkey/VA/505477-18/2007 -->
+		<primaryAccession>CY126067</primaryAccession> <!-- # A/chicken/Sharkia/CAI41/2009 -->
+		<primaryAccession>JQ966929</primaryAccession> <!-- # A/condor/Guangdong/139/2003 -->
+		<primaryAccession>CY029689</primaryAccession> <!-- # A/duck/Vietnam/43/2007(H5N1) -->
+		<primaryAccession>MF598581</primaryAccession> <!-- # A/Nanjing/1/2015 -->
+		<primaryAccession>EU930918</primaryAccession> <!-- # A/duck/Vietnam/205/2005 -->
+		<primaryAccession>CY190149</primaryAccession> <!-- # A/environment/Maryland/06OS1178/2006 -->
+		<primaryAccession>LC010762</primaryAccession> <!-- # A/muscovy duck/Long An/88/2014 -->
+		<primaryAccession>CY030273</primaryAccession> <!-- # A/Muscovy duck/Vietnam/NCVD-5/2007(H5N1) -->
+		<primaryAccession>CY016917</primaryAccession> <!-- # A/ostrich/Nigeria/1047-25/2006 -->
+		<primaryAccession>KU971310</primaryAccession> <!-- # A/chicken/Niger/15VIR2060-12/2015 -->
+		<primaryAccession>CY029697</primaryAccession> <!-- # A/Muscovy duck/Vietnam/48/2007(H5N1) -->
+		<primaryAccession>KX867875</primaryAccession> <!-- # A/mink/China/XB/2015 -->
+		<primaryAccession>KY635620</primaryAccession> <!-- # A/chicken/Bangladesh/24944/2015 -->
+		<primaryAccession>KP336339</primaryAccession> <!-- # A/crow/India/02CA03/2012 -->
+		<primaryAccession>MN994163</primaryAccession> <!-- # A/chicken/Bangladesh/NRL-AI-8052/2017 -->
+		<primaryAccession>MT378340</primaryAccession> <!-- # A/flamingo/Kazakhstan/6570/2015 -->
+		<primaryAccession>JF772166</primaryAccession> <!-- # A/quail/Guangxi/13/2002 -->
+		<primaryAccession>MW749807</primaryAccession> <!-- # A/duck/Bangladesh/45724/2020 -->
+		<primaryAccession>MF112744</primaryAccession> <!-- # A/goose/Nigeria/16VIR5840-3/2015 -->
+		<primaryAccession>GU182176</primaryAccession> <!-- # A/environment/Hunan/7-73/2008 -->
+		<primaryAccession>JN808027</primaryAccession> <!-- # A/eurasian eagle owl/Korea/Q196/2011 -->
+		<primaryAccession>MF112746</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-5/2015 -->
+		<primaryAccession>CY206117</primaryAccession> <!-- # A/mallard/Minnesota/AI11-4429/2011 -->
+		<primaryAccession>MW466304</primaryAccession> <!-- # A/duck/Bangladesh/41250/2019 -->
+		<primaryAccession>KY635756</primaryAccession> <!-- # A/duck/Bangladesh/26042/2015 -->
+		<primaryAccession>OM938172</primaryAccession> <!-- # A/duck/Bangladesh/46247/2020 -->
+		<primaryAccession>KU971430</primaryAccession> <!-- # A/duck/Ghana/15VIR5480-24/2015 -->
+		<primaryAccession>CY098580</primaryAccession> <!-- # A/Anhui/2/2005 -->
+		<primaryAccession>KF888470</primaryAccession> <!-- # A/environment/Bangladesh/18984/2013 -->
+		<primaryAccession>JN588847</primaryAccession> <!-- # A/chicken/Cambodia/TKCMB1F/2010 -->
+		<primaryAccession>FJ010980</primaryAccession> <!-- # A/chicken/Jalgaon/13735/2006 -->
+		<primaryAccession>LC167576</primaryAccession> <!-- # A/duck/Vietnam/HU3-617/2015 -->
+		<primaryAccession>CY030440</primaryAccession> <!-- # A/Muscovy duck/Vietnam/NCVD-29/2007(H5N1) -->
+		<primaryAccession>MW676472</primaryAccession> <!-- # A/CHICKEN/Hunan/1117/2010 -->
+		<primaryAccession>CY111115</primaryAccession> <!-- # A/chicken/India/85459/2008 -->
+		<primaryAccession>JN808032</primaryAccession> <!-- # A/eurasian eagle owl/Korea/Q182/2011 -->
+		<primaryAccession>KC616511</primaryAccession> <!-- # A/chicken/Bangladesh/12VIR-7140-14/2012 -->
+		<primaryAccession>CY080397</primaryAccession> <!-- # A/chicken/West Bengal/83098/2008 -->
+		<primaryAccession>OM938294</primaryAccession> <!-- # A/duck/Bangladesh/46161/2020 -->
+		<primaryAccession>JX420208</primaryAccession> <!-- # A/chicken/Ca Mau/1180/2006 -->
+		<primaryAccession>OM938224</primaryAccession> <!-- # A/duck/Bangladesh/46157/2020 -->
+		<primaryAccession>CY029218</primaryAccession> <!-- # A/silky chicken/Shantou/540/2003(H5N1) -->
+		<primaryAccession>FJ573470</primaryAccession> <!-- # A/Bangladesh/207095/2008 -->
+		<primaryAccession>KF881432</primaryAccession> <!-- # A/duck/Egypt/Q4596A/2012 -->
+		<primaryAccession>CY029337</primaryAccession> <!-- # A/duck/Yunnan/971/2002(H5N1) -->
+		<primaryAccession>CY190181</primaryAccession> <!-- # A/environment/Maryland/06OS1190/2006 -->
+		<primaryAccession>KR732436</primaryAccession> <!-- # A/duck/Vietnam BacLiu/NCVD-10/2007 -->
+		<primaryAccession>FJ445236</primaryAccession> <!-- # A/mute swan/Hungary/4571/2006 -->
+		<primaryAccession>KX513299</primaryAccession> <!-- # A/duck/Vietnam/ST1489-2/2012 -->
+		<primaryAccession>CY132447</primaryAccession> <!-- # A/mallard/Ohio/11OS2216/2011 -->
+		<primaryAccession>AB212282</primaryAccession> <!-- # A/duck/Yokohama/aq10/2003 -->
+		<primaryAccession>CY036087</primaryAccession> <!-- # A/white-backed munia/Hong Kong/828/2007(H5N1) -->
+		<primaryAccession>GU050485</primaryAccession> <!-- # A/muscovy duck/Ha Nam/07-84/2007 -->
+		<primaryAccession>CY190173</primaryAccession> <!-- # A/environment/Maryland/06OS1187/2006 -->
+		<primaryAccession>KF881597</primaryAccession> <!-- # A/chicken/Egypt/S3806B/2011 -->
+		<primaryAccession>CY029295</primaryAccession> <!-- # A/duck/Hunan/378/2003(H5N1) -->
+		<primaryAccession>AB684201</primaryAccession> <!-- # A/chicken/Miyazaki/12/2011 -->
+		<primaryAccession>JX497778</primaryAccession> <!-- # A/wild duck/Korea/SNU50-5/2009 -->
+		<primaryAccession>LC331881</primaryAccession> <!-- # A/chicken/Vietnam/HU4-1326/2015 -->
+		<primaryAccession>KJ682265</primaryAccession> <!-- # A/chicken/Bhutan/1029/2012 -->
+		<primaryAccession>CY126138</primaryAccession> <!-- # A/chicken/Giza/CAI8/2008 -->
+		<primaryAccession>KT362014</primaryAccession> <!-- # A/duck/Bangladesh/21326/2013 -->
+		<primaryAccession>CY144741</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI07-69/2007 -->
+		<primaryAccession>CY014486</primaryAccession> <!-- # A/Indonesia/CDC669/2006 -->
+		<primaryAccession>KX513266</primaryAccession> <!-- # A/duck/Vietnam/QT1457-1/2012 -->
+		<primaryAccession>OM938338</primaryAccession> <!-- # A/duck/Bangladesh/46244/2020 -->
+		<primaryAccession>GU182184</primaryAccession> <!-- # A/environment/Hunan/6-69/2008 -->
+		<primaryAccession>GQ122469</primaryAccession> <!-- # A/chicken/Bali/UT2091/2005 -->
+		<primaryAccession>JX576793</primaryAccession> <!-- # A/environment/Hunan/3/2011 -->
+		<primaryAccession>LC497227</primaryAccession> <!-- # A/chicken/Vietnam/HU10-1051/2018 -->
+		<primaryAccession>JX420128</primaryAccession> <!-- # A/duck/Soc Trang/31/2007 -->
+		<primaryAccession>CY016933</primaryAccession> <!-- # A/chicken/Nigeria/1047-62/2006 -->
+		<primaryAccession>DQ094283</primaryAccession> <!-- # A/chicken/Viet Nam/HCM-022/2004 -->
+		<primaryAccession>MF046448</primaryAccession> <!-- # A/Canada goose/Delaware Bay/601/2016 -->
+		<primaryAccession>AF509102</primaryAccession> <!-- # A/Chicken/Hong Kong/822.1/01 (H5N1) -->
+		<primaryAccession>HM114603</primaryAccession> <!-- # A/Vietnam/UT31412II/2008 -->
+		<primaryAccession>KF881520</primaryAccession> <!-- # A/goose/Egypt/M2794A/2011 -->
+		<primaryAccession>KF881562</primaryAccession> <!-- # A/chicken/Egypt/S3280D/2011 -->
+		<primaryAccession>LC364339</primaryAccession> <!-- # A/duck/Vietnam/HU8-1817/2017 -->
+		<primaryAccession>KR021387</primaryAccession> <!-- # A/duck/India/12CA05/2014 -->
+		<primaryAccession>CY029148</primaryAccession> <!-- # A/partridge/Shantou/1075/2002(H5N1) -->
+		<primaryAccession>GU186718</primaryAccession> <!-- # A/chicken/Lang Son/200/2005 -->
+		<primaryAccession>CY098855</primaryAccession> <!-- # A/water/Hunan/7/2009 -->
+		<primaryAccession>CY030525</primaryAccession> <!-- # A/duck/Vietnam/NCVD-43/2007(H5N1) -->
+		<primaryAccession>CY126106</primaryAccession> <!-- # A/chicken/Sharkia/CAI3/2009 -->
+		<primaryAccession>GQ412068</primaryAccession> <!-- # A/duck/Korea/NSQ263/2008 -->
+		<primaryAccession>MW466211</primaryAccession> <!-- # A/duck/Bangladesh/43521/2020 -->
+		<primaryAccession>CY098808</primaryAccession> <!-- # A/environment/Guizhou/4/2009 -->
+		<primaryAccession>EF523700</primaryAccession> <!-- # A/peregrine/Denmark/6632/06 -->
+		<primaryAccession>EU486854</primaryAccession> <!-- # A/starling/Rostov-on-Don/39/07 -->
+		<primaryAccession>CY030931</primaryAccession> <!-- # A/goose/Yunnan/4985/2006(H5N1) -->
+		<primaryAccession>MF613766</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/317/2016 -->
+		<primaryAccession>GU182216</primaryAccession> <!-- # A/environment/Hunan/1-8/2007 -->
+		<primaryAccession>GU182168</primaryAccession> <!-- # A/duck/Hunan/8/2008 -->
+		<primaryAccession>CY020639</primaryAccession> <!-- # A/chicken/Afghanistan/1573-92/2006 -->
+		<primaryAccession>MG957621</primaryAccession> <!-- # A/duck/Bangladesh/31993/2017 -->
+		<primaryAccession>DQ094287</primaryAccession> <!-- # A/chicken/Viet Nam/LD-080/2004 -->
+		<primaryAccession>KJ682241</primaryAccession> <!-- # A/chicken/Bhutan/936/2012 -->
+		<primaryAccession>MG042293</primaryAccession> <!-- # A/duck/Bangladesh/31095/2016 -->
+		<primaryAccession>FJ784769</primaryAccession> <!-- # A/duck/Hunan/1964/2007 -->
+		<primaryAccession>CY048477</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-70/2007(H5N1) -->
+		<primaryAccession>AB742297</primaryAccession> <!-- # A/duck/Vietnam/LBM140/2012 -->
+		<primaryAccession>KP336291</primaryAccession> <!-- # A/turkey/India/10CA04/2012 -->
+		<primaryAccession>MN994139</primaryAccession> <!-- # A/chicken/Bangladesh/NRL-AI-1614/2017 -->
+		<primaryAccession>EU146723</primaryAccession> <!-- # A/Indonesia/321H/2006 -->
+		<primaryAccession>KP035040</primaryAccession> <!-- # A/duck/Egypt/14VIR784-6-1328S/2013 -->
+		<primaryAccession>GU050335</primaryAccession> <!-- # A/avian/Hong Kong/2372/2007 -->
+		<primaryAccession>ON943072</primaryAccession> <!-- # A/poultry/Benin/21-A-08-035-O/2021 -->
+		<primaryAccession>JQ701706</primaryAccession> <!-- # A/heron/Cambodia/TM068/2011 -->
+		<primaryAccession>KX513328</primaryAccession> <!-- # A/duck/Vietnam/ST1490-1/2012 -->
+		<primaryAccession>CY014239</primaryAccession> <!-- # A/Indonesia/CDC326/2006 -->
+		<primaryAccession>AY737299</primaryAccession> <!-- # A/chicken/Guangdong/178/04 -->
+		<primaryAccession>EU146819</primaryAccession> <!-- # A/Indonesia/583H/2006 -->
+		<primaryAccession>MN994179</primaryAccession> <!-- # A/chicken/Bangladesh/NRL-AI-8323/2017 -->
+		<primaryAccession>CY029099</primaryAccession> <!-- # A/chicken/Shantou/5746/2001(H5N1) -->
+		<primaryAccession>MH791846</primaryAccession> <!-- # A/duck/Bangladesh/34097/2017 -->
+		<primaryAccession>HM590783</primaryAccession> <!-- # A/environment/Thailand/ICRC-6670/2010 -->
+		<primaryAccession>KY635668</primaryAccession> <!-- # A/environment/Bangladesh/26170/2015 -->
+		<primaryAccession>CY134023</primaryAccession> <!-- # A/mallard/California/2542V/2011 -->
+		<primaryAccession>LC194849</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU3-353/2015(H5N1) -->
+		<primaryAccession>JQ714248</primaryAccession> <!-- # A/Cambodia/W0112303/2012 -->
+		<primaryAccession>HM114475</primaryAccession> <!-- # A/Vietnam/UT3035/2003 -->
+		<primaryAccession>LC167712</primaryAccession> <!-- # A/duck/Vietnam/HU3-1126/2015 -->
+		<primaryAccession>AB742257</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM113/2012 -->
+		<primaryAccession>CY029078</primaryAccession> <!-- # A/goose/Shantou/5456/2001(H5N1) -->
+		<primaryAccession>KU057266</primaryAccession> <!-- # A/tiger/Yunnan/tig1508/2015 -->
+		<primaryAccession>KC616510</primaryAccession> <!-- # A/chicken/Bangladesh/12VIR-7140-13/2012 -->
+		<primaryAccession>KX513214</primaryAccession> <!-- # A/duck/Vietnam/QT1458-3/2012 -->
+		<primaryAccession>KU057290</primaryAccession> <!-- # A/peacock/Yunnan/1/2015 -->
+		<primaryAccession>MF112838</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-97/2016 -->
+		<primaryAccession>KT327368</primaryAccession> <!-- # A/chicken/India/100074/2008 -->
+		<primaryAccession>AB629715</primaryAccession> <!-- # A/peregrine falcon/Aomori/7/2011 -->
+		<primaryAccession>JX420184</primaryAccession> <!-- # A/chicken/Cao Bang/20/2007 -->
+		<primaryAccession>CY040936</primaryAccession> <!-- # A/duck/Laos/A0301/2007(H5N1) -->
+		<primaryAccession>AY059484</primaryAccession> <!-- # A/Goose/Hong Kong/ww28/2000(H5N1) -->
+		<primaryAccession>GQ412066</primaryAccession> <!-- # A/chicken/Korea/YAQ173/2008 -->
+		<primaryAccession>EF205170</primaryAccession> <!-- # A/goose/Suzdalka/10/05 -->
+		<primaryAccession>FJ784767</primaryAccession> <!-- # A/chicken/Hunan/1793/2007 -->
+		<primaryAccession>CY041024</primaryAccession> <!-- # A/chicken/Laos/35/2008(H5N1) -->
+		<primaryAccession>CY036223</primaryAccession> <!-- # A/common buzzard/Hong Kong/9213/2007(H5N1) -->
+		<primaryAccession>HM627947</primaryAccession> <!-- # A/openbill stork/Thailand/VSMU-12-BKK/2003 -->
+		<primaryAccession>AB355931</primaryAccession> <!-- # A/duck/Hokkaido/Vac-3/2007 -->
+		<primaryAccession>GU052420</primaryAccession> <!-- # A/environment/Viet Nam/1203/2004 -->
+		<primaryAccession>CY019386</primaryAccession> <!-- # A/Indonesia/CDC1032/2007 -->
+		<primaryAccession>GU477543</primaryAccession> <!-- # A/brown-headed gull/Qinghai/19/2009 -->
+		<primaryAccession>CY030455</primaryAccession> <!-- # A/duck/Vietnam/NCVD-31/2007(H5N1) -->
+		<primaryAccession>KJ682291</primaryAccession> <!-- # A/chicken/Bhutan/258/2012 -->
+		<primaryAccession>KT867346</primaryAccession> <!-- # A/duck/India/11CA02/2014 -->
+		<primaryAccession>MG042086</primaryAccession> <!-- # A/duck/Bangladesh/30884/2016 -->
+		<primaryAccession>MF112789</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-48/2015 -->
+		<primaryAccession>DQ997532</primaryAccession> <!-- # A/duck/Shanghai/xj/2002 -->
+		<primaryAccession>MW676424</primaryAccession> <!-- # A/DUCK/Hunan/88/2010 -->
+		<primaryAccession>CY126020</primaryAccession> <!-- # A/chicken/Menofia/CAI28/2009 -->
+		<primaryAccession>CY098611</primaryAccession> <!-- # A/Sichuan/1/2006 -->
+		<primaryAccession>MW676427</primaryAccession> <!-- # A/DUCK/Hunan/8/2010 -->
+		<primaryAccession>JX241039</primaryAccession> <!-- # A/duck/Vietnam/TY114/2007 -->
+		<primaryAccession>AB972677</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM566/2014 -->
+		<primaryAccession>GQ412063</primaryAccession> <!-- # A/chicken/Korea/ISQ250/2008 -->
+		<primaryAccession>CY036713</primaryAccession> <!-- # A/chicken/Vietnam/933/2004 -->
+		<primaryAccession>KM892800</primaryAccession> <!-- # A/chicken/Bali/U8661/2009 -->
+		<primaryAccession>MW676421</primaryAccession> <!-- # A/DUCK/Hunan/95/2010 -->
+		<primaryAccession>KC616515</primaryAccession> <!-- # A/chicken/Bangladesh/12VIR-7140-18/2012 -->
+		<primaryAccession>CY029998</primaryAccession> <!-- # A/chicken/Kuwait/KISR9/2007(H5N1) -->
+		<primaryAccession>MN994131</primaryAccession> <!-- # A/chicken/Bangladesh/NRL-AI-1613/2017 -->
+		<primaryAccession>KT762433</primaryAccession> <!-- # A/duck/Hunan/S4020/2008 -->
+		<primaryAccession>CY029302</primaryAccession> <!-- # A/duck/Hunan/782/2003(H5N1) -->
+		<primaryAccession>CY016909</primaryAccession> <!-- # A/chicken/Nigeria/1047-8/2006 -->
+		<primaryAccession>CY098299</primaryAccession> <!-- # A/chicken/Lao/LH1/2010 -->
+		<primaryAccession>CY098430</primaryAccession> <!-- # A/environment/Lao/979/2010 -->
+		<primaryAccession>GU186694</primaryAccession> <!-- # A/waterfowl/Hong Kong/378.5/2001 -->
+		<primaryAccession>KF667732</primaryAccession> <!-- # A/herring gull/Mongolia/833T2/2009 -->
+		<primaryAccession>MF112815</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-74/2015 -->
+		<primaryAccession>FJ225473</primaryAccession> <!-- # A/Cambodia/R0405050/2007 -->
+		<primaryAccession>GQ386143</primaryAccession> <!-- # A/grebe/Tyva/3/2009 -->
+		<primaryAccession>LC167592</primaryAccession> <!-- # A/duck/Vietnam/HU3-708/2015 -->
+		<primaryAccession>CY014238</primaryAccession> <!-- # A/Indonesia/CDC287E/2005 -->
+		<primaryAccession>CY098704</primaryAccession> <!-- # A/Guangdong/1/2008 -->
+		<primaryAccession>CY016885</primaryAccession> <!-- # A/duck/Viet Nam/12/2005 -->
+		<primaryAccession>JF732738</primaryAccession> <!-- # A/ostrich/Suzhou/097/2003 -->
+		<primaryAccession>KX513367</primaryAccession> <!-- # A/duck/Vietnam/ST1488-3/2012 -->
+		<primaryAccession>JX534551</primaryAccession> <!-- # A/wild duck/Shandong/1/2011 -->
+		<primaryAccession>CY126114</primaryAccession> <!-- # A/chicken/Qalubia/CAI5/2008 -->
+		<primaryAccession>LC167784</primaryAccession> <!-- # A/chicken/Vietnam/HU3-1518/2015 -->
+		<primaryAccession>AF509097</primaryAccession> <!-- # A/Silky Chicken/Hong Kong/SF189/01 (H5N1) -->
+		<primaryAccession>HM627923</primaryAccession> <!-- # A/openbill stork/Thailand/VSMU-5-NSN/2004 -->
+		<primaryAccession>MF566121</primaryAccession> <!-- # A/duck/Niger/2090/2006 -->
+		<primaryAccession>CY019378</primaryAccession> <!-- # A/Indonesia/CDC1031RE2/2007 -->
+		<primaryAccession>MW961462</primaryAccession> <!-- # A/chicken/Nigeria/VRD21-109_21VIR2370-425/2021 -->
+		<primaryAccession>KX513335</primaryAccession> <!-- # A/Muscovy duck/Vietnam/BG80-1/2013 -->
+		<primaryAccession>GQ122517</primaryAccession> <!-- # A/chicken/Banten/UT6025/2006 -->
+		<primaryAccession>KF001382</primaryAccession> <!-- # A/Cambodia/X0123312/2013 -->
+		<primaryAccession>KU143341</primaryAccession> <!-- # A/duck/Wenzhou/HAYXLG10/2015 -->
+		<primaryAccession>CY016893</primaryAccession> <!-- # A/duck/Viet Nam/20/2005 -->
+		<primaryAccession>KU143342</primaryAccession> <!-- # A/duck/Wenzhou/YJYF33/2015 -->
+		<primaryAccession>JX420144</primaryAccession> <!-- # A/chicken/Hanoi/45/2007 -->
+		<primaryAccession>MW676430</primaryAccession> <!-- # A/DUCK/Hunan/74/2011 -->
+		<primaryAccession>KM267786</primaryAccession> <!-- # A/crow/India/02CA07/2012 -->
+		<primaryAccession>CY094833</primaryAccession> <!-- # A/duck/Vietnam/NCVD04/2005 -->
+		<primaryAccession>CY017037</primaryAccession> <!-- # A/cygnus olor/Italy/742/2006 -->
+		<primaryAccession>CY014231</primaryAccession> <!-- # A/Indonesia/CDC370/2006 -->
+		<primaryAccession>KT361928</primaryAccession> <!-- # A/duck/Bangladesh/21814/2014 -->
+		<primaryAccession>KJ682253</primaryAccession> <!-- # A/chicken/Bhutan/933/2012 -->
+		<primaryAccession>GQ122433</primaryAccession> <!-- # A/chicken/East Java/UT1006/2003 -->
+		<primaryAccession>CY029001</primaryAccession> <!-- # A/duck/Shantou/195/2001(H5N1) -->
+		<primaryAccession>AB617581</primaryAccession> <!-- # A/peregrine falcon/Tochigi/15/2011 -->
+		<primaryAccession>KF881584</primaryAccession> <!-- # A/chicken/Egypt/Q1112E/2010 -->
+		<primaryAccession>HM172176</primaryAccession> <!-- # A/chicken/Xinjiang/17/2005 -->
+		<primaryAccession>KY171510</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-1104/2013 -->
+		<primaryAccession>HM440077</primaryAccession> <!-- # A/swine/Banten/UT3081/2005 -->
+		<primaryAccession>CY029657</primaryAccession> <!-- # A/duck/Vietnam/37/2007(H5N1) -->
+		<primaryAccession>CY098400</primaryAccession> <!-- # A/environment/Lao/964/2010 -->
+		<primaryAccession>KP288318</primaryAccession> <!-- # A/quail/Nanchang/6631/2013 -->
+		<primaryAccession>AY950250</primaryAccession> <!-- # A/swan/Guangxi/307/2004 -->
+		<primaryAccession>CY029649</primaryAccession> <!-- # A/duck/Vietnam/34/2007(H5N1) -->
+		<primaryAccession>KP336319</primaryAccession> <!-- # A/chicken/India/12CA01/2013 -->
+		<primaryAccession>KX571058</primaryAccession> <!-- # A/lion/Hubei/1-2/2016 -->
+		<primaryAccession>MF112839</primaryAccession> <!-- # A/guinea fowl/Nigeria/16VIR5840-98/2016 -->
+		<primaryAccession>OL638147</primaryAccession> <!-- # A/goose/Czech Republic/18520-2/2021 -->
+		<primaryAccession>CY029545</primaryAccession> <!-- # A/duck/Vietnam/1469/2005(H5N1) -->
+		<primaryAccession>JX534591</primaryAccession> <!-- # A/wild duck/Fujian/1/2011 -->
+		<primaryAccession>LC106085</primaryAccession> <!-- # A/chicken/Sharkeya/14209SS/2014 -->
+		<primaryAccession>MW676473</primaryAccession> <!-- # A/CHICKEN/Hunan/108/2010 -->
+		<primaryAccession>CY029330</primaryAccession> <!-- # A/duck/Yunnan/862/2002(H5N1) -->
+		<primaryAccession>JF772158</primaryAccession> <!-- # A/quail/Guangxi/12/2002 -->
+		<primaryAccession>KP288326</primaryAccession> <!-- # A/duck/Nanchang/9789/2013 -->
+		<primaryAccession>KX513295</primaryAccession> <!-- # A/duck/Vietnam/ST1490-2/2012 -->
+		<primaryAccession>CY094841</primaryAccession> <!-- # A/duck/Vietnam/NCVD07/2005 -->
+		<primaryAccession>AF509094</primaryAccession> <!-- # A/Chicken/Hong Kong/YU563/01 (H5N1) -->
+		<primaryAccession>GU052129</primaryAccession> <!-- # A/environment/Hong Kong/156/1997 -->
+		<primaryAccession>KF881350</primaryAccession> <!-- # A/chicken/Egypt/S3806D/2011 -->
+		<primaryAccession>KY171129</primaryAccession> <!-- # A/duck/Vietnam/NCVD14-A447/2014 -->
+		<primaryAccession>HQ200541</primaryAccession> <!-- # A/chicken/Cambodia/022LC1b/2005 -->
+		<primaryAccession>KR010413</primaryAccession> <!-- # A/goose/Inner Mongolia/IM-192/2014 -->
+		<primaryAccession>CY133951</primaryAccession> <!-- # A/mallard/California/2531P/2011 -->
+		<primaryAccession>CY020663</primaryAccession> <!-- # A/chicken/Sudan/1784-8/2006 -->
+		<primaryAccession>AB188818</primaryAccession> <!-- # A/chicken/Oita/8/2004(H5N1) -->
+		<primaryAccession>CY029155</primaryAccession> <!-- # A/quail/Shantou/3054/2002(H5N1) -->
+		<primaryAccession>CY036271</primaryAccession> <!-- # A/peregrine falcon/Hong Kong/2142/2008(H5N1) -->
+		<primaryAccession>LC500432</primaryAccession> <!-- # A/duck/Vietnam/HU10-1759/2018 -->
+		<primaryAccession>CY098697</primaryAccession> <!-- # A/Guangxi/1/2008 -->
+		<primaryAccession>JF772150</primaryAccession> <!-- # A/quail/Guangxi/11/2002 -->
+		<primaryAccession>GQ917232</primaryAccession> <!-- # A/chicken/India/WB-NIV92456/2009 -->
+		<primaryAccession>CY029585</primaryAccession> <!-- # A/duck/Vietnam/5/2007(H5N1) -->
+		<primaryAccession>KX513254</primaryAccession> <!-- # A/duck/Vietnam/QT1729/2013 -->
+		<primaryAccession>CY029593</primaryAccession> <!-- # A/duck/Vietnam/6/2007(H5N1) -->
+		<primaryAccession>KY614969</primaryAccession> <!-- # A/chicken/Lamongan/04160418/2016 -->
+		<primaryAccession>CY098732</primaryAccession> <!-- # A/Xinjiang/1/2009 -->
+		<primaryAccession>HM114515</primaryAccession> <!-- # A/Vietnam/UT30259/2004 -->
+		<primaryAccession>KX513270</primaryAccession> <!-- # A/duck/Vietnam/QT1457-2/2012 -->
+		<primaryAccession>MG042439</primaryAccession> <!-- # A/duck/Bangladesh/30057/2016 -->
+		<primaryAccession>KF001398</primaryAccession> <!-- # A/Cambodia/X0207301/2013 -->
+		<primaryAccession>MH135532</primaryAccession> <!-- # A/quail/Bangladesh/32942/2017 -->
+		<primaryAccession>EU146739</primaryAccession> <!-- # A/Indonesia/534H/2006 -->
+		<primaryAccession>EU146760</primaryAccession> <!-- # A/Indonesia/536H/2006 -->
+		<primaryAccession>GQ122475</primaryAccession> <!-- # A/chicken/Bali/UT2092/2005 -->
+		<primaryAccession>GU052075</primaryAccession> <!-- # A/Goose/Hong Kong/3014.5/2000 -->
+		<primaryAccession>CY030297</primaryAccession> <!-- # A/duck/Vietnam/NCVD-8/2007(H5N1) -->
+		<primaryAccession>KY614985</primaryAccession> <!-- # A/duck/Sidrap/07160336-3/2016 -->
+		<primaryAccession>GQ122463</primaryAccession> <!-- # A/duck/East Java/UT1107/2004 -->
+		<primaryAccession>CY098657</primaryAccession> <!-- # A/Guangdong/2/2006 -->
+		<primaryAccession>JX534583</primaryAccession> <!-- # A/wild duck/Jilin/ZF/2011 -->
+		<primaryAccession>KX513233</primaryAccession> <!-- # A/duck/Vietnam/QT1457-3/2012 -->
+		<primaryAccession>CY014446</primaryAccession> <!-- # A/Indonesia/CDC634/2006 -->
+		<primaryAccession>MF112775</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-34/2015 -->
+		<primaryAccession>FJ784764</primaryAccession> <!-- # A/duck/Henan/1647/2006 -->
+		<primaryAccession>EF362420</primaryAccession> <!-- # A/Ck/India/NIV33487/06 -->
+		<primaryAccession>CY014470</primaryAccession> <!-- # A/Indonesia/CDC625L/2006 -->
+		<primaryAccession>CY030369</primaryAccession> <!-- # A/duck/Vietnam/NCVD-18/2007(H5N1) -->
+		<primaryAccession>MW044655</primaryAccession> <!-- # A/chicken/Egypt/S75-P10/2019 -->
+		<primaryAccession>GU182208</primaryAccession> <!-- # A/environment/Hunan/5-32/2007 -->
+		<primaryAccession>CY014305</primaryAccession> <!-- # A/Indonesia/CDC599/2006 -->
+		<primaryAccession>CY030401</primaryAccession> <!-- # A/Muscovy duck/Vietnam/NCVD-22/2007(H5N1) -->
+		<primaryAccession>JN646729</primaryAccession> <!-- # A/duck/Zhejiang/2242/2011 -->
+		<primaryAccession>CY048453</primaryAccession> <!-- # A/chicken/Nigeria/08RS848-67/2007(H5N1) -->
+		<primaryAccession>CY089473</primaryAccession> <!-- # A/chicken/India/CA0301/2011 -->
+		<primaryAccession>MF112774</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-33/2015 -->
+		<primaryAccession>CY029162</primaryAccession> <!-- # A/quail/Shantou/3071/2002(H5N1) -->
+		<primaryAccession>AB972709</primaryAccession> <!-- # A/duck/Vietnam/LBM570/2014 -->
+		<primaryAccession>GU186734</primaryAccession> <!-- # A/chicken/Ninh Binh/209/2005 -->
+		<primaryAccession>KY614818</primaryAccession> <!-- # A/duck/Sukoharjo/BBVW-1428-9/2012 -->
+		<primaryAccession>KY171456</primaryAccession> <!-- # A/duck/Vietnam/NCVD-2805/2013 -->
+		<primaryAccession>CY019410</primaryAccession> <!-- # A/Indonesia/CDC1046/2007 -->
+		<primaryAccession>CY030546</primaryAccession> <!-- # A/Muscovy duck/Vietnam/NCVD-46/2007(H5N1) -->
+		<primaryAccession>CY116664</primaryAccession> <!-- # A/ferret/Indonesia/5-F2/2005 -->
+		<primaryAccession>DQ997411</primaryAccession> <!-- # A/duck/Zhejiang/bj/2002 -->
+		<primaryAccession>MG957539</primaryAccession> <!-- # A/duck/Bangladesh/32502/2017 -->
+		<primaryAccession>KF001428</primaryAccession> <!-- # A/duck/Cambodia/46W2M4/2013 -->
+		<primaryAccession>CY047485</primaryAccession> <!-- # A/chicken/Reshoty/02/2006(H5N1) -->
+		<primaryAccession>FJ784771</primaryAccession> <!-- # A/chicken/Hubei/2856/2007 -->
+		<primaryAccession>JN808046</primaryAccession> <!-- # A/eurasian sparrowhawk/Korea/Q94/2011 -->
+		<primaryAccession>ON943071</primaryAccession> <!-- # A/poultry/Benin/21-A-08-034-O/2021 -->
+		<primaryAccession>AB741560</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM57/2011 -->
+		<primaryAccession>KF888504</primaryAccession> <!-- # A/chicken/Bangladesh/15079/2012 -->
+		<primaryAccession>KY926765</primaryAccession> <!-- # A/duck/Cameroon/16VIR3791-21/2016 -->
+		<primaryAccession>CY040976</primaryAccession> <!-- # A/chicken/Laos/P0130/2007(H5N1) -->
+		<primaryAccession>CY036183</primaryAccession> <!-- # A/Daurian starling/Hong Kong/1532/2007(H5N1) -->
+		<primaryAccession>JQ638677</primaryAccession> <!-- # A/chicken/Jiangsu/k0402/2010 -->
+		<primaryAccession>HM440125</primaryAccession> <!-- # A/swine/East Java/UT6010/2007 -->
+		<primaryAccession>MH498569</primaryAccession> <!-- # A/chicken/Egypt/B13825A/2017 -->
+		<primaryAccession>CY098643</primaryAccession> <!-- # A/Hubei/1/2006 -->
+		<primaryAccession>CY020655</primaryAccession> <!-- # A/turkey/Egypt/2253-2/2006 -->
+		<primaryAccession>KP861977</primaryAccession> <!-- # A/chicken/Nepal/08TI87/2013 -->
+		<primaryAccession>HQ200491</primaryAccession> <!-- # A/duck/Cambodia/D2KC167/2006 -->
+		<primaryAccession>CY040901</primaryAccession> <!-- # A/pigeon/Laos/P0022/2007(H5N1) -->
+		<primaryAccession>HM440053</primaryAccession> <!-- # A/swine/Banten/UT2071/2005 -->
+		<primaryAccession>CY030907</primaryAccession> <!-- # A/goose/Yunnan/3798/2006(H5N1) -->
+		<primaryAccession>LC497243</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HU10-1139/2018 -->
+		<primaryAccession>JN808041</primaryAccession> <!-- # A/whooper swan/Korea/Q28/2011 -->
+		<primaryAccession>CY133943</primaryAccession> <!-- # A/mallard/California/2527V/2011 -->
+		<primaryAccession>KY629545</primaryAccession> <!-- # A/duck/Bangladesh/23858/2014 -->
+		<primaryAccession>JN588856</primaryAccession> <!-- # A/Cambodia/V0203306/2011 -->
+		<primaryAccession>KU311548</primaryAccession> <!-- # A/domestic duck/VinhLong/0185/2013 -->
+		<primaryAccession>MG042160</primaryAccession> <!-- # A/duck/Bangladesh/31023/2016 -->
+		<primaryAccession>CY029521</primaryAccession> <!-- # A/duck/Vietnam/1231/2005(H5N1) -->
+		<primaryAccession>CY036199</primaryAccession> <!-- # A/little egret/Hong Kong/8550/2007(H5N1) -->
+		<primaryAccession>EU146759</primaryAccession> <!-- # A/Indonesia/535H/2006 -->
+		<primaryAccession>AB478031</primaryAccession> <!-- # A/chicken/Pyigyitagon/204/2006 -->
+		<primaryAccession>CY029365</primaryAccession> <!-- # A/chicken/Yunnan/564/2003(H5N1) -->
+		<primaryAccession>JN588845</primaryAccession> <!-- # A/chicken/Cambodia/TKCMB5T/2010 -->
+		<primaryAccession>CY029681</primaryAccession> <!-- # A/Muscovy duck/Vietnam/41/2007(H5N1) -->
+		<primaryAccession>KF881425</primaryAccession> <!-- # A/duck/Egypt/M2583B/2010 -->
+		<primaryAccession>JF758716</primaryAccession> <!-- # A/environment/Maryland/1159/2006 -->
+		<primaryAccession>MF112752</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-11/2015 -->
+		<primaryAccession>MH791888</primaryAccession> <!-- # A/duck/Bangladesh/34283/2017 -->
+		<primaryAccession>KF715206</primaryAccession> <!-- # A/duck/Bangladesh/19097/2013 -->
+		<primaryAccession>CY040920</primaryAccession> <!-- # A/duck/Laos/P0117/2007(H5N1) -->
+		<primaryAccession>CY030939</primaryAccession> <!-- # A/goose/Yunnan/5141/2006(H5N1) -->
+		<primaryAccession>FJ784774</primaryAccession> <!-- # A/chicken/Hunan/3157/2006 -->
+		<primaryAccession>CY098718</primaryAccession> <!-- # A/Shandong/1/2009 -->
+		<primaryAccession>EF523699</primaryAccession> <!-- # A/peacock/Denmark/60295/06 -->
+		<primaryAccession>KJ682267</primaryAccession> <!-- # A/wild bird/Bhutan/326/2012 -->
+		<primaryAccession>MT200028</primaryAccession> <!-- # A/Domestic duck/Viet Nam/A_duck_Vietnam_HU12-1572_2019/2019 -->
+		<primaryAccession>JN808050</primaryAccession> <!-- # A/mandarin duck/Korea/Q2/2011 -->
+		<primaryAccession>OL370521</primaryAccession> <!-- # A/Pacific black duck/Victoria/17-0997-22/2017 -->
+		<primaryAccession>FJ784772</primaryAccession> <!-- # A/duck/Hubei/2911/2007 -->
+		<primaryAccession>MH135692</primaryAccession> <!-- # A/duck/Bangladesh/33775/2017 -->
+		<primaryAccession>FJ868016</primaryAccession> <!-- # A/chicken/Thailand/ST-351/2008 -->
+		<primaryAccession>HM172170</primaryAccession> <!-- # A/chicken/Hunan/21/2005 -->
+		<primaryAccession>LC208485</primaryAccession> <!-- # A/chicken/Japan/AQ-HE79/2015 -->
+		<primaryAccession>LC167664</primaryAccession> <!-- # A/chicken/Vietnam/HU3-879/2015 -->
+		<primaryAccession>KF881410</primaryAccession> <!-- # A/duck/Egypt/Q4596B/2012 -->
+		<primaryAccession>GQ122427</primaryAccession> <!-- # A/chicken/West Java/UT1001/2003 -->
+		<primaryAccession>AB823749</primaryAccession> <!-- # A/chicken/Soc Trang/1/2012 -->
+		<primaryAccession>CY036143</primaryAccession> <!-- # A/chestnut munia/Hong Kong/2442/2007(H5N1) -->
+		<primaryAccession>MH791857</primaryAccession> <!-- # A/duck/Bangladesh/34036/2017 -->
+		<primaryAccession>CY035900</primaryAccession> <!-- # A/chicken/Vietnam/NCVD12/2005 -->
+		<primaryAccession>CY098438</primaryAccession> <!-- # A/duck/Lao/980/2010 -->
+		<primaryAccession>KY171360</primaryAccession> <!-- # A/muscovy duck/Vietnam/NCVD-1983/2012 -->
+		<primaryAccession>AB818507</primaryAccession> <!-- # A/chicken/Soc Trang/5/2012 -->
+		<primaryAccession>MF112753</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-12/2015 -->
+		<primaryAccession>CY014462</primaryAccession> <!-- # A/Indonesia/CDC634T/2006 -->
+		<primaryAccession>EU443565</primaryAccession> <!-- # A/Peregrine falcon/Slovakia/Vh246/06 -->
+		<primaryAccession>LC167520</primaryAccession> <!-- # A/environment/Vietnam/HU3-490/2015 -->
+		<primaryAccession>MF112798</primaryAccession> <!-- # A/chicken/Nigeria/16VIR5840-57/2015 -->
+		<primaryAccession>EU233418</primaryAccession> <!-- # A/Chicken/Thailand/ICRC-V143/2007 -->
+		<primaryAccession>CY016925</primaryAccession> <!-- # A/chicken/Nigeria/1047-54/2006 -->
+		<primaryAccession>CY017181</primaryAccession> <!-- # A/guinea fowl/Nigeria/957-12/2006 -->
+		<primaryAccession>HM172177</primaryAccession> <!-- # A/duck/Hunan/29/2006 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

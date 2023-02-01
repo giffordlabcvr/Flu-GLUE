@@ -1,0 +1,16 @@
+<!-- NCBI import module for IAV subtype 'H12N9' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-2</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MW875481</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/305/2020 -->
+		<primaryAccession>MW875636</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/350/2020 -->
+		<primaryAccession>MW875186</primaryAccession> <!-- # A/Ruddy Turnstone/Delaware Bay/471/2020 -->
+		<primaryAccession>MW875536</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/301/2020 -->
+		<primaryAccession>MN937701</primaryAccession> <!-- # A/ruddy turnstone/Georgia/UGAI18-639/2018 -->
+		<primaryAccession>CY005714</primaryAccession> <!-- # A/red-necked stint/Australia/5745/1981 -->
+		<primaryAccession>CY202994</primaryAccession> <!-- # A/mallard/Maryland/07OS1544/2007 -->
+		<primaryAccession>CY029879</primaryAccession> <!-- # A/red-necked stint/Western Australia/5745/1982 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

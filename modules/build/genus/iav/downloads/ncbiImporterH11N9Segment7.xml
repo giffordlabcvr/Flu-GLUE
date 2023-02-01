@@ -1,0 +1,478 @@
+<!-- NCBI import module for IAV subtype 'H11N9' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-7</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>CY184390</primaryAccession> <!-- # A/mallard/Sweden/79416/2008 -->
+		<primaryAccession>CY005852</primaryAccession> <!-- # A/shoveler/Netherlands/19/1999 -->
+		<primaryAccession>CY184206</primaryAccession> <!-- # A/mallard/Sweden/101574/2009 -->
+		<primaryAccession>CY127302</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/264/1995 -->
+		<primaryAccession>AB593466</primaryAccession> <!-- # A/duck/Vietnam/G30/2008 -->
+		<primaryAccession>MK237423</primaryAccession> <!-- # A/mallard/Ohio/17OS5586/2017 -->
+		<primaryAccession>KY828711</primaryAccession> <!-- # A/mallard/California/UCD1106/2015 -->
+		<primaryAccession>CY191252</primaryAccession> <!-- # A/mallard/Maryland/12OS3662/2013 -->
+		<primaryAccession>CY184108</primaryAccession> <!-- # A/mallard/Sweden/2321/2004 -->
+		<primaryAccession>CY076694</primaryAccession> <!-- # A/northern shoveler/California/44363-082/2007 -->
+		<primaryAccession>LC339654</primaryAccession> <!-- # A/duck/Hokkaido/W242/2006 -->
+		<primaryAccession>CY141144</primaryAccession> <!-- # A/mallard/Minnesota/AI10-2762/2010 -->
+		<primaryAccession>CY178752</primaryAccession> <!-- # A/mallard/Wisconsin/435/1981 -->
+		<primaryAccession>KX351753</primaryAccession> <!-- # A/mallard/California/UCD805/2015 -->
+		<primaryAccession>OL371682</primaryAccession> <!-- # A/wild waterbird/Victoria/19-00581-009/2019 -->
+		<primaryAccession>CY241422</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI16-1474/2016 -->
+		<primaryAccession>MW875118</primaryAccession> <!-- # A/Sanderling/Delaware Bay/568/2020 -->
+		<primaryAccession>CY167201</primaryAccession> <!-- # A/northern shoveler/Mississippi/12OS346/2012 -->
+		<primaryAccession>MW876120</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/155/2020 -->
+		<primaryAccession>CY184246</primaryAccession> <!-- # A/mallard/Sweden/101082/2009 -->
+		<primaryAccession>CY177727</primaryAccession> <!-- # A/mallard/Wisconsin/2281/1984 -->
+		<primaryAccession>CY177671</primaryAccession> <!-- # A/mallard/Wisconsin/1077/1982 -->
+		<primaryAccession>MW876081</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/58/2020 -->
+		<primaryAccession>CY140468</primaryAccession> <!-- # A/mallard/Minnesota/Sg-00930/2008 -->
+		<primaryAccession>CY127639</primaryAccession> <!-- # A/mallard/Alberta/193/2000 -->
+		<primaryAccession>CY186904</primaryAccession> <!-- # A/blue-winged teal/Ohio/12OS2152/2012 -->
+		<primaryAccession>CY207206</primaryAccession> <!-- # A/black-necked stilt/Chile/1/2013 -->
+		<primaryAccession>CY183768</primaryAccession> <!-- # A/mallard/Sweden/52057/2006 -->
+		<primaryAccession>CY127310</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/271/1995 -->
+		<primaryAccession>CY078155</primaryAccession> <!-- # A/mallard/Minnesota/Sg-00198/2007 -->
+		<primaryAccession>CY184302</primaryAccession> <!-- # A/mallard/Sweden/100791/2009 -->
+		<primaryAccession>CY025198</primaryAccession> <!-- # A/sharp-tailed sandpiper/Australia/6/2004 -->
+		<primaryAccession>MG280536</primaryAccession> <!-- # A/green-winged teal/Mississippi/16OS6098/2016 -->
+		<primaryAccession>KT932372</primaryAccession> <!-- # A/ruddy turnstone/Ilha de Canelas/A17/2008 -->
+		<primaryAccession>KT932378</primaryAccession> <!-- # A/ruddy turnstone/Ilha de Canelas/A51/2008 -->
+		<primaryAccession>MG280269</primaryAccession> <!-- # A/pintail duck/Maryland/16OS3852/2016 -->
+		<primaryAccession>CY179692</primaryAccession> <!-- # A/duck/Wisconsin/2550/1985 -->
+		<primaryAccession>CY021686</primaryAccession> <!-- # A/mallard/Missouri/MO32/2005 -->
+		<primaryAccession>CY184222</primaryAccession> <!-- # A/mallard/Sweden/101490/2009 -->
+		<primaryAccession>CY039535</primaryAccession> <!-- # A/green winged teal/California/AKS1305/2008 -->
+		<primaryAccession>CY146727</primaryAccession> <!-- # A/duck/Hunan/S4474/2011 -->
+		<primaryAccession>CY021654</primaryAccession> <!-- # A/black duck/Ohio/161/1999 -->
+		<primaryAccession>CY097423</primaryAccession> <!-- # A/mallard/Wisconsin/4203/2009 -->
+		<primaryAccession>KY561162</primaryAccession> <!-- # A/common black duck/Ohio/15OS5780/2015 -->
+		<primaryAccession>MW876020</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/126/2020 -->
+		<primaryAccession>CY202851</primaryAccession> <!-- # A/mallard/Maryland/10OS116/2010 -->
+		<primaryAccession>CY166622</primaryAccession> <!-- # A/mallard/Wisconsin/11OS3422/2011 -->
+		<primaryAccession>CY184382</primaryAccession> <!-- # A/mallard/Sweden/79390/2008 -->
+		<primaryAccession>CY178327</primaryAccession> <!-- # A/mallard/Wisconsin/261/1980 -->
+		<primaryAccession>CY184326</primaryAccession> <!-- # A/mallard/Sweden/80253/2008 -->
+		<primaryAccession>MH412190</primaryAccession> <!-- # A/mallard/Alberta/350/2017 -->
+		<primaryAccession>CY126281</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/513/1988 -->
+		<primaryAccession>CY184464</primaryAccession> <!-- # A/mallard/Sweden/68621/2007 -->
+		<primaryAccession>CY202891</primaryAccession> <!-- # A/mallard/Maryland/10OS2271/2010 -->
+		<primaryAccession>GU053403</primaryAccession> <!-- # A/mallard/Maryland/926/2004 -->
+		<primaryAccession>CY005331</primaryAccession> <!-- # A/shorebird/DE/236/2003 -->
+		<primaryAccession>MF147116</primaryAccession> <!-- # A/common teal/Netherlands/7/2005 -->
+		<primaryAccession>MT406954</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/195_7/2018 -->
+		<primaryAccession>CY021174</primaryAccession> <!-- # A/green-winged teal/Ohio/1844/2005 -->
+		<primaryAccession>CY184334</primaryAccession> <!-- # A/mallard/Sweden/80079/2008 -->
+		<primaryAccession>CY180885</primaryAccession> <!-- # A/blue-winged teal/Wisconsin/145/1980 -->
+		<primaryAccession>JF789605</primaryAccession> <!-- # A/mallard/Czech Republic/13438-29K/2010 -->
+		<primaryAccession>CY186823</primaryAccession> <!-- # A/mallard/Ohio/12OS4697/2012 -->
+		<primaryAccession>CY127214</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/155/1995 -->
+		<primaryAccession>CY094110</primaryAccession> <!-- # A/mallard/California/6517/2008 -->
+		<primaryAccession>MW875214</primaryAccession> <!-- # A/Ruddy Turnstone/Delaware Bay/439/2020 -->
+		<primaryAccession>MN988137</primaryAccession> <!-- # A/mallard/Alaska/AK18-WB2-177A/2018 -->
+		<primaryAccession>CY179700</primaryAccession> <!-- # A/mallard/Wisconsin/5/1975 -->
+		<primaryAccession>CY177719</primaryAccession> <!-- # A/mallard/Wisconsin/2269/1984 -->
+		<primaryAccession>KF259259</primaryAccession> <!-- # A/duck/Jiangxi/22537/2012 -->
+		<primaryAccession>CY126689</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/774/1988 -->
+		<primaryAccession>CY184398</primaryAccession> <!-- # A/mallard/Sweden/79330/2008 -->
+		<primaryAccession>CY176951</primaryAccession> <!-- # A/northern shoveler/California/3887/2012 -->
+		<primaryAccession>MW875667</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/330/2020 -->
+		<primaryAccession>OL423690</primaryAccession> <!-- # A/mallard/Utah/AH0152319/2021 -->
+		<primaryAccession>FJ520177</primaryAccession> <!-- # A/northern pintail/California/44221-699/2006 -->
+		<primaryAccession>CY202883</primaryAccession> <!-- # A/mallard/Maryland/10OS146/2010 -->
+		<primaryAccession>MN911269</primaryAccession> <!-- # A/Ruddy Turnstone/Delaware/612/2019 -->
+		<primaryAccession>CY127588</primaryAccession> <!-- # A/mallard/Alberta/122/1999 -->
+		<primaryAccession>CY184310</primaryAccession> <!-- # A/mallard/Sweden/100740/2009 -->
+		<primaryAccession>KU143298</primaryAccession> <!-- # A/wild bird/Wuhan/CDHN22/2015 -->
+		<primaryAccession>CY184406</primaryAccession> <!-- # A/mallard/Sweden/79256/2008 -->
+		<primaryAccession>EU871837</primaryAccession> <!-- # A/green-winged teal/LA/9GW/1987 -->
+		<primaryAccession>CY077057</primaryAccession> <!-- # A/mallard/Netherlands/42/2006 -->
+		<primaryAccession>CY179356</primaryAccession> <!-- # A/green-winged teal/Wisconsin/166/1977 -->
+		<primaryAccession>CY127318</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/278/1995 -->
+		<primaryAccession>CY020966</primaryAccession> <!-- # A/blue-winged teal/Ohio/101/1993 -->
+		<primaryAccession>CY126673</primaryAccession> <!-- # A/shorebird/Delaware Bay/747/1988 -->
+		<primaryAccession>KY561061</primaryAccession> <!-- # A/American green-winged teal/Missouri/15OS6591/2015 -->
+		<primaryAccession>MK237362</primaryAccession> <!-- # A/common goldeneye/Wisconsin/17OS5294/2017 -->
+		<primaryAccession>CY178600</primaryAccession> <!-- # A/mallard/Wisconsin/356/1984 -->
+		<primaryAccession>KU143299</primaryAccession> <!-- # A/wild bird/Wuhan/CDHN173/2015 -->
+		<primaryAccession>KJ413528</primaryAccession> <!-- # A/blue-winged teal/TX/AI13-330/2013 -->
+		<primaryAccession>OK559504</primaryAccession> <!-- # A/White-fronted goose (Anser albifrons)/South Korea/KNU2020-5/2020 -->
+		<primaryAccession>MG280816</primaryAccession> <!-- # A/wild bird/Anhui Shengjin Lake/S119/2014 -->
+		<primaryAccession>CY180164</primaryAccession> <!-- # A/pintail/Wisconsin/298/1976 -->
+		<primaryAccession>CY127679</primaryAccession> <!-- # A/shorebird/Delaware Bay/6/2002 -->
+		<primaryAccession>CY133186</primaryAccession> <!-- # A/mallard/Wisconsin/10OS2889/2010 -->
+		<primaryAccession>CY094126</primaryAccession> <!-- # A/mallard/California/6634/2008 -->
+		<primaryAccession>CY184214</primaryAccession> <!-- # A/mallard/Sweden/101589/2009 -->
+		<primaryAccession>CY127202</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/120/1995 -->
+		<primaryAccession>KY561058</primaryAccession> <!-- # A/mallard duck/Ohio/15OS5845/2015 -->
+		<primaryAccession>MT773563</primaryAccession> <!-- # A/avian/Moscow/3641/2008 -->
+		<primaryAccession>CY181274</primaryAccession> <!-- # A/blue-winged teal/Wisconsin/151/1978 -->
+		<primaryAccession>MK535166</primaryAccession> <!-- # A/northern pintail/Ohio/06OS2067/2006 -->
+		<primaryAccession>KY561193</primaryAccession> <!-- # A/mallard duck/Ohio/15OS5361/2015 -->
+		<primaryAccession>CY097310</primaryAccession> <!-- # A/greater scaup/Wisconsin/4234/2009 -->
+		<primaryAccession>CY021646</primaryAccession> <!-- # A/green-winged teal/Ohio/397/1986 -->
+		<primaryAccession>CY145688</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/Sg-00561/2008 -->
+		<primaryAccession>MH597374</primaryAccession> <!-- # A/ruddy turnstone/Delaware/650610/2002 -->
+		<primaryAccession>KX979249</primaryAccession> <!-- # A/mallard duck/Netherlands/29/2009 -->
+		<primaryAccession>CY127703</primaryAccession> <!-- # A/shorebird/Delaware Bay/48/2002 -->
+		<primaryAccession>CY145712</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/Sg-00564/2008 -->
+		<primaryAccession>OL423698</primaryAccession> <!-- # A/mallard/Utah/AH0152345/2021 -->
+		<primaryAccession>MF147382</primaryAccession> <!-- # A/European herring gull/Netherlands/1/2015 -->
+		<primaryAccession>MH597414</primaryAccession> <!-- # A/ruddy turnstone/Delaware/650636/2002 -->
+		<primaryAccession>MW876084</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/227/2020 -->
+		<primaryAccession>OL372218</primaryAccession> <!-- # A/wild waterfowl/Western Australia/AS18-1331-64/2018 -->
+		<primaryAccession>KY678691</primaryAccession> <!-- # A/mallard/Ohio/15OS7528/2015 -->
+		<primaryAccession>KF259269</primaryAccession> <!-- # A/common teal/Hong Kong/MPD322/2007 -->
+		<primaryAccession>CY133046</primaryAccession> <!-- # A/mallard/Wisconsin/10OS4193/2010 -->
+		<primaryAccession>CY139706</primaryAccession> <!-- # A/blue-winged teal/Louisiana/B3/1986 -->
+		<primaryAccession>MT421718</primaryAccession> <!-- # A/mallard/Maryland/UGAI16-5525/2016 -->
+		<primaryAccession>MH498740</primaryAccession> <!-- # A/yellow-billed teal/Chile/C8619/2016 -->
+		<primaryAccession>MW857521</primaryAccession> <!-- # A/duck/Thailand/CU-14442C/2014 -->
+		<primaryAccession>CY180100</primaryAccession> <!-- # A/green-winged teal/Wisconsin/561/1979 -->
+		<primaryAccession>CY180701</primaryAccession> <!-- # A/gadwall/Wisconsin/555/1976 -->
+		<primaryAccession>GU053366</primaryAccession> <!-- # A/mallard/Maryland/557/2002 -->
+		<primaryAccession>CY129071</primaryAccession> <!-- # A/American black duck/New Brunswick/02519/2007 -->
+		<primaryAccession>CY240863</primaryAccession> <!-- # A/environment/New Jersey/UGAI16-0866/2016 -->
+		<primaryAccession>CY126945</primaryAccession> <!-- # A/mallard/Alberta/126/1991 -->
+		<primaryAccession>EU743458</primaryAccession> <!-- # A/mallard/MN/42/2000 -->
+		<primaryAccession>MH637009</primaryAccession> <!-- # A/mallard/Alberta/414/2017 -->
+		<primaryAccession>CY126937</primaryAccession> <!-- # A/mallard/Alberta/122/1991 -->
+		<primaryAccession>CY126681</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/772/1988 -->
+		<primaryAccession>CY184134</primaryAccession> <!-- # A/mallard/Sweden/50980/2006 -->
+		<primaryAccession>CY075958</primaryAccession> <!-- # A/northern shoveler/California/44241-862/2006 -->
+		<primaryAccession>CY184424</primaryAccession> <!-- # A/mallard/Sweden/79123/2008 -->
+		<primaryAccession>KY828824</primaryAccession> <!-- # A/mallard/California/UCD954/2015 -->
+		<primaryAccession>KF259275</primaryAccession> <!-- # A/northern shoveler/Hong Kong/MPK276/2009 -->
+		<primaryAccession>MG280808</primaryAccession> <!-- # A/wild bird/Anhui Caizi Lake/L306/2014 -->
+		<primaryAccession>MT421774</primaryAccession> <!-- # A/northern shoveler/Maryland/UGAI16-5592/2016 -->
+		<primaryAccession>CY127230</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/175/1995 -->
+		<primaryAccession>KF259253</primaryAccession> <!-- # A/duck/Guizhou/1078/2011 -->
+		<primaryAccession>KF259280</primaryAccession> <!-- # A/duck/Yunnan/1282/2007 -->
+		<primaryAccession>CY127326</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/279/1995 -->
+		<primaryAccession>CY146482</primaryAccession> <!-- # A/mallard/New Jersey/AI09-5122/2009 -->
+		<primaryAccession>CY129262</primaryAccession> <!-- # A/American black duck/New Brunswick/02485/2007 -->
+		<primaryAccession>KY561149</primaryAccession> <!-- # A/northern shoveler/Missouri/15OS6584/2015 -->
+		<primaryAccession>CY202907</primaryAccession> <!-- # A/mallard/Maryland/10OS2305/2010 -->
+		<primaryAccession>KX351633</primaryAccession> <!-- # A/northern shoveler/California/LDC391/2015 -->
+		<primaryAccession>CY184350</primaryAccession> <!-- # A/mallard/Sweden/79436/2008 -->
+		<primaryAccession>MF046411</primaryAccession> <!-- # A/mallard/Alberta/379/2015 -->
+		<primaryAccession>AB807772</primaryAccession> <!-- # A/duck/Vietnam/LBM81/2012 -->
+		<primaryAccession>CY097415</primaryAccession> <!-- # A/northern pintail/Wisconsin/4198/2009 -->
+		<primaryAccession>MG279993</primaryAccession> <!-- # A/mallard duck/Wisconsin/16OS3314/2016 -->
+		<primaryAccession>KY828806</primaryAccession> <!-- # A/mallard/California/UCD883/2015 -->
+		<primaryAccession>KF259260</primaryAccession> <!-- # A/duck/Jiangxi/22597/2012 -->
+		<primaryAccession>MH597480</primaryAccession> <!-- # A/ruddy turnstone/Delaware/650670/2002 -->
+		<primaryAccession>CY184366</primaryAccession> <!-- # A/mallard/Sweden/79984/2008 -->
+		<primaryAccession>CY184190</primaryAccession> <!-- # A/mallard/Sweden/102103/2009 -->
+		<primaryAccession>MG280332</primaryAccession> <!-- # A/Northern shoveler/Missouri/16OS3609/2016 -->
+		<primaryAccession>MH637191</primaryAccession> <!-- # A/mallard/Alberta/416/2017 -->
+		<primaryAccession>KX703022</primaryAccession> <!-- # A/waterfowl/Korea/S353/2016 -->
+		<primaryAccession>CY132742</primaryAccession> <!-- # A/gadwall/Wisconsin/10OS3122/2010 -->
+		<primaryAccession>JF323767</primaryAccession> <!-- # A/Steller's eider/Alaska/44422-253/2008 -->
+		<primaryAccession>CY241651</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI16-2116/2016 -->
+		<primaryAccession>CY167012</primaryAccession> <!-- # A/mallard/Illinois/11OS4421/2011 -->
+		<primaryAccession>FJ520171</primaryAccession> <!-- # A/northern pintail/California/44221-637/2006 -->
+		<primaryAccession>MH598031</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/650626/2002 -->
+		<primaryAccession>CY178952</primaryAccession> <!-- # A/pintail/Wisconsin/447/1976 -->
+		<primaryAccession>CY179244</primaryAccession> <!-- # A/mallard/Wisconsin/1069/1982 -->
+		<primaryAccession>KX351556</primaryAccession> <!-- # A/mallard/California/32610/2015 -->
+		<primaryAccession>KF259256</primaryAccession> <!-- # A/duck/Jiangxi/21714/2011 -->
+		<primaryAccession>CY184278</primaryAccession> <!-- # A/mallard/Sweden/100878/2009 -->
+		<primaryAccession>CY184286</primaryAccession> <!-- # A/mallard/Sweden/100879/2009 -->
+		<primaryAccession>CY202875</primaryAccession> <!-- # A/mallard/Maryland/10OS132/2010 -->
+		<primaryAccession>MH251183</primaryAccession> <!-- # A/green-winged teal/California/UCD1370/2016 -->
+		<primaryAccession>CY180108</primaryAccession> <!-- # A/mallard/Wisconsin/441/1984 -->
+		<primaryAccession>CY127222</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/167/1995 -->
+		<primaryAccession>CY166689</primaryAccession> <!-- # A/mallard/Wisconsin/11OS4292/2011 -->
+		<primaryAccession>HM060057</primaryAccession> <!-- # A/thick-billed murre/Alaska/44086-095/2006 -->
+		<primaryAccession>CY184318</primaryAccession> <!-- # A/mallard/Sweden/100687/2009 -->
+		<primaryAccession>CY177687</primaryAccession> <!-- # A/mallard/Wisconsin/1102/1982 -->
+		<primaryAccession>CY133818</primaryAccession> <!-- # A/northern shoveler/Missouri/10MO0294/2010 -->
+		<primaryAccession>CY177062</primaryAccession> <!-- # A/green-winged teal/California/514/2013 -->
+		<primaryAccession>CY076961</primaryAccession> <!-- # A/mallard/Sweden/90/2005 -->
+		<primaryAccession>CY032919</primaryAccession> <!-- # A/northern shoveler/California/HKWF611/2007(H11N9) -->
+		<primaryAccession>MW876050</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/26/2020 -->
+		<primaryAccession>CY202997</primaryAccession> <!-- # A/mallard/Maryland/07OS1563/2007 -->
+		<primaryAccession>CY127246</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/213/1995 -->
+		<primaryAccession>GQ257441</primaryAccession> <!-- # A/duck/Memphis/546/1974 -->
+		<primaryAccession>CY021446</primaryAccession> <!-- # A/blue-winged teal/Ohio/96/1993 -->
+		<primaryAccession>MW093751</primaryAccession> <!-- # A/Anas platyrhynchos/South Korea/JB31-69/2019 -->
+		<primaryAccession>CY097567</primaryAccession> <!-- # A/mallard/Illinois/4179/2009 -->
+		<primaryAccession>MT407162</primaryAccession> <!-- # A/bird/Belgium/10697/2016 -->
+		<primaryAccession>KT932366</primaryAccession> <!-- # A/ruddy turnstone/Ilha de Canelas/A08/2008 -->
+		<primaryAccession>CY097051</primaryAccession> <!-- # A/American black duck/Illinois/3854/2009 -->
+		<primaryAccession>CY184270</primaryAccession> <!-- # A/mallard/Sweden/100832/2009 -->
+		<primaryAccession>CY187078</primaryAccession> <!-- # A/blue winged-teal/Wisconsin/12OS3069/2012 -->
+		<primaryAccession>CY180773</primaryAccession> <!-- # A/duck/Minnesota/47/1975 -->
+		<primaryAccession>CY140821</primaryAccession> <!-- # A/mallard/Minnesota/AI09-3302/2009 -->
+		<primaryAccession>KC881301</primaryAccession> <!-- # A/environment/Jiangxi/28/2009 -->
+		<primaryAccession>CY127398</primaryAccession> <!-- # A/mallard/Alberta/279/1996 -->
+		<primaryAccession>CY134376</primaryAccession> <!-- # A/mallard/California/198/2012 -->
+		<primaryAccession>CY206855</primaryAccession> <!-- # A/mallard/Southcentral Alaska/15ML00407/2015 -->
+		<primaryAccession>CY184262</primaryAccession> <!-- # A/mallard/Sweden/101011/2009 -->
+		<primaryAccession>CY190676</primaryAccession> <!-- # A/environment/Maryland/08OS1579/2008 -->
+		<primaryAccession>OL372202</primaryAccession> <!-- # A/wild waterfowl/Western Australia/AS18-1331-45/2018 -->
+		<primaryAccession>MN911219</primaryAccession> <!-- # A/Ruddy Turnstone/Delaware/477/2019 -->
+		<primaryAccession>OL372226</primaryAccession> <!-- # A/wild waterfowl/Western Australia/AS18-1331-66/2018 -->
+		<primaryAccession>CY177703</primaryAccession> <!-- # A/mallard/Wisconsin/1109/1982 -->
+		<primaryAccession>KF259281</primaryAccession> <!-- # A/duck/Yunnan/2908/2009 -->
+		<primaryAccession>CY206237</primaryAccession> <!-- # A/blue-winged teal/Texas/AI12-3737/2012 -->
+		<primaryAccession>CY184342</primaryAccession> <!-- # A/mallard/Sweden/80011/2008 -->
+		<primaryAccession>CY126697</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/2369/1988 -->
+		<primaryAccession>CY133062</primaryAccession> <!-- # A/mallard/Wisconsin/10OS2667/2010 -->
+		<primaryAccession>CY081301</primaryAccession> <!-- # A/mallard/Maryland/1111/2005 -->
+		<primaryAccession>KX121191</primaryAccession> <!-- # A/bean goose/Hubei/SZY200/2016 -->
+		<primaryAccession>CY005324</primaryAccession> <!-- # A/pintail/Alberta/84/2000 -->
+		<primaryAccession>CY127145</primaryAccession> <!-- # A/shorebird/Delaware Bay/17/1995 -->
+		<primaryAccession>CY139822</primaryAccession> <!-- # A/mallard/Minnesota/346245/2000 -->
+		<primaryAccession>MW875142</primaryAccession> <!-- # A/Ruddy Turnstone/Delaware Bay/447/2020 -->
+		<primaryAccession>CY184448</primaryAccession> <!-- # A/mallard/Sweden/69639/2007 -->
+		<primaryAccession>CY127194</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/119/1995 -->
+		<primaryAccession>CY177743</primaryAccession> <!-- # A/mallard/Wisconsin/2293/1984 -->
+		<primaryAccession>CY097687</primaryAccession> <!-- # A/American green-winged teal/Mississippi/300/2010 -->
+		<primaryAccession>CY184294</primaryAccession> <!-- # A/mallard/Sweden/100760/2009 -->
+		<primaryAccession>MW875598</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/320/2020 -->
+		<primaryAccession>CY133465</primaryAccession> <!-- # A/mallard/Iowa/10OS2752/2010 -->
+		<primaryAccession>CY184238</primaryAccession> <!-- # A/mallard/Sweden/101163/2009 -->
+		<primaryAccession>CY076406</primaryAccession> <!-- # A/cinnamon teal/California/44287-234/2007 -->
+		<primaryAccession>MW875880</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/295/2020 -->
+		<primaryAccession>CY045296</primaryAccession> <!-- # A/mallard/Quebec/11111/2006 -->
+		<primaryAccession>MG280300</primaryAccession> <!-- # A/green-winged teal/Missouri/16OS6199/2016 -->
+		<primaryAccession>CY235308</primaryAccession> <!-- # A/mallard/Idaho/UGAI16-1962/2016 -->
+		<primaryAccession>CY184016</primaryAccession> <!-- # A/mallard/Sweden/418/2002 -->
+		<primaryAccession>OL371170</primaryAccession> <!-- # A/wild duck/Tasmania/17-0958-33/2017 -->
+		<primaryAccession>CY177679</primaryAccession> <!-- # A/mallard/Wisconsin/1083/1982 -->
+		<primaryAccession>CY097152</primaryAccession> <!-- # A/American green-winged teal/Mississippi/383/2010 -->
+		<primaryAccession>FJ520175</primaryAccession> <!-- # A/northern pintail/California/44221-664/2006 -->
+		<primaryAccession>CY125350</primaryAccession> <!-- # A/ring-necked duck/New Brunswick/03449/2009 -->
+		<primaryAccession>CY180060</primaryAccession> <!-- # A/mallard/Wisconsin/789/1976 -->
+		<primaryAccession>CY207214</primaryAccession> <!-- # A/black-necked stilt/Chile/2/2013 -->
+		<primaryAccession>OL371330</primaryAccession> <!-- # A/wild duck/Western Australia/AS17-4585-167/2017 -->
+		<primaryAccession>CY166988</primaryAccession> <!-- # A/northern shoveler/Illinois/11OS5680/2011 -->
+		<primaryAccession>CY127334</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/280/1995 -->
+		<primaryAccession>FJ520178</primaryAccession> <!-- # A/northern pintail/California/44221-710/2006 -->
+		<primaryAccession>KY828815</primaryAccession> <!-- # A/mallard/California/UCD993/2015 -->
+		<primaryAccession>MW875155</primaryAccession> <!-- # A/Ruddy Turnstone/Delaware Bay/606/2020 -->
+		<primaryAccession>CY029922</primaryAccession> <!-- # A/mallard/Missouri/209/2006 -->
+		<primaryAccession>KF259268</primaryAccession> <!-- # A/wild waterfowl/Hong Kong/MPC729/2006 -->
+		<primaryAccession>MN049556</primaryAccession> <!-- # A/Eurasian coot/Shanghai/PD112440/2016 -->
+		<primaryAccession>MG279887</primaryAccession> <!-- # A/blue-winged teal/Wisconsin/16OS3140/2016 -->
+		<primaryAccession>KU143297</primaryAccession> <!-- # A/wild bird/Wuhan/CDHN01/2015 -->
+		<primaryAccession>CY190668</primaryAccession> <!-- # A/environment/Maryland/08OS1550/2008 -->
+		<primaryAccession>CY127294</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/261/1995 -->
+		<primaryAccession>MG280800</primaryAccession> <!-- # A/mallard/Sanjiang/148/2006 -->
+		<primaryAccession>CY179364</primaryAccession> <!-- # A/mallard/Wisconsin/298/1977 -->
+		<primaryAccession>EU743466</primaryAccession> <!-- # A/mallard/MN/107/2000 -->
+		<primaryAccession>CY184008</primaryAccession> <!-- # A/mallard/Sweden/366/2002 -->
+		<primaryAccession>CY177711</primaryAccession> <!-- # A/mallard/Wisconsin/2256/1984 -->
+		<primaryAccession>CY029882</primaryAccession> <!-- # A/sharp-tailed sandpiper/Australia/10/2004 -->
+		<primaryAccession>MH637003</primaryAccession> <!-- # A/mallard/Alberta/412/2017 -->
+		<primaryAccession>CY178760</primaryAccession> <!-- # A/mallard/Wisconsin/1073/1982 -->
+		<primaryAccession>CY180685</primaryAccession> <!-- # A/mallard/Wisconsin/477/1976 -->
+		<primaryAccession>MW876175</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/17/2020 -->
+		<primaryAccession>CY133826</primaryAccession> <!-- # A/mallard/Missouri/10MO0333/2010 -->
+		<primaryAccession>CY093672</primaryAccession> <!-- # A/mallard/California/10125/2008 -->
+		<primaryAccession>CY166526</primaryAccession> <!-- # A/mallard/Wisconsin/11OS3338/2011 -->
+		<primaryAccession>CY004360</primaryAccession> <!-- # A/mallard duck/ALB/294/1977 -->
+		<primaryAccession>KY828606</primaryAccession> <!-- # A/mallard/California/UCD1108/2015 -->
+		<primaryAccession>MW875105</primaryAccession> <!-- # A/Ruddy Turnstone/Delaware Bay/587/2020 -->
+		<primaryAccession>MT824584</primaryAccession> <!-- # A/Common Goldeneye/Wisconsin/18OS3120/2018 -->
+		<primaryAccession>CY141010</primaryAccession> <!-- # A/mallard/Arkansas/AI09-5663/2009 -->
+		<primaryAccession>CY166721</primaryAccession> <!-- # A/mallard/Wisconsin/11OS4368/2011 -->
+		<primaryAccession>HM193609</primaryAccession> <!-- # A/mallard/Alaska/44430-056/2008 -->
+		<primaryAccession>CY177695</primaryAccession> <!-- # A/mallard/Wisconsin/1107/1982 -->
+		<primaryAccession>KY828769</primaryAccession> <!-- # A/mallard/California/UCD996/2015 -->
+		<primaryAccession>MH637150</primaryAccession> <!-- # A/mallard/Alberta/361/2017 -->
+		<primaryAccession>CY181266</primaryAccession> <!-- # A/blue-winged teal/Wisconsin/103/1978 -->
+		<primaryAccession>CY139862</primaryAccession> <!-- # A/mallard/Minnesota/346229/2000 -->
+		<primaryAccession>CY178536</primaryAccession> <!-- # A/mallard/Wisconsin/456/1984 -->
+		<primaryAccession>CY021614</primaryAccession> <!-- # A/black duck/Ohio/239/1986 -->
+		<primaryAccession>CY076686</primaryAccession> <!-- # A/American green-winged teal/California/44363-067/2007 -->
+		<primaryAccession>CY020942</primaryAccession> <!-- # A/mallard/Ohio/568/1987 -->
+		<primaryAccession>KJ568204</primaryAccession> <!-- # A/mallard/Wisconsin/13OS2800/2013 -->
+		<primaryAccession>GU053419</primaryAccession> <!-- # A/mallard/Maryland/950/2004 -->
+		<primaryAccession>CY076350</primaryAccession> <!-- # A/American green-winged teal/California/27790/2007 -->
+		<primaryAccession>MW875438</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/297/2020 -->
+		<primaryAccession>CY146498</primaryAccession> <!-- # A/mallard/New Jersey/AI09-5361/2009 -->
+		<primaryAccession>MW547738</primaryAccession> <!-- # A/aquatic bird/Gunsan/160/2007 -->
+		<primaryAccession>CY179252</primaryAccession> <!-- # A/mallard/Wisconsin/1071/1982 -->
+		<primaryAccession>KX351548</primaryAccession> <!-- # A/mallard/California/57811/2015 -->
+		<primaryAccession>OL371162</primaryAccession> <!-- # A/wild duck/Tasmania/17-0958-32/2017 -->
+		<primaryAccession>CY166761</primaryAccession> <!-- # A/mallard/Mississippi/11OS5863/2011 -->
+		<primaryAccession>KF259265</primaryAccession> <!-- # A/eurasian wigeon/Hong Kong/MPK655/2009 -->
+		<primaryAccession>CY060297</primaryAccession> <!-- # A/mallard/Sweden/48/2002 -->
+		<primaryAccession>CY184230</primaryAccession> <!-- # A/mallard/Sweden/101435/2009 -->
+		<primaryAccession>CY184432</primaryAccession> <!-- # A/mallard/Sweden/75334/2008 -->
+		<primaryAccession>CY191276</primaryAccession> <!-- # A/American black duck/Maryland/13OS2956/2013 -->
+		<primaryAccession>JF682624</primaryAccession> <!-- # A/mallard/Czech Republic/15902-18K/2009 -->
+		<primaryAccession>CY166136</primaryAccession> <!-- # A/mallard/Missouri/11OS4852/2011 -->
+		<primaryAccession>OL372186</primaryAccession> <!-- # A/wild waterfowl/Western Australia/AS17-4585-138/2017 -->
+		<primaryAccession>CY021870</primaryAccession> <!-- # A/green-winged teal/Ohio/340/1987 -->
+		<primaryAccession>CY139541</primaryAccession> <!-- # A/mallard/New Brunswick/00992/2010 -->
+		<primaryAccession>KX351634</primaryAccession> <!-- # A/mallard/California/UCD704/2015 -->
+		<primaryAccession>MW116725</primaryAccession> <!-- # A/Anas platyrhynchos/South Korea/JB31-103/2019 -->
+		<primaryAccession>CY127687</primaryAccession> <!-- # A/shorebird/Delaware Bay/26/2002 -->
+		<primaryAccession>MH991814</primaryAccession> <!-- # A/wild birds/Hubei/89/2014 -->
+		<primaryAccession>GQ257374</primaryAccession> <!-- # A/mallard/Minnesota/249/2000 -->
+		<primaryAccession>GU053411</primaryAccession> <!-- # A/mallard/Maryland/948/2004 -->
+		<primaryAccession>CY127695</primaryAccession> <!-- # A/shorebird/Delaware Bay/37/2002 -->
+		<primaryAccession>CY186709</primaryAccession> <!-- # A/mallard/Illinois/12OS4468/2012 -->
+		<primaryAccession>CY144137</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/650653/2002 -->
+		<primaryAccession>CY127137</primaryAccession> <!-- # A/shorebird/Delaware Bay/11/1995 -->
+		<primaryAccession>KF259271</primaryAccession> <!-- # A/duck/Guangdong/4323/2007 -->
+		<primaryAccession>KF259264</primaryAccession> <!-- # A/northern pintail/Hong Kong/MPJ851/2009 -->
+		<primaryAccession>CY020950</primaryAccession> <!-- # A/mallard/Ohio/209/1998 -->
+		<primaryAccession>CY146255</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI09-1008/2009 -->
+		<primaryAccession>CY021134</primaryAccession> <!-- # A/mallard/Ohio/399/1987 -->
+		<primaryAccession>CY127286</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/260/1995 -->
+		<primaryAccession>KF259263</primaryAccession> <!-- # A/common teal/Hong Kong/MPL1075/2011 -->
+		<primaryAccession>GU053395</primaryAccession> <!-- # A/mallard/Maryland/922/2004 -->
+		<primaryAccession>MN911238</primaryAccession> <!-- # A/Ruddy Turnstone/Delaware/633/2019 -->
+		<primaryAccession>KX351561</primaryAccession> <!-- # A/mallard/California/57820/2015 -->
+		<primaryAccession>CY185394</primaryAccession> <!-- # A/black-headed gull/Netherlands/40/2009 -->
+		<primaryAccession>CY205364</primaryAccession> <!-- # A/avian/Maryland/13OS2922/2013 -->
+		<primaryAccession>MW873617</primaryAccession> <!-- # A/green-winged teal/Alaska/AK18-459/2018 -->
+		<primaryAccession>CY076334</primaryAccession> <!-- # A/mallard/Washington/44256-527/2006 -->
+		<primaryAccession>CY166550</primaryAccession> <!-- # A/mallard/Wisconsin/11OS3009/2011 -->
+		<primaryAccession>AB569562</primaryAccession> <!-- # A/duck/Zambia/12/2009 -->
+		<primaryAccession>AB569538</primaryAccession> <!-- # A/goose/Zambia/09/2009 -->
+		<primaryAccession>CY126953</primaryAccession> <!-- # A/mallard/Alberta/251/1991 -->
+		<primaryAccession>CY134070</primaryAccession> <!-- # A/mallard/California/2555P/2011 -->
+		<primaryAccession>KY828674</primaryAccession> <!-- # A/mallard/California/UCD1013/2015 -->
+		<primaryAccession>CY180092</primaryAccession> <!-- # A/mallard/Wisconsin/540/1979 -->
+		<primaryAccession>CY131985</primaryAccession> <!-- # A/mallard/Ohio/10OS1475/2010 -->
+		<primaryAccession>CY127262</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/229/1995 -->
+		<primaryAccession>KX351686</primaryAccession> <!-- # A/northern shoveler/California/1670V/2013 -->
+		<primaryAccession>MW875096</primaryAccession> <!-- # A/Semipalmated sandpiper/Delaware Bay/553/2020 -->
+		<primaryAccession>MW875375</primaryAccession> <!-- # A/Ruddy Turnstone/Delaware Bay/414/2020 -->
+		<primaryAccession>CY184095</primaryAccession> <!-- # A/mallard/Sweden/101754/2009 -->
+		<primaryAccession>KY561207</primaryAccession> <!-- # A/green-winged teal/Missouri/15OS5246/2015 -->
+		<primaryAccession>CY133030</primaryAccession> <!-- # A/northern shoveler/Illinois/10OS3619/2010 -->
+		<primaryAccession>GQ257480</primaryAccession> <!-- # A/mallard/Maryland/439/2002 -->
+		<primaryAccession>KC881293</primaryAccession> <!-- # A/environment/Jiangxi/26/2009 -->
+		<primaryAccession>CY166267</primaryAccession> <!-- # A/mallard/Wisconsin/11OS4115/2011 -->
+		<primaryAccession>KX977846</primaryAccession> <!-- # A/mallard duck/Netherlands/12/2009 -->
+		<primaryAccession>CY094294</primaryAccession> <!-- # A/northern shoveler/California/8675/2008 -->
+		<primaryAccession>AB569554</primaryAccession> <!-- # A/duck/Zambia/11/2009 -->
+		<primaryAccession>CY077653</primaryAccession> <!-- # A/tern/Australia/752/1975 -->
+		<primaryAccession>CY021662</primaryAccession> <!-- # A/mallard/Ohio/173/1990 -->
+		<primaryAccession>OL370618</primaryAccession> <!-- # A/grey teal/Victoria/10657/2017 -->
+		<primaryAccession>KX351545</primaryAccession> <!-- # A/mallard/California/UCD656/2015 -->
+		<primaryAccession>CY139362</primaryAccession> <!-- # A/American black duck/New Brunswick/00880/2010 -->
+		<primaryAccession>KF259261</primaryAccession> <!-- # A/duck/Jiangxi/22620/2012 -->
+		<primaryAccession>CY133054</primaryAccession> <!-- # A/mallard/Wisconsin/10OS4194/2010 -->
+		<primaryAccession>CY014807</primaryAccession> <!-- # A/mallard duck/Tennessee/11457/1985 -->
+		<primaryAccession>CY179708</primaryAccession> <!-- # A/mallard/Wisconsin/10/1975 -->
+		<primaryAccession>CY025094</primaryAccession> <!-- # A/environment/Maryland/763/2006 -->
+		<primaryAccession>KR870240</primaryAccession> <!-- # A/duck/Pennsylvania/02099/2012 -->
+		<primaryAccession>CY184374</primaryAccession> <!-- # A/mallard/Sweden/79369/2008 -->
+		<primaryAccession>CY166654</primaryAccession> <!-- # A/wood duck/Wisconsin/11OS3443/2011 -->
+		<primaryAccession>CY180084</primaryAccession> <!-- # A/mallard/Wisconsin/538/1979 -->
+		<primaryAccession>CY146719</primaryAccession> <!-- # A/duck/Hunan/S4443/2011 -->
+		<primaryAccession>CY078051</primaryAccession> <!-- # A/mallard/Minnesota/Sg-00118/2007 -->
+		<primaryAccession>CY125743</primaryAccession> <!-- # A/glaucous-winged gull/Southeastern Alaska/10JR01856R0/2010 -->
+		<primaryAccession>CY203774</primaryAccession> <!-- # A/mallard/Maryland/07OS1316/2007 -->
+		<primaryAccession>CY179388</primaryAccession> <!-- # A/mallard/Wisconsin/413/1977 -->
+		<primaryAccession>CY202761</primaryAccession> <!-- # A/mallard/Maryland/10OS0879/2010 -->
+		<primaryAccession>MW116668</primaryAccession> <!-- # A/Anas platyrhynchos/South Korea/JB31-96/2019 -->
+		<primaryAccession>MG280459</primaryAccession> <!-- # A/mallard duck/Wisconsin/16OS3179/2016 -->
+		<primaryAccession>CY206831</primaryAccession> <!-- # A/mallard/Southcentral Alaska/12ML01685/2014 -->
+		<primaryAccession>MH498717</primaryAccession> <!-- # A/yellow-billed teal/Chile/C8711/2016 -->
+		<primaryAccession>KY063947</primaryAccession> <!-- # A/blue-winged teal/Lousiana/UGAI14-0595/2014 -->
+		<primaryAccession>KF259277</primaryAccession> <!-- # A/eurasian wigeon/Hong Kong/MPK653/2009 -->
+		<primaryAccession>KY561050</primaryAccession> <!-- # A/mallard duck/Wisconsin/15OS7136/2015 -->
+		<primaryAccession>CY184440</primaryAccession> <!-- # A/mallard/Sweden/69912/2007 -->
+		<primaryAccession>MH499187</primaryAccession> <!-- # A/yellow-billed teal/Chile/C8620/2016 -->
+		<primaryAccession>CY186781</primaryAccession> <!-- # A/mallard/Missouri/12OS5759/2012 -->
+		<primaryAccession>CY060193</primaryAccession> <!-- # A/common teal/Netherlands/9/2000 -->
+		<primaryAccession>MW857511</primaryAccession> <!-- # A/duck/Thailand/CU-12660T/2012 -->
+		<primaryAccession>CY177735</primaryAccession> <!-- # A/mallard/Wisconsin/2289/1984 -->
+		<primaryAccession>CY139830</primaryAccession> <!-- # A/mallard/Minnesota/346251/2000 -->
+		<primaryAccession>CY134408</primaryAccession> <!-- # A/cinnamon teal/California/225/2011 -->
+		<primaryAccession>OK559483</primaryAccession> <!-- # A/Bean goose (Anser fabalis)/South Korea/KNU2020-8/2020 -->
+		<primaryAccession>KX979467</primaryAccession> <!-- # A/mallard duck/Netherlands/23/2012 -->
+		<primaryAccession>CY206309</primaryAccession> <!-- # A/blue-winged teal/Texas/AI12-4566/2012 -->
+		<primaryAccession>CY021470</primaryAccession> <!-- # A/mallard/Maryland/1124/2005 -->
+		<primaryAccession>CY202899</primaryAccession> <!-- # A/mallard/Maryland/10OS2293/2010 -->
+		<primaryAccession>CY146639</primaryAccession> <!-- # A/duck/Hunan/S4013/2011 -->
+		<primaryAccession>KF259255</primaryAccession> <!-- # A/duck/Jiangxi/11278/2009 -->
+		<primaryAccession>CY097094</primaryAccession> <!-- # A/mallard/Missouri/350/2009 -->
+		<primaryAccession>KF259270</primaryAccession> <!-- # A/northern pintail/Hong Kong/MPC2085/2007 -->
+		<primaryAccession>OL372210</primaryAccession> <!-- # A/wild waterfowl/Western Australia/AS18-1331-58/2018 -->
+		<primaryAccession>CY076070</primaryAccession> <!-- # A/mallard/Washington/44338-362/2007 -->
+		<primaryAccession>KX978051</primaryAccession> <!-- # A/mallard duck/Netherlands/36/2008 -->
+		<primaryAccession>CY187128</primaryAccession> <!-- # A/American green-winged teal/Wisconsin/12OS3031/2012 -->
+		<primaryAccession>CY079333</primaryAccession> <!-- # A/mallard/Wisconsin/08OS2271/2008 -->
+		<primaryAccession>CY241154</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI16-1241/2016 -->
+		<primaryAccession>CY097067</primaryAccession> <!-- # A/common goldeneye/Iowa/3192/2009 -->
+		<primaryAccession>CY076342</primaryAccession> <!-- # A/American green-winged teal/California/44287-066/2007 -->
+		<primaryAccession>CY180076</primaryAccession> <!-- # A/mallard/Wisconsin/443/1979 -->
+		<primaryAccession>CY184456</primaryAccession> <!-- # A/mallard/Sweden/68745/2007 -->
+		<primaryAccession>AB593474</primaryAccession> <!-- # A/duck/Vietnam/G32/2008 -->
+		<primaryAccession>CY180717</primaryAccession> <!-- # A/mallard/Wisconsin/633/1979 -->
+		<primaryAccession>MN908142</primaryAccession> <!-- # A/Ruddy Turnstone/Delaware/331/2019 -->
+		<primaryAccession>CY021246</primaryAccession> <!-- # A/american black duck/Ohio/1823/2005 -->
+		<primaryAccession>CY179372</primaryAccession> <!-- # A/mallard/Wisconsin/329/1977 -->
+		<primaryAccession>CY178888</primaryAccession> <!-- # A/mallard/Wisconsin/1854/1983 -->
+		<primaryAccession>CY097583</primaryAccession> <!-- # A/mallard/Iowa/3193/2009 -->
+		<primaryAccession>CY146687</primaryAccession> <!-- # A/duck/Hunan/S4137/2011 -->
+		<primaryAccession>CY180757</primaryAccession> <!-- # A/duck/Minnesota/83/1974 -->
+		<primaryAccession>KX351553</primaryAccession> <!-- # A/mallard/California/57881/2015 -->
+		<primaryAccession>CY146288</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI09-1144/2009 -->
+		<primaryAccession>CY184072</primaryAccession> <!-- # A/mallard/Sweden/101111/2009 -->
+		<primaryAccession>FJ520172</primaryAccession> <!-- # A/northern pintail/California/44221-639/2006 -->
+		<primaryAccession>MG280792</primaryAccession> <!-- # A/Oriental white stork/Zhalong/183/2006 -->
+		<primaryAccession>OL371074</primaryAccession> <!-- # A/wild duck/Queensland/P18-03723-8/2018 -->
+		<primaryAccession>CY021670</primaryAccession> <!-- # A/green-winged teal/Ohio/496/1987 -->
+		<primaryAccession>CY139746</primaryAccession> <!-- # A/mallard/Minnesota/182722/1998 -->
+		<primaryAccession>JX081226</primaryAccession> <!-- # A/brant/Alaska/44391-190/2008 -->
+		<primaryAccession>KF259297</primaryAccession> <!-- # A/wild waterfowl/Hong Kong/MPL1060/2011 -->
+		<primaryAccession>CY166371</primaryAccession> <!-- # A/blue-winged teal/Illinois/11OS4176/2011 -->
+		<primaryAccession>KR864832</primaryAccession> <!-- # A/duck/Zhejiang/71750/2013 -->
+		<primaryAccession>HM060053</primaryAccession> <!-- # A/common murre/Alaska/44085-165/2006 -->
+		<primaryAccession>KX978055</primaryAccession> <!-- # A/mallard duck/Netherlands/29/2008 -->
+		<primaryAccession>GU053427</primaryAccession> <!-- # A/mallard/Maryland/954/2004 -->
+		<primaryAccession>CY166745</primaryAccession> <!-- # A/northern shoveler/Mississippi/11OS5812/2011 -->
+		<primaryAccession>MH598047</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/650641/2002 -->
+		<primaryAccession>CY127671</primaryAccession> <!-- # A/laughing gull/Delaware Bay/2/2002 -->
+		<primaryAccession>ON459637</primaryAccession> <!-- # A/Northern Shoveler(Spatula clypeata)/South Korea/KNU2021-13/2021 -->
+		<primaryAccession>KF259299</primaryAccession> <!-- # A/wild waterfowl/Hong Kong/MPJ1815/2010 -->
+		<primaryAccession>MH411860</primaryAccession> <!-- # A/mallard/Alberta/380/2017 -->
+		<primaryAccession>MT406858</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/11026_11/2017 -->
+		<primaryAccession>CY127238</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/197/1995 -->
+		<primaryAccession>OL372234</primaryAccession> <!-- # A/wild waterfowl/Western Australia/AS18-1331-89/2018 -->
+		<primaryAccession>CY203710</primaryAccession> <!-- # A/mallard/Maryland/06OS1236/2006 -->
+		<primaryAccession>CY184358</primaryAccession> <!-- # A/mallard/Sweden/79983/2008 -->
+		<primaryAccession>CY078131</primaryAccession> <!-- # A/mallard/Minnesota/Sg-00177/2007 -->
+		<primaryAccession>CY133694</primaryAccession> <!-- # A/American green-winged teal/Mississippi/11OS257/2011 -->
+		<primaryAccession>CY146615</primaryAccession> <!-- # A/duck/Hunan/S1607/2012 -->
+		<primaryAccession>OL371178</primaryAccession> <!-- # A/wild duck/Tasmania/17-0958-45/2017 -->
+		<primaryAccession>KX979416</primaryAccession> <!-- # A/mallard duck/Netherlands/26/2011 -->
+		<primaryAccession>KX351669</primaryAccession> <!-- # A/mallard/California/57889/2015 -->
+		<primaryAccession>CY184414</primaryAccession> <!-- # A/mallard/Sweden/79196/2008 -->
+		<primaryAccession>AB781664</primaryAccession> <!-- # A/duck/Vietnam/G17-1/2011 -->
+		<primaryAccession>CY093711</primaryAccession> <!-- # A/mallard/California/11119/2008 -->
+		<primaryAccession>MZ565659</primaryAccession> <!-- # A/mallard/Iceland/2394/2012 -->
+		<primaryAccession>GQ257488</primaryAccession> <!-- # A/mallard/Maryland/538/2002 -->
+		<primaryAccession>KY828730</primaryAccession> <!-- # A/mallard/California/UCD951/2015 -->
+		<primaryAccession>MW875223</primaryAccession> <!-- # A/Ruddy Turnstone/Delaware Bay/395/2020 -->
+		<primaryAccession>CY093608</primaryAccession> <!-- # A/mallard/California/8118/2008 -->
+		<primaryAccession>HM060042</primaryAccession> <!-- # A/thick-billed murre/Alaska/44085-090/2006 -->
+		<primaryAccession>HM060052</primaryAccession> <!-- # A/thick-billed murre/Alaska/44088-059/2006 -->
+		<primaryAccession>CY144333</primaryAccession> <!-- # A/red knot/Delaware/650666/2002 -->
+		<primaryAccession>LC427344</primaryAccession> <!-- # A/environment/Vietnam/HU3-969/2015 -->
+		<primaryAccession>CY127278</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/253/1995 -->
+		<primaryAccession>CY134078</primaryAccession> <!-- # A/mallard/California/2555V/2011 -->
+		<primaryAccession>CY187136</primaryAccession> <!-- # A/American green-winged teal/Wisconsin/12OS4536/2012 -->
+		<primaryAccession>CY081373</primaryAccession> <!-- # A/black duck/Ohio/195/1990 -->
+		<primaryAccession>CY127631</primaryAccession> <!-- # A/mallard/Alberta/64/2000 -->
+		<primaryAccession>CY127162</primaryAccession> <!-- # A/shorebird/Delaware Bay/43/1995 -->
+		<primaryAccession>JX081214</primaryAccession> <!-- # A/brant/Alaska/44332-536/2007 -->
+		<primaryAccession>KY990740</primaryAccession> <!-- # A/mallard duck/California/UCD690/2016 -->
+		<primaryAccession>CY167217</primaryAccession> <!-- # A/mallard/Mississippi/12OS361/2012 -->
+		<primaryAccession>KX351662</primaryAccession> <!-- # A/mallard/California/UCD1154/2015 -->
+		<primaryAccession>CY146304</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI09-1164/2009 -->
+		<primaryAccession>CY133642</primaryAccession> <!-- # A/American green-winged teal/Mississippi/11OS90/2011 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

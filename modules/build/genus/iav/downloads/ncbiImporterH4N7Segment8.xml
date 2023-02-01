@@ -1,0 +1,16 @@
+<!-- NCBI import module for IAV subtype 'H4N7' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-8</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>CY126635</primaryAccession> <!-- # A/shorebird/Delaware Bay/606/2008 -->
+		<primaryAccession>JX081048</primaryAccession> <!-- # A/king eider/Alaska/44045-055/2006 -->
+		<primaryAccession>CY032912</primaryAccession> <!-- # A/American wigeon/California/HKWF450/2007(H4N7) -->
+		<primaryAccession>MW873610</primaryAccession> <!-- # A/glaucous-winged gull/Alaska/UGAI17-5355/2017 -->
+		<primaryAccession>LC467228</primaryAccession> <!-- # A/Calidris ruficollis/Hokkaido/12EY0172/2012 -->
+		<primaryAccession>OL370699</primaryAccession> <!-- # A/red-necked stint/Victoria/12198/2017 -->
+		<primaryAccession>OL370691</primaryAccession> <!-- # A/red-necked stint/Victoria/12188/2017 -->
+		<primaryAccession>CY164809</primaryAccession> <!-- # A/mallard/Sweden/51984/2006 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

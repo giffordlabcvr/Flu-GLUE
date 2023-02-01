@@ -1,0 +1,1371 @@
+<!-- NCBI import module for IAV subtype 'H5N2' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-2</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>CY095266</primaryAccession> <!-- # A/mallard/British Columbia/07594/2005 -->
+		<primaryAccession>MH791941</primaryAccession> <!-- # A/chicken/Bangladesh/34722/2018 -->
+		<primaryAccession>MZ565362</primaryAccession> <!-- # A/chicken/Queretaro/CPA-04112-19/2019 -->
+		<primaryAccession>GQ923451</primaryAccession> <!-- # A/mallard/Nevada/449567-3/2006 -->
+		<primaryAccession>MH068172</primaryAccession> <!-- # A/environment/New Jersey/UGAI17-2302/2017 -->
+		<primaryAccession>CY205041</primaryAccession> <!-- # A/mallard/Maryland/11OS1553/2011 -->
+		<primaryAccession>CY186987</primaryAccession> <!-- # A/gadwall/Ohio/12OS5632/2012 -->
+		<primaryAccession>MG965054</primaryAccession> <!-- # A/turkey/Minnesota/15-010560-1/2015 -->
+		<primaryAccession>CY047710</primaryAccession> <!-- # A/blue-winged teal/Saskatchewan/22542/2007 -->
+		<primaryAccession>MW873838</primaryAccession> <!-- # A/northern pintail/Alaska/UGAI17-5353/2017 -->
+		<primaryAccession>KU042694</primaryAccession> <!-- # A/goose/Zhejiang/77168/2014 -->
+		<primaryAccession>CY186590</primaryAccession> <!-- # A/gadwall/Ohio/12OS5640/2012 -->
+		<primaryAccession>MG964846</primaryAccession> <!-- # A/turkey/Iowa/15-013926-1/2015 -->
+		<primaryAccession>CY095162</primaryAccession> <!-- # A/unknown/New York/59316/2006 -->
+		<primaryAccession>GU361328</primaryAccession> <!-- # A/aquatic bird/Korea/w211/2007 -->
+		<primaryAccession>MW333732</primaryAccession> <!-- # A/chicken/Yunlin/15050039-2/2015 -->
+		<primaryAccession>GU049965</primaryAccession> <!-- # A/environment/New York/494227/2007 -->
+		<primaryAccession>MH546913</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-9/2016 -->
+		<primaryAccession>CY213618</primaryAccession> <!-- # A/least sandpiper/Southcentral Alaska/16MB01324/2016 -->
+		<primaryAccession>MG964942</primaryAccession> <!-- # A/turkey/Iowa/15-014954-1/2015 -->
+		<primaryAccession>KJ162730</primaryAccession> <!-- # A/duck/Taiwan/762/2013 -->
+		<primaryAccession>CY139695</primaryAccession> <!-- # A/mallard/Minnesota/346250/2000 -->
+		<primaryAccession>GU361330</primaryAccession> <!-- # A/aquatic bird/Korea/w217/2007 -->
+		<primaryAccession>KT327401</primaryAccession> <!-- # A/thrush/Taiwan/A234/2015 -->
+		<primaryAccession>GU050248</primaryAccession> <!-- # A/Canada goose/Alaska//453648/2006 -->
+		<primaryAccession>CY049754</primaryAccession> <!-- # A/gadwall/Altai/1202/2007(H5N2) -->
+		<primaryAccession>KM455919</primaryAccession> <!-- # A/chicken/Durango/1433-9/2006 -->
+		<primaryAccession>MZ565034</primaryAccession> <!-- # A/chicken/Jalisco/CPA-06116-17/2017 -->
+		<primaryAccession>MW334116</primaryAccession> <!-- # A/duck/Nantou/15A3437/2015 -->
+		<primaryAccession>MG965638</primaryAccession> <!-- # A/turkey/Minnesota/15-016877-1/2015 -->
+		<primaryAccession>KT762946</primaryAccession> <!-- # A/chicken/Wisconsin/15-011595-1/2015 -->
+		<primaryAccession>MW334924</primaryAccession> <!-- # A/turkey/Yunlin/18110001-3/2018 -->
+		<primaryAccession>MW334188</primaryAccession> <!-- # A/duck/Pingtung/17A00408-1-10T/2017 -->
+		<primaryAccession>KC784969</primaryAccession> <!-- # A/duck/Taiwan/DV1242/2009 -->
+		<primaryAccession>CY132831</primaryAccession> <!-- # A/American green-winged teal/Mississippi/11OS98/2011 -->
+		<primaryAccession>EF591747</primaryAccession> <!-- # A/ostrich/South Africa/AI1091/2006 -->
+		<primaryAccession>MZ565426</primaryAccession> <!-- # A/chicken/San Luis Potosi/CPA-05890-19/2019 -->
+		<primaryAccession>MW334508</primaryAccession> <!-- # A/goose/Chiayi/17020027-1/2017 -->
+		<primaryAccession>KU201806</primaryAccession> <!-- # A/Northern pintail/Washington/195365/2014 -->
+		<primaryAccession>MW333972</primaryAccession> <!-- # A/chicken/Yunlin/18010023-1/2018 -->
+		<primaryAccession>KT002511</primaryAccession> <!-- # A/chicken/Iowa/14322-6/2015 -->
+		<primaryAccession>FJ519989</primaryAccession> <!-- # A/ostrich/South Africa/N227/2004 -->
+		<primaryAccession>KY284387</primaryAccession> <!-- # A/gadwall/Arkansas/15OS7729/2015 -->
+		<primaryAccession>JX080889</primaryAccession> <!-- # A/tundra swan/Alaska/44056-144/2006 -->
+		<primaryAccession>MH546569</primaryAccession> <!-- # A/mallard/California/16-038989-4/2016 -->
+		<primaryAccession>MW333452</primaryAccession> <!-- # A/chicken/New Taipei City/18010021-3/2018 -->
+		<primaryAccession>MG964678</primaryAccession> <!-- # A/chicken/Minnesota/15-017817-1/2015 -->
+		<primaryAccession>MW334644</primaryAccession> <!-- # A/goose/Tainan/18010022-1/2018 -->
+		<primaryAccession>MZ565186</primaryAccession> <!-- # A/chicken/Jalisco/CPA-16963-18/2018 -->
+		<primaryAccession>MH068277</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2441/2017 -->
+		<primaryAccession>CY203419</primaryAccession> <!-- # A/mallard/Maryland/11OS1728/2011 -->
+		<primaryAccession>MH546705</primaryAccession> <!-- # A/mallard/Oregon/15-036812-2/2015 -->
+		<primaryAccession>OK205537</primaryAccession> <!-- # A/chicken/El Salvador/102711-2/2001 -->
+		<primaryAccession>MZ565418</primaryAccession> <!-- # A/chicken/San Luis Potosi/CPA-05885-19/2019 -->
+		<primaryAccession>MH013209</primaryAccession> <!-- # A/swine/Estado de Mexico/EdoMexDMZC03/2015 -->
+		<primaryAccession>GU361327</primaryAccession> <!-- # A/aquatic bird/Korea/w208/2007 -->
+		<primaryAccession>CY166643</primaryAccession> <!-- # A/American green-winged teal/Wisconsin/11OS3431/2011 -->
+		<primaryAccession>MZ564770</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-00801-17/2017 -->
+		<primaryAccession>MG964630</primaryAccession> <!-- # A/chicken/Iowa/15-017656-1/2015 -->
+		<primaryAccession>KJ162738</primaryAccession> <!-- # A/duck/Taiwan/4355/2013 -->
+		<primaryAccession>KU143521</primaryAccession> <!-- # A/chicken/Wenzhou/HAYXLG03/2015 -->
+		<primaryAccession>MN882423</primaryAccession> <!-- # A/chicken/Dominican Republic/17-035772-3/2017 -->
+		<primaryAccession>CY203483</primaryAccession> <!-- # A/mallard/Maryland/11OS1742/2011 -->
+		<primaryAccession>KX714304</primaryAccession> <!-- # A/duck/Zhejiang/6DK19-MA/2013 -->
+		<primaryAccession>KU201702</primaryAccession> <!-- # A/Northern pintail/Oregon/AH0003871/2015 -->
+		<primaryAccession>MG965366</primaryAccession> <!-- # A/turkey/Minnesota/15-012887-1/2015 -->
+		<primaryAccession>MG965078</primaryAccession> <!-- # A/turkey/Minnesota/15-010915-1/2015 -->
+		<primaryAccession>MG964670</primaryAccession> <!-- # A/chicken/Minnesota/15-015844-1/2015 -->
+		<primaryAccession>MZ565322</primaryAccession> <!-- # A/chicken/Queretaro/CPA-02178-17/2017 -->
+		<primaryAccession>JX570825</primaryAccession> <!-- # A/turkey/MB/FAV11/2010 -->
+		<primaryAccession>KC785065</primaryAccession> <!-- # A/duck/Taiwan/DV1236/2009 -->
+		<primaryAccession>CY049770</primaryAccession> <!-- # A/garganey/Altai/1213/2007(H5N2) -->
+		<primaryAccession>MH068181</primaryAccession> <!-- # A/environment/New Jersey/UGAI17-2535/2017 -->
+		<primaryAccession>MW334820</primaryAccession> <!-- # A/goose/Yunlin/18090006-1/2018 -->
+		<primaryAccession>LC500372</primaryAccession> <!-- # A/duck/Vietnam/HU8-1918/2017 -->
+		<primaryAccession>MG965510</primaryAccession> <!-- # A/turkey/Minnesota/15-014095-1/2015 -->
+		<primaryAccession>MZ565370</primaryAccession> <!-- # A/chicken/Queretaro/CPA-04673-1/2019 -->
+		<primaryAccession>MG964358</primaryAccession> <!-- # A/Canada goose/Wyoming/15-009285-1/2015 -->
+		<primaryAccession>MH135385</primaryAccession> <!-- # A/chicken/Bangladesh/33619/2017 -->
+		<primaryAccession>MG965710</primaryAccession> <!-- # A/turkey/Minnesota/15-017410-1/2015 -->
+		<primaryAccession>KT338410</primaryAccession> <!-- # A/American green-winged teal/Alaska/472/2014 -->
+		<primaryAccession>CY133338</primaryAccession> <!-- # A/mallard/Wisconsin/10OS3845/2010 -->
+		<primaryAccession>KP795727</primaryAccession> <!-- # A/chicken/BC/FAV8/2014 -->
+		<primaryAccession>MN988779</primaryAccession> <!-- # A/chicken/Taiwan/A4/2019 -->
+		<primaryAccession>CY120593</primaryAccession> <!-- # A/mallard/California/2396/2010 -->
+		<primaryAccession>MG964782</primaryAccession> <!-- # A/great-horned owl/Idaho/15-003155-1/2015 -->
+		<primaryAccession>KJ720214</primaryAccession> <!-- # A/chicken/Taiwan/0502/2012 -->
+		<primaryAccession>MW334220</primaryAccession> <!-- # A/duck/Pingtung/18X00077/2018 -->
+		<primaryAccession>KT762906</primaryAccession> <!-- # A/turkey/Wisconsin/15-012012-2/2015 -->
+		<primaryAccession>MZ565266</primaryAccession> <!-- # A/chicken/Morelos/CPA-05154-17/2017 -->
+		<primaryAccession>GU086267</primaryAccession> <!-- # A/duck/Korea/A14/2008 -->
+		<primaryAccession>CY133099</primaryAccession> <!-- # A/northern pintail/Wisconsin/10OS2857/2010 -->
+		<primaryAccession>GQ923339</primaryAccession> <!-- # A/mallard/Arkansas/473507-1/2006 -->
+		<primaryAccession>MG965798</primaryAccession> <!-- # A/turkey/South Dakota/15-011769-1/2015 -->
+		<primaryAccession>MW333132</primaryAccession> <!-- # A/chicken/Changhua/15060027-2/2015 -->
+		<primaryAccession>KU201638</primaryAccession> <!-- # A/wood duck/Oregon/AH0007244/2015 -->
+		<primaryAccession>OK205489</primaryAccession> <!-- # A/chicken/Jalisco/716-2/2017 -->
+		<primaryAccession>JQ041391</primaryAccession> <!-- # A/duck/Hebei/0908/2009 -->
+		<primaryAccession>GU086270</primaryAccession> <!-- # A/wild bird/Korea/A81/2009 -->
+		<primaryAccession>MW333524</primaryAccession> <!-- # A/chicken/Taichung/15010399/2015 -->
+		<primaryAccession>GU052673</primaryAccession> <!-- # A/chicken/Puebla/14586-654/1994 -->
+		<primaryAccession>MG965822</primaryAccession> <!-- # A/turkey/South Dakota/15-017406-1/2015 -->
+		<primaryAccession>MG964750</primaryAccession> <!-- # A/chicken/Wisconsin/15-014400-1/2015 -->
+		<primaryAccession>MH546401</primaryAccession> <!-- # A/duck/New York/16-020978-2/2016 -->
+		<primaryAccession>OK205745</primaryAccession> <!-- # A/chicken/Mexico/31381-8/1994 -->
+		<primaryAccession>KF193392</primaryAccession> <!-- # A/chicken/Taiwan/0101/2012 -->
+		<primaryAccession>KJ162762</primaryAccession> <!-- # A/duck/Taiwan/4374/2013 -->
+		<primaryAccession>MW334524</primaryAccession> <!-- # A/goose/Chiayi/18010006/2018 -->
+		<primaryAccession>MG965126</primaryAccession> <!-- # A/turkey/Minnesota/15-011596-1/2015 -->
+		<primaryAccession>CY094619</primaryAccession> <!-- # A/mallard/California/5276/2009 -->
+		<primaryAccession>CY203523</primaryAccession> <!-- # A/mallard/Maryland/11OS1748/2011 -->
+		<primaryAccession>KU201926</primaryAccession> <!-- # A/Cooper's hawk/Minnesota/198225/2015 -->
+		<primaryAccession>OK205505</primaryAccession> <!-- # A/chicken/Chiapas/15405/1997 -->
+		<primaryAccession>MW333764</primaryAccession> <!-- # A/chicken/Yunlin/16010008-1/2016 -->
+		<primaryAccession>OK205793</primaryAccession> <!-- # A/chicken/Puebla/28159-474/1995 -->
+		<primaryAccession>MZ564810</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-07268-19/2019 -->
+		<primaryAccession>KJ162666</primaryAccession> <!-- # A/chicken/Taiwan/7350/2013 -->
+		<primaryAccession>KU646891</primaryAccession> <!-- # A/goose/Taiwan/01040/2015 -->
+		<primaryAccession>KY342233</primaryAccession> <!-- # A/environment/Nebraska/L4/2015 -->
+		<primaryAccession>MG965518</primaryAccession> <!-- # A/turkey/Minnesota/15-014097-1/2015 -->
+		<primaryAccession>GQ923147</primaryAccession> <!-- # A/waterfowl/Minnesota/459675/2006 -->
+		<primaryAccession>MH546361</primaryAccession> <!-- # A/duck/New Jersey/11-064045-002/2011 -->
+		<primaryAccession>JX069079</primaryAccession> <!-- # A/ostrich/South Africa/AI2114/2011 -->
+		<primaryAccession>MW333748</primaryAccession> <!-- # A/chicken/Yunlin/15080024/2015 -->
+		<primaryAccession>EU743239</primaryAccession> <!-- # A/goose/OH/22911-2/1986 -->
+		<primaryAccession>MG965654</primaryAccession> <!-- # A/turkey/Minnesota/15-017040-1/2015 -->
+		<primaryAccession>GU052769</primaryAccession> <!-- # A/chicken/Queretero/22019-853/1996 -->
+		<primaryAccession>MG965382</primaryAccession> <!-- # A/turkey/Minnesota/15-012889-1/2015 -->
+		<primaryAccession>MW334020</primaryAccession> <!-- # A/chicken/Yunlin/18020021-1/2018 -->
+		<primaryAccession>MH068421</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI17-2003/2017 -->
+		<primaryAccession>MW333484</primaryAccession> <!-- # A/chicken/Pingtung/18010017-1/2018 -->
+		<primaryAccession>MG965310</primaryAccession> <!-- # A/turkey/Minnesota/15-012584-1/2015 -->
+		<primaryAccession>MZ564882</primaryAccession> <!-- # A/chicken/Hidalgo/CPA-03355-19/2019 -->
+		<primaryAccession>MZ564650</primaryAccession> <!-- # A/chicken/Aguascalientes/CPA-03202-19/2019 -->
+		<primaryAccession>CY139333</primaryAccession> <!-- # A/American black duck/New Brunswick/00867/2010 -->
+		<primaryAccession>MG965214</primaryAccession> <!-- # A/turkey/Minnesota/15-011923-1/2015 -->
+		<primaryAccession>KX160199</primaryAccession> <!-- # A/chicken/Shandong/S3/2014 -->
+		<primaryAccession>OK205825</primaryAccession> <!-- # A/chicken/Queretaro/22019-853/1996 -->
+		<primaryAccession>MG964806</primaryAccession> <!-- # A/red-tailed hawk/Washington/15-002551-2/2015 -->
+		<primaryAccession>KX351785</primaryAccession> <!-- # A/chicken/Iowa/15-013388-1/2015 -->
+		<primaryAccession>GU052696</primaryAccession> <!-- # A/chicken/Mexico/28159-541/1995 -->
+		<primaryAccession>MW333348</primaryAccession> <!-- # A/chicken/Kaohsiung/17100002/2017 -->
+		<primaryAccession>MG964790</primaryAccession> <!-- # A/guinea fowl/Iowa/15-018413-1/2015 -->
+		<primaryAccession>GU053503</primaryAccession> <!-- # A/mallard/Maryland/789/2002 -->
+		<primaryAccession>MG965342</primaryAccession> <!-- # A/turkey/Minnesota/15-012661-1/2015 -->
+		<primaryAccession>MG964614</primaryAccession> <!-- # A/chicken/Iowa/15-017038-1/2015 -->
+		<primaryAccession>MW334068</primaryAccession> <!-- # A/chicken/Yunlin/18080006-1/2018 -->
+		<primaryAccession>MH546377</primaryAccession> <!-- # A/duck/New York/08-000759-001/2008 -->
+		<primaryAccession>MG965430</primaryAccession> <!-- # A/turkey/Minnesota/15-013392-1/2015 -->
+		<primaryAccession>CY097267</primaryAccession> <!-- # A/environment/Indiana/3610/2009 -->
+		<primaryAccession>MG964726</primaryAccession> <!-- # A/chicken/Oregon/15-005256-1/2015 -->
+		<primaryAccession>OK205529</primaryAccession> <!-- # A/chicken/El Salvador/102711-1/2001 -->
+		<primaryAccession>MH251175</primaryAccession> <!-- # A/mallard/California/UCD1296/2017 -->
+		<primaryAccession>MG965486</primaryAccession> <!-- # A/turkey/Minnesota/15-013755-2/2015 -->
+		<primaryAccession>MG964774</primaryAccession> <!-- # A/great-horned owl/Idaho/15-001583-11/2015 -->
+		<primaryAccession>MG964534</primaryAccession> <!-- # A/chicken/Iowa/15-015300-1/2015 -->
+		<primaryAccession>MG964582</primaryAccession> <!-- # A/chicken/Iowa/15-016159-1/2015 -->
+		<primaryAccession>GU050111</primaryAccession> <!-- # A/Canada goose/Colorado/473047-2/2006 -->
+		<primaryAccession>CY203475</primaryAccession> <!-- # A/mallard/Maryland/11OS1741/2011 -->
+		<primaryAccession>MW334932</primaryAccession> <!-- # A/turkey/Yunlin/18120005-2/2018 -->
+		<primaryAccession>CY046172</primaryAccession> <!-- # A/duck/France/080032/2008(H5N2) -->
+		<primaryAccession>CY194195</primaryAccession> <!-- # A/mallard/Southcentral Alaska/12ML00991_AAF1/2014 -->
+		<primaryAccession>GU052634</primaryAccession> <!-- # A/chicken/Guatemala/45511-1/2000 -->
+		<primaryAccession>MH546273</primaryAccession> <!-- # A/Muscovy duck/New Jersey/16-021456-4/2016 -->
+		<primaryAccession>JQ737219</primaryAccession> <!-- # A/mallard/Czech Republic/14602-37K/2011 -->
+		<primaryAccession>MW333180</primaryAccession> <!-- # A/chicken/Changhua/17030063-1/2017 -->
+		<primaryAccession>MW334916</primaryAccession> <!-- # A/turkey/Yunlin/18090003-3/2018 -->
+		<primaryAccession>MG965606</primaryAccession> <!-- # A/turkey/Minnesota/15-014851-1/2015 -->
+		<primaryAccession>KY342128</primaryAccession> <!-- # A/environment/Minnesota/M8/2015 -->
+		<primaryAccession>CY206185</primaryAccession> <!-- # A/mallard/Minnesota/AI11-4897/2011 -->
+		<primaryAccession>MH068397</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI17-1985/2017 -->
+		<primaryAccession>KR492972</primaryAccession> <!-- # A/chicken/Iowa/04-20/2015 -->
+		<primaryAccession>KX979685</primaryAccession> <!-- # A/mallard duck/Netherlands/28/2008 -->
+		<primaryAccession>KU201726</primaryAccession> <!-- # A/American green-winged teal/Idaho/AH0011899/2015 -->
+		<primaryAccession>MG965198</primaryAccession> <!-- # A/turkey/Minnesota/15-011834-1/2015 -->
+		<primaryAccession>KX351769</primaryAccession> <!-- # A/turkey/South Dakota/15-012511-2/2015 -->
+		<primaryAccession>KY341936</primaryAccession> <!-- # A/environment/Minnesota/E2/2015 -->
+		<primaryAccession>MG964406</primaryAccession> <!-- # A/chicken/Iowa/15-013784-2/2015 -->
+		<primaryAccession>KJ933375</primaryAccession> <!-- # A/duck/Zhejiang/6DK19/2013 -->
+		<primaryAccession>MZ564978</primaryAccession> <!-- # A/chicken/Jalisco/CPA-03607-19/2019 -->
+		<primaryAccession>MW333332</primaryAccession> <!-- # A/chicken/Kaohsiung/17040006-2/2017 -->
+		<primaryAccession>MG964830</primaryAccession> <!-- # A/turkey/Iowa/15-013179-4/2015 -->
+		<primaryAccession>MW333076</primaryAccession> <!-- # A/chicken/Changhua/15010363-2/2015 -->
+		<primaryAccession>KP739395</primaryAccession> <!-- # A/turkey/Washington/61-22/2014 -->
+		<primaryAccession>KP307974</primaryAccession> <!-- # A/Northern pintail/Washington/40964/2014 -->
+		<primaryAccession>GU361317</primaryAccession> <!-- # A/aquatic bird/Korea/w163/2007 -->
+		<primaryAccession>MW095439</primaryAccession> <!-- # A/duck/Hunan/03.07_YYGK31L3-OC/2018 -->
+		<primaryAccession>KP732602</primaryAccession> <!-- # A/duck/Eastern China/S0808/2014 -->
+		<primaryAccession>MW333708</primaryAccession> <!-- # A/chicken/Yunlin/15040027/2015 -->
+		<primaryAccession>MW333260</primaryAccession> <!-- # A/chicken/Hsinchu/16080004-2/2016 -->
+		<primaryAccession>CY094715</primaryAccession> <!-- # A/mallard/California/5359/2009 -->
+		<primaryAccession>CY021531</primaryAccession> <!-- # A/turkey/Italy/1258/2005 -->
+		<primaryAccession>MT090235</primaryAccession> <!-- # A/environment/Bangladesh/38226/2019 -->
+		<primaryAccession>MH546889</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-6/2016 -->
+		<primaryAccession>MW333356</primaryAccession> <!-- # A/chicken/Kaohsiung/18080004-1/2018 -->
+		<primaryAccession>MG965006</primaryAccession> <!-- # A/turkey/Iowa/15-017421-1/2015 -->
+		<primaryAccession>KX351716</primaryAccession> <!-- # A/American wigeon/California/COL041/2014 -->
+		<primaryAccession>KJ162698</primaryAccession> <!-- # A/chicken/Taiwan/8996/2013 -->
+		<primaryAccession>KP098025</primaryAccession> <!-- # A/duck/Vietnam/NCVD-KA415/2012 -->
+		<primaryAccession>MW333564</primaryAccession> <!-- # A/chicken/Tainan/16040035-1/2016 -->
+		<primaryAccession>CY204336</primaryAccession> <!-- # A/mallard/Ohio/14OS3372/2014 -->
+		<primaryAccession>OL461754</primaryAccession> <!-- # A/mallard/Oregon/AH0192865/2021 -->
+		<primaryAccession>CY203403</primaryAccession> <!-- # A/mallard/Maryland/11OS1722/2011 -->
+		<primaryAccession>KY341976</primaryAccession> <!-- # A/environment/Minnesota/E7/2015 -->
+		<primaryAccession>MZ565202</primaryAccession> <!-- # A/chicken/Jalisco/CPA-49007-16/2016 -->
+		<primaryAccession>MZ564874</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-44870-17/2017 -->
+		<primaryAccession>CY132695</primaryAccession> <!-- # A/mallard/Wisconsin/10OS1604/2010 -->
+		<primaryAccession>GU050219</primaryAccession> <!-- # A/mallard/NV/449567-5/2006 -->
+		<primaryAccession>MW333852</primaryAccession> <!-- # A/chicken/Yunlin/17030014-1/2017 -->
+		<primaryAccession>MG965862</primaryAccession> <!-- # A/turkey/Wisconsin/15-014298-1/2015 -->
+		<primaryAccession>KR265527</primaryAccession> <!-- # A/duck/Japan/9UO025/2009 -->
+		<primaryAccession>KR265532</primaryAccession> <!-- # A/duck/Japan/9UO036/2009 -->
+		<primaryAccession>KU201670</primaryAccession> <!-- # A/Northern shoveler/Oregon/AH0007337/2015 -->
+		<primaryAccession>EU743112</primaryAccession> <!-- # A/rhea/TX/39923/1993 -->
+		<primaryAccession>MW333820</primaryAccession> <!-- # A/chicken/Yunlin/17020095-2/2017 -->
+		<primaryAccession>AB753183</primaryAccession> <!-- # A/Eurasian Woodcock/Vietnam/8/2007 -->
+		<primaryAccession>GQ117223</primaryAccession> <!-- # A/environment/New York/484056/2007 -->
+		<primaryAccession>MW333860</primaryAccession> <!-- # A/chicken/Yunlin/17030020-2/2017 -->
+		<primaryAccession>MG964526</primaryAccession> <!-- # A/chicken/Iowa/15-015117-1/2015 -->
+		<primaryAccession>MW333580</primaryAccession> <!-- # A/chicken/Tainan/18040014-2/2018 -->
+		<primaryAccession>MW334740</primaryAccession> <!-- # A/goose/Yunlin/16030042-2/2016 -->
+		<primaryAccession>MH068221</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2223/2017 -->
+		<primaryAccession>CY204167</primaryAccession> <!-- # A/mallard/Ohio/14OS0558/2014 -->
+		<primaryAccession>KM455935</primaryAccession> <!-- # A/chicken/Mexico/1433-13/2006 -->
+		<primaryAccession>KY561131</primaryAccession> <!-- # A/mallard duck/Ohio/15OS5289/2015 -->
+		<primaryAccession>GU361312</primaryAccession> <!-- # A/aquatic bird/Korea/w120/2006 -->
+		<primaryAccession>EU743092</primaryAccession> <!-- # A/chicken/NJ/17169/1993 -->
+		<primaryAccession>MG965630</primaryAccession> <!-- # A/turkey/Minnesota/15-016876-1/2015 -->
+		<primaryAccession>KR265542</primaryAccession> <!-- # A/duck/Japan/11OG1032/2011 -->
+		<primaryAccession>MW334780</primaryAccession> <!-- # A/goose/Yunlin/18030020-3/2018 -->
+		<primaryAccession>KJ719457</primaryAccession> <!-- # A/chicken/Hebei/1102-MA/2010 -->
+		<primaryAccession>GU052618</primaryAccession> <!-- # A/chicken/Mexico/22184/1998 -->
+		<primaryAccession>MH546505</primaryAccession> <!-- # A/guinea fowl/New York/08-000170-003/2008 -->
+		<primaryAccession>MK592427</primaryAccession> <!-- # A/Whooper swans/Hokkaido/W3/2017 -->
+		<primaryAccession>KU201910</primaryAccession> <!-- # A/mallard/Washington/195810/2014 -->
+		<primaryAccession>KX351777</primaryAccession> <!-- # A/turkey/Minnesota/15-012582-1/2015 -->
+		<primaryAccession>MH546161</primaryAccession> <!-- # A/American green-winged teal/Alaska/16-039026-4/2016 -->
+		<primaryAccession>CY097243</primaryAccession> <!-- # A/environment/Indiana/3596/2009 -->
+		<primaryAccession>MZ564962</primaryAccession> <!-- # A/chicken/Jalisco/CPA-03518-17/2017 -->
+		<primaryAccession>MZ565010</primaryAccession> <!-- # A/chicken/Jalisco/CPA-04758-19/2019 -->
+		<primaryAccession>GQ117191</primaryAccession> <!-- # A/avian/New York/466812/2006 -->
+		<primaryAccession>MH501495</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI10-626/2010 -->
+		<primaryAccession>MH546545</primaryAccession> <!-- # A/mallard/Alaska/16-041335-1/2016 -->
+		<primaryAccession>MZ565178</primaryAccession> <!-- # A/chicken/Jalisco/CPA-12377-17/2017 -->
+		<primaryAccession>MZ564906</primaryAccession> <!-- # A/chicken/Hidalgo/CPA-48304-16/2016 -->
+		<primaryAccession>MW333252</primaryAccession> <!-- # A/chicken/Chiayi/18120003-1/2018 -->
+		<primaryAccession>KR265558</primaryAccession> <!-- # A/duck/Japan/11OG1083/2011 -->
+		<primaryAccession>GU361332</primaryAccession> <!-- # A/aquatic bird/Korea/w221/2007 -->
+		<primaryAccession>GQ923555</primaryAccession> <!-- # A/quail/New York/501360/2007 -->
+		<primaryAccession>OK205625</primaryAccession> <!-- # A/chicken/Hidalgo/26654-1368/1994 -->
+		<primaryAccession>CY203459</primaryAccession> <!-- # A/mallard/Maryland/11OS1739/2011 -->
+		<primaryAccession>CY022643</primaryAccession> <!-- # A/teal/Italy/3931-38/2005 -->
+		<primaryAccession>MW334060</primaryAccession> <!-- # A/chicken/Yunlin/18070003-3/2018 -->
+		<primaryAccession>OK205777</primaryAccession> <!-- # A/chicken/Puebla/14585-622/1994 -->
+		<primaryAccession>KU201694</primaryAccession> <!-- # A/mallard/Oregon/AH0008887/2015 -->
+		<primaryAccession>LC656331</primaryAccession> <!-- # A/duck/Tottori/311215/2020 -->
+		<primaryAccession>GU361336</primaryAccession> <!-- # A/aquatic bird/Korea/w231/2007 -->
+		<primaryAccession>GU361309</primaryAccession> <!-- # A/aquatic bird/Korea/w96/2005 -->
+		<primaryAccession>MG965070</primaryAccession> <!-- # A/turkey/Minnesota/15-010856-1/2015 -->
+		<primaryAccession>KY342112</primaryAccession> <!-- # A/environment/Minnesota/M6/2015 -->
+		<primaryAccession>MW333700</primaryAccession> <!-- # A/chicken/Yunlin/15040002-2/2015 -->
+		<primaryAccession>CY133815</primaryAccession> <!-- # A/gadwall/Missouri/10MO0280/2010 -->
+		<primaryAccession>CY146674</primaryAccession> <!-- # A/duck/Hunan/S4124/2011 -->
+		<primaryAccession>CY133159</primaryAccession> <!-- # A/American green-winged teal/Wisconsin/10OS3127/2010 -->
+		<primaryAccession>GU049926</primaryAccession> <!-- # A/duck/New York/470179/2006 -->
+		<primaryAccession>MG964470</primaryAccession> <!-- # A/chicken/Iowa/15-014591-1/2015 -->
+		<primaryAccession>MZ564946</primaryAccession> <!-- # A/chicken/Jalisco/CPA-03198-17/2017 -->
+		<primaryAccession>MW333492</primaryAccession> <!-- # A/chicken/Pingtung/18010019-2/2018 -->
+		<primaryAccession>OK205657</primaryAccession> <!-- # A/chicken/Jalisco/LVVX17144-1/2017 -->
+		<primaryAccession>KX979733</primaryAccession> <!-- # A/mallard duck/Netherlands/12/2006 -->
+		<primaryAccession>MH597218</primaryAccession> <!-- # A/ruddy turnstone/Delaware/1016418/2003 -->
+		<primaryAccession>CY094163</primaryAccession> <!-- # A/mallard/California/8035/2008 -->
+		<primaryAccession>GU361326</primaryAccession> <!-- # A/aquatic bird/Korea/w206/2007 -->
+		<primaryAccession>CY110931</primaryAccession> <!-- # A/duck/Taiwan/DV30-2/2005 -->
+		<primaryAccession>CY030991</primaryAccession> <!-- # A/turkey/England/N28/1973(H5N2) -->
+		<primaryAccession>CY194162</primaryAccession> <!-- # A/mallard/Southcentral Alaska/12ML00991/2014 -->
+		<primaryAccession>MW334124</primaryAccession> <!-- # A/duck/Nantou/17A0243/2017 -->
+		<primaryAccession>MW333780</primaryAccession> <!-- # A/chicken/Yunlin/16050053/2016 -->
+		<primaryAccession>GQ923387</primaryAccession> <!-- # A/waterfowl/Colorado/476466-3/2007 -->
+		<primaryAccession>KT002471</primaryAccession> <!-- # A/turkey/Iowa/11762-1/2015 -->
+		<primaryAccession>GU049886</primaryAccession> <!-- # A/duck/New York/440409/2006 -->
+		<primaryAccession>MW874387</primaryAccession> <!-- # A/northern pintail/Alaska/AK19-188E_T1/2019 -->
+		<primaryAccession>KY342192</primaryAccession> <!-- # A/turkey/Minnesota/M16/2015 -->
+		<primaryAccession>GQ923171</primaryAccession> <!-- # A/tundra swan/Alaska/462958/2006 -->
+		<primaryAccession>GU049941</primaryAccession> <!-- # A/duck/New York/483239/2007 -->
+		<primaryAccession>GU361325</primaryAccession> <!-- # A/aquatic bird/Korea/w205/2007 -->
+		<primaryAccession>KT280930</primaryAccession> <!-- # A/chicken/Iowa/21981/2015 -->
+		<primaryAccession>MW132182</primaryAccession> <!-- # A/mallard/California/SL06B72H5/2018 -->
+		<primaryAccession>GQ923395</primaryAccession> <!-- # A/mallard/Louisiana/476670-4/2007 -->
+		<primaryAccession>MW109006</primaryAccession> <!-- # A/duck/Xinjiang/09.19_WLMQXL001-O/2018 -->
+		<primaryAccession>MH068148</primaryAccession> <!-- # A/environment/Georgia/UGAI17-2179/2017 -->
+		<primaryAccession>MW334076</primaryAccession> <!-- # A/duck/Changhua/15A03431-1-20T/2015 -->
+		<primaryAccession>MW333836</primaryAccession> <!-- # A/chicken/Yunlin/17030007-1/2017 -->
+		<primaryAccession>JX080884</primaryAccession> <!-- # A/greater white-fronted goose/Alaska/44065-031/2006 -->
+		<primaryAccession>MW334028</primaryAccession> <!-- # A/chicken/Yunlin/18030002-1/2018 -->
+		<primaryAccession>GQ117239</primaryAccession> <!-- # A/environment/New York/484678/2007 -->
+		<primaryAccession>MW334652</primaryAccession> <!-- # A/goose/Tainan/18050014-1/2018 -->
+		<primaryAccession>EU743299</primaryAccession> <!-- # A/mallard/WI/42/1975 -->
+		<primaryAccession>MW333540</primaryAccession> <!-- # A/chicken/Taichung/16050044-2/2016 -->
+		<primaryAccession>MZ564666</primaryAccession> <!-- # A/chicken/Aguascalientes/CPA-03336-19/2019 -->
+		<primaryAccession>GU052409</primaryAccession> <!-- # A/chicken/Italy/330/1997 -->
+		<primaryAccession>MK237117</primaryAccession> <!-- # A/American green-winged teal/Tennessee/18OS0447/2018 -->
+		<primaryAccession>MN988787</primaryAccession> <!-- # A/chicken/Taiwan/A5/2019 -->
+		<primaryAccession>MG965086</primaryAccession> <!-- # A/turkey/Minnesota/15-011079-1/2015 -->
+		<primaryAccession>KX979697</primaryAccession> <!-- # A/mallard duck/Netherlands/5/2009 -->
+		<primaryAccession>KJ162754</primaryAccession> <!-- # A/duck/Taiwan/4372/2013 -->
+		<primaryAccession>KU646883</primaryAccession> <!-- # A/goose/Taiwan/01031/2015 -->
+		<primaryAccession>CY166782</primaryAccession> <!-- # A/northern shoveler/Mississippi/11OS5875/2011 -->
+		<primaryAccession>MW334492</primaryAccession> <!-- # A/goose/Chiayi/16040005/2016 -->
+		<primaryAccession>MW334756</primaryAccession> <!-- # A/goose/Yunlin/17100005/2017 -->
+		<primaryAccession>MZ565346</primaryAccession> <!-- # A/chicken/Queretaro/CPA-03806-19/2019 -->
+		<primaryAccession>MW333988</primaryAccession> <!-- # A/chicken/Yunlin/18020003-2/2018 -->
+		<primaryAccession>MW334252</primaryAccession> <!-- # A/duck/Tainan/16010024-1/2016 -->
+		<primaryAccession>CY203507</primaryAccession> <!-- # A/mallard/Maryland/11OS1745/2011 -->
+		<primaryAccession>OK205881</primaryAccession> <!-- # A/chicken/Veracruz/28159-398/1995 -->
+		<primaryAccession>MW334604</primaryAccession> <!-- # A/goose/Tainan/16020041-2/2016 -->
+		<primaryAccession>MZ565154</primaryAccession> <!-- # A/chicken/Jalisco/CPA-08826-19/2019 -->
+		<primaryAccession>KR233988</primaryAccession> <!-- # A/chicken/Washington/3490-18/2015 -->
+		<primaryAccession>MG965110</primaryAccession> <!-- # A/turkey/Minnesota/15-011591-1/2015 -->
+		<primaryAccession>CY095384</primaryAccession> <!-- # A/mallard/Quebec/11200/2006 -->
+		<primaryAccession>CY015079</primaryAccession> <!-- # A/chicken/Pennsylvania/1/1983 -->
+		<primaryAccession>CY207195</primaryAccession> <!-- # A/black-bellied whistling duck/Colombia/1/2011 -->
+		<primaryAccession>KT762890</primaryAccession> <!-- # A/turkey/North Dakota/15-011420-13/2015 -->
+		<primaryAccession>KX979737</primaryAccession> <!-- # A/mallard duck/Netherlands/52/2008 -->
+		<primaryAccession>GQ923499</primaryAccession> <!-- # A/waterfowl/Colorado/457952-2/2006 -->
+		<primaryAccession>MW333188</primaryAccession> <!-- # A/chicken/Changhua/17060006/2017 -->
+		<primaryAccession>MW334812</primaryAccession> <!-- # A/goose/Yunlin/18090002-3/2018 -->
+		<primaryAccession>GQ117255</primaryAccession> <!-- # A/duck/New York/490722/2007 -->
+		<primaryAccession>MG964374</primaryAccession> <!-- # A/chicken/Iowa/15-012564-7/2015 -->
+		<primaryAccession>MG964422</primaryAccession> <!-- # A/chicken/Iowa/15-013976-6/2015 -->
+		<primaryAccession>MG965622</primaryAccession> <!-- # A/turkey/Minnesota/15-016050-1/2015 -->
+		<primaryAccession>MG964990</primaryAccession> <!-- # A/turkey/Iowa/15-016743-1/2015 -->
+		<primaryAccession>CY011254</primaryAccession> <!-- # A/wigeon/Ohio/379/1988 -->
+		<primaryAccession>KF193400</primaryAccession> <!-- # A/chicken/Taiwan/A1997/2012 -->
+		<primaryAccession>MH546385</primaryAccession> <!-- # A/duck/New York/08-000937-001/2008 -->
+		<primaryAccession>GU361341</primaryAccession> <!-- # A/aquatic bird/Korea/w344/2008 -->
+		<primaryAccession>CY204360</primaryAccession> <!-- # A/green-winged teal/Ohio/14OS3380/2014 -->
+		<primaryAccession>MW334348</primaryAccession> <!-- # A/duck/Yunlin/15A03403-1-20T/2015 -->
+		<primaryAccession>GU361311</primaryAccession> <!-- # A/aquatic bird/Korea/w114/2006 -->
+		<primaryAccession>GQ923227</primaryAccession> <!-- # A/mallard/Indiana/465297-2/2006 -->
+		<primaryAccession>JX444825</primaryAccession> <!-- # A/mallard/Korea/KU683/2008 -->
+		<primaryAccession>MT477791</primaryAccession> <!-- # A/Bean Goose/South Korea/KNU18-86/2018 -->
+		<primaryAccession>GU050195</primaryAccession> <!-- # A/mallard/NV/449567-1/2006 -->
+		<primaryAccession>KT002487</primaryAccession> <!-- # A/chicken/Iowa/13542-2/2015 -->
+		<primaryAccession>MG965662</primaryAccession> <!-- # A/turkey/Minnesota/15-017044-1/2015 -->
+		<primaryAccession>MZ565466</primaryAccession> <!-- # A/chicken/Veracruz/CPA-05600-17/2017 -->
+		<primaryAccession>MW334460</primaryAccession> <!-- # A/goose/Chiayi/15010016-1/2015 -->
+		<primaryAccession>MW334636</primaryAccession> <!-- # A/goose/Tainan/17030024-1/2017 -->
+		<primaryAccession>MG964446</primaryAccession> <!-- # A/chicken/Iowa/15-014294-1/2015 -->
+		<primaryAccession>JX069087</primaryAccession> <!-- # A/ostrich/South Africa/AI2214/2011 -->
+		<primaryAccession>MH546841</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-13/2016 -->
+		<primaryAccession>MW096094</primaryAccession> <!-- # A/chicken/Shandong/1.26_TAWL020-C/2019 -->
+		<primaryAccession>KJ162746</primaryAccession> <!-- # A/duck/Taiwan/4360/2013 -->
+		<primaryAccession>OK205577</primaryAccession> <!-- # A/chicken/Guatemala/270475-4/2003 -->
+		<primaryAccession>MF682822</primaryAccession> <!-- # A/mallard duck/Netherlands/63/2006 -->
+		<primaryAccession>CY202816</primaryAccession> <!-- # A/mallard/Maryland/07OS2435/2007 -->
+		<primaryAccession>OK205697</primaryAccession> <!-- # A/chicken/Mexico/1864/2019 -->
+		<primaryAccession>MW334708</primaryAccession> <!-- # A/goose/Yunlin/15010029-1/2015 -->
+		<primaryAccession>JX570817</primaryAccession> <!-- # A/turkey/MB/FAV10/2010 -->
+		<primaryAccession>KY342249</primaryAccession> <!-- # A/environment/Nebraska/L6/2015 -->
+		<primaryAccession>CY033442</primaryAccession> <!-- # A/American green-winged teal/California/HKWF609/2007(H5N2) -->
+		<primaryAccession>HM765507</primaryAccession> <!-- # A/dog/Shandong/JT01/2009 -->
+		<primaryAccession>KX602681</primaryAccession> <!-- # A/chicken/Zhejiang/7450/2015 -->
+		<primaryAccession>CY178701</primaryAccession> <!-- # A/unknown/unknown/G444/unknown -->
+		<primaryAccession>GQ923467</primaryAccession> <!-- # A/tundra swan/Alaska/450959/2006 -->
+		<primaryAccession>KT762922</primaryAccession> <!-- # A/chicken/Minnesota/15-013533-1/2015 -->
+		<primaryAccession>KU143519</primaryAccession> <!-- # A/chicken/Wuhan/WHJF/2014 -->
+		<primaryAccession>KX160167</primaryAccession> <!-- # A/chicken/Hebei/3/2013 -->
+		<primaryAccession>MH546225</primaryAccession> <!-- # A/American wigeon/Colorado/15-038180-1/2015 -->
+		<primaryAccession>MW334180</primaryAccession> <!-- # A/duck/Pingtung/15A03399-1-10T/2015 -->
+		<primaryAccession>GU361333</primaryAccession> <!-- # A/aquatic bird/Korea/w222/2007 -->
+		<primaryAccession>CY178076</primaryAccession> <!-- # A/mallard/Wisconsin/996/1982 -->
+		<primaryAccession>KU201918</primaryAccession> <!-- # A/Canada goose/Washington/197619/2014 -->
+		<primaryAccession>GQ257439</primaryAccession> <!-- # A/duck/New York/492652/2007 -->
+		<primaryAccession>CY014878</primaryAccession> <!-- # A/black duck/New York/184/1988 -->
+		<primaryAccession>JX080896</primaryAccession> <!-- # A/tundra swan/Alaska/44049-099/2006 -->
+		<primaryAccession>MW873716</primaryAccession> <!-- # A/mallard/Alaska/AK20-526/2020 -->
+		<primaryAccession>MZ564890</primaryAccession> <!-- # A/chicken/Hidalgo/CPA-03739-17/2017 -->
+		<primaryAccession>KU201662</primaryAccession> <!-- # A/Northern shoveler/Oregon/AH0007332/2015 -->
+		<primaryAccession>MZ565290</primaryAccession> <!-- # A/chicken/Puebla/CPA-03924-19/2019 -->
+		<primaryAccession>KM657865</primaryAccession> <!-- # A/chicken/Coahuila/IA05/2009 -->
+		<primaryAccession>MZ565386</primaryAccession> <!-- # A/chicken/Queretaro/CPA-06507-17/2017 -->
+		<primaryAccession>CY094019</primaryAccession> <!-- # A/mallard/California/5219/2009 -->
+		<primaryAccession>MZ564858</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-15050-17/2017 -->
+		<primaryAccession>MW334476</primaryAccession> <!-- # A/goose/Chiayi/16010017-2/2016 -->
+		<primaryAccession>KT762882</primaryAccession> <!-- # A/chicken/Montana/15-010559-1/2015 -->
+		<primaryAccession>GQ923139</primaryAccession> <!-- # A/Guinea fowl/Oregon/459674-5/2006 -->
+		<primaryAccession>MG965174</primaryAccession> <!-- # A/turkey/Minnesota/15-011668-1/2015 -->
+		<primaryAccession>MZ564786</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-04382-19/2019 -->
+		<primaryAccession>GQ923411</primaryAccession> <!-- # A/northern pintail/Florida/480645-5/2007 -->
+		<primaryAccession>GQ117143</primaryAccession> <!-- # A/duck/New York/445743/2006 -->
+		<primaryAccession>MH547009</primaryAccession> <!-- # A/turkey/Wisconsin/17-007146-2/2017 -->
+		<primaryAccession>MH546257</primaryAccession> <!-- # A/Muscovy duck/New Jersey/08-000912-001/2008 -->
+		<primaryAccession>MZ565146</primaryAccession> <!-- # A/chicken/Jalisco/CPA-08244-19/2019 -->
+		<primaryAccession>GQ923355</primaryAccession> <!-- # A/Canada goose/Texas/475000-3/2006 -->
+		<primaryAccession>MZ564818</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-08523-19/2019 -->
+		<primaryAccession>MW334276</primaryAccession> <!-- # A/duck/Yunlin/15010115-2/2015 -->
+		<primaryAccession>MH546241</primaryAccession> <!-- # A/American wigeon/Utah/15-038912-1/2015 -->
+		<primaryAccession>MG965358</primaryAccession> <!-- # A/turkey/Minnesota/15-012666-1/2015 -->
+		<primaryAccession>CY204368</primaryAccession> <!-- # A/mallard/Ohio/14OS3394/2014 -->
+		<primaryAccession>MZ565378</primaryAccession> <!-- # A/chicken/Queretaro/CPA-05386-17/2017 -->
+		<primaryAccession>OL372149</primaryAccession> <!-- # A/wild waterfowl/Western Australia/AS16-3326-115/2016 -->
+		<primaryAccession>CY022267</primaryAccession> <!-- # A/poultry/Italy/365/1997 -->
+		<primaryAccession>GU053473</primaryAccession> <!-- # A/mallard/Maryland/302/2001 -->
+		<primaryAccession>MH546481</primaryAccession> <!-- # A/guinea fowl/New Jersey/07-002030-001/2007 -->
+		<primaryAccession>MZ564914</primaryAccession> <!-- # A/chicken/Jalisco/CPA-00822-17/2017 -->
+		<primaryAccession>MW132372</primaryAccession> <!-- # A/mallard/California/UCD102396mdck/2016 -->
+		<primaryAccession>KJ162658</primaryAccession> <!-- # A/chicken/Taiwan/2948/2013 -->
+		<primaryAccession>KU646859</primaryAccession> <!-- # A/duck/Taiwan/01006/2015 -->
+		<primaryAccession>KY341960</primaryAccession> <!-- # A/environment/Minnesota/E5/2015 -->
+		<primaryAccession>GU053495</primaryAccession> <!-- # A/mallard/Maryland/786/2002 -->
+		<primaryAccession>KC790051</primaryAccession> <!-- # A/swan/BC/2045/2008 -->
+		<primaryAccession>FJ357097</primaryAccession> <!-- # A/guinea fowl/OH/22911-20/1986 -->
+		<primaryAccession>MT477799</primaryAccession> <!-- # A/Wild duck/South Korea/KNU18-93/2018 -->
+		<primaryAccession>GQ923371</primaryAccession> <!-- # A/waterfowl/Colorado/476466/2007 -->
+		<primaryAccession>OK205841</primaryAccession> <!-- # A/chicken/Queretaro/7653-20/1995 -->
+		<primaryAccession>MW334564</primaryAccession> <!-- # A/goose/Pingtung/15010007-4/2015 -->
+		<primaryAccession>KM455879</primaryAccession> <!-- # A/chicken/Veracruz/1433-1/2006 -->
+		<primaryAccession>CY179769</primaryAccession> <!-- # A/mallard/Alabama/847/1975 -->
+		<primaryAccession>CY094603</primaryAccession> <!-- # A/mallard/California/5250/2009 -->
+		<primaryAccession>KX979724</primaryAccession> <!-- # A/bewicks swan/Netherlands/5/2008 -->
+		<primaryAccession>MW334436</primaryAccession> <!-- # A/environment/Yunlin/18X00070/2018 -->
+		<primaryAccession>CY076259</primaryAccession> <!-- # A/northern shoveler/Washington/44249-645/2006 -->
+		<primaryAccession>MG964598</primaryAccession> <!-- # A/chicken/Iowa/15-016887-1/2015 -->
+		<primaryAccession>MG965534</primaryAccession> <!-- # A/turkey/Minnesota/15-014110-1/2015 -->
+		<primaryAccession>OL371301</primaryAccession> <!-- # A/wild duck/Victoria/17-0484-22/2017 -->
+		<primaryAccession>MZ564706</primaryAccession> <!-- # A/chicken/Aguascalientes/CPA-08545-19/2019 -->
+		<primaryAccession>FJ461605</primaryAccession> <!-- # A/swine/Korea/C13/2008 -->
+		<primaryAccession>GU049894</primaryAccession> <!-- # A/duck/New York/440410/2006 -->
+		<primaryAccession>MZ565274</primaryAccession> <!-- # A/chicken/Morelos/CPA-18659-17/2017 -->
+		<primaryAccession>CY006041</primaryAccession> <!-- # A/chicken/Chis/15224/1997 -->
+		<primaryAccession>MG965398</primaryAccession> <!-- # A/turkey/Minnesota/15-013051-1/2015 -->
+		<primaryAccession>MW334052</primaryAccession> <!-- # A/chicken/Yunlin/18060001-2/2018 -->
+		<primaryAccession>MW333596</primaryAccession> <!-- # A/chicken/Taipei City/18010007-3/2018 -->
+		<primaryAccession>KU201710</primaryAccession> <!-- # A/mallard/Idaho/AH0007412/2015 -->
+		<primaryAccession>KJ162786</primaryAccession> <!-- # A/duck/Taiwan/4380/2013 -->
+		<primaryAccession>AB490824</primaryAccession> <!-- # A/northern pintail/Akita/714/2006 -->
+		<primaryAccession>OK205761</primaryAccession> <!-- # A/chicken/Michoacan/28159-530/1995 -->
+		<primaryAccession>MG965294</primaryAccession> <!-- # A/turkey/Minnesota/15-012580-4/2015 -->
+		<primaryAccession>MT272357</primaryAccession> <!-- # A/chicken/Bulgaria/77_20VIR1727/2020 -->
+		<primaryAccession>GQ117167</primaryAccession> <!-- # A/turkey/New York/465977/2006 -->
+		<primaryAccession>KR137708</primaryAccession> <!-- # A/chicken/YL/A3190/2014 -->
+		<primaryAccession>MH546393</primaryAccession> <!-- # A/duck/New York/09-005059-001/2009 -->
+		<primaryAccession>MH546969</primaryAccession> <!-- # A/ring-necked duck/California/16-004032-1/2016 -->
+		<primaryAccession>OK205593</primaryAccession> <!-- # A/chicken/Guatemala/45511-2/2000 -->
+		<primaryAccession>MG965438</primaryAccession> <!-- # A/turkey/Minnesota/15-013393-1/2015 -->
+		<primaryAccession>MW333740</primaryAccession> <!-- # A/chicken/Yunlin/15060014-1/2015 -->
+		<primaryAccession>KY342080</primaryAccession> <!-- # A/environment/Minnesota/M2/2015 -->
+		<primaryAccession>MG964622</primaryAccession> <!-- # A/chicken/Iowa/15-017419-1/2015 -->
+		<primaryAccession>CY178100</primaryAccession> <!-- # A/blue-winged teal/Wisconsin/568/1983 -->
+		<primaryAccession>MZ565458</primaryAccession> <!-- # A/chicken/Veracruz/CPA-05599-17/2017 -->
+		<primaryAccession>MG965038</primaryAccession> <!-- # A/turkey/Iowa/15-017824-1/2015 -->
+		<primaryAccession>KR234012</primaryAccession> <!-- # A/turkey/Missouri/7458-1/2015 -->
+		<primaryAccession>MZ565442</primaryAccession> <!-- # A/chicken/Veracruz/CPA-00736-17/2017 -->
+		<primaryAccession>KY342168</primaryAccession> <!-- # A/environment/Minnesota/M13/2015 -->
+		<primaryAccession>KP739379</primaryAccession> <!-- # A/chicken/Washington/61-9/2014 -->
+		<primaryAccession>KJ018198</primaryAccession> <!-- # A/chicken/New Jersey/251-4/2008 -->
+		<primaryAccession>KY342008</primaryAccession> <!-- # A/turkey/Minnesota/E11/2015 -->
+		<primaryAccession>FJ520038</primaryAccession> <!-- # A/northern pintail/California/44221-797/2006 -->
+		<primaryAccession>MH546809</primaryAccession> <!-- # A/mallard/Washington/16-028147-4/2016 -->
+		<primaryAccession>CY203531</primaryAccession> <!-- # A/mallard/Maryland/11OS1749/2011 -->
+		<primaryAccession>OK205713</primaryAccession> <!-- # A/chicken/Mexico/31381-1/1994 -->
+		<primaryAccession>MW334316</primaryAccession> <!-- # A/duck/Yunlin/15010369-1/2015 -->
+		<primaryAccession>KT002479</primaryAccession> <!-- # A/turkey/Iowa/13541-1/2015 -->
+		<primaryAccession>MW333924</primaryAccession> <!-- # A/chicken/Yunlin/17040011-1/2017 -->
+		<primaryAccession>GU050000</primaryAccession> <!-- # A/northern pintail/Wisconsin/462764/2006 -->
+		<primaryAccession>GU186579</primaryAccession> <!-- # A/chicken/Mexico/31381-7/1994 -->
+		<primaryAccession>GQ923563</primaryAccession> <!-- # A/duck/New York/504371/2007 -->
+		<primaryAccession>CY097259</primaryAccession> <!-- # A/environment/Indiana/3607/2009 -->
+		<primaryAccession>MW873732</primaryAccession> <!-- # A/northern pintail/Alaska/AK18-441/2018 -->
+		<primaryAccession>FJ520022</primaryAccession> <!-- # A/northern pintail/California/44242-758/2006 -->
+		<primaryAccession>MZ564930</primaryAccession> <!-- # A/chicken/Jalisco/CPA-02169-17/2017 -->
+		<primaryAccession>CY186794</primaryAccession> <!-- # A/American green-winged teal/Mississippi/12OS5061/2012 -->
+		<primaryAccession>MH546905</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-8/2016 -->
+		<primaryAccession>CY204352</primaryAccession> <!-- # A/mallard/Ohio/14OS3379/2014 -->
+		<primaryAccession>CY179409</primaryAccession> <!-- # A/mallard/Wisconsin/411/1981 -->
+		<primaryAccession>MT477767</primaryAccession> <!-- # A/Wild duck/South Korea/KNU18-28/2018 -->
+		<primaryAccession>MW334420</primaryAccession> <!-- # A/duck/Yunlin/18X00007-3/2018 -->
+		<primaryAccession>MG965142</primaryAccession> <!-- # A/turkey/Minnesota/15-011603-1/2015 -->
+		<primaryAccession>MW333244</primaryAccession> <!-- # A/chicken/Chiayi/17040009-2/2017 -->
+		<primaryAccession>MG965734</primaryAccession> <!-- # A/turkey/Minnesota/15-017649-1/2015 -->
+		<primaryAccession>GU052554</primaryAccession> <!-- # A/turkey/England/N28/1973 -->
+		<primaryAccession>KY341992</primaryAccession> <!-- # A/environment/Minnesota/E9/2015 -->
+		<primaryAccession>GU361313</primaryAccession> <!-- # A/aquatic bird/Korea/w121/2006 -->
+		<primaryAccession>MG964958</primaryAccession> <!-- # A/turkey/Iowa/15-015116-1/2015 -->
+		<primaryAccession>MW334684</primaryAccession> <!-- # A/goose/Yunlin/15010009-1/2015 -->
+		<primaryAccession>GQ117199</primaryAccession> <!-- # A/duck/New York/469961/2006 -->
+		<primaryAccession>MG964398</primaryAccession> <!-- # A/chicken/Iowa/15-013540-6/2015 -->
+		<primaryAccession>GU361335</primaryAccession> <!-- # A/aquatic bird/Korea/w230/2007 -->
+		<primaryAccession>MH546801</primaryAccession> <!-- # A/mallard/Washington/16-027073-5/2016 -->
+		<primaryAccession>MW102470</primaryAccession> <!-- # A/chicken/Anhui/10.29_YHZGS014-O/2018 -->
+		<primaryAccession>GQ923475</primaryAccession> <!-- # A/mallard/Idaho/455398-2/2006 -->
+		<primaryAccession>MZ564802</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-07267-19/2019 -->
+		<primaryAccession>MZ564954</primaryAccession> <!-- # A/chicken/Jalisco/CPA-03447-19/2019 -->
+		<primaryAccession>GQ162792</primaryAccession> <!-- # A/duck/Primorie/2621/2001 -->
+		<primaryAccession>CY081362</primaryAccession> <!-- # A/mallard/Ohio/556/1987 -->
+		<primaryAccession>MH546521</primaryAccession> <!-- # A/lesser snow goose/Arkansas/16-005566-3/2016 -->
+		<primaryAccession>MG965478</primaryAccession> <!-- # A/turkey/Minnesota/15-013534-1/2015 -->
+		<primaryAccession>MH501471</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI10-579/2010 -->
+		<primaryAccession>GQ923267</primaryAccession> <!-- # A/snow goose/Montana/466771-4/2006 -->
+		<primaryAccession>MH546209</primaryAccession> <!-- # A/American green-winged teal/Oregon/17-000383-3/2016 -->
+		<primaryAccession>CY203515</primaryAccession> <!-- # A/mallard/Maryland/11OS1747/2011 -->
+		<primaryAccession>MW334852</primaryAccession> <!-- # A/turkey/Changhua/16010011-1/2016 -->
+		<primaryAccession>MZ565002</primaryAccession> <!-- # A/chicken/Jalisco/CPA-04649-19/2019 -->
+		<primaryAccession>MW333796</primaryAccession> <!-- # A/chicken/Yunlin/17010014/2017 -->
+		<primaryAccession>MG965374</primaryAccession> <!-- # A/turkey/Minnesota/15-012888-1/2015 -->
+		<primaryAccession>MH546881</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-5/2016 -->
+		<primaryAccession>KJ162802</primaryAccession> <!-- # A/duck/Taiwan/11254/2013 -->
+		<primaryAccession>MN882439</primaryAccession> <!-- # A/chicken/Dominican Republic/17-041237-004/2017 -->
+		<primaryAccession>KP732588</primaryAccession> <!-- # A/duck/Eastern China/L0230/2010 -->
+		<primaryAccession>GQ117271</primaryAccession> <!-- # A/duck/New York/494165/2007 -->
+		<primaryAccession>KJ162586</primaryAccession> <!-- # A/chicken/Taiwan/683/2012 -->
+		<primaryAccession>MZ565282</primaryAccession> <!-- # A/chicken/Puebla/CPA-01572-18/2018 -->
+		<primaryAccession>GQ117263</primaryAccession> <!-- # A/environment/New York/190723/2007 -->
+		<primaryAccession>GU052730</primaryAccession> <!-- # A/chicken/Tabasco/234-8289/1998 -->
+		<primaryAccession>KY056274</primaryAccession> <!-- # A/chicken/Zhejiang/232/2016 -->
+		<primaryAccession>OL461770</primaryAccession> <!-- # A/mallard/Oregon/AH0192908/2021 -->
+		<primaryAccession>MW334412</primaryAccession> <!-- # A/duck/Yunlin/18060007-3/2018 -->
+		<primaryAccession>KY342000</primaryAccession> <!-- # A/environment/Minnesota/E10/2015 -->
+		<primaryAccession>MG965814</primaryAccession> <!-- # A/turkey/South Dakota/15-015103-1/2015 -->
+		<primaryAccession>MW333844</primaryAccession> <!-- # A/chicken/Yunlin/17030010-1/2017 -->
+		<primaryAccession>MW334692</primaryAccession> <!-- # A/goose/Yunlin/15010010-2/2015 -->
+		<primaryAccession>MG965278</primaryAccession> <!-- # A/turkey/Minnesota/15-012577-1/2015 -->
+		<primaryAccession>CY180546</primaryAccession> <!-- # A/green-winged teal/Wisconsin/103/1976 -->
+		<primaryAccession>OL371293</primaryAccession> <!-- # A/wild duck/Victoria/17-00484-022/2017 -->
+		<primaryAccession>CY203499</primaryAccession> <!-- # A/mallard/Maryland/11OS1744/2011 -->
+		<primaryAccession>MW333516</primaryAccession> <!-- # A/chicken/Pingtung/18080001-1/2018 -->
+		<primaryAccession>AB261851</primaryAccession> <!-- # A/chicken/Ibaraki/1/2005 -->
+		<primaryAccession>MW334164</primaryAccession> <!-- # A/duck/Pingtung/15010461-1/2015 -->
+		<primaryAccession>GU361319</primaryAccession> <!-- # A/aquatic bird/Korea/w191/2007 -->
+		<primaryAccession>KR265566</primaryAccession> <!-- # A/duck/Japan/11OG1084/2011 -->
+		<primaryAccession>MW334444</primaryAccession> <!-- # A/goose/Changhua/15040008/2015 -->
+		<primaryAccession>MW333364</primaryAccession> <!-- # A/chicken/Kaohsiung/18080004-2/2018 -->
+		<primaryAccession>KY341968</primaryAccession> <!-- # A/turkey/Minnesota/E6/2015 -->
+		<primaryAccession>OK205705</primaryAccession> <!-- # A/chicken/Mexico/26654-1374/1994 -->
+		<primaryAccession>KM455943</primaryAccession> <!-- # A/chicken/Coahuila/1433-15/2006 -->
+		<primaryAccession>MW873596</primaryAccession> <!-- # A/glaucous-winged gull/Alaska/AK19-428/2019 -->
+		<primaryAccession>MG964718</primaryAccession> <!-- # A/chicken/Nebraska/15-019197-1/2015 -->
+		<primaryAccession>KY342259</primaryAccession> <!-- # A/environment/Nebraska/L8/2015 -->
+		<primaryAccession>CY165894</primaryAccession> <!-- # A/mallard/Sweden/101782/2009 -->
+		<primaryAccession>CY076935</primaryAccession> <!-- # A/mallard/Sweden/74/2003 -->
+		<primaryAccession>CY138318</primaryAccession> <!-- # A/blue-winged teal/New Brunswick/00288/2010 -->
+		<primaryAccession>KY765296</primaryAccession> <!-- # A/ostrich/South Africa/325863/2015 -->
+		<primaryAccession>GU049918</primaryAccession> <!-- # A/duck/Pennsylvania/465759/2006 -->
+		<primaryAccession>KX838897</primaryAccession> <!-- # A/mallard/Alaska/AH0088535/2016 -->
+		<primaryAccession>MG964950</primaryAccession> <!-- # A/turkey/Iowa/15-015071-3/2015 -->
+		<primaryAccession>MW106022</primaryAccession> <!-- # A/chicken/Jiangxi/4.25_NCDZT74Q3-OC/2018 -->
+		<primaryAccession>GQ923155</primaryAccession> <!-- # A/wild bird/Minnesota/460613-12/2006 -->
+		<primaryAccession>EU743084</primaryAccession> <!-- # A/turkey/CO/118899/1972 -->
+		<primaryAccession>KY342072</primaryAccession> <!-- # A/environment/Minnesota/M1/2015 -->
+		<primaryAccession>MH546305</primaryAccession> <!-- # A/Muscovy duck/New York/09-005059-002/2009 -->
+		<primaryAccession>GU361339</primaryAccession> <!-- # A/aquatic bird/Korea/w236/2007 -->
+		<primaryAccession>GQ923163</primaryAccession> <!-- # A/mallard/Oregon/461067-2/2006 -->
+		<primaryAccession>MK592419</primaryAccession> <!-- # A/Whooper swans/Hokkaido/W14/2017 -->
+		<primaryAccession>MG964574</primaryAccession> <!-- # A/chicken/Iowa/15-016158-1/2015 -->
+		<primaryAccession>CY203427</primaryAccession> <!-- # A/mallard/Maryland/11OS1729/2011 -->
+		<primaryAccession>KY130662</primaryAccession> <!-- # A/glaucous-winged gull/Alaska/392/2011 -->
+		<primaryAccession>MG964454</primaryAccession> <!-- # A/chicken/Iowa/15-014572-1/2015 -->
+		<primaryAccession>KY341944</primaryAccession> <!-- # A/turkey/Minnesota/E3/2015 -->
+		<primaryAccession>MW334532</primaryAccession> <!-- # A/goose/Chiayi/18020002-2/2018 -->
+		<primaryAccession>MG965494</primaryAccession> <!-- # A/turkey/Minnesota/15-013895-1/2015 -->
+		<primaryAccession>MG965454</primaryAccession> <!-- # A/turkey/Minnesota/15-013398-1/2015 -->
+		<primaryAccession>CY179785</primaryAccession> <!-- # A/mallard/Wisconsin/42/1975 -->
+		<primaryAccession>KC790043</primaryAccession> <!-- # A/mallard/QC/2323-25/2006 -->
+		<primaryAccession>MG965702</primaryAccession> <!-- # A/turkey/Minnesota/15-017409-1/2015 -->
+		<primaryAccession>MN882399</primaryAccession> <!-- # A/chicken/Dominican Republic/17-035000-15/2017 -->
+		<primaryAccession>CY144250</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/828212/2001 -->
+		<primaryAccession>CY203443</primaryAccession> <!-- # A/mallard/Maryland/11OS1736/2011 -->
+		<primaryAccession>GU051947</primaryAccession> <!-- # A/mallard/Washington/454202-15/2006 -->
+		<primaryAccession>KX879579</primaryAccession> <!-- # A/duck/Pennsylvania/10218-MA/1984 -->
+		<primaryAccession>OK205665</primaryAccession> <!-- # A/chicken/Jalisco/LVVX17186-2/2017 -->
+		<primaryAccession>MH546297</primaryAccession> <!-- # A/Muscovy duck/New York/09-002670-002/2009 -->
+		<primaryAccession>MG964694</primaryAccession> <!-- # A/chicken/Nebraska/15-015085-1/2015 -->
+		<primaryAccession>KY342241</primaryAccession> <!-- # A/environment/Nebraska/L5/2015 -->
+		<primaryAccession>OL372173</primaryAccession> <!-- # A/wild waterfowl/Western Australia/AS16-3326-180/2016 -->
+		<primaryAccession>CY094587</primaryAccession> <!-- # A/mallard/California/5212/2009 -->
+		<primaryAccession>KJ162642</primaryAccession> <!-- # A/chicken/Taiwan/1704/2013 -->
+		<primaryAccession>MH068325</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2513/2017 -->
+		<primaryAccession>KC790091</primaryAccession> <!-- # A/duck/BC/8038/2006 -->
+		<primaryAccession>MW333220</primaryAccession> <!-- # A/chicken/Chiayi/15010409-2/2015 -->
+		<primaryAccession>GQ923347</primaryAccession> <!-- # A/mallard/Arkansas/473507-9/2006 -->
+		<primaryAccession>MH068317</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2505/2017 -->
+		<primaryAccession>MW333052</primaryAccession> <!-- # A/chicken/Changhua/15010324-2/2015 -->
+		<primaryAccession>MZ564730</primaryAccession> <!-- # A/chicken/Aguascallientes/CPA-08331-19/2019 -->
+		<primaryAccession>JX080871</primaryAccession> <!-- # A/greater white-fronted goose/Alaska/44049-046/2006 -->
+		<primaryAccession>CY095480</primaryAccession> <!-- # A/mallard/British Columbia/18311/2006 -->
+		<primaryAccession>GU052610</primaryAccession> <!-- # A/chicken/Chiapas/15408/1997 -->
+		<primaryAccession>MW333980</primaryAccession> <!-- # A/chicken/Yunlin/18010024-2/2018 -->
+		<primaryAccession>MG964734</primaryAccession> <!-- # A/chicken/South Dakota/15-015847-3/2015 -->
+		<primaryAccession>KX979735</primaryAccession> <!-- # A/mallard duck/Netherlands/43/2006 -->
+		<primaryAccession>MZ565170</primaryAccession> <!-- # A/chicken/Jalisco/CPA-09057-19/2019 -->
+		<primaryAccession>MW334156</primaryAccession> <!-- # A/duck/Pingtung/15010444/2015 -->
+		<primaryAccession>MW334828</primaryAccession> <!-- # A/goose/Yunlin/18110002-3/2018 -->
+		<primaryAccession>MH597226</primaryAccession> <!-- # A/ruddy turnstone/Delaware/1016424/2003 -->
+		<primaryAccession>MW404489</primaryAccession> <!-- # A/White-fronted goose(Anser albifrons)/South Korea/KNU2019-66/2019 -->
+		<primaryAccession>MW333532</primaryAccession> <!-- # A/chicken/Taichung/16040032-3/2016 -->
+		<primaryAccession>GU052602</primaryAccession> <!-- # A/chicken/Chiapas/15406/1997 -->
+		<primaryAccession>MW334772</primaryAccession> <!-- # A/goose/Yunlin/18030020-2/2018 -->
+		<primaryAccession>MW334732</primaryAccession> <!-- # A/goose/Yunlin/16020011-1/2016 -->
+		<primaryAccession>MG965094</primaryAccession> <!-- # A/turkey/Minnesota/15-011200-1/2015 -->
+		<primaryAccession>MZ019499</primaryAccession> <!-- # A/chicken/Belgium/150/1999 -->
+		<primaryAccession>CY178068</primaryAccession> <!-- # A/mallard/Wisconsin/994/1982 -->
+		<primaryAccession>OK205769</primaryAccession> <!-- # A/chicken/Morelos/227-4353/1998 -->
+		<primaryAccession>CY204111</primaryAccession> <!-- # A/mallard/Ohio/14OS0464/2014 -->
+		<primaryAccession>MH685174</primaryAccession> <!-- # A/goose/China/1106/2016 -->
+		<primaryAccession>KU646867</primaryAccession> <!-- # A/goose/Taiwan/01022/2015 -->
+		<primaryAccession>MZ565434</primaryAccession> <!-- # A/chicken/Veracruz/CPA-00735-17/2017 -->
+		<primaryAccession>CY166450</primaryAccession> <!-- # A/mallard/Wisconsin/11OS3490/2011 -->
+		<primaryAccession>MH068245</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2243/2017 -->
+		<primaryAccession>MG965102</primaryAccession> <!-- # A/turkey/Minnesota/15-011202-1/2015 -->
+		<primaryAccession>MG964462</primaryAccession> <!-- # A/chicken/Iowa/15-014586-1/2015 -->
+		<primaryAccession>LC042071</primaryAccession> <!-- # A/duck/Hokkaido/WZ20/2014 -->
+		<primaryAccession>JX570850</primaryAccession> <!-- # A/canvasback/Xianghai/428/2011 -->
+		<primaryAccession>KP674449</primaryAccession> <!-- # A/chicken/Pennsylvania/7659/1985 -->
+		<primaryAccession>MW333868</primaryAccession> <!-- # A/chicken/Yunlin/17030021-1/2017 -->
+		<primaryAccession>CY095274</primaryAccession> <!-- # A/northern pintail/British Columbia/07813/2005 -->
+		<primaryAccession>KY342088</primaryAccession> <!-- # A/environment/Minnesota/M3/2015 -->
+		<primaryAccession>CY239406</primaryAccession> <!-- # A/glaucous-winged gull/Southcentral Alaska/16MB03648/2016 -->
+		<primaryAccession>CY036040</primaryAccession> <!-- # A/Muscovy duck/New York/62095-1/2006 -->
+		<primaryAccession>CY005581</primaryAccession> <!-- # A/duck/Hong Kong/342/1978 -->
+		<primaryAccession>MG964982</primaryAccession> <!-- # A/turkey/Iowa/15-016365-1/2015 -->
+		<primaryAccession>MN882415</primaryAccession> <!-- # A/chicken/Dominican Republic/17-035772-2/2017 -->
+		<primaryAccession>KR234020</primaryAccession> <!-- # A/turkey/Arkansas/7791-1/2015 -->
+		<primaryAccession>MG965254</primaryAccession> <!-- # A/turkey/Minnesota/15-012574-1/2015 -->
+		<primaryAccession>MW334260</primaryAccession> <!-- # A/duck/Taoyuan/16010023-1/2016 -->
+		<primaryAccession>MG965390</primaryAccession> <!-- # A/turkey/Minnesota/15-013050-1/2015 -->
+		<primaryAccession>MW873756</primaryAccession> <!-- # A/northern pintail/Alaska/AK18-475/2018 -->
+		<primaryAccession>JX444801</primaryAccession> <!-- # A/wild bird/Korea/8G9/2005 -->
+		<primaryAccession>MT566440</primaryAccession> <!-- # A/Mallard/Ohio/18OS2631/2018 -->
+		<primaryAccession>MG965190</primaryAccession> <!-- # A/turkey/Minnesota/15-011833-1/2015 -->
+		<primaryAccession>MW333508</primaryAccession> <!-- # A/chicken/Pingtung/18050006-1/2018 -->
+		<primaryAccession>GU052704</primaryAccession> <!-- # A/chicken/Morales/28159-538/1995 -->
+		<primaryAccession>MG965014</primaryAccession> <!-- # A/turkey/Iowa/15-017556-1/2015 -->
+		<primaryAccession>MW108998</primaryAccession> <!-- # A/duck/Xinjiang/09.19_WLMQXL001-C/2018 -->
+		<primaryAccession>KY828771</primaryAccession> <!-- # A/northern shoveler/California/LDC188/2014 -->
+		<primaryAccession>MG964430</primaryAccession> <!-- # A/chicken/Iowa/15-013982-1/2015 -->
+		<primaryAccession>MW334700</primaryAccession> <!-- # A/goose/Yunlin/15010011-1/2015 -->
+		<primaryAccession>MH547001</primaryAccession> <!-- # A/turkey/Wisconsin/17-007146-1/2017 -->
+		<primaryAccession>MG964870</primaryAccession> <!-- # A/turkey/Iowa/15-014562-2/2015 -->
+		<primaryAccession>OK205833</primaryAccession> <!-- # A/chicken/Queretaro/26654-1373/1994 -->
+		<primaryAccession>MZ564722</primaryAccession> <!-- # A/chicken/Aguascalientes/CPA-20747-17/2017 -->
+		<primaryAccession>KF435068</primaryAccession> <!-- # A/finch/England/2051/1991 -->
+		<primaryAccession>MH546201</primaryAccession> <!-- # A/American green-winged teal/Nevada/16-033700-1/2016 -->
+		<primaryAccession>KM657857</primaryAccession> <!-- # A/chicken/Aguascalientes/IA13/2010 -->
+		<primaryAccession>GQ117135</primaryAccession> <!-- # A/chicken/New York/439235/2006 -->
+		<primaryAccession>CY022635</primaryAccession> <!-- # A/turkey/Italy/1325/2005 -->
+		<primaryAccession>OK205569</primaryAccession> <!-- # A/chicken/Guatemala/22189/1998 -->
+		<primaryAccession>KU141370</primaryAccession> <!-- # A/swine/Mexico/GtoDMZC02/2014 -->
+		<primaryAccession>MW334556</primaryAccession> <!-- # A/goose/Chiayi/18020014-3/2018 -->
+		<primaryAccession>GU361338</primaryAccession> <!-- # A/aquatic bird/Korea/w235/2007 -->
+		<primaryAccession>CY213590</primaryAccession> <!-- # A/sandpiper/Southcentral Alaska/16MB01259/2016 -->
+		<primaryAccession>MW547582</primaryAccession> <!-- # A/aquatic bird/Cheongju/120/2006 -->
+		<primaryAccession>JQ041394</primaryAccession> <!-- # A/goose/Eastern China/1112/2011 -->
+		<primaryAccession>GQ923195</primaryAccession> <!-- # A/American wigeon/Iowa/463993/2006 -->
+		<primaryAccession>MH546761</primaryAccession> <!-- # A/mallard/Washington/16-027073-21/2016 -->
+		<primaryAccession>MH546553</primaryAccession> <!-- # A/mallard/Alaska/16-041335-2/2016 -->
+		<primaryAccession>MW334404</primaryAccession> <!-- # A/duck/Yunlin/18060006-1/2018 -->
+		<primaryAccession>MG965782</primaryAccession> <!-- # A/turkey/South Dakota/15-011415-1/2015 -->
+		<primaryAccession>MH546601</primaryAccession> <!-- # A/mallard/Maryland/16-042534-2/2016 -->
+		<primaryAccession>CY181142</primaryAccession> <!-- # A/pintail/Wisconsin/284/1978 -->
+		<primaryAccession>KP792298</primaryAccession> <!-- # A/Taiwan/DV413/2006 -->
+		<primaryAccession>CY203363</primaryAccession> <!-- # A/mallard/Maryland/11OS1714/2011 -->
+		<primaryAccession>MW333828</primaryAccession> <!-- # A/chicken/Yunlin/17030001-1/2017 -->
+		<primaryAccession>JX080861</primaryAccession> <!-- # A/tundra swan/Alaska/44049-168/2006 -->
+		<primaryAccession>CY146666</primaryAccession> <!-- # A/duck/Hunan/S4120/2011 -->
+		<primaryAccession>CY203435</primaryAccession> <!-- # A/mallard/Maryland/11OS1731/2011 -->
+		<primaryAccession>OL372141</primaryAccession> <!-- # A/wild waterfowl/Western Australia/AS16-3326-104/2016 -->
+		<primaryAccession>EU743077</primaryAccession> <!-- # A/turkey/MN/40550/1987 -->
+		<primaryAccession>MG965022</primaryAccession> <!-- # A/turkey/Iowa/15-017557-1/2015 -->
+		<primaryAccession>MH546769</primaryAccession> <!-- # A/mallard/Washington/16-027073-22/2016 -->
+		<primaryAccession>JX069095</primaryAccession> <!-- # A/ostrich/South Africa/AI2512/2011 -->
+		<primaryAccession>CY047502</primaryAccession> <!-- # A/mallard/British Columbia/07826/2005 -->
+		<primaryAccession>GQ923427</primaryAccession> <!-- # A/duck/Pennsylvania/446080-6/2006 -->
+		<primaryAccession>MH546417</primaryAccession> <!-- # A/duck/New York/16-021916-1/2016 -->
+		<primaryAccession>MG964350</primaryAccession> <!-- # A/Canada goose/Michigan/15-019873-5/2015 -->
+		<primaryAccession>MZ564922</primaryAccession> <!-- # A/chicken/Jalisco/CPA-00823-17/2017 -->
+		<primaryAccession>CY133240</primaryAccession> <!-- # A/American green-winged teal/Wisconsin/10OS2955/2010 -->
+		<primaryAccession>FJ610092</primaryAccession> <!-- # A/chicken/Hidalgo/28159-460/1995 -->
+		<primaryAccession>GU361306</primaryAccession> <!-- # A/aquatic bird/Korea/w74/2005 -->
+		<primaryAccession>EF591755</primaryAccession> <!-- # A/ostrich/South Africa/AI1160/2006 -->
+		<primaryAccession>KX351609</primaryAccession> <!-- # A/American wigeon/California/LS257/2014 -->
+		<primaryAccession>CY132491</primaryAccession> <!-- # A/mallard/Ohio/11OS2156/2011 -->
+		<primaryAccession>KU201814</primaryAccession> <!-- # A/mallard/Oregon/195547/2014 -->
+		<primaryAccession>MW334572</primaryAccession> <!-- # A/goose/Pingtung/15010037-1/2015 -->
+		<primaryAccession>MG965422</primaryAccession> <!-- # A/turkey/Minnesota/15-013391-1/2015 -->
+		<primaryAccession>GU049992</primaryAccession> <!-- # A/duck/Oregon/459674-3/2006 -->
+		<primaryAccession>MG965542</primaryAccession> <!-- # A/turkey/Minnesota/15-014111-1/2015 -->
+		<primaryAccession>MZ564794</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-05981-19/2019 -->
+		<primaryAccession>CY132475</primaryAccession> <!-- # A/mallard/Ohio/11OS2119/2011 -->
+		<primaryAccession>OK205753</primaryAccession> <!-- # A/chicken/Mexico/31382-1/1994 -->
+		<primaryAccession>CY204344</primaryAccession> <!-- # A/mallard/Ohio/14OS3373/2014 -->
+		<primaryAccession>CY120713</primaryAccession> <!-- # A/mallard/California/5197/2009 -->
+		<primaryAccession>MG964654</primaryAccession> <!-- # A/chicken/Minnesota/15-012882-2/2015 -->
+		<primaryAccession>MW334308</primaryAccession> <!-- # A/duck/Yunlin/15010318-2/2015 -->
+		<primaryAccession>MH068261</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2360/2017 -->
+		<primaryAccession>MW126805</primaryAccession> <!-- # A/duck/Hokkaido/W44/2018 -->
+		<primaryAccession>CY094651</primaryAccession> <!-- # A/mallard/California/5502/2009 -->
+		<primaryAccession>KM455911</primaryAccession> <!-- # A/chicken/Durango/1433-8/2005 -->
+		<primaryAccession>MG964510</primaryAccession> <!-- # A/chicken/Iowa/15-015018-1/2015 -->
+		<primaryAccession>KP739387</primaryAccession> <!-- # A/domestic duck/Washington/61-16/2014 -->
+		<primaryAccession>JQ041393</primaryAccession> <!-- # A/duck/Eastern China/1111/2011 -->
+		<primaryAccession>GU361322</primaryAccession> <!-- # A/aquatic bird/Korea/w200/2007 -->
+		<primaryAccession>MG964478</primaryAccession> <!-- # A/chicken/Iowa/15-014719-1/2015 -->
+		<primaryAccession>MG964934</primaryAccession> <!-- # A/turkey/Iowa/15-014869-1/2015 -->
+		<primaryAccession>KX979621</primaryAccession> <!-- # A/Eurasian wigeon/Netherlands/1/2009 -->
+		<primaryAccession>MW334244</primaryAccession> <!-- # A/duck/Tainan/16010020-1/2016 -->
+		<primaryAccession>MZ564714</primaryAccession> <!-- # A/chicken/Aguascalientes/CPA-08553-19/2019 -->
+		<primaryAccession>CY203451</primaryAccession> <!-- # A/mallard/Maryland/11OS1738/2011 -->
+		<primaryAccession>MH068429</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI17-2072/2017 -->
+		<primaryAccession>FJ750565</primaryAccession> <!-- # A/chicken/Belgium/150VB/1999 -->
+		<primaryAccession>MG964502</primaryAccession> <!-- # A/chicken/Iowa/15-015016-1/2015 -->
+		<primaryAccession>MW334596</primaryAccession> <!-- # A/goose/Tainan/16010031-2/2016 -->
+		<primaryAccession>MN882431</primaryAccession> <!-- # A/chicken/Dominican Republic/17-041237-001/2017 -->
+		<primaryAccession>MW334628</primaryAccession> <!-- # A/goose/Tainan/17030022-1/2017 -->
+		<primaryAccession>MN882391</primaryAccession> <!-- # A/chicken/Dominican Republic/07-002397-7/2007 -->
+		<primaryAccession>GQ923243</primaryAccession> <!-- # A/mallard/Michigan/466372-3/2006 -->
+		<primaryAccession>OK205865</primaryAccession> <!-- # A/chicken/Veracruz/232-6169/1998 -->
+		<primaryAccession>GU050723</primaryAccession> <!-- # A/ruddy turnstone/Delaware/499/2003 -->
+		<primaryAccession>MZ565258</primaryAccession> <!-- # A/chicken/Morelos/CPA-02447-17/2017 -->
+		<primaryAccession>CY132467</primaryAccession> <!-- # A/mallard/Ohio/11OS2239/2011 -->
+		<primaryAccession>MG965150</primaryAccession> <!-- # A/turkey/Minnesota/15-011656-1/2015 -->
+		<primaryAccession>KY342048</primaryAccession> <!-- # A/environment/Minnesota/E16/2015 -->
+		<primaryAccession>MW334012</primaryAccession> <!-- # A/chicken/Yunlin/18020008-2/2018 -->
+		<primaryAccession>MW333412</primaryAccession> <!-- # A/chicken/New Taipei City/17040002-2/2017 -->
+		<primaryAccession>CY094635</primaryAccession> <!-- # A/mallard/California/5296/2009 -->
+		<primaryAccession>KX979688</primaryAccession> <!-- # A/greater white-fronted goose/Netherlands/6/2008 -->
+		<primaryAccession>CY094667</primaryAccession> <!-- # A/mallard/California/5174/2009 -->
+		<primaryAccession>GU361314</primaryAccession> <!-- # A/aquatic bird/Korea/w125/2006 -->
+		<primaryAccession>MZ565490</primaryAccession> <!-- # A/chicken/Yucatan/CPA-15038-17/2017 -->
+		<primaryAccession>MW334428</primaryAccession> <!-- # A/environment/Yunlin/18X00007/2018 -->
+		<primaryAccession>CY203467</primaryAccession> <!-- # A/mallard/Maryland/11OS1740/2011 -->
+		<primaryAccession>KR233996</primaryAccession> <!-- # A/chicken/Oregon/A01819044/2015 -->
+		<primaryAccession>MZ565026</primaryAccession> <!-- # A/chicken/Jalisco/CPA-06016-19/2019 -->
+		<primaryAccession>MN988803</primaryAccession> <!-- # A/chicken/Taiwan/D9/2019 -->
+		<primaryAccession>MG965414</primaryAccession> <!-- # A/turkey/Minnesota/15-013181-1/2015 -->
+		<primaryAccession>OK205729</primaryAccession> <!-- # A/chicken/Mexico/31381-4/1994 -->
+		<primaryAccession>MW334084</primaryAccession> <!-- # A/duck/Changhua/15A03473-1-20T/2015 -->
+		<primaryAccession>CY097251</primaryAccession> <!-- # A/environment/Indiana/3599/2009 -->
+		<primaryAccession>GQ117151</primaryAccession> <!-- # A/duck/New York/465571/2006 -->
+		<primaryAccession>MG965550</primaryAccession> <!-- # A/turkey/Minnesota/15-014293-1/2015 -->
+		<primaryAccession>CY203355</primaryAccession> <!-- # A/mallard/Maryland/11OS1704/2011 -->
+		<primaryAccession>KU201630</primaryAccession> <!-- # A/Northern pintail/Oregon/AH0003967/2015 -->
+		<primaryAccession>MW334268</primaryAccession> <!-- # A/duck/Yilan/17A0092/2017 -->
+		<primaryAccession>MW334364</primaryAccession> <!-- # A/duck/Yunlin/15A5019/2015 -->
+		<primaryAccession>MG965230</primaryAccession> <!-- # A/turkey/Minnesota/15-012508-2/2015 -->
+		<primaryAccession>CY094699</primaryAccession> <!-- # A/mallard/California/5319/2009 -->
+		<primaryAccession>MW333804</primaryAccession> <!-- # A/chicken/Yunlin/17020033-2/2017 -->
+		<primaryAccession>FJ610114</primaryAccession> <!-- # A/chicken/Jalisco/14589-660/1994 -->
+		<primaryAccession>OK205785</primaryAccession> <!-- # A/chicken/Puebla/14590-658/1994 -->
+		<primaryAccession>MG964838</primaryAccession> <!-- # A/turkey/Iowa/15-013773-1/2015 -->
+		<primaryAccession>CY213574</primaryAccession> <!-- # A/sandpiper/Southcentral Alaska/16MB01156/2016 -->
+		<primaryAccession>CY194187</primaryAccession> <!-- # A/mallard/Southcentral Alaska/12ML00988_AAF1/2014 -->
+		<primaryAccession>MW334100</primaryAccession> <!-- # A/duck/Hsinchu/15020216/2015 -->
+		<primaryAccession>KJ174935</primaryAccession> <!-- # A/chicken/Henan/Q7/2013 -->
+		<primaryAccession>CY041256</primaryAccession> <!-- # A/mallard/Netherlands/2/2005 -->
+		<primaryAccession>GQ923251</primaryAccession> <!-- # A/mallard/Michigan/466547-5/2006 -->
+		<primaryAccession>MW333812</primaryAccession> <!-- # A/chicken/Yunlin/17020094-1/2017 -->
+		<primaryAccession>MW333500</primaryAccession> <!-- # A/chicken/Pingtung/18020015-1/2018 -->
+		<primaryAccession>CY139679</primaryAccession> <!-- # A/mallard/Minnesota/355779/2000 -->
+		<primaryAccession>KM455887</primaryAccession> <!-- # A/chicken/Durango/1433-4/2005 -->
+		<primaryAccession>KJ162626</primaryAccession> <!-- # A/chicken/Taiwan/1682/2013 -->
+		<primaryAccession>OK205673</primaryAccession> <!-- # A/chicken/Mexico/15407/1997 -->
+		<primaryAccession>MH546849</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-15/2016 -->
+		<primaryAccession>MW333692</primaryAccession> <!-- # A/chicken/Yunlin/15020048-1/2015 -->
+		<primaryAccession>OK205681</primaryAccession> <!-- # A/chicken/Mexico/1643/2019 -->
+		<primaryAccession>KY561286</primaryAccession> <!-- # A/northern pintail/Ohio/15OS5861/2015 -->
+		<primaryAccession>MG964390</primaryAccession> <!-- # A/chicken/Iowa/15-013430-16/2015 -->
+		<primaryAccession>MZ564682</primaryAccession> <!-- # A/chicken/Aguascalientes/CPA-07048-19/2019 -->
+		<primaryAccession>MH546657</primaryAccession> <!-- # A/mallard/Minnesota/16-041335-3/2016 -->
+		<primaryAccession>CY132571</primaryAccession> <!-- # A/mallard/Ohio/11OS1961/2011 -->
+		<primaryAccession>MH546673</primaryAccession> <!-- # A/mallard/Nevada/16-035274-2/2016 -->
+		<primaryAccession>KR137692</primaryAccession> <!-- # A/chicken/SC/a688/2015 -->
+		<primaryAccession>MG964966</primaryAccession> <!-- # A/turkey/Iowa/15-016077-1/2015 -->
+		<primaryAccession>MW334764</primaryAccession> <!-- # A/goose/Yunlin/18030020-1/2018 -->
+		<primaryAccession>MG280413</primaryAccession> <!-- # A/American wigeon/Ohio/16OS3736/2016 -->
+		<primaryAccession>MG965574</primaryAccession> <!-- # A/turkey/Minnesota/15-014310-1/2015 -->
+		<primaryAccession>GU050256</primaryAccession> <!-- # A/mallard/Washington/456273-3/2006 -->
+		<primaryAccession>MH546489</primaryAccession> <!-- # A/guinea fowl/New Jersey/08-000640-008/2008 -->
+		<primaryAccession>MF359839</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/431/2011 -->
+		<primaryAccession>MG965350</primaryAccession> <!-- # A/turkey/Minnesota/15-012663-1/2015 -->
+		<primaryAccession>MH068309</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2485/2017 -->
+		<primaryAccession>MZ565090</primaryAccession> <!-- # A/chicken/Jalisco/CPA-07140-19/2019 -->
+		<primaryAccession>MW334036</primaryAccession> <!-- # A/chicken/Yunlin/18040006-3/2018 -->
+		<primaryAccession>MW333164</primaryAccession> <!-- # A/chicken/Changhua/16010060-2/2016 -->
+		<primaryAccession>KJ162690</primaryAccession> <!-- # A/chicken/Taiwan/8995/2013 -->
+		<primaryAccession>GQ117247</primaryAccession> <!-- # A/duck/New York/489761/2007 -->
+		<primaryAccession>MH546833</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-12/2016 -->
+		<primaryAccession>CY146650</primaryAccession> <!-- # A/duck/Hunan/S4101/2011 -->
+		<primaryAccession>MW333380</primaryAccession> <!-- # A/chicken/Miaoli/18040011-1/2018 -->
+		<primaryAccession>CY184147</primaryAccession> <!-- # A/mallard/Sweden/58705/2006 -->
+		<primaryAccession>OK205545</primaryAccession> <!-- # A/chicken/Guanajuato/28159-331/1995 -->
+		<primaryAccession>GQ117159</primaryAccession> <!-- # A/duck/New York/465976/2006 -->
+		<primaryAccession>MW334484</primaryAccession> <!-- # A/goose/Chiayi/16040003-1/2016 -->
+		<primaryAccession>CY203395</primaryAccession> <!-- # A/mallard/Maryland/11OS1720/2011 -->
+		<primaryAccession>GQ923379</primaryAccession> <!-- # A/waterfowl/Colorado/476466-2/2007 -->
+		<primaryAccession>MW333172</primaryAccession> <!-- # A/chicken/Changhua/16020042-2/2016 -->
+		<primaryAccession>MG964910</primaryAccession> <!-- # A/turkey/Iowa/15-014863-1/2015 -->
+		<primaryAccession>CY039317</primaryAccession> <!-- # A/unknown/New York/89909/2006 -->
+		<primaryAccession>CY203411</primaryAccession> <!-- # A/mallard/Maryland/11OS1727/2011 -->
+		<primaryAccession>MZ565338</primaryAccession> <!-- # A/chicken/Queretaro/CPA-03805-19/2019 -->
+		<primaryAccession>MW334212</primaryAccession> <!-- # A/duck/Pingtung/18A00076-11-20T/2018 -->
+		<primaryAccession>GU050157</primaryAccession> <!-- # A/northern pintail/California/491335/2007 -->
+		<primaryAccession>KJ162722</primaryAccession> <!-- # A/duck/Taiwan/758/2013 -->
+		<primaryAccession>MZ565482</primaryAccession> <!-- # A/chicken/Veracruz/CPA-21377-17/2017 -->
+		<primaryAccession>MF099652</primaryAccession> <!-- # A/teal/Djankoy/4-17-11/2010 -->
+		<primaryAccession>KJ018190</primaryAccession> <!-- # A/chicken/New Jersey/577-6/2008 -->
+		<primaryAccession>MH068156</primaryAccession> <!-- # A/environment/Georgia/UGAI17-2201/2017 -->
+		<primaryAccession>MW334796</primaryAccession> <!-- # A/goose/Yunlin/18040018-2/2018 -->
+		<primaryAccession>MH546537</primaryAccession> <!-- # A/mallard/Alaska/16-039026-5/2016 -->
+		<primaryAccession>MG964518</primaryAccession> <!-- # A/chicken/Iowa/15-015073-1/2015 -->
+		<primaryAccession>KR233980</primaryAccession> <!-- # A/turkey/Minnesota/9892-2/2015 -->
+		<primaryAccession>CY178821</primaryAccession> <!-- # A/mallard/Wisconsin/984/1982 -->
+		<primaryAccession>GQ117215</primaryAccession> <!-- # A/environment/New York/481173/2007 -->
+		<primaryAccession>GU049910</primaryAccession> <!-- # A/avian/New York/448534/2006 -->
+		<primaryAccession>GU050227</primaryAccession> <!-- # A/mallard/NV/450206/2006 -->
+		<primaryAccession>KX602680</primaryAccession> <!-- # A/chicken/Zhejiang/81643/2015 -->
+		<primaryAccession>GQ923235</primaryAccession> <!-- # A/avian/Missouri/465593-7/2006 -->
+		<primaryAccession>MW333612</primaryAccession> <!-- # A/chicken/Taipei City/18050007-1/2018 -->
+		<primaryAccession>FJ520036</primaryAccession> <!-- # A/northern pintail/California/44221-789/2006 -->
+		<primaryAccession>MW333996</primaryAccession> <!-- # A/chicken/Yunlin/18020004-1/2018 -->
+		<primaryAccession>MH546433</primaryAccession> <!-- # A/duck/Pennsylvania/07-002198-003/2007 -->
+		<primaryAccession>CY213610</primaryAccession> <!-- # A/least sandpiper/Southcentral Alaska/16MB01323/2016 -->
+		<primaryAccession>GU050096</primaryAccession> <!-- # A/mallard/Mississippi/469988-2/2006 -->
+		<primaryAccession>MG964886</primaryAccession> <!-- # A/turkey/Iowa/15-014772-1/2015 -->
+		<primaryAccession>MW333236</primaryAccession> <!-- # A/chicken/Chiayi/17030059-2/2017 -->
+		<primaryAccession>CY191273</primaryAccession> <!-- # A/mallard/Maryland/13OS2946/2013 -->
+		<primaryAccession>MW334196</primaryAccession> <!-- # A/duck/Pingtung/17A0160/2017 -->
+		<primaryAccession>CY034764</primaryAccession> <!-- # A/mallard/Italy/4223-2/2006 -->
+		<primaryAccession>MW333036</primaryAccession> <!-- # A/chicken/Changhua/15010120-1/2015 -->
+		<primaryAccession>MW333044</primaryAccession> <!-- # A/chicken/Changhua/15010288/2015 -->
+		<primaryAccession>KY056272</primaryAccession> <!-- # A/chicken/Zhejiang/209/2016 -->
+		<primaryAccession>MW333900</primaryAccession> <!-- # A/chicken/Yunlin/17040004-2/2017 -->
+		<primaryAccession>KY342016</primaryAccession> <!-- # A/turkey/Minnesota/E12/2015 -->
+		<primaryAccession>CY004323</primaryAccession> <!-- # A/mallard duck/ALB/57/1976 -->
+		<primaryAccession>CY202705</primaryAccession> <!-- # A/mallard/Ohio/14OS0560/2014 -->
+		<primaryAccession>KJ162714</primaryAccession> <!-- # A/duck/Taiwan/755/2013 -->
+		<primaryAccession>MH546593</primaryAccession> <!-- # A/mallard/Indiana/16-035911-3/2016 -->
+		<primaryAccession>MW333116</primaryAccession> <!-- # A/chicken/Changhua/15050013-1/2015 -->
+		<primaryAccession>KJ162634</primaryAccession> <!-- # A/chicken/Taiwan/1692/2013 -->
+		<primaryAccession>MN988771</primaryAccession> <!-- # A/chicken/Taiwan/A3/2019 -->
+		<primaryAccession>GQ923203</primaryAccession> <!-- # A/American wigeon/Iowa/463998/2006 -->
+		<primaryAccession>MW333964</primaryAccession> <!-- # A/chicken/Yunlin/18010003-3/2018 -->
+		<primaryAccession>CY213582</primaryAccession> <!-- # A/sandpiper/Southcentral Alaska/16MB01220/2016 -->
+		<primaryAccession>KU201934</primaryAccession> <!-- # A/snowy owl/Wisconsin/198399/2015 -->
+		<primaryAccession>KY342184</primaryAccession> <!-- # A/turkey/Minnesota/M15/2015 -->
+		<primaryAccession>MH546713</primaryAccession> <!-- # A/mallard/Oregon/16-028808-2/2016 -->
+		<primaryAccession>KY342096</primaryAccession> <!-- # A/environment/Minnesota/M4/2015 -->
+		<primaryAccession>MH546169</primaryAccession> <!-- # A/American green-winged teal/California/16-035443-2/2016 -->
+		<primaryAccession>MH546609</primaryAccession> <!-- # A/mallard/Michigan/15-031493-1/2015 -->
+		<primaryAccession>MG964414</primaryAccession> <!-- # A/chicken/Iowa/15-013972-1/2015 -->
+		<primaryAccession>EF634330</primaryAccession> <!-- # A/garganey/SanJiang/160/2006 -->
+		<primaryAccession>KX979797</primaryAccession> <!-- # A/greater white-fronted goose/Netherlands/5/2008 -->
+		<primaryAccession>GQ923515</primaryAccession> <!-- # A/wild bird/Minnesota/459254-5/2006 -->
+		<primaryAccession>KT002519</primaryAccession> <!-- # A/chicken/Iowa/14399-4/2015 -->
+		<primaryAccession>MG964558</primaryAccession> <!-- # A/chicken/Iowa/15-015556-1/2015 -->
+		<primaryAccession>OK205817</primaryAccession> <!-- # A/chicken/Queretaro/14588-19/1995 -->
+		<primaryAccession>MG964998</primaryAccession> <!-- # A/turkey/Iowa/15-017224-1/2015 -->
+		<primaryAccession>KR150907</primaryAccession> <!-- # A/pheasant/Washington/3147-2/2015 -->
+		<primaryAccession>MH546777</primaryAccession> <!-- # A/mallard/Washington/16-027073-45/2016 -->
+		<primaryAccession>KX979684</primaryAccession> <!-- # A/greater white-fronted goose/Netherlands/2/2010 -->
+		<primaryAccession>CY094723</primaryAccession> <!-- # A/mallard/California/5386/2009 -->
+		<primaryAccession>MW334676</primaryAccession> <!-- # A/goose/Yunlin/15010005/2015 -->
+		<primaryAccession>GQ923483</primaryAccession> <!-- # A/mallard/Washington/456277-7/2006 -->
+		<primaryAccession>GU361342</primaryAccession> <!-- # A/aquatic bird/Korea/w347/2008 -->
+		<primaryAccession>JX570834</primaryAccession> <!-- # A/baikal teal/Xianghai/426/2011 -->
+		<primaryAccession>GQ923491</primaryAccession> <!-- # A/mallard/Washington/456277-2/2006 -->
+		<primaryAccession>CY022083</primaryAccession> <!-- # A/poultry/Italy/367/1997 -->
+		<primaryAccession>MK237814</primaryAccession> <!-- # A/mallard/Ohio/17OS3812/2017 -->
+		<primaryAccession>KJ162674</primaryAccession> <!-- # A/chicken/Taiwan/8988/2013 -->
+		<primaryAccession>MG964550</primaryAccession> <!-- # A/chicken/Iowa/15-015555-1/2015 -->
+		<primaryAccession>GQ923531</primaryAccession> <!-- # A/wild bird/Minnesota/460613/2006 -->
+		<primaryAccession>MZ564994</primaryAccession> <!-- # A/chicken/Jalisco/CPA-04262-19/2019 -->
+		<primaryAccession>CY180394</primaryAccession> <!-- # A/mallard/Wisconsin/232/1976 -->
+		<primaryAccession>MG964878</primaryAccession> <!-- # A/turkey/Iowa/15-014570-1/2015 -->
+		<primaryAccession>MZ564690</primaryAccession> <!-- # A/chicken/Aguascalientes/CPA-07181-19/2019 -->
+		<primaryAccession>MG965246</primaryAccession> <!-- # A/turkey/Minnesota/15-012510-4/2015 -->
+		<primaryAccession>KJ162770</primaryAccession> <!-- # A/duck/Taiwan/4376/2013 -->
+		<primaryAccession>MZ564850</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-12461-17/2017 -->
+		<primaryAccession>GU052546</primaryAccession> <!-- # A/duck/Potsdam/1402-6/1986 -->
+		<primaryAccession>GU361321</primaryAccession> <!-- # A/aquatic bird/Korea/w198/2007 -->
+		<primaryAccession>MK592435</primaryAccession> <!-- # A/Whooper swans/Hokkaido/W73/2017 -->
+		<primaryAccession>CY014855</primaryAccession> <!-- # A/mallard duck/New York/189/1982 -->
+		<primaryAccession>MH546425</primaryAccession> <!-- # A/duck/New York/16-021920-1/2016 -->
+		<primaryAccession>EU980500</primaryAccession> <!-- # A/mallard/MD/898/2002 -->
+		<primaryAccession>MH546961</primaryAccession> <!-- # A/quail/New York/07-501360-001/2007 -->
+		<primaryAccession>GU052777</primaryAccession> <!-- # A/chicken/Pennsylvania/1370/1983 -->
+		<primaryAccession>FJ610140</primaryAccession> <!-- # A/chicken/VA/40018/1984 -->
+		<primaryAccession>GU052785</primaryAccession> <!-- # A/chicken/Florida/27716-2/1986 -->
+		<primaryAccession>GU361334</primaryAccession> <!-- # A/aquatic bird/Korea/w229/2007 -->
+		<primaryAccession>MK592507</primaryAccession> <!-- # A/duck/Hokkaido/W103/2017 -->
+		<primaryAccession>MG965462</primaryAccession> <!-- # A/turkey/Minnesota/15-013399-1/2015 -->
+		<primaryAccession>MW334516</primaryAccession> <!-- # A/goose/Chiayi/17040014/2017 -->
+		<primaryAccession>KJ162706</primaryAccession> <!-- # A/chicken/Taiwan/4443/2013 -->
+		<primaryAccession>KP732599</primaryAccession> <!-- # A/duck/Eastern China/S0131/2014 -->
+		<primaryAccession>MZ564778</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-03879-19/2019 -->
+		<primaryAccession>MW333876</primaryAccession> <!-- # A/chicken/Yunlin/17030032-2/2017 -->
+		<primaryAccession>MH068253</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2246/2017 -->
+		<primaryAccession>JX444817</primaryAccession> <!-- # A/bean goose/Korea/EG16/2006 -->
+		<primaryAccession>GU050073</primaryAccession> <!-- # A/Northern shoveler/Washington/467923/2006 -->
+		<primaryAccession>MH546441</primaryAccession> <!-- # A/emperor goose/Alaska/16-041335-20/2016 -->
+		<primaryAccession>GU361331</primaryAccession> <!-- # A/aquatic bird/Korea/w218/2007 -->
+		<primaryAccession>KT762954</primaryAccession> <!-- # A/chicken/Wisconsin/15-012160-1/2015 -->
+		<primaryAccession>MW334540</primaryAccession> <!-- # A/goose/Chiayi/18020014-1/2018 -->
+		<primaryAccession>CY194145</primaryAccession> <!-- # A/mallard/Southcentral Alaska/12ML00977/2014 -->
+		<primaryAccession>MG965598</primaryAccession> <!-- # A/turkey/Minnesota/15-014850-1/2015 -->
+		<primaryAccession>MN882407</primaryAccession> <!-- # A/chicken/Dominican Republic/17-035000-5/2017 -->
+		<primaryAccession>MG965158</primaryAccession> <!-- # A/turkey/Minnesota/15-011661-1/2015 -->
+		<primaryAccession>EU743279</primaryAccession> <!-- # A/turkey/TX/1-40-82/1982 -->
+		<primaryAccession>GU050065</primaryAccession> <!-- # A/American widgeon/Oregon/467919/2006 -->
+		<primaryAccession>MH068485</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI17-2746/2017 -->
+		<primaryAccession>MN988795</primaryAccession> <!-- # A/chicken/Taiwan/D2/2019 -->
+		<primaryAccession>MG891868</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/85/2017 -->
+		<primaryAccession>MH546921</primaryAccession> <!-- # A/northern shoveler/Alaska/17-004479-3/2016 -->
+		<primaryAccession>CY036765</primaryAccession> <!-- # A/mallard/Wisconsin/944/1982 -->
+		<primaryAccession>OK205641</primaryAccession> <!-- # A/chicken/Jalisco/229-4592/1998 -->
+		<primaryAccession>MZ565306</primaryAccession> <!-- # A/chicken/Puebla/CPA-14731-17/2017 -->
+		<primaryAccession>MG965238</primaryAccession> <!-- # A/turkey/Minnesota/15-012509-1/2015 -->
+		<primaryAccession>MH546233</primaryAccession> <!-- # A/American wigeon/Oregon/17-000383-2/2016 -->
+		<primaryAccession>KJ162682</primaryAccession> <!-- # A/chicken/Taiwan/8994/2013 -->
+		<primaryAccession>OK205609</primaryAccession> <!-- # A/chicken/Guatemala/45511-4/2000 -->
+		<primaryAccession>MW334300</primaryAccession> <!-- # A/duck/Yunlin/15010310-4/2015 -->
+		<primaryAccession>MW334900</primaryAccession> <!-- # A/turkey/Yunlin/18020020-2/2018 -->
+		<primaryAccession>GU361315</primaryAccession> <!-- # A/aquatic bird/Korea/w132/2006 -->
+		<primaryAccession>MW333156</primaryAccession> <!-- # A/chicken/Changhua/15120008/2015 -->
+		<primaryAccession>MW333948</primaryAccession> <!-- # A/chicken/Yunlin/17070010/2017 -->
+		<primaryAccession>MG964974</primaryAccession> <!-- # A/turkey/Iowa/15-016082-1/2015 -->
+		<primaryAccession>OK205737</primaryAccession> <!-- # A/chicken/Mexico/31381-5/1994 -->
+		<primaryAccession>MW334908</primaryAccession> <!-- # A/turkey/Yunlin/18070001-2/2018 -->
+		<primaryAccession>KM455927</primaryAccession> <!-- # A/chicken/Durango/1433-10/2006 -->
+		<primaryAccession>GU050203</primaryAccession> <!-- # A/mallard/NV/449567-2/2006 -->
+		<primaryAccession>MH547017</primaryAccession> <!-- # A/turkey/Wisconsin/17-007319-3/2017 -->
+		<primaryAccession>OL371317</primaryAccession> <!-- # A/wild duck/Western Australia/AS16-3326-185/2016 -->
+		<primaryAccession>FJ610100</primaryAccession> <!-- # A/chicken/Puebla/14587-644/1994 -->
+		<primaryAccession>MG964382</primaryAccession> <!-- # A/chicken/Iowa/15-013408-3/2015 -->
+		<primaryAccession>KY342056</primaryAccession> <!-- # A/turkey/Minnesota/E17/2015 -->
+		<primaryAccession>OK205521</primaryAccession> <!-- # A/chicken/Coahuila/IA20/2011 -->
+		<primaryAccession>CY202808</primaryAccession> <!-- # A/mallard/Maryland/07OS2433/2007 -->
+		<primaryAccession>MG965646</primaryAccession> <!-- # A/turkey/Minnesota/15-017039-1/2015 -->
+		<primaryAccession>GQ923211</primaryAccession> <!-- # A/green winged teal/Ohio/464069/2006 -->
+		<primaryAccession>MH068189</primaryAccession> <!-- # A/environment/New Jersey/UGAI17-2575/2017 -->
+		<primaryAccession>GQ923507</primaryAccession> <!-- # A/green winged teal/Delaware/458672-5/2006 -->
+		<primaryAccession>CY005763</primaryAccession> <!-- # A/duck/New Zealand/41/1984 -->
+		<primaryAccession>KY584073</primaryAccession> <!-- # A/aquatic bird/Korea/CN2/2009 -->
+		<primaryAccession>MG964918</primaryAccession> <!-- # A/turkey/Iowa/15-014864-1/2015 -->
+		<primaryAccession>GU361316</primaryAccession> <!-- # A/aquatic bird/Korea/w161/2007 -->
+		<primaryAccession>CY166929</primaryAccession> <!-- # A/mallard/Missouri/11OS4987/2011 -->
+		<primaryAccession>CY005837</primaryAccession> <!-- # A/chicken/Hidalgo/28159-232/1994 -->
+		<primaryAccession>MG965326</primaryAccession> <!-- # A/turkey/Minnesota/15-012658-1/2015 -->
+		<primaryAccession>KP307955</primaryAccession> <!-- # A/turkey/BC/FAV10/2014 -->
+		<primaryAccession>OM965817</primaryAccession> <!-- # A/Sanderling/Delaware/518/2021 -->
+		<primaryAccession>CY076203</primaryAccession> <!-- # A/mallard/Washington/44242-264/2006 -->
+		<primaryAccession>MW333908</primaryAccession> <!-- # A/chicken/Yunlin/17040005-1/2017 -->
+		<primaryAccession>MH251150</primaryAccession> <!-- # A/mallard/California/UCD1199/2017 -->
+		<primaryAccession>KY341984</primaryAccession> <!-- # A/environment/Minnesota/E8/2015 -->
+		<primaryAccession>GQ923283</primaryAccession> <!-- # A/mallard/Ohio/468159-4/2006 -->
+		<primaryAccession>MZ564842</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-11248-17/2017 -->
+		<primaryAccession>MG964926</primaryAccession> <!-- # A/turkey/Iowa/15-014868-1/2015 -->
+		<primaryAccession>KT327393</primaryAccession> <!-- # A/night heron/Taiwan/A289/2015 -->
+		<primaryAccession>GQ923307</primaryAccession> <!-- # A/northern pintail/California/469993/2006 -->
+		<primaryAccession>GQ923315</primaryAccession> <!-- # A/mallard/Kentucky/472048-2/2006 -->
+		<primaryAccession>MW334500</primaryAccession> <!-- # A/goose/Chiayi/16040007-1/2016 -->
+		<primaryAccession>CY132483</primaryAccession> <!-- # A/mallard/Ohio/11OS2006/2011 -->
+		<primaryAccession>GU050180</primaryAccession> <!-- # A/wild bird/Wisconsin/439436/2006 -->
+		<primaryAccession>MW334844</primaryAccession> <!-- # A/thrush/Taipei City/15120021/2015 -->
+		<primaryAccession>MW333468</primaryAccession> <!-- # A/chicken/Pingtung/15050006-1/2015 -->
+		<primaryAccession>CY132459</primaryAccession> <!-- # A/mallard/Ohio/11OS2229/2011 -->
+		<primaryAccession>MG964662</primaryAccession> <!-- # A/chicken/Minnesota/15-014297-1/2015 -->
+		<primaryAccession>MW333204</primaryAccession> <!-- # A/chicken/Changhua/18040008-1/2018 -->
+		<primaryAccession>MH546465</primaryAccession> <!-- # A/gadwall/North Carolina/15-037410-2/2015 -->
+		<primaryAccession>KY750599</primaryAccession> <!-- # A/mallard/Interior Alaska/12ML01123/2014 -->
+		<primaryAccession>CY190993</primaryAccession> <!-- # A/mallard/Maryland/11OS3603/2011 -->
+		<primaryAccession>KU201894</primaryAccession> <!-- # A/mallard/Washington/195246/2014 -->
+		<primaryAccession>MG965558</primaryAccession> <!-- # A/turkey/Minnesota/15-014299-1/2015 -->
+		<primaryAccession>AB830626</primaryAccession> <!-- # A/tundra swan/Shimane/3211A001/2011 -->
+		<primaryAccession>MW334388</primaryAccession> <!-- # A/duck/Yunlin/17A0686/2017 -->
+		<primaryAccession>MW334452</primaryAccession> <!-- # A/goose/Chiayi/15010008-3/2015 -->
+		<primaryAccession>MZ565018</primaryAccession> <!-- # A/chicken/Jalisco/CPA-05091-19/2019 -->
+		<primaryAccession>GQ923443</primaryAccession> <!-- # A/white front goose/Alaska/446843/2006 -->
+		<primaryAccession>MZ565058</primaryAccession> <!-- # A/chicken/Jalisco/CPA-06506-19/2019 -->
+		<primaryAccession>MH546369</primaryAccession> <!-- # A/duck/New York/07-002127-001/2007 -->
+		<primaryAccession>MH546577</primaryAccession> <!-- # A/mallard/Idaho/16-034834-1/2016 -->
+		<primaryAccession>GQ923179</primaryAccession> <!-- # A/duck/Minnesota/462960-2/2006 -->
+		<primaryAccession>CY178084</primaryAccession> <!-- # A/mallard/Wisconsin/99/1982 -->
+		<primaryAccession>KJ162602</primaryAccession> <!-- # A/chicken/Taiwan/692/2012 -->
+		<primaryAccession>MG965806</primaryAccession> <!-- # A/turkey/South Dakota/15-015102-5/2015 -->
+		<primaryAccession>MZ564866</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-17726-17/2017 -->
+		<primaryAccession>MW334004</primaryAccession> <!-- # A/chicken/Yunlin/18020005-2/2018 -->
+		<primaryAccession>MH546457</primaryAccession> <!-- # A/emperor goose/Alaska/17-004479-2/2016 -->
+		<primaryAccession>KY342267</primaryAccession> <!-- # A/environment/Nebraska/L9/2015 -->
+		<primaryAccession>KY342024</primaryAccession> <!-- # A/turkey/Minnesota/E13/2015 -->
+		<primaryAccession>CY079458</primaryAccession> <!-- # A/American black duck/Illinois/08OS2688/2008 -->
+		<primaryAccession>JX570842</primaryAccession> <!-- # A/spot-billed duck/Xianghai/427/2011 -->
+		<primaryAccession>CY039309</primaryAccession> <!-- # A/unknown/New York/78436/2006 -->
+		<primaryAccession>MW334044</primaryAccession> <!-- # A/chicken/Yunlin/18050013-1/2018 -->
+		<primaryAccession>MH546497</primaryAccession> <!-- # A/guinea fowl/New Jersey/08-000841-001/2008 -->
+		<primaryAccession>MW334668</primaryAccession> <!-- # A/goose/Taoyuan/18120002-2/2018 -->
+		<primaryAccession>GU050126</primaryAccession> <!-- # A/Canada goose/Colorado/474037-5/2006 -->
+		<primaryAccession>GU049902</primaryAccession> <!-- # A/chicken/Pennsylvania/446080-7/2006 -->
+		<primaryAccession>OK205601</primaryAccession> <!-- # A/chicken/Guatemala/45511-3/2000 -->
+		<primaryAccession>MH546825</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-11/2016 -->
+		<primaryAccession>GQ923539</primaryAccession> <!-- # A/duck/New York/504372/2007 -->
+		<primaryAccession>KJ162618</primaryAccession> <!-- # A/chicken/Taiwan/1680/2013 -->
+		<primaryAccession>MG965566</primaryAccession> <!-- # A/turkey/Minnesota/15-014301-1/2015 -->
+		<primaryAccession>GU361323</primaryAccession> <!-- # A/aquatic bird/Korea/w202/2007 -->
+		<primaryAccession>MG965726</primaryAccession> <!-- # A/turkey/Minnesota/15-017647-1/2015 -->
+		<primaryAccession>MG965694</primaryAccession> <!-- # A/turkey/Minnesota/15-017219-1/2015 -->
+		<primaryAccession>MK592451</primaryAccession> <!-- # A/Whooper swans/Hokkaido/W80/2017 -->
+		<primaryAccession>KU201846</primaryAccession> <!-- # A/mallard/Washington/196865/2015 -->
+		<primaryAccession>MW333340</primaryAccession> <!-- # A/chicken/Kaohsiung/17040007/2017 -->
+		<primaryAccession>LC010702</primaryAccession> <!-- # A/duck/Quang Ninh/13c1-2-1/2013 -->
+		<primaryAccession>CY186598</primaryAccession> <!-- # A/American black duck/Ohio/12OS5557/2012 -->
+		<primaryAccession>MG964902</primaryAccession> <!-- # A/turkey/Iowa/15-014862-1/2015 -->
+		<primaryAccession>MG965134</primaryAccession> <!-- # A/turkey/Minnesota/15-011602-1/2015 -->
+		<primaryAccession>MW334724</primaryAccession> <!-- # A/goose/Yunlin/16020008-4/2016 -->
+		<primaryAccession>KU201734</primaryAccession> <!-- # A/American green-winged teal/Oregon/AH0012403/2015 -->
+		<primaryAccession>GQ923275</primaryAccession> <!-- # A/mallard/Ohio/468158/2006 -->
+		<primaryAccession>KR137700</primaryAccession> <!-- # A/chicken/PH/A2821/2013 -->
+		<primaryAccession>KM455895</primaryAccession> <!-- # A/chicken/Mexico/1433-5/2005 -->
+		<primaryAccession>KR234036</primaryAccession> <!-- # A/turkey/Minnesota/9845-4/2015 -->
+		<primaryAccession>GQ923219</primaryAccession> <!-- # A/mallard/Minnesota/464334/2006 -->
+		<primaryAccession>MG965334</primaryAccession> <!-- # A/turkey/Minnesota/15-012659-2/2015 -->
+		<primaryAccession>MG965758</primaryAccession> <!-- # A/turkey/Minnesota/15-018201-1/2015 -->
+		<primaryAccession>KY342200</primaryAccession> <!-- # A/turkey/Minnesota/M17/2015 -->
+		<primaryAccession>OK205873</primaryAccession> <!-- # A/chicken/Veracruz/233-7607/1998 -->
+		<primaryAccession>MH068461</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI17-2667/2017 -->
+		<primaryAccession>KU646950</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/17330cls42/2013 -->
+		<primaryAccession>MK592443</primaryAccession> <!-- # A/Whooper swans/Hokkaido/W78/2017 -->
+		<primaryAccession>JX444809</primaryAccession> <!-- # A/wild bird/Korea/AG63/2006 -->
+		<primaryAccession>EU636682</primaryAccession> <!-- # A/turkey/England/N28/73 -->
+		<primaryAccession>MH068301</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2484/2017 -->
+		<primaryAccession>MG965678</primaryAccession> <!-- # A/turkey/Minnesota/15-017217-1/2015 -->
+		<primaryAccession>CY194219</primaryAccession> <!-- # A/mallard/Southcentral Alaska/12ML01048_AAF1/2014 -->
+		<primaryAccession>MW334204</primaryAccession> <!-- # A/duck/Pingtung/18A00003-11-20T/2018 -->
+		<primaryAccession>MW106718</primaryAccession> <!-- # A/chicken/Shandong/01.26_TAWL017-O/2019 -->
+		<primaryAccession>GU361324</primaryAccession> <!-- # A/aquatic bird/Korea/w204/2007 -->
+		<primaryAccession>MG965750</primaryAccession> <!-- # A/turkey/Minnesota/15-017989-1/2015 -->
+		<primaryAccession>KU201942</primaryAccession> <!-- # A/Canada goose/Kansas/197850/2015 -->
+		<primaryAccession>MW873748</primaryAccession> <!-- # A/northern pintail/Alaska/AK18-446/2018 -->
+		<primaryAccession>MH546409</primaryAccession> <!-- # A/duck/New York/16-021467-1/2016 -->
+		<primaryAccession>KY342160</primaryAccession> <!-- # A/environment/Minnesota/M12/2015 -->
+		<primaryAccession>MG965790</primaryAccession> <!-- # A/turkey/South Dakota/15-011417-1/2015 -->
+		<primaryAccession>GU050211</primaryAccession> <!-- # A/mallard/NV/449567-4/2006 -->
+		<primaryAccession>MW874403</primaryAccession> <!-- # A/northern pintail/Alaska/AK19_200E_T1/2019 -->
+		<primaryAccession>MW333756</primaryAccession> <!-- # A/chicken/Yunlin/16010001-1/2016 -->
+		<primaryAccession>KX979872</primaryAccession> <!-- # A/greater white-fronted goose/Netherlands/4/2009 -->
+		<primaryAccession>KY342104</primaryAccession> <!-- # A/environment/Minnesota/M5/2015 -->
+		<primaryAccession>KC790059</primaryAccession> <!-- # A/goose/MB/428/2006 -->
+		<primaryAccession>MZ565298</primaryAccession> <!-- # A/chicken/Puebla/CPA-06927-19/2019 -->
+		<primaryAccession>GU361305</primaryAccession> <!-- # A/aquatic bird/Korea/w54/2005 -->
+		<primaryAccession>KT762930</primaryAccession> <!-- # A/turkey/South Dakota/15-010371/2015 -->
+		<primaryAccession>MZ565314</primaryAccession> <!-- # A/chicken/Queretaro/CPA-02177-17/2017 -->
+		<primaryAccession>GQ117175</primaryAccession> <!-- # A/duck/New York/466787/2006 -->
+		<primaryAccession>KY341928</primaryAccession> <!-- # A/environment/Minnesota/E1/2015 -->
+		<primaryAccession>CY178092</primaryAccession> <!-- # A/widgeon/Wisconsin/493/1983 -->
+		<primaryAccession>KY342136</primaryAccession> <!-- # A/environment/Minnesota/M9/2015 -->
+		<primaryAccession>CY094739</primaryAccession> <!-- # A/mallard/California/5191/2009 -->
+		<primaryAccession>GU053465</primaryAccession> <!-- # A/mallard/Maryland/252/2001 -->
+		<primaryAccession>KP792306</primaryAccession> <!-- # A/Taiwan/DV518/2006 -->
+		<primaryAccession>MW334340</primaryAccession> <!-- # A/duck/Yunlin/15070002-2/2015 -->
+		<primaryAccession>EU743033</primaryAccession> <!-- # A/chicken/NY/14009/1993 -->
+		<primaryAccession>MW109278</primaryAccession> <!-- # A/environment/Anhui/11.29_YHZGS003-E/2018 -->
+		<primaryAccession>MH068197</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2213/2017 -->
+		<primaryAccession>MG965830</primaryAccession> <!-- # A/turkey/Wisconsin/15-012886-1/2015 -->
+		<primaryAccession>MW334748</primaryAccession> <!-- # A/goose/Yunlin/16040002-2/2016 -->
+		<primaryAccession>MH546817</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-10/2016 -->
+		<primaryAccession>KX979821</primaryAccession> <!-- # A/mallard duck/Netherlands/32/2011 -->
+		<primaryAccession>MH685175</primaryAccession> <!-- # A/duck/China/YD1516/2016 -->
+		<primaryAccession>CY094595</primaryAccession> <!-- # A/mallard/California/5222/2009 -->
+		<primaryAccession>KJ162794</primaryAccession> <!-- # A/duck/Taiwan/11213/2013 -->
+		<primaryAccession>GQ923419</primaryAccession> <!-- # A/tundra swan/Alaska/442960/2006 -->
+		<primaryAccession>KF695301</primaryAccession> <!-- # A/mallard/Sweden/7/2002 -->
+		<primaryAccession>MG964342</primaryAccession> <!-- # A/Canada goose/Michigan/15-018340-2/2015 -->
+		<primaryAccession>MG964710</primaryAccession> <!-- # A/chicken/Nebraska/15-016865-1/2015 -->
+		<primaryAccession>MW333620</primaryAccession> <!-- # A/chicken/Taipei City/18050010-8/2018 -->
+		<primaryAccession>KR265590</primaryAccession> <!-- # A/duck/Japan/11UO0023/2011 -->
+		<primaryAccession>KP795735</primaryAccession> <!-- # A/chicken/BC/FAV9/2014 -->
+		<primaryAccession>KU201718</primaryAccession> <!-- # A/mallard/Idaho/AH0007413/2015 -->
+		<primaryAccession>MH546865</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-17/2016 -->
+		<primaryAccession>KU201646</primaryAccession> <!-- # A/wood duck/Oregon/AH0007257/2015 -->
+		<primaryAccession>MG965766</primaryAccession> <!-- # A/turkey/Missouri/15-007513-1/2015 -->
+		<primaryAccession>MW334356</primaryAccession> <!-- # A/duck/Yunlin/15A04883-1-10T/2015 -->
+		<primaryAccession>CY097192</primaryAccession> <!-- # A/American green-winged teal/Illinois/3053/2009 -->
+		<primaryAccession>JX507353</primaryAccession> <!-- # A/duck/Jiangsu/m234/2012 -->
+		<primaryAccession>KX979747</primaryAccession> <!-- # A/Eurasian wigeon/Netherlands/1/2010 -->
+		<primaryAccession>KF150632</primaryAccession> <!-- # A/chicken/Jiangsu/1001/2013 -->
+		<primaryAccession>KC785044</primaryAccession> <!-- # A/duck/Taiwan/DV1237/2009 -->
+		<primaryAccession>GQ923403</primaryAccession> <!-- # A/white front goose/Alaska/477003/2007 -->
+		<primaryAccession>MG964758</primaryAccession> <!-- # A/falcon/Missouri/15-009166-2/2015 -->
+		<primaryAccession>MW334788</primaryAccession> <!-- # A/goose/Yunlin/18040002-3/2018 -->
+		<primaryAccession>MH546513</primaryAccession> <!-- # A/guinea fowl/New York/08-000238-001/2008 -->
+		<primaryAccession>MW333884</primaryAccession> <!-- # A/chicken/Yunlin/17030065-2/2017 -->
+		<primaryAccession>GQ923523</primaryAccession> <!-- # A/waterfowl/Colorado/443593/2006 -->
+		<primaryAccession>GU052738</primaryAccession> <!-- # A/chicken/Jalisco/228-4471/1998 -->
+		<primaryAccession>KJ162594</primaryAccession> <!-- # A/chicken/Taiwan/689/2012 -->
+		<primaryAccession>MG965686</primaryAccession> <!-- # A/turkey/Minnesota/15-017218-1/2015 -->
+		<primaryAccession>OK205849</primaryAccession> <!-- # A/chicken/San Luis Potosi/7651/1996 -->
+		<primaryAccession>GQ117207</primaryAccession> <!-- # A/duck/New York/481172/2007 -->
+		<primaryAccession>MW334108</primaryAccession> <!-- # A/duck/Kaohsiung/15010213/2015 -->
+		<primaryAccession>MW334804</primaryAccession> <!-- # A/goose/Yunlin/18050003-2/2018 -->
+		<primaryAccession>KU201678</primaryAccession> <!-- # A/Northern shoveler/Oregon/AH0007339/2015 -->
+		<primaryAccession>MZ564698</primaryAccession> <!-- # A/chicken/Aguascalientes/CPA-08115-19/2019 -->
+		<primaryAccession>MG964854</primaryAccession> <!-- # A/turkey/Iowa/15-014119-1/2015 -->
+		<primaryAccession>MZ565050</primaryAccession> <!-- # A/chicken/Jalisco/CPA-06504-19/2019 -->
+		<primaryAccession>CY178629</primaryAccession> <!-- # A/mallard/Wisconsin/487/1983 -->
+		<primaryAccession>KR234028</primaryAccession> <!-- # A/chicken/Kansas/8395-3/2015 -->
+		<primaryAccession>MH546953</primaryAccession> <!-- # A/pheasant/New York/08-000170-002/2008 -->
+		<primaryAccession>KJ162778</primaryAccession> <!-- # A/duck/Taiwan/4379/2013 -->
+		<primaryAccession>MW333068</primaryAccession> <!-- # A/chicken/Changhua/15010362-2/2015 -->
+		<primaryAccession>MG964742</primaryAccession> <!-- # A/chicken/Wisconsin/15-013062-1/2015 -->
+		<primaryAccession>GQ117231</primaryAccession> <!-- # A/duck/New York/484057/2007 -->
+		<primaryAccession>GU361308</primaryAccession> <!-- # A/aquatic bird/Korea/w81/2005 -->
+		<primaryAccession>MG964646</primaryAccession> <!-- # A/chicken/Minnesota/15-012694-1/2015 -->
+		<primaryAccession>MG965774</primaryAccession> <!-- # A/turkey/South Dakota/15-011089-3/2015 -->
+		<primaryAccession>CY166651</primaryAccession> <!-- # A/American green-winged teal/Wisconsin/11OS3432/2011 -->
+		<primaryAccession>MG964798</primaryAccession> <!-- # A/peregrine falcon/Idaho/15-001362-3/2015 -->
+		<primaryAccession>CY036757</primaryAccession> <!-- # A/environment/New York/11653-1/2005 -->
+		<primaryAccession>MH546473</primaryAccession> <!-- # A/glaucous-winged gull/Alaska/16-041335-19/2016 -->
+		<primaryAccession>MG965030</primaryAccession> <!-- # A/turkey/Iowa/15-017655-1/2015 -->
+		<primaryAccession>MZ564674</primaryAccession> <!-- # A/chicken/Aguascalientes/CPA-04479-19/2019 -->
+		<primaryAccession>MZ565218</primaryAccession> <!-- # A/chicken/Jalisco/CPA-49950-16/2016 -->
+		<primaryAccession>MW333476</primaryAccession> <!-- # A/chicken/Pingtung/16020009-3/2016 -->
+		<primaryAccession>MH546249</primaryAccession> <!-- # A/Muscovy duck/New Jersey/07-002376-001/2007 -->
+		<primaryAccession>MW333460</primaryAccession> <!-- # A/chicken/Pingtung/15010402/2015 -->
+		<primaryAccession>MG964486</primaryAccession> <!-- # A/chicken/Iowa/15-014769-1/2015 -->
+		<primaryAccession>CY120633</primaryAccession> <!-- # A/American wigeon/California/3180/2010 -->
+		<primaryAccession>KY342176</primaryAccession> <!-- # A/turkey/Minnesota/M14/2015 -->
+		<primaryAccession>MW106750</primaryAccession> <!-- # A/chicken/Shandong/1.26_TAWL025-C/2019 -->
+		<primaryAccession>GQ923259</primaryAccession> <!-- # A/avian/Missouri/466554-6/2006 -->
+		<primaryAccession>MZ565450</primaryAccession> <!-- # A/chicken/Veracruz/CPA-04704-17/2017 -->
+		<primaryAccession>MG280494</primaryAccession> <!-- # A/green-winged teal/Mississippi/16OS5996/2016 -->
+		<primaryAccession>MG965270</primaryAccession> <!-- # A/turkey/Minnesota/15-012576-1/2015 -->
+		<primaryAccession>KY342040</primaryAccession> <!-- # A/environment/Minnesota/E15/2015 -->
+		<primaryAccession>MG964566</primaryAccession> <!-- # A/chicken/Iowa/15-016078-1/2015 -->
+		<primaryAccession>MG964862</primaryAccession> <!-- # A/turkey/Iowa/15-014120-1/2015 -->
+		<primaryAccession>MH546857</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-16/2016 -->
+		<primaryAccession>MG965206</primaryAccession> <!-- # A/turkey/Minnesota/15-011849-1/2015 -->
+		<primaryAccession>GQ117183</primaryAccession> <!-- # A/environment/New York/466788/2006 -->
+		<primaryAccession>MH501511</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI10-648/2010 -->
+		<primaryAccession>MZ565098</primaryAccession> <!-- # A/chicken/Jalisco/CPA-07195-19/2019 -->
+		<primaryAccession>CY144513</primaryAccession> <!-- # A/ruddy turnstone/Delaware/AI03-371/2003 -->
+		<primaryAccession>KR265574</primaryAccession> <!-- # A/duck/Japan/11UO0008/2011 -->
+		<primaryAccession>GQ923435</primaryAccession> <!-- # A/duck/Pennsylvania/446080-7/2006 -->
+		<primaryAccession>MG965526</primaryAccession> <!-- # A/turkey/Minnesota/15-014098-1/2015 -->
+		<primaryAccession>OK205809</primaryAccession> <!-- # A/chicken/Puebla/8624-602/1994 -->
+		<primaryAccession>CY017409</primaryAccession> <!-- # A/poultry/Italy/330/1997 -->
+		<primaryAccession>MG965614</primaryAccession> <!-- # A/turkey/Minnesota/15-014972-1/2015 -->
+		<primaryAccession>KX602679</primaryAccession> <!-- # A/duck/Zhejiang/1026109/2015 -->
+		<primaryAccession>MW333148</primaryAccession> <!-- # A/chicken/Changhua/15060037-1/2015 -->
+		<primaryAccession>MZ564970</primaryAccession> <!-- # A/chicken/Jalisco/CPA-03604-19/2020 -->
+		<primaryAccession>MZ564826</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-08990-19/2019 -->
+		<primaryAccession>MG965590</primaryAccession> <!-- # A/turkey/Minnesota/15-014381-1/2015 -->
+		<primaryAccession>CY077691</primaryAccession> <!-- # A/duck/Victoria/26/1981 -->
+		<primaryAccession>MG964542</primaryAccession> <!-- # A/chicken/Iowa/15-015544-2/2015 -->
+		<primaryAccession>MW334372</primaryAccession> <!-- # A/duck/Yunlin/17110001/2017 -->
+		<primaryAccession>MW334884</primaryAccession> <!-- # A/turkey/Yunlin/15030069-1/2015 -->
+		<primaryAccession>MH546153</primaryAccession> <!-- # A/American green-winged teal/Alaska/16-039026-3/2016 -->
+		<primaryAccession>JX570866</primaryAccession> <!-- # A/green-winged teal/Xianghai/430/2011 -->
+		<primaryAccession>MG964638</primaryAccession> <!-- # A/chicken/Iowa/15-019293-1/2015 -->
+		<primaryAccession>KT762898</primaryAccession> <!-- # A/chicken/Nebraska/15-017897-1/2015 -->
+		<primaryAccession>MG965222</primaryAccession> <!-- # A/turkey/Minnesota/15-012289-2/2015 -->
+		<primaryAccession>MG965046</primaryAccession> <!-- # A/turkey/Minnesota/15-010375-2/2015 -->
+		<primaryAccession>CY206266</primaryAccession> <!-- # A/mallard/Minnesota/AI12-4031/2012 -->
+		<primaryAccession>MW334892</primaryAccession> <!-- # A/turkey/Yunlin/15060049-1/2015 -->
+		<primaryAccession>KT762938</primaryAccession> <!-- # A/chicken/Nebraska/15-017990-5/2015 -->
+		<primaryAccession>CY133915</primaryAccession> <!-- # A/northern shoveler/California/2815/2011 -->
+		<primaryAccession>KT002503</primaryAccession> <!-- # A/turkey/Iowa/14319-1/2015 -->
+		<primaryAccession>GQ923331</primaryAccession> <!-- # A/Canada goose/Wyoming/473197-12/2006 -->
+		<primaryAccession>GU361343</primaryAccession> <!-- # A/aquatic bird/Korea/w351/2008 -->
+		<primaryAccession>CY178132</primaryAccession> <!-- # A/mallard/Wisconsin/1623/1983 -->
+		<primaryAccession>MW333892</primaryAccession> <!-- # A/chicken/Yunlin/17040003-1/2017 -->
+		<primaryAccession>KU201654</primaryAccession> <!-- # A/wood duck/Oregon/AH0007263/2015 -->
+		<primaryAccession>MZ565130</primaryAccession> <!-- # A/chicken/Jalisco/CPA-07737-19/2019 -->
+		<primaryAccession>MH546449</primaryAccession> <!-- # A/emperor goose/Alaska/17-004479-1/2016 -->
+		<primaryAccession>MG965670</primaryAccession> <!-- # A/turkey/Minnesota/15-017046-1/2015 -->
+		<primaryAccession>GU050088</primaryAccession> <!-- # A/Northern shoveler/Mississippi/469987-3/2006 -->
+		<primaryAccession>KX979795</primaryAccession> <!-- # A/mallard duck/Netherlands/28/2010 -->
+		<primaryAccession>CY203651</primaryAccession> <!-- # A/mallard/Maryland/06OS471/2006 -->
+		<primaryAccession>JX080860</primaryAccession> <!-- # A/tundra swan/Alaska/44050-005/2006 -->
+		<primaryAccession>MZ565210</primaryAccession> <!-- # A/chicken/Jalisco/CPA-49745-16/2016 -->
+		<primaryAccession>CY204103</primaryAccession> <!-- # A/mallard/Ohio/14OS0460/2014 -->
+		<primaryAccession>MW333604</primaryAccession> <!-- # A/chicken/Taipei City/18010008-3/2018 -->
+		<primaryAccession>GU086268</primaryAccession> <!-- # A/duck/Korea/A93/2008 -->
+		<primaryAccession>MZ565194</primaryAccession> <!-- # A/chicken/Jalisco/CPA-22166-17/2017 -->
+		<primaryAccession>MH068405</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI17-1991/2017 -->
+		<primaryAccession>CY203387</primaryAccession> <!-- # A/mallard/Maryland/11OS1718/2011 -->
+		<primaryAccession>MZ564658</primaryAccession> <!-- # A/chicken/Aguascalientes/CPA-03203-19/2019 -->
+		<primaryAccession>GQ923291</primaryAccession> <!-- # A/green winged teal/Ohio/468160/2006 -->
+		<primaryAccession>MG965406</primaryAccession> <!-- # A/turkey/Minnesota/15-013052-1/2015 -->
+		<primaryAccession>MW334836</primaryAccession> <!-- # A/heron/Yilan/17DB0001/2017 -->
+		<primaryAccession>MG964438</primaryAccession> <!-- # A/chicken/Iowa/15-014283-1/2015 -->
+		<primaryAccession>MZ564938</primaryAccession> <!-- # A/chicken/Jalisco/CPA-03072-17/2017 -->
+		<primaryAccession>OK205689</primaryAccession> <!-- # A/chicken/Mexico/1863/2019 -->
+		<primaryAccession>MG965262</primaryAccession> <!-- # A/turkey/Minnesota/15-012575-1/2015 -->
+		<primaryAccession>MZ565250</primaryAccession> <!-- # A/chicken/Michoacan/CPA-49737-16/2016 -->
+		<primaryAccession>MZ565234</primaryAccession> <!-- # A/chicken/Michoacan/CPA-48911-16/2016 -->
+		<primaryAccession>FJ461604</primaryAccession> <!-- # A/swine/Korea/C12/2008 -->
+		<primaryAccession>KY342152</primaryAccession> <!-- # A/environment/Minnesota/M11/2015 -->
+		<primaryAccession>MZ565330</primaryAccession> <!-- # A/chicken/Queretaro/CPA-02179-17/2017 -->
+		<primaryAccession>GQ923323</primaryAccession> <!-- # A/Canada goose/Wyoming/473197-10/2006 -->
+		<primaryAccession>MG964686</primaryAccession> <!-- # A/chicken/Missouri/15-014275-1/2015 -->
+		<primaryAccession>LC371792</primaryAccession> <!-- # A/duck/Hokkaido/166/2014 -->
+		<primaryAccession>MG965718</primaryAccession> <!-- # A/turkey/Minnesota/15-017540-1/2015 -->
+		<primaryAccession>CY180538</primaryAccession> <!-- # A/duck/Minnesota/63/1976 -->
+		<primaryAccession>MW334548</primaryAccession> <!-- # A/goose/Chiayi/18020014-2/2018 -->
+		<primaryAccession>CY203491</primaryAccession> <!-- # A/mallard/Maryland/11OS1743/2011 -->
+		<primaryAccession>OK205553</primaryAccession> <!-- # A/chicken/Guatemala/194573/2002 -->
+		<primaryAccession>CY020235</primaryAccession> <!-- # A/poultry/Italy/373/1997 -->
+		<primaryAccession>MG964814</primaryAccession> <!-- # A/ring-necked duck/Kentucky/15-012967-1/2015 -->
+		<primaryAccession>MW334380</primaryAccession> <!-- # A/duck/Yunlin/17A0086/2017 -->
+		<primaryAccession>GU361318</primaryAccession> <!-- # A/aquatic bird/Korea/w164/2007 -->
+		<primaryAccession>MG964494</primaryAccession> <!-- # A/chicken/Iowa/15-014774-1/2015 -->
+		<primaryAccession>GU050165</primaryAccession> <!-- # A/yellow-headed Amazon/California/500658/2007 -->
+		<primaryAccession>CY018955</primaryAccession> <!-- # A/poultry/Italy/382/1997 -->
+		<primaryAccession>GQ923299</primaryAccession> <!-- # A/northern pintail/Utah/469648/2006 -->
+		<primaryAccession>LC536719</primaryAccession> <!-- # A/chicken/Japan/AQ-HE30-35C1/2018 -->
+		<primaryAccession>KY342144</primaryAccession> <!-- # A/environment/Minnesota/M10/2015 -->
+		<primaryAccession>CY178124</primaryAccession> <!-- # A/mallard/Wisconsin/1622/1983 -->
+		<primaryAccession>CY203371</primaryAccession> <!-- # A/mallard/Maryland/11OS1715/2011 -->
+		<primaryAccession>KT002495</primaryAccession> <!-- # A/turkey/Iowa/14318-1/2015 -->
+		<primaryAccession>KT762914</primaryAccession> <!-- # A/turkey/North Dakota/15-013049-1/2015 -->
+		<primaryAccession>MW334228</primaryAccession> <!-- # A/duck/Taichung/15010400-1/2015 -->
+		<primaryAccession>MW873508</primaryAccession> <!-- # A/emperor goose/Alaska/AK18-112/2018 -->
+		<primaryAccession>MK592467</primaryAccession> <!-- # A/duck/Hokkaido/101/2010 -->
+		<primaryAccession>GU052562</primaryAccession> <!-- # A/mallard/Netherlands/3/1999 -->
+		<primaryAccession>CY094731</primaryAccession> <!-- # A/mallard/California/5491/2009 -->
+		<primaryAccession>KU201606</primaryAccession> <!-- # A/snow goose/Missouri/15-011246-1/2015 -->
+		<primaryAccession>MW333724</primaryAccession> <!-- # A/chicken/Yunlin/15050037-2/2015 -->
+		<primaryAccession>KY342032</primaryAccession> <!-- # A/turkey/Minnesota/E14/2015 -->
+		<primaryAccession>KY342120</primaryAccession> <!-- # A/environment/Minnesota/M7/2015 -->
+		<primaryAccession>KU143520</primaryAccession> <!-- # A/chicken/Wenzhou/HAYXLG01/2015 -->
+		<primaryAccession>KR234004</primaryAccession> <!-- # A/turkey/Minnesota/7172-1/2015 -->
+		<primaryAccession>KJ729341</primaryAccession> <!-- # A/chicken/Mexico/07/2007 -->
+		<primaryAccession>MH546897</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-7/2016 -->
+		<primaryAccession>GU361337</primaryAccession> <!-- # A/aquatic bird/Korea/w234/2007 -->
+		<primaryAccession>JQ990148</primaryAccession> <!-- # A/parrot/Guangdong/258/2004 -->
+		<primaryAccession>MH546217</primaryAccession> <!-- # A/American wigeon/California/15-039075-7/2015 -->
+		<primaryAccession>KX014900</primaryAccession> <!-- # A/chicken/France/160013g/2016 -->
+		<primaryAccession>KM455903</primaryAccession> <!-- # A/chicken/Hidalgo/1433-6/2005 -->
+		<primaryAccession>MZ565354</primaryAccession> <!-- # A/chicken/Queretaro/CPA-03807-19/2019 -->
+		<primaryAccession>JX565017</primaryAccession> <!-- # A/chicken/Tibet/LZ01/2010 -->
+		<primaryAccession>KY341952</primaryAccession> <!-- # A/turkey/Minnesota/E4/2015 -->
+		<primaryAccession>MH547025</primaryAccession> <!-- # A/turkey/Wisconsin/17-007981-6/2017 -->
+		<primaryAccession>MG964766</primaryAccession> <!-- # A/goose/Washington/15-001678-1/2015 -->
+		<primaryAccession>OK205617</primaryAccession> <!-- # A/chicken/Guatemala/45511-5/2000 -->
+		<primaryAccession>MK326646</primaryAccession> <!-- # A/blue-winged teal/Guatemala/CIP049-H116-96/2013 -->
+		<primaryAccession>MG965470</primaryAccession> <!-- # A/turkey/Minnesota/15-013401-1/2015 -->
+		<primaryAccession>GQ923363</primaryAccession> <!-- # A/Canada goose/New York/475813-2/2007 -->
+		<primaryAccession>MW333940</primaryAccession> <!-- # A/chicken/Yunlin/17060019/2017 -->
+		<primaryAccession>CY028241</primaryAccession> <!-- # A/mallard/Maryland/182/2006 -->
+		<primaryAccession>MF359845</primaryAccession> <!-- # A/shorebird/Delaware Bay/318/2011 -->
+		<primaryAccession>MH546641</primaryAccession> <!-- # A/mallard/Minnesota/15-041504-5/2015 -->
+		<primaryAccession>MH546785</primaryAccession> <!-- # A/mallard/Washington/16-027073-46/2016 -->
+		<primaryAccession>MZ565042</primaryAccession> <!-- # A/chicken/Jalisco/CPA-06432-19/2019 -->
+		<primaryAccession>MZ565106</primaryAccession> <!-- # A/chicken/Jalisco/CPA-07541-19/2019 -->
+		<primaryAccession>CY149354</primaryAccession> <!-- # A/great black-backed gull/Iceland/1110/2011 -->
+		<primaryAccession>MZ565402</primaryAccession> <!-- # A/chicken/Queretaro/CPA-09543-19/2019 -->
+		<primaryAccession>CY180386</primaryAccession> <!-- # A/blue-winged teal/Wisconsin/231/1976 -->
+		<primaryAccession>JX570858</primaryAccession> <!-- # A/little grebe/Xianghai/429/2011 -->
+		<primaryAccession>MZ565122</primaryAccession> <!-- # A/chicken/Jalisco/CPA-07736-19/2019 -->
+		<primaryAccession>FJ610106</primaryAccession> <!-- # A/chicken/Mexico/31381-2/1994 -->
+		<primaryAccession>KJ162610</primaryAccession> <!-- # A/chicken/Taiwan/2593/2012 -->
+		<primaryAccession>OK205497</primaryAccession> <!-- # A/chicken/Chiapas/15224/1997 -->
+		<primaryAccession>CY021387</primaryAccession> <!-- # A/turkey/Italy/1980 -->
+		<primaryAccession>MW109310</primaryAccession> <!-- # A/environment/Anhui/2.22_YHZGS004-E/2019 -->
+		<primaryAccession>OL461746</primaryAccession> <!-- # A/mallard/Oregon/AH0192864/2021 -->
+		<primaryAccession>OK205649</primaryAccession> <!-- # A/chicken/Jalisco/28159-600/1995 -->
+		<primaryAccession>MH546649</primaryAccession> <!-- # A/mallard/Minnesota/16-039026-1/2016 -->
+		<primaryAccession>MG965182</primaryAccession> <!-- # A/turkey/Minnesota/15-011669-1/2015 -->
+		<primaryAccession>MW873740</primaryAccession> <!-- # A/northern pintail/Alaska/AK18-444/2018 -->
+		<primaryAccession>KC785006</primaryAccession> <!-- # A/duck/Taiwan/DV1241/2009 -->
+		<primaryAccession>MF146602</primaryAccession> <!-- # A/white-fronted goose/Netherlands/3/2010 -->
+		<primaryAccession>FJ520034</primaryAccession> <!-- # A/northern pintail/California/44249-053/2006 -->
+		<primaryAccession>GU186571</primaryAccession> <!-- # A/chicken/Mexico/31381-3/1994 -->
+		<primaryAccession>KU201830</primaryAccession> <!-- # A/mallard/Washington/196262/2015 -->
+		<primaryAccession>MZ565242</primaryAccession> <!-- # A/chicken/Michoacan/CPA-48912-16/2016 -->
+		<primaryAccession>OK205801</primaryAccession> <!-- # A/chicken/Puebla/8623-607/1994 -->
+		<primaryAccession>GQ923459</primaryAccession> <!-- # A/mallard/Nevada/450206-4/2006 -->
+		<primaryAccession>MZ565082</primaryAccession> <!-- # A/chicken/Jalisco/CPA-07139-19/2019 -->
+		<primaryAccession>GU050036</primaryAccession> <!-- # A/mallard/Wisconsin/464979/2006 -->
+		<primaryAccession>MW333212</primaryAccession> <!-- # A/chicken/Chiayi/15010287-2/2015 -->
+		<primaryAccession>MH546721</primaryAccession> <!-- # A/mallard/Oregon/17-000383-4/2016 -->
+		<primaryAccession>MZ565226</primaryAccession> <!-- # A/chicken/Mexico/CPA-19234-17/2017 -->
+		<primaryAccession>KU201782</primaryAccession> <!-- # A/mallard/Oregon/AH0003821/2014 -->
+		<primaryAccession>FJ357075</primaryAccession> <!-- # A/mallard/MN/1/2000 -->
+		<primaryAccession>MK592515</primaryAccession> <!-- # A/duck/Hokkaido/W105/2017 -->
+		<primaryAccession>CY203379</primaryAccession> <!-- # A/mallard/Maryland/11OS1717/2011 -->
+		<primaryAccession>KX160177</primaryAccession> <!-- # A/chicken/Heilongjiang/S7/2014 -->
+		<primaryAccession>MH546561</primaryAccession> <!-- # A/mallard/California/16-033701-7/2016 -->
+		<primaryAccession>MG965446</primaryAccession> <!-- # A/turkey/Minnesota/15-013395-1/2015 -->
+		<primaryAccession>MH546289</primaryAccession> <!-- # A/Muscovy duck/New York/08-000560-002/2008 -->
+		<primaryAccession>GU052793</primaryAccession> <!-- # A/chicken/Pennsylvania/21525/1983 -->
+		<primaryAccession>MG965582</primaryAccession> <!-- # A/turkey/Minnesota/15-014311-1/2015 -->
+		<primaryAccession>MG965286</primaryAccession> <!-- # A/turkey/Minnesota/15-012578-4/2015 -->
+		<primaryAccession>GU052688</primaryAccession> <!-- # A/chicken/Hidalgo/28159-232/1995 -->
+		<primaryAccession>CY094659</primaryAccession> <!-- # A/mallard/California/5149/2009 -->
+		<primaryAccession>MG965118</primaryAccession> <!-- # A/turkey/Minnesota/15-011593-1/2015 -->
+		<primaryAccession>KY342064</primaryAccession> <!-- # A/turkey/Minnesota/E18/2015 -->
+		<primaryAccession>FJ610086</primaryAccession> <!-- # A/chicken/Chiapas/28159-488/1995 -->
+		<primaryAccession>MG965166</primaryAccession> <!-- # A/turkey/Minnesota/15-011666-1/2015 -->
+		<primaryAccession>MG964606</primaryAccession> <!-- # A/chicken/Iowa/15-016888-1/2015 -->
+		<primaryAccession>MG965302</primaryAccession> <!-- # A/turkey/Minnesota/15-012583-1/2015 -->
+		<primaryAccession>MH546145</primaryAccession> <!-- # A/duck/Florida/16-004497-1/2016 -->
+		<primaryAccession>GU361329</primaryAccession> <!-- # A/aquatic bird/Korea/w216/2007 -->
+		<primaryAccession>MH546337</primaryAccession> <!-- # A/chicken/New Jersey/08-000640-006/2008 -->
+		<primaryAccession>MG965502</primaryAccession> <!-- # A/turkey/Minnesota/15-013896-1/2015 -->
+		<primaryAccession>MG964366</primaryAccession> <!-- # A/chicken/Idaho/15-001711-7/2015 -->
+		<primaryAccession>KR265550</primaryAccession> <!-- # A/duck/Japan/11OG1038/2011 -->
+		<primaryAccession>CY178116</primaryAccession> <!-- # A/mallard/Wisconsin/1616/1983 -->
+		<primaryAccession>GU052578</primaryAccession> <!-- # A/mallard/Sweden/21/2002 -->
+		<primaryAccession>MW873548</primaryAccession> <!-- # A/emperor goose/Alaska/AK19-293/2019 -->
+		<primaryAccession>GU050142</primaryAccession> <!-- # A/tundra swan/Alaska//480410/2007 -->
+		<primaryAccession>GU050134</primaryAccession> <!-- # A/Canada goose/Wisconsin/474847-4/2006 -->
+		<primaryAccession>MZ565394</primaryAccession> <!-- # A/chicken/Queretaro/CPA-09515-19/2019 -->
+		<primaryAccession>GU361320</primaryAccession> <!-- # A/aquatic bird/Korea/w193/2007 -->
+		<primaryAccession>MG964822</primaryAccession> <!-- # A/snow goose/Kentucky/15-012967-2/2015 -->
+		<primaryAccession>MW334284</primaryAccession> <!-- # A/duck/Yunlin/15010244-1/2015 -->
+		<primaryAccession>CY097182</primaryAccession> <!-- # A/mallard/Illinois/3974/2009 -->
+		<primaryAccession>MG965318</primaryAccession> <!-- # A/turkey/Minnesota/15-012585-1/2015 -->
+		<primaryAccession>MW334396</primaryAccession> <!-- # A/duck/Yunlin/18010004-2/2018 -->
+		<primaryAccession>MG965838</primaryAccession> <!-- # A/turkey/Wisconsin/15-013180-1/2015 -->
+		<primaryAccession>CY096968</primaryAccession> <!-- # A/American green-winged teal/Illinois/3443/2009 -->
+		<primaryAccession>MW333956</primaryAccession> <!-- # A/chicken/Yunlin/18010001-2/2018 -->
+		<primaryAccession>MW333196</primaryAccession> <!-- # A/chicken/Changhua/18010011-1/2018 -->
+		<primaryAccession>GU049878</primaryAccession> <!-- # A/chicken/New York/439236/2006 -->
+		<primaryAccession>MG964702</primaryAccession> <!-- # A/chicken/Nebraska/15-015543-1/2015 -->
+		<primaryAccession>OK205561</primaryAccession> <!-- # A/chicken/Guatemala/22066/1998 -->
+		<primaryAccession>MG964590</primaryAccession> <!-- # A/chicken/Iowa/15-016160-1/2015 -->
+		<primaryAccession>MW333932</primaryAccession> <!-- # A/chicken/Yunlin/17040012-1/2017 -->
+		<primaryAccession>KR265582</primaryAccession> <!-- # A/duck/Japan/11UO0012/2011 -->
+		<primaryAccession>MH068621</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI17-2914/2017 -->
+		<primaryAccession>CY207187</primaryAccession> <!-- # A/white-faced whistling duck/Colombia/1/2011 -->
+		<primaryAccession>MH546873</primaryAccession> <!-- # A/northern pintail/Alaska/16-041335-18/2016 -->
+		<primaryAccession>CY178653</primaryAccession> <!-- # A/mallard/Saskatchewan/17/1981 -->
+		<primaryAccession>MW334132</primaryAccession> <!-- # A/duck/Pingtung/15010145/2015 -->
+		<primaryAccession>MW334876</primaryAccession> <!-- # A/turkey/Chiayi/18010013-3/2018 -->
+		<primaryAccession>MW873516</primaryAccession> <!-- # A/emperor goose/Alaska/AK18-402/2018 -->
+		<primaryAccession>EU743104</primaryAccession> <!-- # A/chicken/FL/25717/1993 -->
+		<primaryAccession>KU646875</primaryAccession> <!-- # A/goose/Taiwan/01023/2015 -->
+		<primaryAccession>CY203539</primaryAccession> <!-- # A/mallard/Maryland/11OS1750/2011 -->
+		<primaryAccession>MW333060</primaryAccession> <!-- # A/chicken/Changhua/15010361-1/2015 -->
+		<primaryAccession>GU361310</primaryAccession> <!-- # A/aquatic bird/Korea/w113/2006 -->
+		<primaryAccession>GQ923547</primaryAccession> <!-- # A/duck/Ohio/470655/2007 -->
+		<primaryAccession>GQ923187</primaryAccession> <!-- # A/green winged teal/Iowa/463990-3/2006 -->
+		<primaryAccession>MG965742</primaryAccession> <!-- # A/turkey/Minnesota/15-017814-1/2015 -->
+		<primaryAccession>MG965854</primaryAccession> <!-- # A/turkey/Wisconsin/15-014296-1/2015 -->
+		<primaryAccession>MW095768</primaryAccession> <!-- # A/chicken/Xinjiang/10.13_WLMQXL014-O/2018 -->
+		<primaryAccession>KU201622</primaryAccession> <!-- # A/mallard/Oregon/AH0003952/2015 -->
+		<primaryAccession>KY130857</primaryAccession> <!-- # A/northern pintail/Alaska/622/2012 -->
+		<primaryAccession>MG965846</primaryAccession> <!-- # A/turkey/Wisconsin/15-013771-1/2015 -->
+		<primaryAccession>MW333916</primaryAccession> <!-- # A/chicken/Yunlin/17040010-1/2017 -->
+		<primaryAccession>CY178108</primaryAccession> <!-- # A/mallard/Wisconsin/598/1983 -->
+		<primaryAccession>KR265537</primaryAccession> <!-- # A/duck/Japan/9UO139/2009 -->
+		<primaryAccession>KX523692</primaryAccession> <!-- # A/duck/Hubei/SZY250/2016 -->
+		<primaryAccession>KJ162650</primaryAccession> <!-- # A/chicken/Taiwan/1711/2013 -->
+		<primaryAccession>KC785014</primaryAccession> <!-- # A/duck/Taiwan/DV1238/2009 -->
+		<primaryAccession>MH546281</primaryAccession> <!-- # A/Muscovy duck/New Jersey/16-021457-2/2016 -->
+		<primaryAccession>MG964894</primaryAccession> <!-- # A/turkey/Iowa/15-014789-1/2015 -->
+		<primaryAccession>MZ564898</primaryAccession> <!-- # A/chicken/Hidalgo/CPA-41295-17/2017 -->
+		<primaryAccession>GU361307</primaryAccession> <!-- # A/aquatic bird/Korea/w79/2005 -->
+		<primaryAccession>MG965062</primaryAccession> <!-- # A/turkey/Minnesota/15-010777-1/2015 -->
+		<primaryAccession>MH546793</primaryAccession> <!-- # A/mallard/Washington/16-027073-48/2016 -->
+		<primaryAccession>KX014876</primaryAccession> <!-- # A/duck/France/150233/2015 -->
+		<primaryAccession>MZ564834</primaryAccession> <!-- # A/chicken/Guanajuato/CPA-08992-19/2019 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

@@ -1,0 +1,32 @@
+	# This GLUE script downloads 5 complete genome isolates of IAV subtype 'H9N3' from NCBI  GenBank
+
+ 	# Delete previous modules if they exist
+	delete module ncbiImporterH9N3Segment1 
+	delete module ncbiImporterH9N3Segment2 
+	delete module ncbiImporterH9N3Segment3 
+	delete module ncbiImporterH9N3Segment4 
+	delete module ncbiImporterH9N3Segment5 
+	delete module ncbiImporterH9N3Segment6 
+	delete module ncbiImporterH9N3Segment7 
+	delete module ncbiImporterH9N3Segment8
+
+ 	# Create the download modules
+	create module modules/build/extension/iav/downloads/ncbiImporterH9N3Segment1.xml 
+	create module modules/build/extension/iav/downloads/ncbiImporterH9N3Segment2.xml 
+	create module modules/build/extension/iav/downloads/ncbiImporterH9N3Segment3.xml 
+	create module modules/build/extension/iav/downloads/ncbiImporterH9N3Segment4.xml 
+	create module modules/build/extension/iav/downloads/ncbiImporterH9N3Segment5.xml 
+	create module modules/build/extension/iav/downloads/ncbiImporterH9N3Segment6.xml 
+	create module modules/build/extension/iav/downloads/ncbiImporterH9N3Segment7.xml 
+	create module modules/build/extension/iav/downloads/ncbiImporterH9N3Segment8.xml
+
+	# Import segment sequences - each is downloaded to a separate source
+	module ncbiImporterH9N3Segment1 import 
+	module ncbiImporterH9N3Segment2 import 
+	module ncbiImporterH9N3Segment3 import 
+	module ncbiImporterH9N3Segment4 import 
+	module ncbiImporterH9N3Segment5 import 
+	module ncbiImporterH9N3Segment6 import 
+	module ncbiImporterH9N3Segment7 import 
+	module ncbiImporterH9N3Segment8 import
+

@@ -1,0 +1,520 @@
+<!-- NCBI import module for IAV subtype 'H5N6' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-3</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>LC309004</primaryAccession> <!-- # A/mandarin duck/Tochigi/0902C033/2017 -->
+		<primaryAccession>KX094413</primaryAccession> <!-- # A/duck/Guangzhou/021/2014 -->
+		<primaryAccession>LC279763</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM809/2015 -->
+		<primaryAccession>MF399651</primaryAccession> <!-- # A/Ruddy Shelduck/Ningxia/486-33/2015 -->
+		<primaryAccession>MF399595</primaryAccession> <!-- # A/Ferruginous Pochard/Ningxia/480-17/2015 -->
+		<primaryAccession>LC318911</primaryAccession> <!-- # A/tundra swan/Niigata/8/2016 -->
+		<primaryAccession>MH715338</primaryAccession> <!-- # A/chicken/Sichuan/k141/2017 -->
+		<primaryAccession>LC279815</primaryAccession> <!-- # A/duck/Vietnam/LBM837/2015 -->
+		<primaryAccession>MW110223</primaryAccession> <!-- # A/goose/Xinjiang/8.23_WLMQXL001-O/2017 -->
+		<primaryAccession>LC208496</primaryAccession> <!-- # A/chicken/Japan/AQ-HE144/2015 -->
+		<primaryAccession>MW108487</primaryAccession> <!-- # A/duck/Jiangxi/01.11_NCNP101G2-OC/2017 -->
+		<primaryAccession>MT106969</primaryAccession> <!-- # A/duck/Viet Nam/HU12-972/2019 -->
+		<primaryAccession>MW110255</primaryAccession> <!-- # A/goose/Xinjiang/8.23_WLMQXL003-O/2017 -->
+		<primaryAccession>LC276786</primaryAccession> <!-- # A/environment/Aomori/2-1/2016 -->
+		<primaryAccession>LC379592</primaryAccession> <!-- # A/jungle crow/Hyogo/2803E011/2018 -->
+		<primaryAccession>MW749113</primaryAccession> <!-- # A/duck/Bangladesh/44417/2020 -->
+		<primaryAccession>MW107495</primaryAccession> <!-- # A/duck/Fujian/12.7_FZHX1221-C/2016 -->
+		<primaryAccession>MW108351</primaryAccession> <!-- # A/duck/Hunan/2.06_YYGK77J3-OC/2018 -->
+		<primaryAccession>LC427482</primaryAccession> <!-- # A/duck/Vietnam/HU4-879/2015 -->
+		<primaryAccession>LC348809</primaryAccession> <!-- # A/duck/Tottori/E9/2016 -->
+		<primaryAccession>LC342538</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM005/2017 -->
+		<primaryAccession>LC318831</primaryAccession> <!-- # A/tundra swan/Iwate/9/2016 -->
+		<primaryAccession>LC342586</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM011/2017 -->
+		<primaryAccession>LC276770</primaryAccession> <!-- # A/environment/Aomori/R1/2016 -->
+		<primaryAccession>KY171685</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-15A17/2015 -->
+		<primaryAccession>MT781501</primaryAccession> <!-- # A/eider/Denmark/9885-1/2018 -->
+		<primaryAccession>MW110239</primaryAccession> <!-- # A/goose/Xinjiang/8.23_WLMQXL002-O/2017 -->
+		<primaryAccession>MW108047</primaryAccession> <!-- # A/duck/Hunan/1.17_YYGKK80-OC/2017 -->
+		<primaryAccession>MW466392</primaryAccession> <!-- # A/duck/Bangladesh/43119/2020 -->
+		<primaryAccession>LC656324</primaryAccession> <!-- # A/Muscovy duck/Quang Ninh/353/2017 -->
+		<primaryAccession>LC318463</primaryAccession> <!-- # A/whooper swan/Hokkaido/X13/2017 -->
+		<primaryAccession>MW109263</primaryAccession> <!-- # A/environment/Anhui/11.29_YHZGS001-E/2018 -->
+		<primaryAccession>MW873014</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN6608/2020 -->
+		<primaryAccession>MW108335</primaryAccession> <!-- # A/duck/Hunan/12.27_YYGK97J2-O/2016 -->
+		<primaryAccession>KT762453</primaryAccession> <!-- # A/feline/Guangdong/2/2015 -->
+		<primaryAccession>MW107359</primaryAccession> <!-- # A/duck/Fujian/10.26_FZHX0002-O/2017 -->
+		<primaryAccession>MF399611</primaryAccession> <!-- # A/Great Crested Grebe/Ningxia/482-26/2015 -->
+		<primaryAccession>MW096267</primaryAccession> <!-- # A/duck/Hunan/03.07_YYGK25L3-OC/2018 -->
+		<primaryAccession>MF399635</primaryAccession> <!-- # A/Falcated Duck/Ningxia/484-29/2015 -->
+		<primaryAccession>MW108879</primaryAccession> <!-- # A/duck/Jiangxi/5.28_NCNP15N3-OC/2018 -->
+		<primaryAccession>KY415821</primaryAccession> <!-- # A/chicken/Ganzhou/GZ21/2015 -->
+		<primaryAccession>LC279839</primaryAccession> <!-- # A/chicken/Nha Trang/127/2015 -->
+		<primaryAccession>MW749174</primaryAccession> <!-- # A/duck/Bangladesh/44471/2020 -->
+		<primaryAccession>LC318871</primaryAccession> <!-- # A/white-fronted goose/Miyagi/2/2016 -->
+		<primaryAccession>KT370097</primaryAccession> <!-- # A/environment/Guangdong/HY243/2015 -->
+		<primaryAccession>MW935435</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5137/2018 -->
+		<primaryAccession>KY415798</primaryAccession> <!-- # A/duck/Hubei/ZYSYG5/2015 -->
+		<primaryAccession>MW108447</primaryAccession> <!-- # A/duck/Hunan/5.29_YYGK90P3-OC/2018 -->
+		<primaryAccession>MW108383</primaryAccession> <!-- # A/duck/Hunan/2.06_YYGK92J3-OC/2018 -->
+		<primaryAccession>LC417178</primaryAccession> <!-- # A/wigeon/Aichi/2312T012/2016 -->
+		<primaryAccession>MW872781</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN6610/2020 -->
+		<primaryAccession>KM873645</primaryAccession> <!-- # A/swan goose/Jilin/JL01/2014 -->
+		<primaryAccession>CY177430</primaryAccession> <!-- # A/mallard/California/1500P/2013 -->
+		<primaryAccession>MW110095</primaryAccession> <!-- # A/goose/Jiangsu/1.11_LYSZW002-O/2018 -->
+		<primaryAccession>MW096595</primaryAccession> <!-- # A/goose/Fujian/3.15_FZHX0010-O/2018 -->
+		<primaryAccession>KM251513</primaryAccession> <!-- # A/chicken/Sichuan/NCJPL1/2014 -->
+		<primaryAccession>MF399667</primaryAccession> <!-- # A/Northern Shoveler/Ningxia/488-53/2015 -->
+		<primaryAccession>KJ807777</primaryAccession> <!-- # A/chicken/Zhejiang/6C2/2013 -->
+		<primaryAccession>LC427474</primaryAccession> <!-- # A/muscovy duck/Vietnam/HU4-160/2015 -->
+		<primaryAccession>MG891826</primaryAccession> <!-- # A/Anas platyrhynchos/Korea/W614/2017 -->
+		<primaryAccession>MW110263</primaryAccession> <!-- # A/pigeon/Fujian/1.17_FZHX0104-O/2017 -->
+		<primaryAccession>MW102535</primaryAccession> <!-- # A/chicken/Anhui/9.29_YHZGS002-C/2018 -->
+		<primaryAccession>MW749103</primaryAccession> <!-- # A/duck/Bangladesh/44469/2020 -->
+		<primaryAccession>MW936331</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN4715/2018 -->
+		<primaryAccession>KY171724</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-15A59/2015 -->
+		<primaryAccession>MT781563</primaryAccession> <!-- # A/white-tailed eagle/Denmark/4240-1/2018 -->
+		<primaryAccession>MW108263</primaryAccession> <!-- # A/duck/Hunan/12.27_YYGK86J2-C/2016 -->
+		<primaryAccession>KP083458</primaryAccession> <!-- # A/migratory waterfowl/Hubei/Chenhu1347/2014 -->
+		<primaryAccession>MW110079</primaryAccession> <!-- # A/goose/Henan/01.01_LYGL001-O/2017 -->
+		<primaryAccession>KM251516</primaryAccession> <!-- # A/duck/Sichuan/NCXJ16/2014 -->
+		<primaryAccession>MW935840</primaryAccession> <!-- # A/duck/Vietnam/HN5143/2018 -->
+		<primaryAccession>KP286076</primaryAccession> <!-- # A/chicken/Shenzhen/715/2013 -->
+		<primaryAccession>KP286100</primaryAccession> <!-- # A/chicken/Dongguan/2690/2013 -->
+		<primaryAccession>MW102519</primaryAccession> <!-- # A/chicken/Anhui/2.22_YHZGS018-C/2019 -->
+		<primaryAccession>LC342554</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM007/2017 -->
+		<primaryAccession>MT547566</primaryAccession> <!-- # A/chicken/Viet Nam/HU12-1328/2019 -->
+		<primaryAccession>MW466050</primaryAccession> <!-- # A/duck/Bangladesh/43127/2020 -->
+		<primaryAccession>KY171715</primaryAccession> <!-- # A/duck/Vietnam/NCVD-15A57/2015 -->
+		<primaryAccession>KY415822</primaryAccession> <!-- # A/chicken/Ganzhou/GZ50/2015 -->
+		<primaryAccession>MW096947</primaryAccession> <!-- # A/chicken/Shandong/01.26_TAWL017-C/2019 -->
+		<primaryAccession>MT547681</primaryAccession> <!-- # A/Duck/Viet Nam/HU12-1309/2019 -->
+		<primaryAccession>MW935878</primaryAccession> <!-- # A/duck/Vietnam/HN5145/2018 -->
+		<primaryAccession>MT547729</primaryAccession> <!-- # A/Duck/Viet Nam/HU12-1471/2019 -->
+		<primaryAccession>LC318895</primaryAccession> <!-- # A/tundra swan/Niigata/1/2016 -->
+		<primaryAccession>KT370098</primaryAccession> <!-- # A/environment/Guangdong/JY137/2014 -->
+		<primaryAccession>LC342570</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM009/2017 -->
+		<primaryAccession>LC318654</primaryAccession> <!-- # A/grey-faced buzzard/Aomori/10/2016 -->
+		<primaryAccession>LC318855</primaryAccession> <!-- # A/whooper swan/Iwate/17/2017 -->
+		<primaryAccession>LC279801</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM823/2015 -->
+		<primaryAccession>MT781491</primaryAccession> <!-- # A/common buzzard/Denmark/4907-1/2018 -->
+		<primaryAccession>MW096333</primaryAccession> <!-- # A/duck/Hunan/11.30_YYGK75E3-OC/2017 -->
+		<primaryAccession>LC318935</primaryAccession> <!-- # A/mute swan/Ibaraki/7/2016 -->
+		<primaryAccession>LC276778</primaryAccession> <!-- # A/environment/Niigata/5/2016 -->
+		<primaryAccession>MW936053</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5048/2018 -->
+		<primaryAccession>MW936303</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN4716/2018 -->
+		<primaryAccession>LC028306</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM755/2014 -->
+		<primaryAccession>KP090446</primaryAccession> <!-- # A/chicken/Jiangxi/NCDZT1126/2014 -->
+		<primaryAccession>MW935921</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5049/2018 -->
+		<primaryAccession>LC486288</primaryAccession> <!-- # A/duck/Nha Trang/221/2017 -->
+		<primaryAccession>MT106977</primaryAccession> <!-- # A/duck/Viet Nam/HU12-977/2019 -->
+		<primaryAccession>LC316706</primaryAccession> <!-- # A/tundra swan/Niigata/5112007/2016 -->
+		<primaryAccession>MW935548</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5132/2018 -->
+		<primaryAccession>MW749135</primaryAccession> <!-- # A/duck/Bangladesh/44484/2020 -->
+		<primaryAccession>LC050598</primaryAccession> <!-- # A/muscovy duck/Quang Ninh/5c112/2013 -->
+		<primaryAccession>LC342562</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM008/2017 -->
+		<primaryAccession>LC348833</primaryAccession> <!-- # A/water/Aichi/C3/2016 -->
+		<primaryAccession>MW749722</primaryAccession> <!-- # A/duck/Bangladesh/44523/2020 -->
+		<primaryAccession>MT781534</primaryAccession> <!-- # A/white-tailed eagle/Denmark/0429-1/2018 -->
+		<primaryAccession>LC308996</primaryAccession> <!-- # A/eastern buzzard/Oita/4401F005/2017 -->
+		<primaryAccession>MW109095</primaryAccession> <!-- # A/duck/Zhejiang/10.26_HZBX001-C/2018 -->
+		<primaryAccession>MW749035</primaryAccession> <!-- # A/duck/Bangladesh/44448/2020 -->
+		<primaryAccession>LC276852</primaryAccession> <!-- # A/whooper swan/Niigata/5112008/2016 -->
+		<primaryAccession>MT872367</primaryAccession> <!-- # A/Whooper swan/Mongolia/25/2020 -->
+		<primaryAccession>MW108359</primaryAccession> <!-- # A/duck/Hunan/2.06_YYGK78J3-OC/2018 -->
+		<primaryAccession>MT547665</primaryAccession> <!-- # A/Duck/Viet Nam/HU12-1310/2019 -->
+		<primaryAccession>MW108015</primaryAccession> <!-- # A/duck/Hunan/1.12_YYGK68H3-OC/2018 -->
+		<primaryAccession>MW107951</primaryAccession> <!-- # A/duck/Hunan/04.26_YYGK82R3-OC/2018 -->
+		<primaryAccession>LC342594</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM012/2017 -->
+		<primaryAccession>MW108951</primaryAccession> <!-- # A/duck/Jiangxi/7.25_NCNP74U3-OC/2018 -->
+		<primaryAccession>MW108319</primaryAccession> <!-- # A/duck/Hunan/12.27_YYGK95J2-O/2016 -->
+		<primaryAccession>LC348841</primaryAccession> <!-- # A/water/Aichi/W4/2016 -->
+		<primaryAccession>LC010695</primaryAccession> <!-- # A/duck/Vietnam/LBM360c1-4-1/2013 -->
+		<primaryAccession>MW106911</primaryAccession> <!-- # A/chicken/Shanxi/12.01_TGYL014-C/2016 -->
+		<primaryAccession>MW109335</primaryAccession> <!-- # A/environment/Henan/12.12_HNSQ001-E/2016 -->
+		<primaryAccession>MW689682</primaryAccession> <!-- # A/Whooper swan/Mongolia/01/2020 -->
+		<primaryAccession>MT781589</primaryAccession> <!-- # A/white-tailed eagle/Denmark/4903-1/2019 -->
+		<primaryAccession>KP090438</primaryAccession> <!-- # A/chicken/Jiangxi/NCDZT1123/2014 -->
+		<primaryAccession>MW110207</primaryAccession> <!-- # A/goose/Xinjiang/7.20_WLMQXL001-O/2017 -->
+		<primaryAccession>MH546730</primaryAccession> <!-- # A/mallard/Pennsylvania/16-035727-1/2016 -->
+		<primaryAccession>MW689684</primaryAccession> <!-- # A/Whooper swan/Mongolia/03/2020 -->
+		<primaryAccession>MW108199</primaryAccession> <!-- # A/duck/Hunan/12.27_YYGK100J2-C/2016 -->
+		<primaryAccession>LC317069</primaryAccession> <!-- # A/owl/Hokkaido/X6/2016 -->
+		<primaryAccession>MT020019</primaryAccession> <!-- # A/duck/Viet Nam/HU13-162/2019 -->
+		<primaryAccession>MW749065</primaryAccession> <!-- # A/duck/Bangladesh/44423/2020 -->
+		<primaryAccession>LC318646</primaryAccession> <!-- # A/whooper swan/Aomori/9/2016 -->
+		<primaryAccession>LC028314</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM756/2014 -->
+		<primaryAccession>LC276868</primaryAccession> <!-- # A/peregrine falcon/Gifu/2102A008/2017 -->
+		<primaryAccession>MW107967</primaryAccession> <!-- # A/duck/Hunan/05.29_YYGK80P3-OC/2018 -->
+		<primaryAccession>KP285004</primaryAccession> <!-- # A/duck/Dongguan/2685/2013 -->
+		<primaryAccession>MW096746</primaryAccession> <!-- # A/chicken/Fujian/11.23_FZHX0014-O/2017 -->
+		<primaryAccession>LC342578</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM010/2017 -->
+		<primaryAccession>MW109119</primaryAccession> <!-- # A/duck/Zhejiang/10.26_HZBX004-C/2018 -->
+		<primaryAccession>MW110175</primaryAccession> <!-- # A/goose/Xinjiang/12.24_WLMQXL003-C/2018 -->
+		<primaryAccession>MT781603</primaryAccession> <!-- # A/white-tailed eagle/Denmark/5921-1/2018 -->
+		<primaryAccession>LC318863</primaryAccession> <!-- # A/white-fronted goose/Miyagi/1/2016 -->
+		<primaryAccession>MW107791</primaryAccession> <!-- # A/duck/Guizhou/8.26_ZYLJJ017-O/2018 -->
+		<primaryAccession>MW466239</primaryAccession> <!-- # A/duck/Bangladesh/43082/2020 -->
+		<primaryAccession>MT107033</primaryAccession> <!-- # A/duck/Viet Nam/HU13-65/2019 -->
+		<primaryAccession>MW110119</primaryAccession> <!-- # A/goose/Xinjiang/12.18_WLMQXL002-O/2016 -->
+		<primaryAccession>MT297573</primaryAccession> <!-- # A/duck/Ha Tinh/HT7/2014 -->
+		<primaryAccession>MF399619</primaryAccession> <!-- # A/Northern Shoveler/Ningxia/483-28/2015 -->
+		<primaryAccession>MH283020</primaryAccession> <!-- # A/gadwall/Ningxia/YG61/2017 -->
+		<primaryAccession>LC486264</primaryAccession> <!-- # A/duck/Vietnam/LBM805c113/2015 -->
+		<primaryAccession>MW466279</primaryAccession> <!-- # A/duck/Bangladesh/43099/2020 -->
+		<primaryAccession>MT510046</primaryAccession> <!-- # A/chicken/China/007/2019 -->
+		<primaryAccession>KY415796</primaryAccession> <!-- # A/duck/Hubei/ZYSYF24/2015 -->
+		<primaryAccession>MF399547</primaryAccession> <!-- # A/Commom Teal/Ningxia/474-9/2015 -->
+		<primaryAccession>LC028322</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM757/2014 -->
+		<primaryAccession>MK027386</primaryAccession> <!-- # A/Pavo cristatus/China/K10/2018 -->
+		<primaryAccession>LC342522</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM003/2017 -->
+		<primaryAccession>KX638406</primaryAccession> <!-- # A/peregrine falcon/HK/4955/2015 -->
+		<primaryAccession>LC417194</primaryAccession> <!-- # A/mallard/Aichi/2312T018/2016 -->
+		<primaryAccession>LC050590</primaryAccession> <!-- # A/muscovy duck/Quang Ninh/4c111/2013 -->
+		<primaryAccession>MW108247</primaryAccession> <!-- # A/duck/Hunan/12.27_YYGK81J2-O/2016 -->
+		<primaryAccession>MH156484</primaryAccession> <!-- # A/environment/Chang Sha/445/2014 -->
+		<primaryAccession>MW749095</primaryAccession> <!-- # A/duck/Bangladesh/44453/2020 -->
+		<primaryAccession>MT781510</primaryAccession> <!-- # A/mute swan/Denmark/10771-1S/2018 -->
+		<primaryAccession>MT781483</primaryAccession> <!-- # A/black-headed gull/Denmark/4663-1/2018 -->
+		<primaryAccession>MW749164</primaryAccession> <!-- # A/duck/Bangladesh/44456/2020 -->
+		<primaryAccession>MW107879</primaryAccession> <!-- # A/duck/Hunan/01.12_YYGK82H3-OC/2018 -->
+		<primaryAccession>MW105015</primaryAccession> <!-- # A/chicken/Hunan/12.27_YYGKK148-OC/2016 -->
+		<primaryAccession>LC550063</primaryAccession> <!-- # A/muscovy duck/Japan/AQ-HE30-77C1/2018 -->
+		<primaryAccession>MW096596</primaryAccession> <!-- # A/goose/Fujian/3.15_FZHX0005-C/2018 -->
+		<primaryAccession>LC417170</primaryAccession> <!-- # A/mallard/Aichi/2312T011/2016 -->
+		<primaryAccession>MW096605</primaryAccession> <!-- # A/duck/Guangdong/7.20_DGCP036-O/2017 -->
+		<primaryAccession>LC318943</primaryAccession> <!-- # A/whooper swan/Tochigi/1/2017 -->
+		<primaryAccession>LC481385</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM801c132/2015 -->
+		<primaryAccession>MW110031</primaryAccession> <!-- # A/goose/Fujian/3.15_FZHX0008-C/2018 -->
+		<primaryAccession>MW107439</primaryAccession> <!-- # A/duck/Fujian/11.3_FZHX1132-O/2016 -->
+		<primaryAccession>MW109991</primaryAccession> <!-- # A/goose/Fujian/10.26_FZHX0006-O/2017 -->
+		<primaryAccession>MF399587</primaryAccession> <!-- # A/Ferruginous Pochard/Ningxia/479-16/2015 -->
+		<primaryAccession>KU143494</primaryAccession> <!-- # A/duck/Wenzhou/YHQL22/2014 -->
+		<primaryAccession>LC536329</primaryAccession> <!-- # A/duck/Nha Trang/271/2018 -->
+		<primaryAccession>MT547713</primaryAccession> <!-- # A/Duck/Viet Nam/HU12-1467/2019 -->
+		<primaryAccession>MW936269</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN4719/2018 -->
+		<primaryAccession>KU143483</primaryAccession> <!-- # A/turtledove/Wuhan/WHBJ26/2014 -->
+		<primaryAccession>LC417186</primaryAccession> <!-- # A/cackling goose/Aichi/2312T017/2016 -->
+		<primaryAccession>MF694012</primaryAccession> <!-- # A/mallard duck/Netherlands/52/2015 -->
+		<primaryAccession>MW096593</primaryAccession> <!-- # A/goose/Fujian/3.15_FZHX0001-O/2018 -->
+		<primaryAccession>MT107009</primaryAccession> <!-- # A/duck/Viet Nam/HU13-163/2019 -->
+		<primaryAccession>MW108119</primaryAccession> <!-- # A/duck/Hunan/11.30_YYGK59E3-OC/2017 -->
+		<primaryAccession>MH283044</primaryAccession> <!-- # A/spot-billed duck/Ningxia/YG87/2017 -->
+		<primaryAccession>MF399659</primaryAccession> <!-- # A/Gadwall/Ningxia/487-38/2015 -->
+		<primaryAccession>MW107943</primaryAccession> <!-- # A/duck/Hunan/03.24_YYGK21M2-O/2017 -->
+		<primaryAccession>MW102511</primaryAccession> <!-- # A/chicken/Anhui/2.22_YHZGS007-O/2019 -->
+		<primaryAccession>MW936077</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN4858/2018 -->
+		<primaryAccession>KT454954</primaryAccession> <!-- # A/Syrrhaptes paradoxus/Guangdong/ZH283/2015 -->
+		<primaryAccession>MW109327</primaryAccession> <!-- # A/environment/Fujian/10.26_FZHX0002-E/2017 -->
+		<primaryAccession>MW108727</primaryAccession> <!-- # A/duck/Jiangxi/2.28_NCNP25K3-OC/2018 -->
+		<primaryAccession>MW104991</primaryAccession> <!-- # A/chicken/Hunan/12.27_YYGK55J2-O/2016 -->
+		<primaryAccession>KP083450</primaryAccession> <!-- # A/migratory waterfowl/Hubei/Chenhu1306/2014 -->
+		<primaryAccession>MW108407</primaryAccession> <!-- # A/duck/Hunan/4.26_YYGK90R3-OC/2018 -->
+		<primaryAccession>LC198527</primaryAccession> <!-- # A/black swan/Akita/1/2016 -->
+		<primaryAccession>MT107025</primaryAccession> <!-- # A/duck/Viet Nam/HU13-64/2019 -->
+		<primaryAccession>MW110247</primaryAccession> <!-- # A/goose/Xinjiang/8.23_WLMQXL003-C/2017 -->
+		<primaryAccession>MW822910</primaryAccession> <!-- # A/duck/Khunt lake/#500/2019 -->
+		<primaryAccession>MW873309</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN6114/2020 -->
+		<primaryAccession>LC335982</primaryAccession> <!-- # A/mute swan/Shimane/3211A001/2017 -->
+		<primaryAccession>LC279777</primaryAccession> <!-- # A/duck/Vietnam/LBM812/2015 -->
+		<primaryAccession>LC050622</primaryAccession> <!-- # A/duck/Nha Trang/75c131/2014 -->
+		<primaryAccession>LC279831</primaryAccession> <!-- # A/chicken/Nha Trang/124/2015 -->
+		<primaryAccession>MW749121</primaryAccession> <!-- # A/duck/Bangladesh/44502/2020 -->
+		<primaryAccession>MW749142</primaryAccession> <!-- # A/duck/Bangladesh/44418/2020 -->
+		<primaryAccession>MW108327</primaryAccession> <!-- # A/duck/Hunan/12.27_YYGK96J2-O/2016 -->
+		<primaryAccession>MW109975</primaryAccession> <!-- # A/goose/Fujian/10.26_FZHX0004-O/2017 -->
+		<primaryAccession>MW110215</primaryAccession> <!-- # A/goose/Xinjiang/8.23_WLMQXL001-C/2017 -->
+		<primaryAccession>MT106961</primaryAccession> <!-- # A/duck/Viet Nam/HU12-971/2019 -->
+		<primaryAccession>KP732624</primaryAccession> <!-- # A/duck/Eastern China/S0322/2014 -->
+		<primaryAccession>MT547644</primaryAccession> <!-- # A/Duck/Viet Nam/HU12-1303/2019 -->
+		<primaryAccession>KY415809</primaryAccession> <!-- # A/chicken/Taishun/TS2/2016 -->
+		<primaryAccession>KM496976</primaryAccession> <!-- # A/duck/Laos/XBY004/2014 -->
+		<primaryAccession>MK812856</primaryAccession> <!-- # A/mink/Eastern China/006/2018 -->
+		<primaryAccession>MK027078</primaryAccession> <!-- # A/Pavo cristatus/China/JS02/2018 -->
+		<primaryAccession>MW108295</primaryAccession> <!-- # A/duck/Hunan/12.27_YYGK91J2-O/2016 -->
+		<primaryAccession>KU143487</primaryAccession> <!-- # A/turtledove/Wuhan/HKBJ27/2015 -->
+		<primaryAccession>MT872359</primaryAccession> <!-- # A/Whooper swan/Mongolia/24/2020 -->
+		<primaryAccession>LC318823</primaryAccession> <!-- # A/whooper swan/Iwate/8/2016 -->
+		<primaryAccession>LC028330</primaryAccession> <!-- # A/duck/Vietnam/LBM758/2014 -->
+		<primaryAccession>MW108223</primaryAccession> <!-- # A/duck/Hunan/12.27_YYGK71J2-O/2016 -->
+		<primaryAccession>MH283036</primaryAccession> <!-- # A/spot-billed duck/Ningxia/YG83/2017 -->
+		<primaryAccession>KP285036</primaryAccession> <!-- # A/duck/Jiangxi/10160/2014 -->
+		<primaryAccession>LC536313</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM1101/2018 -->
+		<primaryAccession>MW107375</primaryAccession> <!-- # A/duck/Fujian/11.23_FZHX0007-C/2017 -->
+		<primaryAccession>KM496964</primaryAccession> <!-- # A/chicken/Laos/LPQ001/2014 -->
+		<primaryAccession>LC417154</primaryAccession> <!-- # A/cackling goose/Aichi/2312T008/2016 -->
+		<primaryAccession>MW109047</primaryAccession> <!-- # A/duck/Xinjiang/4.21_WLMQXL004-O/2017 -->
+		<primaryAccession>MT781579</primaryAccession> <!-- # A/white-tailed eagle/Denmark/4896-1/2018 -->
+		<primaryAccession>KY415808</primaryAccession> <!-- # A/chicken/Taishun/TS90/2016 -->
+		<primaryAccession>KU143488</primaryAccession> <!-- # A/turtledove/Wuhan/HKBJ43/2015 -->
+		<primaryAccession>MW689683</primaryAccession> <!-- # A/Swan goose/Mongolia/02/2020 -->
+		<primaryAccession>LC342546</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM006/2017 -->
+		<primaryAccession>MW102895</primaryAccession> <!-- # A/chicken/Fujian/11.23_FZHX0007-O/2017 -->
+		<primaryAccession>MW466367</primaryAccession> <!-- # A/Common pochard/Bangladesh/42386/2020 -->
+		<primaryAccession>KX223690</primaryAccession> <!-- # A/environment/Zhongshan/ZS01/2016 -->
+		<primaryAccession>LC536297</primaryAccession> <!-- # A/duck/Vietnam/LBM1042/2017 -->
+		<primaryAccession>MF399627</primaryAccession> <!-- # A/Gadwall/Ningxia/472-7/2015 -->
+		<primaryAccession>MW107471</primaryAccession> <!-- # A/duck/Fujian/12.7_FZHX1202-O/2016 -->
+		<primaryAccession>MT107001</primaryAccession> <!-- # A/duck/Viet Nam/HU12-980/2019 -->
+		<primaryAccession>MW096973</primaryAccession> <!-- # A/duck/Hunan/5.29_YYGK100P3-OC/2018 -->
+		<primaryAccession>MW466253</primaryAccession> <!-- # A/duck/Bangladesh/43120/2020 -->
+		<primaryAccession>MW873183</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN6120/2020 -->
+		<primaryAccession>MK027086</primaryAccession> <!-- # A/Pavo cristatus/China/JS01/2018 -->
+		<primaryAccession>LC279783</primaryAccession> <!-- # A/duck/Vietnam/LBM813/2015 -->
+		<primaryAccession>KU143495</primaryAccession> <!-- # A/duck/Taizhou/TZYG12/2015 -->
+		<primaryAccession>LC486296</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM941/2017 -->
+		<primaryAccession>MW107695</primaryAccession> <!-- # A/duck/Guangdong/11.18_SZBJ003-C/2016 -->
+		<primaryAccession>LC306921</primaryAccession> <!-- # A/environment/Gifu/21/2017 -->
+		<primaryAccession>MT200031</primaryAccession> <!-- # A/Domestic duck/Viet Nam/A_duck_Vietnam_HU12-1473_2019/2019 -->
+		<primaryAccession>MW107487</primaryAccession> <!-- # A/duck/Fujian/12.7_FZHX1219-O/2016 -->
+		<primaryAccession>KM251514</primaryAccession> <!-- # A/duck/Sichuan/NCJPL7/2014 -->
+		<primaryAccession>LC274893</primaryAccession> <!-- # A/snowy owl/Akita/0051D007/2016 -->
+		<primaryAccession>MW109887</primaryAccession> <!-- # A/environment/Yunnan/11.22_DQWGH002-E/2018 -->
+		<primaryAccession>LC198535</primaryAccession> <!-- # A/black swan/Akita/2/2016 -->
+		<primaryAccession>LC274949</primaryAccession> <!-- # A/black swan/Aichi/2312T003/2016 -->
+		<primaryAccession>MW109863</primaryAccession> <!-- # A/environment/Yunnan/09.18_DQSPZ002-E/2018 -->
+		<primaryAccession>LC200416</primaryAccession> <!-- # A/Northern Pintail/Tottori/b37/2016 -->
+		<primaryAccession>LC318807</primaryAccession> <!-- # A/whooper swan/Iwate/1/2016 -->
+		<primaryAccession>MW109951</primaryAccession> <!-- # A/goose/Fujian/10.26_FZHX0002-C/2017 -->
+		<primaryAccession>MW873248</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN6119/2020 -->
+		<primaryAccession>MT781571</primaryAccession> <!-- # A/white-tailed eagle/Denmark/4241-1/2018 -->
+		<primaryAccession>MW109983</primaryAccession> <!-- # A/goose/Fujian/10.26_FZHX0006-C/2017 -->
+		<primaryAccession>KM251512</primaryAccession> <!-- # A/Anas_crecca/Hubei/Chenhu1623-5/2014 -->
+		<primaryAccession>MW107919</primaryAccession> <!-- # A/duck/Hunan/03.24_YYGK174M2-C/2017 -->
+		<primaryAccession>LC342514</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM002/2017 -->
+		<primaryAccession>MW109943</primaryAccession> <!-- # A/goose/Fujian/10.11_FZHX1002-O/2016 -->
+		<primaryAccession>LC364027</primaryAccession> <!-- # A/muscovy duck/Vietnam/HU7-17/2017 -->
+		<primaryAccession>MF399555</primaryAccession> <!-- # A/Northern Shoveler/Ningxia/475-11/2015 -->
+		<primaryAccession>KX094405</primaryAccession> <!-- # A/duck/Guangzhou/018/2014 -->
+		<primaryAccession>MW936062</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN4857/2018 -->
+		<primaryAccession>CY081353</primaryAccession> <!-- # A/environment/Maryland/2318/2006 -->
+		<primaryAccession>LC364043</primaryAccession> <!-- # A/muscovy duck/Vietnam/HU7-23/2017 -->
+		<primaryAccession>CY176978</primaryAccession> <!-- # A/mallard/California/1418/2013 -->
+		<primaryAccession>LC342610</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM014/2017 -->
+		<primaryAccession>MW749151</primaryAccession> <!-- # A/duck/Bangladesh/44447/2020 -->
+		<primaryAccession>LC364035</primaryAccession> <!-- # A/muscovy duck/Vietnam/HU7-20/2017 -->
+		<primaryAccession>LC275012</primaryAccession> <!-- # A/coot/Shiga/2501T010/2017 -->
+		<primaryAccession>LC318879</primaryAccession> <!-- # A/whooper swan/Fukushima/1/2016 -->
+		<primaryAccession>LC318638</primaryAccession> <!-- # A/mute swan/Aomori/4/2016 -->
+		<primaryAccession>MW935965</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5047/2018 -->
+		<primaryAccession>MW108943</primaryAccession> <!-- # A/duck/Jiangxi/6.21_NCNP85S3-OC/2018 -->
+		<primaryAccession>MF399571</primaryAccession> <!-- # A/Ferruginous Pochard/Ningxia/477-14/2015 -->
+		<primaryAccession>MW096450</primaryAccession> <!-- # A/pigeon/Hainan/1.14_HKPL006-C/2018 -->
+		<primaryAccession>KP286617</primaryAccession> <!-- # A/black chicken/Jiangxi/10136/2014 -->
+		<primaryAccession>KP284956</primaryAccession> <!-- # A/chicken/Shenzhen/433/2013 -->
+		<primaryAccession>KJ807778</primaryAccession> <!-- # A/duck/Zhejiang/6D2/2013 -->
+		<primaryAccession>KY415795</primaryAccession> <!-- # A/duck/Hubei/ZYSYF1/2015 -->
+		<primaryAccession>LC208520</primaryAccession> <!-- # A/duck/Japan/AQ-HE72/2015 -->
+		<primaryAccession>MF399563</primaryAccession> <!-- # A/Eurasian Wigeon/Ningxia/476-12/2015 -->
+		<primaryAccession>MW935978</primaryAccession> <!-- # A/duck/Vietnam/HN5141/2018 -->
+		<primaryAccession>MH283052</primaryAccession> <!-- # A/spot-billed duck/Ningxia/YG93/2017 -->
+		<primaryAccession>MT406814</primaryAccession> <!-- # A/Anas Platyrhynchos/Belgium/10811_6/2019 -->
+		<primaryAccession>MW108495</primaryAccession> <!-- # A/duck/Jiangxi/05.28_NCNP31N3-OC/2018 -->
+		<primaryAccession>MW109967</primaryAccession> <!-- # A/goose/Fujian/10.26_FZHX0004-C/2017 -->
+		<primaryAccession>LC279863</primaryAccession> <!-- # A/muscovy duck/Quang Ninh/254/2016 -->
+		<primaryAccession>MW109183</primaryAccession> <!-- # A/duck/Zhejiang/11.09_HZBX009-C/2018 -->
+		<primaryAccession>KY967705</primaryAccession> <!-- # A/heron/Guangdong/C1/2013 -->
+		<primaryAccession>MW749022</primaryAccession> <!-- # A/duck/Bangladesh/44433/2020 -->
+		<primaryAccession>MW872937</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN6607/2020 -->
+		<primaryAccession>MW107007</primaryAccession> <!-- # A/chicken/Yunnan/03.21_DQRT008-C/2018 -->
+		<primaryAccession>LC363971</primaryAccession> <!-- # A/muscovy duck/Vietnam/HU2-26/2014 -->
+		<primaryAccession>LC318839</primaryAccession> <!-- # A/whooper swan/Iwate/11/2016 -->
+		<primaryAccession>MW465999</primaryAccession> <!-- # A/environment/Bangladesh/42410/2020 -->
+		<primaryAccession>LC536337</primaryAccession> <!-- # A/duck/Nha Trang/301/2018 -->
+		<primaryAccession>KM873637</primaryAccession> <!-- # A/cat/Sichuan/SC18/2014 -->
+		<primaryAccession>MW108719</primaryAccession> <!-- # A/duck/Jiangxi/2.28NCNP23K3-OC/2018 -->
+		<primaryAccession>MT781587</primaryAccession> <!-- # A/white-tailed eagle/Denmark/4897-1/2018 -->
+		<primaryAccession>LC279855</primaryAccession> <!-- # A/chicken/Nha Trang/129/2015 -->
+		<primaryAccession>MW926583</primaryAccession> <!-- # A/Moscovy duck/Viet Nam/1914/2014 -->
+		<primaryAccession>LC279795</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM818/2015 -->
+		<primaryAccession>LC279749</primaryAccession> <!-- # A/duck/Vietnam/LBM806/2015 -->
+		<primaryAccession>MW108367</primaryAccession> <!-- # A/duck/Hunan/2.06_YYGK84J3-OC/2018 -->
+		<primaryAccession>KU143489</primaryAccession> <!-- # A/duck/Wuhan/WHYF02/2015 -->
+		<primaryAccession>MT106953</primaryAccession> <!-- # A/duck/Viet Nam/HU12-970/2019 -->
+		<primaryAccession>LC279847</primaryAccession> <!-- # A/chicken/Nha Trang/128/2015 -->
+		<primaryAccession>MW466115</primaryAccession> <!-- # A/Ferruginous duck/Bangladesh/42380/2020 -->
+		<primaryAccession>LC536345</primaryAccession> <!-- # A/duck/Quang Ninh/371/2018 -->
+		<primaryAccession>KP286536</primaryAccession> <!-- # A/chicken/Shenzhen/712/2013 -->
+		<primaryAccession>KM251517</primaryAccession> <!-- # A/duck/Sichuan/NCXJ24/2014 -->
+		<primaryAccession>MW936124</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5139/2018 -->
+		<primaryAccession>KJ754144</primaryAccession> <!-- # A/duck/Guangdong/GD01/2014 -->
+		<primaryAccession>CY005774</primaryAccession> <!-- # A/duck/Potsdam/2216-4/1984 -->
+		<primaryAccession>MW107927</primaryAccession> <!-- # A/duck/Hunan/03.24_YYGK178M2-C/2017 -->
+		<primaryAccession>MW109959</primaryAccession> <!-- # A/goose/Fujian/10.26_FZHX0002-O/2017 -->
+		<primaryAccession>MW108215</primaryAccession> <!-- # A/duck/Hunan/12.27_YYGK60J2-C/2016 -->
+		<primaryAccession>MW106647</primaryAccession> <!-- # A/chicken/Shandong/01.26_TAWL002-O/2019 -->
+		<primaryAccession>MW108031</primaryAccession> <!-- # A/duck/Hunan/1.12_YYGK74H3-OC/2018 -->
+		<primaryAccession>LC028191</primaryAccession> <!-- # A/duck/Vietnam/LBM751/2014 -->
+		<primaryAccession>MW104087</primaryAccession> <!-- # A/chicken/Guangdong/7.20_DGCP022-O/2017 -->
+		<primaryAccession>MW872902</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN6606/2020 -->
+		<primaryAccession>LC417202</primaryAccession> <!-- # A/cackling goose/Aichi/2312T019/2016 -->
+		<primaryAccession>MH283028</primaryAccession> <!-- # A/common mallard/Ningxia/YG71/2017 -->
+		<primaryAccession>MW936343</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN4718/2018 -->
+		<primaryAccession>LC028199</primaryAccession> <!-- # A/duck/Vietnam/LBM752/2014 -->
+		<primaryAccession>MW096793</primaryAccession> <!-- # A/duck/Fujian/10.26_FZHX0004-C/2017 -->
+		<primaryAccession>MW108847</primaryAccession> <!-- # A/duck/Jiangxi/5.26_NCDZT80Q2-OC/2017 -->
+		<primaryAccession>LC536305</primaryAccession> <!-- # A/duck/Vietnam/LBM1099/2018 -->
+		<primaryAccession>MW749155</primaryAccession> <!-- # A/duck/Bangladesh/44430/2020 -->
+		<primaryAccession>MT781555</primaryAccession> <!-- # A/white-tailed eagle/Denmark/4227-1/2018 -->
+		<primaryAccession>KP286460</primaryAccession> <!-- # A/environment/Jiangxi/10170/2014 -->
+		<primaryAccession>LC318455</primaryAccession> <!-- # A/whooper swan/Hokkaido/X12/2017 -->
+		<primaryAccession>MW936234</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN4711/2018 -->
+		<primaryAccession>MT781494</primaryAccession> <!-- # A/common buzzard/Denmark/613-1/2019 -->
+		<primaryAccession>MW107367</primaryAccession> <!-- # A/duck/Fujian/10.26_FZHX0010-O/2017 -->
+		<primaryAccession>LC342530</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM004/2017 -->
+		<primaryAccession>MW107711</primaryAccession> <!-- # A/duck/Guangdong/11.18_SZBJ007-O/2016 -->
+		<primaryAccession>LC318471</primaryAccession> <!-- # A/chicken/Hokkaido/002/2017 -->
+		<primaryAccession>LC028346</primaryAccession> <!-- # A/duck/Vietnam/LBM760/2014 -->
+		<primaryAccession>LC279771</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM810/2015 -->
+		<primaryAccession>MW096261</primaryAccession> <!-- # A/duck/Jiangxi/11.29_NCNP22D3-OC/2017 -->
+		<primaryAccession>MW873454</primaryAccession> <!-- # A/duck/Vietnam/QN6519/2020 -->
+		<primaryAccession>MW749085</primaryAccession> <!-- # A/duck/Bangladesh/44524/2020 -->
+		<primaryAccession>KT454938</primaryAccession> <!-- # A/Copsychus saularis/Guangdong/SW8/2014 -->
+		<primaryAccession>MG891824</primaryAccession> <!-- # A/Anas platyrhynchos/Korea/W612/2017 -->
+		<primaryAccession>MW096415</primaryAccession> <!-- # A/duck/Guizhou/7.27_ZYLJJ017-O/2018 -->
+		<primaryAccession>LC041312</primaryAccession> <!-- # A/duck/Vietnam/HU1-1151/2014 -->
+		<primaryAccession>KT762449</primaryAccession> <!-- # A/feline/Guangdong/1/2015 -->
+		<primaryAccession>MW936282</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN4714/2018 -->
+		<primaryAccession>MW935605</primaryAccession> <!-- # A/duck/Vietnam/HN5142/2018 -->
+		<primaryAccession>MF399603</primaryAccession> <!-- # A/Northern Shoveler/Ningxia/481-21/2015 -->
+		<primaryAccession>MW466092</primaryAccession> <!-- # A/duck/Bangladesh/43050/2020 -->
+		<primaryAccession>MW749189</primaryAccession> <!-- # A/duck/Bangladesh/44477/2020 -->
+		<primaryAccession>KX151175</primaryAccession> <!-- # A/Pavo cristatus/Jiangxi/JA1/2016 -->
+		<primaryAccession>MW749079</primaryAccession> <!-- # A/duck/Bangladesh/44440/2020 -->
+		<primaryAccession>MT547738</primaryAccession> <!-- # A/Duck/Viet Nam/HU12-1470/2019 -->
+		<primaryAccession>MK849820</primaryAccession> <!-- # A/mink/Eastern China/149/2018 -->
+		<primaryAccession>MN889509</primaryAccession> <!-- # A/duck/Nigeria/SK28T_19VIR8424-2/2019 -->
+		<primaryAccession>MW110015</primaryAccession> <!-- # A/goose/Fujian/10.26_FZHX0014-O/2017 -->
+		<primaryAccession>MW096332</primaryAccession> <!-- # A/chicken/Hunan/03.07_YYGK74L3-OC/2018 -->
+		<primaryAccession>LC369572</primaryAccession> <!-- # A/tufted duck/Shimane/3211TY001/2017 -->
+		<primaryAccession>MW873140</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN6113/2020 -->
+		<primaryAccession>LC379584</primaryAccession> <!-- # A/jungle crow/Hyogo/2803A002/2018 -->
+		<primaryAccession>MW104799</primaryAccession> <!-- # A/chicken/Hunan/04.26_YYGK59R3-OC/2018 -->
+		<primaryAccession>MW107351</primaryAccession> <!-- # A/duck/Fujian/10.11_FZHX1007-O/2016 -->
+		<primaryAccession>LC342602</primaryAccession> <!-- # A/mute swan/Hyogo/2801ITM013/2017 -->
+		<primaryAccession>MW110103</primaryAccession> <!-- # A/goose/Xinjiang/11.29_WLMQXL001-O/2017 -->
+		<primaryAccession>KT313407</primaryAccession> <!-- # A/swine/Guangdong/1/2014 -->
+		<primaryAccession>MW872795</primaryAccession> <!-- # A/duck/Vietnam/HN6611/2020 -->
+		<primaryAccession>LC417162</primaryAccession> <!-- # A/mallard/Aichi/2312T010/2016 -->
+		<primaryAccession>KU143485</primaryAccession> <!-- # A/turtledove/Wuhan/WHBJ12/2014 -->
+		<primaryAccession>MW108647</primaryAccession> <!-- # A/duck/Jiangxi/11.29_NCDZT71H2-O/2016 -->
+		<primaryAccession>MW096597</primaryAccession> <!-- # A/goose/Fujian/3.15_FZHX0007-C/2018 -->
+		<primaryAccession>KU143490</primaryAccession> <!-- # A/duck/Wuhan/WHYF03/2015 -->
+		<primaryAccession>MK779127</primaryAccession> <!-- # A/white-naped crane/China/ya3/2018 -->
+		<primaryAccession>MW104783</primaryAccession> <!-- # A/chicken/Hunan/02.06_YYGK37J3-OC/2018 -->
+		<primaryAccession>LC379600</primaryAccession> <!-- # A/jungle crow/Hyogo/2803E022/2018 -->
+		<primaryAccession>MW107399</primaryAccession> <!-- # A/duck/Fujian/11.23_FZHX0015-C/2017 -->
+		<primaryAccession>LC318919</primaryAccession> <!-- # A/peregrine falcon/Niigata/12/2017 -->
+		<primaryAccession>LC497192</primaryAccession> <!-- # A/chicken/Vietnam/HU9-847/2018 -->
+		<primaryAccession>MW109999</primaryAccession> <!-- # A/goose/Fujian/10.26_FZHX0007-O/2017 -->
+		<primaryAccession>KY860101</primaryAccession> <!-- # A/quail/Vietnam/CVVI-03/2015 -->
+		<primaryAccession>MW106479</primaryAccession> <!-- # A/chicken/Jiangxi/6.21_NCDZT7S3-OC/2018 -->
+		<primaryAccession>MW096288</primaryAccession> <!-- # A/duck/Jiangxi/11.29_NCNP39D3-OC/2017 -->
+		<primaryAccession>LC497176</primaryAccession> <!-- # A/chicken/Vietnam/HU9-842/2018 -->
+		<primaryAccession>MW466107</primaryAccession> <!-- # A/duck/Bangladesh/43123/2020 -->
+		<primaryAccession>LC348817</primaryAccession> <!-- # A/duck/Tottori/E10/2016 -->
+		<primaryAccession>KU143484</primaryAccession> <!-- # A/turtledove/Wuhan/HKBJ07/2015 -->
+		<primaryAccession>KY415797</primaryAccession> <!-- # A/duck/Hubei/ZYSYG18/2015 -->
+		<primaryAccession>LC550071</primaryAccession> <!-- # A/muscovy duck/Japan/AQ-HE30-77C2/2018 -->
+		<primaryAccession>MK849812</primaryAccession> <!-- # A/mink/Northern China/110/2018 -->
+		<primaryAccession>MW107479</primaryAccession> <!-- # A/duck/Fujian/12.7_FZHX1218-C/2016 -->
+		<primaryAccession>MT106993</primaryAccession> <!-- # A/duck/Viet Nam/HU12-979/2019 -->
+		<primaryAccession>KT952271</primaryAccession> <!-- # A/wild pigeon/Jilin/CC01/2014 -->
+		<primaryAccession>MW109935</primaryAccession> <!-- # A/goose/Fujian/10.11_FZHX1001-C/2016 -->
+		<primaryAccession>MW108303</primaryAccession> <!-- # A/duck/Hunan/12.27_YYGK93J2-O/2016 -->
+		<primaryAccession>MW108231</primaryAccession> <!-- # A/duck/Hunan/12.27_YYGK73J2-O/2016 -->
+		<primaryAccession>KU143493</primaryAccession> <!-- # A/duck/Wuhan/JXYFB22/2015 -->
+		<primaryAccession>MT781547</primaryAccession> <!-- # A/white-tailed eagle/Denmark/3073-1/2018 -->
+		<primaryAccession>MT107041</primaryAccession> <!-- # A/duck/Viet Nam/HU13-71/2019 -->
+		<primaryAccession>MF399539</primaryAccession> <!-- # A/Ferruginous Pochard/Ningxia/473-8/2015 -->
+		<primaryAccession>MW102575</primaryAccession> <!-- # A/chicken/Anhui/9.29_YHZGS025-O/2018 -->
+		<primaryAccession>MW466157</primaryAccession> <!-- # A/duck/Bangladesh/43527/2020 -->
+		<primaryAccession>KM251518</primaryAccession> <!-- # A/environment/Sichuan/NCLL1/2014 -->
+		<primaryAccession>MT547673</primaryAccession> <!-- # A/Duck/Viet Nam/HU12-1305/2019 -->
+		<primaryAccession>LC318847</primaryAccession> <!-- # A/coot/Iwate/13/2016 -->
+		<primaryAccession>LC318815</primaryAccession> <!-- # A/whooper swan/Iwate/5/2016 -->
+		<primaryAccession>LC276802</primaryAccession> <!-- # A/chicken/Miyazaki/21/2016 -->
+		<primaryAccession>MW936311</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN4720/2018 -->
+		<primaryAccession>MW107703</primaryAccession> <!-- # A/duck/Guangdong/11.18_SZBJ003-O/2016 -->
+		<primaryAccession>MW873341</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN6111/2020 -->
+		<primaryAccession>MW107959</primaryAccession> <!-- # A/duck/Hunan/05.29_YYGK69P3-OC/2018 -->
+		<primaryAccession>KM251515</primaryAccession> <!-- # A/duck/Sichuan/NCXJ15/2014 -->
+		<primaryAccession>MW102543</primaryAccession> <!-- # A/chicken/Anhui/9.29_YHZGS002-O/2018 -->
+		<primaryAccession>CY213601</primaryAccession> <!-- # A/sandpiper/Southcentral Alaska/16MB01708/2016 -->
+		<primaryAccession>MW108127</primaryAccession> <!-- # A/duck/Hunan/11.30_YYGK62E3-OC/2017 -->
+		<primaryAccession>LC028207</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM754/2014 -->
+		<primaryAccession>MW110071</primaryAccession> <!-- # A/goose/Guangdong/7.20_DGCP010-C/2017 -->
+		<primaryAccession>KU143486</primaryAccession> <!-- # A/turtledove/Wuhan/WHBJ28/2014 -->
+		<primaryAccession>KU042729</primaryAccession> <!-- # A/goose/Zhejiang/925036/2014 -->
+		<primaryAccession>MW107823</primaryAccession> <!-- # A/duck/Hainan/12.29_HKPL002-C/2017 -->
+		<primaryAccession>MW110231</primaryAccession> <!-- # A/goose/Xinjiang/8.23_WLMQXL002-C/2017 -->
+		<primaryAccession>LC276818</primaryAccession> <!-- # A/environment/Saga/4/2017 -->
+		<primaryAccession>MT547721</primaryAccession> <!-- # A/Duck/Viet Nam/HU12-1465/2019 -->
+		<primaryAccession>MW108135</primaryAccession> <!-- # A/duck/Hunan/11.30_YYGK63E3-OC/2017 -->
+		<primaryAccession>KY415820</primaryAccession> <!-- # A/chicken/Ganzhou/GZ27/2015 -->
+		<primaryAccession>MW935853</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5138/2018 -->
+		<primaryAccession>MW108287</primaryAccession> <!-- # A/duck/Hunan/12.27_YYGK89J2-O/2016 -->
+		<primaryAccession>LC318927</primaryAccession> <!-- # A/whooper swan/Niigata/13/2017 -->
+		<primaryAccession>MW107935</primaryAccession> <!-- # A/duck/Hunan/03.24_YYGK18M2-O/2017 -->
+		<primaryAccession>MW106679</primaryAccession> <!-- # A/chicken/Shandong/01.26_TAWL007-C/2019 -->
+		<primaryAccession>MT547656</primaryAccession> <!-- # A/Duck/Viet Nam/HU12-982/2019 -->
+		<primaryAccession>LC486280</primaryAccession> <!-- # A/duck/Nha Trang/194/2017 -->
+		<primaryAccession>LC617416</primaryAccession> <!-- # A/duck/Tottori/Vac-T1/2020 -->
+		<primaryAccession>KU042733</primaryAccession> <!-- # A/goose/Zhejiang/112080/2014 -->
+		<primaryAccession>MW096794</primaryAccession> <!-- # A/duck/Fujian/10.26_FZHX0034-C/2017 -->
+		<primaryAccession>LC318887</primaryAccession> <!-- # A/whooper swan/Fukushima/3/2016 -->
+		<primaryAccession>MW107911</primaryAccession> <!-- # A/duck/Hunan/03.07_YYGK4L3-OC/2018 -->
+		<primaryAccession>MW936096</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5046/2018 -->
+		<primaryAccession>MW936358</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN4713/2018 -->
+		<primaryAccession>MW108023</primaryAccession> <!-- # A/duck/Hunan/1.12_YYGK72H3-OC/2018 -->
+		<primaryAccession>MW104943</primaryAccession> <!-- # A/chicken/Hunan/12.27_YYGK19J2-C/2016 -->
+		<primaryAccession>MT106985</primaryAccession> <!-- # A/duck/Viet Nam/HU12-978/2019 -->
+		<primaryAccession>LC028338</primaryAccession> <!-- # A/duck/Vietnam/LBM759/2014 -->
+		<primaryAccession>KJ938657</primaryAccession> <!-- # A/environment/Zhenjiang/C13/2013 -->
+		<primaryAccession>MW096747</primaryAccession> <!-- # A/chicken/Fujian/11.23_FZHX0015-O/2017 -->
+		<primaryAccession>MH546586</primaryAccession> <!-- # A/mallard/Illinois/15-039376-1/2015 -->
+		<primaryAccession>LC318903</primaryAccession> <!-- # A/tundra swan/Niigata/4/2016 -->
+		<primaryAccession>MT020011</primaryAccession> <!-- # A/duck/Viet Nam/HU13-161/2019 -->
+		<primaryAccession>MW936252</primaryAccession> <!-- # A/duck/Vietnam/HN4721/2018 -->
+		<primaryAccession>MW873193</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN6115/2020 -->
+		<primaryAccession>LC274933</primaryAccession> <!-- # A/black swan/Aichi/2312T001/2016 -->
+		<primaryAccession>MT107017</primaryAccession> <!-- # A/duck/Viet Nam/HU13-164/2019 -->
+		<primaryAccession>MW110007</primaryAccession> <!-- # A/goose/Fujian/10.26_FZHX0008-C/2017 -->
+		<primaryAccession>MW107383</primaryAccession> <!-- # A/duck/Fujian/11.23_FZHX0009-C/2017 -->
+		<primaryAccession>KP284980</primaryAccession> <!-- # A/chicken/Shenzhen/1845/2013 -->
+		<primaryAccession>LC279807</primaryAccession> <!-- # A/duck/Vietnam/LBM835/2015 -->
+		<primaryAccession>MW935870</primaryAccession> <!-- # A/duck/Vietnam/HN5147/2018 -->
+		<primaryAccession>MK416036</primaryAccession> <!-- # A/chicken/Northern China/F0130c/2018(H5N6) -->
+		<primaryAccession>KU042731</primaryAccession> <!-- # A/goose/Zhejiang/925106/2014 -->
+		<primaryAccession>LC279789</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM817/2015 -->
+		<primaryAccession>KU143492</primaryAccession> <!-- # A/chicken/Wuhan/WHYJ02/2015 -->
+		<primaryAccession>MG891827</primaryAccession> <!-- # A/Anas platyrhynchos/Korea/W615/2017 -->
+		<primaryAccession>KT952279</primaryAccession> <!-- # A/environment/Jilin/CC02/2014 -->
+		<primaryAccession>KY860093</primaryAccession> <!-- # A/quail/Vietnam/CVVI-01/2015 -->
+		<primaryAccession>LC274941</primaryAccession> <!-- # A/black swan/Aichi/2312T002/2016 -->
+		<primaryAccession>MT547634</primaryAccession> <!-- # A/Duck/Viet Nam/HU12-981/2019 -->
+		<primaryAccession>MW110191</primaryAccession> <!-- # A/goose/Xinjiang/12.24_WLMQXL004-O/2018 -->
+		<primaryAccession>LC317085</primaryAccession> <!-- # A/pintail/Hokkaido/X8/2016 -->
+		<primaryAccession>LC314541</primaryAccession> <!-- # A/cackling goose/Aichi/2312T020/2016 -->
+		<primaryAccession>MW466300</primaryAccession> <!-- # A/duck/Bangladesh/43129/2020 -->
+		<primaryAccession>MW934712</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5135/2018 -->
+		<primaryAccession>KY415807</primaryAccession> <!-- # A/chicken/Taishun/TS12/2016 -->
+		<primaryAccession>KU143491</primaryAccession> <!-- # A/chicken/Wuhan/WHYJ01/2015 -->
+		<primaryAccession>MW936137</primaryAccession> <!-- # A/duck/Vietnam/HN5080/2018 -->
+		<primaryAccession>MK849828</primaryAccession> <!-- # A/mink/Eastern China/528/2018 -->
+		<primaryAccession>LC486272</primaryAccession> <!-- # A/chicken/Nha Trang/185/2017 -->
+		<primaryAccession>MW110111</primaryAccession> <!-- # A/goose/Xinjiang/12.18_WLMQXL001-C/2016 -->
+		<primaryAccession>LC317077</primaryAccession> <!-- # A/peregrine falcon/Hokkaido/X7/2016 -->
+		<primaryAccession>MG891825</primaryAccession> <!-- # A/Anas platyrhynchos/Korea/W613/2017 -->
+		<primaryAccession>MW749735</primaryAccession> <!-- # A/duck/Bangladesh/44508/2020 -->
+		<primaryAccession>MF399579</primaryAccession> <!-- # A/Commom Teal/Ningxia/478-15/2015 -->
+		<primaryAccession>KP285020</primaryAccession> <!-- # A/duck/Dongguan/3069/2013 -->
+		<primaryAccession>MW935530</primaryAccession> <!-- # A/duck/Vietnam/HN5149/2018 -->
+		<primaryAccession>MW108631</primaryAccession> <!-- # A/duck/Jiangxi/11.27_NCNP93C4-OC/2018 -->
+		<primaryAccession>LC276762</primaryAccession> <!-- # A/environment/Aomori/4/2016 -->
+		<primaryAccession>MW107391</primaryAccession> <!-- # A/duck/Fujian/11.23_FZHX0014-C/2017 -->
+		<primaryAccession>KP286452</primaryAccession> <!-- # A/black chicken/Jiangxi/10129/2014 -->
+		<primaryAccession>MW109031</primaryAccession> <!-- # A/duck/Xinjiang/10.29_WLMQXL001-C/2017 -->
+		<primaryAccession>MW096419</primaryAccession> <!-- # A/duck/Guizhou/8.26_ZYLJJ016-O/2018 -->
+		<primaryAccession>MT781517</primaryAccession> <!-- # A/mute swan/Denmark/4905-1/2018 -->
+		<primaryAccession>MW466361</primaryAccession> <!-- # A/duck/Bangladesh/43122/2020 -->
+		<primaryAccession>MW466219</primaryAccession> <!-- # A/duck/Bangladesh/43128/2020 -->
+		<primaryAccession>LC339722</primaryAccession> <!-- # A/chicken/Vietnam/HU4-42/2015 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

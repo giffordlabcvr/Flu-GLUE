@@ -1,0 +1,13 @@
+<!-- NCBI import module for IAV subtype 'H3N4' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-3</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MH134796</primaryAccession> <!-- # A/red-gartered coot/Chile/C16030/2016 -->
+		<primaryAccession>CY136118</primaryAccession> <!-- # A/northern pintail/Interior Alaska/9BM11661R0/2009 -->
+		<primaryAccession>CY138003</primaryAccession> <!-- # A/American green-winged teal/Interior Alaska/10BM05439R0/2010 -->
+		<primaryAccession>MH502783</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI14-1868/2014 -->
+		<primaryAccession>CY140085</primaryAccession> <!-- # A/mallard/Minnesota/SG-00680/2008 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

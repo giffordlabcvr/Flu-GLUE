@@ -1,0 +1,12 @@
+<!-- NCBI import module for IAV subtype 'H8N2' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-2</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>LC371816</primaryAccession> <!-- # A/duck/Hokkaido/207/2014 -->
+		<primaryAccession>CY183431</primaryAccession> <!-- # A/mallard/Sweden/60041/2007 -->
+		<primaryAccession>CY134301</primaryAccession> <!-- # A/northern shoveler/California/3676/2010 -->
+		<primaryAccession>CY183562</primaryAccession> <!-- # A/mallard/Sweden/68537/2007 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
