@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>NC_002019</GBSeq_locus>
+    <GBSeq_length>1565</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/Puerto Rico/8/1934(H1N1)) segment 5, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>NC_002019</GBSeq_primary-accession>
+    <GBSeq_accession-version>NC_002019.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>ref|NC_002019.1|</GBSeqid>
+      <GBSeqid>gnl|NCBI_GENOMES|10229</GBSeqid>
+      <GBSeqid>gi|8486129</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Influenza A virus (A/Puerto Rico/8/1934(H1N1))</GBSeq_source>
+    <GBSeq_organism>Influenza A virus (A/Puerto Rico/8/1934(H1N1))</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1565</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>van Rompuy,L.</GBAuthor>
+          <GBAuthor>Min,J.W.</GBAuthor>
+          <GBAuthor>Huylebroeck,D.</GBAuthor>
+          <GBAuthor>Devos,R.</GBAuthor>
+          <GBAuthor>Fiers,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete nucleotide sequence of the nucleoprotein gene from the human influenza strain A/PR/8/34 (HON1), Correction</GBReference_title>
+        <GBReference_journal>Eur. J. Biochem. 116, 645-645 (1982)</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1565</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Winter,G.</GBAuthor>
+          <GBAuthor>Fields,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The structure of the gene encoding the nucleoprotein of human influenza virus A/PR/8/34</GBReference_title>
+        <GBReference_journal>Virology 114 (2), 423-428 (1981)</GBReference_journal>
+        <GBReference_pubmed>7292985</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1517</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Van Rompuy,L.</GBAuthor>
+          <GBAuthor>Min Jou,W.</GBAuthor>
+          <GBAuthor>Huylebroeck,D.</GBAuthor>
+          <GBAuthor>Devos,R.</GBAuthor>
+          <GBAuthor>Fiers,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete nucleotide sequence of the nucleoprotein gene from the human influenza strain A/PR/8/34 (HON1)</GBReference_title>
+        <GBReference_journal>Eur. J. Biochem. 116 (2), 347-353 (1981)</GBReference_journal>
+        <GBReference_pubmed>6166474</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>4</GBReference_reference>
+        <GBReference_position>1..1565</GBReference_position>
+        <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-JUN-2000) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence is identical to J02147.; assignment of coding region by consideration of open reading frames and by comparison of predicted mw to nucleoprotein mw. [Eur. J. Biochem. 116, 645-645 (1981)] is a~major revision of [1], so the sequence shown below reflects only [2],[Eur. J. Biochem. 116, 645-645 (1981)]. [1] compared with grantham's data.~Complete source information:~influenza [2]: A/Puerto Rico/8/34 cdna to rna from human; [1],[Eur. J. Biochem. 116, 645-645 (1981)]:~x31 (a laboratory recombinant containing the A/Puerto Rico/8/34 nucleoprotein segment) cdna to rna, originally from human.; COMPLETENESS: full length.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1565</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1565</GBInterval_to>
+            <GBInterval_accession>NC_002019.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus (A/Puerto Rico/8/1934(H1N1))</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/Puerto Rico/8/1934(H1N1)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:211044</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>5</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>46..1542</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>46</GBInterval_from>
+            <GBInterval_to>1542</GBInterval_to>
+            <GBInterval_accession>NC_002019.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>FLUAVs5gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:956531</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>46..1542</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>46</GBInterval_from>
+            <GBInterval_to>1542</GBInterval_to>
+            <GBInterval_accession>NC_002019.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>FLUAVs5gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_040982.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:956531</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MASQGTKRSYEQMETDGERQNATEIRASVGKMIGGIGRFYIQMCTELKLSDYEGRLIQNSLTIERMVLSAFDERRNKYLEEHPSAGKDPKKTGGPIYRRVNGKWMRELILYDKEEIRRIWRQANNGDDATAGLTHMMIWHSNLNDATYQRTRALVRTGMDPRMCSLMQGSTLPRRSGAAGAAVKGVGTMVMELVRMIKRGINDRNFWRGENGRKTRIAYERMCNILKGKFQTAAQKAMMDQVRESRDPGNAEFEDLTFLARSALILRGSVAHKSCLPACVYGPAVASGYDFEREGYSLVGIDPFRLLQNSQVYSLIRPNENPAHKSQLVWMACHSAAFEDLRVLSFIKGTKVVPRGKLSTRGVQIASNENMETMESSTLELRSRYWAIRTRSGGNTNQQRASAGQISIQPTFSVQRNLPFDRTTVMAAFTGNTEGRTSDMRTEIIRMMESARPEDVSFQGRGVFELSDEKAASPIVPSFDMSNEGSYFFGDNAEEYDN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>unsure</GBFeature_key>
+        <GBFeature_location>589</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_point>589</GBInterval_point>
+            <GBInterval_accession>NC_002019.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>FLUAVs5gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>g in 2 clones, a in 1 clone</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcaaaagcagggtagataatcactcactgagtgacatcaaaatcatggcgtcccaaggcaccaaacggtcttacgaacagatggagactgatggagaacgccagaatgccactgaaatcagagcatccgtcggaaaaatgattggtggaattggacgattctacatccaaatgtgcacagaacttaaactcagtgattatgagggacggttgatccaaaacagcttaacaatagagagaatggtgctctctgcttttgacgaaaggagaaataaatacctggaagaacatcccagtgcggggaaggatcctaagaaaactggaggacctatatacagaagagtaaacggaaagtggatgagagaactcatcctttatgacaaagaagaaataaggcgaatctggcgccaagctaataatggtgacgatgcaacggctggtctgactcacatgatgatctggcattccaatttgaatgatgcaacttatcagaggacaagggctcttgttcgcaccggaatggatcccaggatgtgctctctgatgcaaggttcaactctccctaggaggtctggagccgcaggtgctgcagtcaaaggagttggaacaatggtgatggaattggtcaggatgatcaaacgtgggatcaatgatcggaacttctggaggggtgagaatggacgaaaaacaagaattgcttatgaaagaatgtgcaacattctcaaagggaaatttcaaactgctgcacaaaaagcaatgatggatcaagtgagagagagccgggacccagggaatgctgagttcgaagatctcacttttctagcacggtctgcactcatattgagagggtcggttgctcacaagtcctgcctgcctgcctgtgtgtatggacctgccgtagccagtgggtacgactttgaaagagagggatactctctagtcggaatagaccctttcagactgcttcaaaacagccaagtgtacagcctaatcagaccaaatgagaatccagcacacaagagtcaactggtgtggatggcatgccattctgccgcatttgaagatctaagagtattgagcttcatcaaagggacgaaggtggtcccaagagggaagctttccactagaggagttcaaattgcttccaatgaaaatatggagactatggaatcaagtacacttgaactgagaagcaggtactgggccataaggaccagaagtggaggaaacaccaatcaacagagggcatctgcgggccaaatcagcatacaacctacgttctcagtacagagaaatctcccttttgacagaacaaccgttatggcagcattcactgggaatacagaggggagaacatctgacatgaggaccgaaatcataaggatgatggaaagtgcaagaccagaagatgtgtctttccaggggcggggagtcttcgagctctcggacgaaaaggcagcgagcccgatcgtgccttcctttgacatgagtaatgaaggatcttatttcttcggagacaatgcagaggagtacgacaattaaagaaaaatacccttgtttctact</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA485481</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

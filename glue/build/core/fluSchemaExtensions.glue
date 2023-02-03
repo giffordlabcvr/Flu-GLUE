@@ -1,4 +1,8 @@
-  # Sequence table
+schema-project flu
+
+  create custom-table isolate  
+  create custom-table host
+
   table sequence
     
     # GenBank entry information
@@ -15,6 +19,7 @@
     create field gb_subtype VARCHAR 50
     create field rec_subtype VARCHAR 50
     create field strain VARCHAR 150
+    create field isolate_name VARCHAR 150
     
     # Segment information
     create field gb_segment INTEGER
@@ -31,23 +36,9 @@
   exit
 
 
-  table alignment
-    create field clade_category VARCHAR 20
-    create field phylogeny CLOB
-  exit 
+  table isolate
 
-
-  table member_floc_note
-  	create field ref_nt_coverage_pct DOUBLE
-  	exit
-
-
-  # Create schema extension
-  create custom-table isolate_data
-
-
-  table isolate_data
-  
+    create field strain VARCHAR 200  
     create field isolate VARCHAR 200
     create field iso_source VARCHAR 200
     create field sample_date DATE
@@ -61,10 +52,35 @@
     create field rec_cg_subtype VARCHAR 50
     create field rec_hn_subtype VARCHAR 50
     create field gb_hn_subtype VARCHAR 50
-
+    # true if isolate has at least one "complete segment" sequence for each of the 8 segments
+    create field complete_genome BOOLEAN
+    
   exit
 
-  create link sequence isolate_data -m MANY_TO_ONE
+  table host
+  
+    create field taxon_name VARCHAR 100
+    create field taxonomic_level VARCHAR 100
+    create field common_name VARCHAR 100
+
+    exit
+
+
+  table alignment
+    create field clade_category VARCHAR 20
+    create field phylogeny CLOB
+  exit 
+
+
+  table member_floc_note
+  	create field ref_nt_coverage_pct DOUBLE
+  	exit
 
 
 
+  create link isolate sequence -m ONE_TO_MANY
+  
+  create link isolate host -m ONE_TO_ONE
+
+
+exit

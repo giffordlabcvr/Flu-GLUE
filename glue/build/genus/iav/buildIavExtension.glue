@@ -15,7 +15,8 @@ project flu
   module iavGenbankXmlPopulator populate
 
   # Link sequences to isolate table and load strain level data.
-  run script glue/build/genus/iav/iavLoadIsolateData.js
+  run script glue/build/genus/iav/iavLoadIsolateData1.js
+  run script glue/build/genus/iav/iavLoadIsolateData1.js
  
   # Define constrained alignment tree for extension project
   #run file glue/build/genus/iav/iavAlignmentTree.glue

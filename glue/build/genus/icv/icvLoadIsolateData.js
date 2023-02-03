@@ -7,10 +7,10 @@ var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");
 // for each sequence ID
 _.each(seqIds, function(seqId) {
     // create an object in the custom table which uses the sequence ID as the row ID.
-    glue.command(["create", "custom-table-row", "isolate_data", seqId]);
+    glue.command(["create", "custom-table-row", "isolate", seqId]);
     // associate the corresponding sequence with this object.
     glue.inMode("sequence/ncbi-icv-nuccore/"+seqId, function() {
-        glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
+        glue.command(["set", "link-target", "isolate", "custom-table-row/isolate/"+seqId]);
     });
 
     // update sequence table fields for this isolate

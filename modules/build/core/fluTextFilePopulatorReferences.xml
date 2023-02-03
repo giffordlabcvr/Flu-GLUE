@@ -3,9 +3,8 @@
 	
 	<textFileColumn>
 		<identifier>true</identifier>
-		<header>accession</header>
-		<property>gb_primary_accession</property>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+		<header>sequenceID</header>
+		<property>sequenceID</property>
 	</textFileColumn>
 	
 	<textFileColumn>
@@ -13,28 +12,58 @@
 		<property>name</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
 	</textFileColumn>
+	
+	<textFileColumn>
+		<header>genus</header>
+		<property>genus</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
 
 	<textFileColumn>
-		<header>virus_full_name</header>
-		<property>full_name</property>
+		<header>rec_segment</header>
+		<property>rec_segment</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
 	</textFileColumn>
 	
 	<textFileColumn>
-		<header>virus_genus</header>
-		<property>genus</property>
+		<header>gb_subtype</header>
+		<property>gb_subtype</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
 	</textFileColumn>
 		
 	<textFileColumn>
-		<header>segment</header>
-		<property>gb_segment</property>
+		<header>strain</header>
+		<property>strain</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
 	</textFileColumn>
 		
 	<textFileColumn>
-		<header>segment</header>
-		<property>rec_segment</property>
+		<header>isolate_name</header>
+		<property>isolate_name</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+		
+	<textFileColumn>
+		<header>iso_host</header>
+		<property>isolate.iso_host</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+		
+	<textFileColumn>
+		<header>iso_country</header>
+		<property>isolate.iso_country</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+		
+	<textFileColumn>
+		<header>iso_region</header>
+		<property>isolate.iso_region</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>iso_year</header>
+		<property>isolate.iso_year</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
 	</textFileColumn>
 	

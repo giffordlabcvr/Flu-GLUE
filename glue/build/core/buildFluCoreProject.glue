@@ -7,20 +7,23 @@ project flu
   run file glue/build/core/fluModules.glue
 
   # Import reference sequences 
-  import source sources/ncbi-refseqs
+  run file glue/build/core/importSources.glue
 
   #  Link reference sequences to isolate table 
   run script glue/build/core/fluLoadReferenceData.js
 
-  # Import data 
+  # Import reference sequence data from GenBank XML
   module genbankXmlPopulator populate
 
   # Import metadata for reference sequences from tabular
-  create module -f modules/build/core/fluTextFilePopulatorReferences.xml fluSideDataImporter
-  module fluSideDataImporter 
+  create module -f modules/build/core/fluTextFilePopulatorReferences.xml
+  module fluTextFilePopulatorReferences 
     populate -f tabular/core/flu-ncbi-refseqs-side-data.tsv
     exit
-    
+
+  #  Load isolate-level data for reference sequences
+  #run script glue/build/core/fluLoadReferenceIsolateData.js
+
   # Define genome features
   run file glue/build/core/fluFeatures.glue
 
@@ -29,10 +32,6 @@ project flu
 
   # Define genome features
   run file glue/build/core/fluFeatureLocations.glue
-
-  # Define variations
-  run file glue/build/core/iavVariations.glue
-  run file glue/build/core/ibvVariations.glue
 
   # Import root alignments
   run file glue/build/core/fluAlignments.glue
