@@ -1,6 +1,5 @@
 
-#run file glue/filter/alphainfluenzavirus/buildIavFilterProject.glue
-#run file glue/filter/betainfluenzavirus/buildIbvFilterProject.glue
+run file glue/filter/alphainfluenzavirus/buildIavFilterProject.glue
+run file glue/filter/betainfluenzavirus/buildIbvFilterProject.glue
 run file glue/filter/gammainfluenzavirus/buildIcvFilterProject.glue
-#run file glue/filter/deltainfluenzavirus/buildIdvFilterProject.glue
-
+run file glue/filter/deltainfluenzavirus/buildIdvFilterProject.glue

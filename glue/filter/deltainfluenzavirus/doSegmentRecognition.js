@@ -1,7 +1,7 @@
 
 var allResults = [];
 
-glue.inMode("module/iavSegmentRecogniser", function(){
+glue.inMode("module/idvSegmentRecogniser", function(){
 
 	 var recogniserResult = glue.command(["recognise","sequence","-a"]);
      recogniserResult = recogniserResult["blastSequenceRecogniserResult"];

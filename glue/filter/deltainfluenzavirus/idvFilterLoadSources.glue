@@ -1,47 +1,12 @@
 
-  # Import reference sequences 
-  import source sources/iav-ncbi-refseqs-seg1
-  import source sources/iav-ncbi-refseqs-seg2
-  import source sources/iav-ncbi-refseqs-seg3
-  import source sources/iav-ncbi-refseqs-seg4
-  import source sources/iav-ncbi-refseqs-seg5
-  import source sources/iav-ncbi-refseqs-seg6
-  import source sources/iav-ncbi-refseqs-seg7
-  import source sources/iav-ncbi-refseqs-seg8
+  # Import reference sequence sources
+  import source sources/idv-ncbi-refseqs-seg1
+  import source sources/idv-ncbi-refseqs-seg2
+  import source sources/idv-ncbi-refseqs-seg3
+  import source sources/idv-ncbi-refseqs-seg4
+  import source sources/idv-ncbi-refseqs-seg5
+  import source sources/idv-ncbi-refseqs-seg6
+  import source sources/idv-ncbi-refseqs-seg7
 
-  # 'set 0'
-  import source ../../../../Sources/flu/ncbi-iav-nuccore-1970-1990
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-1990-2005
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2005-2010
-  
-  # 'set 1'
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2010-2011
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2011-2012
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2012-2013
-
-  # 'set 2'
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2013-2014
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2014-2015
-
-  # 'set 3'
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2015-2016
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2016-2017
-
-  # 'set 4.1'
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2017-2018
-
-  # 'set 4.2'
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2018-2019
-
-  # 'set 5.1'
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2019-2020-1
-
-  # 'set 5.2'
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2019-2020-2
-
-  # 'set 6'
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2020-2021
-
-  # 'set 7'
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2021-2022
-
+  # NCBI nuccore sequences
+  import source ../../../../Sources/flu/ncbi-idv-nuccore

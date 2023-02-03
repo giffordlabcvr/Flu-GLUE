@@ -1,0 +1,63 @@
+<blastSequenceRecogniser>
+
+  <blastRunner>
+    <generalSearch>
+      <word_size>8</word_size>
+    </generalSearch>
+    <restrictSearchOrResults>
+    </restrictSearchOrResults>
+  </blastRunner>
+
+
+<referenceSequence>REF_S1_IDV_NC_036616</referenceSequence>
+<referenceSequence>REF_S2_IDV_NC_036615</referenceSequence>
+<referenceSequence>REF_S3_IDV_NC_036619</referenceSequence>
+<referenceSequence>REF_S4_IDV_NC_036618</referenceSequence>
+<referenceSequence>REF_S5_IDV_NC_036617</referenceSequence>
+<referenceSequence>REF_S6_IDV_NC_036620</referenceSequence>
+<referenceSequence>REF_S7_IDV_NC_036621</referenceSequence>
+
+<recognitionCategory>
+<id>1</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_S1_IDV_NC_036616</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>2</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_S2_IDV_NC_036615</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>3</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_S3_IDV_NC_036619</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>4</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_S4_IDV_NC_036618</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>5</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_S5_IDV_NC_036617</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>6</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_S6_IDV_NC_036620</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>7</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_S7_IDV_NC_036621</referenceSequence>
+</recognitionCategory>
+
+
+</blastSequenceRecogniser>
