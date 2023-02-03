@@ -37,11 +37,11 @@
 	<gbFeature key="source">
 
 		<gbQualifier name="serotype">
-			<propertyPopulator property="subtype"/>
+			<propertyPopulator property="gb_subtype"/>
 		</gbQualifier>
 	
 		<gbQualifier name="strain">
-			<propertyPopulator property="strain"/>
+			<propertyPopulator property="isolate_data.strain"/>
 		</gbQualifier>
 		
 		<gbQualifier name="isolate">

@@ -12,7 +12,8 @@
     create field name VARCHAR 100  
     create field full_name VARCHAR 200
     create field genus VARCHAR 50
-    create field subtype VARCHAR 50
+    create field gb_subtype VARCHAR 50
+    create field rec_subtype VARCHAR 50
     create field strain VARCHAR 150
     
     # Segment information
@@ -46,6 +47,7 @@
 
 
   table isolate_data
+  
     create field isolate VARCHAR 200
     create field iso_source VARCHAR 200
     create field sample_date DATE
@@ -56,6 +58,10 @@
     create field iso_day INTEGER
     create field iso_host VARCHAR 100
     create field lab_host VARCHAR 100
+    create field rec_cg_subtype VARCHAR 50
+    create field rec_hn_subtype VARCHAR 50
+    create field gb_hn_subtype VARCHAR 50
+
   exit
 
   create link sequence isolate_data -m MANY_TO_ONE

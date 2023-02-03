@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>CY067680</GBSeq_locus>
+    <GBSeq_length>1460</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-APR-2012</GBSeq_update-date>
+    <GBSeq_create-date>26-JUL-2010</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/blue-winged teal/Guatemala/CIP049-02/2008(H7N9)) segment 6 sequence</GBSeq_definition>
+    <GBSeq_primary-accession>CY067680</GBSeq_primary-accession>
+    <GBSeq_accession-version>CY067680.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gnl|CEIRS|CEIRS-CIP046-CIP049-02.6</GBSeqid>
+      <GBSeqid>gb|CY067680.1|</GBSeqid>
+      <GBSeqid>gi|301333807</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza A virus (A/blue-winged teal/Guatemala/CIP049-02/2008(H7N9))</GBSeq_source>
+    <GBSeq_organism>Influenza A virus (A/blue-winged teal/Guatemala/CIP049-02/2008(H7N9))</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1460</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gonzalez-Reiche,A.S.</GBAuthor>
+          <GBAuthor>Morales-Betoulle,M.E.</GBAuthor>
+          <GBAuthor>Alvarez,D.</GBAuthor>
+          <GBAuthor>Betoulle,J.L.</GBAuthor>
+          <GBAuthor>Muller,M.L.</GBAuthor>
+          <GBAuthor>Sosa,S.M.</GBAuthor>
+          <GBAuthor>Perez,D.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Influenza a viruses from wild birds in guatemala belong to the north american lineage</GBReference_title>
+        <GBReference_journal>PLoS ONE 7 (3), E32873 (2012)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1371/journal.pone.0032873</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>22427902</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1460</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gonzalez,A.S.</GBAuthor>
+          <GBAuthor>Angel,M.</GBAuthor>
+          <GBAuthor>Morales-Betoulle,M.E.</GBAuthor>
+          <GBAuthor>Alvarez,D.</GBAuthor>
+          <GBAuthor>Betoulle,J.-L.</GBAuthor>
+          <GBAuthor>Perez,D.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-AUG-2010) Department of Veterinary Medicine, University of Maryland, College Park, 8075 Greenmead Dr, College Park, MD 20742, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1460</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1460</GBInterval_to>
+            <GBInterval_accession>CY067680.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus (A/blue-winged teal/Guatemala/CIP049-02/2008(H7N9))</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/blue-winged teal/Guatemala/CIP049-02/2008</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H7N9</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>cloacal swab</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>blue-winged teal; gender M; age adult</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:868567</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lab_host</GBQualifier_name>
+            <GBQualifier_value>1 passage(s)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Guatemala: Santa Rosa</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>05-Mar-2008</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..1460</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1460</GBInterval_to>
+            <GBInterval_accession>CY067680.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>IRD:CEIRS-CIP046-CIP049-02.6</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>19..1431</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>19</GBInterval_from>
+            <GBInterval_to>1431</GBInterval_to>
+            <GBInterval_accession>CY067680.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>19..1431</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>19</GBInterval_from>
+            <GBInterval_to>1431</GBInterval_to>
+            <GBInterval_accession>CY067680.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>neuraminidase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ADK71150.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNPNQKILCTSATAIVIGTIAVLIGIANLGLNIGLHLKPNCNCSHSQPEATNASQTIINNYYNETDITQISNTNIQMEEKANREFNNLTKGLCTINSWHIYGKDNAVRIGENSDVLVTREPYVSCDPDECRFYALSQGTTIRGKHSNGTIHDRSQYRALISWPLSSPPTVYNSRVECIGWSSTSCHDGRARMSICVSGPNNNASAVIWYNRRPVTEINTWARNILRTQESECVCHNGVCPVVFTDGSATGPAETRVYYFKEGKILKWEPLTGTAKHIEECSCYGVQAGITCTCRDNWQGSNRPVIQIDPMAMTHTSQYICSPVLTDNPRPNDPAVGKCNDPYPGNNNNGVKGFSYLDGGNTWLGRTISTASRSGYEMLKVPNALTDDRSKPTQGQTIVLNTDWSGYSGSFVDYWAEGECYRACFYVELIRGRPKEDKVWWTSNSIVSMCSSTEFLGQWNWPDGAKIEYFL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcaaaagcagggtcaagatgaatccaaatcagaagattctatgcacttctgccactgctattgtaataggcacaattgcagtactcataggaatagcaaacctaggattgaacataggactacatctgaaaccaaactgcaactgctcacactcacaacctgaagcaaccaatgcaagccaaacaataataaacaactactataacgaaacagacatcacccaaataagcaataccaacatccaaatggaggagaaagcaaatagagaattcaataacttgaccaaaggactctgcactataaattcatggcacatctatgggaaagacaatgcagtaagaattggggagaactcagacgttctagtaacgagagaaccctatgtctcctgtgatccagatgagtgcaggttctatgctctcagccaaggaacaacgattagagggaaacactcaaatggaacaatacacgatagatcccagtaccgtgccctgataagctggccactgtcatcaccacccacagtatacaacagcagagtagaatgcattggttggtcaagtactagttgtcatgatggcagagccaggatgtcaatatgtgtatcaggcccaaacaacaatgcgtctgcagtaatctggtacaatagaaggcctgttacagaaatcaatacatgggcccgaaacatactacgaacacaagaatctgaatgcgtatgccacaacggtgtatgcccggtagtattcacagatgggtctgccactggacctgcagaaacaagagtgtactatttcaaggaagggaaaatactaaaatgggaacctctaactggaactgctaaacacattgaagaatgctcatgctatggggtgcaagcaggcattacttgcacatgcagggataattggcagggttcaaatagaccagtaattcaaatagatccaatggcaatgacacatactagtcagtatatatgtagccccgttctcacagataatccccggccgaatgacccagctgtaggtaagtgtaatgacccttatccagggaataacaacaatggagtcaaaggattttcatacctggatggaggtaatacttggctaggaagaacaataagcacagcttctagatccgggtatgagatgctaaaggtgccaaatgcattgaccgatgatagatcaaaacccacccaaggtcaaacaatcgtgttgaacactgactggagtggctacagtgggtccttcgtggactattgggccgagggggagtgctaccgagcgtgtttttatgtggagttaatacgaggaaggcccaaggaggacaaagtatggtggaccagtaatagcatagtatcaatgtgttccagcacagaattccttggacaatggaactggcctgatggggctaaaatagagtacttcctctaagacacagaaaaaagacccttgtttctact</GBSeq_sequence>
+  </GBSeq>

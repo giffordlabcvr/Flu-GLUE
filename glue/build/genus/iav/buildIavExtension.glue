@@ -1,4 +1,4 @@
-# 
+# Build IAV extension project
 project flu
 
   # Create extension modules  
@@ -9,19 +9,16 @@ project flu
 
   # Import references 
   run file glue/build/genus/iav/iavReferences.glue
-
-  # Link imported sequences to isolate table 
-  run script glue/build/genus/iav/iavLoadIsolateData.js
-
+  
   # Import data from GenBank XML
   create module -f modules/build/genus/iav/iavGenbankXmlPopulator.xml
   module iavGenbankXmlPopulator populate
 
-  # Run segment recogniser
-  #run script glue/build/genus/iav/iavCheckSegments.js
+  # Link sequences to isolate table and load strain level data.
+  run script glue/build/genus/iav/iavLoadIsolateData.js
  
   # Define constrained alignment tree for extension project
-  run file glue/build/genus/iav/iavAlignmentTree.glue
+  #run file glue/build/genus/iav/iavAlignmentTree.glue
    
   # Validate
   validate
