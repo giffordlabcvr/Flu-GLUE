@@ -1,0 +1,13 @@
+<!-- NCBI import module for IAV subtype 'H3N4' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-5</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>CY101996</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/168/1994 -->
+		<primaryAccession>CY138001</primaryAccession> <!-- # A/American green-winged teal/Interior Alaska/10BM05439R0/2010 -->
+		<primaryAccession>MH502781</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI14-1868/2014 -->
+		<primaryAccession>MH134724</primaryAccession> <!-- # A/red-gartered coot/Chile/C16030/2016 -->
+		<primaryAccession>CY101185</primaryAccession> <!-- # A/shorebird/Delaware Bay/275/1994 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

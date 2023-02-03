@@ -1,0 +1,14 @@
+<!-- NCBI import module for IAV subtype 'H11N7' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-6</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MW857528</primaryAccession> <!-- # A/duck/Thailand/CU-16340C/2015 -->
+		<primaryAccession>CY102467</primaryAccession> <!-- # A/shorebird/Delaware Bay/204/1999 -->
+		<primaryAccession>CY127495</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/149/1999 -->
+		<primaryAccession>CY127570</primaryAccession> <!-- # A/shorebird/Delaware Bay/284/1999 -->
+		<primaryAccession>MT406971</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/2322/2015 -->
+		<primaryAccession>CY127562</primaryAccession> <!-- # A/shorebird/Delaware Bay/273/1999 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

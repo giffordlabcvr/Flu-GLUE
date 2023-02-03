@@ -1,0 +1,14 @@
+<!-- NCBI import module for IAV subtype 'H11N9' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-1</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MK535172</primaryAccession> <!-- # A/northern pintail/Ohio/06OS2067/2006 -->
+		<primaryAccession>KX703016</primaryAccession> <!-- # A/waterfowl/Korea/S353/2016 -->
+		<primaryAccession>MH991808</primaryAccession> <!-- # A/wild birds/Hubei/89/2014 -->
+		<primaryAccession>MK237302</primaryAccession> <!-- # A/mallard/Ohio/17OS5586/2017 -->
+		<primaryAccession>MK237428</primaryAccession> <!-- # A/common goldeneye/Wisconsin/17OS5294/2017 -->
+		<primaryAccession>MH251207</primaryAccession> <!-- # A/green-winged teal/California/UCD1370/2016 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

@@ -1,0 +1,13 @@
+<!-- NCBI import module for IAV subtype 'H12N6' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-6</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>CY089647</primaryAccession> <!-- # A/duck/Wisconsin/480/1979 -->
+		<primaryAccession>CY139552</primaryAccession> <!-- # A/American black duck/New Brunswick/00998/2010 -->
+		<primaryAccession>CY077160</primaryAccession> <!-- # A/mallard/Alberta/221/2006 -->
+		<primaryAccession>CY180694</primaryAccession> <!-- # A/mallard/Wisconsin/503/1976 -->
+		<primaryAccession>CY178961</primaryAccession> <!-- # A/mallard/Wisconsin/480/1979 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

@@ -1,0 +1,14 @@
+<!-- NCBI import module for IAV subtype 'H15N5' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-2</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MF147769</primaryAccession> <!-- # A/mallard duck/Sweden/139647/2012 -->
+		<primaryAccession>MF147706</primaryAccession> <!-- # A/mallard duck/Sweden/139703/2012 -->
+		<primaryAccession>MF146859</primaryAccession> <!-- # A/mallard duck/Sweden/139752/2012 -->
+		<primaryAccession>MF145708</primaryAccession> <!-- # A/mallard duck/Sweden/139937/2012 -->
+		<primaryAccession>MF146765</primaryAccession> <!-- # A/mallard duck/Sweden/139579/2012 -->
+		<primaryAccession>MF146780</primaryAccession> <!-- # A/mallard duck/Sweden/139899/2012 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

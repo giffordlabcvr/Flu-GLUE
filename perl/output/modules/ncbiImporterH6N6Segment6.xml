@@ -1,0 +1,15 @@
+<!-- NCBI import module for IAV subtype 'H6N6' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-6</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>LC497123</primaryAccession> <!-- # A/duck/Vietnam/HU9-455/2018 -->
+		<primaryAccession>LC497147</primaryAccession> <!-- # A/duck/Vietnam/HU9-521/2018 -->
+		<primaryAccession>LC497131</primaryAccession> <!-- # A/environment/Vietnam/HU9-503/2018 -->
+		<primaryAccession>LC497203</primaryAccession> <!-- # A/duck/Vietnam/HU9-999/2018 -->
+		<primaryAccession>LC500448</primaryAccession> <!-- # A/duck/Vietnam/HU10-1879/2018 -->
+		<primaryAccession>LC500408</primaryAccession> <!-- # A/duck/Vietnam/HU10-1743/2018 -->
+		<primaryAccession>LC497107</primaryAccession> <!-- # A/duck/Vietnam/HU9-211/2018 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

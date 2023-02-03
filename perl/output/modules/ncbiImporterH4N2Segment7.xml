@@ -1,0 +1,12 @@
+<!-- NCBI import module for IAV subtype 'H4N2' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-7</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MK237459</primaryAccession> <!-- # A/American green-winged teal/Ohio/17OS2031/2017 -->
+		<primaryAccession>MK237103</primaryAccession> <!-- # A/American green-winged teal/Wisconsin/17OS3907/2017 -->
+		<primaryAccession>MK237573</primaryAccession> <!-- # A/American green-winged teal/Ohio/17OS2016/2017 -->
+		<primaryAccession>MK237326</primaryAccession> <!-- # A/mallard/Wisconsin/17OS39012/2017 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

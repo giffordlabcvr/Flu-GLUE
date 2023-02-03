@@ -1,0 +1,15 @@
+<!-- NCBI import module for IAV subtype 'H11N3' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-3</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MK237266</primaryAccession> <!-- # A/northern pintail/Ohio/17OS5380/2017 -->
+		<primaryAccession>MK237896</primaryAccession> <!-- # A/mallard/Wisconsin/17OS3974/2017 -->
+		<primaryAccession>MK236648</primaryAccession> <!-- # A/northern pintail/Ohio/17OS3788/2017 -->
+		<primaryAccession>MK237137</primaryAccession> <!-- # A/mallard/Ohio/17OS5348/2017 -->
+		<primaryAccession>MK237885</primaryAccession> <!-- # A/American green-winged teal/Wisconsin/17OS4004/2017 -->
+		<primaryAccession>MK237758</primaryAccession> <!-- # A/mallard/Ohio/17OS3004/2017 -->
+		<primaryAccession>MK237973</primaryAccession> <!-- # A/blue-winged teal/Wisconsin/17OS3270/2017 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

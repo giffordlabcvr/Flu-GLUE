@@ -1,0 +1,14 @@
+<!-- NCBI import module for IAV subtype 'H15N9' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-3</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>KY635563</primaryAccession> <!-- # A/duck/Bangladesh/24704/2015 -->
+		<primaryAccession>CY005722</primaryAccession> <!-- # A/sooty tern/Western Australia/2190/1983 -->
+		<primaryAccession>KY635663</primaryAccession> <!-- # A/duck/Bangladesh/24697/2015 -->
+		<primaryAccession>CY005410</primaryAccession> <!-- # A/wedge-tailed shearwater/Western Australia/2576/1979 -->
+		<primaryAccession>CY005729</primaryAccession> <!-- # A/wedge-tailed shearwater/Western Australia/2327/1983 -->
+		<primaryAccession>GU052264</primaryAccession> <!-- # A/shearwater/Australia/2576/1979 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

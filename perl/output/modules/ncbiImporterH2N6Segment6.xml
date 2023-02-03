@@ -1,0 +1,17 @@
+<!-- NCBI import module for IAV subtype 'H2N6' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-6</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>OL355028</primaryAccession> <!-- # A/Mallard/Peru/M6/2019 -->
+		<primaryAccession>CY117335</primaryAccession> <!-- # A/mallard/Pennsylvania/9001/1984 -->
+		<primaryAccession>CY196123</primaryAccession> <!-- # A/mallard/Interior Alaska/11BM02987/2011 -->
+		<primaryAccession>CY121909</primaryAccession> <!-- # A/mallard/Sweden/58/2005 -->
+		<primaryAccession>MG241345</primaryAccession> <!-- # A/wild bird/Fujian/24/2017 -->
+		<primaryAccession>KY828669</primaryAccession> <!-- # A/mallard/California/UCD353/2014 -->
+		<primaryAccession>HM060031</primaryAccession> <!-- # A/thick-billed murre/Alaska/44145-199/2006 -->
+		<primaryAccession>CY205475</primaryAccession> <!-- # A/blue-winged teal/Texas/AI12-4454/2012 -->
+		<primaryAccession>CY097086</primaryAccession> <!-- # A/mallard/Iowa/3205/2009 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

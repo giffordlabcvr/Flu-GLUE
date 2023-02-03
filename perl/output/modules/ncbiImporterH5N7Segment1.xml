@@ -1,0 +1,12 @@
+<!-- NCBI import module for IAV subtype 'H5N7' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-1</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MW547553</primaryAccession> <!-- # A/aquatic bird/Jeonju/346/2009 -->
+		<primaryAccession>OL370708</primaryAccession> <!-- # A/red-necked stint/Victoria/14-0226-3505-36/2012 -->
+		<primaryAccession>OL371908</primaryAccession> <!-- # A/wild waterbird/Western Australia/AS19-1358-178/2019 -->
+		<primaryAccession>MF362100</primaryAccession> <!-- # A/Duck/Dongting/D76-1/2016 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

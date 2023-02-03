@@ -1,0 +1,13 @@
+<!-- NCBI import module for IAV subtype 'H2N3' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-4</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MK237637</primaryAccession> <!-- # A/greater scaup/Wisconsin/17OS5642/2017 -->
+		<primaryAccession>MK237244</primaryAccession> <!-- # A/greater scaup/Wisconsin/17OS5322/2017 -->
+		<primaryAccession>MK237264</primaryAccession> <!-- # A/blue-winged teal/Ohio/17OS1861/2017 -->
+		<primaryAccession>MK237763</primaryAccession> <!-- # A/greater scaup/Wisconsin/17OS5321/2017 -->
+		<primaryAccession>MK236924</primaryAccession> <!-- # A/common goldeneye/Wisconsin/17OS5750/2017 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

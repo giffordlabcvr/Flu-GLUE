@@ -1,0 +1,19 @@
+<!-- NCBI import module for IAV subtype 'H7N5' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-7</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>CY102109</primaryAccession> <!-- # A/shorebird/Delaware Bay/274/1994 -->
+		<primaryAccession>MW132317</primaryAccession> <!-- # A/mallard/California/UCD101390mdck/2016 -->
+		<primaryAccession>CY005009</primaryAccession> <!-- # A/mallard duck/ALB/224/1977 -->
+		<primaryAccession>KY635591</primaryAccession> <!-- # A/black-tailed godwit/Bangladesh/24734/2015 -->
+		<primaryAccession>MT407018</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/467_H191864/2017 -->
+		<primaryAccession>MW132267</primaryAccession> <!-- # A/mallard/California/SL01B72H7/2018 -->
+		<primaryAccession>MW132395</primaryAccession> <!-- # A/mallard/California/SL08B72H7/2018 -->
+		<primaryAccession>MZ717378</primaryAccession> <!-- # A/common murre/Iceland/5241/2016 -->
+		<primaryAccession>OL371490</primaryAccession> <!-- # A/wild waterbird/South Australia/17-6661506-14/2017 -->
+		<primaryAccession>CY120556</primaryAccession> <!-- # A/mallard/California/1390/2010 -->
+		<primaryAccession>MF147259</primaryAccession> <!-- # A/mallard duck/Netherlands/8/2014 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

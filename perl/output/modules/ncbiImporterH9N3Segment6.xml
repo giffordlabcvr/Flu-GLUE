@@ -1,0 +1,14 @@
+<!-- NCBI import module for IAV subtype 'H9N3' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-6</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>OL370585</primaryAccession> <!-- # A/grey teal/South Australia/17-3278836-7/2017 -->
+		<primaryAccession>OL370410</primaryAccession> <!-- # A/ruddy turnstone/King Island/11990/2017 -->
+		<primaryAccession>CY185563</primaryAccession> <!-- # A/Mediterranean gull/Republic of Georgia/1/2011 -->
+		<primaryAccession>CY185319</primaryAccession> <!-- # A/black-headed gull/Republic of Georgia/5/2011 -->
+		<primaryAccession>MG280236</primaryAccession> <!-- # A/mallard duck/Ohio/16OS0875/2016 -->
+		<primaryAccession>CY185547</primaryAccession> <!-- # A/black-headed gull/Republic of Georgia/8/2011 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

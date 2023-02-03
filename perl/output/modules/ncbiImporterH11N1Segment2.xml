@@ -1,0 +1,11 @@
+<!-- NCBI import module for IAV subtype 'H11N1' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-2</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MK627916</primaryAccession> <!-- # A/sanderling/Delaware Bay/41/2009 -->
+		<primaryAccession>MK627902</primaryAccession> <!-- # A/sanderling/Delaware Bay/38/2009 -->
+		<primaryAccession>MK627879</primaryAccession> <!-- # A/red knot/Delaware Bay/79/2009 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

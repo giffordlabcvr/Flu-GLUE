@@ -1,0 +1,22 @@
+<!-- NCBI import module for IAV subtype 'H6N9' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-1</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>CY004136</primaryAccession> <!-- # A/mallard duck/ALB/1151/1979 -->
+		<primaryAccession>CY109679</primaryAccession> <!-- # A/duck/Hunan/1590/2007 -->
+		<primaryAccession>MN988442</primaryAccession> <!-- # A/mallard/Minnesota/MN18-WB2-223A/2018 -->
+		<primaryAccession>CY097134</primaryAccession> <!-- # A/mallard/Ohio/2039/2009 -->
+		<primaryAccession>CY204063</primaryAccession> <!-- # A/green-winged teal/Ohio/14OS1103/2014 -->
+		<primaryAccession>CY077591</primaryAccession> <!-- # A/mallard/New Zealand/1365-350/2005 -->
+		<primaryAccession>KC599325</primaryAccession> <!-- # A/mallard/Czech Republic/15962-4T/2010 -->
+		<primaryAccession>JQ737234</primaryAccession> <!-- # A/mallard/Czech Republic/15962-1T/2010 -->
+		<primaryAccession>CY180523</primaryAccession> <!-- # A/duck/Minnesota/1/1975 -->
+		<primaryAccession>CY097108</primaryAccession> <!-- # A/mallard/Ohio/1686/2009 -->
+		<primaryAccession>HM145740</primaryAccession> <!-- # A/wild duck/Shantou/311/2001 -->
+		<primaryAccession>CY139638</primaryAccession> <!-- # A/mallard/Minnesota/Sg-00944/2008 -->
+		<primaryAccession>CY167045</primaryAccession> <!-- # A/northern pintail/Illinois/11OS4764/2011 -->
+		<primaryAccession>CY167077</primaryAccession> <!-- # A/long-tailed duck/Wisconsin/11OS4520/2011 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

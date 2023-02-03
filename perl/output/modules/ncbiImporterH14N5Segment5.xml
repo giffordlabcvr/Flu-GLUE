@@ -1,0 +1,14 @@
+<!-- NCBI import module for IAV subtype 'H14N5' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-5</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>KF986855</primaryAccession> <!-- # A/blue-winged teal/TX/AI13-1028/2013 -->
+		<primaryAccession>KY644311</primaryAccession> <!-- # A/blue-winged teal/Guatemala/CIP049H110-04/2012 -->
+		<primaryAccession>MK326657</primaryAccession> <!-- # A/blue-winged teal/Guatemala/CIP049-H117-38/2013 -->
+		<primaryAccession>MK327735</primaryAccession> <!-- # A/blue-winged teal/Guatemala/CIP049-H117-99/2013 -->
+		<primaryAccession>MK327703</primaryAccession> <!-- # A/blue-winged teal/Guatemala/CIP049-H117-36/2013 -->
+		<primaryAccession>CY130097</primaryAccession> <!-- # A/mallard/Astrakhan/263/1982 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

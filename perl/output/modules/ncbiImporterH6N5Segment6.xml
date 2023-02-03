@@ -1,0 +1,13 @@
+<!-- NCBI import module for IAV subtype 'H6N5' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-6</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MH352262</primaryAccession> <!-- # A/shoveller duck/Shanghai/PD1018-32/2017 -->
+		<primaryAccession>MK535127</primaryAccession> <!-- # A/American black duck/Ohio/06OS2051/2006 -->
+		<primaryAccession>MK830105</primaryAccession> <!-- # A/Aix galericulata/South Korea/K17-1638-5/2017 -->
+		<primaryAccession>MK345887</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/498/2018 -->
+		<primaryAccession>MK535151</primaryAccession> <!-- # A/mallard/Ohio/06OS2050/2006 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

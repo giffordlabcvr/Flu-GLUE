@@ -1,0 +1,12 @@
+<!-- NCBI import module for IAV subtype 'H10N1' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-2</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MK696421</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/416/2013 -->
+		<primaryAccession>MK627786</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/347/2009 -->
+		<primaryAccession>MK628052</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/474/2013 -->
+		<primaryAccession>MK627598</primaryAccession> <!-- # A/red knot/Delaware Bay/124/2013 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

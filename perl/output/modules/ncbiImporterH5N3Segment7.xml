@@ -1,0 +1,12 @@
+<!-- NCBI import module for IAV subtype 'H5N3' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-7</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MG386191</primaryAccession> <!-- # A/aquatic bird/South Korea/sw007/2015 -->
+		<primaryAccession>MK592576</primaryAccession> <!-- # A/duck/Mongolia/194/2011 -->
+		<primaryAccession>MK592464</primaryAccession> <!-- # A/duck/Akita/51019/2017 -->
+		<primaryAccession>MK357972</primaryAccession> <!-- # A/duck/Moscow/4182-C/2017 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

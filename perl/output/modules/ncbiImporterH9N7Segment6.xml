@@ -1,0 +1,12 @@
+<!-- NCBI import module for IAV subtype 'H9N7' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-6</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>KF591857</primaryAccession> <!-- # A/duck/Thailand/CU-8319T/2010 -->
+		<primaryAccession>CY125736</primaryAccession> <!-- # A/American green-winged teal/Interior Alaska/10BM16586R0/2010 -->
+		<primaryAccession>KR010429</primaryAccession> <!-- # A/Himantopus himantopus/Hebei/CZ-179/2014 -->
+		<primaryAccession>CY102534</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/261/1999 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
