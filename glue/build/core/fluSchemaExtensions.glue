@@ -1,6 +1,6 @@
 schema-project flu
 
-  create custom-table isolate  
+  create custom-table isolate --idFieldLength 200
   create custom-table host
 
   table sequence
@@ -41,7 +41,6 @@ schema-project flu
     create field strain VARCHAR 200  
     create field isolate VARCHAR 200
     create field iso_source VARCHAR 200
-    create field sample_date DATE
     create field iso_country VARCHAR 100
     create field iso_region VARCHAR 200
     create field iso_year INTEGER 
@@ -49,9 +48,8 @@ schema-project flu
     create field iso_day INTEGER
     create field iso_host VARCHAR 100
     create field lab_host VARCHAR 100
-    create field rec_cg_subtype VARCHAR 50
-    create field rec_hn_subtype VARCHAR 50
-    create field gb_hn_subtype VARCHAR 50
+    create field cg_subtype VARCHAR 50
+    create field hn_subtype VARCHAR 50
     # true if isolate has at least one "complete segment" sequence for each of the 8 segments
     create field complete_genome BOOLEAN
     
