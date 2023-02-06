@@ -1,7 +1,7 @@
 
 var segments = [ 1, 2, 3, 4, 5, 6, 7, 8 ];
 
-var species = [ 'IAV', 'IBV', 'ICV', 'IDV' ];
+var species = [ 'iav', 'ibv', 'icv', 'idv' ];
 
 _.each(species, function(virus) {
 
@@ -27,18 +27,21 @@ _.each(species, function(virus) {
 		
 				glue.command(["set", "link-target", "isolate", "custom-table-row/isolate/"+seqId]);
 				glue.log("INFO", "Sequence", seqId);
-				glue.command(["set", "field", "name", species]);
 				
-				if (species == 'IAV')				
+				if (virus == 'iav') {
+					glue.command(["set", "field", "name", 'IAV']);				
 					glue.command(["set", "field", "genus", 'Alphainfluenzavirus']);
 				}
-				if (species == 'IBV')				
+				if (virus == 'ibv') {			
+					glue.command(["set", "field", "name", 'IBV']);	
 					glue.command(["set", "field", "genus", 'Betainfluenzavirus']);
 				}
-				if (species == 'ICV')				
+				if (virus == 'icv') {
+					glue.command(["set", "field", "name", 'ICV']);	
 					glue.command(["set", "field", "genus", 'Gammainfluenzavirus']);
 				}
-				if (species == 'IDV')				
+				if (virus == 'idv') {			
+					glue.command(["set", "field", "name", 'IDV']);	
 					glue.command(["set", "field", "genus", 'Deltainfluenzavirus']);
 				}
 				
