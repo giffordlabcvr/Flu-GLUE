@@ -162,17 +162,6 @@ reference REF_S8_IAV_MASTER_NC_002020
 
 # Add feature locations
 reference REF_S1_IBV_CQ903172
-  add feature-location S1_whole_genome
-  feature-location S1_whole_genome add segment 1 2396
-  add feature-location S1_5UTR
-  feature-location S1_5UTR add segment 1 23
-  add feature-location PB2_B
-  feature-location PB2_B add segment 24 2336
-  add feature-location S1_3UTR
-  feature-location S1_3UTR add segment 2337 2396
-  exit  
-
-reference REF_S2_IBV_CQ903173
   add feature-location S2_whole_genome
   feature-location S2_whole_genome add segment 1 2368
   add feature-location S2_5UTR
@@ -182,6 +171,17 @@ reference REF_S2_IBV_CQ903173
   add feature-location S2_3UTR
   feature-location S2_3UTR add segment 2280 2368
   exit
+
+reference REF_S2_IBV_CQ903173
+  add feature-location S1_whole_genome
+  feature-location S1_whole_genome add segment 1 2396
+  add feature-location S1_5UTR
+  feature-location S1_5UTR add segment 1 23
+  add feature-location PB2_B
+  feature-location PB2_B add segment 24 2336
+  add feature-location S1_3UTR
+  feature-location S1_3UTR add segment 2337 2396
+  exit  
   
 reference REF_S3_IBV_CQ903174 
   add feature-location S3_whole_genome

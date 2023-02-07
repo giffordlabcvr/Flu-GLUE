@@ -19,14 +19,9 @@ _.each(strainObjs, function(strainObj) {
 	var strainPK = strainObjToStrainPK(strainObj);
 	glue.logInfo("strain public key", strainPK);
 
-	var completeGenomeSubtype = strainObj["cg_subtype"];
 	var virus = strainObj["virus_name"];
 	
-	var genomeSubtypeArray = completeGenomeSubtype.split("|");
-	//glue.logInfo("genomeSubtypeArray", genomeSubtypeArray); die;
-
 	glue.command(["create", "custom-table-row", "isolate", strainPK]);
-
 
 	_.each(segments, function(segment) {
 
@@ -92,6 +87,11 @@ _.each(strainObjs, function(strainObj) {
 
 			// Set the recogniser subtype field for IAV
 			if (virus == 'iav') {
+
+				var completeGenomeSubtype = strainObj["cg_subtype"];	
+				var genomeSubtypeArray = completeGenomeSubtype.split("|");
+				//glue.logInfo("genomeSubtypeArray", genomeSubtypeArray); die;
+
 				glue.inMode("sequence/"+sourceName+"/"+segmentSeqID, function() {
 			
 					var index = segment - 1;

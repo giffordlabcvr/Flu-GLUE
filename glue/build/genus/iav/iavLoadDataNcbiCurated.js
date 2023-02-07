@@ -22,8 +22,7 @@ _.each(segments, function(segment) {
 		glue.inMode("sequence/"+sourceName+"/"+seqId, function() {
 		
 			glue.command(["set", "link-target", "isolate", "custom-table-row/isolate/"+seqId]);
-			glue.log("INFO", "Curate Sequence", seqId);
-			die
+			glue.log("INFO", "Curated Sequence", seqId);
 			glue.command(["set", "field", "name", 'IAV']);
 			glue.command(["set", "field", "genus", 'Alphainfluenzavirus']);
 			

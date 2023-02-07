@@ -20,7 +20,7 @@ _.each(strainObjs, function(strainObj) {
 	i++;
 	
 	var strainPK = strainObjToStrainPK(strainObj);
-	
+
  	glue.command(["create", "custom-table-row", "isolate", strainPK]);
 
 
@@ -30,7 +30,7 @@ _.each(strainObjs, function(strainObj) {
 		var segmentSeqID = strainObj[key];		
 		var sourceName = 'iav-ncbi-curated-segment-' + segment;
 		
-		
+	
 		glue.inMode("custom-table-row/isolate/"+strainPK, function() {
 
 
@@ -64,12 +64,38 @@ _.each(strainObjs, function(strainObj) {
 
 			});
 
+			glue.command(["set", "field", 'complete_genome', 'TRUE']);
+
 		});
+		
+			
+		// Set the recogniser segment field
+		glue.inMode("sequence/"+sourceName+"/"+segmentSeqID, function() {
+
+			glue.command(["set", "field", "rec_segment", segment]);
+			
+		});
+
+		// Set the recogniser subtype field for IAV
+		if (virus == 'iav') {
+
+			var completeGenomeSubtype = strainObj["cg_subtype"];	
+			var genomeSubtypeArray = completeGenomeSubtype.split("|");
+			//glue.logInfo("genomeSubtypeArray", genomeSubtypeArray); die;
+
+			glue.inMode("sequence/"+sourceName+"/"+segmentSeqID, function() {
+
+				var index = segment - 1;
+				var recSubtype = genomeSubtypeArray[index];
+				glue.command(["set", "field", "rec_subtype", recSubtype]);				
+
+			});
+	
+		}		
 		
 	});
 
 });
-
 
 
 // Subroutines

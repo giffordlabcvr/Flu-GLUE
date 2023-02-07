@@ -12,24 +12,32 @@ project flu
   # Import reference sequences 
   run file glue/build/core/fluLoadSequenceData.glue
 
-  #  Load isolate-level data for reference sequences
-  run script glue/build/core/fluLoadIsolatesDataNcbiRefseqs.js
+  #  Load linked isolate-level data for reference sequences
+  run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
 
   # Define genome features
   run file glue/build/core/fluFeatures.glue
 
   # Create reference sequences
   run file glue/build/core/fluReferences.glue
-
+  run file glue/build/core/fluIavReferences.glue
+  
   # Define genome features
   run file glue/build/core/fluFeatureLocations.glue
 
   # Import root alignments
-  run file glue/build/core/fluAlignments.glue
+  run file glue/build/core/fluLoadUnconstrainedAlignments.glue
 
   # Define constrained alignment tree
-  run file glue/build/core/fluAlignmentTree.glue
+  run file glue/build/core/fluDefineConstrainedAlignmentTree.glue
+  run file glue/build/core/fluExtendAlignmentTreeIav.glue
+  
+  # Derive constrained alignments from unconstrained
+  run file glue/build/core/fluDeriveConstrainedRootAlignments.glue
 
+  # Compute IAV alignments
+  run file glue/build/core/fluComputeAlignmentsIav.glue
+   
   # Validate
   validate
 
