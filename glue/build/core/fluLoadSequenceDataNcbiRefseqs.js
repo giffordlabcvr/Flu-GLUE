@@ -30,7 +30,6 @@ _.each(species, function(virus) {
 			// for each sequence ID
 			_.each(seqIds, function(seqId) {
 
-				// associate the corresponding sequence with this object.
 				glue.inMode("sequence/"+sourceName+"/"+seqId, function() {
 			
 					if (virus == 'iav') {

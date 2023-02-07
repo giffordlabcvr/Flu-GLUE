@@ -1,13 +1,13 @@
  
   # IBV aligners
-  create module -f modules/genus/ibv/ibvCompoundAlignerS1.xml 
-  create module -f modules/genus/ibv/ibvCompoundAlignerS2.xml 
-  create module -f modules/genus/ibv/ibvCompoundAlignerS3.xml 
-  create module -f modules/genus/ibv/ibvCompoundAlignerS4.xml 
-  create module -f modules/genus/ibv/ibvCompoundAlignerS5.xml 
-  create module -f modules/genus/ibv/ibvCompoundAlignerS6.xml 
-  create module -f modules/genus/ibv/ibvCompoundAlignerS7.xml 
-  create module -f modules/genus/ibv/ibvCompoundAlignerS8.xml 
+  create module -f modules/build/genus/ibv/ibvCompoundAlignerS1.xml 
+  create module -f modules/build/genus/ibv/ibvCompoundAlignerS2.xml 
+  create module -f modules/build/genus/ibv/ibvCompoundAlignerS3.xml 
+  create module -f modules/build/genus/ibv/ibvCompoundAlignerS4.xml 
+  create module -f modules/build/genus/ibv/ibvCompoundAlignerS5.xml 
+  create module -f modules/build/genus/ibv/ibvCompoundAlignerS6.xml 
+  create module -f modules/build/genus/ibv/ibvCompoundAlignerS7.xml 
+  create module -f modules/build/genus/ibv/ibvCompoundAlignerS8.xml 
 
-  create module -f modules/genus/ibv/ibvSegmentRecogniser.xml 
+  create module -f modules/build/genus/ibv/ibvSegmentRecogniser.xml 
 

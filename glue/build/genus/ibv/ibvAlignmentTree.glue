@@ -1,107 +1,75 @@
-# Delete any previously created alignments of same name
-multi-delete alignment -w "name like 'IBV_SEG%'"
-
 # Create constrained alignment tree for curated sequence alignments
+
 alignment AL_ROOT_SEG_1-2_All_PB2
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-ibv' and gb_segment = 1"
-  
-  # Extract IBV 
-  extract child AL_IBV_SEG1   --refName REF_S1_IBV_CQ903172
-  demote member AL_IBV_SEG1   --whereClause "sequence.source.name = 'ncbi-nuccore-ibv'" 
-
+  add member -w "source.name = 'ibv-ncbi-curated-segment-1'"
+  demote member AL_IBV_SEG1 -w "sequence.source.name = 'ibv-ncbi-curated-segment-1'"
   exit
 
-
-# Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT_SEG_2-1_All_PB1
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-ibv' and gb_segment = 2"
-    
-  # Extract IBV 
-  extract child AL_IBV_SEG2   --refName REF_S2_IBV_CQ903173
-  demote member AL_IBV_SEG2   --whereClause "sequence.source.name = 'ncbi-nuccore-ibv'" 
-
+  add member -w "source.name = 'ibv-ncbi-curated-segment-2'"
+  demote member AL_IBV_SEG2 -w "sequence.source.name = 'ibv-ncbi-curated-segment-2'"
   exit
 
-
-# Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT_SEG_3_All_PA
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-ibv' and gb_segment = 3"
-    
-  # Extract IBV 
-  extract child AL_IBV_SEG3   --refName REF_S3_IBV_CQ903174
-  demote member AL_IBV_SEG3   --whereClause "sequence.source.name = 'ncbi-nuccore-ibv'" 
+  add member -w "source.name = 'ibv-ncbi-curated-segment-3'"
+  demote member AL_IBV_SEG3 -w "sequence.source.name = 'ibv-ncbi-curated-segment-3'"
   exit
 
-# Create constrained alignment tree for curated sequence alignmentsIDV
 alignment AL_ROOT_SEG_4_AB_HA
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-ibv' and gb_segment = 4"
-  
-  # Extract IBV 
-  extract child AL_IBV_SEG4   --refName REF_S4_IBV_CQ903175
-  demote member AL_IBV_SEG4   --whereClause "sequence.source.name = 'ncbi-nuccore-ibv'" 
+  add member -w "source.name = 'ibv-ncbi-curated-segment-4'"
+  demote member AL_IBV_SEG4 -w "sequence.source.name = 'ibv-ncbi-curated-segment-4'"
   exit
 
 
-# Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT_SEG_5_All_NP
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-ibv' and gb_segment = 5"
-    
-  # Extract IBV 
-  extract child AL_IBV_SEG5   --refName REF_S5_IBV_CQ903177
-  demote member AL_IBV_SEG5   --whereClause "sequence.source.name = 'ncbi-nuccore-ibv'" 
+  add member -w "source.name = 'ibv-ncbi-curated-segment-5'"
+  demote member AL_IBV_SEG5 -w "sequence.source.name = 'ibv-ncbi-curated-segment-5'"
   exit
 
 
-# Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT_SEG_6_AB_NA
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-ibv' and gb_segment = 6"
-  
-  # Extract IBV 
-  extract child AL_IBV_SEG6   --refName REF_S6_IBV_CQ903176
-  demote member AL_IBV_SEG6   --whereClause "sequence.source.name = 'ncbi-nuccore-ibv'" 
+  add member -w "source.name = 'ibv-ncbi-curated-segment-6'"
+  demote member AL_IBV_SEG6 -w "sequence.source.name = 'ibv-ncbi-curated-segment-6'"  
   exit
 
-# Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT_SEG_7_AB_M
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-ibv' and gb_segment = 7"
-  
-  # Extract IBV 
-  extract child AL_IBV_SEG7   --refName REF_S7_IBV_CQ903178
-  demote member AL_IBV_SEG7   --whereClause "sequence.source.name = 'ncbi-nuccore-ibv'" 
+  add member -w "source.name = 'ibv-ncbi-curated-segment-7'"
+  demote member AL_IBV_SEG7 -w "sequence.source.name = 'ibv-ncbi-curated-segment-7'"
   exit
 
-# Create constrained alignment tree for curated sequence alignments
+
 alignment AL_ROOT_SEG_8_AB_NS
 
   # Add segment members
-  add member -w "source.name = 'ncbi-nuccore-ibv' and gb_segment = 8"
-  
-  # Extract IBV 
-  extract child AL_IBV_SEG8   --refName REF_S8_IBV_CQ903179
-  demote member AL_IBV_SEG8   --whereClause "sequence.source.name = 'ncbi-nuccore-ibv'" 
+  add member -w "source.name = 'ibv-ncbi-curated-segment-8'"
+  demote member AL_IBV_SEG8 -w "sequence.source.name = 'ibv-ncbi-curated-segment-8'"
+
   exit
 
 
+
+
 # Compute IBV alignments 
-compute alignment AL_IBV_SEG1 IBVCompoundAlignerS1
-compute alignment AL_IBV_SEG2 IBVCompoundAlignerS2
-compute alignment AL_IBV_SEG3 IBVCompoundAlignerS3
-compute alignment AL_IBV_SEG4 IBVCompoundAlignerS4
-compute alignment AL_IBV_SEG5 IBVCompoundAlignerS5
-compute alignment AL_IBV_SEG6 IBVCompoundAlignerS6
-compute alignment AL_IBV_SEG7 IBVCompoundAlignerS7
-compute alignment AL_IBV_SEG8 IBVCompoundAlignerS8
+compute alignment AL_IBV_SEG1 ibvCompoundAlignerS1
+compute alignment AL_IBV_SEG2 ibvCompoundAlignerS2
+compute alignment AL_IBV_SEG3 ibvCompoundAlignerS3
+compute alignment AL_IBV_SEG4 ibvCompoundAlignerS4
+compute alignment AL_IBV_SEG5 ibvCompoundAlignerS5
+compute alignment AL_IBV_SEG6 ibvCompoundAlignerS6
+compute alignment AL_IBV_SEG7 ibvCompoundAlignerS7
+compute alignment AL_IBV_SEG8 ibvCompoundAlignerS8
+

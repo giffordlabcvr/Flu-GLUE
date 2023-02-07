@@ -11,7 +11,7 @@ project flu
   module genbankXmlPopulator populate -w "source.name like 'iav-ncbi-curated-segment-%'"
 
   # Link sequences to isolate table and load genus-level level data.
-  run script glue/build/genus/iav/iavLoadDataNcbiCurated.js
+  run script glue/build/genus/iav/iavLoadSequenceDataNcbiCurated.js
 
   # Link sequences to isolate table and load strain level data.
   run script glue/build/genus/iav/iavLoadIsolateDataNcbiCurated.js  
@@ -23,4 +23,3 @@ project flu
   validate
 
   exit
-s

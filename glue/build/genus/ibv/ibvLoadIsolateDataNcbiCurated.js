@@ -3,7 +3,7 @@ var segments = [ 1, 2, 3, 4, 5, 6, 7, 8 ];
 var strainObjs;
 
 glue.inMode("module/tabularUtility", function() {
-	strainObjs = glue.tableToObjects(glue.command(["load-tabular", "tabular/genus/iav/iav-strains.complete.out.tsv"]));
+	strainObjs = glue.tableToObjects(glue.command(["load-tabular", "tabular/genus/ibv/ibv-strains.complete.out.tsv"]));
 });
 //glue.logInfo("strainObjs", strainObjs);
 
@@ -26,7 +26,7 @@ _.each(strainObjs, function(strainObj) {
 
 		var key = 'segment' + segment + '_accession';
 		var segmentSeqID = strainObj[key];		
-		var sourceName = 'iav-ncbi-curated-segment-' + segment;
+		var sourceName = 'ibv-ncbi-curated-segment-' + segment;
 		
 	
 		glue.inMode("custom-table-row/isolate/"+strainPK, function() {
@@ -72,18 +72,6 @@ _.each(strainObjs, function(strainObj) {
 
 			glue.command(["set", "field", "rec_segment", segment]);
 			
-		});
-
-		var completeGenomeSubtype = strainObj["cg_subtype"];	
-		var genomeSubtypeArray = completeGenomeSubtype.split("|");
-		//glue.logInfo("genomeSubtypeArray", genomeSubtypeArray); die;
-
-		glue.inMode("sequence/"+sourceName+"/"+segmentSeqID, function() {
-
-			var index = segment - 1;
-			var recSubtype = genomeSubtypeArray[index];
-			glue.command(["set", "field", "rec_subtype", recSubtype]);				
-
 		});
 		
 		
