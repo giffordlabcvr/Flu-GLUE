@@ -17,6 +17,8 @@ _.each(strainObjs, function(strainObj) {
 	i++;
 
 	var strainPK = strainObjToStrainPK(strainObj);
+	glue.logInfo("strain public key", strainPK);
+
 	var completeGenomeSubtype = strainObj["cg_subtype"];
 	var virus = strainObj["virus_name"];
 	
@@ -114,9 +116,7 @@ _.each(strainObjs, function(strainObj) {
 function strainObjToStrainPK(strainObj) {
 	
 	var strainPK = strainObj["strain_id"];
-	glue.logInfo("strain public key", strainPK);
-
-	return strainPK.replace(/\//g, '_');
+	return strainPK.replace(/\//g, '|');
 	
 }
 

@@ -115,7 +115,7 @@
     derive segments AL_UNC_ROOT_SEG_6_CD -a --existingMembersOnly --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_ROOT_SEG_7_CD_NS
+  alignment AL_ROOT_SEG_7_AB_M
 	derive segments AL_UNC_ROOT_SEG_7_AB -a --existingMembersOnly --mergeStrategy OVERWRITE
 	exit
 
