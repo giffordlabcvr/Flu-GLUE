@@ -37,16 +37,14 @@ schema-project flu
 
 
   table isolate
-
-    create field strain VARCHAR 200  
-    create field isolate VARCHAR 200
+  
+    create field iso_host VARCHAR 100
     create field iso_source VARCHAR 200
     create field iso_country VARCHAR 100
     create field iso_region VARCHAR 200
     create field iso_year INTEGER 
     create field iso_month VARCHAR
     create field iso_day INTEGER
-    create field iso_host VARCHAR 100
     create field lab_host VARCHAR 100
     create field cg_subtype VARCHAR 50
     create field hn_subtype VARCHAR 50
