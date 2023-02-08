@@ -1,0 +1,34 @@
+delete module idvNcbiRefseqImporterSegment1
+delete module idvNcbiRefseqImporterSegment2
+delete module idvNcbiRefseqImporterSegment3
+delete module idvNcbiRefseqImporterSegment4
+delete module idvNcbiRefseqImporterSegment5
+delete module idvNcbiRefseqImporterSegment6
+delete module idvNcbiRefseqImporterSegment7
+
+# Create modules
+create module -f modules/build/genus/idv/downloads/idvNcbiRefseqImporterSegment1.xml
+create module -f modules/build/genus/idv/downloads/idvNcbiRefseqImporterSegment2.xml
+create module -f modules/build/genus/idv/downloads/idvNcbiRefseqImporterSegment3.xml
+create module -f modules/build/genus/idv/downloads/idvNcbiRefseqImporterSegment4.xml
+create module -f modules/build/genus/idv/downloads/idvNcbiRefseqImporterSegment5.xml
+create module -f modules/build/genus/idv/downloads/idvNcbiRefseqImporterSegment6.xml
+create module -f modules/build/genus/idv/downloads/idvNcbiRefseqImporterSegment7.xml
+
+# Download NCBI sequences 
+module idvNcbiRefseqImporterSegment1 import
+module idvNcbiRefseqImporterSegment2 import
+module idvNcbiRefseqImporterSegment3 import
+module idvNcbiRefseqImporterSegment4 import
+module idvNcbiRefseqImporterSegment5 import
+module idvNcbiRefseqImporterSegment6 import
+module idvNcbiRefseqImporterSegment7 import
+
+# Export sources 
+export source idv-ncbi-curated-segment-1
+export source idv-ncbi-curated-segment-2
+export source idv-ncbi-curated-segment-3
+export source idv-ncbi-curated-segment-4
+export source idv-ncbi-curated-segment-5
+export source idv-ncbi-curated-segment-6
+export source idv-ncbi-curated-segment-7

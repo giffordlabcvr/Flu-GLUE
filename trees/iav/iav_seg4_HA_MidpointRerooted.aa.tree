@@ -1,0 +1,160 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=58;
+	taxlabels
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY005988'[&cg_subtype="B8|E1|A10|H9|A11|N6|A|A",hn_subtype="H9N6",iso_country="USA",iso_host="Aves",iso_region="Delaware",iso_source="-",iso_year="1988",length=1742,pubmed_id="16439620",sequenceID="CY005988",strain="A/ruddy turnstone/DE/510/1988"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY006008'[&cg_subtype="B9|E1|A3|H12|A11|N5|B|A",hn_subtype="H12N5",iso_country="USA",iso_host="Aves",iso_region="Delaware",iso_source="-",iso_year="2000",length=1737,pubmed_id="16439620",sequenceID="CY006008",strain="A/ruddy turnstone/DE/97/2000"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY014679'[&cg_subtype="A3|E1|A7|H11|A8|N6|A|A",hn_subtype="H11N6",iso_country="United Kingdom",iso_host="Anseriformes sp.",iso_region="England",iso_source="-",iso_year="1956",length=1760,pubmed_id="16439620",sequenceID="CY014679",strain="A/duck/England/1956"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY067678'[&cg_subtype="B9|E1|A3|H7|A11|N9|B|A",hn_subtype="H7N9",iso_country="Guatemala",iso_host="Anas discors",iso_region="Santa Rosa",iso_source="cloacal swab",iso_year="2008",length=1731,pubmed_id="22427902",sequenceID="CY067678",strain="A/blue-winged teal/Guatemala/CIP049-02/2008"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY075054'[&cg_subtype="A3|D1|A11|H9|A8|N2|A|A",hn_subtype="H9N2",iso_country="China",iso_host="Sus scrofa",iso_region="Guangxi",iso_source="Nasal Swab",iso_year="2007",length=1742,pubmed_id="-",sequenceID="CY075054",strain="A/swine/Guangxi/10/2007"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY079171'[&cg_subtype="B4|E1|A11|H3|A11|N8|B|B",hn_subtype="H3N8",iso_country="USA",iso_host="Anas acuta",iso_region="Minto Flats, Interior Alaska",iso_source="-",iso_year="2008",length=1731,pubmed_id="-",sequenceID="CY079171",strain="A/northern pintail/Interior Alaska/8BM3731/2008"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY096648'[&cg_subtype="B9|E1|A3|H8|A11|N4|B|A",hn_subtype="H8N4",iso_country="Guatemala",iso_host="Anas discors",iso_region="Santa Rosa",iso_source="Cloacal swab",iso_year="2010",length=1744,pubmed_id="22427902",sequenceID="CY096648",strain="A/blue-winged teal/Guatemala/CIP049-04/2010"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY148243'[&cg_subtype="-",hn_subtype="-",iso_country="-",iso_host="-",iso_region="-",iso_source="-",iso_year="-",length=1724,pubmed_id="-",sequenceID="CY148243",strain="A/Puerto Rico/8/1934"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY241063'[&cg_subtype="B10|E1|A3|H10|A5|N2|B|B",hn_subtype="H10N2",iso_country="USA",iso_host="Environment",iso_region="Cape May Co., NJ",iso_source="-",iso_year="2016",length=1703,pubmed_id="-",sequenceID="CY241063",strain="A/environment/New Jersey/UGAI16-1117/2016"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/DQ376624'[&cg_subtype="A3|D1|A12|H6|A8|N1|A|A",hn_subtype="H6N1",iso_country="Taiwan",iso_host="Gallus gallus",iso_region="NULL",iso_source="-",iso_year="1999",length=1747,pubmed_id="17274295",sequenceID="DQ376624",strain="A/chicken/Taiwan/0705/99"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/EU030984'[&cg_subtype="B10|E1|A3|H7|A11|N3|B|A",hn_subtype="H7N3",iso_country="USA",iso_host="Leucophaeus atricilla",iso_region="NULL",iso_source="allantoic fluid harvested from an infected egg",iso_year="2006",length=1731,pubmed_id="17997603",sequenceID="EU030984",strain="A/laughing gull/Delaware/42/06"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KU322313'[&cg_subtype="B2|C1|A1|H3|A2|N2|B2|A",hn_subtype="H3N2",iso_country="Italy",iso_host="Homo sapiens",iso_region="NULL",iso_source="-",iso_year="2012",length=1738,pubmed_id="28791803",sequenceID="KU322313",strain="A/Parma/58/2012"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KX978114'[&cg_subtype="A5|D1|A12|H7|A8|N7|A|A",hn_subtype="H7N7",iso_country="Netherlands",iso_host="Anas platyrhynchos",iso_region="NULL",iso_source="-",iso_year="2009",length=1732,pubmed_id="-",sequenceID="KX978114",strain="A/mallard duck/Netherlands/2/2009"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KX978155'[&cg_subtype="A2|E1|A6|-|A7|N8|A|A",hn_subtype="HXN8",iso_country="Netherlands",iso_host="Chroicocephalus ridibundus",iso_region="NULL",iso_source="-",iso_year="2010",length=1766,pubmed_id="-",sequenceID="KX978155",strain="A/black-headed gull/Netherlands/10/2010"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KX978192'[&cg_subtype="A3|D1|A12|H10|A8|N7|A|B",hn_subtype="H10N7",iso_country="Netherlands",iso_host="Anas platyrhynchos",iso_region="NULL",iso_source="-",iso_year="2007",length=1728,pubmed_id="-",sequenceID="KX978192",strain="A/mallard duck/Netherlands/1/2007"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KY415628'[&cg_subtype="A5|D1|A12|H2|A8|N8|A|A",hn_subtype="H2N8",iso_country="China",iso_host="Columba livia",iso_region="NULL",iso_source="pigeon fecal",iso_year="2016",length=1730,pubmed_id="-",sequenceID="KY415628",strain="A/Pigeon/Longquan/LQ67/2016"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KY635574'[&cg_subtype="A5|D1|A12|H7|A8|N1|A|A",hn_subtype="H7N1",iso_country="Bangladesh",iso_host="Anas sp.",iso_region="NULL",iso_source="-",iso_year="2015",length=1635,pubmed_id="-",sequenceID="KY635574",strain="A/duck/Bangladesh/24692/2015"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KY644183'[&cg_subtype="B1|E1|A2|H2|A4|N2|B|A",hn_subtype="H2N2",iso_country="Chile",iso_host="Haematopus ater",iso_region="NULL",iso_source="-",iso_year="2016",length=1689,pubmed_id="-",sequenceID="KY644183",strain="A/blackish oystercatcher/Chile/C6534/2016"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KY990741'[&cg_subtype="B10|E1|A3|H12|A11|N5|B|A",hn_subtype="H12N5",iso_country="USA",iso_host="Anas platyrhynchos",iso_region="NULL",iso_source="-",iso_year="2016",length=1737,pubmed_id="-",sequenceID="KY990741",strain="A/mallard duck/California/UCD470/2016"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/LC029898'[&cg_subtype="A3|D1|A12|H8|A8|N2|A|A",hn_subtype="H8N2",iso_country="Japan",iso_host="Anseriformes sp.",iso_region="Hokkaido",iso_source="-",iso_year="2014",length=1704,pubmed_id="-",sequenceID="LC029898",strain="A/duck/Hokkaido/207/2014"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/LC042003'[&cg_subtype="B8|E1|A7|H2|A11|N3|B|A",hn_subtype="H2N3",iso_country="USA",iso_host="Anseriformes sp.",iso_region="Alaska",iso_source="-",iso_year="1994",length=1689,pubmed_id="-",sequenceID="LC042003",strain="A/duck/Alaska/5111/1994"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/LC371842'[&cg_subtype="A5|D1|A11|H2|A8|N2|A|B",hn_subtype="H2N2",iso_country="Japan",iso_host="Anseriformes sp.",iso_region="Hokkaido",iso_source="-",iso_year="2001",length=1758,pubmed_id="-",sequenceID="LC371842",strain="A/duck/Hokkaido/95/2001"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MF146364'[&cg_subtype="A2|E1|A6|-|A7|N8|A|A",hn_subtype="HXN8",iso_country="Netherlands",iso_host="Chroicocephalus ridibundus",iso_region="NULL",iso_source="-",iso_year="2008",length=1765,pubmed_id="-",sequenceID="MF146364",strain="A/black-headed gull/Netherlands/2/2008"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MF147944'[&cg_subtype="A2|E1|A12|-|A7|N6|A|A",hn_subtype="HXN6",iso_country="Netherlands",iso_host="Chroicocephalus ridibundus",iso_region="NULL",iso_source="-",iso_year="2012",length=1765,pubmed_id="-",sequenceID="MF147944",strain="A/black-headed gull/Netherlands/57/2012"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MF959966'[&cg_subtype="A4|D1|A12|H3|A8|N6|A|A",hn_subtype="H3N6",iso_country="Netherlands",iso_host="Anas platyrhynchos",iso_region="NULL",iso_source="-",iso_year="2001",length=1765,pubmed_id="-",sequenceID="MF959966",strain="A/mallard duck/Netherlands/3/2001"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MF978414'[&cg_subtype="B3|E1|A8|H7|A11|N2|B|B",hn_subtype="H7N2",iso_country="USA",iso_host="Felidae sp.",iso_region="NULL",iso_source="-",iso_year="2016",length=1709,pubmed_id="-",sequenceID="MF978414",strain="A/feline/New York/WVDL-16/2016"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH134842'[&cg_subtype="B1|E1|A2|H12|A4|N5|B|B",hn_subtype="H12N5",iso_country="Chile",iso_host="Anas georgica",iso_region="NULL",iso_source="-",iso_year="2016",length=1737,pubmed_id="-",sequenceID="MH134842",strain="A/yellow-billed pintail/Chile/C14831/2016"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH502282'[&cg_subtype="B10|E1|A7|H10|A11|N2|B|A",hn_subtype="H10N2",iso_country="USA",iso_host="Arenaria interpres",iso_region="New Jersey",iso_source="feces",iso_year="2013",length=1703,pubmed_id="-",sequenceID="MH502282",strain="A/ruddy turnstone/New Jersey/AI13-2544/2013"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH569263'[&cg_subtype="B9|E1|A3|H3|A11|N7|B|A",hn_subtype="H3N7",iso_country="USA",iso_host="Anser canagicus",iso_region="Alaska",iso_source="Environmental (feces)",iso_year="2015",length=1701,pubmed_id="-",sequenceID="MH569263",strain="A/emperor goose/Alaska/UGAI15-8445/2015"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH578773'[&cg_subtype="B5|E1|A10|H9|A11|N1|A|A",hn_subtype="H9N1",iso_country="USA",iso_host="Arenaria interpres",iso_region="NULL",iso_source="-",iso_year="2003",length=1683,pubmed_id="-",sequenceID="MH578773",strain="A/ruddy turnstone/Delaware Bay/95/2003"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH579159'[&cg_subtype="B9|E1|A10|H12|A11|N1|B|A",hn_subtype="H12N1",iso_country="USA",iso_host="Arenaria interpres",iso_region="NULL",iso_source="-",iso_year="2007",length=1695,pubmed_id="-",sequenceID="MH579159",strain="A/ruddy turnstone/Delaware Bay/554/2007"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH596891'[&cg_subtype="B5|E1|A3|H7|A11|N3|B|A",hn_subtype="H7N3",iso_country="USA",iso_host="Arenaria interpres",iso_region="Delaware",iso_source="feces;SPF ECE",iso_year="2002",length=1735,pubmed_id="-",sequenceID="MH596891",strain="A/ruddy turnstone/Delaware/650622/2002"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH598157'[&cg_subtype="B9|E1|A3|H12|A11|N5|B|A",hn_subtype="H12N5",iso_country="USA",iso_host="Arenaria interpres",iso_region="New Jersey",iso_source="feces;SPF ECE",iso_year="2000",length=1712,pubmed_id="-",sequenceID="MH598157",strain="A/ruddy turnstone/New Jersey/AI00-1091/2000"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH613320'[&cg_subtype="B9|E1|A7|H11|A11|N8|B|B",hn_subtype="H11N8",iso_country="USA",iso_host="Arenaria interpres",iso_region="NULL",iso_source="-",iso_year="2005",length=1698,pubmed_id="-",sequenceID="MH613320",strain="A/ruddy turnstone/Delaware Bay/446/2005"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MK077424'[&cg_subtype="B2|C1|A1|H3|A2|N2|B2|A",hn_subtype="H3N2",iso_country="USA",iso_host="Homo sapiens",iso_region="New York",iso_source="-",iso_year="2018",length=1737,pubmed_id="-",sequenceID="MK077424",strain="A/New York/40/2018"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MN055195'[&cg_subtype="B9|A1|A2|H11|A11|N2|B|A",hn_subtype="H11N2",iso_country="Chile",iso_host="Pygoscelis antarcticus",iso_region="NULL",iso_source="feces",iso_year="2018",length=1757,pubmed_id="-",sequenceID="MN055195",strain="A/chinstrap penguin/Antarctica/HP04/2018"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MN988214'[&cg_subtype="B10|E1|A3|H2|A11|N3|B|A",hn_subtype="H2N3",iso_country="USA",iso_host="Anas platyrhynchos",iso_region="Minnesota",iso_source="oropharyngeal/cloacal swab pool from individual bird",iso_year="2018",length=1689,pubmed_id="-",sequenceID="MN988214",strain="A/mallard/Minnesota/MN18-WB1-025A/2018"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW109584'[&cg_subtype="A4|D1|A5|H6|A8|N6|A|A",hn_subtype="H6N6",iso_country="China",iso_host="Environment",iso_region="Jiangxi",iso_source="swab",iso_year="2017",length=1701,pubmed_id="-",sequenceID="MW109584",strain="A/environment/Jiangxi/2.16_SRGFYK103-E/2017"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW333286'[&cg_subtype="A5|D1|A12|H5|A8|N8|A|A",hn_subtype="H5N8",iso_country="Taiwan",iso_host="Gallus gallus",iso_region="Kaohsiung",iso_source="brain",iso_year="2016",length=1776,pubmed_id="33932612",sequenceID="MW333286",strain="A/chicken/Kaohsiung/16040021-1/2016"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW342700'[&cg_subtype="A5|D1|A12|H5|A8|N8|A|A",hn_subtype="H5N8",iso_country="Japan",iso_host="Mareca falcata",iso_region="Kagoshima",iso_source="feces",iso_year="2020",length=1704,pubmed_id="-",sequenceID="MW342700",strain="A/falcated duck/Kagoshima/KU-d3/2020"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW547678'[&cg_subtype="A5|D1|A12|H10|A8|N9|A|B",hn_subtype="H10N9",iso_country="South Korea",iso_host="Aves",iso_region="Gunsan",iso_source="Geumgang",iso_year="2006",length=1686,pubmed_id="-",sequenceID="MW547678",strain="A/aquatic bird/Gunsan/145/2006"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW848663'[&cg_subtype="A3|D1|A4|H1|A8|N2|A|A",hn_subtype="H1N2",iso_country="Spain",iso_host="Sus scrofa",iso_region="NULL",iso_source="Lungs",iso_year="2019",length=1778,pubmed_id="-",sequenceID="MW848663",strain="A/swine/Spain/25001-2/2019"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW857526'[&cg_subtype="A5|D1|A12|H11|A6|N7|B|A",hn_subtype="H11N7",iso_country="Thailand",iso_host="Anseriformes sp.",iso_region="NULL",iso_source="cloacal swab",iso_year="2015",length=1639,pubmed_id="-",sequenceID="MW857526",strain="A/duck/Thailand/CU-16340C/2015"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW875653'[&cg_subtype="B10|E1|A11|H4|A11|N9|B|A",hn_subtype="H4N9",iso_country="USA",iso_host="Arenaria interpres",iso_region="NULL",iso_source="feces",iso_year="2020",length=1713,pubmed_id="-",sequenceID="MW875653",strain="A/ruddy turnstone/Delaware Bay/235/2020"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW876042'[&cg_subtype="B10|E1|A3|H11|A11|N3|B|A",hn_subtype="H11N3",iso_country="USA",iso_host="Arenaria interpres",iso_region="NULL",iso_source="feces",iso_year="2020",length=1735,pubmed_id="-",sequenceID="MW876042",strain="A/ruddy turnstone/Delaware Bay/209/2020"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW876090'[&cg_subtype="B10|E1|A11|H12|A11|N1|B|A",hn_subtype="H12N1",iso_country="USA",iso_host="Arenaria interpres",iso_region="NULL",iso_source="feces",iso_year="2020",length=1712,pubmed_id="-",sequenceID="MW876090",strain="A/ruddy turnstone/Delaware Bay/218/2020"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MZ565044'[&cg_subtype="B9|E1|A10|H5|A10|N2|B3|B",hn_subtype="H5N2",iso_country="Mexico",iso_host="Gallus gallus",iso_region="Jalisco",iso_source="cloacal swab",iso_year="2019",length=1695,pubmed_id="-",sequenceID="MZ565044",strain="A/chicken/Jalisco/CPA-06432-19/2019"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MZ565340'[&cg_subtype="B9|E1|A10|H5|A10|N2|B3|B",hn_subtype="H5N2",iso_country="Mexico",iso_host="Gallus gallus",iso_region="Queretaro",iso_source="tracheal swab",iso_year="2019",length=1695,pubmed_id="-",sequenceID="MZ565340",strain="A/chicken/Queretaro/CPA-03805-19/2019"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MZ565610'[&cg_subtype="B4|D1|A12|H2|A8|N7|A|A",hn_subtype="H2N7",iso_country="Iceland",iso_host="Larus fuscus",iso_region="NULL",iso_source="cloacal swab",iso_year="2012",length=1770,pubmed_id="-",sequenceID="MZ565610",strain="A/lesser black-backed gull/Iceland/1656/2012"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MZ945740'[&cg_subtype="A3|D1|A4|H1|A8|N2|B|A",hn_subtype="H1N2",iso_country="Spain",iso_host="Sus scrofa",iso_region="NULL",iso_source="nasal swab",iso_year="2017",length=1777,pubmed_id="-",sequenceID="MZ945740",strain="A/swine/Spain/45600-2/2017"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/NC_002017'[&cg_subtype="B2|A1|A1|H1|A2|N1|B|A",hn_subtype="H1N1",iso_country="USA",iso_host="Homo sapiens",iso_region="Puerto Rico",iso_source="nasal swab",iso_year="1934",length=1778,pubmed_id="7278968",sequenceID="NC_002017",strain="A/Puerto Rico/8/1934"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/NC_007366'[&cg_subtype="B2|C1|A1|H3|A2|N2|B2|A",hn_subtype="H3N2",iso_country="USA",iso_host="Homo sapiens",iso_region="Tompkins County, NY",iso_source="gender:M; age:16y",iso_year="2004",length=1762,pubmed_id="-",sequenceID="NC_007366",strain="A/New York/392/2004"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/OL370767'[&cg_subtype="A5|D1|A12|H12|A8|N5|A|A",hn_subtype="H12N5",iso_country="Australia",iso_host="Arenaria interpres",iso_region="Tasmania, King Island",iso_source="pooled cloacal and oropharyngeal swab",iso_year="2018",length=1695,pubmed_id="-",sequenceID="OL370767",strain="A/ruddy turnstone/King Island/13149/2018"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/OL371255'[&cg_subtype="A3|B1|A12|H5|A9|N9|A|A",hn_subtype="H5N9",iso_country="Australia",iso_host="Anseriformes sp.",iso_region="Victoria",iso_source="pooled fecal swabs",iso_year="2014",length=1692,pubmed_id="-",sequenceID="OL371255",strain="A/wild duck/Victoria/14-0961-1/2014"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/OL371511'[&cg_subtype="A3|B1|A12|H9|A9|N5|A|A",hn_subtype="H9N5",iso_country="Australia",iso_host="Aves",iso_region="South Australia",iso_source="pooled fecal swabs",iso_year="2018",length=1683,pubmed_id="-",sequenceID="OL371511",strain="A/wild waterbird/South Australia/18-9201854-12/2018"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/OL371655'[&cg_subtype="A5|D1|A12|H1|A11|N7|A|A",hn_subtype="H1N7",iso_country="Australia",iso_host="Aves",iso_region="Tasmania",iso_source="pooled fecal swabs",iso_year="2018",length=1701,pubmed_id="-",sequenceID="OL371655",strain="A/wild waterbird/Tasmania/18-1081-5/2018"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/OM373270'[&cg_subtype="A5|D1|A12|H10|A8|N8|A|A",hn_subtype="H10N8",iso_country="China",iso_host="Anseriformes sp.",iso_region="Shandong province",iso_source="-",iso_year="2020",length=1686,pubmed_id="-",sequenceID="OM373270",strain="A/swan/Shandong/W3875/2020"]
+	'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/OM966127'[&cg_subtype="B10|E1|A11|H10|A11|N9|B|A",hn_subtype="H10N9",iso_country="USA",iso_host="Arenaria interpres",iso_region="NULL",iso_source="feces",iso_year="2021",length=1703,pubmed_id="-",sequenceID="OM966127",strain="A/Ruddy Turnstone/Delaware/49/2021"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KU322313':0.013448,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MK077424':0.04799)[&label=88]:0.013417,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/NC_007366':0.013006)[&label=100]:0.133274,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MF959966':0.027543,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH569263':0.015516,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY079171':0.006832)[&label=73]:0.003925)[&label=86]:0.05326)[&label=100]:0.330658,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW875653':0.271758)[&label=100]:0.441345,((('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KY635574':0.011101,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KX978114':0.014376)[&label=100]:0.064302,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY067678':0.005549,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/EU030984':0.017556,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MF978414':0.08647)[&label=83]:0.012709)[&label=100]:0.105565)[&label=100]:0.3196,(('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW547678':0.009253,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KX978192':0.015363)[&label=99]:0.069892,(('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/OM966127':0.013552,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH502282':0.005893,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY241063':0.013995)[&label=31]:1.0E-6)[&label=63]:0.007389,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/OM373270':0.005567)[&label=64]:0.016423)[&label=99]:0.258675)[&label=100]:0.51129)[&label=100]:0.40951,((('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW109584':0.080604,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/DQ376624':0.102045)[&label=100]:0.321934,(('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/OL371655':0.046797,(('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MZ945740':0.053305,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW848663':0.08199)[&label=100]:0.095425,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/NC_002017':1.0E-6,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY148243':0.019582)[&label=80]:0.043001)[&label=100]:0.097484)[&label=100]:0.197189,((('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KY415628':0.004159,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/LC371842':0.018366)[&label=100]:0.024867,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MN988214':0.004,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KY644183':1.0E-6,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MZ565610':0.037409,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/LC042003':0.012276)[&label=28]:0.005948)[&label=36]:0.006119)[&label=67]:0.019971)[&label=100]:0.156471,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/OL371255':0.041042,(('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW342700':0.032931,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW333286':0.019083)[&label=100]:0.096833,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MZ565044':0.027023,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MZ565340':0.009658)[&label=100]:0.145469)[&label=68]:0.034674)[&label=100]:0.129747)[&label=100]:0.190217)[&label=99]:0.128111)[&label=100]:0.19742,(((('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/LC029898':0.00568,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY096648':0.035693)[&label=100]:0.387908,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/OL370767':0.027819,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH134842':0.018173,(('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH579159':0.013902,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY006008':0.004015,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH598157':0.001998)[&label=96]:0.002293)[&label=28]:0.003645,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW876090':0.014292,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KY990741':0.016327)[&label=65]:0.004712)[&label=31]:0.007113)[&label=52]:0.026652)[&label=100]:0.252792)[&label=98]:0.165781,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY005988':0.031918,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH578773':0.050767,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/OL371511':0.016661,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY075054':0.090494)[&label=51]:0.0061)[&label=24]:0.006104)[&label=100]:0.226863)[&label=99]:0.444158,(('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MN055195':0.043286,(('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/CY014679':0.026224,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW857526':0.019976)[&label=75]:0.002384,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MW876042':0.034346,('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH613320':0.010273,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MH596891':0.005476)[&label=99]:0.037408)[&label=83]:0.040749)[&label=68]:0.042159)[&label=100]:0.235787,(('alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MF146364':0.003961,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/KX978155':0.004137)[&label=99]:0.017135,'alignment/AL_IAV_SEG4/member/iav-ncbi-refseqs-seg4/MF147944':0.018211)[&label=100]:0.566882)[&label=64]:0.156558)[&label=78]:0.087219)[&label=100]:0.324385);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="hn_subtype";
+	set tipLabels.displayAttribute="iso_host";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

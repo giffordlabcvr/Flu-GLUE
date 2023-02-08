@@ -33,12 +33,13 @@ project flu
   run file glue/build/core/fluExtendAlignmentTreeIav.glue
   run file glue/build/core/fluExtendAlignmentTreeIbv.glue
   run file glue/build/core/fluExtendAlignmentTreeIcv.glue
-        
+  run file glue/build/core/fluExtendAlignmentTreeIdv.glue
+
   # Derive constrained alignments from unconstrained
   run file glue/build/core/fluDeriveConstrainedRootAlignments.glue
 
   # Compute IAV alignments
-  #run file glue/build/core/fluComputeAlignmentsIav.glue
+  run file glue/build/core/fluComputeAlignmentsIav.glue
    
   # Validate
   validate

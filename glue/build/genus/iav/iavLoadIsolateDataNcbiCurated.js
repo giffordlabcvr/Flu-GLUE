@@ -97,9 +97,7 @@ _.each(strainObjs, function(strainObj) {
 function strainObjToStrainPK(strainObj) {
 	
 	var strainPK = strainObj["strain_id"];
-	glue.logInfo("strainObj.strain", strainPK);
-
-	return strainPK.replace(/\//g, '_');
+	return strainPK.replace(/\//g, '|');
 	
 }
 

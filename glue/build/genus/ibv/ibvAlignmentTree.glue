@@ -64,8 +64,8 @@ alignment AL_ROOT_SEG_8_AB_NS
 
 
 # Compute IBV alignments 
-compute alignment AL_IBV_SEG1 ibvCompoundAlignerS1
-compute alignment AL_IBV_SEG2 ibvCompoundAlignerS2
+#compute alignment AL_IBV_SEG1 ibvCompoundAlignerS1
+#compute alignment AL_IBV_SEG2 ibvCompoundAlignerS2
 compute alignment AL_IBV_SEG3 ibvCompoundAlignerS3
 compute alignment AL_IBV_SEG4 ibvCompoundAlignerS4
 compute alignment AL_IBV_SEG5 ibvCompoundAlignerS5
