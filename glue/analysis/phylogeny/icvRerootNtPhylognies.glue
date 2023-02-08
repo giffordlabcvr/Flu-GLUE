@@ -1,0 +1,42 @@
+  delete module fluPhyloUtility
+  create module -f modules/analysis/phylogeny/fluPhyloUtility.xml
+
+
+  module fluPhyloUtility 
+	reroot-phylogeny \
+      --inputFile trees/icv/icv_seg1.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/icv/icv_seg1MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/icv/icv_seg2.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/icv/icv_seg2MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/icv/icv_seg3.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/icv/icv_seg3MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/icv/icv_seg4.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/icv/icv_seg4MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/icv/icv_seg5.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/icv/icv_seg5MidpointRerooted.tree NEWICK_BOOTSTRAPS
+ 
+	reroot-phylogeny \
+      --inputFile trees/icv/icv_seg6.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/icv/icv_seg6MidpointRerooted.tree NEWICK_BOOTSTRAPS
+ 
+	reroot-phylogeny \
+      --inputFile trees/icv/icv_seg7.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/icv/icv_seg7MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+

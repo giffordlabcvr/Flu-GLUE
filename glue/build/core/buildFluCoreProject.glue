@@ -20,8 +20,9 @@ project flu
 
   # Create reference sequences
   run file glue/build/core/fluReferences.glue
-  run file glue/build/core/fluIavReferences.glue
-  
+  run file glue/build/core/fluReferencesIav.glue
+  #run file glue/build/core/fluReferencesIbv.glue
+
   # Define genome features
   run file glue/build/core/fluFeatureLocations.glue
 
