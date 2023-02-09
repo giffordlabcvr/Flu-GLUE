@@ -1,0 +1,19 @@
+
+  # Scan for variations 
+  run script glue/analysis/lineage/ifnlScanVariations.js
+
+  # Do entropy analysis
+  create module -f modules/lineage/ifnlCalculateEntropy.xml
+  console set cmd-output-file-format tab
+  
+  console set next-cmd-output-file export/ifnl-mammal-a-entropy.tsv 
+  module ifnlCalculateEntropy
+    invoke-function calculateEntropy REF_IFNL_Mammal_a AL_IFNL_MAMMAL_A orf
+    exit
+
+  console set next-cmd-output-file export/ifnl-mammal-b-entropy.tsv 
+  module ifnlCalculateEntropy
+    invoke-function calculateEntropy REF_IFNL_Mammal_b_MASTER AL_IFNL_MAMMAL_B orf
+    exit
+
+

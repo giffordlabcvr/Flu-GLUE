@@ -7,94 +7,35 @@
   create module -f modules/analysis/phylogeny/fluFigTreeAnnotationExporter.xml
 
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_IAV_SEG1 -a -o trees/iav/iav_seg1.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_IAV_SEG1 -a -o trees/iav/iav_seg1.nt.tre NEWICK_BOOTSTRAPS 
     exit
 
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_IAV_SEG2 -a -o trees/iav/iav_seg2.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_IAV_SEG2 -a -o trees/iav/iav_seg2.nt.tre NEWICK_BOOTSTRAPS 
     exit
 
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_IAV_SEG3 -a -o trees/iav/iav_seg3.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_IAV_SEG3 -a -o trees/iav/iav_seg3.nt.tre NEWICK_BOOTSTRAPS 
     exit
 
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_IAV_SEG4 -a -o trees/iav/iav_seg4.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_IAV_SEG4 -a -o trees/iav/iav_seg4.nt.tre NEWICK_BOOTSTRAPS 
     exit
 
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_IAV_SEG5 -a -o trees/iav/iav_seg5.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_IAV_SEG5 -a -o trees/iav/iav_seg5.nt.tre NEWICK_BOOTSTRAPS 
     exit
 
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_IAV_SEG6 -a -o trees/iav/iav_seg6.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_IAV_SEG6 -a -o trees/iav/iav_seg6.nt.tre NEWICK_BOOTSTRAPS 
     exit
 
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_IAV_SEG7 -a -o trees/iav/iav_seg7.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_IAV_SEG7 -a -o trees/iav/iav_seg7.nt.tre NEWICK_BOOTSTRAPS 
     exit
 
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_IAV_SEG8 -a -o trees/iav/iav_seg8.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_IAV_SEG8 -a -o trees/iav/iav_seg8.nt.tre NEWICK_BOOTSTRAPS 
     exit
 
 
-  module fluPhyloUtility
-  
-	reroot-phylogeny \
-      --inputFile trees/iav/iav_seg1.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/iav/iav_seg1MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/iav/iav_seg2.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/iav/iav_seg2MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/iav/iav_seg3.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/iav/iav_seg3MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/iav/iav_seg4.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/iav/iav_seg4MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/iav/iav_seg5.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/iav/iav_seg5MidpointRerooted.tree NEWICK_BOOTSTRAPS
- 
-	reroot-phylogeny \
-      --inputFile trees/iav/iav_seg6.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/iav/iav_seg6MidpointRerooted.tree NEWICK_BOOTSTRAPS
- 
-	reroot-phylogeny \
-      --inputFile trees/iav/iav_seg7.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/iav/iav_seg7MidpointRerooted.tree NEWICK_BOOTSTRAPS
- 
-	reroot-phylogeny \
-      --inputFile trees/iav/iav_seg8.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/iav/iav_seg8MidpointRerooted.tree NEWICK_BOOTSTRAPS
- 
-    exit
-
-
-  module fluFigTreeAnnotationExporter 
-
-    export figtree-annotation AL_IAV_SEG1 -f trees/iav/iav_seg1_annotations.tsv
-    export figtree-annotation AL_IAV_SEG2 -f trees/iav/iav_seg2_annotations.tsv
-    export figtree-annotation AL_IAV_SEG3 -f trees/iav/iav_seg3_annotations.tsv
-    export figtree-annotation AL_IAV_SEG4 -f trees/iav/iav_seg4_annotations.tsv
-    export figtree-annotation AL_IAV_SEG5 -f trees/iav/iav_seg5_annotations.tsv
-    export figtree-annotation AL_IAV_SEG6 -f trees/iav/iav_seg6_annotations.tsv
-    export figtree-annotation AL_IAV_SEG7 -f trees/iav/iav_seg7_annotations.tsv
-    export figtree-annotation AL_IAV_SEG8 -f trees/iav/iav_seg8_annotations.tsv
-
-  exit
-  
-  

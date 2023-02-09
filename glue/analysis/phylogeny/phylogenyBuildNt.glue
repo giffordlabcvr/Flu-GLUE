@@ -1,8 +1,8 @@
   
   # Alphainfluenzavirus
   #run file glue/analysis/phylogeny/iavReconstructNtPhylogenies.glue
-  #run file glue/analysis/phylogeny/iavMidpointRootPhylogeniesNt.glue
-  #run file glue/analysis/phylogeny/iavExportFigTreeAnnotationsNt.
+  #run file glue/analysis/phylogeny/iavMidpointRootNtPhylogenies.glue
+  #run file glue/analysis/phylogeny/iavExportFigTreeAnnotationsNt.glue
   
   # Betainfluenzavirus
   #run file glue/analysis/phylogeny/ibvReconstructNtPhylogenies.glue
@@ -11,10 +11,10 @@
   
   # Gammainfluenzavirus
   #run file glue/analysis/phylogeny/icvReconstructNtPhylogenies.glue
-  run file glue/analysis/phylogeny/icvMidpointRootNtPhylogenies.glue
-  run file glue/analysis/phylogeny/icvExportFigTreeAnnotationsNt.glue
+  #run file glue/analysis/phylogeny/icvMidpointRootNtPhylogenies.glue
+  #run file glue/analysis/phylogeny/icvExportFigTreeAnnotationsNt.glue
   
   # Deltainfluenzavirus
-  #run file glue/analysis/phylogeny/idvReconstructNtPhylogenies.glue
-  #run file glue/analysis/phylogeny/idvMidpointRootNtPhylogenies.glue
-  #run file glue/analysis/phylogeny/idvExportFigTreeAnnotationsNt.glue
+  run file glue/analysis/phylogeny/idvReconstructNtPhylogenies.glue
+  run file glue/analysis/phylogeny/idvMidpointRootNtPhylogenies.glue
+  run file glue/analysis/phylogeny/idvExportFigTreeAnnotationsNt.glue
