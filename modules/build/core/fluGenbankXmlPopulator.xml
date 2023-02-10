@@ -166,7 +166,7 @@
                 </valueConverter>
 
 				<valueConverter>
-                    <matchPattern>.*[mM]eleagris.*</matchPattern>
+                    <matchPattern>.*^[mM]eleagris$.*</matchPattern>
                     <outputTemplate>Meleagris sp.</outputTemplate>
                 </valueConverter>
                 
