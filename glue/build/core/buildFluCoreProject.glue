@@ -41,8 +41,14 @@ project flu
 
   # Compute IAV alignments
   run file glue/build/core/fluComputeAlignmentsIav.glue
-   
+
+  # Define variations
+  run file glue/build/core/iavVariations.glue
+  run file glue/build/core/ibvVariations.glue
+  run file glue/build/core/icvVariations.glue
+  #run file glue/build/core/idvVariations.glue
+
   # Validate
   validate
 
-  exit
+exit

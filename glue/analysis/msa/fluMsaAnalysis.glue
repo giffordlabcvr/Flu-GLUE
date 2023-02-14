@@ -2,28 +2,3 @@
   # Scan for variations 
   run script glue/analysis/lineage/fluScanVariations.js
 
-  # Do entropy analysis
-  create module -f modules/lineage/fluCalculateEntropy.xml
-  console set cmd-output-file-format tab
-  
-  console set next-cmd-output-file iav-segment-1-entropy.tsv 
-  module fluCalculateEntropy
-
-    invoke-function calculateEntropy REF_S1_IAV_MASTER_NC_002023 AL_IAV_SEG1 PB2
-
-    exit
-
-  console set next-cmd-output-file iav-segment-2-entropy.tsv 
-  module fluCalculateEntropy
-  
-    invoke-function calculateEntropy REF_S2_IAV_MASTER_NC_002021 AL_IAV_SEG2 PB1
-    
-    exit
-  
-  console set next-cmd-output-file iav-segment-3-entropy.tsv 
-  module fluCalculateEntropy
-  
-    invoke-function calculateEntropy REF_S3_IAV_MASTER_NC_002022 AL_IAV_SEG2 PA
-    
-    exit
-
