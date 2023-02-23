@@ -1,0 +1,38 @@
+delete module iavNcbiRefseqImporterSegment1
+delete module iavNcbiRefseqImporterSegment2
+delete module iavNcbiRefseqImporterSegment3
+delete module iavNcbiRefseqImporterSegment4
+delete module iavNcbiRefseqImporterSegment5
+delete module iavNcbiRefseqImporterSegment6
+delete module iavNcbiRefseqImporterSegment7
+delete module iavNcbiRefseqImporterSegment8
+
+# Create modules
+create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment1.xml
+create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment2.xml
+create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment3.xml
+create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment4.xml
+create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment5.xml
+create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment6.xml
+create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment7.xml
+create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment8.xml
+
+# Download NCBI sequences 
+module iavNcbiRefseqImporterSegment1 import
+module iavNcbiRefseqImporterSegment2 import
+module iavNcbiRefseqImporterSegment3 import
+module iavNcbiRefseqImporterSegment4 import
+module iavNcbiRefseqImporterSegment5 import
+module iavNcbiRefseqImporterSegment6 import
+module iavNcbiRefseqImporterSegment7 import
+module iavNcbiRefseqImporterSegment8 import
+
+# Export sources 
+export source iav-ncbi-refseqs-seg1
+export source iav-ncbi-refseqs-seg2
+export source iav-ncbi-refseqs-seg3
+export source iav-ncbi-refseqs-seg4
+export source iav-ncbi-refseqs-seg5
+export source iav-ncbi-refseqs-seg6
+export source iav-ncbi-refseqs-seg7
+export source iav-ncbi-refseqs-seg8
