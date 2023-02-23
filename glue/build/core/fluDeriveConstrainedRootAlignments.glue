@@ -1,0 +1,45 @@
+  
+  # Derive constrained alignment segments from unconstrained alignments
+  alignment AL_ROOT_SEG_1-2_All_PB2
+	derive segments AL_UNC_ROOT_SEG_1 -a --existingMembersOnly --mergeStrategy OVERWRITE
+	exit
+
+  alignment AL_ROOT_SEG_2-1_All_PB1
+	derive segments AL_UNC_ROOT_SEG_2 -a --existingMembersOnly --mergeStrategy OVERWRITE
+	exit
+
+  alignment AL_ROOT_SEG_3_All_PA
+	derive segments AL_UNC_ROOT_SEG_3 -a --existingMembersOnly --mergeStrategy OVERWRITE
+	exit
+
+  alignment AL_ROOT_SEG_4_AB_HA
+    derive segments AL_UNC_ROOT_SEG_4_AB -a --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_ROOT_SEG_4_CD_HEF
+    derive segments AL_UNC_ROOT_SEG_4_CD -a --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_ROOT_SEG_5_All_NP
+	derive segments AL_UNC_ROOT_SEG_5 -a --existingMembersOnly --mergeStrategy OVERWRITE
+	exit
+
+  alignment AL_ROOT_SEG_6_AB_NA
+    derive segments AL_UNC_ROOT_SEG_6_AB -a --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_ROOT_SEG_6_CD_M
+    derive segments AL_UNC_ROOT_SEG_6_CD -a --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_ROOT_SEG_7_AB_M
+	derive segments AL_UNC_ROOT_SEG_7_AB -a --existingMembersOnly --mergeStrategy OVERWRITE
+	exit
+
+  alignment AL_ROOT_SEG_8_AB_NS
+	derive segments AL_UNC_ROOT_SEG_8 -a --existingMembersOnly --mergeStrategy OVERWRITE
+	exit
+
+
+
+

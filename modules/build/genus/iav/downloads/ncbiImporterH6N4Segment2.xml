@@ -1,0 +1,17 @@
+<!-- NCBI import module for IAV subtype 'H6N4' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-2</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>EU557447</primaryAccession> <!-- # A/northern pintail/Alaska/44204-158/2006 -->
+		<primaryAccession>CY178837</primaryAccession> <!-- # A/mallard/Wisconsin/770/1982 -->
+		<primaryAccession>CY004184</primaryAccession> <!-- # A/blue-winged teal/ALB/685/1982 -->
+		<primaryAccession>MG280040</primaryAccession> <!-- # A/mallard duck/Ohio/16OS0826/2016 -->
+		<primaryAccession>CY120577</primaryAccession> <!-- # A/mallard/California/1492/2010 -->
+		<primaryAccession>CY179449</primaryAccession> <!-- # A/mallard/Wisconsin/778/1982 -->
+		<primaryAccession>CY178140</primaryAccession> <!-- # A/mallard/Wisconsin/772/1982 -->
+		<primaryAccession>KX979611</primaryAccession> <!-- # A/mallard duck/Netherlands/30/2011 -->
+		<primaryAccession>CY179441</primaryAccession> <!-- # A/mallard/Wisconsin/773/1982 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

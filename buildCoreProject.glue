@@ -2,10 +2,7 @@ delete project flu
 
 create project flu "GLUE project for influenzaviruses" --minVersion 1.1.41
 
-schema-project flu
-
-  run file glue/build/core/fluSchemaExtensions.glue
-  exit
+run file glue/build/core/fluSchemaExtensions.glue
 
 run file glue/build/core/buildFluCoreProject.glue
 

@@ -1,0 +1,13 @@
+
+  #  Link reference sequences to isolate table 
+  run script glue/build/core/fluLoadSequenceDataNcbiRefseqs.js
+
+  # Import reference sequence data from GenBank XML
+  module genbankXmlPopulator populate
+
+  # Import metadata for reference sequences from tabular
+  #create module -f modules/build/core/fluTextFilePopulatorReferences.xml
+  #module fluTextFilePopulatorReferences 
+  #  populate -f tabular/core/flu-ncbi-refseqs-side-data.tsv
+  #  exit
+

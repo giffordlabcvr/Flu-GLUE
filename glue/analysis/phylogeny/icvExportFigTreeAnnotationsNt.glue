@@ -1,0 +1,14 @@
+  delete module fluFigTreeAnnotationExporter
+  create module -f modules/analysis/phylogeny/fluFigTreeAnnotationExporter.xml
+
+  module fluFigTreeAnnotationExporter 
+    export figtree-annotation AL_ICV_SEG1 -f trees/icv/icv_seg1_nt_annotations.tsv
+    export figtree-annotation AL_ICV_SEG2 -f trees/icv/icv_seg2_nt_annotations.tsv
+    export figtree-annotation AL_ICV_SEG3 -f trees/icv/icv_seg3_nt_annotations.tsv
+    export figtree-annotation AL_ICV_SEG4 -f trees/icv/icv_seg4_nt_annotations.tsv
+    export figtree-annotation AL_ICV_SEG5 -f trees/icv/icv_seg5_nt_annotations.tsv
+    export figtree-annotation AL_ICV_SEG6 -f trees/icv/icv_seg6_nt_annotations.tsv
+    export figtree-annotation AL_ICV_SEG7 -f trees/icv/icv_seg7_nt_annotations.tsv
+  exit
+  
+  

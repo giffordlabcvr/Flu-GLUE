@@ -1,10 +1,10 @@
 
-  # Import reference sequences 
-  import source sources/iav-ncbi-refseqs-seg1
-  import source sources/iav-ncbi-refseqs-seg2
-  import source sources/iav-ncbi-refseqs-seg3
-  import source sources/iav-ncbi-refseqs-seg4
-  import source sources/iav-ncbi-refseqs-seg5
-  import source sources/iav-ncbi-refseqs-seg6
-  import source sources/iav-ncbi-refseqs-seg7
-  import source sources/iav-ncbi-refseqs-seg8
+  # Import curated sequences 
+  import source ../../../../Sources/flu/iav-ncbi-curated-segment-1
+  import source ../../../../Sources/flu/iav-ncbi-curated-segment-2
+  import source ../../../../Sources/flu/iav-ncbi-curated-segment-3
+  import source ../../../../Sources/flu/iav-ncbi-curated-segment-4
+  import source ../../../../Sources/flu/iav-ncbi-curated-segment-5
+  import source ../../../../Sources/flu/iav-ncbi-curated-segment-6
+  import source ../../../../Sources/flu/iav-ncbi-curated-segment-7
+  import source ../../../../Sources/flu/iav-ncbi-curated-segment-8

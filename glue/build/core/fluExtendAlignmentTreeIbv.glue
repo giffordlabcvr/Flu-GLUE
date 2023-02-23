@@ -1,0 +1,81 @@
+# Delete any previously created alignments of same name
+multi-delete alignment -w "name like 'IBV_SEG%'"
+
+# Create constrained alignment tree for refseqs sequence alignments
+
+alignment AL_ROOT_SEG_1-2_All_PB2
+
+  # Add segment members
+  add member -w "source.name = 'ibv-ncbi-refseqs-seg1'"
+
+  extract child AL_IBV_SEG1 --refName REF_S1_IBV_CQ903172
+  demote member AL_IBV_SEG1 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg1'"
+  exit
+
+alignment AL_ROOT_SEG_2-1_All_PB1
+
+  # Add segment members
+  add member -w "source.name = 'ibv-ncbi-refseqs-seg2'"
+  
+  extract child AL_IBV_SEG2 --refName REF_S2_IBV_CQ903173
+  demote member AL_IBV_SEG2 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg2'"
+  exit
+
+alignment AL_ROOT_SEG_3_All_PA
+
+  # Add segment members
+  add member -w "source.name = 'ibv-ncbi-refseqs-seg3'"
+  
+  extract child AL_IBV_SEG3 --refName REF_S3_IBV_CQ903174
+  demote member AL_IBV_SEG3 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg3'"
+  exit
+
+alignment AL_ROOT_SEG_4_AB_HA
+
+  # Add segment members
+  add member -w "source.name = 'ibv-ncbi-refseqs-seg4'"
+  
+  extract child AL_IBV_SEG4 --refName REF_S4_IBV_CQ903175
+  demote member AL_IBV_SEG4 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg4'"
+  exit
+
+
+alignment AL_ROOT_SEG_5_All_NP
+
+  # Add segment members
+  add member -w "source.name = 'ibv-ncbi-refseqs-seg5'"
+  
+  extract child AL_IBV_SEG5 --refName REF_S5_IBV_CQ903177
+  demote member AL_IBV_SEG5 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg5'"
+  exit
+
+
+alignment AL_ROOT_SEG_6_AB_NA
+
+  # Add segment members
+  add member -w "source.name = 'ibv-ncbi-refseqs-seg6'"
+  
+  extract child AL_IBV_SEG6 --refName REF_S6_IBV_CQ903176
+  demote member AL_IBV_SEG6 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg6'"  
+  exit
+
+alignment AL_ROOT_SEG_7_AB_M
+
+  # Add segment members
+  add member -w "source.name = 'ibv-ncbi-refseqs-seg7'"
+
+  extract child AL_IBV_SEG7 --refName REF_S7_IBV_CQ903178
+  demote member AL_IBV_SEG7 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg7'"
+  exit
+
+
+alignment AL_ROOT_SEG_8_AB_NS
+
+  # Add segment members
+  add member -w "source.name = 'ibv-ncbi-refseqs-seg8'"
+  
+  extract child AL_IBV_SEG8 --refName REF_S8_IBV_CQ903179
+  demote member AL_IBV_SEG8 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg8'"
+
+  exit
+

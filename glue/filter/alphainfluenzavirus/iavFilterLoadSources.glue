@@ -1,19 +1,16 @@
 
-  # Import NCBI sources 
-  import source sources/iav-filter-ncbi-refseqs/
-  #import source sources/iav-ncbi-refseqs-seg6
-  #import source sources/iav-ncbi-refseqs-seg4
-  #import source sources/iav-ncbi-refseqs-seg8
-
   # Import reference sequences 
   import source sources/iav-ncbi-refseqs-seg1
   import source sources/iav-ncbi-refseqs-seg2
   import source sources/iav-ncbi-refseqs-seg3
+  import source sources/iav-ncbi-refseqs-seg4
   import source sources/iav-ncbi-refseqs-seg5
+  import source sources/iav-ncbi-refseqs-seg6
   import source sources/iav-ncbi-refseqs-seg7
+  import source sources/iav-ncbi-refseqs-seg8
 
   # 'set 0'
-  #import source ../../../../Sources/flu/ncbi-iav-nuccore-1970-1990
+  import source ../../../../Sources/flu/ncbi-iav-nuccore-1970-1990
   #import source ../../../../Sources/flu/ncbi-iav-nuccore-1990-2005
   #import source ../../../../Sources/flu/ncbi-iav-nuccore-2005-2010
   
@@ -43,7 +40,7 @@
   #import source ../../../../Sources/flu/ncbi-iav-nuccore-2019-2020-2
 
   # 'set 6'
-  import source ../../../../Sources/flu/ncbi-iav-nuccore-2020-2021
+  #import source ../../../../Sources/flu/ncbi-iav-nuccore-2020-2021
 
   # 'set 7'
   #import source ../../../../Sources/flu/ncbi-iav-nuccore-2021-2022

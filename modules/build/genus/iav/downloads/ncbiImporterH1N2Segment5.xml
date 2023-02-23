@@ -1,0 +1,722 @@
+<!-- NCBI import module for IAV subtype 'H1N2' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-5</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>HQ709211</primaryAccession> <!-- # A/swine/Italy/198260/2008 -->
+		<primaryAccession>CY085591</primaryAccession> <!-- # A/swine/Hong Kong/1304/2003 -->
+		<primaryAccession>CY219628</primaryAccession> <!-- # A/swine/Iowa/16TOSU2605/2016 -->
+		<primaryAccession>MW846596</primaryAccession> <!-- # A/swine/Illinois/B1705DTW8/2017 -->
+		<primaryAccession>MW656337</primaryAccession> <!-- # A/swine/Missouri/A01444664/2013 -->
+		<primaryAccession>KP658061</primaryAccession> <!-- # A/environment/Fujian/FJ1273/2014 -->
+		<primaryAccession>MZ088402</primaryAccession> <!-- # A/swine/France/22-200213/2020 -->
+		<primaryAccession>MK535602</primaryAccession> <!-- # A/swine/Iowa/17TOSU3427/2017 -->
+		<primaryAccession>MT406796</primaryAccession> <!-- # A/Alopochen aegyptiacus/Belgium/3237_B6663/2017 -->
+		<primaryAccession>MZ088538</primaryAccession> <!-- # A/swine/France/22-200269/2020 -->
+		<primaryAccession>MK338910</primaryAccession> <!-- # A/swine/IVD/6365/2007 -->
+		<primaryAccession>MW846486</primaryAccession> <!-- # A/swine/Illinois/B1704DTW7/2017 -->
+		<primaryAccession>MK636110</primaryAccession> <!-- # A/New Jersey/7721/2018 -->
+		<primaryAccession>MT378895</primaryAccession> <!-- # A/swine/France/29-170332/2017 -->
+		<primaryAccession>CY243011</primaryAccession> <!-- # A/swine/Ohio/16TOSU5440/2016 -->
+		<primaryAccession>CY116160</primaryAccession> <!-- # A/swine/England/40280/1996 -->
+		<primaryAccession>MK340206</primaryAccession> <!-- # A/swine/Damme/20492/2014 -->
+		<primaryAccession>CY121144</primaryAccession> <!-- # A/reassortant/X-7 -->
+		<primaryAccession>MZ088762</primaryAccession> <!-- # A/swine/France/29-200252/2020 -->
+		<primaryAccession>MZ089186</primaryAccession> <!-- # A/swine/France/56-200347/2020 -->
+		<primaryAccession>KJ640324</primaryAccession> <!-- # A/swine/Ohio/13TOSU0554/2013 -->
+		<primaryAccession>HF674915</primaryAccession> <!-- # A/Swine/Spain/80598LP4/2007 -->
+		<primaryAccession>CY219388</primaryAccession> <!-- # A/swine/Ohio/16TOSU1883/2016 -->
+		<primaryAccession>MK340190</primaryAccession> <!-- # A/swine/Garrel/20222/2014 -->
+		<primaryAccession>MT211114</primaryAccession> <!-- # A/swine/Michigan/19TOSU5737/2019 -->
+		<primaryAccession>KJ640460</primaryAccession> <!-- # A/swine/Indiana/13TOSU1058/2013 -->
+		<primaryAccession>CY180607</primaryAccession> <!-- # A/mallard/Wisconsin/590/1979 -->
+		<primaryAccession>HQ014753</primaryAccession> <!-- # A/wild duck/Korea/YS44/2004 -->
+		<primaryAccession>OL370560</primaryAccession> <!-- # A/Pacific black duck/Western Australia/AS18-0780-9/2018 -->
+		<primaryAccession>MK340246</primaryAccession> <!-- # A/swine/Telgte/20810/2014 -->
+		<primaryAccession>MT211124</primaryAccession> <!-- # A/swine/Ohio/19TOSU2518/2019 -->
+		<primaryAccession>MZ088882</primaryAccession> <!-- # A/swine/France/35-200238/2020 -->
+		<primaryAccession>MK339414</primaryAccession> <!-- # A/swine/Georgsmarienhuette/13896/2011 -->
+		<primaryAccession>MK340462</primaryAccession> <!-- # A/swine/Kuehlenthal/22307/2015 -->
+		<primaryAccession>CY116443</primaryAccession> <!-- # A/swine/Gent/177/2002 -->
+		<primaryAccession>MK339238</primaryAccession> <!-- # A/swine/Frontenhausen/12668-1/2010 -->
+		<primaryAccession>KF013929</primaryAccession> <!-- # A/duck/Guangxi/GXd-4/2011 -->
+		<primaryAccession>KJ640252</primaryAccession> <!-- # A/swine/Texas/13TOSU6276/2013 -->
+		<primaryAccession>MZ088746</primaryAccession> <!-- # A/swine/France/29-200214/2020 -->
+		<primaryAccession>MT211190</primaryAccession> <!-- # A/swine/Indiana/19TOSU5846/2019 -->
+		<primaryAccession>MK339318</primaryAccession> <!-- # A/swine/Marsberg/13049/2011 -->
+		<primaryAccession>KF142496</primaryAccession> <!-- # A/swine/Korea/CY0423-12/2013 -->
+		<primaryAccession>MH667665</primaryAccession> <!-- # A/duck/Guangxi/293D21/2017 -->
+		<primaryAccession>MW846445</primaryAccession> <!-- # A/swine/Illinois/B1704DTW6/2017 -->
+		<primaryAccession>KF203183</primaryAccession> <!-- # A/swine/Ohio/11SW190/2011 -->
+		<primaryAccession>MZ945749</primaryAccession> <!-- # A/swine/Spain/45600-3/2017 -->
+		<primaryAccession>EU053142</primaryAccession> <!-- # A/swine/Cloppenburg/IDT4777/2005 -->
+		<primaryAccession>MK338881</primaryAccession> <!-- # A/swine/Groitzsch/IDT6016-1/2007 -->
+		<primaryAccession>MT378967</primaryAccession> <!-- # A/swine/France/35-170242/2017 -->
+		<primaryAccession>KR700577</primaryAccession> <!-- # A/swine/Denmark/10-1391-3/2011 -->
+		<primaryAccession>MK340006</primaryAccession> <!-- # A/swine/Steinfeld/19206/2013 -->
+		<primaryAccession>KP658060</primaryAccession> <!-- # A/duck/Hainan/Q47/2012 -->
+		<primaryAccession>MF194291</primaryAccession> <!-- # A/swine/South Dakota/MT_12_07_2079/2012 -->
+		<primaryAccession>CY219404</primaryAccession> <!-- # A/swine/Ohio/16TOSU1890/2016 -->
+		<primaryAccession>MW846534</primaryAccession> <!-- # A/swine/Illinois/20B318/2017 -->
+		<primaryAccession>CY116191</primaryAccession> <!-- # A/swine/England/43142/2001 -->
+		<primaryAccession>CY219644</primaryAccession> <!-- # A/swine/Iowa/16TOSU2612/2016 -->
+		<primaryAccession>MK338834</primaryAccession> <!-- # A/swine/Rotthalmuenster/5536/2006 -->
+		<primaryAccession>CY085679</primaryAccession> <!-- # A/swine/Hong Kong/NS915/2004 -->
+		<primaryAccession>CY219340</primaryAccession> <!-- # A/swine/Ohio/16TOSU1841/2016 -->
+		<primaryAccession>MK338942</primaryAccession> <!-- # A/swine/Garrel/6572/2007 -->
+		<primaryAccession>MZ373124</primaryAccession> <!-- # A/swine/Spain/45700/2019 -->
+		<primaryAccession>MK636102</primaryAccession> <!-- # A/New Jersey/7720/2019 -->
+		<primaryAccession>MZ089154</primaryAccession> <!-- # A/swine/France/56-200256/2020 -->
+		<primaryAccession>MK535144</primaryAccession> <!-- # A/green-winged teal/Ohio/06OS2054/2006 -->
+		<primaryAccession>CY116551</primaryAccession> <!-- # A/swine/Spain/40564/2002 -->
+		<primaryAccession>KJ640741</primaryAccession> <!-- # A/swine/Ohio/13TOSU0888/2013 -->
+		<primaryAccession>KR700602</primaryAccession> <!-- # A/swine/England/463180/1994 -->
+		<primaryAccession>MW846481</primaryAccession> <!-- # A/swine/Illinois/B1704DTW22/2017 -->
+		<primaryAccession>CY179150</primaryAccession> <!-- # A/thick-billed murre/Alaska/378/1976 -->
+		<primaryAccession>AB126632</primaryAccession> <!-- # A/Yokohama/47/2002(H1N2) -->
+		<primaryAccession>MZ089314</primaryAccession> <!-- # A/swine/France/72-200305/2020 -->
+		<primaryAccession>MK340318</primaryAccession> <!-- # A/swine/Oberschleissheim/21141/2014 -->
+		<primaryAccession>MF194211</primaryAccession> <!-- # A/swine/South Dakota/MT_12_07_2081/2012 -->
+		<primaryAccession>MT211179</primaryAccession> <!-- # A/swine/Ohio/19TOSU2599/2019 -->
+		<primaryAccession>MK339526</primaryAccession> <!-- # A/swine/Albersloh/IDT14635-2/2012 -->
+		<primaryAccession>KJ640484</primaryAccession> <!-- # A/swine/Indiana/13TOSU1048/2013 -->
+		<primaryAccession>MK339150</primaryAccession> <!-- # A/swine/Freren/12095/2010 -->
+		<primaryAccession>CY179654</primaryAccession> <!-- # A/common murre/Alaska/306/1976 -->
+		<primaryAccession>MK338779</primaryAccession> <!-- # A/swine/Osnabrueck/3810/2005 -->
+		<primaryAccession>MZ088730</primaryAccession> <!-- # A/swine/France/29-200185/2020 -->
+		<primaryAccession>MK462502</primaryAccession> <!-- # A/swine/Alberta/SD0237/2017 -->
+		<primaryAccession>MZ089138</primaryAccession> <!-- # A/swine/France/56-200201/2020 -->
+		<primaryAccession>CY159420</primaryAccession> <!-- # A/swine/Oklahoma/02722/2009 -->
+		<primaryAccession>MW846424</primaryAccession> <!-- # A/swine/Illinois/20B308/2017 -->
+		<primaryAccession>KM186308</primaryAccession> <!-- # A/swine/Fujian/12/2010 -->
+		<primaryAccession>MK339494</primaryAccession> <!-- # A/swine/Steinfurt/14372/2011 -->
+		<primaryAccession>CY097198</primaryAccession> <!-- # A/American green-winged teal/Illinois/3054/2009 -->
+		<primaryAccession>KC866543</primaryAccession> <!-- # A/swine/Kentucky/12TOSU1054/2012 -->
+		<primaryAccession>MW846394</primaryAccession> <!-- # A/swine/Illinois/B1703DTW25/2017 -->
+		<primaryAccession>MK340174</primaryAccession> <!-- # A/swine/Haverbeck/20052/2014 -->
+		<primaryAccession>MZ088778</primaryAccession> <!-- # A/swine/France/29-200263/2020 -->
+		<primaryAccession>MT394959</primaryAccession> <!-- # A/swine/France/Cotes d'Armor-0295/2011 -->
+		<primaryAccession>MZ088418</primaryAccession> <!-- # A/swine/France/22-200227/2020 -->
+		<primaryAccession>MK339710</primaryAccession> <!-- # A/swine/Petershagen/16696/2012 -->
+		<primaryAccession>MT379367</primaryAccession> <!-- # A/swine/France/72-150321/2015 -->
+		<primaryAccession>MK339486</primaryAccession> <!-- # A/swine/Hameln/14344/2011 -->
+		<primaryAccession>MZ088962</primaryAccession> <!-- # A/swine/France/35-200332/2020 -->
+		<primaryAccession>MT379319</primaryAccession> <!-- # A/swine/France/62-160229/2016 -->
+		<primaryAccession>MW840001</primaryAccession> <!-- # A/swine/North Carolina/152706/2015 -->
+		<primaryAccession>CY117945</primaryAccession> <!-- # A/Malaysia/24083/2003 -->
+		<primaryAccession>CY014904</primaryAccession> <!-- # A/mallard duck/New York/170/1982 -->
+		<primaryAccession>MW846564</primaryAccession> <!-- # A/swine/Illinois/B1706DTW6/2017 -->
+		<primaryAccession>AB914493</primaryAccession> <!-- # A/swine/Chiba/107/2012 -->
+		<primaryAccession>MK339422</primaryAccession> <!-- # A/swine/Emsbueren/13919-1/2011 -->
+		<primaryAccession>KJ907488</primaryAccession> <!-- # A/black-necked crane/Zhaotong/ZT-12/2013 -->
+		<primaryAccession>MT378583</primaryAccession> <!-- # A/swine/France/64-150152/2015 -->
+		<primaryAccession>CY045528</primaryAccession> <!-- # A/swine/Texas/050593/2008(H1N2) -->
+		<primaryAccession>MW848624</primaryAccession> <!-- # A/swine/Spain/44490-1/2020 -->
+		<primaryAccession>KJ640797</primaryAccession> <!-- # A/swine/Indiana/13TOSU1149/2013 -->
+		<primaryAccession>MK340398</primaryAccession> <!-- # A/swine/Luebeck/21717/2015 -->
+		<primaryAccession>KY364153</primaryAccession> <!-- # A/swine/France/22-160150/2016 -->
+		<primaryAccession>FJ520112</primaryAccession> <!-- # A/northern pintail/California/44221-608/2006 -->
+		<primaryAccession>MZ945741</primaryAccession> <!-- # A/swine/Spain/45600-2/2017 -->
+		<primaryAccession>KY971144</primaryAccession> <!-- # A/duck/Zhejiang/D5/2013 -->
+		<primaryAccession>CY085751</primaryAccession> <!-- # A/swine/Hong Kong/69/2006 -->
+		<primaryAccession>CY158460</primaryAccession> <!-- # A/swine/Minnesota/3128/2010 -->
+		<primaryAccession>MK340470</primaryAccession> <!-- # A/swine/Lastrup/22382/2015 -->
+		<primaryAccession>MK339222</primaryAccession> <!-- # A/swine/Altenberge/12614/2010 -->
+		<primaryAccession>MK340118</primaryAccession> <!-- # A/swine/Pfungstadt/19689/2014 -->
+		<primaryAccession>KJ640204</primaryAccession> <!-- # A/swine/Indiana/13TOSU1053/2013 -->
+		<primaryAccession>CY133804</primaryAccession> <!-- # A/mallard/Missouri/10MO0253/2010 -->
+		<primaryAccession>KR700162</primaryAccession> <!-- # A/swine/Spain/24237/2011 -->
+		<primaryAccession>MZ088850</primaryAccession> <!-- # A/swine/France/35-200052/2020 -->
+		<primaryAccession>KM185813</primaryAccession> <!-- # A/swine/Indiana/13TOSU5248/2013 -->
+		<primaryAccession>MK339854</primaryAccession> <!-- # A/swine/Drensteinfurt/17796/2013 -->
+		<primaryAccession>CY085999</primaryAccession> <!-- # A/swine/Hong Kong/NS252/2009 -->
+		<primaryAccession>CY002155</primaryAccession> <!-- # A/New York/296/2003 -->
+		<primaryAccession>MK340078</primaryAccession> <!-- # A/swine/Wrestedt/19450/2014 -->
+		<primaryAccession>MK338850</primaryAccession> <!-- # A/swine/Haltern/5670/2006 -->
+		<primaryAccession>MK339550</primaryAccession> <!-- # A/swine/Senden/14779/2012 -->
+		<primaryAccession>MK339198</primaryAccession> <!-- # A/swine/Messingen/12475/2010 -->
+		<primaryAccession>HQ840331</primaryAccession> <!-- # A/swine/South Dakota/152B/2009 -->
+		<primaryAccession>KU881697</primaryAccession> <!-- # A/Anseriformes/Anhui/L6/2014 -->
+		<primaryAccession>MZ088530</primaryAccession> <!-- # A/swine/France/22-200260/2020 -->
+		<primaryAccession>CY045688</primaryAccession> <!-- # A/swine/Oklahoma/020734-3/2008(H1N2) -->
+		<primaryAccession>MF194923</primaryAccession> <!-- # A/swine/Minnesota/MT_12_07_2124/2012 -->
+		<primaryAccession>CY085583</primaryAccession> <!-- # A/swine/Hong Kong/1102/2003 -->
+		<primaryAccession>CY219444</primaryAccession> <!-- # A/swine/Ohio/16TOSU1950/2016 -->
+		<primaryAccession>MZ089082</primaryAccession> <!-- # A/swine/France/53-200134-3/2020 -->
+		<primaryAccession>MK339118</primaryAccession> <!-- # A/swine/Holdorf/10815/2009 -->
+		<primaryAccession>KU322943</primaryAccession> <!-- # A/swine/Italy/166277-2/2014 -->
+		<primaryAccession>MW846580</primaryAccession> <!-- # A/swine/Illinois/B1704DTW27/2017 -->
+		<primaryAccession>CY116525</primaryAccession> <!-- # A/swine/Italy/71251/2005 -->
+		<primaryAccession>MK339406</primaryAccession> <!-- # A/swine/Grossenkneten/13809/2011 -->
+		<primaryAccession>CY116245</primaryAccession> <!-- # A/swine/England/61605/1998 -->
+		<primaryAccession>MK340430</primaryAccession> <!-- # A/swine/Boesel/22002/2015 -->
+		<primaryAccession>MK339302</primaryAccession> <!-- # A/swine/Ense/12957/2011 -->
+		<primaryAccession>MZ088946</primaryAccession> <!-- # A/swine/France/35-200299/2020 -->
+		<primaryAccession>MZ088386</primaryAccession> <!-- # A/swine/France/22-200210/2020 -->
+		<primaryAccession>KF013945</primaryAccession> <!-- # A/Muscovy duck/Guangxi/GXd-3/2012 -->
+		<primaryAccession>MK339750</primaryAccession> <!-- # A/swine/Emstek/16800/2012 -->
+		<primaryAccession>LC430961</primaryAccession> <!-- # A/swine/Miyagi/3/2003 -->
+		<primaryAccession>JX908082</primaryAccession> <!-- # A/swine/Spain/10/2011 -->
+		<primaryAccession>JN596933</primaryAccession> <!-- # A/swine/Italy/4675/2003 -->
+		<primaryAccession>GQ229318</primaryAccession> <!-- # A/swine/Hong Kong/554/2003 -->
+		<primaryAccession>KU323007</primaryAccession> <!-- # A/swine/Italy/302073/2014 -->
+		<primaryAccession>MK339702</primaryAccession> <!-- # A/swine/Lohne/15625/2012 -->
+		<primaryAccession>KR700178</primaryAccession> <!-- # A/swine/Spain/29257/2012 -->
+		<primaryAccession>JX138510</primaryAccession> <!-- # A/swine/Zhejiang/01/2008 -->
+		<primaryAccession>JX908138</primaryAccession> <!-- # A/swine/Spain/09/2010 -->
+		<primaryAccession>MZ088490</primaryAccession> <!-- # A/swine/France/22-200241/2020 -->
+		<primaryAccession>CY243139</primaryAccession> <!-- # A/swine/Ohio/16TOSU8021/2016 -->
+		<primaryAccession>MW362705</primaryAccession> <!-- # A/swine/Belgium/Gent-30/2014 -->
+		<primaryAccession>CY045664</primaryAccession> <!-- # A/swine/Oklahoma/016179-8/2008(H1N2) -->
+		<primaryAccession>MK339838</primaryAccession> <!-- # A/swine/Steinfeld/17719/2013 -->
+		<primaryAccession>CY136809</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/154/1994 -->
+		<primaryAccession>JQ277162</primaryAccession> <!-- # A/swine/Henan/4/2010 -->
+		<primaryAccession>MT666284</primaryAccession> <!-- # A/swine/Denmark/2014_10_786_3p1/2014 -->
+		<primaryAccession>MK339110</primaryAccession> <!-- # A/swine/Lohne/10753/2009 -->
+		<primaryAccession>KJ764758</primaryAccession> <!-- # A/swine/Korea/GNO5K1/2005 -->
+		<primaryAccession>KP658057</primaryAccession> <!-- # A/duck/Yunan/V286/2012 -->
+		<primaryAccession>MW362633</primaryAccession> <!-- # A/swine/Belgium/Gent-114/2019 -->
+		<primaryAccession>MK338998</primaryAccession> <!-- # A/swine/Diepholz/7943/2008 -->
+		<primaryAccession>MW513580</primaryAccession> <!-- # A/northern pintail/Alaska/UGAI16-4995/2016 -->
+		<primaryAccession>KF013913</primaryAccession> <!-- # A/chicken/Guangxi/GXc-1/2011 -->
+		<primaryAccession>KF130913</primaryAccession> <!-- # A/swine/Ohio/11SW127/2011 -->
+		<primaryAccession>MK339606</primaryAccession> <!-- # A/swine/Lohne/15102/2012 -->
+		<primaryAccession>KJ640556</primaryAccession> <!-- # A/swine/Indiana/13TOSU1047/2013 -->
+		<primaryAccession>CY076144</primaryAccession> <!-- # A/rock dove/Oregon/20547-003/2007 -->
+		<primaryAccession>KR700058</primaryAccession> <!-- # A/swine/Denmark/10-1958-1/2011 -->
+		<primaryAccession>MK109686</primaryAccession> <!-- # A/swine/Iowa/17TOSU3178/2017 -->
+		<primaryAccession>MK338741</primaryAccession> <!-- # A/swine/Nordhorn/3777/2005 -->
+		<primaryAccession>HQ709207</primaryAccession> <!-- # A/swine/Italy/18/2000 -->
+		<primaryAccession>KM389146</primaryAccession> <!-- # A/swine/Indiana/13TOSU1983/2013 -->
+		<primaryAccession>MK338982</primaryAccession> <!-- # A/swine/Marklkofen/7028/2008 -->
+		<primaryAccession>CY003675</primaryAccession> <!-- # A/New York/482/2003 -->
+		<primaryAccession>CY219324</primaryAccession> <!-- # A/swine/Ohio/16TOSU1826/2016 -->
+		<primaryAccession>HQ709208</primaryAccession> <!-- # A/swine/Italy/50568/2005 -->
+		<primaryAccession>CY158852</primaryAccession> <!-- # A/swine/Kansas/00246/2004 -->
+		<primaryAccession>MK339174</primaryAccession> <!-- # A/swine/Maasch/12354/2010 -->
+		<primaryAccession>MZ088506</primaryAccession> <!-- # A/swine/France/22-200249/2020 -->
+		<primaryAccession>MK339334</primaryAccession> <!-- # A/swine/Natingen/13545/2011 -->
+		<primaryAccession>CY116199</primaryAccession> <!-- # A/swine/England/448813/1994 -->
+		<primaryAccession>MT666437</primaryAccession> <!-- # A/swine/Denmark/2014_10_241_2p1/2014 -->
+		<primaryAccession>MT211106</primaryAccession> <!-- # A/swine/Michigan/19TOSU5722/2019 -->
+		<primaryAccession>AB434409</primaryAccession> <!-- # A/swine/Ehime/1/1980 -->
+		<primaryAccession>MK339390</primaryAccession> <!-- # A/swine/Baustetten/13769/2011 -->
+		<primaryAccession>HM626483</primaryAccession> <!-- # A/swine/Sweden/9706/2010 -->
+		<primaryAccession>KY971153</primaryAccession> <!-- # A/goose/Zhejiang/1120085/2014 -->
+		<primaryAccession>KJ640284</primaryAccession> <!-- # A/swine/Indiana/13TOSU1052/2013 -->
+		<primaryAccession>KX433134</primaryAccession> <!-- # A/swine/Kitzen/IDT6142/2007 -->
+		<primaryAccession>CY158500</primaryAccession> <!-- # A/swine/Arkansas/SG1383/2011 -->
+		<primaryAccession>CY242737</primaryAccession> <!-- # A/swine/Indiana/16TOSU4110/2016 -->
+		<primaryAccession>MK338926</primaryAccession> <!-- # A/swine/Bad Wuennenberg/6405/2007 -->
+		<primaryAccession>MT406788</primaryAccession> <!-- # A/Alopochen aegyptiacus/Belgium/3237_B6659/2017 -->
+		<primaryAccession>KC900265</primaryAccession> <!-- # A/swine/Denmark/12687/2003 -->
+		<primaryAccession>AB126624</primaryAccession> <!-- # A/Yokohama/22/2002(H1N2) -->
+		<primaryAccession>KM361395</primaryAccession> <!-- # A/swine/Indiana/13TOSU1054/2013 -->
+		<primaryAccession>MT210946</primaryAccession> <!-- # A/swine/Ohio/19TOSU4307/2019 -->
+		<primaryAccession>KY971149</primaryAccession> <!-- # A/goose/Zhejiang/1120076/2014 -->
+		<primaryAccession>MZ088906</primaryAccession> <!-- # A/swine/France/35-200271/2020 -->
+		<primaryAccession>MZ088346</primaryAccession> <!-- # A/swine/France/22-200173/2020 -->
+		<primaryAccession>CY116324</primaryAccession> <!-- # A/swine/England/88761/1997 -->
+		<primaryAccession>KJ640492</primaryAccession> <!-- # A/swine/Indiana/13TOSU1158/2013 -->
+		<primaryAccession>HM461851</primaryAccession> <!-- # A/swine/Texas/01976/2008 -->
+		<primaryAccession>MK338686</primaryAccession> <!-- # A/swine/Visbek/3311/2004 -->
+		<primaryAccession>CY219396</primaryAccession> <!-- # A/swine/Ohio/16TOSU1887/2016 -->
+		<primaryAccession>MW839635</primaryAccession> <!-- # A/swine/North Carolina/1565521/2015 -->
+		<primaryAccession>MZ088426</primaryAccession> <!-- # A/swine/France/22-200228/2020 -->
+		<primaryAccession>JN375171</primaryAccession> <!-- # A/swine/Guangdong/617/2010 -->
+		<primaryAccession>KJ640821</primaryAccession> <!-- # A/swine/Indiana/13TOSU1143/2013 -->
+		<primaryAccession>MT378903</primaryAccession> <!-- # A/swine/France/29-180023/2018 -->
+		<primaryAccession>KJ640244</primaryAccession> <!-- # A/swine/Indiana/13TOSU1044/2013 -->
+		<primaryAccession>MK339478</primaryAccession> <!-- # A/swine/Siegenburg/14341-3/2011 -->
+		<primaryAccession>MK338887</primaryAccession> <!-- # A/swine/Groitzsch/IDT6016-2/2007 -->
+		<primaryAccession>HQ709209</primaryAccession> <!-- # A/swine/Italy/233139/2005 -->
+		<primaryAccession>CY116215</primaryAccession> <!-- # A/swine/England/483/2006 -->
+		<primaryAccession>KR699829</primaryAccession> <!-- # A/swine/Italy/57680/2011 -->
+		<primaryAccession>CY219356</primaryAccession> <!-- # A/swine/Ohio/16TOSU1843/2016 -->
+		<primaryAccession>MW362713</primaryAccession> <!-- # A/swine/Belgium/Gent-36/2016 -->
+		<primaryAccession>KJ640268</primaryAccession> <!-- # A/swine/Indiana/13TOSU1142/2013 -->
+		<primaryAccession>KF874482</primaryAccession> <!-- # A/wild waterfowl/Dongting/C2383/2012 -->
+		<primaryAccession>GQ229349</primaryAccession> <!-- # A/swine/Hong Kong/NS857/2001 -->
+		<primaryAccession>CY045680</primaryAccession> <!-- # A/swine/Oklahoma/020734-2/2008(H1N2) -->
+		<primaryAccession>MT379063</primaryAccession> <!-- # A/swine/France/50-160358/2016 -->
+		<primaryAccession>CY132005</primaryAccession> <!-- # A/mallard/Ohio/11OS2045/2011 -->
+		<primaryAccession>KR700649</primaryAccession> <!-- # A/swine/England/000304/2009 -->
+		<primaryAccession>MK338894</primaryAccession> <!-- # A/swine/Dinklage/6017/2007 -->
+		<primaryAccession>CY045616</primaryAccession> <!-- # A/swine/Oklahoma/010710-8/2008(H1N2) -->
+		<primaryAccession>GQ495133</primaryAccession> <!-- # A/swine/Sweden/1021/2009 -->
+		<primaryAccession>MK338990</primaryAccession> <!-- # A/swine/Wadersloh/7107a/2008 -->
+		<primaryAccession>MT211062</primaryAccession> <!-- # A/swine/Ohio/19TOSU4462/2019 -->
+		<primaryAccession>MT666276</primaryAccession> <!-- # A/swine/Denmark/2015_03572_1p1/2015 -->
+		<primaryAccession>MZ088458</primaryAccession> <!-- # A/swine/France/22-200235/2020 -->
+		<primaryAccession>KJ640693</primaryAccession> <!-- # A/swine/Indiana/13TOSU1151/2013 -->
+		<primaryAccession>KU322992</primaryAccession> <!-- # A/swine/Italy/271152/2014 -->
+		<primaryAccession>MK339510</primaryAccession> <!-- # A/swine/Duelmen/14394/2011 -->
+		<primaryAccession>JX081089</primaryAccession> <!-- # A/brant/Alaska/44339-481/2007 -->
+		<primaryAccession>MT211069</primaryAccession> <!-- # A/swine/Ohio/19TOSU2609/2019 -->
+		<primaryAccession>MF613708</primaryAccession> <!-- # A/mallard/Alberta/310/2016 -->
+		<primaryAccession>GQ229366</primaryAccession> <!-- # A/swine/Hong Kong/NS623/2002 -->
+		<primaryAccession>MZ089290</primaryAccession> <!-- # A/swine/France/72-200205/2020 -->
+		<primaryAccession>CY094448</primaryAccession> <!-- # A/green-winged teal/California/8326/2008 -->
+		<primaryAccession>MW846347</primaryAccession> <!-- # A/swine/Illinois/B1704DTW4/2017 -->
+		<primaryAccession>MK338934</primaryAccession> <!-- # A/swine/Radlinghausen/6528/2007 -->
+		<primaryAccession>CY186576</primaryAccession> <!-- # A/mallard/Ohio/12OS5582/2012 -->
+		<primaryAccession>MW846365</primaryAccession> <!-- # A/swine/Illinois/B1703DTW27/2017 -->
+		<primaryAccession>MT421724</primaryAccession> <!-- # A/mallard/Maryland/UGAI16-5526/2016 -->
+		<primaryAccession>MW846473</primaryAccession> <!-- # A/swine/Illinois/20B309/2017 -->
+		<primaryAccession>CY003699</primaryAccession> <!-- # A/New York/489/2003 -->
+		<primaryAccession>MT378663</primaryAccession> <!-- # A/swine/France/22-150384/2015 -->
+		<primaryAccession>MT211168</primaryAccession> <!-- # A/swine/Ohio/19TOSU2606/2019 -->
+		<primaryAccession>CY146820</primaryAccession> <!-- # A/PAL/unknown -->
+		<primaryAccession>MW848647</primaryAccession> <!-- # A/swine/Spain/25001-3/2019 -->
+		<primaryAccession>MT406780</primaryAccession> <!-- # A/Alopochen aegyptiacus/Belgium/1570_B6613/2017 -->
+		<primaryAccession>CY159893</primaryAccession> <!-- # A/swine/Oklahoma/02083/2008 -->
+		<primaryAccession>CY006414</primaryAccession> <!-- # A/New York/492/2003 -->
+		<primaryAccession>HQ709212</primaryAccession> <!-- # A/swine/Italy/70757/2009 -->
+		<primaryAccession>MW839591</primaryAccession> <!-- # A/swine/North Carolina/1565542/2015 -->
+		<primaryAccession>KR700617</primaryAccession> <!-- # A/swine/England/33766/2003 -->
+		<primaryAccession>CY085735</primaryAccession> <!-- # A/swine/Hong Kong/729/2005 -->
+		<primaryAccession>CY002635</primaryAccession> <!-- # A/New York/231/2003 -->
+		<primaryAccession>MT211151</primaryAccession> <!-- # A/swine/Ohio/19TOSU2536/2019 -->
+		<primaryAccession>MZ088482</primaryAccession> <!-- # A/swine/France/22-200239/2020 -->
+		<primaryAccession>MK339358</primaryAccession> <!-- # A/swine/Buxtehude/13586/2011 -->
+		<primaryAccession>MK339350</primaryAccession> <!-- # A/swine/Heiden/13585/2011 -->
+		<primaryAccession>MT379127</primaryAccession> <!-- # A/swine/France/56-170170/2017 -->
+		<primaryAccession>MZ088930</primaryAccession> <!-- # A/swine/France/35-200295/2020 -->
+		<primaryAccession>MZ088522</primaryAccession> <!-- # A/swine/France/22-200258/2020 -->
+		<primaryAccession>KT225471</primaryAccession> <!-- # A/swine/Mexico/GtoDMZC01/2014 -->
+		<primaryAccession>MN933795</primaryAccession> <!-- # A/swine/Spain/BM43/2019 -->
+		<primaryAccession>CY132272</primaryAccession> <!-- # A/mallard/Ohio/11OS2073/2011 -->
+		<primaryAccession>MZ088354</primaryAccession> <!-- # A/swine/France/22-200176/2020 -->
+		<primaryAccession>JN605385</primaryAccession> <!-- # A/duck/Zhejiang/0607-13/2011 -->
+		<primaryAccession>MT666468</primaryAccession> <!-- # A/swine/Denmark/2017_13525_2_2p1/2017 -->
+		<primaryAccession>MK339142</primaryAccession> <!-- # A/swine/Warendorf/12015/2010 -->
+		<primaryAccession>MK338702</primaryAccession> <!-- # A/swine/Lippetal/3633/2004 -->
+		<primaryAccession>CY079519</primaryAccession> <!-- # A/environment/Indiana/08OS3524/2008 -->
+		<primaryAccession>MF194735</primaryAccession> <!-- # A/swine/Minnesota/MT_12_07_2130/2012 -->
+		<primaryAccession>MT211236</primaryAccession> <!-- # A/swine/Ohio/19TOSU2519/2019 -->
+		<primaryAccession>CY045624</primaryAccession> <!-- # A/swine/Oklahoma/011289-9/2008(H1N2) -->
+		<primaryAccession>MT210987</primaryAccession> <!-- # A/swine/Indiana/19TOSU3797/2019 -->
+		<primaryAccession>KY971145</primaryAccession> <!-- # A/duck/Zhejiang/D6/2013 -->
+		<primaryAccession>HQ541643</primaryAccession> <!-- # A/swine/Tianjin/1/2007 -->
+		<primaryAccession>MZ088858</primaryAccession> <!-- # A/swine/France/35-200154/2020 -->
+		<primaryAccession>MZ088410</primaryAccession> <!-- # A/swine/France/22-200215/2020 -->
+		<primaryAccession>CY121152</primaryAccession> <!-- # A/reassortant/X-7F1 -->
+		<primaryAccession>CY085527</primaryAccession> <!-- # A/swine/Hong Kong/1248/2002 -->
+		<primaryAccession>MT211096</primaryAccession> <!-- # A/swine/Indiana/19TOSU3790/2019 -->
+		<primaryAccession>MK338842</primaryAccession> <!-- # A/swine/Geseke/5638/2006 -->
+		<primaryAccession>MZ945810</primaryAccession> <!-- # A/swine/Spain/45600-1/2017 -->
+		<primaryAccession>MK338787</primaryAccession> <!-- # A/swine/Vienna/3817/2005 -->
+		<primaryAccession>MZ088722</primaryAccession> <!-- # A/swine/France/29-200133/2020 -->
+		<primaryAccession>MK338874</primaryAccession> <!-- # A/swine/Riege/6014/2007 -->
+		<primaryAccession>MK339046</primaryAccession> <!-- # A/swine/Bottrop/8644/2009 -->
+		<primaryAccession>KC900257</primaryAccession> <!-- # A/swine/Denmark/13608/2004 -->
+		<primaryAccession>CY116540</primaryAccession> <!-- # A/swine/Ploufragan/0214/2006 -->
+		<primaryAccession>CY219316</primaryAccession> <!-- # A/swine/Ohio/16TOSU1803/2016 -->
+		<primaryAccession>KR701569</primaryAccession> <!-- # A/swine/France/56-120177/2012 -->
+		<primaryAccession>MZ088186</primaryAccession> <!-- # A/swine/France/56-200112/2020 -->
+		<primaryAccession>MZ088626</primaryAccession> <!-- # A/swine/France/28-200135/2020 -->
+		<primaryAccession>MK339654</primaryAccession> <!-- # A/swine/Sendenhorst/15335/2012 -->
+		<primaryAccession>MF872821</primaryAccession> <!-- # A/swine/Spain/45700-1/2016 -->
+		<primaryAccession>MW848724</primaryAccession> <!-- # A/swine/Spain/25001-1/2019 -->
+		<primaryAccession>MT211009</primaryAccession> <!-- # A/swine/Ohio/19TOSU2633/2019 -->
+		<primaryAccession>JN624324</primaryAccession> <!-- # A/swine/Italy/22530/2002 -->
+		<primaryAccession>CY091754</primaryAccession> <!-- # A/swine/Hubei/04/2009 -->
+		<primaryAccession>CY158932</primaryAccession> <!-- # A/swine/Arkansas/02404/2008 -->
+		<primaryAccession>MZ088394</primaryAccession> <!-- # A/swine/France/22-200212/2020 -->
+		<primaryAccession>MZ088834</primaryAccession> <!-- # A/swine/France/35-190213/2019 -->
+		<primaryAccession>KJ764776</primaryAccession> <!-- # A/duck/Korea/U11-1/2007 -->
+		<primaryAccession>MZ089090</primaryAccession> <!-- # A/swine/France/53-200155/2020 -->
+		<primaryAccession>CY001683</primaryAccession> <!-- # A/New York/78/2002 -->
+		<primaryAccession>CY115897</primaryAccession> <!-- # A/swine/England/00003/2009 -->
+		<primaryAccession>CY219412</primaryAccession> <!-- # A/swine/Ohio/16TOSU1891/2016 -->
+		<primaryAccession>KJ640372</primaryAccession> <!-- # A/swine/Ohio/13TOSU0558/2013 -->
+		<primaryAccession>MZ088786</primaryAccession> <!-- # A/swine/France/29-200264/2020 -->
+		<primaryAccession>MK339054</primaryAccession> <!-- # A/swine/Sugenheim/8871/2009 -->
+		<primaryAccession>KF013905</primaryAccession> <!-- # A/sparrow/Guangxi/GXs-1/2012 -->
+		<primaryAccession>CY006406</primaryAccession> <!-- # A/New York/490/2003 -->
+		<primaryAccession>CY178922</primaryAccession> <!-- # A/thick-billed murre/Alaska/236/1976 -->
+		<primaryAccession>KJ640396</primaryAccession> <!-- # A/swine/Indiana/13TOSU1045/2013 -->
+		<primaryAccession>MZ088874</primaryAccession> <!-- # A/swine/France/35-200206/2020 -->
+		<primaryAccession>KJ640645</primaryAccession> <!-- # A/swine/Indiana/13TOSU1145/2013 -->
+		<primaryAccession>MW362571</primaryAccession> <!-- # A/swine/Belgium/Gent-233/2018 -->
+		<primaryAccession>CY045640</primaryAccession> <!-- # A/swine/Oklahoma/011289-8/2008(H1N2) -->
+		<primaryAccession>MW846589</primaryAccession> <!-- # A/swine/Illinois/B1705DTW29/2017 -->
+		<primaryAccession>CY246230</primaryAccession> <!-- # A/swine/Alberta/SD0164/2016 -->
+		<primaryAccession>CY087129</primaryAccession> <!-- # A/swine/Hong Kong/5609/1999 -->
+		<primaryAccession>CY219380</primaryAccession> <!-- # A/swine/Ohio/16TOSU1881/2016 -->
+		<primaryAccession>CY194312</primaryAccession> <!-- # A/swine/Manitoba/D0173/2012 -->
+		<primaryAccession>HM461771</primaryAccession> <!-- # A/swine/Iowa/02039/2008 -->
+		<primaryAccession>MK339262</primaryAccession> <!-- # A/swine/Augustenfeld/12793/2010 -->
+		<primaryAccession>CY107836</primaryAccession> <!-- # A/swine/Korea/1204/2009 -->
+		<primaryAccession>CY085519</primaryAccession> <!-- # A/swine/Hong Kong/NS728/2002 -->
+		<primaryAccession>OK217245</primaryAccession> <!-- # A/wild duck/South Korea/KNU2018-26/2020 -->
+		<primaryAccession>MT378879</primaryAccession> <!-- # A/swine/France/29-170198/2017 -->
+		<primaryAccession>CY003371</primaryAccession> <!-- # A/New York/217/2002 -->
+		<primaryAccession>MZ089130</primaryAccession> <!-- # A/swine/France/56-200169/2020 -->
+		<primaryAccession>CY219332</primaryAccession> <!-- # A/swine/Ohio/16TOSU1827/2016 -->
+		<primaryAccession>MZ088162</primaryAccession> <!-- # A/swine/France/22-200175/2020 -->
+		<primaryAccession>JN375172</primaryAccession> <!-- # A/swine/Guangdong/606/2010 -->
+		<primaryAccession>KF013921</primaryAccession> <!-- # A/duck/Guangxi/GXd-1/2011 -->
+		<primaryAccession>KM389172</primaryAccession> <!-- # A/swine/Indiana/13TOSU1991/2013 -->
+		<primaryAccession>MW846410</primaryAccession> <!-- # A/swine/Illinois/B1703DTW26/2017 -->
+		<primaryAccession>CY002667</primaryAccession> <!-- # A/New York/297/2003 -->
+		<primaryAccession>MK339590</primaryAccession> <!-- # A/swine/Havixbeck/15034/2012 -->
+		<primaryAccession>KY041906</primaryAccession> <!-- # A/swine/Iowa/A01797178/2015 -->
+		<primaryAccession>HQ853343</primaryAccession> <!-- # A/swine/Guangdong/1/2010 -->
+		<primaryAccession>KP658062</primaryAccession> <!-- # A/duck/Anhui/AB10/2011 -->
+		<primaryAccession>KU976883</primaryAccession> <!-- # A/swine/Mexico/AVX7/2011 -->
+		<primaryAccession>KJ764743</primaryAccession> <!-- # A/environment/Korea/CSM12/2007 -->
+		<primaryAccession>MK636118</primaryAccession> <!-- # A/New Jersey/7722/2018 -->
+		<primaryAccession>MT378983</primaryAccession> <!-- # A/swine/France/35-180443/2018 -->
+		<primaryAccession>CY219420</primaryAccession> <!-- # A/swine/Ohio/16TOSU1892/2016 -->
+		<primaryAccession>MK339158</primaryAccession> <!-- # A/swine/Steinfeld/12116/2010 -->
+		<primaryAccession>MK339686</primaryAccession> <!-- # A/swine/Metelen/15494-1/2012 -->
+		<primaryAccession>KU976896</primaryAccession> <!-- # A/swine/Mexico/AVX17/2012 -->
+		<primaryAccession>MK339214</primaryAccession> <!-- # A/swine/Emstek/12594a/2010 -->
+		<primaryAccession>MT379231</primaryAccession> <!-- # A/swine/France/59-170058/2017 -->
+		<primaryAccession>MF276763</primaryAccession> <!-- # A/swine/Italy/240307/2014 -->
+		<primaryAccession>EU053149</primaryAccession> <!-- # A/swine/Bakum/1832/2000 -->
+		<primaryAccession>MZ088738</primaryAccession> <!-- # A/swine/France/29-200188/2020 -->
+		<primaryAccession>MZ089298</primaryAccession> <!-- # A/swine/France/72-200244/2020 -->
+		<primaryAccession>MK339438</primaryAccession> <!-- # A/swine/Legden/13920/2011 -->
+		<primaryAccession>CY002995</primaryAccession> <!-- # A/New York/226/2003 -->
+		<primaryAccession>KU976718</primaryAccession> <!-- # A/swine/Mexico/AVX18/2012 -->
+		<primaryAccession>MK339254</primaryAccession> <!-- # A/swine/Lohne/12743/2010 -->
+		<primaryAccession>MT379055</primaryAccession> <!-- # A/swine/France/50-140056/2014 -->
+		<primaryAccession>MZ088770</primaryAccession> <!-- # A/swine/France/29-200254/2020 -->
+		<primaryAccession>MK339246</primaryAccession> <!-- # A/swine/Ahaus/12696/2010 -->
+		<primaryAccession>MZ089306</primaryAccession> <!-- # A/swine/France/72-200277/2020 -->
+		<primaryAccession>CY045600</primaryAccession> <!-- # A/swine/Oklahoma/010226-17/2008(H1N2) -->
+		<primaryAccession>MK339886</primaryAccession> <!-- # A/swine/Kuehlenthal/17963/2013 -->
+		<primaryAccession>MW848658</primaryAccession> <!-- # A/swine/Spain/50001-5/2019 -->
+		<primaryAccession>MF194915</primaryAccession> <!-- # A/swine/Minnesota/MT_12_07_2092/2012 -->
+		<primaryAccession>MT211207</primaryAccession> <!-- # A/swine/Ohio/19TOSU2608/2019 -->
+		<primaryAccession>KF135533</primaryAccession> <!-- # A/swine/Ohio/11SW133/2011 -->
+		<primaryAccession>CY006190</primaryAccession> <!-- # A/New York/491/2003 -->
+		<primaryAccession>MK339038</primaryAccession> <!-- # A/swine/Harsefeld/8608/2009 -->
+		<primaryAccession>MK339566</primaryAccession> <!-- # A/swine/Ascheberg/14874/2012 -->
+		<primaryAccession>MK338966</primaryAccession> <!-- # A/swine/Brilon/6950/2008 -->
+		<primaryAccession>HQ709210</primaryAccession> <!-- # A/swine/Italy/626-2/2006 -->
+		<primaryAccession>MK340374</primaryAccession> <!-- # A/swine/Boekel/21424/2015 -->
+		<primaryAccession>KY971154</primaryAccession> <!-- # A/pigeon/Zhejiang/1120087/2014 -->
+		<primaryAccession>MK338764</primaryAccession> <!-- # A/swine/Wagenfeld/3801/2005 -->
+		<primaryAccession>CY116344</primaryAccession> <!-- # A/swine/England/P185/2008 -->
+		<primaryAccession>MK339190</primaryAccession> <!-- # A/swine/Reken/12474/2010 -->
+		<primaryAccession>CY116419</primaryAccession> <!-- # A/swine/Gent/100/2007 -->
+		<primaryAccession>CY002363</primaryAccession> <!-- # A/New York/300/2003 -->
+		<primaryAccession>MK339462</primaryAccession> <!-- # A/swine/Lohne/14220/2011 -->
+		<primaryAccession>MK339446</primaryAccession> <!-- # A/swine/Lohne/14151/2011 -->
+		<primaryAccession>MK339534</primaryAccession> <!-- # A/swine/Wietmarschen/14638/2012 -->
+		<primaryAccession>MZ088466</primaryAccession> <!-- # A/swine/France/22-200236/2020 -->
+		<primaryAccession>MW848662</primaryAccession> <!-- # A/swine/Spain/25001-2/2019 -->
+		<primaryAccession>KF013937</primaryAccession> <!-- # A/duck/Guangxi/GXd-2/2012 -->
+		<primaryAccession>CY219308</primaryAccession> <!-- # A/swine/Ohio/16TOSU1611/2016 -->
+		<primaryAccession>MZ089002</primaryAccession> <!-- # A/swine/France/49-200216/2020 -->
+		<primaryAccession>MW840040</primaryAccession> <!-- # A/swine/North Carolina/156552/2015 -->
+		<primaryAccession>CY045536</primaryAccession> <!-- # A/swine/Texas/050625/2008(H1N2) -->
+		<primaryAccession>CY002355</primaryAccession> <!-- # A/New York/209/2003 -->
+		<primaryAccession>KU976491</primaryAccession> <!-- # A/swine/Mexico/AVX5/2011 -->
+		<primaryAccession>MK339278</primaryAccession> <!-- # A/swine/Beesten/12876/2011 -->
+		<primaryAccession>MZ088554</primaryAccession> <!-- # A/swine/France/22-200281/2020 -->
+		<primaryAccession>KC866463</primaryAccession> <!-- # A/swine/Kentucky/12TOSU1084/2012 -->
+		<primaryAccession>MW846548</primaryAccession> <!-- # A/swine/Illinois/B1704DTW30/2017 -->
+		<primaryAccession>CY219636</primaryAccession> <!-- # A/swine/Iowa/16TOSU2607/2016 -->
+		<primaryAccession>MK339342</primaryAccession> <!-- # A/swine/Rosendahl/13572/2011 -->
+		<primaryAccession>KR700343</primaryAccession> <!-- # A/swine/Scotland/51190/1999 -->
+		<primaryAccession>MG962441</primaryAccession> <!-- # A/swine/Western Australia/2577899R/2012 -->
+		<primaryAccession>KR700625</primaryAccession> <!-- # A/swine/England/1437/2004 -->
+		<primaryAccession>KF203223</primaryAccession> <!-- # A/swine/Ohio/11SW233/2011 -->
+		<primaryAccession>CY195362</primaryAccession> <!-- # A/swine/Alberta/SD0042/2014 -->
+		<primaryAccession>MK338902</primaryAccession> <!-- # A/swine/Heiden/6058/2007 -->
+		<primaryAccession>MZ089202</primaryAccession> <!-- # A/swine/France/59-190174/2019 -->
+		<primaryAccession>MT379343</primaryAccession> <!-- # A/swine/France/65-150242/2015 -->
+		<primaryAccession>MT378943</primaryAccession> <!-- # A/swine/France/35-160204/2016 -->
+		<primaryAccession>CY002659</primaryAccession> <!-- # A/New York/294/2003 -->
+		<primaryAccession>KJ640308</primaryAccession> <!-- # A/swine/Indiana/13TOSU1049/2013 -->
+		<primaryAccession>HQ709206</primaryAccession> <!-- # A/swine/Italy/3592/1999 -->
+		<primaryAccession>KY971152</primaryAccession> <!-- # A/goose/Zhejiang/1120084/2014 -->
+		<primaryAccession>CY159961</primaryAccession> <!-- # A/swine/Nebraska/02866/2009 -->
+		<primaryAccession>MT379215</primaryAccession> <!-- # A/swine/France/59-160320/2016 -->
+		<primaryAccession>MK338974</primaryAccession> <!-- # A/swine/Ahlen/7007/2008 -->
+		<primaryAccession>MK338694</primaryAccession> <!-- # A/swine/Anderlingen/3507/2004 -->
+		<primaryAccession>MK339398</primaryAccession> <!-- # A/swine/Lohne/13804/2011 -->
+		<primaryAccession>MK339974</primaryAccession> <!-- # A/swine/Horstmar/19085/2013 -->
+		<primaryAccession>HQ014833</primaryAccession> <!-- # A/duck/Korea/U11/2007 -->
+		<primaryAccession>GU086082</primaryAccession> <!-- # A/swine/Guangdong/1222/2006 -->
+		<primaryAccession>JN375170</primaryAccession> <!-- # A/swine/Guangdong/603/2010 -->
+		<primaryAccession>MK338718</primaryAccession> <!-- # A/swine/Borgentreich/3651/2004 -->
+		<primaryAccession>CY116261</primaryAccession> <!-- # A/swine/England/645913/1996 -->
+		<primaryAccession>MT378735</primaryAccession> <!-- # A/swine/France/22-180048/2018 -->
+		<primaryAccession>JN375169</primaryAccession> <!-- # A/swine/Guangdong/553/2010 -->
+		<primaryAccession>MN933825</primaryAccession> <!-- # A/swine/Spain/055/2017 -->
+		<primaryAccession>CY045632</primaryAccession> <!-- # A/swine/Oklahoma/011289-10/2008(H1N2) -->
+		<primaryAccession>MF046194</primaryAccession> <!-- # A/spot-billed duck/Alberta/266/2016 -->
+		<primaryAccession>MT394975</primaryAccession> <!-- # A/swine/France/Finistere-0186/2011 -->
+		<primaryAccession>MK339102</primaryAccession> <!-- # A/swine/Bad Griesbach/10704a/2009 -->
+		<primaryAccession>MW839774</primaryAccession> <!-- # A/swine/Iowa/EY11915/2015 -->
+		<primaryAccession>MT211025</primaryAccession> <!-- # A/swine/Indiana/19TOSU4138/2019 -->
+		<primaryAccession>MT211084</primaryAccession> <!-- # A/swine/Indiana/19TOSU5565/2019 -->
+		<primaryAccession>MK339310</primaryAccession> <!-- # A/swine/Lohne/12960/2011 -->
+		<primaryAccession>OK217237</primaryAccession> <!-- # A/White-fronted Goose/South Korea/KNU2018-26/2020 -->
+		<primaryAccession>MZ945879</primaryAccession> <!-- # A/swine/spain/45600-4/2017 -->
+		<primaryAccession>CY219692</primaryAccession> <!-- # A/swine/Iowa/16TOSU2756/2016 -->
+		<primaryAccession>MK339502</primaryAccession> <!-- # A/swine/Lohne/14378-2/2011 -->
+		<primaryAccession>MW846362</primaryAccession> <!-- # A/swine/Illinois/20B310/2017 -->
+		<primaryAccession>MW846431</primaryAccession> <!-- # A/swine/Illinois/B1704DTW8/2017 -->
+		<primaryAccession>CY118144</primaryAccession> <!-- # A/Malaysia/1978169/2008 -->
+		<primaryAccession>MZ088474</primaryAccession> <!-- # A/swine/France/22-200237/2020 -->
+		<primaryAccession>MZ089322</primaryAccession> <!-- # A/swine/France/72-200318/2020 -->
+		<primaryAccession>MT210970</primaryAccession> <!-- # A/swine/Ohio/19TOSU4464/2019 -->
+		<primaryAccession>MK339662</primaryAccession> <!-- # A/swine/Dobersdorf/15341/2012 -->
+		<primaryAccession>HQ541667</primaryAccession> <!-- # A/swine/Hebei/10/2006 -->
+		<primaryAccession>CY219452</primaryAccession> <!-- # A/swine/Ohio/16TOSU2111/2016 -->
+		<primaryAccession>MK339382</primaryAccession> <!-- # A/swine/Calhorn/13738-1/2011 -->
+		<primaryAccession>MK338803</primaryAccession> <!-- # A/swine/Spenge/3833/2005 -->
+		<primaryAccession>MT378919</primaryAccession> <!-- # A/swine/France/29-180124/2018 -->
+		<primaryAccession>MW846390</primaryAccession> <!-- # A/swine/Illinois/B1707DTW16/2017 -->
+		<primaryAccession>MW133748</primaryAccession> <!-- # A/shelduck/Ukraine/Vesnianka-9-23-12/2010 -->
+		<primaryAccession>CY243003</primaryAccession> <!-- # A/swine/Ohio/16TOSU5421/2016 -->
+		<primaryAccession>KP658059</primaryAccession> <!-- # A/duck/Hainan/Q221/2012 -->
+		<primaryAccession>MK339134</primaryAccession> <!-- # A/swine/Borgentreich/11868-2/2010 -->
+		<primaryAccession>KU322557</primaryAccession> <!-- # A/swine/Italy/224721/2012 -->
+		<primaryAccession>CY006390</primaryAccession> <!-- # A/New York/481/2003 -->
+		<primaryAccession>MW839911</primaryAccession> <!-- # A/swine/North Carolina/152704/2015 -->
+		<primaryAccession>CY045648</primaryAccession> <!-- # A/swine/Oklahoma/011521-5/2008(H1N2) -->
+		<primaryAccession>MK339182</primaryAccession> <!-- # A/swine/Senden/12381/2010 -->
+		<primaryAccession>MZ088994</primaryAccession> <!-- # A/swine/France/44-200139/2020 -->
+		<primaryAccession>MK339062</primaryAccession> <!-- # A/swine/Hamm/9035/2009 -->
+		<primaryAccession>KY604967</primaryAccession> <!-- # A/chicken/Yuhuan/YH14/2016 -->
+		<primaryAccession>MT379183</primaryAccession> <!-- # A/swine/France/56-180470/2018 -->
+		<primaryAccession>MK462462</primaryAccession> <!-- # A/swine/Alberta/SD0267/2017 -->
+		<primaryAccession>CY179430</primaryAccession> <!-- # A/mallard/Wisconsin/393/1977 -->
+		<primaryAccession>CY045584</primaryAccession> <!-- # A/swine/Texas/008648/2008(H1N2) -->
+		<primaryAccession>MW656320</primaryAccession> <!-- # A/swine/North Carolina/152702/2015 -->
+		<primaryAccession>CY158156</primaryAccession> <!-- # A/swine/Oklahoma/02107/2008 -->
+		<primaryAccession>CY243188</primaryAccession> <!-- # A/swine/Ohio/16TOSU8287/2016 -->
+		<primaryAccession>MK339230</primaryAccession> <!-- # A/swine/Rheine/12626-1/2010 -->
+		<primaryAccession>MT378831</primaryAccession> <!-- # A/swine/France/29-160400/2016 -->
+		<primaryAccession>MK338710</primaryAccession> <!-- # A/swine/Spelle/3634a/2004 -->
+		<primaryAccession>CY219348</primaryAccession> <!-- # A/swine/Ohio/16TOSU1842/2016 -->
+		<primaryAccession>MK338826</primaryAccession> <!-- # A/swine/Ostercappeln/5518/2006 -->
+		<primaryAccession>CY194280</primaryAccession> <!-- # A/swine/Manitoba/D0171/2012 -->
+		<primaryAccession>MK338958</primaryAccession> <!-- # A/swine/Melle/6925/2008 -->
+		<primaryAccession>MT211075</primaryAccession> <!-- # A/swine/Michigan/19TOSU4163/2019 -->
+		<primaryAccession>KF514380</primaryAccession> <!-- # A/swine/Denmark/10302-2/2012 -->
+		<primaryAccession>MK338858</primaryAccession> <!-- # A/swine/Velen/5730/2006 -->
+		<primaryAccession>MW547625</primaryAccession> <!-- # A/aquatic bird/Seosan/228/2007 -->
+		<primaryAccession>MF194827</primaryAccession> <!-- # A/swine/Minnesota/MT_12_07_2132/2012 -->
+		<primaryAccession>MZ088290</primaryAccession> <!-- # A/swine/France/22-190570/2019 -->
+		<primaryAccession>MZ088434</primaryAccession> <!-- # A/swine/France/22-200229/2020 -->
+		<primaryAccession>MK340334</primaryAccession> <!-- # A/swine/Boekel/21243/2015 -->
+		<primaryAccession>MT406804</primaryAccession> <!-- # A/Alopochen aegyptiacus/Belgium/3237_B6668/2017 -->
+		<primaryAccession>GQ229310</primaryAccession> <!-- # A/swine/Hong Kong/78/2003 -->
+		<primaryAccession>MZ088514</primaryAccession> <!-- # A/swine/France/22-200255/2020 -->
+		<primaryAccession>CY076152</primaryAccession> <!-- # A/rock dove/Oregon/20547-004/2007 -->
+		<primaryAccession>EU053134</primaryAccession> <!-- # A/swine/Doetlingen/IDT4735/2005 -->
+		<primaryAccession>CY085599</primaryAccession> <!-- # A/swine/Hong Kong/1382/2003 -->
+		<primaryAccession>MZ088890</primaryAccession> <!-- # A/swine/France/35-200251/2020 -->
+		<primaryAccession>MK339286</primaryAccession> <!-- # A/swine/Gescheu/12893/2011 -->
+		<primaryAccession>MW840036</primaryAccession> <!-- # A/swine/North Carolina/191115/2015 -->
+		<primaryAccession>MK339078</primaryAccession> <!-- # A/swine/Emmelsbuell/9876/2009 -->
+		<primaryAccession>CY116269</primaryAccession> <!-- # A/swine/England/661263/1997 -->
+		<primaryAccession>JX908114</primaryAccession> <!-- # A/swine/Spain/08/2011 -->
+		<primaryAccession>KY964019</primaryAccession> <!-- # A/swine/Ohio/16TOSU0352/2016 -->
+		<primaryAccession>MT211158</primaryAccession> <!-- # A/swine/Ohio/19TOSU2514/2019 -->
+		<primaryAccession>MW362579</primaryAccession> <!-- # A/swine/Belgium/Gent-178/2019 -->
+		<primaryAccession>MK340302</primaryAccession> <!-- # A/swine/Erwitte/21074/2014 -->
+		<primaryAccession>MF194583</primaryAccession> <!-- # A/swine/Minnesota/MT_12_07_2116/2012 -->
+		<primaryAccession>CY045712</primaryAccession> <!-- # A/swine/Oklahoma/042169/2008(H1N2) -->
+		<primaryAccession>MZ088338</primaryAccession> <!-- # A/swine/France/22-200171/2020 -->
+		<primaryAccession>MK340278</primaryAccession> <!-- # A/swine/Marsberg/21016/2014 -->
+		<primaryAccession>MK339126</primaryAccession> <!-- # A/swine/Melle/10846/2009 -->
+		<primaryAccession>MK340182</primaryAccession> <!-- # A/swine/Ringleben/20128/2014 -->
+		<primaryAccession>KR700090</primaryAccession> <!-- # A/swine/Denmark/10448-3/2012 -->
+		<primaryAccession>CY006398</primaryAccession> <!-- # A/New York/487/2003 -->
+		<primaryAccession>MG280324</primaryAccession> <!-- # A/green-winged teal/Ohio/16OS2038/2016 -->
+		<primaryAccession>MK339166</primaryAccession> <!-- # A/swine/Bad Essen/12159/2010 -->
+		<primaryAccession>MT666476</primaryAccession> <!-- # A/swine/Denmark/2015_05758_1p1/2015 -->
+		<primaryAccession>CY243180</primaryAccession> <!-- # A/swine/Ohio/16TOSU8320/2016 -->
+		<primaryAccession>KF135581</primaryAccession> <!-- # A/swine/Ohio/11SW193/2011 -->
+		<primaryAccession>MK339982</primaryAccession> <!-- # A/swine/Dahlheim/19138/2013 -->
+		<primaryAccession>MW513572</primaryAccession> <!-- # A/northern pintail/Alaska/UGAI16-4980/2016 -->
+		<primaryAccession>KR700470</primaryAccession> <!-- # A/swine/Italy/55228/2012 -->
+		<primaryAccession>MZ088938</primaryAccession> <!-- # A/swine/France/35-200298/2020 -->
+		<primaryAccession>MT211140</primaryAccession> <!-- # A/swine/Ohio/19TOSU2560/2019 -->
+		<primaryAccession>MK339598</primaryAccession> <!-- # A/swine/Guetersloh/15035/2012 -->
+		<primaryAccession>CY045520</primaryAccession> <!-- # A/swine/Oklahoma/032726/2008(H1N2) -->
+		<primaryAccession>MZ088586</primaryAccession> <!-- # A/swine/France/22-200322/2020 -->
+		<primaryAccession>CY017118</primaryAccession> <!-- # A/New York/C1/2003 -->
+		<primaryAccession>MK561766</primaryAccession> <!-- # A/swine/Iowa/17TOSU3083/2017 -->
+		<primaryAccession>MZ088602</primaryAccession> <!-- # A/swine/France/22-200413/2020 -->
+		<primaryAccession>CY116104</primaryAccession> <!-- # A/swine/England/303/2009 -->
+		<primaryAccession>KY041958</primaryAccession> <!-- # A/swine/Illinois/A01729946/2016 -->
+		<primaryAccession>MK339294</primaryAccession> <!-- # A/swine/Lohne/12929/2011 -->
+		<primaryAccession>CY179038</primaryAccession> <!-- # A/common murre/Alaska/175/1976 -->
+		<primaryAccession>KU218716</primaryAccession> <!-- # A/swine/Henan/PL01/2012 -->
+		<primaryAccession>JN605384</primaryAccession> <!-- # A/duck/Zhejiang/0224-6/2011 -->
+		<primaryAccession>MK339022</primaryAccession> <!-- # A/swine/Kleve/8532a/2009 -->
+		<primaryAccession>MT211050</primaryAccession> <!-- # A/swine/Ohio/19TOSU2630/2019 -->
+		<primaryAccession>LC431445</primaryAccession> <!-- # A/swine/Miyagi/5/2003 -->
+		<primaryAccession>MZ088362</primaryAccession> <!-- # A/swine/France/22-200177/2020 -->
+		<primaryAccession>MZ088498</primaryAccession> <!-- # A/swine/France/22-200242/2020 -->
+		<primaryAccession>CY085575</primaryAccession> <!-- # A/swine/Hong Kong/NS605/2003 -->
+		<primaryAccession>MT211091</primaryAccession> <!-- # A/swine/Ohio/19TOSU2628/2019 -->
+		<primaryAccession>CY243164</primaryAccession> <!-- # A/swine/Ohio/16TOSU8299/2016 -->
+		<primaryAccession>MK339574</primaryAccession> <!-- # A/swine/Erlingen/14916/2012 -->
+		<primaryAccession>MT211035</primaryAccession> <!-- # A/swine/Indiana/19TOSU5577/2019 -->
+		<primaryAccession>MK339470</primaryAccession> <!-- # A/swine/Siegenburg/14341-2/2011 -->
+		<primaryAccession>MF194479</primaryAccession> <!-- # A/swine/South Dakota/MT_12_07_2075/2012 -->
+		<primaryAccession>KY415759</primaryAccession> <!-- # A/duck/Yuhuan/YH45/2016 -->
+		<primaryAccession>KJ640316</primaryAccession> <!-- # A/swine/Indiana/13TOSU1056/2013 -->
+		<primaryAccession>KY971151</primaryAccession> <!-- # A/goose/Zhejiang/1120083/2014 -->
+		<primaryAccession>MK339086</primaryAccession> <!-- # A/swine/Heek/9889/2009 -->
+		<primaryAccession>CY010079</primaryAccession> <!-- # A/New York/229/2003 -->
+		<primaryAccession>KF142504</primaryAccession> <!-- # A/swine/Korea/CY0423-33/2013 -->
+		<primaryAccession>CY076160</primaryAccession> <!-- # A/western grebe/Washington/20569-004/2007 -->
+		<primaryAccession>MK338811</primaryAccession> <!-- # A/swine/Nordhorn/3835/2005 -->
+		<primaryAccession>KJ640781</primaryAccession> <!-- # A/swine/Texas/13TOSU6273/2013 -->
+		<primaryAccession>JN375173</primaryAccession> <!-- # A/swine/Guangdong/628/2010 -->
+		<primaryAccession>MK340166</primaryAccession> <!-- # A/swine/Damme/19935/2014 -->
+		<primaryAccession>KY971143</primaryAccession> <!-- # A/duck/Zhejiang/D1/2013 -->
+		<primaryAccession>MZ088314</primaryAccession> <!-- # A/swine/France/22-200113/2020 -->
+		<primaryAccession>MZ088810</primaryAccession> <!-- # A/swine/France/29-200324/2020 -->
+		<primaryAccession>KU881681</primaryAccession> <!-- # A/Anseriformes/Anhui/S61/2014 -->
+		<primaryAccession>MK339454</primaryAccession> <!-- # A/swine/Ense/14198/2011 -->
+		<primaryAccession>CY045847</primaryAccession> <!-- # A/NWS-F -->
+		<primaryAccession>MT210949</primaryAccession> <!-- # A/swine/Ohio/19TOSU2665/2019 -->
+		<primaryAccession>JX081093</primaryAccession> <!-- # A/emperor goose/Alaska/44300-287/2007 -->
+		<primaryAccession>MK339366</primaryAccession> <!-- # A/swine/Bueren/13686/2011 -->
+		<primaryAccession>KY971147</primaryAccession> <!-- # A/goose/Zhejiang/1120069/2014 -->
+		<primaryAccession>KY971148</primaryAccession> <!-- # A/goose/Zhejiang/1120074/2014 -->
+		<primaryAccession>MZ088954</primaryAccession> <!-- # A/swine/France/35-200300/2020 -->
+		<primaryAccession>KC866503</primaryAccession> <!-- # A/swine/Kentucky/12TOSU1052/2012 -->
+		<primaryAccession>MK339030</primaryAccession> <!-- # A/swine/Klosterseelte/8607/2009 -->
+		<primaryAccession>KJ640364</primaryAccession> <!-- # A/swine/Indiana/13TOSU1060/2013 -->
+		<primaryAccession>CY045656</primaryAccession> <!-- # A/swine/Oklahoma/011521-4/2008(H1N2) -->
+		<primaryAccession>JX081094</primaryAccession> <!-- # A/brant/Alaska/44339-464/2007 -->
+		<primaryAccession>MK338950</primaryAccession> <!-- # A/swine/Coesfeld/6693/2007 -->
+		<primaryAccession>CY006870</primaryAccession> <!-- # A/New York/211/2003 -->
+		<primaryAccession>MT394991</primaryAccession> <!-- # A/swine/France/Ille et Vilaine-0648/2011 -->
+		<primaryAccession>MZ088898</primaryAccession> <!-- # A/swine/France/35-200270/2020 -->
+		<primaryAccession>MZ088378</primaryAccession> <!-- # A/swine/France/22-200207/2020 -->
+		<primaryAccession>MT379079</primaryAccession> <!-- # A/swine/France/50-170342/2017 -->
+		<primaryAccession>MW846348</primaryAccession> <!-- # A/swine/Illinois/20B306/2017 -->
+		<primaryAccession>MT378847</primaryAccession> <!-- # A/swine/France/29-170091/2017 -->
+		<primaryAccession>MK339870</primaryAccession> <!-- # A/swine/Ascheberg/17823/2013 -->
+		<primaryAccession>CY085615</primaryAccession> <!-- # A/swine/Hong Kong/1763/2003 -->
+		<primaryAccession>CY006110</primaryAccession> <!-- # A/New York/219/2003 -->
+		<primaryAccession>KU976858</primaryAccession> <!-- # A/swine/Mexico/AVX6/2011 -->
+		<primaryAccession>MK340158</primaryAccession> <!-- # A/swine/Harsewinkel/19917/2014 -->
+		<primaryAccession>CY085487</primaryAccession> <!-- # A/swine/Hong Kong/NS13/2002 -->
+		<primaryAccession>MK338756</primaryAccession> <!-- # A/swine/Ochtrup/3800/2005 -->
+		<primaryAccession>MT379303</primaryAccession> <!-- # A/swine/France/61-150219/2015 -->
+		<primaryAccession>MK339830</primaryAccession> <!-- # A/swine/Sendenhorst/17561/2013 -->
+		<primaryAccession>MW846498</primaryAccession> <!-- # A/swine/Illinois/B1707DTW11/2017 -->
+		<primaryAccession>MK340390</primaryAccession> <!-- # A/swine/Orthe/21666/2015 -->
+		<primaryAccession>KR700209</primaryAccession> <!-- # A/swine/France/CotesdArmor-0025/2011 -->
+		<primaryAccession>CY158324</primaryAccession> <!-- # A/swine/North Carolina/SG1335/2009 -->
+		<primaryAccession>CY117876</primaryAccession> <!-- # A/Malaysia/23582/2002 -->
+		<primaryAccession>CY003772</primaryAccession> <!-- # A/New York/417/2002 -->
+		<primaryAccession>MK338795</primaryAccession> <!-- # A/swine/Gottfrieding/3829/2005 -->
+		<primaryAccession>CY003764</primaryAccession> <!-- # A/New York/400/2003 -->
+		<primaryAccession>MZ088570</primaryAccession> <!-- # A/swine/France/22-200286/2020 -->
+		<primaryAccession>MK339542</primaryAccession> <!-- # A/swine/Hude/14670/2012 -->
+		<primaryAccession>CY158164</primaryAccession> <!-- # A/swine/Oklahoma/02056/2008 -->
+		<primaryAccession>KR701486</primaryAccession> <!-- # A/swine/France/IIIeetVilaine-0346/2011 -->
+		<primaryAccession>CY186603</primaryAccession> <!-- # A/redhead/Ohio/13OS0431/2013 -->
+		<primaryAccession>MT210958</primaryAccession> <!-- # A/swine/Ohio/19TOSU3124/2019 -->
+		<primaryAccession>MT211244</primaryAccession> <!-- # A/swine/Indiana/19TOSU5878/2019 -->
+		<primaryAccession>MK636198</primaryAccession> <!-- # A/New York/7735/2018 -->
+		<primaryAccession>MZ088594</primaryAccession> <!-- # A/swine/France/22-200325/2020 -->
+		<primaryAccession>MW846521</primaryAccession> <!-- # A/swine/Illinois/B1704DTW2/2017 -->
+		<primaryAccession>MK339270</primaryAccession> <!-- # A/swine/Spelk/12860-1/2010 -->
+		<primaryAccession>KC866471</primaryAccession> <!-- # A/swine/Kentucky/12TOSU1053/2012 -->
+		<primaryAccession>MK339374</primaryAccession> <!-- # A/swine/Osnabrueck/13732/2011 -->
+		<primaryAccession>JX069106</primaryAccession> <!-- # A/ostrich/South Africa/AI2887/2011 -->
+		<primaryAccession>MZ088178</primaryAccession> <!-- # A/swine/France/56-200050/2020 -->
+		<primaryAccession>MK339326</primaryAccession> <!-- # A/swine/Bargstedt/13147/2011 -->
+		<primaryAccession>MT379207</primaryAccession> <!-- # A/swine/France/59-160211/2016 -->
+		<primaryAccession>MZ945802</primaryAccession> <!-- # A/swine/Spain/40340-2/2017 -->
+		<primaryAccession>OL371088</primaryAccession> <!-- # A/wild duck/Queensland/P20-03375-0119-01/2020 -->
+		<primaryAccession>KP658058</primaryAccession> <!-- # A/goose/Hainan/Q232/2012 -->
+		<primaryAccession>MW846376</primaryAccession> <!-- # A/swine/Illinois/B1703DTW23/2017 -->
+		<primaryAccession>MT210937</primaryAccession> <!-- # A/swine/Ohio/19TOSU3928/2019 -->
+		<primaryAccession>JX908106</primaryAccession> <!-- # A/swine/Spain/07/2011 -->
+		<primaryAccession>MK236889</primaryAccession> <!-- # A/mallard/Ohio/17OS1958/2017 -->
+		<primaryAccession>KR700335</primaryAccession> <!-- # A/swine/England/997/2008 -->
+		<primaryAccession>MK339622</primaryAccession> <!-- # A/swine/Lohne/15286/2012 -->
+		<primaryAccession>MF194891</primaryAccession> <!-- # A/swine/Minnesota/MT_12_07_2083/2012 -->
+		<primaryAccession>CY097441</primaryAccession> <!-- # A/blue-winged teal/Wisconsin/2509/2009 -->
+		<primaryAccession>MZ089146</primaryAccession> <!-- # A/swine/France/56-200231/2020 -->
+		<primaryAccession>MZ088914</primaryAccession> <!-- # A/swine/France/35-200275/2020 -->
+		<primaryAccession>MW840015</primaryAccession> <!-- # A/swine/North Carolina/159341/2015 -->
+		<primaryAccession>MK462670</primaryAccession> <!-- # A/swine/Alberta/SD0228/2017 -->
+		<primaryAccession>MK339070</primaryAccession> <!-- # A/swine/Harsefeld/9667/2009 -->
+		<primaryAccession>KU976582</primaryAccession> <!-- # A/swine/Mexico/AVX8/2011 -->
+		<primaryAccession>MK338866</primaryAccession> <!-- # A/swine/Lichtenau/5999/2007 -->
+		<primaryAccession>MZ088562</primaryAccession> <!-- # A/swine/France/22-200283/2020 -->
+		<primaryAccession>MK338726</primaryAccession> <!-- # A/swine/Lohne/3665/2004 -->
+		<primaryAccession>CY045592</primaryAccession> <!-- # A/swine/Oklahoma/010226-16/2008(H1N2) -->
+		<primaryAccession>MW846322</primaryAccession> <!-- # A/swine/Illinois/B1707DTW21/2017 -->
+		<primaryAccession>KM185789</primaryAccession> <!-- # A/swine/Texas/13TOSU0049/2013 -->
+		<primaryAccession>KU976515</primaryAccession> <!-- # A/swine/Mexico/AVX16/2012 -->
+		<primaryAccession>KY971150</primaryAccession> <!-- # A/goose/Zhejiang/1120078/2014 -->
+		<primaryAccession>MK340030</primaryAccession> <!-- # A/swine/Bottrop/19293/2013 -->
+		<primaryAccession>MK339206</primaryAccession> <!-- # A/swine/Emstek/12593/2010 -->
+		<primaryAccession>KM267911</primaryAccession> <!-- # A/swine/France/22-130212/2013 -->
+		<primaryAccession>CY125175</primaryAccession> <!-- # A/New York/26/2002 -->
+		<primaryAccession>CY085623</primaryAccession> <!-- # A/swine/Hong Kong/NS30/2004 -->
+		<primaryAccession>MG280306</primaryAccession> <!-- # A/green-winged teal/Ohio/16OS2015/2016 -->
+		<primaryAccession>KC866551</primaryAccession> <!-- # A/swine/Kentucky/12TOSU1155/2012 -->
+		<primaryAccession>KR699672</primaryAccession> <!-- # A/swine/Germany/Nikolausdorf-IDT12279/2010 -->
+		<primaryAccession>CY091762</primaryAccession> <!-- # A/swine/Hubei/05/2009 -->
+		<primaryAccession>MT378863</primaryAccession> <!-- # A/swine/France/29-170184/2017 -->
+		<primaryAccession>MZ089162</primaryAccession> <!-- # A/swine/France/56-200257/2020 -->
+		<primaryAccession>KJ640789</primaryAccession> <!-- # A/swine/Indiana/13TOSU1144/2013 -->
+		<primaryAccession>MZ089170</primaryAccession> <!-- # A/swine/France/56-200259/2020 -->
+		<primaryAccession>CY116368</primaryAccession> <!-- # A/swine/Cotes d'Armor/1174/2009 -->
+		<primaryAccession>MW848642</primaryAccession> <!-- # A/swine/Spain/50001-2/2019 -->
+		<primaryAccession>KY971146</primaryAccession> <!-- # A/duck/Zhejiang/D7/2013 -->
+		<primaryAccession>CY136835</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/181/1994 -->
+		<primaryAccession>MZ088546</primaryAccession> <!-- # A/swine/France/22-200278/2020 -->
+		<primaryAccession>LC278302</primaryAccession> <!-- # A/duck/Japan/AQ-HE103/2015(H1N2) -->
+		<primaryAccession>MK339934</primaryAccession> <!-- # A/swine/Ellerbrock/18558/2013 -->
+		<primaryAccession>MT210996</primaryAccession> <!-- # A/swine/Illinois/19TOSU4595/2019 -->
+		<primaryAccession>KJ640380</primaryAccession> <!-- # A/swine/Indiana/13TOSU1160/2013 -->
+		<primaryAccession>KR700138</primaryAccession> <!-- # A/swine/Spain/20423/2011 -->
+		<primaryAccession>CY006750</primaryAccession> <!-- # A/New York/225/2003 -->
+		<primaryAccession>LC121277</primaryAccession> <!-- # A/duck/Mongolia/154/2015 -->
+		<primaryAccession>HQ709205</primaryAccession> <!-- # A/swine/Italy/62/1998 -->
+		<primaryAccession>MT211214</primaryAccession> <!-- # A/swine/Ohio/19TOSU2513/2019 -->
+		<primaryAccession>CY219372</primaryAccession> <!-- # A/swine/Ohio/16TOSU1874/2016 -->
+		<primaryAccession>CY159164</primaryAccession> <!-- # A/swine/Oklahoma/00259/2004 -->
+		<primaryAccession>CY166245</primaryAccession> <!-- # A/mallard/Wisconsin/11OS4104/2011 -->
+		<primaryAccession>CY242785</primaryAccession> <!-- # A/swine/Indiana/16TOSU4239/2016 -->
+		<primaryAccession>CY045672</primaryAccession> <!-- # A/swine/Oklahoma/016179-9/2008(H1N2) -->
+		<primaryAccession>CY219718</primaryAccession> <!-- # A/swine/Iowa/16TOSU2825/2016 -->
+		<primaryAccession>KR700633</primaryAccession> <!-- # A/swine/England/00034/2005 -->
+		<primaryAccession>MW672214</primaryAccession> <!-- # A/swine/Nebraska/A01378047/2021 -->
+		<primaryAccession>GQ229374</primaryAccession> <!-- # A/swine/Hong Kong/1110/2006 -->
+		<primaryAccession>MK339558</primaryAccession> <!-- # A/swine/Ennigerloh/14785-2/2012 -->
+		<primaryAccession>MT210986</primaryAccession> <!-- # A/swine/Ohio/19TOSU3926/2019 -->
+		<primaryAccession>MK339014</primaryAccession> <!-- # A/swine/Kerken/8479/2009 -->
+		<primaryAccession>MK339430</primaryAccession> <!-- # A/swine/Emsbueren/13919-2/2011 -->
+		<primaryAccession>KC866495</primaryAccession> <!-- # A/swine/Kentucky/12TOSU1098/2012 -->
+		<primaryAccession>JQ340005</primaryAccession> <!-- # A/Eastern India/N-1289/2009 -->
+		<primaryAccession>MK339006</primaryAccession> <!-- # A/swine/Poland/T2/2008 -->
+		<primaryAccession>HF674907</primaryAccession> <!-- # A/Swine/Spain/SF12091/2007 -->
+		<primaryAccession>KU976927</primaryAccession> <!-- # A/swine/Mexico/AVX4/2011 -->
+		<primaryAccession>JN596942</primaryAccession> <!-- # A/swine/Italy/259543/2003 -->
+		<primaryAccession>MK338918</primaryAccession> <!-- # A/swine/Rotthalmuenster/6376a/2007 -->
+		<primaryAccession>CY133293</primaryAccession> <!-- # A/mallard/Mississippi/10OS4593/2010 -->
+		<primaryAccession>CY243172</primaryAccession> <!-- # A/swine/Ohio/16TOSU8308/2016 -->
+		<primaryAccession>KR699791</primaryAccession> <!-- # A/swine/France/IIIeetVilaine-0415/2011 -->
+		<primaryAccession>KU322525</primaryAccession> <!-- # A/swine/Italy/229537/2011 -->
+		<primaryAccession>KR700593</primaryAccession> <!-- # A/swine/Spain/29262/2012 -->
+		<primaryAccession>MK636190</primaryAccession> <!-- # A/New York/7734/2018 -->
+		<primaryAccession>MZ088754</primaryAccession> <!-- # A/swine/France/29-200240/2020 -->
+		<primaryAccession>MK339094</primaryAccession> <!-- # A/swine/Emstek/10466/2009 -->
+		<primaryAccession>JQ806064</primaryAccession> <!-- # A/swine/Henan/YIL/2010 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

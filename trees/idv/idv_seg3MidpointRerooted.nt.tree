@@ -1,0 +1,133 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=31;
+	taxlabels
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KF425654'[&cg_subtype="-",hn_subtype="-",iso_country="USA",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2013,length=2195,pubmed_id="24595369",sequenceID="KF425654",strain="D/bovine/Minnesota/628/2013"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KF425661'[&cg_subtype="-",hn_subtype="-",iso_country="USA",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2013,length=2195,pubmed_id="24595369",sequenceID="KF425661",strain="D/bovine/Oklahoma/660/2013"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KF425668'[&cg_subtype="-",hn_subtype="-",iso_country="USA",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2013,length=2133,pubmed_id="24595369",sequenceID="KF425668",strain="D/bovine/Minnesota/729/2013"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM015493'[&cg_subtype="-",hn_subtype="-",iso_country="China",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2014,length=2195,pubmed_id="25142163",sequenceID="KM015493",strain="D/bovine/Shandong/Y125/2014"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM015500'[&cg_subtype="-",hn_subtype="-",iso_country="China",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2014,length=2195,pubmed_id="25142163",sequenceID="KM015500",strain="D/bovine/Shandong/Y127/2014"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM015507'[&cg_subtype="-",hn_subtype="-",iso_country="China",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2014,length=2195,pubmed_id="25142163",sequenceID="KM015507",strain="D/bovine/Shandong/Y217/2014"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM392470'[&cg_subtype="-",hn_subtype="-",iso_country="USA",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2012,length=2195,pubmed_id="-",sequenceID="KM392470",strain="D/bovine/Nebraska/9-5/2012"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM392477'[&cg_subtype="-",hn_subtype="-",iso_country="USA",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2010,length=2195,pubmed_id="-",sequenceID="KM392477",strain="D/bovine/Kansas/1-35/2010"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM392484'[&cg_subtype="-",hn_subtype="-",iso_country="USA",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2011,length=2195,pubmed_id="-",sequenceID="KM392484",strain="D/bovine/Texas/3-13/2011"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM392491'[&cg_subtype="-",hn_subtype="-",iso_country="USA",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2012,length=2195,pubmed_id="-",sequenceID="KM392491",strain="D/bovine/Kansas/13-21/2012"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM392498'[&cg_subtype="-",hn_subtype="-",iso_country="USA",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2012,length=2195,pubmed_id="-",sequenceID="KM392498",strain="D/bovine/Kansas/14-22/2012"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM392505'[&cg_subtype="-",hn_subtype="-",iso_country="USA",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2012,length=2195,pubmed_id="-",sequenceID="KM392505",strain="D/bovine/Kansas/11-8/2012"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KT581411'[&cg_subtype="-",hn_subtype="-",iso_country="USA",iso_host="Bos taurus; 6 to 8 months",iso_region="-",iso_source="nasal swab",iso_year=2014,length=2195,pubmed_id="-",sequenceID="KT581411",strain="D/bovine/Mississippi/C00046N/2014"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KT592517'[&cg_subtype="-",hn_subtype="-",iso_country="Italy",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2014,length=2195,pubmed_id="26812282",sequenceID="KT592517",strain="D/bovine/Italy/1/2014"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KT592525'[&cg_subtype="-",hn_subtype="-",iso_country="Italy",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2015,length=2193,pubmed_id="26812282",sequenceID="KT592525",strain="D/bovine/Italy/46484/2015"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KT592532'[&cg_subtype="-",hn_subtype="-",iso_country="Italy",iso_host="Sus scrofa",iso_region="-",iso_source="-",iso_year=2015,length=2195,pubmed_id="26812282",sequenceID="KT592532",strain="D/swine/Italy/199724-3/2015"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KU710426'[&cg_subtype="-",hn_subtype="-",iso_country="Mexico",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2015,length=2195,pubmed_id="27154756",sequenceID="KU710426",strain="D/bovine/Mexico/S7/2015"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KU710427'[&cg_subtype="-",hn_subtype="-",iso_country="Mexico",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2015,length=2194,pubmed_id="27154756",sequenceID="KU710427",strain="D/bovine/Mexico/S8/2015"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KU710428'[&cg_subtype="-",hn_subtype="-",iso_country="Mexico",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2015,length=2195,pubmed_id="27154756",sequenceID="KU710428",strain="D/bovine/Mexico/S56/2015"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KU710429'[&cg_subtype="-",hn_subtype="-",iso_country="Mexico",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2015,length=2195,pubmed_id="27154756",sequenceID="KU710429",strain="D/bovine/Mexico/S62/2015"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KX768819'[&cg_subtype="-",hn_subtype="-",iso_country="Italy",iso_host="Sus scrofa",iso_region="-",iso_source="-",iso_year=2015,length=2213,pubmed_id="28916759",sequenceID="KX768819",strain="D/swine/Italy/268344-2/2015"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KX768826'[&cg_subtype="-",hn_subtype="-",iso_country="Italy",iso_host="Sus scrofa",iso_region="-",iso_source="-",iso_year=2016,length=2195,pubmed_id="28916759",sequenceID="KX768826",strain="D/swine/Italy/173287-4/2016"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KX768833'[&cg_subtype="-",hn_subtype="-",iso_country="Italy",iso_host="Sus scrofa",iso_region="-",iso_source="-",iso_year=2015,length=2195,pubmed_id="28916759",sequenceID="KX768833",strain="D/swine/Italy/254578/2015"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KX768840'[&cg_subtype="-",hn_subtype="-",iso_country="Italy",iso_host="Sus scrofa",iso_region="-",iso_source="-",iso_year=2015,length=2195,pubmed_id="28916759",sequenceID="KX768840",strain="D/swine/Italy/354017/2015"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/LC128437'[&cg_subtype="-",hn_subtype="-",iso_country="Japan",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2016,length=2195,pubmed_id="27434213",sequenceID="LC128437",strain="D/bovine/Ibaraki/7768/2016"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/LC270267'[&cg_subtype="-",hn_subtype="-",iso_country="Japan",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2016,length=2195,pubmed_id="29143492",sequenceID="LC270267",strain="D/bovine/Miyazaki/B22/2016"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/LC318667'[&cg_subtype="-",hn_subtype="-",iso_country="Japan",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2016,length=2195,pubmed_id="29321324",sequenceID="LC318667",strain="D/bovine/Yamagata/10710/2016"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/MG720238'[&cg_subtype="-",hn_subtype="-",iso_country="France",iso_host="Bos taurus",iso_region="-",iso_source="lung fragment",iso_year=2014,length=2166,pubmed_id="-",sequenceID="MG720238",strain="D/bovine/France/5920/2014"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/MK054180'[&cg_subtype="-",hn_subtype="-",iso_country="USA",iso_host="Sus scrofa",iso_region="-",iso_source="nasal swab",iso_year=2017,length=2133,pubmed_id="-",sequenceID="MK054180",strain="D/swine/Kentucky/17TOSU1262/2017"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/MK101120'[&cg_subtype="-",hn_subtype="-",iso_country="United Kingdom",iso_host="Bos taurus",iso_region="-",iso_source="-",iso_year=2017,length=2150,pubmed_id="-",sequenceID="MK101120",strain="D/bovine/Northern Ireland/24280/2017"]
+	'alignment/AL_IDV_SEG3/member/idv-ncbi-refseqs-seg3/NC_036619'[&cg_subtype="-",hn_subtype="-",iso_country="USA",iso_host="Sus scrofa",iso_region="NULL",iso_source="-",iso_year=2011,length=2195,pubmed_id="23408893",sequenceID="NC_036619",strain="D/swine/Oklahoma/1334/2011"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/LC270267':0.002796,('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/LC318667':9.18E-4,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/LC128437':9.2E-4)[&label=99]:9.03E-4)[&label=100]:0.022866,((((('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KU710428':4.54E-4,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KU710429':1.0E-6)[&label=96]:8.59E-4,('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KU710426':1.0E-6,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KU710427':1.0E-6)[&label=100]:0.00281)[&label=100]:0.007772,(('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM392470':0.002513,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KF425661':0.003955)[&label=56]:8.99E-4,('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM392505':0.001944,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/MK054180':0.008691)[&label=99]:0.001966)[&label=19]:1.0E-6)[&label=66]:4.56E-4,('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM392477':0.003414,((('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM015493':9.09E-4,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM015500':1.0E-6)[&label=90]:1.0E-6,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM015507':0.002279)[&label=100]:0.005103,('alignment/AL_IDV_SEG3/member/idv-ncbi-refseqs-seg3/NC_036619':9.16E-4,(('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/MG720238':9.22E-4,(('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KT592532':0.001368,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KX768840':0.001367)[&label=24]:1.0E-6,('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KT592517':1.0E-6,(('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/MK101120':0.004725,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KX768826':0.001851)[&label=93]:8.99E-4,(('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KX768833':1.0E-6,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KX768819':4.56E-4)[&label=100]:0.003213,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KT592525':0.003222)[&label=44]:1.0E-6)[&label=13]:1.0E-6)[&label=2]:1.0E-6)[&label=20]:1.0E-6)[&label=87]:0.001828,('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KT581411':0.001847,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM392498':0.002772)[&label=74]:4.38E-4)[&label=76]:4.53E-4)[&label=100]:0.003261)[&label=41]:6.82E-4)[&label=28]:1.0E-6)[&label=77]:0.004273,('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM392484':0.00669,('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KM392491':0.004307,('alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KF425654':1.0E-6,'alignment/AL_IDV_SEG3/member/idv-ncbi-curated-segment-3/KF425668':4.7E-4)[&label=100]:0.003626)[&label=100]:0.004272)[&label=100]:0.008771)[&label=100]:0.008312);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="iso_host";
+	set tipLabels.displayAttribute="strain";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

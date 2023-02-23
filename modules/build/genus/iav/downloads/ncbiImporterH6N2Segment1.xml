@@ -1,0 +1,626 @@
+<!-- NCBI import module for IAV subtype 'H6N2' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-1</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>HM145583</primaryAccession> <!-- # A/duck/Shantou/1252/2000 -->
+		<primaryAccession>OL370238</primaryAccession> <!-- # A/wild waterfowl/Queensland/P17-16504-103/2017 -->
+		<primaryAccession>GQ414782</primaryAccession> <!-- # A/duck/Korea/522-79/2008 -->
+		<primaryAccession>CY109239</primaryAccession> <!-- # A/duck/Guangxi/1248/2006 -->
+		<primaryAccession>HM145596</primaryAccession> <!-- # A/duck/Shantou/2167/2001 -->
+		<primaryAccession>CY004201</primaryAccession> <!-- # A/blue-winged teal/ALB/69/1985 -->
+		<primaryAccession>CY109639</primaryAccession> <!-- # A/duck/Guizhou/1088/2007 -->
+		<primaryAccession>HM145619</primaryAccession> <!-- # A/wild duck/Shantou/488/2002 -->
+		<primaryAccession>JX297576</primaryAccession> <!-- # A/duck/Guangxi/GXd-3/2009 -->
+		<primaryAccession>HM145661</primaryAccession> <!-- # A/duck/Shantou/3654/2003 -->
+		<primaryAccession>HM145621</primaryAccession> <!-- # A/wild duck/Shantou/641/2002 -->
+		<primaryAccession>CY110175</primaryAccession> <!-- # A/duck/Shantou/2823/2006 -->
+		<primaryAccession>AB916648</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM455/2013 -->
+		<primaryAccession>CY081257</primaryAccession> <!-- # A/mallard/Ohio/662/2002 -->
+		<primaryAccession>MT703753</primaryAccession> <!-- # A/wild bird/Uganda/MUWRP-731/2017 -->
+		<primaryAccession>KT267003</primaryAccession> <!-- # A/goose/Guangxi/158/2013 -->
+		<primaryAccession>OL371012</primaryAccession> <!-- # A/wild duck/Northern Territory/18-0491-284/2018 -->
+		<primaryAccession>KY131428</primaryAccession> <!-- # A/northern pintail/Alaska/UGAI15-7567/2015 -->
+		<primaryAccession>MZ015613</primaryAccession> <!-- # A/Least Sandpiper/Alaska/20MB01582/2020 -->
+		<primaryAccession>JF965040</primaryAccession> <!-- # A/duck/Eastern China/52/2002 -->
+		<primaryAccession>MH578719</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/293/2006 -->
+		<primaryAccession>CY139860</primaryAccession> <!-- # A/mallard/Minnesota/355777/2000 -->
+		<primaryAccession>HM145614</primaryAccession> <!-- # A/wild duck/Shantou/41/2002 -->
+		<primaryAccession>CY166799</primaryAccession> <!-- # A/American widgeon/Mississippi/11OS6073/2011 -->
+		<primaryAccession>MW872852</primaryAccession> <!-- # A/duck/Vietnam/QN6083/2020 -->
+		<primaryAccession>CY179458</primaryAccession> <!-- # A/duck/Wisconsin/3070/1986 -->
+		<primaryAccession>GQ414783</primaryAccession> <!-- # A/duck/Korea/A56/2009 -->
+		<primaryAccession>CY133020</primaryAccession> <!-- # A/American green-winged teal/Illinois/10OS3589/2010 -->
+		<primaryAccession>CY109343</primaryAccession> <!-- # A/duck/Yunnan/3136/2006 -->
+		<primaryAccession>MW109109</primaryAccession> <!-- # A/duck/Zhejiang/10.26_HZBX003-C/2018 -->
+		<primaryAccession>KM244049</primaryAccession> <!-- # A/chicken/Texas/473-2/2010 -->
+		<primaryAccession>MW269601</primaryAccession> <!-- # A/duck/Moscow/3720/2009 -->
+		<primaryAccession>OL371028</primaryAccession> <!-- # A/wild duck/Northern Territory/18-0491-74/2018 -->
+		<primaryAccession>CY186452</primaryAccession> <!-- # A/northern shoveler/Illinois/12OS4957/2012 -->
+		<primaryAccession>KY678703</primaryAccession> <!-- # A/mallard/Ohio/15OS5921/2015 -->
+		<primaryAccession>HM145616</primaryAccession> <!-- # A/duck/Shantou/184/2002 -->
+		<primaryAccession>KT267011</primaryAccession> <!-- # A/pigeon/Guangxi/158/2014 -->
+		<primaryAccession>CY140550</primaryAccession> <!-- # A/American wigeon/Louisiana/Sg-01032/2008 -->
+		<primaryAccession>CY140526</primaryAccession> <!-- # A/mallard/Minnesota/Sg-01018/2008 -->
+		<primaryAccession>CY179818</primaryAccession> <!-- # A/black duck/Alabama/748/1975 -->
+		<primaryAccession>CY179482</primaryAccession> <!-- # A/duck/Wisconsin/3078/1986 -->
+		<primaryAccession>MW874296</primaryAccession> <!-- # A/northern pintail/Alaska/AK19-162E_T1/2019 -->
+		<primaryAccession>OL372044</primaryAccession> <!-- # A/wild waterfowl/South Australia/12-2206749-25/2012 -->
+		<primaryAccession>HM145650</primaryAccession> <!-- # A/wild duck/Shantou/853/2003 -->
+		<primaryAccession>AB849910</primaryAccession> <!-- # A/muscovy duck/Quang Ninh/3/2013 -->
+		<primaryAccession>KY983189</primaryAccession> <!-- # A/American wigeon/California/HS001/2015 -->
+		<primaryAccession>KJ200932</primaryAccession> <!-- # A/goose/Guangdong/S1384/2010 -->
+		<primaryAccession>CY097597</primaryAccession> <!-- # A/mallard/Missouri/129/2009 -->
+		<primaryAccession>CY109423</primaryAccession> <!-- # A/duck/Shantou/7904/2006 -->
+		<primaryAccession>KX595258</primaryAccession> <!-- # A/chicken/South Africa/BKR4/2012 -->
+		<primaryAccession>OL371020</primaryAccession> <!-- # A/wild duck/Northern Territory/18-0491-68/2018 -->
+		<primaryAccession>HM145671</primaryAccession> <!-- # A/duck/Shantou/7880/2004 -->
+		<primaryAccession>MN988810</primaryAccession> <!-- # A/pintail/Taiwan/WB2477/2017 -->
+		<primaryAccession>HM145640</primaryAccession> <!-- # A/duck/Shantou/2061/2002 -->
+		<primaryAccession>GQ414777</primaryAccession> <!-- # A/duck/Korea/A39/2008 -->
+		<primaryAccession>GQ414775</primaryAccession> <!-- # A/duck/Korea/A105/2009 -->
+		<primaryAccession>MT406984</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/33_2016/2015 -->
+		<primaryAccession>CY067691</primaryAccession> <!-- # A/rosy-billed pochard/Argentina/CIP051-557/2007 -->
+		<primaryAccession>KX595252</primaryAccession> <!-- # A/chicken/South Africa/W04/2002 -->
+		<primaryAccession>CY013262</primaryAccession> <!-- # A/pintail/Ohio/226/1998 -->
+		<primaryAccession>MG550082</primaryAccession> <!-- # A/duck/India/12CL22/2015 -->
+		<primaryAccession>CY014895</primaryAccession> <!-- # A/duck/New York/16873/1999 -->
+		<primaryAccession>MH499166</primaryAccession> <!-- # A/Franklin's gull/Chile/C10242/2016 -->
+		<primaryAccession>KT423122</primaryAccession> <!-- # A/chicken/Zhejiang/77001/2014 -->
+		<primaryAccession>KJ200844</primaryAccession> <!-- # A/duck/Hubei/S1366/2009 -->
+		<primaryAccession>KY130589</primaryAccession> <!-- # A/northern pintail/Alaska/224/2011 -->
+		<primaryAccession>MW872812</primaryAccession> <!-- # A/duck/Vietnam/QN6079/2020 -->
+		<primaryAccession>MK071369</primaryAccession> <!-- # A/rosy-billed pochard/Argentina/CIP051-272/2007 -->
+		<primaryAccession>GU168124</primaryAccession> <!-- # A/northern pintail/Alaska/44340-010/2007 -->
+		<primaryAccession>CY139736</primaryAccession> <!-- # A/mallard/Minnesota/182718/1998 -->
+		<primaryAccession>GQ414781</primaryAccession> <!-- # A/duck/Korea/276-7/2008 -->
+		<primaryAccession>CY109671</primaryAccession> <!-- # A/duck/Guizhou/5482/2007 -->
+		<primaryAccession>CY093885</primaryAccession> <!-- # A/green-winged teal/California/7972/2008 -->
+		<primaryAccession>KU310476</primaryAccession> <!-- # A/greater white-fronted goose/Alaska/UGAI15-3913/2015 -->
+		<primaryAccession>OL371052</primaryAccession> <!-- # A/wild duck/Queensland/P17-14552-37/2017 -->
+		<primaryAccession>KJ200884</primaryAccession> <!-- # A/duck/Hunan/S3047/2009 -->
+		<primaryAccession>CY179498</primaryAccession> <!-- # A/duck/Wisconsin/3086/1986 -->
+		<primaryAccession>CY087759</primaryAccession> <!-- # A/turkey/Massachusetts/3740/1965 -->
+		<primaryAccession>JF965031</primaryAccession> <!-- # A/duck/Eastern China/38/2007 -->
+		<primaryAccession>CY109479</primaryAccession> <!-- # A/duck/Fujian/416/2006 -->
+		<primaryAccession>KT266979</primaryAccession> <!-- # A/goose/Guangxi/128/2013 -->
+		<primaryAccession>CY004225</primaryAccession> <!-- # A/shoveler/ALB/114/1985 -->
+		<primaryAccession>CY180619</primaryAccession> <!-- # A/mallard/Saskatchewan/36/1981 -->
+		<primaryAccession>HM145651</primaryAccession> <!-- # A/duck/Shantou/925/2003 -->
+		<primaryAccession>CY079443</primaryAccession> <!-- # A/gadwall/Wisconsin/08OS2296/2008 -->
+		<primaryAccession>CY097461</primaryAccession> <!-- # A/American green-winged teal/Wisconsin/2530/2009 -->
+		<primaryAccession>CY109407</primaryAccession> <!-- # A/duck/Shantou/14167/2006 -->
+		<primaryAccession>MF575198</primaryAccession> <!-- # A/Eurasian wigeon/Netherlands/6/2005 -->
+		<primaryAccession>HM145620</primaryAccession> <!-- # A/duck/Shantou/494/2002 -->
+		<primaryAccession>OL371348</primaryAccession> <!-- # A/wild waterbird/Queensland/P11-72097-9/2011 -->
+		<primaryAccession>CY018900</primaryAccession> <!-- # A/black duck/Ohio/101/1986 -->
+		<primaryAccession>CY015458</primaryAccession> <!-- # A/mallard/Ohio/344/1987 -->
+		<primaryAccession>HM145660</primaryAccession> <!-- # A/duck/Shantou/3550/2003 -->
+		<primaryAccession>KY983183</primaryAccession> <!-- # A/northern pintail/California/HS023/2015 -->
+		<primaryAccession>HM145633</primaryAccession> <!-- # A/goose/Shantou/1321/2002 -->
+		<primaryAccession>KT266971</primaryAccession> <!-- # A/goose/Guangxi/127/2012 -->
+		<primaryAccession>CY076636</primaryAccession> <!-- # A/mallard/Washington/44338-120/2007 -->
+		<primaryAccession>JF965045</primaryAccession> <!-- # A/duck/Eastern China/58/2003 -->
+		<primaryAccession>CY140187</primaryAccession> <!-- # A/mallard/Minnesota/Sg-00768/2008 -->
+		<primaryAccession>OL371148</primaryAccession> <!-- # A/wild duck/Tasmania/17-0958-21/2017 -->
+		<primaryAccession>CY178149</primaryAccession> <!-- # A/mallard/Wisconsin/2077/1984 -->
+		<primaryAccession>MF146448</primaryAccession> <!-- # A/mallard duck/Netherlands/13/2005 -->
+		<primaryAccession>ON513951</primaryAccession> <!-- # A/White-fronted Goose(Anser albifrons)/South Korea/KNU2021-18/2021 -->
+		<primaryAccession>HM145629</primaryAccession> <!-- # A/duck/Shantou/1215/2002 -->
+		<primaryAccession>CY127669</primaryAccession> <!-- # A/shorebird/Delaware Bay/208/2001 -->
+		<primaryAccession>EF634337</primaryAccession> <!-- # A/mallard/Hei Longjiang/131/2006 -->
+		<primaryAccession>FJ519991</primaryAccession> <!-- # A/northern pintail/California/44242-732/2006 -->
+		<primaryAccession>GQ414780</primaryAccession> <!-- # A/duck/Korea/A50/2009 -->
+		<primaryAccession>HM145603</primaryAccession> <!-- # A/duck/Shantou/4002/2001 -->
+		<primaryAccession>HM145714</primaryAccession> <!-- # A/duck/Fujian/11339/2005 -->
+		<primaryAccession>KJ568142</primaryAccession> <!-- # A/American green-winged teal/Ohio/13OS2090/2013 -->
+		<primaryAccession>CY109383</primaryAccession> <!-- # A/duck/Shantou/2765/2006 -->
+		<primaryAccession>GQ414776</primaryAccession> <!-- # A/duck/Korea/A121/2009 -->
+		<primaryAccession>CY109743</primaryAccession> <!-- # A/duck/Shantou/1080/2007 -->
+		<primaryAccession>ON564785</primaryAccession> <!-- # A/Bean Goose(Anser fabalis)/South Korea/KNU2021-35/2021 -->
+		<primaryAccession>JF965042</primaryAccession> <!-- # A/duck/Eastern China/54/2002 -->
+		<primaryAccession>HM145703</primaryAccession> <!-- # A/duck/Fujian/1695/2005 -->
+		<primaryAccession>MW380666</primaryAccession> <!-- # A/Green-winged teal(Anas crecca)/South Korea/KNU 2019-70/2019 -->
+		<primaryAccession>CY076628</primaryAccession> <!-- # A/mallard/Washington/44338-112/2007 -->
+		<primaryAccession>CY136709</primaryAccession> <!-- # A/mallard/Alberta/260/1987 -->
+		<primaryAccession>KT717231</primaryAccession> <!-- # A/Anser fabalis/China/Anhui/S65/2014 -->
+		<primaryAccession>AB569484</primaryAccession> <!-- # A/duck /Zambia/03/2008 -->
+		<primaryAccession>HM145665</primaryAccession> <!-- # A/duck/Shantou/3667/2004 -->
+		<primaryAccession>CY067707</primaryAccession> <!-- # A/rosy-billed pochard/Argentina/CIP051-925/2008 -->
+		<primaryAccession>KJ200708</primaryAccession> <!-- # A/chicken/Hunan/S4191/2009 -->
+		<primaryAccession>CY136693</primaryAccession> <!-- # A/mallard/Alberta/230/1987 -->
+		<primaryAccession>AB569524</primaryAccession> <!-- # A/duck/Zambia/08/2009 -->
+		<primaryAccession>HM145698</primaryAccession> <!-- # A/duck/Hunan/908/2005 -->
+		<primaryAccession>CY126368</primaryAccession> <!-- # A/mallard/Alberta/311/1986 -->
+		<primaryAccession>MT406888</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/11075_35/2017 -->
+		<primaryAccession>KJ200852</primaryAccession> <!-- # A/duck/Hubei/S1114/2009 -->
+		<primaryAccession>KJ200731</primaryAccession> <!-- # A/duck/Guangdong/S1289/2010 -->
+		<primaryAccession>CY126783</primaryAccession> <!-- # A/mallard/Alberta/298/1986 -->
+		<primaryAccession>KY415873</primaryAccession> <!-- # A/duck/Hubei/ZYSYG3/2015 -->
+		<primaryAccession>CY126791</primaryAccession> <!-- # A/pintail/Alberta/321/1986 -->
+		<primaryAccession>HM145686</primaryAccession> <!-- # A/duck/Shantou/13145/2005 -->
+		<primaryAccession>HM145713</primaryAccession> <!-- # A/duck/Fujian/8719/2005 -->
+		<primaryAccession>JF965033</primaryAccession> <!-- # A/duck/Eastern China/40/2007 -->
+		<primaryAccession>MK592554</primaryAccession> <!-- # A/duck/Hokkaido/WZ75/2017 -->
+		<primaryAccession>CY126383</primaryAccession> <!-- # A/pintail/Alberta/314/1986 -->
+		<primaryAccession>CY078296</primaryAccession> <!-- # A/mallard/Minnesota/Sg-00166/2007 -->
+		<primaryAccession>MW110037</primaryAccession> <!-- # A/goose/Guangdong/10.21_SZBJ001-C/2016 -->
+		<primaryAccession>JQ924794</primaryAccession> <!-- # A/chicken/Guangdong/C273/2011 -->
+		<primaryAccession>MT828569</primaryAccession> <!-- # A/duck/China/E3780-1/2015 -->
+		<primaryAccession>CY016131</primaryAccession> <!-- # A/black duck/Ohio/307/1987 -->
+		<primaryAccession>CY109503</primaryAccession> <!-- # A/duck/Fujian/1878/2006 -->
+		<primaryAccession>AB569540</primaryAccession> <!-- # A/duck/Zambia/10/2009 -->
+		<primaryAccession>JF965050</primaryAccession> <!-- # A/chicken/Eastern China/43/2007 -->
+		<primaryAccession>HM145612</primaryAccession> <!-- # A/duck/Shantou/5561/2001 -->
+		<primaryAccession>MT828556</primaryAccession> <!-- # A/goose/China/1127-1/2011 -->
+		<primaryAccession>AY633323</primaryAccession> <!-- # A/pintail/Alberta/113/85 -->
+		<primaryAccession>MH502737</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI14-1746/2014 -->
+		<primaryAccession>CY179826</primaryAccession> <!-- # A/green-winged teal/Alabama/741/1975 -->
+		<primaryAccession>ON564805</primaryAccession> <!-- # A/Bean Goose(Anser fabalis)/South Korea/KNU2021-26/2021 -->
+		<primaryAccession>CY032693</primaryAccession> <!-- # A/northern shoveler/California/HKWF268/2007(H6N2) -->
+		<primaryAccession>CY127661</primaryAccession> <!-- # A/shorebird/Delaware Bay/124/2001 -->
+		<primaryAccession>KX979145</primaryAccession> <!-- # A/greater white-fronted goose/Netherlands/6/2010 -->
+		<primaryAccession>GQ414787</primaryAccession> <!-- # A/duck/Korea/A127/2009 -->
+		<primaryAccession>CY140952</primaryAccession> <!-- # A/mallard/Minnesota/AI09-4324/2009 -->
+		<primaryAccession>HM145702</primaryAccession> <!-- # A/duck/Fujian/629/2005 -->
+		<primaryAccession>MW513606</primaryAccession> <!-- # A/northern shoveler/Alaska/UGAI16-5347/2016 -->
+		<primaryAccession>MK071425</primaryAccession> <!-- # A/silver teal/Argentina/CIP051-52/2011 -->
+		<primaryAccession>KT717215</primaryAccession> <!-- # A/Anser fabalis/China/Anhui/S39/2014 -->
+		<primaryAccession>CY004217</primaryAccession> <!-- # A/pintail duck/ALB/111/1985 -->
+		<primaryAccession>MT828555</primaryAccession> <!-- # A/goose/China/1268-1/2011 -->
+		<primaryAccession>CY020820</primaryAccession> <!-- # A/mallard/Maryland/470/2002 -->
+		<primaryAccession>HM145649</primaryAccession> <!-- # A/wild duck/Shantou/852/2003 -->
+		<primaryAccession>OL370572</primaryAccession> <!-- # A/grey teal/South Australia/17-3278836-17/2017 -->
+		<primaryAccession>CY140638</primaryAccession> <!-- # A/green-winged teal/Minnesota/Sg-01073/2008 -->
+		<primaryAccession>HM145677</primaryAccession> <!-- # A/duck/Shantou/2472/2005 -->
+		<primaryAccession>HM145657</primaryAccession> <!-- # A/wild duck/Shantou/3155/2003 -->
+		<primaryAccession>HM145581</primaryAccession> <!-- # A/duck/Shantou/259/2000 -->
+		<primaryAccession>JF965035</primaryAccession> <!-- # A/duck/Eastern China/46/2008 -->
+		<primaryAccession>HM145615</primaryAccession> <!-- # A/goose/Shantou/106/2002 -->
+		<primaryAccession>CY140426</primaryAccession> <!-- # A/green-winged teal/Minnesota/Sg-00841/2008 -->
+		<primaryAccession>HM145679</primaryAccession> <!-- # A/duck/Shantou/4617/2005 -->
+		<primaryAccession>HM145695</primaryAccession> <!-- # A/duck/Guangxi/1598/2005 -->
+		<primaryAccession>HM145625</primaryAccession> <!-- # A/wild duck/Shantou/867/2002 -->
+		<primaryAccession>HM145624</primaryAccession> <!-- # A/wild duck/Shantou/865/2002 -->
+		<primaryAccession>CY078304</primaryAccession> <!-- # A/green-winged teal/Minnesota/Sg-00180/2007 -->
+		<primaryAccession>HQ244427</primaryAccession> <!-- # A/mallard/Czech Republic/15902-17K/2009 -->
+		<primaryAccession>HM145586</primaryAccession> <!-- # A/duck/Shantou/1840/2000 -->
+		<primaryAccession>JF965049</primaryAccession> <!-- # A/chicken/Eastern China/42/2007 -->
+		<primaryAccession>CY127838</primaryAccession> <!-- # A/shorebird/Delaware Bay/604/2008 -->
+		<primaryAccession>GU053256</primaryAccession> <!-- # A/mallard/Ohio/648/2002 -->
+		<primaryAccession>CY141159</primaryAccession> <!-- # A/mallard/Minnesota/182717/1998 -->
+		<primaryAccession>MW872870</primaryAccession> <!-- # A/duck/Vietnam/QN6082/2020 -->
+		<primaryAccession>CY177020</primaryAccession> <!-- # A/green-winged teal/California/3722/2012 -->
+		<primaryAccession>HM145630</primaryAccession> <!-- # A/duck/Shantou/1217/2002 -->
+		<primaryAccession>EU152234</primaryAccession> <!-- # A/gull/Moscow/3100/2006 -->
+		<primaryAccession>CY166369</primaryAccession> <!-- # A/mallard/Illinois/11OS4121/2011 -->
+		<primaryAccession>KX978500</primaryAccession> <!-- # A/mallard duck/Netherlands/19/2007 -->
+		<primaryAccession>CY020788</primaryAccession> <!-- # A/mallard/Ohio/666/2002 -->
+		<primaryAccession>KX978059</primaryAccession> <!-- # A/mallard duck/Netherlands/18/2009 -->
+		<primaryAccession>AB593436</primaryAccession> <!-- # A/Muscovy duck/Vietnam/G33/2007 -->
+		<primaryAccession>OL371044</primaryAccession> <!-- # A/wild duck/Queensland/P17-14552-28/2017 -->
+		<primaryAccession>MW872873</primaryAccession> <!-- # A/duck/Vietnam/QN6090/2020 -->
+		<primaryAccession>HM145588</primaryAccession> <!-- # A/duck/Shantou/728/2001 -->
+		<primaryAccession>CY136685</primaryAccession> <!-- # A/mallard/Alberta/197/1987 -->
+		<primaryAccession>MW872882</primaryAccession> <!-- # A/duck/Vietnam/QN6087/2020 -->
+		<primaryAccession>CY180587</primaryAccession> <!-- # A/green-winged teal/Wisconsin/453/1976 -->
+		<primaryAccession>CY109463</primaryAccession> <!-- # A/duck/Shantou/17490/2006 -->
+		<primaryAccession>CY109351</primaryAccession> <!-- # A/duck/Shantou/8/2006 -->
+		<primaryAccession>HM145648</primaryAccession> <!-- # A/duck/Shantou/689/2003 -->
+		<primaryAccession>HM145639</primaryAccession> <!-- # A/duck/Shantou/2045/2002 -->
+		<primaryAccession>HM145678</primaryAccession> <!-- # A/duck/Shantou/3324/2005 -->
+		<primaryAccession>CY110273</primaryAccession> <!-- # A/duck/Shantou/6104/2006 -->
+		<primaryAccession>HM145669</primaryAccession> <!-- # A/duck/Shantou/6847/2004 -->
+		<primaryAccession>KP179319</primaryAccession> <!-- # A/pekin duck/Mexico/CPA-5009/2007 -->
+		<primaryAccession>CY004522</primaryAccession> <!-- # A/coot/ALB/134/1987 -->
+		<primaryAccession>CY166265</primaryAccession> <!-- # A/northern pintail/Wisconsin/11OS4111/2011 -->
+		<primaryAccession>HM145664</primaryAccession> <!-- # A/duck/Shantou/887/2004 -->
+		<primaryAccession>CY102599</primaryAccession> <!-- # A/shorebird/Delaware Bay/287/1999 -->
+		<primaryAccession>MK237012</primaryAccession> <!-- # A/northern shoveler/Missouri/17OS4858/2017 -->
+		<primaryAccession>MK071433</primaryAccession> <!-- # A/yellow-billed pintail/Argentina/CIP112-1174A/2016 -->
+		<primaryAccession>MF147600</primaryAccession> <!-- # A/mallard duck/Netherlands/9/2014 -->
+		<primaryAccession>KP287760</primaryAccession> <!-- # A/duck/Jiangxi/3779/2009 -->
+		<primaryAccession>HM145634</primaryAccession> <!-- # A/wild duck/Shantou/1494/2002 -->
+		<primaryAccession>JN641321</primaryAccession> <!-- # A/avian/Israel/320/2001 -->
+		<primaryAccession>MK326803</primaryAccession> <!-- # A/blue-winged teal/Guatemala/CIP049-S_H116-84/2013 -->
+		<primaryAccession>JF965046</primaryAccession> <!-- # A/duck/Eastern China/59/2003 -->
+		<primaryAccession>MH352295</primaryAccession> <!-- # A/common teal/Shanghai/PD1027-12/2017 -->
+		<primaryAccession>CY179474</primaryAccession> <!-- # A/duck/Wisconsin/3075/1986 -->
+		<primaryAccession>CY109311</primaryAccession> <!-- # A/duck/Hunan/2110/2006 -->
+		<primaryAccession>MW110045</primaryAccession> <!-- # A/goose/Guangdong/10.21_SZBJ001-O/2016 -->
+		<primaryAccession>CY093638</primaryAccession> <!-- # A/mallard/California/8457/2008 -->
+		<primaryAccession>KX977617</primaryAccession> <!-- # A/mallard duck/Netherlands/3/2008 -->
+		<primaryAccession>LC069837</primaryAccession> <!-- # A/environment/Vietnam/HU1-1426/2014 -->
+		<primaryAccession>CY094100</primaryAccession> <!-- # A/mallard/California/6420/2008 -->
+		<primaryAccession>KU598232</primaryAccession> <!-- # A/duck/India/11CL01/2014 -->
+		<primaryAccession>CY190314</primaryAccession> <!-- # A/mallard/Maryland/06OS196/2006 -->
+		<primaryAccession>CY012839</primaryAccession> <!-- # A/pintail/Ohio/294/1988 -->
+		<primaryAccession>CY190986</primaryAccession> <!-- # A/mallard/Maryland/10OS2170/2010 -->
+		<primaryAccession>HM145610</primaryAccession> <!-- # A/duck/Shantou/5525/2001 -->
+		<primaryAccession>KX978712</primaryAccession> <!-- # A/greater white-fronted goose/Netherlands/1/2006 -->
+		<primaryAccession>CY146512</primaryAccession> <!-- # A/mallard/New Jersey/AI09-5405/2009 -->
+		<primaryAccession>KU572415</primaryAccession> <!-- # A/environment/Sichuan/315069/2015 -->
+		<primaryAccession>KY983179</primaryAccession> <!-- # A/American wigeon/California/HS025/2015 -->
+		<primaryAccession>HM145580</primaryAccession> <!-- # A/duck/Shantou/83/2000 -->
+		<primaryAccession>MK071361</primaryAccession> <!-- # A/comb duck/Argentina/CIP051-49/2011 -->
+		<primaryAccession>JF965055</primaryAccession> <!-- # A/duck/Eastern China/2/2008 -->
+		<primaryAccession>CY109687</primaryAccession> <!-- # A/duck/Jiangxi/4981/2007 -->
+		<primaryAccession>CY110183</primaryAccession> <!-- # A/duck/Shantou/3371/2006 -->
+		<primaryAccession>CY060313</primaryAccession> <!-- # A/mallard/Sweden/52/2003 -->
+		<primaryAccession>MT828568</primaryAccession> <!-- # A/duck/China/E3742-2/2015 -->
+		<primaryAccession>LC028093</primaryAccession> <!-- # A/duck/Vietnam/LBM74-c1/2011 -->
+		<primaryAccession>HM145627</primaryAccession> <!-- # A/wild duck/Shantou/1068/2002 -->
+		<primaryAccession>CY078320</primaryAccession> <!-- # A/green-winged teal/Minnesota/Sg-00199/2007 -->
+		<primaryAccession>CY140819</primaryAccession> <!-- # A/northern pintail/Minnesota/AI09-3254/2009 -->
+		<primaryAccession>CY126807</primaryAccession> <!-- # A/blue-winged teal/Alberta/599/1986 -->
+		<primaryAccession>CY078280</primaryAccession> <!-- # A/mallard/Minnesota/Sg-00106/2007 -->
+		<primaryAccession>CY110281</primaryAccession> <!-- # A/duck/Shantou/6252/2006 -->
+		<primaryAccession>CY110257</primaryAccession> <!-- # A/duck/Shantou/5091/2006 -->
+		<primaryAccession>CY136677</primaryAccession> <!-- # A/mallard/Alberta/196/1987 -->
+		<primaryAccession>OL370972</primaryAccession> <!-- # A/wild duck/Northern Territory/18-0491-209/2018 -->
+		<primaryAccession>CY179466</primaryAccession> <!-- # A/duck/Wisconsin/3071/1986 -->
+		<primaryAccession>MW493137</primaryAccession> <!-- # A/spot-billed duck/South Korea/JB31-86-90/2019 -->
+		<primaryAccession>KT717263</primaryAccession> <!-- # A/Anser fabalis/China/Anhui/L63/2014 -->
+		<primaryAccession>CY109287</primaryAccession> <!-- # A/duck/Guizhou/1084/2006 -->
+		<primaryAccession>HM145595</primaryAccession> <!-- # A/wild duck/Shantou/2026/2001 -->
+		<primaryAccession>CY005618</primaryAccession> <!-- # A/duck/Hong Kong/d134/1977 -->
+		<primaryAccession>CY101472</primaryAccession> <!-- # A/mallard/Alberta/144/1987 -->
+		<primaryAccession>CY179802</primaryAccession> <!-- # A/mallard/Wisconsin/331/1975 -->
+		<primaryAccession>HM145697</primaryAccession> <!-- # A/duck/Hunan/491/2005 -->
+		<primaryAccession>CY004193</primaryAccession> <!-- # A/mallard duck/ALB/10/1985 -->
+		<primaryAccession>MK327647</primaryAccession> <!-- # A/blue-winged teal/Guatemala/CIP049-I_H116-84/2013 -->
+		<primaryAccession>CY136653</primaryAccession> <!-- # A/coot/Alberta/134/1987 -->
+		<primaryAccession>HM145683</primaryAccession> <!-- # A/duck/Shantou/7568/2005 -->
+		<primaryAccession>JF965043</primaryAccession> <!-- # A/duck/Eastern China/55/2003 -->
+		<primaryAccession>KX761366</primaryAccession> <!-- # A/waterfowl/Korea/S245/2016 -->
+		<primaryAccession>CY186274</primaryAccession> <!-- # A/mallard/Sweden/3463/2003 -->
+		<primaryAccession>CY178173</primaryAccession> <!-- # A/duck/Wisconsin/2722/1985 -->
+		<primaryAccession>HM145644</primaryAccession> <!-- # A/duck/Shantou/3656/2002 -->
+		<primaryAccession>HM145663</primaryAccession> <!-- # A/duck/Shantou/171/2004 -->
+		<primaryAccession>KT423124</primaryAccession> <!-- # A/chicken/Zhejiang/77025/2014 -->
+		<primaryAccession>CY109695</primaryAccession> <!-- # A/duck/Jiangxi/5178/2007 -->
+		<primaryAccession>MH592426</primaryAccession> <!-- # A/chicken/China/G3249/2014 -->
+		<primaryAccession>KT717223</primaryAccession> <!-- # A/Anser fabalis/China/Anhui/S45/2014 -->
+		<primaryAccession>MW872950</primaryAccession> <!-- # A/duck/Vietnam/QN6081/2020 -->
+		<primaryAccession>KJ200900</primaryAccession> <!-- # A/duck/Hunan/S4386/2009 -->
+		<primaryAccession>CY202643</primaryAccession> <!-- # A/mallard/Maryland/08OS1392/2008 -->
+		<primaryAccession>MZ015664</primaryAccession> <!-- # A/Western Sandpiper/Alaska/20MB01003/2020 -->
+		<primaryAccession>CY181124</primaryAccession> <!-- # A/mallard/Wisconsin/18/1974 -->
+		<primaryAccession>CY109615</primaryAccession> <!-- # A/duck/Guangxi/1533/2007 -->
+		<primaryAccession>HM145715</primaryAccession> <!-- # A/duck/Fujian/12371/2005 -->
+		<primaryAccession>MF147283</primaryAccession> <!-- # A/mallard duck/Netherlands/11/2014 -->
+		<primaryAccession>CY110207</primaryAccession> <!-- # A/duck/Shantou/4138/2006 -->
+		<primaryAccession>MT828573</primaryAccession> <!-- # A/duck/China/F3891-1/2016 -->
+		<primaryAccession>HM145675</primaryAccession> <!-- # A/mallard/Shantou/198/2005 -->
+		<primaryAccession>CY096050</primaryAccession> <!-- # A/rosy-billed pochard/Argentina/CIP051-1977/2010 -->
+		<primaryAccession>HM145602</primaryAccession> <!-- # A/duck/Shantou/3976/2001 -->
+		<primaryAccession>CY179842</primaryAccession> <!-- # A/mallard/Alabama/627/1975 -->
+		<primaryAccession>HM145605</primaryAccession> <!-- # A/duck/Shantou/4371/2001 -->
+		<primaryAccession>CY079581</primaryAccession> <!-- # A/American green-winged teal/Illinois/08OS2311/2008 -->
+		<primaryAccession>KT266955</primaryAccession> <!-- # A/chicken/Guangxi/121/2012 -->
+		<primaryAccession>JF965028</primaryAccession> <!-- # A/duck/Eastern China/29/2004 -->
+		<primaryAccession>HM145593</primaryAccession> <!-- # A/duck/Shantou/1522/2001 -->
+		<primaryAccession>HM145687</primaryAccession> <!-- # A/duck/Shantou/13468/2005 -->
+		<primaryAccession>MG042177</primaryAccession> <!-- # A/duck/Bangladesh/31227/2016 -->
+		<primaryAccession>CY110159</primaryAccession> <!-- # A/duck/Shantou/2785/2006 -->
+		<primaryAccession>CY133257</primaryAccession> <!-- # A/mallard/Wisconsin/10OS3066/2010 -->
+		<primaryAccession>KT717247</primaryAccession> <!-- # A/Anser fabalis/China/Anhui/S148/2014 -->
+		<primaryAccession>MH502721</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI14-1656/2014 -->
+		<primaryAccession>HM145641</primaryAccession> <!-- # A/duck/Shantou/2446/2002 -->
+		<primaryAccession>EU094470</primaryAccession> <!-- # A/mallard/SanJiang/113/2006 -->
+		<primaryAccession>CY146536</primaryAccession> <!-- # A/mallard/New Jersey/AI09-6434/2009 -->
+		<primaryAccession>HM145652</primaryAccession> <!-- # A/duck/Shantou/1658/2003 -->
+		<primaryAccession>MH130159</primaryAccession> <!-- # A/wild waterfowl/Korea/M130/2014 -->
+		<primaryAccession>JF965039</primaryAccession> <!-- # A/duck/Eastern China/51/2002 -->
+		<primaryAccession>CY110435</primaryAccession> <!-- # A/duck/Shantou/19073/2006 -->
+		<primaryAccession>MF093739</primaryAccession> <!-- # A/mallard/Minnesota/AI11-4982/2011 -->
+		<primaryAccession>GQ414779</primaryAccession> <!-- # A/duck/Korea/A20/2009 -->
+		<primaryAccession>HM145582</primaryAccession> <!-- # A/duck/Shantou/339/2000 -->
+		<primaryAccession>MT828566</primaryAccession> <!-- # A/duck/China/E3503-2/2015 -->
+		<primaryAccession>OL371196</primaryAccession> <!-- # A/wild duck/Tasmania/17-0958-9/2017 -->
+		<primaryAccession>MW466338</primaryAccession> <!-- # A/duck/Bangladesh/41252/2019 -->
+		<primaryAccession>OL355032</primaryAccession> <!-- # A/Franklins gull/Peru/M7/2019 -->
+		<primaryAccession>HM145684</primaryAccession> <!-- # A/duck/Shantou/8379/2005 -->
+		<primaryAccession>CY045350</primaryAccession> <!-- # A/northern shoveler/California/K138/2005 -->
+		<primaryAccession>KT717255</primaryAccession> <!-- # A/Anser fabalis/China/Anhui/L9/2014 -->
+		<primaryAccession>HM145658</primaryAccession> <!-- # A/duck/Shantou/3274/2003 -->
+		<primaryAccession>HM145692</primaryAccession> <!-- # A/duck/Shantou/17887/2005 -->
+		<primaryAccession>MT783429</primaryAccession> <!-- # A/Aquatic bird/Gediz Delta/1/2018 -->
+		<primaryAccession>KY284427</primaryAccession> <!-- # A/mallard/Ohio/15OS4208/2015 -->
+		<primaryAccession>CY178165</primaryAccession> <!-- # A/duck/Wisconsin/2712/1985 -->
+		<primaryAccession>HM145598</primaryAccession> <!-- # A/duck/Shantou/2444/2001 -->
+		<primaryAccession>AY633315</primaryAccession> <!-- # A/mallard/Alberta/98/85 -->
+		<primaryAccession>HM145707</primaryAccession> <!-- # A/duck/Fujian/3937/2005 -->
+		<primaryAccession>KY415871</primaryAccession> <!-- # A/duck/Hubei/ZYSYG14/2015 -->
+		<primaryAccession>KX978770</primaryAccession> <!-- # A/greater white-fronted goose/Netherlands/2/2011 -->
+		<primaryAccession>HM145655</primaryAccession> <!-- # A/duck/Shantou/2834/2003 -->
+		<primaryAccession>CY136701</primaryAccession> <!-- # A/mallard/Alberta/238/1987 -->
+		<primaryAccession>CY021868</primaryAccession> <!-- # A/blue-winged teal/Ohio/1387/2005 -->
+		<primaryAccession>CY109231</primaryAccession> <!-- # A/duck/Guangxi/1157/2006 -->
+		<primaryAccession>CY127902</primaryAccession> <!-- # A/shorebird/Delaware Bay/707/2009 -->
+		<primaryAccession>KJ907668</primaryAccession> <!-- # A/common teal/Nanji/NJ-262/2013 -->
+		<primaryAccession>MH134822</primaryAccession> <!-- # A/kelp gull/Chile/C12396/2016 -->
+		<primaryAccession>HM145700</primaryAccession> <!-- # A/mallard/Jiangxi/12147/2005 -->
+		<primaryAccession>HM145584</primaryAccession> <!-- # A/wild duck/Shantou/1651/2000 -->
+		<primaryAccession>OL371060</primaryAccession> <!-- # A/wild duck/Queensland/P17-14552-43/2017 -->
+		<primaryAccession>MH592402</primaryAccession> <!-- # A/chicken/China/G1291/2016 -->
+		<primaryAccession>JF965029</primaryAccession> <!-- # A/duck/Eastern China/31/2004 -->
+		<primaryAccession>CY132688</primaryAccession> <!-- # A/blue-winged teal/Illinois/10OS3610/2010 -->
+		<primaryAccession>CY109303</primaryAccession> <!-- # A/duck/Guizhou/2773/2006 -->
+		<primaryAccession>OL371004</primaryAccession> <!-- # A/wild duck/Northern Territory/18-0491-268/2018 -->
+		<primaryAccession>KJ200668</primaryAccession> <!-- # A/chicken/Guangdong/S1453/2010 -->
+		<primaryAccession>CY109223</primaryAccession> <!-- # A/duck/Guangxi/1074/2006 -->
+		<primaryAccession>HM145653</primaryAccession> <!-- # A/duck/Shantou/1838/2003 -->
+		<primaryAccession>KJ200868</primaryAccession> <!-- # A/duck/Hubei/S4170/2008 -->
+		<primaryAccession>CY045478</primaryAccession> <!-- # A/whiskered tern/Egypt/04/2004 -->
+		<primaryAccession>MH592418</primaryAccession> <!-- # A/chicken/China/G2684/2014 -->
+		<primaryAccession>MH130143</primaryAccession> <!-- # A/white-fronted goose/Korea/F56-3/2017 -->
+		<primaryAccession>CY166201</primaryAccession> <!-- # A/american green-winged teal/Wisconsin/11OS3551/2011 -->
+		<primaryAccession>KY130728</primaryAccession> <!-- # A/northern pintail/Alaska/769/2011 -->
+		<primaryAccession>CY185408</primaryAccession> <!-- # A/common coot/Republic of Georgia/1/2010 -->
+		<primaryAccession>OL370988</primaryAccession> <!-- # A/wild duck/Northern Territory/18-0491-226/2018 -->
+		<primaryAccession>HM145701</primaryAccession> <!-- # A/duck/Fujian/420/2005 -->
+		<primaryAccession>KY415872</primaryAccession> <!-- # A/duck/Hubei/ZYSYG15/2015 -->
+		<primaryAccession>GQ414785</primaryAccession> <!-- # A/duck/Korea/412-4/2008 -->
+		<primaryAccession>CY126513</primaryAccession> <!-- # A/shorebird/Delaware Bay/91/1999 -->
+		<primaryAccession>CY060436</primaryAccession> <!-- # A/whitefronted goose/Netherlands/2/1999 -->
+		<primaryAccession>CY109439</primaryAccession> <!-- # A/duck/Shantou/10776/2006 -->
+		<primaryAccession>JF965036</primaryAccession> <!-- # A/duck/Eastern China/47/2008 -->
+		<primaryAccession>MF146492</primaryAccession> <!-- # A/mallard duck/Netherlands/12/2011 -->
+		<primaryAccession>KT717207</primaryAccession> <!-- # A/Anser fabalis/China/Anhui/S20/2014 -->
+		<primaryAccession>HM145709</primaryAccession> <!-- # A/duck/Fujian/5117/2005 -->
+		<primaryAccession>MZ410773</primaryAccession> <!-- # A/chicken/South Africa/636697/2020 -->
+		<primaryAccession>MW094847</primaryAccession> <!-- # A/duck/Zhejiang/05.11_HZBX011-O/2018 -->
+		<primaryAccession>HM145690</primaryAccession> <!-- # A/duck/Shantou/16432/2005 -->
+		<primaryAccession>MT570359</primaryAccession> <!-- # A/teal/Egypt/MBD1566C/2018 -->
+		<primaryAccession>CY185584</primaryAccession> <!-- # A/mallard/Republic of Georgia/13/2011 -->
+		<primaryAccession>CY110339</primaryAccession> <!-- # A/duck/Shantou/10124/2006 -->
+		<primaryAccession>OL369955</primaryAccession> <!-- # A/wild waterbird/Queensland/P11-72097-10/2011 -->
+		<primaryAccession>KJ200740</primaryAccession> <!-- # A/duck/Guangdong/S1328/2010 -->
+		<primaryAccession>HM145693</primaryAccession> <!-- # A/duck/Shantou/22596/2005 -->
+		<primaryAccession>CY109247</primaryAccession> <!-- # A/duck/Guangxi/2140/2006 -->
+		<primaryAccession>HM145676</primaryAccession> <!-- # A/duck/Shantou/924/2005 -->
+		<primaryAccession>HM145606</primaryAccession> <!-- # A/duck/Shantou/4380/2001 -->
+		<primaryAccession>JF965032</primaryAccession> <!-- # A/duck/Eastern China/39/2007 -->
+		<primaryAccession>AB981463</primaryAccession> <!-- # A/duck/Nha Trang/21/2013 -->
+		<primaryAccession>HM145617</primaryAccession> <!-- # A/duck/Shantou/266/2002 -->
+		<primaryAccession>CY127160</primaryAccession> <!-- # A/shorebird/Delaware Bay/26/1995 -->
+		<primaryAccession>CY013870</primaryAccession> <!-- # A/green-winged teal/Ohio/178/1999 -->
+		<primaryAccession>KY415870</primaryAccession> <!-- # A/duck/Hubei/ZYSYG1/2015 -->
+		<primaryAccession>CY041369</primaryAccession> <!-- # A/Eurasian wigeon/Sweden/1/2004 -->
+		<primaryAccession>HM145609</primaryAccession> <!-- # A/duck/Shantou/5507/2001 -->
+		<primaryAccession>KT266963</primaryAccession> <!-- # A/duck/Guangxi/121/2012 -->
+		<primaryAccession>KY415874</primaryAccession> <!-- # A/duck/Hubei/ZYSYG7/2015 -->
+		<primaryAccession>CY094316</primaryAccession> <!-- # A/northern shoveler/California/9187/2008 -->
+		<primaryAccession>HM145712</primaryAccession> <!-- # A/duck/Fujian/7033/2005 -->
+		<primaryAccession>CY136661</primaryAccession> <!-- # A/mallard/Alberta/186/1987 -->
+		<primaryAccession>KJ200756</primaryAccession> <!-- # A/duck/Guangdong/S1566/2009 -->
+		<primaryAccession>GQ414790</primaryAccession> <!-- # A/spot-billed duck/Korea/619/2008 -->
+		<primaryAccession>CY109375</primaryAccession> <!-- # A/mallard duck/Shantou/2459/2006 -->
+		<primaryAccession>MT406880</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/11075_20/2017 -->
+		<primaryAccession>CY110375</primaryAccession> <!-- # A/duck/Shantou/14587/2006 -->
+		<primaryAccession>HM145622</primaryAccession> <!-- # A/duck/Shantou/674/2002 -->
+		<primaryAccession>HM145708</primaryAccession> <!-- # A/duck/Fujian/4125/2005 -->
+		<primaryAccession>EF592492</primaryAccession> <!-- # A/mallard/SanJiang/151/2006 -->
+		<primaryAccession>CY093598</primaryAccession> <!-- # A/mallard/California/6469/2008 -->
+		<primaryAccession>MW872841</primaryAccession> <!-- # A/duck/Vietnam/QN6080/2020 -->
+		<primaryAccession>HM145626</primaryAccession> <!-- # A/goose/Shantou/879/2002 -->
+		<primaryAccession>DQ408516</primaryAccession> <!-- # A/chicken/South Africa/AL19/02 -->
+		<primaryAccession>MH592410</primaryAccession> <!-- # A/chicken/China/G1380/2014 -->
+		<primaryAccession>JF965034</primaryAccession> <!-- # A/duck/Eastern China/41/2007 -->
+		<primaryAccession>HM145673</primaryAccession> <!-- # A/mallard/Jiangxi/8264/2004 -->
+		<primaryAccession>MH352293</primaryAccession> <!-- # A/mandarin duck/Shanghai/PD1018-15/2017 -->
+		<primaryAccession>HM145670</primaryAccession> <!-- # A/wild duck/Shantou/7307/2004 -->
+		<primaryAccession>HM145635</primaryAccession> <!-- # A/duck/Shantou/1646/2002 -->
+		<primaryAccession>CY109327</primaryAccession> <!-- # A/duck/Jiangxi/5748/2006 -->
+		<primaryAccession>KX979545</primaryAccession> <!-- # A/greater white-fronted goose/Netherlands/3/2011 -->
+		<primaryAccession>CY110215</primaryAccession> <!-- # A/duck/Shantou/4376/2006 -->
+		<primaryAccession>HM145628</primaryAccession> <!-- # A/duck/Shantou/1211/2002 -->
+		<primaryAccession>HM145604</primaryAccession> <!-- # A/duck/Shantou/4267/2001 -->
+		<primaryAccession>CY014887</primaryAccession> <!-- # A/chicken/New York/14677-13/1998 -->
+		<primaryAccession>CY180491</primaryAccession> <!-- # A/duck/Minnesota/25/1975 -->
+		<primaryAccession>CY127586</primaryAccession> <!-- # A/shorebird/Delaware Bay/288/1999 -->
+		<primaryAccession>MT828571</primaryAccession> <!-- # A/duck/China/F1473-2/2016 -->
+		<primaryAccession>KU143561</primaryAccession> <!-- # A/wild bird/Wuhan/WHHN40/2014 -->
+		<primaryAccession>CY110191</primaryAccession> <!-- # A/duck/Shantou/4110/2006 -->
+		<primaryAccession>CY110223</primaryAccession> <!-- # A/duck/Shantou/5017/2006 -->
+		<primaryAccession>CY187060</primaryAccession> <!-- # A/redhead/Ohio/13OS0428/2013 -->
+		<primaryAccession>CY181336</primaryAccession> <!-- # A/mallard/Wisconsin/23/1974 -->
+		<primaryAccession>CY179858</primaryAccession> <!-- # A/green-winged teal/Alabama/446/1975 -->
+		<primaryAccession>CY020828</primaryAccession> <!-- # A/mallard/Maryland/172/2002 -->
+		<primaryAccession>HM145592</primaryAccession> <!-- # A/wild duck/Shantou/1381/2001 -->
+		<primaryAccession>HM145590</primaryAccession> <!-- # A/duck/Shantou/1197/2001 -->
+		<primaryAccession>MT406968</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/227_H192329_2017/2016 -->
+		<primaryAccession>CY179490</primaryAccession> <!-- # A/duck/Wisconsin/3083/1986 -->
+		<primaryAccession>CY140614</primaryAccession> <!-- # A/green-winged teal/Minnesota/Sg-01065/2008 -->
+		<primaryAccession>KJ567870</primaryAccession> <!-- # A/American green-winged teal/Ohio/13OS2083/2013 -->
+		<primaryAccession>CY018014</primaryAccession> <!-- # A/green-winged teal/Ohio/203/1998 -->
+		<primaryAccession>GQ414784</primaryAccession> <!-- # A/duck/Korea/460-5/2008 -->
+		<primaryAccession>MW094652</primaryAccession> <!-- # A/duck/Guangdong/8.30_DGCP036-C/2017 -->
+		<primaryAccession>CY136728</primaryAccession> <!-- # A/mallard/Alberta/294/1987 -->
+		<primaryAccession>HM145608</primaryAccession> <!-- # A/duck/Shantou/4534/2001 -->
+		<primaryAccession>MW872933</primaryAccession> <!-- # A/duck/Vietnam/QN6077/2020 -->
+		<primaryAccession>JF965052</primaryAccession> <!-- # A/chicken/Eastern China/45/2007 -->
+		<primaryAccession>CY081371</primaryAccession> <!-- # A/green-winged teal/Ohio/196/1999 -->
+		<primaryAccession>JF965051</primaryAccession> <!-- # A/chicken/Eastern China/44/2007 -->
+		<primaryAccession>OL370964</primaryAccession> <!-- # A/wild duck/Northern Territory/17-0592-134/2017 -->
+		<primaryAccession>CY133313</primaryAccession> <!-- # A/northern shoveler/Mississippi/10OS4526/2010 -->
+		<primaryAccession>HM145591</primaryAccession> <!-- # A/duck/Shantou/1286/2001 -->
+		<primaryAccession>KX977827</primaryAccession> <!-- # A/gadwall duck/Netherlands/1/2011 -->
+		<primaryAccession>MH130135</primaryAccession> <!-- # A/wild waterfowl/Korea/F56-1/2017 -->
+		<primaryAccession>LC069836</primaryAccession> <!-- # A/environment/Vietnam/HU1-1423/2014 -->
+		<primaryAccession>HM145680</primaryAccession> <!-- # A/duck/Shantou/5480/2005 -->
+		<primaryAccession>MT407016</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/4660/2015 -->
+		<primaryAccession>KY583739</primaryAccession> <!-- # A/mallard/Ohio/15OS4225/2015 -->
+		<primaryAccession>KT266947</primaryAccession> <!-- # A/goose/Guangxi/115/2012 -->
+		<primaryAccession>HM145662</primaryAccession> <!-- # A/mallard/Jiangxi/7376/2003 -->
+		<primaryAccession>CY127460</primaryAccession> <!-- # A/shorebird/Delaware Bay/75/1999 -->
+		<primaryAccession>CY127063</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/162/1994 -->
+		<primaryAccession>MT570350</primaryAccession> <!-- # A/teal/Egypt/MBD1556OP/2018 -->
+		<primaryAccession>CY110355</primaryAccession> <!-- # A/duck/Shantou/10162/2006 -->
+		<primaryAccession>CY165001</primaryAccession> <!-- # A/mallard/Sweden/52593/2006 -->
+		<primaryAccession>CY110231</primaryAccession> <!-- # A/duck/Shantou/5030/2006 -->
+		<primaryAccession>KJ567934</primaryAccession> <!-- # A/northern pintail/Wisconsin/13OS2778/2013 -->
+		<primaryAccession>CY110323</primaryAccession> <!-- # A/duck/Shantou/9414/2006 -->
+		<primaryAccession>CY127396</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/203/1996 -->
+		<primaryAccession>CY109535</primaryAccession> <!-- # A/duck/Fujian/4276/2006 -->
+		<primaryAccession>CY181232</primaryAccession> <!-- # A/mallard/Wisconsin/15/1974 -->
+		<primaryAccession>KX978172</primaryAccession> <!-- # A/Eurasian wigeon/Netherlands/1/2006 -->
+		<primaryAccession>MH502049</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI13-2116/2013 -->
+		<primaryAccession>OL371340</primaryAccession> <!-- # A/wild waterbird/Queensland/P11-72097-8/2011 -->
+		<primaryAccession>MT421672</primaryAccession> <!-- # A/mallard/Maryland/UGAI15-7902/2015 -->
+		<primaryAccession>MW872767</primaryAccession> <!-- # A/duck/Vietnam/QN6084/2020 -->
+		<primaryAccession>CY126799</primaryAccession> <!-- # A/mallard/Alberta/549/1986 -->
+		<primaryAccession>CY110395</primaryAccession> <!-- # A/duck/Shantou/16784/2006 -->
+		<primaryAccession>KJ200676</primaryAccession> <!-- # A/chicken/Guangdong/S2346/2009 -->
+		<primaryAccession>AB569476</primaryAccession> <!-- # A/duck/Zambia/02/2008 -->
+		<primaryAccession>MH134625</primaryAccession> <!-- # A/kelp gull/Chile/C12395/2016 -->
+		<primaryAccession>JF965047</primaryAccession> <!-- # A/duck/Eastern China/60/2003 -->
+		<primaryAccession>MH502695</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI14-1632/2014 -->
+		<primaryAccession>HM145601</primaryAccession> <!-- # A/duck/Shantou/3939/2001 -->
+		<primaryAccession>HM145682</primaryAccession> <!-- # A/duck/Shantou/6698/2005 -->
+		<primaryAccession>JF965041</primaryAccession> <!-- # A/duck/Eastern China/53/2002 -->
+		<primaryAccession>HM145699</primaryAccession> <!-- # A/chicken/Hunan/989/2005 -->
+		<primaryAccession>KU143560</primaryAccession> <!-- # A/wild bird/Wuhan/CDHN15/2015 -->
+		<primaryAccession>CY127798</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/173/2007 -->
+		<primaryAccession>HM145654</primaryAccession> <!-- # A/duck/Shantou/2195/2003 -->
+		<primaryAccession>CY181328</primaryAccession> <!-- # A/green-winged teal/Wisconsin/16/1974 -->
+		<primaryAccession>KJ907676</primaryAccession> <!-- # A/mallard/Tumuji/TMJ-748/2013 -->
+		<primaryAccession>OL372060</primaryAccession> <!-- # A/wild waterfowl/South Australia/15-5425150-85/2015 -->
+		<primaryAccession>CY016163</primaryAccession> <!-- # A/gadwall/Ohio/37/1999 -->
+		<primaryAccession>OL370980</primaryAccession> <!-- # A/wild duck/Northern Territory/18-0491-214/2018 -->
+		<primaryAccession>CY004032</primaryAccession> <!-- # A/mallard duck/ALB/290/1978 -->
+		<primaryAccession>CY004025</primaryAccession> <!-- # A/mallard duck/ALB/280/1978 -->
+		<primaryAccession>HM145705</primaryAccession> <!-- # A/duck/Fujian/3193/2005 -->
+		<primaryAccession>CY093781</primaryAccession> <!-- # A/northern shoveler/California/9680/2008 -->
+		<primaryAccession>HM145711</primaryAccession> <!-- # A/duck/Fujian/5643/2005 -->
+		<primaryAccession>DQ376901</primaryAccession> <!-- # A/duck/Kingmen/E322/04 -->
+		<primaryAccession>HM145647</primaryAccession> <!-- # A/duck/Shantou/487/2003 -->
+		<primaryAccession>CY109583</primaryAccession> <!-- # A/duck/Fujian/11224/2006 -->
+		<primaryAccession>KT266931</primaryAccession> <!-- # A/goose/Guangxi/105/2011 -->
+		<primaryAccession>HM145656</primaryAccession> <!-- # A/wild duck/Shantou/2853/2003 -->
+		<primaryAccession>HM145599</primaryAccession> <!-- # A/duck/Shantou/2542/2001 -->
+		<primaryAccession>HM145597</primaryAccession> <!-- # A/wild duck/Shantou/2395/2001 -->
+		<primaryAccession>CY028250</primaryAccession> <!-- # A/Eurasian coot/Western Australia/2727/1979 -->
+		<primaryAccession>MH727477</primaryAccession> <!-- # A/wild goose/dongting lake/121/2018 -->
+		<primaryAccession>HM145666</primaryAccession> <!-- # A/wild duck/Shantou/4086/2004 -->
+		<primaryAccession>HM145659</primaryAccession> <!-- # A/wild duck/Shantou/3433/2003 -->
+		<primaryAccession>MT406824</primaryAccession> <!-- # A/Anas crecca/Belgium/9685/2016 -->
+		<primaryAccession>KT423126</primaryAccession> <!-- # A/duck/Zhejiang/77174/2014 -->
+		<primaryAccession>OL371180</primaryAccession> <!-- # A/wild duck/Tasmania/17-0958-46/2017 -->
+		<primaryAccession>KX978968</primaryAccession> <!-- # A/greater white-fronted goose/Netherlands/9/2009 -->
+		<primaryAccession>MW386233</primaryAccession> <!-- # A/Green-winged teal(Anas crecca)/South Korea/KNU 2019-69/2019 -->
+		<primaryAccession>CY020996</primaryAccession> <!-- # A/mallard/Ohio/81/1986 -->
+		<primaryAccession>MW110061</primaryAccession> <!-- # A/goose/Guangdong/10.21_SZBJ004-O/2016 -->
+		<primaryAccession>HM145645</primaryAccession> <!-- # A/duck/Hunan/573/2002 -->
+		<primaryAccession>CY179850</primaryAccession> <!-- # A/green-winged teal/Alabama/563/1975 -->
+		<primaryAccession>MW872914</primaryAccession> <!-- # A/duck/Vietnam/QN6078/2020 -->
+		<primaryAccession>CY178181</primaryAccession> <!-- # A/duck/Wisconsin/2728/1985 -->
+		<primaryAccession>HM145681</primaryAccession> <!-- # A/duck/Shantou/5808/2005 -->
+		<primaryAccession>KU143559</primaryAccession> <!-- # A/wild bird/Wuhan/CDHN09/2015 -->
+		<primaryAccession>CY109871</primaryAccession> <!-- # A/duck/Fujian/5744/2007 -->
+		<primaryAccession>KT423127</primaryAccession> <!-- # A/duck/Zhejiang/727038/2014 -->
+		<primaryAccession>CY178157</primaryAccession> <!-- # A/duck/Wisconsin/2711/1985 -->
+		<primaryAccession>HM145646</primaryAccession> <!-- # A/duck/Shantou/481/2003 -->
+		<primaryAccession>HM145631</primaryAccession> <!-- # A/duck/Shantou/1233/2002 -->
+		<primaryAccession>CY004006</primaryAccession> <!-- # A/mallard duck/ALB/250/1978 -->
+		<primaryAccession>CY020844</primaryAccession> <!-- # A/mallard/Ohio/653/2002 -->
+		<primaryAccession>CY136717</primaryAccession> <!-- # A/pintail/Alberta/267/1987 -->
+		<primaryAccession>HM145704</primaryAccession> <!-- # A/duck/Fujian/2546/2005 -->
+		<primaryAccession>CY177036</primaryAccession> <!-- # A/northern shoveler/California/3769/2012 -->
+		<primaryAccession>MW873052</primaryAccession> <!-- # A/duck/Vietnam/QN6085/2020 -->
+		<primaryAccession>MW104533</primaryAccession> <!-- # A/chicken/Henan/01.01_LYGL003-C/2017 -->
+		<primaryAccession>KT423123</primaryAccession> <!-- # A/chicken/Zhejiang/77024/2014 -->
+		<primaryAccession>MH130167</primaryAccession> <!-- # A/mallard/Korea/M219/2014 -->
+		<primaryAccession>KX977988</primaryAccession> <!-- # A/greater white-fronted goose/Netherlands/8/2009 -->
+		<primaryAccession>CY109703</primaryAccession> <!-- # A/duck/Jiangxi/7348/2007 -->
+		<primaryAccession>HM145672</primaryAccession> <!-- # A/wild duck/Shantou/7900/2004 -->
+		<primaryAccession>MH579362</primaryAccession> <!-- # A/chicken/Korea/5/2009 -->
+		<primaryAccession>KU572407</primaryAccession> <!-- # A/environment/Sichuan/315068/2015 -->
+		<primaryAccession>CY077133</primaryAccession> <!-- # A/ruddy turnstone/Delaware/293/2006 -->
+		<primaryAccession>HM145710</primaryAccession> <!-- # A/duck/Fujian/5426/2005 -->
+		<primaryAccession>KT717271</primaryAccession> <!-- # A/Anser fabalis/China/Anhui/L93/2014 -->
+		<primaryAccession>MW110053</primaryAccession> <!-- # A/goose/Guangdong/10.21_SZBJ003-O/2016 -->
+		<primaryAccession>HM145674</primaryAccession> <!-- # A/wild duck/Shantou/180/2005 -->
+		<primaryAccession>HM145587</primaryAccession> <!-- # A/wild duck/Shantou/261/2001 -->
+		<primaryAccession>KJ200820</primaryAccession> <!-- # A/duck/Guangdong/S4192/2008 -->
+		<primaryAccession>MF693979</primaryAccession> <!-- # A/domestic duck/Georgia/1/2015 -->
+		<primaryAccession>HM145637</primaryAccession> <!-- # A/duck/Shantou/1674/2002 -->
+		<primaryAccession>CY109415</primaryAccession> <!-- # A/duck/Shantou/15808/2006 -->
+		<primaryAccession>KY561099</primaryAccession> <!-- # A/mallard duck/Ohio/15OS5882/2015 -->
+		<primaryAccession>HM145600</primaryAccession> <!-- # A/duck/Shantou/3655/2001 -->
+		<primaryAccession>HM145636</primaryAccession> <!-- # A/duck/Shantou/1648/2002 -->
+		<primaryAccession>CY126927</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/255/1991 -->
+		<primaryAccession>CY133289</primaryAccession> <!-- # A/gadwall/Mississippi/10OS4531/2010 -->
+		<primaryAccession>HM145685</primaryAccession> <!-- # A/duck/Shantou/10196/2005 -->
+		<primaryAccession>MW872888</primaryAccession> <!-- # A/duck/Vietnam/QN6076/2020 -->
+		<primaryAccession>CY110265</primaryAccession> <!-- # A/duck/Shantou/6089/2006 -->
+		<primaryAccession>CY110331</primaryAccession> <!-- # A/duck/Shantou/9689/2006 -->
+		<primaryAccession>KJ200724</primaryAccession> <!-- # A/duck/Fujian/S4081/2008 -->
+		<primaryAccession>HM145643</primaryAccession> <!-- # A/duck/Shantou/2471/2002 -->
+		<primaryAccession>HM145632</primaryAccession> <!-- # A/duck/Shantou/1249/2002 -->
+		<primaryAccession>KY983171</primaryAccession> <!-- # A/American wigeon/California/HS078/2015 -->
+		<primaryAccession>HM145623</primaryAccession> <!-- # A/goose/Shantou/756/2002 -->
+		<primaryAccession>CY109559</primaryAccession> <!-- # A/duck/Fujian/7574/2006 -->
+		<primaryAccession>CY109663</primaryAccession> <!-- # A/duck/Guizhou/5302/2007 -->
+		<primaryAccession>CY166938</primaryAccession> <!-- # A/mallard/Missouri/11OS6301/2011 -->
+		<primaryAccession>KT717239</primaryAccession> <!-- # A/Anser fabalis/China/Anhui/S104/2014 -->
+		<primaryAccession>HM145638</primaryAccession> <!-- # A/duck/Shantou/1706/2002 -->
+		<primaryAccession>CY141072</primaryAccession> <!-- # A/blue-winged teal/Texas/AI09-6182/2009 -->
+		<primaryAccession>KT717287</primaryAccession> <!-- # A/Anser fabalis/China/Anhui/L180/2014 -->
+		<primaryAccession>CY110315</primaryAccession> <!-- # A/duck/Shantou/9395/2006 -->
+		<primaryAccession>CY180579</primaryAccession> <!-- # A/green-winged teal/Wisconsin/432/1976 -->
+		<primaryAccession>CY098219</primaryAccession> <!-- # A/aquatic bird/Korea/CN17/2009 -->
+		<primaryAccession>KF695259</primaryAccession> <!-- # A/Eurasian wigeon/Netherlands/4/2000 -->
+		<primaryAccession>CY109271</primaryAccession> <!-- # A/duck/Guangxi/3574/2006 -->
+		<primaryAccession>KT423128</primaryAccession> <!-- # A/duck/Zhejiang/727042/2014 -->
+		<primaryAccession>CY016171</primaryAccession> <!-- # A/green-winged teal/Ohio/86/1986 -->
+		<primaryAccession>CY204039</primaryAccession> <!-- # A/green-winged teal/Ohio/14OS2001/2014 -->
+		<primaryAccession>JX297584</primaryAccession> <!-- # A/duck/Guangxi/GXd-2/2010 -->
+		<primaryAccession>KT423125</primaryAccession> <!-- # A/chicken/Zhejiang/727031/2014 -->
+		<primaryAccession>HM145691</primaryAccession> <!-- # A/duck/Shantou/17232/2005 -->
+		<primaryAccession>HM145667</primaryAccession> <!-- # A/duck/Shantou/5104/2004 -->
+		<primaryAccession>HM145668</primaryAccession> <!-- # A/wild duck/Shantou/5769/2004 -->
+		<primaryAccession>CY102648</primaryAccession> <!-- # A/shorebird/Delaware Bay/77/2001 -->
+		<primaryAccession>CY041401</primaryAccession> <!-- # A/mallard/Netherlands/71/2006 -->
+		<primaryAccession>CY005113</primaryAccession> <!-- # A/mallard duck/ALB/98/1985 -->
+		<primaryAccession>HM145688</primaryAccession> <!-- # A/duck/Shantou/14062/2005 -->
+		<primaryAccession>HM145618</primaryAccession> <!-- # A/duck/Shantou/313/2002 -->
+		<primaryAccession>JF965044</primaryAccession> <!-- # A/duck/Eastern China/57/2003 -->
+		<primaryAccession>CY004530</primaryAccession> <!-- # A/mallard duck/ALB/294/1987 -->
+		<primaryAccession>KX978045</primaryAccession> <!-- # A/mallard duck/Netherlands/7/2014 -->
+		<primaryAccession>HM145696</primaryAccession> <!-- # A/duck/Guangxi/3459/2005 -->
+		<primaryAccession>HM145694</primaryAccession> <!-- # A/duck/Guangxi/141/2005 -->
+		<primaryAccession>KJ200876</primaryAccession> <!-- # A/duck/Hunan/S1284/2009 -->
+		<primaryAccession>MW872819</primaryAccession> <!-- # A/duck/Vietnam/QN6089/2020 -->
+		<primaryAccession>HM145689</primaryAccession> <!-- # A/duck/Shantou/14966/2005 -->
+		<primaryAccession>CY126775</primaryAccession> <!-- # A/mallard/Alberta/270/1986 -->
+		<primaryAccession>KX518658</primaryAccession> <!-- # A/duck/Beijing/TZ/2014 -->
+		<primaryAccession>HM145607</primaryAccession> <!-- # A/duck/Shantou/4439/2001 -->
+		<primaryAccession>OL370956</primaryAccession> <!-- # A/wild duck/Northern Territory/17-0592-115/2017 -->
+		<primaryAccession>KY415875</primaryAccession> <!-- # A/duck/Hubei/ZYSYG8/2015 -->
+		<primaryAccession>HM145642</primaryAccession> <!-- # A/duck/Shantou/2450/2002 -->
+		<primaryAccession>CY041393</primaryAccession> <!-- # A/barnacle goose/Netherlands/1/2005 -->
+		<primaryAccession>CY110297</primaryAccession> <!-- # A/duck/Shantou/7386/2006 -->
+		<primaryAccession>HM145613</primaryAccession> <!-- # A/duck/Shantou/5579/2001 -->
+		<primaryAccession>CY016139</primaryAccession> <!-- # A/pintail/Ohio/351/1987 -->
+		<primaryAccession>KT266995</primaryAccession> <!-- # A/duck/Guangxi/132/2013 -->
+		<primaryAccession>CY109391</primaryAccession> <!-- # A/duck/Shantou/4026/2006 -->
+		<primaryAccession>MT773263</primaryAccession> <!-- # A/duck/Moscow/4031/2010 -->
+		<primaryAccession>KY561018</primaryAccession> <!-- # A/American green-winged teal/Illinois/15OS5977/2015 -->
+		<primaryAccession>CY179810</primaryAccession> <!-- # A/green-winged teal/Wisconsin/367/1975 -->
+		<primaryAccession>HM145594</primaryAccession> <!-- # A/duck/Shantou/1586/2001 -->
+		<primaryAccession>HM145585</primaryAccession> <!-- # A/duck/Shantou/1655/2000 -->
+		<primaryAccession>KJ568046</primaryAccession> <!-- # A/blue-winged teal/Ohio/13OS2082/2013 -->
+		<primaryAccession>CY095322</primaryAccession> <!-- # A/mallard/Ontario/15914/2005 -->
+		<primaryAccession>CY110289</primaryAccession> <!-- # A/duck/Shantou/6295/2006 -->
+		<primaryAccession>CY078352</primaryAccession> <!-- # A/green-winged teal/Minnesota/Sg-00222/2007 -->
+		<primaryAccession>CY136669</primaryAccession> <!-- # A/mallard/Alberta/195/1987 -->
+		<primaryAccession>HM145589</primaryAccession> <!-- # A/duck/Shantou/1090/2001 -->
+		<primaryAccession>MT421688</primaryAccession> <!-- # A/mallard/Maryland/UGAI15-7965/2015 -->
+		<primaryAccession>CY203820</primaryAccession> <!-- # A/mallard/Maryland/08OS1390/2008 -->
+		<primaryAccession>HM145706</primaryAccession> <!-- # A/duck/Fujian/3701/2005 -->
+		<primaryAccession>MW108965</primaryAccession> <!-- # A/duck/Jiangxi/9.22_NCDZT101Z3-OC/2018 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

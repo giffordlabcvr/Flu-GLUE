@@ -1,33 +1,24 @@
 project flu
 
   # Create extension modules  
-  run file glue/genus/ibv/ibvModules.glue
+  run file glue/build/genus/ibv/ibvModules.glue
 
   # Import sources 
-  run file glue/genus/ibv/ibvLoadSources.glue
-
-  # Import references 
-  run file glue/genus/ibv/ibvReferences.glue
-
-  # Link imported sequences to isolate table 
-  run script glue/genus/ibv/ibvLoadIsolateData.js
-
-
-  # Import references 
-  run file glue/genus/ibv/ibvReferences.glue
-
-
+  run file glue/build/genus/ibv/ibvLoadSources.glue
+  
   # Import data from GenBank XML
-  module genbankXmlPopulator populate
+  module genbankXmlPopulator populate -w "source.name like 'ibv-ncbi-curated-segment-%'"
 
-  # Run segment recogniser
-  #run script glue/genus/ibv/ibvCheckSegments.js
+  # Link sequences to isolate table and load genus-level level data.
+  run script glue/build/genus/ibv/ibvLoadSequenceDataNcbiCurated.js
 
+  # Link sequences to isolate table and load strain level data.
+  run script glue/build/genus/ibv/ibvLoadIsolateDataNcbiCurated.js  
+   
   # Define constrained alignment tree for extension project
-  run file glue/genus/ibv/ibvAlignmentTree.glue
+  run file glue/build/genus/ibv/ibvAlignmentTree.glue
    
   # Validate
   validate
 
   exit
-  

@@ -1,0 +1,40 @@
+  delete module raxmlPhylogenyGenerator
+  delete module fluPhyloUtility
+  delete module fluFigTreeAnnotationExporter
+  
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/analysis/phylogeny/fluPhyloUtility.xml
+  create module -f modules/analysis/phylogeny/fluFigTreeAnnotationExporter.xml
+  
+  #module raxmlPhylogenyGenerator
+  #  generate nucleotide phylogeny AL_IBV_SEG1 -a -o trees/ibv/ibv_seg1.nt.tre NEWICK_BOOTSTRAPS 
+  #  exit
+
+  #module raxmlPhylogenyGenerator
+  #  generate nucleotide phylogeny AL_IBV_SEG2 -a -o trees/ibv/ibv_seg2.nt.tre NEWICK_BOOTSTRAPS 
+  #  exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IBV_SEG3 -a -o trees/ibv/ibv_seg3.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IBV_SEG4 -a -o trees/ibv/ibv_seg4.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IBV_SEG5 -a -o trees/ibv/ibv_seg5.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IBV_SEG6 -a -o trees/ibv/ibv_seg6.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IBV_SEG7 -a -o trees/ibv/ibv_seg7.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IBV_SEG8 -a -o trees/ibv/ibv_seg8.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+

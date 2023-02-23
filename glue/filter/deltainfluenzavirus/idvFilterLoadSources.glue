@@ -1,0 +1,12 @@
+
+  # Import reference sequence sources
+  import source sources/idv-ncbi-refseqs-seg1
+  import source sources/idv-ncbi-refseqs-seg2
+  import source sources/idv-ncbi-refseqs-seg3
+  import source sources/idv-ncbi-refseqs-seg4
+  import source sources/idv-ncbi-refseqs-seg5
+  import source sources/idv-ncbi-refseqs-seg6
+  import source sources/idv-ncbi-refseqs-seg7
+
+  # NCBI nuccore sequences
+  import source ../../../../Sources/flu/ncbi-idv-nuccore

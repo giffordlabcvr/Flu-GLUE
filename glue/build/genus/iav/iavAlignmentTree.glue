@@ -1,268 +1,65 @@
-# Delete any previously created alignments of same name
-
-multi-delete alignment -w "name like 'IAV_SEG%'"
-
 # Create constrained alignment tree for curated sequence alignments
 
 alignment AL_ROOT_SEG_1-2_All_PB2
 
   # Add segment members
-  add member -w "source.name = 'iav-ncbi-refseqs-seg1'"
-  
-  extract child AL_IAV_SEG1 --refName REF_S1_IAV_MASTER_NC_002023
-  demote member AL_IAV_SEG1 -w "sequence.source.name = 'iav-ncbi-refseqs-seg1'"
-  
+  add member -w "source.name = 'iav-ncbi-curated-segment-1'"
+  demote member AL_IAV_SEG1 -w "sequence.source.name = 'iav-ncbi-curated-segment-1'"
   exit
 
 alignment AL_ROOT_SEG_2-1_All_PB1
 
   # Add segment members
-  add member -w "source.name = 'iav-ncbi-refseqs-seg2'"
-  
-  extract child AL_IAV_SEG2 --refName REF_S2_IAV_MASTER_NC_002021
-  demote member AL_IAV_SEG2 -w "sequence.source.name = 'iav-ncbi-refseqs-seg2'"
-  
+  add member -w "source.name = 'iav-ncbi-curated-segment-2'"
+  demote member AL_IAV_SEG2 -w "sequence.source.name = 'iav-ncbi-curated-segment-2'"
   exit
 
 alignment AL_ROOT_SEG_3_All_PA
 
   # Add segment members
-  add member -w "source.name = 'iav-ncbi-refseqs-seg3'"
-  
-  extract child AL_IAV_SEG3 --refName REF_S3_IAV_MASTER_NC_002022
-  demote member AL_IAV_SEG3 -w "sequence.source.name = 'iav-ncbi-refseqs-seg3'"
-  
+  add member -w "source.name = 'iav-ncbi-curated-segment-3'"
+  demote member AL_IAV_SEG3 -w "sequence.source.name = 'iav-ncbi-curated-segment-3'"
   exit
 
 alignment AL_ROOT_SEG_4_AB_HA
 
   # Add segment members
-  add member -w "source.name = 'iav-ncbi-refseqs-seg4'"
-  
-  extract child AL_IAV_SEG4 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4'"
-
+  add member -w "source.name = 'iav-ncbi-curated-segment-4'"
+  demote member AL_IAV_SEG4 -w "sequence.source.name = 'iav-ncbi-curated-segment-4'"
   exit
 
 
 alignment AL_ROOT_SEG_5_All_NP
 
   # Add segment members
-  add member -w "source.name = 'iav-ncbi-refseqs-seg5'"
-  
-  extract child AL_IAV_SEG5 --refName REF_S5_IAV_MASTER_NC_002019
-  demote member AL_IAV_SEG5 -w "sequence.source.name = 'iav-ncbi-refseqs-seg5'"
+  add member -w "source.name = 'iav-ncbi-curated-segment-5'"
+  demote member AL_IAV_SEG5 -w "sequence.source.name = 'iav-ncbi-curated-segment-5'"
   exit
 
 
 alignment AL_ROOT_SEG_6_AB_NA
 
   # Add segment members
-  add member -w "source.name = 'iav-ncbi-refseqs-seg6'"
-  
-  extract child AL_IAV_SEG6 --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG6 -w "sequence.source.name = 'iav-ncbi-refseqs-seg6'"
-  
+  add member -w "source.name = 'iav-ncbi-curated-segment-6'"
+  demote member AL_IAV_SEG6 -w "sequence.source.name = 'iav-ncbi-curated-segment-6'"  
   exit
 
 alignment AL_ROOT_SEG_7_AB_M
 
   # Add segment members
-  add member -w "source.name = 'iav-ncbi-refseqs-seg7'"
-  
-  extract child AL_IAV_SEG7 --refName REF_S7_IAV_MASTER_NC_002016
-  demote member AL_IAV_SEG7 -w "sequence.source.name = 'iav-ncbi-refseqs-seg7'"
-
+  add member -w "source.name = 'iav-ncbi-curated-segment-7'"
+  demote member AL_IAV_SEG7 -w "sequence.source.name = 'iav-ncbi-curated-segment-7'"
   exit
 
 
 alignment AL_ROOT_SEG_8_AB_NS
 
   # Add segment members
-  add member -w "source.name = 'iav-ncbi-refseqs-seg8'"
-  
-  extract child AL_IAV_SEG8 --refName REF_S8_IAV_MASTER_NC_002020
-  demote member AL_IAV_SEG8 -w "sequence.source.name = 'iav-ncbi-refseqs-seg8'"
-  
-  exit
-
-
-#~#~#  Pan-subtype levels
-
-alignment AL_IAV_SEG1
+  add member -w "source.name = 'iav-ncbi-curated-segment-8'"
+  demote member AL_IAV_SEG8 -w "sequence.source.name = 'iav-ncbi-curated-segment-8'"
 
   exit
 
-alignment AL_IAV_SEG2
-
-  exit
-
-alignment AL_IAV_SEG3
-
-  exit
-
-alignment AL_IAV_SEG4
-
-  extract child AL_IAV_SEG4_H10_5_7 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H10_5_7 -w "sequence.rec_subtype = 'H10'"
-  demote member AL_IAV_SEG4_H10_5_7 -w "sequence.rec_subtype = 'H5'"
-  demote member AL_IAV_SEG4_H10_5_7 -w "sequence.rec_subtype = 'H7'"
-
-  extract child AL_IAV_SEG4_H3_14_4 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H3_14_4 -w "sequence.rec_subtype = 'H3'"
-  demote member AL_IAV_SEG4_H3_14_4 -w "sequence.rec_subtype = 'H14'"
-  demote member AL_IAV_SEG4_H3_14_4 -w "sequence.rec_subtype = 'H4'"
-
-  extract child AL_IAV_SEG4_H9_8_12 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H9_8_12 -w "sequence.rec_subtype = 'H9'"
-  demote member AL_IAV_SEG4_H9_8_12 -w "sequence.rec_subtype = 'H8'"
-  demote member AL_IAV_SEG4_H9_8_12 -w "sequence.rec_subtype = 'H12'"
-
-  extract child AL_IAV_SEG4_H6_1_2_5 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H6_1_2_5 -w "sequence.rec_subtype = 'H6'"
-  demote member AL_IAV_SEG4_H6_1_2_5 -w "sequence.rec_subtype = 'H1'"
-  demote member AL_IAV_SEG4_H6_1_2_5 -w "sequence.rec_subtype = 'H2'"
-  demote member AL_IAV_SEG4_H6_1_2_5 -w "sequence.rec_subtype = 'H5'"
-
-  extract child AL_IAV_SEG4_H11_13 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H11_13 -w "sequence.rec_subtype = 'H11'"
-  demote member AL_IAV_SEG4_H11_13 -w "sequence.rec_subtype = 'H13'"
-
-  exit
-
-alignment AL_IAV_SEG5
-
-  exit
-
-alignment AL_IAV_SEG6
-
-  extract child AL_IAV_SEG6_N9_6_7 --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG6_N9_6_7 -w "sequence.rec_subtype = 'N9'"
-  demote member AL_IAV_SEG6_N9_6_7 -w "sequence.rec_subtype = 'N6'"
-  demote member AL_IAV_SEG6_N9_6_7 -w "sequence.rec_subtype = 'N7'"
-
-  extract child AL_IAV_SEG6_N2 --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG6_N2 -w "sequence.rec_subtype = 'N2'"
-
-  extract child AL_IAV_SEG6_N3 --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG6_N3 -w "sequence.rec_subtype = 'N3'"
-
-  extract child AL_IAV_SEG6_N5_8_1_4 --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG6_N5_8_1_4 -w "sequence.rec_subtype = 'N5'"
-  demote member AL_IAV_SEG6_N5_8_1_4 -w "sequence.rec_subtype = 'N8'"
-  demote member AL_IAV_SEG6_N5_8_1_4 -w "sequence.rec_subtype = 'N1'"
-  demote member AL_IAV_SEG6_N5_8_1_4 -w "sequence.rec_subtype = 'N4'"
-
-  exit
-
-alignment AL_IAV_SEG7
-
-  exit
-
-alignment AL_IAV_SEG8
-
-  exit
-
-
-
-#~#~# SEGMENT 4 - Subtype levels 
-
-alignment AL_IAV_SEG4_H10_5_7
-
-  extract child AL_IAV_SEG4_H10 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H10 -w "sequence.rec_subtype = 'H10'"
-
-  extract child AL_IAV_SEG4_H5 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H5 -w "sequence.rec_subtype = 'H5'"
-
-  extract child AL_IAV_SEG4_H7 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H7 -w "sequence.rec_subtype = 'H7'"
-
-  exit
-
-alignment AL_IAV_SEG4_H3_14_4
-
-  extract child AL_IAV_SEG4_H3 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H3 -w "sequence.rec_subtype = 'H3'"
-
-  extract child AL_IAV_SEG4_H14 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H14 -w "sequence.rec_subtype = 'H14'"
-
-  extract child AL_IAV_SEG4_H4 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H4 -w "sequence.rec_subtype = 'H4'"
-
-  exit
-
-alignment AL_IAV_SEG4_H9_8_12
-
-  extract child AL_IAV_SEG4_H9 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H9 -w "sequence.rec_subtype = 'H9'"
-
-  extract child AL_IAV_SEG4_H8 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H8 -w "sequence.rec_subtype = 'H8'"
-
-  extract child AL_IAV_SEG4_H12 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H12 -w "sequence.rec_subtype = 'H12'"
-
-  exit
-
-alignment AL_IAV_SEG4_H6_1_2_5
-
-  extract child AL_IAV_SEG4_H6 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H6 -w "sequence.rec_subtype = 'H6'"
-
-  extract child AL_IAV_SEG4_H1 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H1 -w "sequence.rec_subtype = 'H1'"
-
-  extract child AL_IAV_SEG4_H2 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H2 -w "sequence.rec_subtype = 'H2'"
-
-  extract child AL_IAV_SEG4_H5 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H5 -w "sequence.rec_subtype = 'H5''"
-
-  exit
-
-alignment AL_IAV_SEG4_H11_13
-
-  extract child AL_IAV_SEG4_H11 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H11 -w "sequence.rec_subtype = 'H11'"
-
-  extract child AL_IAV_SEG4_H13 --refName REF_S4_IAV_MASTER_NC_002017
-  demote member AL_IAV_SEG4_H13 -w "sequence.rec_subtype = 'H13'"
-
-  exit
-
-
-#~#~# SEGMENT 6 - Subtype levels 
-
-alignment AL_IAV_SEG6_N9_6_7
-
-  extract child AL_IAV_SEG4_N9 --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG4_N9 -w "sequence.rec_subtype = 'N9'"
-
-  extract child AL_IAV_SEG4_N5 --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG4_N5 -w "sequence.rec_subtype = 'N5'"
-
-  extract child AL_IAV_SEG4_N7 --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG4_N7 -w "sequence.rec_subtype = 'N7'"
-
-  exit
-
-alignment AL_IAV_SEG6_N5_8_1_4
-
-  extract child AL_IAV_SEG4_N5 --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG4_N5 -w "sequence.rec_subtype = 'N5'"
-
-  extract child AL_IAV_SEG4_N8 --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG4_N8 -w "sequence.rec_subtype = 'N8'"
-
-  extract child AL_IAV_SEG4_N1 --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG4_N1 -w "sequence.rec_subtype = 'N1'"
-
-  extract child AL_IAV_SEG4_N4 --refName REF_S6_IAV_MASTER_NC_002018
-  demote member AL_IAV_SEG4_N4 -w "sequence.rec_subtype = 'N4'"
-
-  exit
 
 
 

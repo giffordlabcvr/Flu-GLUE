@@ -1,6 +1,10 @@
-
-  create module -f modules/build/core/fluRefSeqsGenbankXmlPopulator.xml genbankXmlPopulator
-  create module -f modules/build/core/fluTabularUtility.xml 
+  # Base project module declarations
+  
+  # This 'GenbankXmlPopulator' module is the preferred importer for all GenBank influenza sequences
+  create module -f modules/build/core/fluGenbankXmlPopulator.xml genbankXmlPopulator
+  
+  create module -f modules/build/core/fluTabularUtility.xml tabularUtility  
   create module -f modules/build/core/blastFastaAlignmentImporter.xml blastFastaAlignmentImporter
-  create module -f modules/build/core/rootAlignmentImporter.xml 
+
+  create module -f modules/build/core/rootAlignmentImporter.xml  
   create module -f modules/build/core/unconstrainedAlignmentImporter.xml 

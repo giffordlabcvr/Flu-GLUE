@@ -1,9 +1,38 @@
-# Delete importer modules
-delete module ibvNcbiImporter
+delete module ibvNcbiRefseqImporterSegment1
+delete module ibvNcbiRefseqImporterSegment2
+delete module ibvNcbiRefseqImporterSegment3
+delete module ibvNcbiRefseqImporterSegment4
+delete module ibvNcbiRefseqImporterSegment5
+delete module ibvNcbiRefseqImporterSegment6
+delete module ibvNcbiRefseqImporterSegment7
+delete module ibvNcbiRefseqImporterSegment8
 
-# Create importer modules
-create module -f modules/genus/ibv/ibvNcbiImporter.xml ibvNcbiImporter
+# Create modules
+create module -f modules/build/genus/ibv/downloads/ibvNcbiRefseqImporterSegment1.xml
+create module -f modules/build/genus/ibv/downloads/ibvNcbiRefseqImporterSegment2.xml
+create module -f modules/build/genus/ibv/downloads/ibvNcbiRefseqImporterSegment3.xml
+create module -f modules/build/genus/ibv/downloads/ibvNcbiRefseqImporterSegment4.xml
+create module -f modules/build/genus/ibv/downloads/ibvNcbiRefseqImporterSegment5.xml
+create module -f modules/build/genus/ibv/downloads/ibvNcbiRefseqImporterSegment6.xml
+create module -f modules/build/genus/ibv/downloads/ibvNcbiRefseqImporterSegment7.xml
+create module -f modules/build/genus/ibv/downloads/ibvNcbiRefseqImporterSegment8.xml
 
-# Download NCBI sequences
-module ibvNcbiImporter import
+# Download NCBI sequences 
+module ibvNcbiRefseqImporterSegment1 import
+module ibvNcbiRefseqImporterSegment2 import
+module ibvNcbiRefseqImporterSegment3 import
+module ibvNcbiRefseqImporterSegment4 import
+module ibvNcbiRefseqImporterSegment5 import
+module ibvNcbiRefseqImporterSegment6 import
+module ibvNcbiRefseqImporterSegment7 import
+module ibvNcbiRefseqImporterSegment8 import
 
+# Export sources 
+export source ibv-ncbi-curated-segment-1
+export source ibv-ncbi-curated-segment-2
+export source ibv-ncbi-curated-segment-3
+export source ibv-ncbi-curated-segment-4
+export source ibv-ncbi-curated-segment-5
+export source ibv-ncbi-curated-segment-6
+export source ibv-ncbi-curated-segment-7
+export source ibv-ncbi-curated-segment-8

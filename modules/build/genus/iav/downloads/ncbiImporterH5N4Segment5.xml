@@ -1,0 +1,13 @@
+<!-- NCBI import module for IAV subtype 'H5N4' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-5</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>CY096681</primaryAccession> <!-- # A/blue-winged teal/Guatemala/CIP049-13/2010 -->
+		<primaryAccession>CY206102</primaryAccession> <!-- # A/mallard/Minnesota/AI11-4227/2011 -->
+		<primaryAccession>GU052848</primaryAccession> <!-- # A/mallard/Pennsylvania/454069-12/2006 -->
+		<primaryAccession>CY096673</primaryAccession> <!-- # A/blue-winged teal/Guatemala/CIP049-12/2010 -->
+		<primaryAccession>OL422863</primaryAccession> <!-- # A/mallard/New York/AH0179244/2021 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

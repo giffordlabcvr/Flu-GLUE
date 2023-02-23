@@ -1,0 +1,82 @@
+
+ create alignment  AL_ROOT_SEG_1-2_All_PB2 -r REF_S1_IAV_MASTER_NC_002023 
+ alignment AL_ROOT_SEG_1-2_All_PB2
+   set field displayName "Influenzavirus PB2-containing segment align"
+   add member -w "rec_segment = 1 and genus = 'Alphainfluenzavirus'"
+   add member -w "rec_segment = 2 and genus = 'Betainfluenzavirus'"
+   add member -w "rec_segment = 1 and genus = 'Gammainfluenzavirus'"
+   add member -w "rec_segment = 1 and genus = 'Deltainfluenzavirus'"
+   exit
+
+ create alignment  AL_ROOT_SEG_2-1_All_PB1 -r REF_S2_IAV_MASTER_NC_002021  
+ alignment AL_ROOT_SEG_2-1_All_PB1
+   set field displayName "Influenzavirus PB1-containing segment align"
+   add member -w "rec_segment = 2 and genus = 'Alphainfluenzavirus'"
+   add member -w "rec_segment = 1 and genus = 'Betainfluenzavirus'"
+   add member -w "rec_segment = 2 and genus = 'Gammainfluenzavirus'"
+   add member -w "rec_segment = 2 and genus = 'Deltainfluenzavirus'"
+   exit
+
+ create alignment  AL_ROOT_SEG_3_All_PA -r REF_S3_IAV_MASTER_NC_002022  
+ alignment AL_ROOT_SEG_3_All_PA
+   set field displayName "Influenzavirus rec_segment 3"
+   add member -w "rec_segment = 3"
+   exit
+
+ create alignment  AL_ROOT_SEG_4_AB_HA -r REF_S4_IAV_MASTER_NC_002017  
+ alignment AL_ROOT_SEG_4_AB_HA
+   set field displayName "Influenzavirus rec_segment 4 AB"
+   add member -w "rec_segment = 4 and genus = 'Alphainfluenzavirus'"
+   add member -w "rec_segment = 4 and genus = 'Betainfluenzavirus'"
+   exit
+   
+ create alignment  AL_ROOT_SEG_4_CD_HEF -r REF_S4_ICV_NC_006310 
+ alignment AL_ROOT_SEG_4_CD_HEF
+   set field displayName "Influenzavirus rec_segment 4 CD"
+   add member -w "rec_segment = 4 and genus = 'Gammainfluenzavirus'"
+   add member -w "rec_segment = 4 and genus = 'Deltainfluenzavirus'"
+   exit
+ 
+ create alignment  AL_ROOT_SEG_5_All_NP -r REF_S5_IAV_MASTER_NC_002019  
+ alignment AL_ROOT_SEG_5_All_NP
+   set field displayName "Influenzavirus rec_segment 5"
+   add member -w "rec_segment = 5"
+   exit
+ 
+ create alignment  AL_ROOT_SEG_6_AB_NA -r REF_S6_IAV_MASTER_NC_002018  
+ alignment AL_ROOT_SEG_6_AB_NA
+   set field displayName "Influenzavirus rec_segment 6 AB"
+   add member -w "rec_segment = 6 and genus = 'Alphainfluenzavirus'"
+   add member -w "rec_segment = 6 and genus = 'Betainfluenzavirus'"
+   exit
+ 
+ create alignment  AL_ROOT_SEG_6_CD_M -r REF_S6_ICV_NC_006312  
+ alignment AL_ROOT_SEG_6_CD_M
+   set field displayName "Influenzavirus rec_segment 6 CD"
+   add member -w "rec_segment = 6 and genus = 'Gammainfluenzavirus'"
+   add member -w "rec_segment = 6 and genus = 'Deltainfluenzavirus'"
+   exit
+
+
+ create alignment  AL_ROOT_SEG_7_AB_M -r REF_S7_IAV_MASTER_NC_002016  
+ alignment AL_ROOT_SEG_7_AB_M
+   set field displayName "Influenzavirus rec_segment 7"
+   add member -w "rec_segment = 7 and genus = 'Alphainfluenzavirus'"
+   add member -w "rec_segment = 7 and genus = 'Betainfluenzavirus'"
+   exit
+
+
+ create alignment  AL_ROOT_SEG_7_CD_NS -r REF_S7_ICV_NC_006306  
+ alignment AL_ROOT_SEG_7_CD_NS
+   set field displayName "Influenzavirus rec_segment 7"
+   add member -w "rec_segment = 7 and genus = 'Gammainfluenzavirus'"
+   add member -w "rec_segment = 7 and genus = 'Deltainfluenzavirus'"
+   exit
+
+
+ create alignment  AL_ROOT_SEG_8_AB_NS -r REF_S8_IAV_MASTER_NC_002020  
+  alignment AL_ROOT_SEG_8_AB_NS
+   set field displayName "Influenzavirus rec_segment 8"
+   add member -w "rec_segment = 8"
+   exit
+

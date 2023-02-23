@@ -7,40 +7,47 @@ project flu
   run file glue/build/core/fluModules.glue
 
   # Import reference sequences 
-  import source sources/ncbi-refseqs
+  run file glue/build/core/fluImportSources.glue
 
-  #  Link reference sequences to isolate table 
-  run script glue/build/core/fluLoadReferenceData.js
+  # Import reference sequences 
+  run file glue/build/core/fluLoadSequenceData.glue
 
-  # Import data 
-  module genbankXmlPopulator populate
+  #  Load linked isolate-level data for reference sequences
+  run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
 
-  # Import metadata for reference sequences from tabular
-  create module -f modules/build/core/fluTextFilePopulatorReferences.xml fluSideDataImporter
-  module fluSideDataImporter 
-    populate -f tabular/core/flu-ncbi-refseqs-side-data.tsv
-    exit
-    
   # Define genome features
   run file glue/build/core/fluFeatures.glue
 
   # Create reference sequences
   run file glue/build/core/fluReferences.glue
+  run file glue/build/core/fluReferencesIav.glue
+  #run file glue/build/core/fluReferencesIbv.glue
 
   # Define genome features
   run file glue/build/core/fluFeatureLocations.glue
 
+  # Import root alignments
+  run file glue/build/core/fluLoadUnconstrainedAlignments.glue
+
+  # Define constrained alignment tree
+  run file glue/build/core/fluDefineConstrainedAlignmentTree.glue
+  run file glue/build/core/fluExtendAlignmentTreeIav.glue
+  run file glue/build/core/fluExtendAlignmentTreeIbv.glue
+  run file glue/build/core/fluExtendAlignmentTreeIcv.glue
+  run file glue/build/core/fluExtendAlignmentTreeIdv.glue
+
+  # Derive constrained alignments from unconstrained
+  run file glue/build/core/fluDeriveConstrainedRootAlignments.glue
+
+  # Compute IAV alignments
+  run file glue/build/core/fluComputeAlignmentsIav.glue
+
   # Define variations
   run file glue/build/core/iavVariations.glue
   run file glue/build/core/ibvVariations.glue
-
-  # Import root alignments
-  run file glue/build/core/fluAlignments.glue
-
-  # Define constrained alignment tree
-  run file glue/build/core/fluAlignmentTree.glue
+  run file glue/build/core/icvVariations.glue
 
   # Validate
   validate
 
-  exit
+exit

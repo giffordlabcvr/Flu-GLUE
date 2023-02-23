@@ -1,0 +1,37 @@
+  delete module raxmlPhylogenyGenerator
+  delete module fluPhyloUtility
+  delete module fluFigTreeAnnotationExporter
+  
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/analysis/phylogeny/fluPhyloUtility.xml
+  create module -f modules/analysis/phylogeny/fluFigTreeAnnotationExporter.xml
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IDV_SEG1 -a -o trees/idv/idv_seg1.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IDV_SEG2 -a -o trees/idv/idv_seg2.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IDV_SEG3 -a -o trees/idv/idv_seg3.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IDV_SEG4 -a -o trees/idv/idv_seg4.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IDV_SEG5 -a -o trees/idv/idv_seg5.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IDV_SEG6 -a -o trees/idv/idv_seg6.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_IDV_SEG7 -a -o trees/idv/idv_seg7.nt.tre NEWICK_BOOTSTRAPS 
+    exit
+
+

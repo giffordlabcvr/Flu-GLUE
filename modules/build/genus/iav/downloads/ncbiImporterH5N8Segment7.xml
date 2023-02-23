@@ -1,0 +1,737 @@
+<!-- NCBI import module for IAV subtype 'H5N8' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-7</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>MN875694</primaryAccession> <!-- # A/duck/France/171536/2017 -->
+		<primaryAccession>MN759507</primaryAccession> <!-- # A/muscovy_duck/Nigeria/KN-P31-33T_18RS1971-46/2017 -->
+		<primaryAccession>MN875688</primaryAccession> <!-- # A/duck/France/171486/2017 -->
+		<primaryAccession>MN875594</primaryAccession> <!-- # A/duck/France/170013/2016 -->
+		<primaryAccession>KX297888</primaryAccession> <!-- # A/mallard duck/Korea/W456/2014 -->
+		<primaryAccession>MH165695</primaryAccession> <!-- # A/chicken/South Africa/17080561/2017 -->
+		<primaryAccession>MN875677</primaryAccession> <!-- # A/duck/France/171455/2017 -->
+		<primaryAccession>OM333280</primaryAccession> <!-- # A/duck/Egypt/N13736A/2017 -->
+		<primaryAccession>MW333553</primaryAccession> <!-- # A/chicken/Taichung/16110017-3/2016 -->
+		<primaryAccession>OL354617</primaryAccession> <!-- # A/chicken/Egypt/N15178A/2018 -->
+		<primaryAccession>KX297889</primaryAccession> <!-- # A/mallard duck/Korea/W457/2014 -->
+		<primaryAccession>MN875573</primaryAccession> <!-- # A/duck/France/161443/2016 -->
+		<primaryAccession>OL442772</primaryAccession> <!-- # A/environment sample/China/TZ001/2021 -->
+		<primaryAccession>KX297898</primaryAccession> <!-- # A/environment/Korea/W471/2014 -->
+		<primaryAccession>MN875623</primaryAccession> <!-- # A/duck/France/170325/2017 -->
+		<primaryAccession>MW333777</primaryAccession> <!-- # A/chicken/Yunlin/16020038/2016 -->
+		<primaryAccession>MN875610</primaryAccession> <!-- # A/duck/France/170118/2017 -->
+		<primaryAccession>MW333273</primaryAccession> <!-- # A/chicken/Kaohsiung/16010047/2016 -->
+		<primaryAccession>MW334865</primaryAccession> <!-- # A/turkey/Chiayi/17020086-2/2017 -->
+		<primaryAccession>MN875563</primaryAccession> <!-- # A/duck/France/161240/2016 -->
+		<primaryAccession>LC053463</primaryAccession> <!-- # A/duck/Quang Ninh/19c511/2013 -->
+		<primaryAccession>MN875568</primaryAccession> <!-- # A/duck/France/161271/2016 -->
+		<primaryAccession>MN124651</primaryAccession> <!-- # A/Swift tern/South Africa/18030478/2018 -->
+		<primaryAccession>MW333641</primaryAccession> <!-- # A/chicken/Taipei/16060023-1/2016 -->
+		<primaryAccession>MN875545</primaryAccession> <!-- # A/duck/France/161142/2016 -->
+		<primaryAccession>MN875710</primaryAccession> <!-- # A/duck/France/171874/2017 -->
+		<primaryAccession>MN875616</primaryAccession> <!-- # A/duck/France/170249/2017 -->
+		<primaryAccession>KT388463</primaryAccession> <!-- # A/goose/Taiwan/TNC3/2015 -->
+		<primaryAccession>MN875581</primaryAccession> <!-- # A/duck/France/161473/2016 -->
+		<primaryAccession>OL354529</primaryAccession> <!-- # A/chicken/Egypt/N15168C/2018 -->
+		<primaryAccession>OL354505</primaryAccession> <!-- # A/chicken/Egypt/N15173D/2018 -->
+		<primaryAccession>MW333593</primaryAccession> <!-- # A/chicken/Taipei City/17090004/2017 -->
+		<primaryAccession>MT261519</primaryAccession> <!-- # A/duck/Egypt/N16717/2019 -->
+		<primaryAccession>MN875625</primaryAccession> <!-- # A/duck/France/170331/2017 -->
+		<primaryAccession>OL354845</primaryAccession> <!-- # A/chicken/Egypt/N15175B/2018 -->
+		<primaryAccession>MH107216</primaryAccession> <!-- # A/Cygnus olor/Belgium/2967/2017 -->
+		<primaryAccession>KT388511</primaryAccession> <!-- # A/goose/Taiwan/TNC9/2015 -->
+		<primaryAccession>MN759502</primaryAccession> <!-- # A/duck/Nigeria/KNSB-20-23T_18RS1971-39/2017 -->
+		<primaryAccession>MW333633</primaryAccession> <!-- # A/chicken/Taipei/16060022-4/2016 -->
+		<primaryAccession>MW110139</primaryAccession> <!-- # A/goose/Xinjiang/12.18_WLMQXL003-O/2016 -->
+		<primaryAccession>KJ508991</primaryAccession> <!-- # A/broiler duck/Korea/H65/2014 -->
+		<primaryAccession>MW333657</primaryAccession> <!-- # A/chicken/Taipei/17050005-1/2017 -->
+		<primaryAccession>MF926488</primaryAccession> <!-- # A/goose/Kalmykia/813/2016 -->
+		<primaryAccession>MN875572</primaryAccession> <!-- # A/duck/France/161383/2016 -->
+		<primaryAccession>KJ508911</primaryAccession> <!-- # A/broiler duck/Korea/H31/2014 -->
+		<primaryAccession>MW333401</primaryAccession> <!-- # A/chicken/New Taipei City/16110019-1/2016 -->
+		<primaryAccession>KX013024</primaryAccession> <!-- # A/duck/Eastern China/JY/2014 -->
+		<primaryAccession>MN875596</primaryAccession> <!-- # A/duck/France/170017/2016 -->
+		<primaryAccession>MN875692</primaryAccession> <!-- # A/chicken/France/171534/2017 -->
+		<primaryAccession>KU201691</primaryAccession> <!-- # A/mallard/Idaho/AH0008597/2015 -->
+		<primaryAccession>MT261530</primaryAccession> <!-- # A/chicken/Egypt/Q16712A/2019 -->
+		<primaryAccession>MN875684</primaryAccession> <!-- # A/duck/France/171468/2017 -->
+		<primaryAccession>OL353685</primaryAccession> <!-- # A/chicken/Egypt/Q16710A/2019 -->
+		<primaryAccession>MN875648</primaryAccession> <!-- # A/duck/France/170733/2017 -->
+		<primaryAccession>MN875704</primaryAccession> <!-- # A/avian/France/171606/2017 -->
+		<primaryAccession>MH165759</primaryAccession> <!-- # A/chicken/South Africa/449300/2017 -->
+		<primaryAccession>MW961477</primaryAccession> <!-- # A/chicken/Nigeria/VRD21-53B_21VIR2288-5/2021 -->
+		<primaryAccession>KX297893</primaryAccession> <!-- # A/environment/Korea/W466/2014 -->
+		<primaryAccession>MN875715</primaryAccession> <!-- # A/duck/France/171932/2017 -->
+		<primaryAccession>MN875716</primaryAccession> <!-- # A/chicken/France/172002/2017 -->
+		<primaryAccession>MN875600</primaryAccession> <!-- # A/duck/France/170032/2017 -->
+		<primaryAccession>KT388471</primaryAccession> <!-- # A/goose/Taiwan/TNC4/2015 -->
+		<primaryAccession>MW100979</primaryAccession> <!-- # A/goose/Xinjiang/3.18_WLMQXL003-O/2017 -->
+		<primaryAccession>KP732697</primaryAccession> <!-- # A/duck/Eastern China/S1210/2013 -->
+		<primaryAccession>KP739416</primaryAccession> <!-- # A/guinea fowl/Oregon/41613-1/2014 -->
+		<primaryAccession>LC699147</primaryAccession> <!-- # A/water/Tottori/NK1201-2/2021 -->
+		<primaryAccession>MN875702</primaryAccession> <!-- # A/avian/France/171599/2017 -->
+		<primaryAccession>KT388447</primaryAccession> <!-- # A/goose/Taiwan/TNC1/2015 -->
+		<primaryAccession>MW333105</primaryAccession> <!-- # A/chicken/Changhua/15040037-2/2015 -->
+		<primaryAccession>MH165687</primaryAccession> <!-- # A/Swan/South Africa/17080517/2017 -->
+		<primaryAccession>MN875697</primaryAccession> <!-- # A/duck/France/171541/2017 -->
+		<primaryAccession>MN875736</primaryAccession> <!-- # A/duck/France/172394/2017 -->
+		<primaryAccession>KJ508999</primaryAccession> <!-- # A/Baikal teal/Korea/H66/2014 -->
+		<primaryAccession>MH165647</primaryAccession> <!-- # A/pigeon/South Africa/17080323/2017 -->
+		<primaryAccession>OL354877</primaryAccession> <!-- # A/chicken/Egypt/F17230C/2019 -->
+		<primaryAccession>MN875632</primaryAccession> <!-- # A/duck/France/170369/2017 -->
+		<primaryAccession>MK616088</primaryAccession> <!-- # A/swan/China/ST/2016 -->
+		<primaryAccession>MG607426</primaryAccession> <!-- # A/duck/Democratic Republic of the Congo/17RS882-33/2017 -->
+		<primaryAccession>MN875709</primaryAccession> <!-- # A/duck/France/171860/2017 -->
+		<primaryAccession>MH498556</primaryAccession> <!-- # A/teal/Egypt/1198C/2017 -->
+		<primaryAccession>KU201795</primaryAccession> <!-- # A/chicken/California/15-004912/2015 -->
+		<primaryAccession>MN875733</primaryAccession> <!-- # A/chicken/France/172383/2017 -->
+		<primaryAccession>MN875629</primaryAccession> <!-- # A/duck/France/170341/2017 -->
+		<primaryAccession>KU201763</primaryAccession> <!-- # A/mallard/Nevada/AH0006855/2015 -->
+		<primaryAccession>MN875693</primaryAccession> <!-- # A/duck/France/171535/2017 -->
+		<primaryAccession>OL354553</primaryAccession> <!-- # A/chicken/Egypt/F15100/2018 -->
+		<primaryAccession>MN875714</primaryAccession> <!-- # A/duck/France/171929/2017 -->
+		<primaryAccession>KT388551</primaryAccession> <!-- # A/goose/Taiwan/TNC14/2015 -->
+		<primaryAccession>OL354625</primaryAccession> <!-- # A/chicken/Egypt/N15176B/2018 -->
+		<primaryAccession>MW334617</primaryAccession> <!-- # A/goose/Tainan/16040018-1/2016 -->
+		<primaryAccession>KJ509071</primaryAccession> <!-- # A/broiler duck/Korea/H145/2014 -->
+		<primaryAccession>MW026083</primaryAccession> <!-- # A/common buzzard/Denmark/3794-1p1/2017 -->
+		<primaryAccession>MN875671</primaryAccession> <!-- # A/goose/France/171278/2017 -->
+		<primaryAccession>MN875649</primaryAccession> <!-- # A/duck/France/170734/2017 -->
+		<primaryAccession>KJ476676</primaryAccession> <!-- # A/duck/Zhejiang/6D18/2013 -->
+		<primaryAccession>OM333436</primaryAccession> <!-- # A/chicken/Egypt/N13731C/2017 -->
+		<primaryAccession>MN875646</primaryAccession> <!-- # A/duck/France/170685/2017 -->
+		<primaryAccession>MW342703</primaryAccession> <!-- # A/falcated duck/Kagoshima/KU-d3/2020 -->
+		<primaryAccession>KY576082</primaryAccession> <!-- # A/common teal/Korea/W548/2016 -->
+		<primaryAccession>ON513998</primaryAccession> <!-- # A/Bean Goose(Anser fabalis)/South Korea/KNU2021-25/2021 -->
+		<primaryAccession>OM333263</primaryAccession> <!-- # A/chicken/Egypt/N13731D/2017 -->
+		<primaryAccession>MH107192</primaryAccession> <!-- # A/Brahma chicken/Belgium/6153/2017 -->
+		<primaryAccession>MW333289</primaryAccession> <!-- # A/chicken/Kaohsiung/16040021-1/2016 -->
+		<primaryAccession>KJ756684</primaryAccession> <!-- # A/baikal teal/Korea/1454/2014 -->
+		<primaryAccession>MH498592</primaryAccession> <!-- # A/chicken/Egypt/Q13804A/2017 -->
+		<primaryAccession>MN759495</primaryAccession> <!-- # A/chicken/Nigeria/VRD-19-023_19RS1081-1/2019 -->
+		<primaryAccession>KJ508943</primaryAccession> <!-- # A/broiler duck/Korea/H47/2014 -->
+		<primaryAccession>KJ756692</primaryAccession> <!-- # A/baikal teal/Korea/2414/2014 -->
+		<primaryAccession>MK494926</primaryAccession> <!-- # A/goose/Spain/IA17CR02699/2017 -->
+		<primaryAccession>MN875695</primaryAccession> <!-- # A/chicken/France/171537/2017 -->
+		<primaryAccession>KY576085</primaryAccession> <!-- # A/common teal/Korea/W555/2017 -->
+		<primaryAccession>KT388647</primaryAccession> <!-- # A/goose/Taiwan/TNO12/2015 -->
+		<primaryAccession>MH165751</primaryAccession> <!-- # A/chicken/South Africa/17090325/2017 -->
+		<primaryAccession>KJ508975</primaryAccession> <!-- # A/bean goose/Korea/H53/2014 -->
+		<primaryAccession>MT261581</primaryAccession> <!-- # A/chicken/Egypt/Q16807E/2019 -->
+		<primaryAccession>MN875548</primaryAccession> <!-- # A/duck/France/161173/2016 -->
+		<primaryAccession>KJ509119</primaryAccession> <!-- # A/breeder chicken/Korea/H250/2014 -->
+		<primaryAccession>MF073912</primaryAccession> <!-- # A/peacock/Belgium/1017/2017 -->
+		<primaryAccession>MN875644</primaryAccession> <!-- # A/duck/France/170612/2017 -->
+		<primaryAccession>KX013032</primaryAccession> <!-- # A/goose/Eastern China/CZ/2013 -->
+		<primaryAccession>GQ923574</primaryAccession> <!-- # A/avian/Colorado/456648/2006 -->
+		<primaryAccession>KT388599</primaryAccession> <!-- # A/goose/Taiwan/TNO6/2015 -->
+		<primaryAccession>MT261453</primaryAccession> <!-- # A/duck/Egypt/Q16716A/2019 -->
+		<primaryAccession>MN875732</primaryAccession> <!-- # A/duck/France/172362/2017 -->
+		<primaryAccession>OL354985</primaryAccession> <!-- # A/Duck/Egypt/A19643/2021 -->
+		<primaryAccession>KU042854</primaryAccession> <!-- # A/duck/Zhejiang/925019/2014 -->
+		<primaryAccession>MH569638</primaryAccession> <!-- # A/white_winged_black_tern/Uganda/17RS115-3/2017 -->
+		<primaryAccession>MW026131</primaryAccession> <!-- # A/tufted duck/Denmark/17740-1p1/2016 -->
+		<primaryAccession>CY203726</primaryAccession> <!-- # A/mallard/Maryland/07OS864/2007 -->
+		<primaryAccession>OM333395</primaryAccession> <!-- # A/duck/Egypt/N14200A/2017 -->
+		<primaryAccession>CY134102</primaryAccession> <!-- # A/mallard/California/2559P/2011 -->
+		<primaryAccession>KT221085</primaryAccession> <!-- # A/goose/Yangzhou/0420/2014 -->
+		<primaryAccession>KX297899</primaryAccession> <!-- # A/environment/Korea/W472/2014 -->
+		<primaryAccession>KT388583</primaryAccession> <!-- # A/goose/Taiwan/TNO4/2015 -->
+		<primaryAccession>MW026115</primaryAccession> <!-- # A/great black-backed gull/Denmark/19069-1/2016 -->
+		<primaryAccession>KX297896</primaryAccession> <!-- # A/environment/Korea/W469/2014 -->
+		<primaryAccession>MN875614</primaryAccession> <!-- # A/duck/France/170180/2017 -->
+		<primaryAccession>KU201803</primaryAccession> <!-- # A/bald eagle/Idaho/15-002892-2/2015 -->
+		<primaryAccession>MN875575</primaryAccession> <!-- # A/duck/France/161445/2016 -->
+		<primaryAccession>KJ508935</primaryAccession> <!-- # A/Baikal teal/Korea/H41/2014 -->
+		<primaryAccession>OM373313</primaryAccession> <!-- # A/wild duck/Shandong/W3580/2020 -->
+		<primaryAccession>MN595231</primaryAccession> <!-- # A/Sandwich tern/South Africa/18010369/2018 -->
+		<primaryAccession>KT388543</primaryAccession> <!-- # A/goose/Taiwan/TNC13/2015 -->
+		<primaryAccession>MW334721</primaryAccession> <!-- # A/goose/Yunlin/15040040/2015 -->
+		<primaryAccession>MT261472</primaryAccession> <!-- # A/chicken/Egypt/N16730/2019 -->
+		<primaryAccession>MW108147</primaryAccession> <!-- # A/duck/Hunan/11.30_YYGK74E3-OC/2017 -->
+		<primaryAccession>MN875650</primaryAccession> <!-- # A/duck/France/170735/2017 -->
+		<primaryAccession>KJ509159</primaryAccession> <!-- # A/common teal/Korea/H455-30/2014 -->
+		<primaryAccession>MW334473</primaryAccession> <!-- # A/goose/Chiayi/15020022/2015 -->
+		<primaryAccession>MN875718</primaryAccession> <!-- # A/duck/France/172004/2017 -->
+		<primaryAccession>MW110147</primaryAccession> <!-- # A/goose/Xinjiang/12.18_WLMQXL004-C/2016 -->
+		<primaryAccession>KU201883</primaryAccession> <!-- # A/American wigeon/Washington/195198/2014 -->
+		<primaryAccession>KT221069</primaryAccession> <!-- # A/goose/Jiangsu/QD5/2014 -->
+		<primaryAccession>MF073920</primaryAccession> <!-- # A/Cygnus olor/Belgium/1567/2017 -->
+		<primaryAccession>MG650623</primaryAccession> <!-- # A/duck/Cameroon/17RS1661-3/2017 -->
+		<primaryAccession>MF926456</primaryAccession> <!-- # A/chicken/Moscow/94/2017 -->
+		<primaryAccession>MW333721</primaryAccession> <!-- # A/chicken/Yunlin/15050012/2015 -->
+		<primaryAccession>MN875703</primaryAccession> <!-- # A/duck/France/171603/2017 -->
+		<primaryAccession>KT388519</primaryAccession> <!-- # A/goose/Taiwan/TNC10/2015 -->
+		<primaryAccession>MH569630</primaryAccession> <!-- # A/duck/Uganda/17RS115-9/2017 -->
+		<primaryAccession>MN875643</primaryAccession> <!-- # A/duck/France/170518/2017 -->
+		<primaryAccession>MN875641</primaryAccession> <!-- # A/duck/France/170437/2017 -->
+		<primaryAccession>MN875592</primaryAccession> <!-- # A/duck/France/161600/2016 -->
+		<primaryAccession>MN875578</primaryAccession> <!-- # A/duck/France/161455/2016 -->
+		<primaryAccession>MN875696</primaryAccession> <!-- # A/duck/France/171539/2017 -->
+		<primaryAccession>MZ235345</primaryAccession> <!-- # A/peregrine falcon/Hokkaido/4801Z001/2021 -->
+		<primaryAccession>MN875745</primaryAccession> <!-- # A/swan/France/171960/2017 -->
+		<primaryAccession>KT388639</primaryAccession> <!-- # A/goose/Taiwan/TNO11/2015 -->
+		<primaryAccession>MW505408</primaryAccession> <!-- # A/Cygnus columbianus/Hubei/56/2020 -->
+		<primaryAccession>CY132621</primaryAccession> <!-- # A/mallard/California/2559V/2011 -->
+		<primaryAccession>MW110203</primaryAccession> <!-- # A/goose/Xinjiang/4.21_WLMQXL001-O/2017 -->
+		<primaryAccession>MH165799</primaryAccession> <!-- # A/turkey/South Africa/450199/2017 -->
+		<primaryAccession>OL354968</primaryAccession> <!-- # A/duck/Egypt/A16372/2018 -->
+		<primaryAccession>OL354593</primaryAccession> <!-- # A/chicken/Egypt/N15178D/2018 -->
+		<primaryAccession>MT261554</primaryAccession> <!-- # A/duck/Egypt/N16722/2019 -->
+		<primaryAccession>OM373241</primaryAccession> <!-- # A/eurasian coot/Shandong/W6137/2020 -->
+		<primaryAccession>MN124611</primaryAccession> <!-- # A/Cape cormorant/South Africa/18020303/2018 -->
+		<primaryAccession>MN875682</primaryAccession> <!-- # A/duck/France/171466/2017 -->
+		<primaryAccession>MN875605</primaryAccession> <!-- # A/chicken/France/170063/2017 -->
+		<primaryAccession>KT388631</primaryAccession> <!-- # A/goose/Taiwan/TNO10/2015 -->
+		<primaryAccession>KP732706</primaryAccession> <!-- # A/duck/Eastern China/S1109/2014 -->
+		<primaryAccession>MF040675</primaryAccession> <!-- # A/Anser cygnoides/Hubei/FW44/2016 -->
+		<primaryAccession>KJ756679</primaryAccession> <!-- # A/baikal teal/Korea/1446/2014 -->
+		<primaryAccession>MN759492</primaryAccession> <!-- # A/chicken/Nigeria/VRD16-KN623_17RS737-43/2016 -->
+		<primaryAccession>MN875631</primaryAccession> <!-- # A/duck/France/170368/2017 -->
+		<primaryAccession>OM333347</primaryAccession> <!-- # A/chicken/Egypt/N13726/2017 -->
+		<primaryAccession>MN875619</primaryAccession> <!-- # A/duck/France/170280/2017 -->
+		<primaryAccession>OL354609</primaryAccession> <!-- # A/chicken/Egypt/N15178C/2018 -->
+		<primaryAccession>MZ620721</primaryAccession> <!-- # A/Mandarin duck/Kagoshima/d57/2020 -->
+		<primaryAccession>KJ509079</primaryAccession> <!-- # A/breeder duck/Korea/H158/2014 -->
+		<primaryAccession>MN595266</primaryAccession> <!-- # A/Swift tern/South Africa/18010370/2018 -->
+		<primaryAccession>MH579268</primaryAccession> <!-- # A/laughing gull/Delaware Bay/156/2004 -->
+		<primaryAccession>MN124547</primaryAccession> <!-- # A/Tern/South Africa/18010043/2018 -->
+		<primaryAccession>MF037855</primaryAccession> <!-- # A/green-winged teal/Egypt/877/2016 -->
+		<primaryAccession>KX297911</primaryAccession> <!-- # A/environment/Korea/W492/2015 -->
+		<primaryAccession>KT388559</primaryAccession> <!-- # A/goose/Taiwan/TNO1/2015 -->
+		<primaryAccession>MN875673</primaryAccession> <!-- # A/duck/France/171379/2017 -->
+		<primaryAccession>MN875553</primaryAccession> <!-- # A/duck/France/161224/2016 -->
+		<primaryAccession>MN875647</primaryAccession> <!-- # A/chicken/France/170686/2017 -->
+		<primaryAccession>MN875658</primaryAccession> <!-- # A/duck/France/170820/2017 -->
+		<primaryAccession>MN875667</primaryAccession> <!-- # A/duck/France/171202/2017 -->
+		<primaryAccession>MW362176</primaryAccession> <!-- # A/mallard/Shanghai/JDS20876/2020 -->
+		<primaryAccession>MN875571</primaryAccession> <!-- # A/duck/France/161298/2016 -->
+		<primaryAccession>MN875653</primaryAccession> <!-- # A/duck/France/170772/2017 -->
+		<primaryAccession>KT383489</primaryAccession> <!-- # A/duck/Guangdong/s14044/2014 -->
+		<primaryAccession>KX297890</primaryAccession> <!-- # A/environment/Korea/W458/2014 -->
+		<primaryAccession>MN875664</primaryAccession> <!-- # A/duck/France/171131/2017 -->
+		<primaryAccession>KJ509015</primaryAccession> <!-- # A/Baikal teal/Korea/H80/2014 -->
+		<primaryAccession>MH107208</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/1899/2017 -->
+		<primaryAccession>KP307987</primaryAccession> <!-- # A/gyrfalcon/Washington/41088-6/2014 -->
+		<primaryAccession>CY015090</primaryAccession> <!-- # A/turkey/Ireland/1378/1983 -->
+		<primaryAccession>KT388535</primaryAccession> <!-- # A/goose/Taiwan/TNC12/2015 -->
+		<primaryAccession>MW110155</primaryAccession> <!-- # A/goose/Xinjiang/12.18_WLMQXL004-O/2016 -->
+		<primaryAccession>MW333449</primaryAccession> <!-- # A/chicken/New Taipei City/17090003/2017 -->
+		<primaryAccession>MH165735</primaryAccession> <!-- # A/chicken/South Africa/17090202/2017 -->
+		<primaryAccession>MH498583</primaryAccession> <!-- # A/duck/Egypt/N13736E/2017 -->
+		<primaryAccession>KU201747</primaryAccession> <!-- # A/Canada goose/Oregon/AH0012452/2015 -->
+		<primaryAccession>MN875722</primaryAccession> <!-- # A/chicken/France/172092/2017 -->
+		<primaryAccession>MW333561</primaryAccession> <!-- # A/chicken/Tainan/15020214/2015 -->
+		<primaryAccession>MN875645</primaryAccession> <!-- # A/duck/France/170683/2017 -->
+		<primaryAccession>KJ509111</primaryAccession> <!-- # A/breeder duck/Korea/H249/2014 -->
+		<primaryAccession>KT388567</primaryAccession> <!-- # A/goose/Taiwan/TNO2/2015 -->
+		<primaryAccession>MN875711</primaryAccession> <!-- # A/duck/France/171884/2017 -->
+		<primaryAccession>MN875675</primaryAccession> <!-- # A/duck/France/171410/2017 -->
+		<primaryAccession>OM333325</primaryAccession> <!-- # A/duck/Egypt/N14205C/2017 -->
+		<primaryAccession>MZ702122</primaryAccession> <!-- # A/quail/Pakistan/998/2018 -->
+		<primaryAccession>KU201891</primaryAccession> <!-- # A/American wigeon/Washington/195205/2014 -->
+		<primaryAccession>MN875570</primaryAccession> <!-- # A/duck/France/161277/2016 -->
+		<primaryAccession>MN875559</primaryAccession> <!-- # A/duck/France/161231/2016 -->
+		<primaryAccession>MH165615</primaryAccession> <!-- # A/Sacred ibis/South Africa/009/2017 -->
+		<primaryAccession>KU646928</primaryAccession> <!-- # A/goose/Taiwan/01019/2015 -->
+		<primaryAccession>MN875601</primaryAccession> <!-- # A/duck/France/170033/2016 -->
+		<primaryAccession>MH546950</primaryAccession> <!-- # A/pheasant/Idaho/08-002590-63/2008 -->
+		<primaryAccession>KU201843</primaryAccession> <!-- # A/Northern pintail/Washington/196271/2014 -->
+		<primaryAccession>MN875554</primaryAccession> <!-- # A/duck/France/161225/2016 -->
+		<primaryAccession>MN875738</primaryAccession> <!-- # A/chicken/France/161585/2016 -->
+		<primaryAccession>MN759509</primaryAccession> <!-- # A/muscovy_duck/Nigeria/KN-AR71-3T_18RS1971-49/2017 -->
+		<primaryAccession>KY576081</primaryAccession> <!-- # A/common teal/Korea/W547/2016 -->
+		<primaryAccession>MH498606</primaryAccession> <!-- # A/northern shoveler/Egypt/813C/2016 -->
+		<primaryAccession>MW505400</primaryAccession> <!-- # A/Cygnus columbianus/Hubei/53/2020 -->
+		<primaryAccession>KT388655</primaryAccession> <!-- # A/goose/Taiwan/TNO13/2015 -->
+		<primaryAccession>MH107224</primaryAccession> <!-- # A/Buteo buteo/Belgium/3022/2017 -->
+		<primaryAccession>MN875691</primaryAccession> <!-- # A/duck/France/171533/2017 -->
+		<primaryAccession>MN875558</primaryAccession> <!-- # A/duck/France/161230/2016 -->
+		<primaryAccession>OM333256</primaryAccession> <!-- # A/chicken/Egypt/F13829A/2017 -->
+		<primaryAccession>MN875606</primaryAccession> <!-- # A/duck/France/170064/2017 -->
+		<primaryAccession>MW362167</primaryAccession> <!-- # A/falcated teal/Shanghai/JDS20857/2020 -->
+		<primaryAccession>MG607427</primaryAccession> <!-- # A/duck/Democratic Republic of the Congo/17RS882-40/2017 -->
+		<primaryAccession>OM333250</primaryAccession> <!-- # A/goose/Egypt/A13779B/2017 -->
+		<primaryAccession>KX297891</primaryAccession> <!-- # A/environment/Korea/W464/2014 -->
+		<primaryAccession>MN875668</primaryAccession> <!-- # A/duck/France/171253/2017 -->
+		<primaryAccession>KU201619</primaryAccession> <!-- # A/American wigeon/Utah/AH0007824/2015 -->
+		<primaryAccession>MW106987</primaryAccession> <!-- # A/chicken/Xinjiang/6.04_WLMQXL006-C/2017 -->
+		<primaryAccession>MN875562</primaryAccession> <!-- # A/duck/France/161239/2016 -->
+		<primaryAccession>MT261417</primaryAccession> <!-- # A/chicken/Egypt/Q16711B/2019 -->
+		<primaryAccession>KJ756683</primaryAccession> <!-- # A/baikal teal/Korea/1452/2014 -->
+		<primaryAccession>MN875593</primaryAccession> <!-- # A/duck/France/161601/2016 -->
+		<primaryAccession>KR233693</primaryAccession> <!-- # A/chicken/Netherlands/emc-3/2014 -->
+		<primaryAccession>MN875569</primaryAccession> <!-- # A/duck/France/161275/2016 -->
+		<primaryAccession>MN875652</primaryAccession> <!-- # A/commonbuzzard/France/170740/2017 -->
+		<primaryAccession>MT261712</primaryAccession> <!-- # A/duck/Egypt/A16793/2019 -->
+		<primaryAccession>MW333577</primaryAccession> <!-- # A/chicken/Tainan/17030058-1/2017 -->
+		<primaryAccession>MZ235321</primaryAccession> <!-- # A/whooper swan/Miyagi/0402B001/2021 -->
+		<primaryAccession>KR150904</primaryAccession> <!-- # A/turkey/California/K1500169-1.2/2015 -->
+		<primaryAccession>OM333424</primaryAccession> <!-- # A/chicken/Egypt/N13718C/2017 -->
+		<primaryAccession>MN875669</primaryAccession> <!-- # A/duck/France/171270/2017 -->
+		<primaryAccession>MN124667</primaryAccession> <!-- # A/Swift tern/South Africa/18040275/2018 -->
+		<primaryAccession>MH165527</primaryAccession> <!-- # A/chicken/South Africa/Villiers/2017 -->
+		<primaryAccession>MN875743</primaryAccession> <!-- # A/swan/France/170496/2017 -->
+		<primaryAccession>MN875719</primaryAccession> <!-- # A/duck/France/172012/2017 -->
+		<primaryAccession>MZ702238</primaryAccession> <!-- # A/chicken/Pakistan/1000/2018 -->
+		<primaryAccession>MN875726</primaryAccession> <!-- # A/chicken/France/172137/2017 -->
+		<primaryAccession>MN875567</primaryAccession> <!-- # A/duck/France/161263/2016 -->
+		<primaryAccession>KY320446</primaryAccession> <!-- # A/Whooper Swan/Sanmenxia/01/2016 -->
+		<primaryAccession>MF040691</primaryAccession> <!-- # A/Cygnus atratus/Hubei/HF-1/2016 -->
+		<primaryAccession>OL354868</primaryAccession> <!-- # A/chicken/Egypt/N15175D/2018 -->
+		<primaryAccession>MW333689</primaryAccession> <!-- # A/chicken/Taipei/17050009-3/2017 -->
+		<primaryAccession>KJ756682</primaryAccession> <!-- # A/baikal teal/Korea/1449/2014 -->
+		<primaryAccession>MN124579</primaryAccession> <!-- # A/African penguin/South Africa/18010422/2018 -->
+		<primaryAccession>KJ756688</primaryAccession> <!-- # A/baikal teal/Korea/2399/2014 -->
+		<primaryAccession>LC701530</primaryAccession> <!-- # A/duck/Tottori/Vac-T2/2021 -->
+		<primaryAccession>MN124619</primaryAccession> <!-- # A/African penguin/South Africa/18020304/2018 -->
+		<primaryAccession>KP414814</primaryAccession> <!-- # A/duck/Shaoxing/5240/2013 -->
+		<primaryAccession>KJ509031</primaryAccession> <!-- # A/Baikal teal/Korea/H84/2014 -->
+		<primaryAccession>KJ509095</primaryAccession> <!-- # A/mallard/Korea/H207/2014 -->
+		<primaryAccession>MN875635</primaryAccession> <!-- # A/chicken/France/170407/2017 -->
+		<primaryAccession>MW334097</primaryAccession> <!-- # A/duck/Chiayi/15080023/2015 -->
+		<primaryAccession>MN875550</primaryAccession> <!-- # A/duck/France/161182/2016 -->
+		<primaryAccession>MN759496</primaryAccession> <!-- # A/chicken/Nigeria/VRD-19-055_19RS1081-3/2019 -->
+		<primaryAccession>MN875636</primaryAccession> <!-- # A/chicken/France/170408/2017 -->
+		<primaryAccession>MN875698</primaryAccession> <!-- # A/duck/France/171542/2017 -->
+		<primaryAccession>MN875546</primaryAccession> <!-- # A/duck/France/161143/2016 -->
+		<primaryAccession>ON943057</primaryAccession> <!-- # A/chicken/Kazakhstan/23/2020 -->
+		<primaryAccession>MN875574</primaryAccession> <!-- # A/duck/France/161444/2016 -->
+		<primaryAccession>KJ509023</primaryAccession> <!-- # A/Coot/Korea/H81/2014 -->
+		<primaryAccession>KU042857</primaryAccession> <!-- # A/goose/Zhejiang/925104/2014 -->
+		<primaryAccession>MH819163</primaryAccession> <!-- # A/Cygnus olor/England/WVUK/2016 -->
+		<primaryAccession>KJ746114</primaryAccession> <!-- # A/mallard/Korea/W452/2014 -->
+		<primaryAccession>MW505368</primaryAccession> <!-- # A/Cygnus columbianus/Hubei/49/2020 -->
+		<primaryAccession>MH107200</primaryAccession> <!-- # A/Guinea fowl/Belgium/6102/2017 -->
+		<primaryAccession>OL354945</primaryAccession> <!-- # A/chicken/Egypt/A15044/2018 -->
+		<primaryAccession>KJ756676</primaryAccession> <!-- # A/baikal teal/Korea/1437/2014 -->
+		<primaryAccession>KY576083</primaryAccession> <!-- # A/common teal/Korea/W549/2016 -->
+		<primaryAccession>KP732695</primaryAccession> <!-- # A/goose/Eastern China/L1214/2012 -->
+		<primaryAccession>MN875701</primaryAccession> <!-- # A/duck/France/171550/2017 -->
+		<primaryAccession>KU201907</primaryAccession> <!-- # A/peregrine falcon/Washington/196426/2014 -->
+		<primaryAccession>OL354952</primaryAccession> <!-- # A/pigeon/Egypt/A15052/2018 -->
+		<primaryAccession>OM373257</primaryAccession> <!-- # A/eurasian coot/Shandong/W6150/2020 -->
+		<primaryAccession>OL467326</primaryAccession> <!-- # A/Duck/Egypt/BA3C/2018 -->
+		<primaryAccession>OL354577</primaryAccession> <!-- # A/chicken/Egypt/S18182C/2020 -->
+		<primaryAccession>MN875637</primaryAccession> <!-- # A/guineafowl/France/170409/2017 -->
+		<primaryAccession>MH165783</primaryAccession> <!-- # A/chicken/South Africa/449443/2017 -->
+		<primaryAccession>MN875700</primaryAccession> <!-- # A/duck/France/171546/2017 -->
+		<primaryAccession>MN759497</primaryAccession> <!-- # A/chicken/Nigeria/VRD-19-069_19RS1081-5/2019 -->
+		<primaryAccession>MH165839</primaryAccession> <!-- # A/chicken/South Africa/17090108/2017 -->
+		<primaryAccession>MN875659</primaryAccession> <!-- # A/duck/France/170822/2017 -->
+		<primaryAccession>MW334177</primaryAccession> <!-- # A/duck/Pingtung/15120006/2015 -->
+		<primaryAccession>MW334873</primaryAccession> <!-- # A/turkey/Chiayi/17020092-2/2017 -->
+		<primaryAccession>MW334241</primaryAccession> <!-- # A/duck/Tainan/15010403/2015 -->
+		<primaryAccession>MN875717</primaryAccession> <!-- # A/chicken/France/172003/2017 -->
+		<primaryAccession>OL354760</primaryAccession> <!-- # A/chicken/Egypt/N15177C/2018 -->
+		<primaryAccession>KX297900</primaryAccession> <!-- # A/environment/Korea/W473/2014 -->
+		<primaryAccession>KJ509135</primaryAccession> <!-- # A/mallard/Korea/H297/2014 -->
+		<primaryAccession>MW109043</primaryAccession> <!-- # A/duck/Xinjiang/12.18_WLMQXL001-C/2016 -->
+		<primaryAccession>MW333297</primaryAccession> <!-- # A/chicken/Kaohsiung/16070003/2016 -->
+		<primaryAccession>ON533331</primaryAccession> <!-- # A/Bean Goose(Anser fabalis)/South Korea/KNU2021-50/2021 -->
+		<primaryAccession>MW362185</primaryAccession> <!-- # A/spot-billed duck/Shanghai/JDS20867/2020 -->
+		<primaryAccession>MN875725</primaryAccession> <!-- # A/duck/France/172096/2017 -->
+		<primaryAccession>MH165631</primaryAccession> <!-- # A/Guinea fowl/South Africa/17080274/2017 -->
+		<primaryAccession>MW334329</primaryAccession> <!-- # A/duck/Yunlin/15010458-1/2015 -->
+		<primaryAccession>KT388527</primaryAccession> <!-- # A/goose/Taiwan/TNC11/2015 -->
+		<primaryAccession>KT388687</primaryAccession> <!-- # A/goose/Taiwan/TNO17/2015 -->
+		<primaryAccession>OL354829</primaryAccession> <!-- # A/chicken/Egypt/N15175A/2018 -->
+		<primaryAccession>KJ508959</primaryAccession> <!-- # A/broiler duck/Korea/H49/2014 -->
+		<primaryAccession>MN875604</primaryAccession> <!-- # A/duck/France/170038/2017 -->
+		<primaryAccession>KT388607</primaryAccession> <!-- # A/goose/Taiwan/TNO7/2015 -->
+		<primaryAccession>MN875690</primaryAccession> <!-- # A/chicken/France/171525/2017 -->
+		<primaryAccession>KR232367</primaryAccession> <!-- # A/eurasian wigeon/Netherlands/1/2015 -->
+		<primaryAccession>MN875566</primaryAccession> <!-- # A/duck/France/161256/2016 -->
+		<primaryAccession>KU201771</primaryAccession> <!-- # A/mallard/Idaho/AH0005954/2014 -->
+		<primaryAccession>OM333381</primaryAccession> <!-- # A/chicken/Egypt/N15172D/2018 -->
+		<primaryAccession>MN875552</primaryAccession> <!-- # A/duck/France/161212/2016 -->
+		<primaryAccession>MH165655</primaryAccession> <!-- # A/dove/South Africa/17080324/2017 -->
+		<primaryAccession>MG607425</primaryAccession> <!-- # A/duck/Democratic Republic of the Congo/17RS882-29/2017 -->
+		<primaryAccession>MN759498</primaryAccession> <!-- # A/chicken/Nigeria/VRD-19-073_19RS1081-6/2019 -->
+		<primaryAccession>OM373265</primaryAccession> <!-- # A/swan/Shandong/W3762/2020 -->
+		<primaryAccession>MN875598</primaryAccession> <!-- # A/duck/France/170030/2016 -->
+		<primaryAccession>KU201779</primaryAccession> <!-- # A/mallard/Idaho/AH0005955/2014 -->
+		<primaryAccession>OL354561</primaryAccession> <!-- # A/chicken/Egypt/N15173C/2018 -->
+		<primaryAccession>KU646920</primaryAccession> <!-- # A/duck/Taiwan/A3400/2015 -->
+		<primaryAccession>KJ509151</primaryAccession> <!-- # A/tundra swan/Korea/H411/2014 -->
+		<primaryAccession>MK631792</primaryAccession> <!-- # A/Muscovy duck/Democratic Republic of the Congo/KAF1/2017 -->
+		<primaryAccession>MW333441</primaryAccession> <!-- # A/chicken/New Taipei City/17090002/2017 -->
+		<primaryAccession>MH165607</primaryAccession> <!-- # A/Speckled pigeon/South Africa/08-004B/2017 -->
+		<primaryAccession>MN875584</primaryAccession> <!-- # A/duck/France/161477/2016 -->
+		<primaryAccession>KT388479</primaryAccession> <!-- # A/goose/Taiwan/TNC5/2015 -->
+		<primaryAccession>MW026091</primaryAccession> <!-- # A/common gull/Denmark/18577-1/2016 -->
+		<primaryAccession>KT388703</primaryAccession> <!-- # A/goose/Taiwan/TNO19/2015 -->
+		<primaryAccession>MN124643</primaryAccession> <!-- # A/African oystercatcher/South Africa/18030214/2018 -->
+		<primaryAccession>LC623820</primaryAccession> <!-- # A/water/Tottori/NK1209/2020 -->
+		<primaryAccession>MN875633</primaryAccession> <!-- # A/duck/France/170370/2017 -->
+		<primaryAccession>MH165815</primaryAccession> <!-- # A/chicken/South Africa/450628/2017 -->
+		<primaryAccession>KX297901</primaryAccession> <!-- # A/environment/Korea/W474/2014 -->
+		<primaryAccession>KX297895</primaryAccession> <!-- # A/environment/Korea/W468/2014 -->
+		<primaryAccession>KJ508951</primaryAccession> <!-- # A/broiler duck/Korea/H48/2014 -->
+		<primaryAccession>MN875564</primaryAccession> <!-- # A/duck/France/161242/2016 -->
+		<primaryAccession>MZ701934</primaryAccession> <!-- # A/chicken/Pakistan/531/2018 -->
+		<primaryAccession>KT383481</primaryAccession> <!-- # A/goose/Guangdong/s13124/2013 -->
+		<primaryAccession>MW333433</primaryAccession> <!-- # A/chicken/New Taipei City/17090001/2017 -->
+		<primaryAccession>KJ509007</primaryAccession> <!-- # A/Baikal teal/Korea/H68/2014 -->
+		<primaryAccession>MW961429</primaryAccession> <!-- # A/chicken/Nigeria/VRD21-43_21VIR2288-4/2021 -->
+		<primaryAccession>KU201827</primaryAccession> <!-- # A/American wigeon/Washington/195968/2014 -->
+		<primaryAccession>MN875656</primaryAccession> <!-- # A/duck/France/170775/2017 -->
+		<primaryAccession>MN875613</primaryAccession> <!-- # A/duck/France/170178/2017 -->
+		<primaryAccession>MW333233</primaryAccession> <!-- # A/chicken/Chiayi/15010454-1/2015 -->
+		<primaryAccession>KJ509143</primaryAccession> <!-- # A/bean goose/Korea/H328/2014 -->
+		<primaryAccession>MK168602</primaryAccession> <!-- # A/Crow/Aghakhan/2017 -->
+		<primaryAccession>KX297892</primaryAccession> <!-- # A/environment/Korea/W465/2014 -->
+		<primaryAccession>KT388487</primaryAccession> <!-- # A/goose/Taiwan/TNC6/2015 -->
+		<primaryAccession>MN875580</primaryAccession> <!-- # A/duck/France/161457/2016 -->
+		<primaryAccession>OL354460</primaryAccession> <!-- # A/chicken/Egypt/N15175C/2018 -->
+		<primaryAccession>KJ756690</primaryAccession> <!-- # A/baikal teal/Korea/2403/2014 -->
+		<primaryAccession>MN875557</primaryAccession> <!-- # A/duck/France/161229/2016 -->
+		<primaryAccession>OL354545</primaryAccession> <!-- # A/chicken/Egypt/N15174A/2018 -->
+		<primaryAccession>KX297907</primaryAccession> <!-- # A/environment/Korea/W486/2015 -->
+		<primaryAccession>MW357314</primaryAccession> <!-- # A/northern pintail/Shanghai/JDS20843/2020 -->
+		<primaryAccession>MF037852</primaryAccession> <!-- # A/green-winged teal/Egypt/871/2016 -->
+		<primaryAccession>MN875579</primaryAccession> <!-- # A/duck/France/161456/2016 -->
+		<primaryAccession>MN875746</primaryAccession> <!-- # A/swan/France/170166/2017 -->
+		<primaryAccession>KX297906</primaryAccession> <!-- # A/environment/Korea/W483/2015 -->
+		<primaryAccession>MN875587</primaryAccession> <!-- # A/duck/France/161498/2016 -->
+		<primaryAccession>MN875720</primaryAccession> <!-- # A/duck/France/172038/2017 -->
+		<primaryAccession>MN875549</primaryAccession> <!-- # A/duck/France/161174/2016 -->
+		<primaryAccession>MH989503</primaryAccession> <!-- # A/White-fronted Goose/AN/1-15-12/2016 -->
+		<primaryAccession>MN875544</primaryAccession> <!-- # A/duck/France/161141/2016 -->
+		<primaryAccession>MH165543</primaryAccession> <!-- # A/chicken/South Africa/436893/2017 -->
+		<primaryAccession>OL354736</primaryAccession> <!-- # A/chicken/Egypt/N15169A/2018 -->
+		<primaryAccession>JQ973697</primaryAccession> <!-- # A/duck/Jiangsu/k1203/2010 -->
+		<primaryAccession>MN875689</primaryAccession> <!-- # A/duck/France/171514/2017 -->
+		<primaryAccession>MN875541</primaryAccession> <!-- # A/duck/France/161113/2016 -->
+		<primaryAccession>MZ235337</primaryAccession> <!-- # A/white-tailed eagle/Hokkaido/20210127001/2021 -->
+		<primaryAccession>OL354521</primaryAccession> <!-- # A/chicken/Egypt/N15176A/2018 -->
+		<primaryAccession>KJ509055</primaryAccession> <!-- # A/breeder duck/Korea/H128/2014 -->
+		<primaryAccession>MN875577</primaryAccession> <!-- # A/duck/France/161450/2016 -->
+		<primaryAccession>KJ476675</primaryAccession> <!-- # A/duck/Zhejiang/W24/2013 -->
+		<primaryAccession>MN759494</primaryAccession> <!-- # A/duck/Nigeria/VRD19-068DC004T_19RS1081-10/2019 -->
+		<primaryAccession>MN875706</primaryAccession> <!-- # A/duck/France/171639/2017 -->
+		<primaryAccession>MN759510</primaryAccession> <!-- # A/duck/Nigeria/KN-K71-4C_18RS1971-50/2017 -->
+		<primaryAccession>OM333373</primaryAccession> <!-- # A/chicken/Egypt/N13720E/2017 -->
+		<primaryAccession>MW505376</primaryAccession> <!-- # A/Cygnus columbianus/Hubei/50/2020 -->
+		<primaryAccession>KT388615</primaryAccession> <!-- # A/goose/Taiwan/TNO8/2015 -->
+		<primaryAccession>KJ508967</primaryAccession> <!-- # A/Baikal teal/Korea/H52/2014 -->
+		<primaryAccession>MH498567</primaryAccession> <!-- # A/teal/Egypt/1202C/2017 -->
+		<primaryAccession>KX297897</primaryAccession> <!-- # A/environment/Korea/W470/2014 -->
+		<primaryAccession>KP286578</primaryAccession> <!-- # A/duck/Ningbo/3262/2013 -->
+		<primaryAccession>MN875749</primaryAccession> <!-- # A/swan/France/171376/2017 -->
+		<primaryAccession>MW026099</primaryAccession> <!-- # A/duck/Denmark/19062-5Sp1c/2017 -->
+		<primaryAccession>MN875615</primaryAccession> <!-- # A/duck/France/170245/2017 -->
+		<primaryAccession>KT388623</primaryAccession> <!-- # A/goose/Taiwan/TNO9/2015 -->
+		<primaryAccession>MW334297</primaryAccession> <!-- # A/duck/Yunlin/15010277/2015 -->
+		<primaryAccession>MN875624</primaryAccession> <!-- # A/duck/France/170330/2017 -->
+		<primaryAccession>MN875560</primaryAccession> <!-- # A/duck/France/161233/2016 -->
+		<primaryAccession>MZ702460</primaryAccession> <!-- # A/environment/Pakistan/927/2018 -->
+		<primaryAccession>MN875666</primaryAccession> <!-- # A/duck/France/171134/2017 -->
+		<primaryAccession>OL354452</primaryAccession> <!-- # A/chicken/Egypt/N15174C/2018 -->
+		<primaryAccession>KY621537</primaryAccession> <!-- # A/chicken/Czech Republic/206-17_2/2017 -->
+		<primaryAccession>MH165583</primaryAccession> <!-- # A/chicken/South Africa/MC002/2017 -->
+		<primaryAccession>MW961437</primaryAccession> <!-- # A/chicken/Nigeria/VRD21-035B_21VIR2288-1/2021 -->
+		<primaryAccession>KJ756686</primaryAccession> <!-- # A/baikal teal/Korea/1457/2014 -->
+		<primaryAccession>MN124659</primaryAccession> <!-- # A/Hartlaubs gull/South Africa/18040224/2018 -->
+		<primaryAccession>OL354902</primaryAccession> <!-- # A/chicken/Egypt/A19671/2021 -->
+		<primaryAccession>MW026075</primaryAccession> <!-- # A/common buzzard/Denmark/4079-1p1/2017 -->
+		<primaryAccession>KM504104</primaryAccession> <!-- # A/duck/Shandong/Q1/2013 -->
+		<primaryAccession>MN875634</primaryAccession> <!-- # A/commonbuzzard/France/170406/2017 -->
+		<primaryAccession>KJ413845</primaryAccession> <!-- # A/broiler duck/Korea/Buan2/2014 -->
+		<primaryAccession>MN875678</primaryAccession> <!-- # A/duck/France/171457/2017 -->
+		<primaryAccession>MN875576</primaryAccession> <!-- # A/duck/France/161449/2016 -->
+		<primaryAccession>MF973228</primaryAccession> <!-- # A/chicken/Zimbabwe/AI4935/2017 -->
+		<primaryAccession>OL354977</primaryAccession> <!-- # A/chicken/Egypt/A15037/2018 -->
+		<primaryAccession>LC420045</primaryAccession> <!-- # A/environment/Miyazaki/11/2014 -->
+		<primaryAccession>MN875735</primaryAccession> <!-- # A/duck/France/172390/2017 -->
+		<primaryAccession>MN875630</primaryAccession> <!-- # A/duck/France/170349/2017 -->
+		<primaryAccession>MN875705</primaryAccession> <!-- # A/duck/France/171607/2017 -->
+		<primaryAccession>MH498609</primaryAccession> <!-- # A/duck/Egypt/F13666A/2017 -->
+		<primaryAccession>OM333388</primaryAccession> <!-- # A/duck/Egypt/N13735A/2017 -->
+		<primaryAccession>MH165575</primaryAccession> <!-- # A/chicken/South Africa/441587/2017 -->
+		<primaryAccession>OM373249</primaryAccession> <!-- # A/eurasian coot/Shandong/W6143/2020 -->
+		<primaryAccession>MN875744</primaryAccession> <!-- # A/duck/France/171779/2017 -->
+		<primaryAccession>KJ508983</primaryAccession> <!-- # A/Baikal teal/Korea/H62/2014 -->
+		<primaryAccession>OL354920</primaryAccession> <!-- # A/duck/Egypt/F15092/2018 -->
+		<primaryAccession>MN875588</primaryAccession> <!-- # A/duck/France/161500/2016 -->
+		<primaryAccession>MN875618</primaryAccession> <!-- # A/turkey/France/170278/2017 -->
+		<primaryAccession>MN875724</primaryAccession> <!-- # A/duck/France/172094/2017 -->
+		<primaryAccession>MW334585</primaryAccession> <!-- # A/goose/Pingtung/15050014/2015 -->
+		<primaryAccession>MN124627</primaryAccession> <!-- # A/African penguin/South Africa/18020408/2018 -->
+		<primaryAccession>MN875665</primaryAccession> <!-- # A/duck/France/171133/2017 -->
+		<primaryAccession>ON564783</primaryAccession> <!-- # A/Bean Goose(Anser fabalis)/South Korea/H5N8/2021 -->
+		<primaryAccession>MN875551</primaryAccession> <!-- # A/duck/France/161207/2016 -->
+		<primaryAccession>OL354935</primaryAccession> <!-- # A/chicken/Egypt/F15099/2018 -->
+		<primaryAccession>MN875617</primaryAccession> <!-- # A/duck/France/170250/2017 -->
+		<primaryAccession>CY204265</primaryAccession> <!-- # A/mallard/Ohio/14OS0438/2014 -->
+		<primaryAccession>KX227140</primaryAccession> <!-- # A/Von Schrenck's bittern/Jiangxi/Y9/2014 -->
+		<primaryAccession>MN875607</primaryAccession> <!-- # A/duck/France/170067/2017 -->
+		<primaryAccession>MH068159</primaryAccession> <!-- # A/environment/New Jersey/UGAI17-2155/2017 -->
+		<primaryAccession>MN875679</primaryAccession> <!-- # A/duck/France/171461/2017 -->
+		<primaryAccession>MN875680</primaryAccession> <!-- # A/duck/France/171462/2017 -->
+		<primaryAccession>KT388663</primaryAccession> <!-- # A/goose/Taiwan/TNO14/2015 -->
+		<primaryAccession>MW333113</primaryAccession> <!-- # A/chicken/Changhua/15040042/2015 -->
+		<primaryAccession>KJ509167</primaryAccession> <!-- # A/spot-billed duck/Korea/H455-42/2014 -->
+		<primaryAccession>MN875674</primaryAccession> <!-- # A/duck/France/171408/2017 -->
+		<primaryAccession>KU042856</primaryAccession> <!-- # A/goose/Zhejiang/925037/2014 -->
+		<primaryAccession>MW026106</primaryAccession> <!-- # A/goose/Denmark/1365-1p1c/2017 -->
+		<primaryAccession>KT388575</primaryAccession> <!-- # A/goose/Taiwan/TNO3/2015 -->
+		<primaryAccession>MN875750</primaryAccession> <!-- # A/swan/France/171267/2017 -->
+		<primaryAccession>MH165775</primaryAccession> <!-- # A/chicken/South Africa/449418/2017 -->
+		<primaryAccession>MW333649</primaryAccession> <!-- # A/chicken/Taipei/16120021/2016 -->
+		<primaryAccession>MG607428</primaryAccession> <!-- # A/duck/Democratic Republic of the Congo/17RS882-5/2017 -->
+		<primaryAccession>MW961445</primaryAccession> <!-- # A/chicken/Nigeria/VRD21-100_21VIR2370-423/2021 -->
+		<primaryAccession>KU646944</primaryAccession> <!-- # A/goose/Taiwan/01039/2015 -->
+		<primaryAccession>MN759506</primaryAccession> <!-- # A/mallard_duck/Nigeria/KN-AR91-3T_18RS1971-45/2017 -->
+		<primaryAccession>MW333393</primaryAccession> <!-- # A/chicken/Nantou/16110023-1/2016 -->
+		<primaryAccession>MN875639</primaryAccession> <!-- # A/chicken/France/170433/2017 -->
+		<primaryAccession>OM333312</primaryAccession> <!-- # A/chicken/Egypt/M14081D/2017 -->
+		<primaryAccession>MG881968</primaryAccession> <!-- # A/grey-headed gull/Uganda/MUWRP-538/2017 -->
+		<primaryAccession>KJ476660</primaryAccession> <!-- # A/mallard/Shanghai/SH-9/2013 -->
+		<primaryAccession>MN875651</primaryAccession> <!-- # A/duck/France/170738/2017 -->
+		<primaryAccession>KJ509103</primaryAccession> <!-- # A/white-fronted goose/Korea/H231/2014 -->
+		<primaryAccession>KJ756689</primaryAccession> <!-- # A/baikal teal/Korea/2402/2014 -->
+		<primaryAccession>MN875727</primaryAccession> <!-- # A/duck/France/172144/2017 -->
+		<primaryAccession>MN875731</primaryAccession> <!-- # A/duck/France/172331/2017 -->
+		<primaryAccession>MW333793</primaryAccession> <!-- # A/chicken/Yunlin/17010001/2017 -->
+		<primaryAccession>OM333402</primaryAccession> <!-- # A/chicken/Egypt/N13717E/2017 -->
+		<primaryAccession>MH165823</primaryAccession> <!-- # A/chicken/South Africa/451457/2017 -->
+		<primaryAccession>MN875740</primaryAccession> <!-- # A/swan/France/171265/2017 -->
+		<primaryAccession>MN875713</primaryAccession> <!-- # A/duck/France/171928/2017 -->
+		<primaryAccession>MN875556</primaryAccession> <!-- # A/duck/France/161228/2016 -->
+		<primaryAccession>OL354893</primaryAccession> <!-- # A/chicken/Egypt/A19673/2021 -->
+		<primaryAccession>OM333409</primaryAccession> <!-- # A/chicken/Egypt/F14110D/2017 -->
+		<primaryAccession>MT261401</primaryAccession> <!-- # A/chicken/Egypt/N16732/2019 -->
+		<primaryAccession>MT261428</primaryAccession> <!-- # A/chicken/Egypt/Q16710C/2019 -->
+		<primaryAccession>MW333281</primaryAccession> <!-- # A/chicken/Kaohsiung/16020017-2/2016 -->
+		<primaryAccession>MW026123</primaryAccession> <!-- # A/mute swan/Denmark/19192-1/2016 -->
+		<primaryAccession>KJ509127</primaryAccession> <!-- # A/Korean native chicken/Korea/H257/2014 -->
+		<primaryAccession>MN759508</primaryAccession> <!-- # A/muscovy_duck/Nigeria/KN-P52-53T_18RS1971-47/2017 -->
+		<primaryAccession>KU201875</primaryAccession> <!-- # A/mallard/Oregon/195536/2014 -->
+		<primaryAccession>KP739408</primaryAccession> <!-- # A/chicken/Oregon/41613-2/2014 -->
+		<primaryAccession>KJ756678</primaryAccession> <!-- # A/baikal teal/Korea/1445/2014 -->
+		<primaryAccession>MW333377</primaryAccession> <!-- # A/chicken/Miaoli/15010421-1/2015 -->
+		<primaryAccession>MW110131</primaryAccession> <!-- # A/goose/Xinjiang/12.18_WLMQXL003-C/2016 -->
+		<primaryAccession>MW333129</primaryAccession> <!-- # A/chicken/Changhua/15050038-1/2015 -->
+		<primaryAccession>MN875654</primaryAccession> <!-- # A/chicken/France/170773/2017 -->
+		<primaryAccession>MN124571</primaryAccession> <!-- # A/Common tern/South Africa/18010259/2018 -->
+		<primaryAccession>KJ508903</primaryAccession> <!-- # A/broiler duck/Korea/H29/2014 -->
+		<primaryAccession>MH165679</primaryAccession> <!-- # A/Pekin duck/South Africa/17080481/2017 -->
+		<primaryAccession>MN875582</primaryAccession> <!-- # A/duck/France/161475/2016 -->
+		<primaryAccession>MN875721</primaryAccession> <!-- # A/duck/France/172057/2017 -->
+		<primaryAccession>KU201755</primaryAccession> <!-- # A/American wigeon/Oregon/AH0012525/2015 -->
+		<primaryAccession>KR233677</primaryAccession> <!-- # A/eurasian wigeon/Netherlands/1/2014 -->
+		<primaryAccession>MN875627</primaryAccession> <!-- # A/duck/France/170339/2017 -->
+		<primaryAccession>KX297908</primaryAccession> <!-- # A/environment/Korea/W487/2015 -->
+		<primaryAccession>MN875590</primaryAccession> <!-- # A/duck/France/161577/2016 -->
+		<primaryAccession>MN875565</primaryAccession> <!-- # A/duck/France/161243/2016 -->
+		<primaryAccession>KX297887</primaryAccession> <!-- # A/environment/Korea/W454/2014 -->
+		<primaryAccession>MT261507</primaryAccession> <!-- # A/chicken/Egypt/Q16711C/2019 -->
+		<primaryAccession>MZ235329</primaryAccession> <!-- # A/whooper swan/Fukushima/0701B002/2021 -->
+		<primaryAccession>MT272366</primaryAccession> <!-- # A/chicken/Bulgaria/217_20VIR1724-1/2020 -->
+		<primaryAccession>MG650622</primaryAccession> <!-- # A/chicken/Cameroon/17RS1661-1/2017 -->
+		<primaryAccession>MH498594</primaryAccession> <!-- # A/teal/Egypt /823C/2016 -->
+		<primaryAccession>KT388679</primaryAccession> <!-- # A/goose/Taiwan/TNO16/2015 -->
+		<primaryAccession>MN875547</primaryAccession> <!-- # A/duck/France/161147/2016 -->
+		<primaryAccession>MN875612</primaryAccession> <!-- # A/duck/France/170177/2017 -->
+		<primaryAccession>OM333305</primaryAccession> <!-- # A/chicken/Egypt/Q13936B/2017 -->
+		<primaryAccession>MH598126</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/828227/2001 -->
+		<primaryAccession>MN875561</primaryAccession> <!-- # A/duck/France/161234/2016 -->
+		<primaryAccession>KJ756685</primaryAccession> <!-- # A/baikal teal/Korea/1456/2014 -->
+		<primaryAccession>MN875622</primaryAccession> <!-- # A/duck/France/170309/2017 -->
+		<primaryAccession>MH165719</primaryAccession> <!-- # A/chicken/South Africa/17090050/2017 -->
+		<primaryAccession>OL354483</primaryAccession> <!-- # A/chicken/Egypt/N15173A/2018 -->
+		<primaryAccession>ON878716</primaryAccession> <!-- # A/goose/Hebei/HG12/2021 -->
+		<primaryAccession>MN875661</primaryAccession> <!-- # A/duck/France/170975/2017 -->
+		<primaryAccession>MW334665</primaryAccession> <!-- # A/goose/Taoyuan/15010041/2015 -->
+		<primaryAccession>MN875748</primaryAccession> <!-- # A/swan/France/171585/2017 -->
+		<primaryAccession>MF926480</primaryAccession> <!-- # A/swan/Voronezh/2/2017 -->
+		<primaryAccession>OM333273</primaryAccession> <!-- # A/duck/Egypt/H13797E/2017 -->
+		<primaryAccession>KJ509087</primaryAccession> <!-- # A/breeder duck/Korea/H200/2014 -->
+		<primaryAccession>MN595245</primaryAccession> <!-- # A/Common tern/South Africa/18010371/2018 -->
+		<primaryAccession>MN124675</primaryAccession> <!-- # A/Hartlaubs gull/South Africa/18040367/2018 -->
+		<primaryAccession>MH819158</primaryAccession> <!-- # A/Cygnus olor/England/WVJX/2016 -->
+		<primaryAccession>MN124635</primaryAccession> <!-- # A/Crowned cormorant/South Africa/18030213/2018 -->
+		<primaryAccession>MN875681</primaryAccession> <!-- # A/duck/France/171463/2017 -->
+		<primaryAccession>MN875708</primaryAccession> <!-- # A/duck/France/171650/2017 -->
+		<primaryAccession>MN875586</primaryAccession> <!-- # A/duck/France/161497/2016 -->
+		<primaryAccession>MN595273</primaryAccession> <!-- # A/tern/South Africa/18010417/2018 -->
+		<primaryAccession>KP732700</primaryAccession> <!-- # A/duck/Eastern China/S0215/2014 -->
+		<primaryAccession>MN875655</primaryAccession> <!-- # A/chicken/France/170774/2017 -->
+		<primaryAccession>MW333097</primaryAccession> <!-- # A/chicken/Changhua/15040043-1/2015 -->
+		<primaryAccession>LC420037</primaryAccession> <!-- # A/environment/Yamaguchi/8/2014 -->
+		<primaryAccession>KJ413837</primaryAccession> <!-- # A/breeder duck/Korea/Gochang1/2014 -->
+		<primaryAccession>MN124587</primaryAccession> <!-- # A/African penguin/South Africa/18010423/2018 -->
+		<primaryAccession>KR233685</primaryAccession> <!-- # A/eurasian wigeon/Netherlands/2/2014 -->
+		<primaryAccession>OL354891</primaryAccession> <!-- # A/duck/Egypt/F15089/2018 -->
+		<primaryAccession>MN124555</primaryAccession> <!-- # A/Jackal buzzard/South Africa/18010106/2018 -->
+		<primaryAccession>MH819155</primaryAccession> <!-- # A/Cygnus olor/England/YBOV/2017 -->
+		<primaryAccession>KJ508919</primaryAccession> <!-- # A/broiler duck/Korea/H32/2014 -->
+		<primaryAccession>MH165807</primaryAccession> <!-- # A/chicken/South Africa/115370/2017 -->
+		<primaryAccession>MN875676</primaryAccession> <!-- # A/commonbuzzard/France/171413/2017 -->
+		<primaryAccession>MT261404</primaryAccession> <!-- # A/duck/Egypt/N16719/2019 -->
+		<primaryAccession>KJ756691</primaryAccession> <!-- # A/baikal teal/Korea/2406/2014 -->
+		<primaryAccession>MN875602</primaryAccession> <!-- # A/duck/France/170034/2017 -->
+		<primaryAccession>MN875640</primaryAccession> <!-- # A/chicken/France/170436/2017 -->
+		<primaryAccession>OL354837</primaryAccession> <!-- # A/chicken/Egypt/N15174B/2018 -->
+		<primaryAccession>MW333305</primaryAccession> <!-- # A/chicken/Kaohsiung/16120012/2016 -->
+		<primaryAccession>MN875626</primaryAccession> <!-- # A/duck/France/170338/2017 -->
+		<primaryAccession>MN875638</primaryAccession> <!-- # A/duck/France/170432/2017 -->
+		<primaryAccession>MN875739</primaryAccession> <!-- # A/eurasian wigeon/France/161323/2016 -->
+		<primaryAccession>MW333673</primaryAccession> <!-- # A/chicken/Taipei/17050007-2/2017 -->
+		<primaryAccession>MN875723</primaryAccession> <!-- # A/chicken/France/172093/2017 -->
+		<primaryAccession>MH165767</primaryAccession> <!-- # A/chicken/South Africa/17090348/2017 -->
+		<primaryAccession>MH165743</primaryAccession> <!-- # A/chicken/South Africa/448475/2017 -->
+		<primaryAccession>MN759493</primaryAccession> <!-- # A/duck/Nigeria/VRD19-068DC019T_19RS1081-12/2019 -->
+		<primaryAccession>KX297910</primaryAccession> <!-- # A/environment/Korea/W490/2015 -->
+		<primaryAccession>MN875642</primaryAccession> <!-- # A/Kestelfalcon/France/170473/2017 -->
+		<primaryAccession>KX297894</primaryAccession> <!-- # A/environment/Korea/W467/2014 -->
+		<primaryAccession>OM333360</primaryAccession> <!-- # A/chicken/Egypt/N13731A/2017 -->
+		<primaryAccession>KJ413853</primaryAccession> <!-- # A/baikal teal/Korea/Donglim3/2014 -->
+		<primaryAccession>MW505392</primaryAccession> <!-- # A/Cygnus columbianus/Hubei/52/2020 -->
+		<primaryAccession>KP101007</primaryAccession> <!-- # A/quail/California/K1400794/2014 -->
+		<primaryAccession>MW137661</primaryAccession> <!-- # A/chicken/Egypt/Q16710B/2019 -->
+		<primaryAccession>KY576084</primaryAccession> <!-- # A/common teal/Korea/W550/2016 -->
+		<primaryAccession>MN875543</primaryAccession> <!-- # A/duck/France/161137/2016 -->
+		<primaryAccession>MN875712</primaryAccession> <!-- # A/chicken/France/171915/2017 -->
+		<primaryAccession>MF155635</primaryAccession> <!-- # A/grey heron/W779/2017 -->
+		<primaryAccession>MH165831</primaryAccession> <!-- # A/ostrich/South Africa/002/2017 -->
+		<primaryAccession>KT388495</primaryAccession> <!-- # A/goose/Taiwan/TNC7/2015 -->
+		<primaryAccession>MN124603</primaryAccession> <!-- # A/Sandwich tern/South Africa/18020302/2018 -->
+		<primaryAccession>MK345914</primaryAccession> <!-- # A/laughing gull/Delaware Bay/486/2018 -->
+		<primaryAccession>MW334337</primaryAccession> <!-- # A/duck/Yunlin/15010538/2015 -->
+		<primaryAccession>OL354928</primaryAccession> <!-- # A/duck/Egypt/A16368/2018 -->
+		<primaryAccession>OM350187</primaryAccession> <!-- # A/chicken/Egypt/F13829B/2017 -->
+		<primaryAccession>MW334593</primaryAccession> <!-- # A/goose/Pingtung/16010061/2016 -->
+		<primaryAccession>MN875747</primaryAccession> <!-- # A/goose/France/171953/2017 -->
+		<primaryAccession>MN875699</primaryAccession> <!-- # A/duck/France/171543/2017 -->
+		<primaryAccession>MN759500</primaryAccession> <!-- # A/chicken/Nigeria/VRD-18-NS10_18RS1971-29/2018 -->
+		<primaryAccession>MW333681</primaryAccession> <!-- # A/chicken/Taipei/17050008-3/2017 -->
+		<primaryAccession>MW505352</primaryAccession> <!-- # A/Chlidonias hybrida/Hubei/55/2020 -->
+		<primaryAccession>KU646936</primaryAccession> <!-- # A/goose/Taiwan/01026/2015 -->
+		<primaryAccession>KX297905</primaryAccession> <!-- # A/environment/Korea/W482/2015 -->
+		<primaryAccession>KJ511815</primaryAccession> <!-- # A/waterfowl/Korea/S005/2014 -->
+		<primaryAccession>MN875670</primaryAccession> <!-- # A/duck/France/171275/2017 -->
+		<primaryAccession>MT261437</primaryAccession> <!-- # A/chicken/Egypt/Q16711A/2019 -->
+		<primaryAccession>KY828814</primaryAccession> <!-- # A/American wigeon/California/UCD58P/2015 -->
+		<primaryAccession>OL354821</primaryAccession> <!-- # A/chicken/Egypt/F15366B/2018 -->
+		<primaryAccession>MN875663</primaryAccession> <!-- # A/avian/France/170977/2017 -->
+		<primaryAccession>MW333089</primaryAccession> <!-- # A/chicken/Changhua/15040036-1/2015 -->
+		<primaryAccession>MH819860</primaryAccession> <!-- # A/Mulard Duck/Hungary/59163/2016 -->
+		<primaryAccession>LC027960</primaryAccession> <!-- # A/mandarin duck/Gifu/2112D001/2014 -->
+		<primaryAccession>MH165671</primaryAccession> <!-- # A/Pekin duck/South Africa/17080340/2017 -->
+		<primaryAccession>MN759499</primaryAccession> <!-- # A/duck/Nigeria/KNSB-11-13T_18RS1971-38/2017 -->
+		<primaryAccession>MN875728</primaryAccession> <!-- # A/duck/France/172182/2017 -->
+		<primaryAccession>MN875662</primaryAccession> <!-- # A/goose/France/170976/2017 -->
+		<primaryAccession>MN875657</primaryAccession> <!-- # A/duck/France/170806/2017 -->
+		<primaryAccession>KX297904</primaryAccession> <!-- # A/environment/Korea/W477/2014 -->
+		<primaryAccession>KJ509047</primaryAccession> <!-- # A/breeder chicken/Korea/H122/2014 -->
+		<primaryAccession>KJ756681</primaryAccession> <!-- # A/baikal teal/Korea/1448/2014 -->
+		<primaryAccession>MW228068</primaryAccession> <!-- # A/northern pintail/Hokkaido/M13/2020 -->
+		<primaryAccession>KY393307</primaryAccession> <!-- # A/whooper swan/Shanxi/RC01/2016 -->
+		<primaryAccession>KJ509039</primaryAccession> <!-- # A/Baikal teal/Korea/H96/2014 -->
+		<primaryAccession>OM333318</primaryAccession> <!-- # A/chicken/Egypt/N13722/2017 -->
+		<primaryAccession>MN875742</primaryAccession> <!-- # A/swan/France/171377/2017 -->
+		<primaryAccession>OL354775</primaryAccession> <!-- # A/chicken/Egypt/N15177D/2018 -->
+		<primaryAccession>OL353691</primaryAccession> <!-- # A/chicken/Egypt/A19670/2021 -->
+		<primaryAccession>MN875603</primaryAccession> <!-- # A/duck/France/170036/2017 -->
+		<primaryAccession>MN252533</primaryAccession> <!-- # A/chicken/South Africa/499723/2018 -->
+		<primaryAccession>MZ019512</primaryAccession> <!-- # A/chicken/Netherlands/2113/2017 -->
+		<primaryAccession>MH569622</primaryAccession> <!-- # A/chicken/Uganda/17RS115-15/2017 -->
+		<primaryAccession>MH165639</primaryAccession> <!-- # A/chicken/South Africa/443397/2017 -->
+		<primaryAccession>MN875591</primaryAccession> <!-- # A/duck/France/161587/2016 -->
+		<primaryAccession>MN875734</primaryAccession> <!-- # A/duck/France/172384/2017 -->
+		<primaryAccession>OM333296</primaryAccession> <!-- # A/chicken/Egypt/Q13845A/2017 -->
+		<primaryAccession>MH498589</primaryAccession> <!-- # A/little grebe/Egypt/1056OP/2016 -->
+		<primaryAccession>OL366046</primaryAccession> <!-- # A/chicken/Egypt/Q16808B/2019 -->
+		<primaryAccession>MW333329</primaryAccession> <!-- # A/chicken/Kaohsiung/17030023/2017 -->
+		<primaryAccession>OL467339</primaryAccession> <!-- # A/goose/Egypt/BA71C/2018 -->
+		<primaryAccession>KJ756693</primaryAccession> <!-- # A/baikal teal/Korea/2416/2014 -->
+		<primaryAccession>MN875730</primaryAccession> <!-- # A/duck/France/172289/2017 -->
+		<primaryAccession>MH165567</primaryAccession> <!-- # A/chicken/South Africa/440638B/2017 -->
+		<primaryAccession>LC026480</primaryAccession> <!-- # A/tundra swan/Tottori/C6nk/2014 -->
+		<primaryAccession>KJ508927</primaryAccession> <!-- # A/bean goose/Korea/H40/2014 -->
+		<primaryAccession>MW109059</primaryAccession> <!-- # A/duck/Xinjiang/4.21_WLMQXL005-O/2017 -->
+		<primaryAccession>MN759503</primaryAccession> <!-- # A/duck/Nigeria/KDIG-164-165T_18RS1971-40/2017 -->
+		<primaryAccession>KJ509063</primaryAccession> <!-- # A/broiler duck/Korea/H133/2014 -->
+		<primaryAccession>MN875620</primaryAccession> <!-- # A/duck/France/170284/2017 -->
+		<primaryAccession>OL354498</primaryAccession> <!-- # A/chicken/Egypt/N15177A/2018 -->
+		<primaryAccession>MN875685</primaryAccession> <!-- # A/duck/France/171469/2017 -->
+		<primaryAccession>MN875595</primaryAccession> <!-- # A/duck/France/170016/2016 -->
+		<primaryAccession>MN252525</primaryAccession> <!-- # A/quail/South Africa/AI5930/2018 -->
+		<primaryAccession>MN759505</primaryAccession> <!-- # A/duck/Nigeria/KDIG-173-174_18RS1971-42/2017 -->
+		<primaryAccession>MW333409</primaryAccession> <!-- # A/chicken/New Taipei City/16110020-2/2016 -->
+		<primaryAccession>MN124683</primaryAccession> <!-- # A/African penguin/South Africa/18050256/2018 -->
+		<primaryAccession>MW334625</primaryAccession> <!-- # A/goose/Tainan/16070002/2016 -->
+		<primaryAccession>MW333313</primaryAccession> <!-- # A/chicken/Kaohsiung/16120034/2016 -->
+		<primaryAccession>KT388503</primaryAccession> <!-- # A/goose/Taiwan/TNC8/2015 -->
+		<primaryAccession>MF040683</primaryAccession> <!-- # A/Cygnus atratus/Hubei/2Z2-O/2016 -->
+		<primaryAccession>MN875672</primaryAccession> <!-- # A/duck/France/171378/2017 -->
+		<primaryAccession>MW961485</primaryAccession> <!-- # A/chicken/Nigeria/VRD21-88_21VIR2288-8/2021 -->
+		<primaryAccession>MN875611</primaryAccession> <!-- # A/chicken/France/170176/2017 -->
+		<primaryAccession>MN875583</primaryAccession> <!-- # A/duck/France/161476/2016 -->
+		<primaryAccession>AB932559</primaryAccession> <!-- # A/chicken/kumamoto/1-7/2014 -->
+		<primaryAccession>MH165551</primaryAccession> <!-- # A/Egyptian goose/South Africa/001/2017 -->
+		<primaryAccession>MN124595</primaryAccession> <!-- # A/Swift tern/South Africa/18020273/2018 -->
+		<primaryAccession>MH165703</primaryAccession> <!-- # A/chicken/South Africa/17080581/2017 -->
+		<primaryAccession>KJ756677</primaryAccession> <!-- # A/baikal teal/Korea/1441/2014 -->
+		<primaryAccession>OM373233</primaryAccession> <!-- # A/eurasian coot/Shandong/W5611/2020 -->
+		<primaryAccession>MH165663</primaryAccession> <!-- # A/chicken/South Africa/17080336/2017 -->
+		<primaryAccession>MW333665</primaryAccession> <!-- # A/chicken/Taipei/17050006-2/2017 -->
+		<primaryAccession>MH165599</primaryAccession> <!-- # A/ostrich/South Africa/17080046/2017 -->
+		<primaryAccession>MF073904</primaryAccession> <!-- # A/chicken/Belgium/807/2017 -->
+		<primaryAccession>MH165591</primaryAccession> <!-- # A/chicken/South Africa/441839/2017 -->
+		<primaryAccession>MH165559</primaryAccession> <!-- # A/chicken/South Africa/440638A/2017 -->
+		<primaryAccession>MN875597</primaryAccession> <!-- # A/duck/France/170018/2017 -->
+		<primaryAccession>KT388455</primaryAccession> <!-- # A/goose/Taiwan/TNC2/2015 -->
+		<primaryAccession>KT388711</primaryAccession> <!-- # A/goose/Taiwan/TNO20/2015 -->
+		<primaryAccession>OL354569</primaryAccession> <!-- # A/chicken/Egypt/N15173B/2018 -->
+		<primaryAccession>MT261456</primaryAccession> <!-- # A/duck/Egypt/N16720/2019 -->
+		<primaryAccession>KX297902</primaryAccession> <!-- # A/environment/Korea/W475/2014 -->
+		<primaryAccession>MN875660</primaryAccession> <!-- # A/duck/France/170974/2017 -->
+		<primaryAccession>MN875683</primaryAccession> <!-- # A/duck/France/171467/2017 -->
+		<primaryAccession>MN759504</primaryAccession> <!-- # A/duck/Nigeria/KDIG-171-172C_18RS1971-41/2017 -->
+		<primaryAccession>MN875609</primaryAccession> <!-- # A/duck/France/170117/2017 -->
+		<primaryAccession>KJ756687</primaryAccession> <!-- # A/baikal teal/Korea/1458/2014 -->
+		<primaryAccession>KT388695</primaryAccession> <!-- # A/goose/Taiwan/TNO18/2015 -->
+		<primaryAccession>OL354513</primaryAccession> <!-- # A/chicken/Egypt/N15178B/2018 -->
+		<primaryAccession>MN875628</primaryAccession> <!-- # A/chicken/France/170340/2017 -->
+		<primaryAccession>KX297909</primaryAccession> <!-- # A/environment/Korea/W488/2015 -->
+		<primaryAccession>KJ756680</primaryAccession> <!-- # A/baikal teal/Korea/1447/2014 -->
+		<primaryAccession>MN595238</primaryAccession> <!-- # A/African penguin/South Africa/476266/2018 -->
+		<primaryAccession>MN875542</primaryAccession> <!-- # A/duck/France/161116/2016 -->
+		<primaryAccession>MW505384</primaryAccession> <!-- # A/Cygnus columbianus/Hubei/51/2020 -->
+		<primaryAccession>MH165711</primaryAccession> <!-- # A/Domestic goose/South Africa/17090065/2017 -->
+		<primaryAccession>KT221077</primaryAccession> <!-- # A/goose/Shandong/WFSG1/2014 -->
+		<primaryAccession>MH989504</primaryAccession> <!-- # A/Ruddy Shelduck/AN/2-14-12/2016 -->
+		<primaryAccession>MN875608</primaryAccession> <!-- # A/duck/France/170098/2017 -->
+		<primaryAccession>MN875737</primaryAccession> <!-- # A/chicken/France/172610/2017 -->
+		<primaryAccession>MN875555</primaryAccession> <!-- # A/duck/France/161227/2016 -->
+		<primaryAccession>MH165623</primaryAccession> <!-- # A/Guinea fowl/South Africa/17080243/2017 -->
+		<primaryAccession>MN875707</primaryAccession> <!-- # A/duck/France/171641/2017 -->
+		<primaryAccession>MW333145</primaryAccession> <!-- # A/chicken/Changhua/15060029/2015 -->
+		<primaryAccession>MW333321</primaryAccession> <!-- # A/chicken/Kaohsiung/16MB0889/2016 -->
+		<primaryAccession>KU042855</primaryAccession> <!-- # A/duck/Zhejiang/925169/2014 -->
+		<primaryAccession>KX297903</primaryAccession> <!-- # A/environment/Korea/W476/2014 -->
+		<primaryAccession>MN875729</primaryAccession> <!-- # A/chicken/France/172287/2017 -->
+		<primaryAccession>MH165791</primaryAccession> <!-- # A/chicken/South Africa/17090335/2017 -->
+		<primaryAccession>KJ756694</primaryAccession> <!-- # A/baikal teal/Korea/2417/2014 -->
+		<primaryAccession>KT388671</primaryAccession> <!-- # A/goose/Taiwan/TNO15/2015 -->
+		<primaryAccession>MW505360</primaryAccession> <!-- # A/Cygnus columbianus/Hubei/116/2020 -->
+		<primaryAccession>MN875585</primaryAccession> <!-- # A/duck/France/161478/2016 -->
+		<primaryAccession>MN875687</primaryAccession> <!-- # A/duck/France/171472/2017 -->
+		<primaryAccession>OL354440</primaryAccession> <!-- # A/chicken/Egypt/F17230B/2019 -->
+		<primaryAccession>MF926464</primaryAccession> <!-- # A/chicken/Chechnya/58/2017 -->
+		<primaryAccession>MH165535</primaryAccession> <!-- # A/chicken/South Africa/Standerton/2017 -->
+		<primaryAccession>MN875599</primaryAccession> <!-- # A/duck/France/170031/2017 -->
+		<primaryAccession>MH165727</primaryAccession> <!-- # A/chicken/South Africa/17090100/2017 -->
+		<primaryAccession>MW333425</primaryAccession> <!-- # A/chicken/New Taipei City/17050004-2/2017 -->
+		<primaryAccession>MN875589</primaryAccession> <!-- # A/duck/France/161501/2016 -->
+		<primaryAccession>MN124563</primaryAccession> <!-- # A/Tern/South Africa/18010107/2018 -->
+		<primaryAccession>MN875621</primaryAccession> <!-- # A/duck/France/170308/2017 -->
+		<primaryAccession>MN875741</primaryAccession> <!-- # A/gull/France/161176/2017 -->
+		<primaryAccession>MN759501</primaryAccession> <!-- # A/duck/Nigeria/KNSB-8-10T_18RS1971-37/2017 -->
+		<primaryAccession>MF926472</primaryAccession> <!-- # A/swan/Krasnodar/44/2017 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

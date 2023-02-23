@@ -1,0 +1,40 @@
+  delete module fluRaxmlPhylogenyGeneratorAa
+  delete module fluPhyloUtility
+  
+  create module -f modules/analysis/phylogeny/fluRaxmlPhylogenyGeneratorAa.xml
+  create module -f modules/analysis/phylogeny/fluPhyloUtility.xml
+
+
+  module fluRaxmlPhylogenyGeneratorAa
+    generate amino-acid phylogeny AL_IAV_SEG1 -r REF_S1_IAV_MASTER_NC_002023 -f PB2 -a -o trees/iav/iav_seg1_PB2.aa.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module fluRaxmlPhylogenyGeneratorAa
+    generate amino-acid phylogeny AL_IAV_SEG2 -r REF_S2_IAV_MASTER_NC_002021 -f PB1 -a -o trees/iav/iav_seg2_PB1.aa.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module fluRaxmlPhylogenyGeneratorAa
+    generate amino-acid phylogeny AL_IAV_SEG3 -r REF_S3_IAV_MASTER_NC_002022 -f PA -a -o trees/iav/iav_seg3_PA.aa.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module fluRaxmlPhylogenyGeneratorAa
+    generate amino-acid phylogeny AL_IAV_SEG4 -r REF_S4_IAV_MASTER_NC_002017 -f HA -a -o trees/iav/iav_seg4_HA.aa.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module fluRaxmlPhylogenyGeneratorAa
+    generate amino-acid phylogeny AL_IAV_SEG5 -r REF_S5_IAV_MASTER_NC_002019 -f NP -a -o trees/iav/iav_seg5_NP.aa.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module fluRaxmlPhylogenyGeneratorAa
+    generate amino-acid phylogeny AL_IAV_SEG6 -r REF_S6_IAV_MASTER_NC_002018 -f NA -a -o trees/iav/iav_seg6_NA.aa.tre NEWICK_BOOTSTRAPS
+    exit
+
+   module fluRaxmlPhylogenyGeneratorAa
+    generate amino-acid phylogeny AL_IAV_SEG7 -r REF_S7_IAV_MASTER_NC_002016 -f M1 -a -o trees/iav/iav_seg7_M1.aa.tre NEWICK_BOOTSTRAPS
+    exit
+
+   module fluRaxmlPhylogenyGeneratorAa
+    generate amino-acid phylogeny AL_IAV_SEG8 -r REF_S8_IAV_MASTER_NC_002020 -f NS1 -a -o trees/iav/iav_seg8_NS1.aa.tre NEWICK_BOOTSTRAPS
+    exit
+
+

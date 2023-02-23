@@ -1,0 +1,17 @@
+<!-- NCBI import module for IAV subtype 'H1N7' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-1</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>CY146019</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI09-464/2009 -->
+		<primaryAccession>CY146342</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI09-1233/2009 -->
+		<primaryAccession>OL371652</primaryAccession> <!-- # A/wild waterbird/Tasmania/18-1081-5/2018 -->
+		<primaryAccession>CY146237</primaryAccession> <!-- # A/ruddy turnstone/Delaware/AI09-960/2009 -->
+		<primaryAccession>CY146043</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI09-525/2009 -->
+		<primaryAccession>OL371644</primaryAccession> <!-- # A/wild waterbird/Tasmania/18-1081-3/2018 -->
+		<primaryAccession>CY137981</primaryAccession> <!-- # A/shorebird/Delaware Bay/771/2009 -->
+		<primaryAccession>CY146140</primaryAccession> <!-- # A/ruddy turnstone/Delaware/AI09-769/2009 -->
+		<primaryAccession>CY137817</primaryAccession> <!-- # A/shorebird/Delaware Bay/226/2009 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

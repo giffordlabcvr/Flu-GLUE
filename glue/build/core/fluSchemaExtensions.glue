@@ -1,4 +1,8 @@
-  # Sequence table
+schema-project flu
+
+  create custom-table isolate --idFieldLength 200
+  create custom-table host
+
   table sequence
     
     # GenBank entry information
@@ -12,8 +16,10 @@
     create field name VARCHAR 100  
     create field full_name VARCHAR 200
     create field genus VARCHAR 50
-    create field subtype VARCHAR 50
+    create field gb_subtype VARCHAR 50
+    create field rec_subtype VARCHAR 50
     create field strain VARCHAR 150
+    create field isolate_name VARCHAR 150
     
     # Segment information
     create field gb_segment INTEGER
@@ -30,6 +36,32 @@
   exit
 
 
+  table isolate
+  
+    create field iso_host VARCHAR 100
+    create field iso_source VARCHAR 200
+    create field iso_country VARCHAR 100
+    create field iso_region VARCHAR 200
+    create field iso_year INTEGER 
+    create field iso_month VARCHAR
+    create field iso_day INTEGER
+    create field lab_host VARCHAR 100
+    create field cg_subtype VARCHAR 50
+    create field hn_subtype VARCHAR 50
+    # true if isolate has at least one "complete segment" sequence for each of the 8 segments
+    create field complete_genome BOOLEAN
+    
+  exit
+
+  table host
+  
+    create field taxon_name VARCHAR 100
+    create field taxonomic_level VARCHAR 100
+    create field common_name VARCHAR 100
+
+    exit
+
+
   table alignment
     create field clade_category VARCHAR 20
     create field phylogeny CLOB
@@ -41,24 +73,10 @@
   	exit
 
 
-  # Create schema extension
-  create custom-table isolate_data
+
+  create link isolate sequence -m ONE_TO_MANY
+  
+  create link isolate host -m ONE_TO_ONE
 
 
-  table isolate_data
-    create field isolate VARCHAR 200
-    create field iso_source VARCHAR 200
-    create field sample_date DATE
-    create field iso_country VARCHAR 100
-    create field iso_region VARCHAR 200
-    create field iso_year INTEGER 
-    create field iso_month VARCHAR
-    create field iso_day INTEGER
-    create field iso_host VARCHAR 100
-    create field lab_host VARCHAR 100
-  exit
-
-  create link sequence isolate_data -m MANY_TO_ONE
-
-
-
+exit

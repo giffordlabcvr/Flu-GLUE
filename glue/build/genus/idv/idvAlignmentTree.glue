@@ -1,80 +1,55 @@
-
-# Delete any previously created alignments of same name
-multi-delete alignment -w "name like 'IDV_SEG%'"
-
 # Create constrained alignment tree for curated sequence alignments
+
 alignment AL_ROOT_SEG_1-2_All_PB2
 
   # Add segment members
-  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 1"
-  extract child AL_IDV_SEG1   --refName REF_S1_IDV_NC_036616 
-  demote member AL_IDV_SEG1   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
-  
+  add member -w "source.name = 'idv-ncbi-curated-segment-1'"
+  demote member AL_IDV_SEG1 -w "sequence.source.name = 'idv-ncbi-curated-segment-1'"
   exit
 
-
-# Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT_SEG_2-1_All_PB1
 
   # Add segment members
-  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 2"
-  extract child AL_IDV_SEG2   --refName REF_S2_IDV_NC_036615
-  demote member AL_IDV_SEG2   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
-  
+  add member -w "source.name = 'idv-ncbi-curated-segment-2'"
+  demote member AL_IDV_SEG2 -w "sequence.source.name = 'idv-ncbi-curated-segment-2'"
   exit
 
-
-# Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT_SEG_3_All_PA
 
   # Add segment members
-  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 3"
-  extract child AL_IDV_SEG3   --refName REF_S3_IDV_NC_036619
-  demote member AL_IDV_SEG3   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
-
+  add member -w "source.name = 'idv-ncbi-curated-segment-3'"
+  demote member AL_IDV_SEG3 -w "sequence.source.name = 'idv-ncbi-curated-segment-3'"
   exit
 
-# Create constrained alignment tree for curated sequence alignments
-alignment AL_ROOT_SEG_4_CD_HEF
+alignment AL_ROOT_SEG_4_AB_HA
 
   # Add segment members
-  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 4"
-  extract child AL_IDV_SEG4   --refName REF_S4_IDV_NC_036618
-  demote member AL_IDV_SEG4   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
-
+  add member -w "source.name = 'idv-ncbi-curated-segment-4'"
+  demote member AL_IDV_SEG4 -w "sequence.source.name = 'idv-ncbi-curated-segment-4'"
   exit
 
 
-# Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT_SEG_5_All_NP
 
   # Add segment members
-  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 5"
-  extract child AL_IDV_SEG5   --refName REF_S5_IDV_NC_036617
-  demote member AL_IDV_SEG5   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
+  add member -w "source.name = 'idv-ncbi-curated-segment-5'"
+  demote member AL_IDV_SEG5 -w "sequence.source.name = 'idv-ncbi-curated-segment-5'"
   exit
 
 
-# Create constrained alignment tree for curated sequence alignments
-alignment AL_ROOT_SEG_6_CD_M
+alignment AL_ROOT_SEG_6_AB_NA
 
   # Add segment members
-  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 6"
-  extract child AL_IDV_SEG6   --refName REF_S6_IDV_NC_036620
-  demote member AL_IDV_SEG6   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
-  
+  add member -w "source.name = 'idv-ncbi-curated-segment-6'"
+  demote member AL_IDV_SEG6 -w "sequence.source.name = 'idv-ncbi-curated-segment-6'"  
   exit
 
-# Create constrained alignment tree for curated sequence alignments
-alignment AL_ROOT_SEG_7_CD_NS
+alignment AL_ROOT_SEG_7_AB_M
 
   # Add segment members
-  add member -w "source.name = 'ncbi-idv-nuccore' and gb_segment = 7"
-  extract child AL_IDV_SEG7   --refName REF_S7_IDV_NC_036621
-  demote member AL_IDV_SEG7   --whereClause "sequence.source.name = 'ncbi-idv-nuccore'" 
-
+  add member -w "source.name = 'idv-ncbi-curated-segment-7'"
+  demote member AL_IDV_SEG7 -w "sequence.source.name = 'idv-ncbi-curated-segment-7'"
   exit
-
 
 
 # Compute IDV alignments 
@@ -85,5 +60,4 @@ compute alignment AL_IDV_SEG4 idvCompoundAlignerS4
 compute alignment AL_IDV_SEG5 idvCompoundAlignerS5
 compute alignment AL_IDV_SEG6 idvCompoundAlignerS6
 compute alignment AL_IDV_SEG7 idvCompoundAlignerS7
-
 

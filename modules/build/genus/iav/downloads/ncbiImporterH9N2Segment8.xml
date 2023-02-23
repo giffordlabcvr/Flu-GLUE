@@ -1,0 +1,2042 @@
+<!-- NCBI import module for IAV subtype 'H9N2' -->
+<ncbiImporter>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sourceName>iav-ncbi-curated-segment-8</sourceName>
+	<specificPrimaryAccessions>
+		<primaryAccession>GU086259</primaryAccession> <!-- # A/duck/Korea/A174/2009 -->
+		<primaryAccession>MT261464</primaryAccession> <!-- # A/chicken/Egypt/N16739A/2019 -->
+		<primaryAccession>KF714787</primaryAccession> <!-- # A/chicken/Hunan/12/2011 -->
+		<primaryAccession>MH791800</primaryAccession> <!-- # A/chicken/Bangladesh/34075/2017 -->
+		<primaryAccession>EF063543</primaryAccession> <!-- # A/chicken/Dubai/383/2002 -->
+		<primaryAccession>MW101995</primaryAccession> <!-- # A/chicken/Fujian/3.15_FZHX0019-O/2018 -->
+		<primaryAccession>KC757816</primaryAccession> <!-- # A/environment/Bangladesh/12077/2011 -->
+		<primaryAccession>KP285225</primaryAccession> <!-- # A/chicken/Jiangxi/20976/2013 -->
+		<primaryAccession>ON374462</primaryAccession> <!-- # A/chicken/EGYPT/S15518/2018 -->
+		<primaryAccession>MW935275</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN4921/2018 -->
+		<primaryAccession>MW110300</primaryAccession> <!-- # A/pigeon/Fujian/3.15_FZHX0001-C/2018 -->
+		<primaryAccession>KP414625</primaryAccession> <!-- # A/chicken/Dongguan/3562/2013 -->
+		<primaryAccession>MZ707498</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/909/2018 -->
+		<primaryAccession>MW159294</primaryAccession> <!-- # A/chicken/Benin/19-A-02-303-E/2019 -->
+		<primaryAccession>KU042922</primaryAccession> <!-- # A/pigeon/Pakistan/25A/2015 -->
+		<primaryAccession>MN520601</primaryAccession> <!-- # A/chicken/Gafsa/56/2014 -->
+		<primaryAccession>CY023556</primaryAccession> <!-- # A/chicken/Fujian/4332/2005(H9N2) -->
+		<primaryAccession>AF222677</primaryAccession> <!-- # A/Chicken/Hong Kong/FY20/99(H9N2) -->
+		<primaryAccession>EF620904</primaryAccession> <!-- # A/Korea/KBNP-0028/2000 -->
+		<primaryAccession>HE802727</primaryAccession> <!-- # A/mallard/Norway/10_1537/2009 -->
+		<primaryAccession>MH489503</primaryAccession> <!-- # A/chicken/Anhui/AH475/2017 -->
+		<primaryAccession>KU042475</primaryAccession> <!-- # A/chicken/Zhejiang/C485/2013 -->
+		<primaryAccession>ON374741</primaryAccession> <!-- # A/chicken/EGYPT/A15799/2018 -->
+		<primaryAccession>KJ643671</primaryAccession> <!-- # A/chicken/Bangladesh/19495/2013 -->
+		<primaryAccession>MK796818</primaryAccession> <!-- # A/chicken/Algeria/9BBD/2017 -->
+		<primaryAccession>MW104300</primaryAccession> <!-- # A/chicken/Guizhou/1.31_ZYLJJ008-O/2018 -->
+		<primaryAccession>KF881374</primaryAccession> <!-- # A/chicken/Egypt/D7663C/2013 -->
+		<primaryAccession>KM609720</primaryAccession> <!-- # A/chicken/Shanxi/0703/2012 -->
+		<primaryAccession>ON374354</primaryAccession> <!-- # A/chicken/Egypt/A19244/2020 -->
+		<primaryAccession>ON374749</primaryAccession> <!-- # A/chicken/EGYPT/A15043/2018 -->
+		<primaryAccession>MW101847</primaryAccession> <!-- # A/chicken/Hainan/10.31_003-O/2018 -->
+		<primaryAccession>KF972089</primaryAccession> <!-- # A/wild waterfowl/Dongting/PC2553/2012 -->
+		<primaryAccession>MG957510</primaryAccession> <!-- # A/chicken/Bangladesh/32041/2017 -->
+		<primaryAccession>KF881479</primaryAccession> <!-- # A/chicken/Egypt/S5440E/2012 -->
+		<primaryAccession>MW137779</primaryAccession> <!-- # A/chicken/Egypt/S18034E/2019 -->
+		<primaryAccession>HM590766</primaryAccession> <!-- # A/black-billed magpie/Guangxi/30/2005 -->
+		<primaryAccession>GQ202038</primaryAccession> <!-- # A/chicken/Hebei/Y2/2009 -->
+		<primaryAccession>KF715232</primaryAccession> <!-- # A/chicken/Shandong/363/2009 -->
+		<primaryAccession>MW871783</primaryAccession> <!-- # A/chicken/Indonesia/5817T/2019 -->
+		<primaryAccession>MW103636</primaryAccession> <!-- # A/chicken/Guangdong/10.25_SZBJ013-O/2017 -->
+		<primaryAccession>KX470446</primaryAccession> <!-- # A/turkey/Poland/08/2014 -->
+		<primaryAccession>EU532055</primaryAccession> <!-- # A/chicken/Hebei/L1/2006 -->
+		<primaryAccession>MZ872818</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/960/2019 -->
+		<primaryAccession>MZ872979</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/919/2018 -->
+		<primaryAccession>JF795042</primaryAccession> <!-- # A/chicken/Shandong/01/2010 -->
+		<primaryAccession>JQ228394</primaryAccession> <!-- # A/equine/Guangxi/3/2011 -->
+		<primaryAccession>MW101788</primaryAccession> <!-- # A/chicken/Guangdong/2.06_SZBJ020-O/2018 -->
+		<primaryAccession>ON374589</primaryAccession> <!-- # A/chicken/EGYPT/S15516/2018 -->
+		<primaryAccession>MW205052</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-796/2017 -->
+		<primaryAccession>MH560162</primaryAccession> <!-- # A/chicken/Vietnam/H7F-14-CB4-33/2014 -->
+		<primaryAccession>KM977629</primaryAccession> <!-- # A/chicken/Shandong/sx01/2008 -->
+		<primaryAccession>MH068435</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI17-2081/2017 -->
+		<primaryAccession>MZ872651</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/980/2019 -->
+		<primaryAccession>MH180614</primaryAccession> <!-- # A/chicken/Pakistan/191/2015 -->
+		<primaryAccession>ON374725</primaryAccession> <!-- # A/chicken/EGYPT/A15076/2018 -->
+		<primaryAccession>KP285081</primaryAccession> <!-- # A/chicken/Jiangxi/18913/2013 -->
+		<primaryAccession>MW104388</primaryAccession> <!-- # A/chicken/Guizhou/12.22_ZYLJJ002-C/2018 -->
+		<primaryAccession>MW101994</primaryAccession> <!-- # A/chicken/Fujian/3.15_FZHX0018-O/2018 -->
+		<primaryAccession>KP414433</primaryAccession> <!-- # A/chicken/Shenzhen/1799/2013 -->
+		<primaryAccession>CY023980</primaryAccession> <!-- # A/Guinea fowl/Shantou/1677/2000(H9N2) -->
+		<primaryAccession>CY024524</primaryAccession> <!-- # A/pheasant/Shantou/11551/2005(H9N2) -->
+		<primaryAccession>KP287107</primaryAccession> <!-- # A/chicken/Jiangxi/20420/2013 -->
+		<primaryAccession>MH180648</primaryAccession> <!-- # A/chicken/Pakistan/989/2015 -->
+		<primaryAccession>MH114062</primaryAccession> <!-- # A/Athene noctua/Tianjin/Y14/2017 -->
+		<primaryAccession>KP185808</primaryAccession> <!-- # A/duck/Sichuan/183/2013 -->
+		<primaryAccession>MW159192</primaryAccession> <!-- # A/chicken/Benin/19-A-04-511-E/2019 -->
+		<primaryAccession>CY157530</primaryAccession> <!-- # A/northern pintail/California/3100/2011 -->
+		<primaryAccession>MW104556</primaryAccession> <!-- # A/chicken/Henan/01.01_LYGL007-O/2017 -->
+		<primaryAccession>MW105908</primaryAccession> <!-- # A/chicken/Jiangxi/11.29_NCDZT9H2-O/2016 -->
+		<primaryAccession>MW103812</primaryAccession> <!-- # A/chicken/Guangdong/4.24_SZBJ005-O/2017 -->
+		<primaryAccession>JQ639790</primaryAccession> <!-- # A/chicken/Guangdong/V/2008 -->
+		<primaryAccession>KX470438</primaryAccession> <!-- # A/turkey/Poland/14/2013 -->
+		<primaryAccession>HQ221613</primaryAccession> <!-- # A/duck/Korea/SH0908/2009 -->
+		<primaryAccession>MZ277357</primaryAccession> <!-- # A/Eurasian teal/Iran/C163_2020/2019 -->
+		<primaryAccession>MH135432</primaryAccession> <!-- # A/chicken/Bangladesh/32754/2017 -->
+		<primaryAccession>MK796822</primaryAccession> <!-- # A/chicken/Algeria/15BBD/2017 -->
+		<primaryAccession>KX000785</primaryAccession> <!-- # A/pigeon/Egypt/S10409A/2014 -->
+		<primaryAccession>MW106100</primaryAccession> <!-- # A/chicken/Jiangxi/4.30_NCDZT48N2-OC/2017 -->
+		<primaryAccession>KU310459</primaryAccession> <!-- # A/cackling goose/Alaska/UGAI15-3075/2015 -->
+		<primaryAccession>MF673339</primaryAccession> <!-- # A/chicken/Jordan/88/2005 -->
+		<primaryAccession>CY157538</primaryAccession> <!-- # A/mallard/California/3370/2012 -->
+		<primaryAccession>JF916717</primaryAccession> <!-- # A/Muscovy duck/Fujian/CL/1997 -->
+		<primaryAccession>MZ543289</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/830/2018 -->
+		<primaryAccession>EU753334</primaryAccession> <!-- # A/chicken/Shanghai/16/2001 -->
+		<primaryAccession>MW105348</primaryAccession> <!-- # A/chicken/Jiangxi/1.11_NCDZT25F2-OC/2017 -->
+		<primaryAccession>KU143458</primaryAccession> <!-- # A/duck/Wuhan/WHYF14/2014 -->
+		<primaryAccession>OM938181</primaryAccession> <!-- # A/chicken/Bangladesh/46125/2020 -->
+		<primaryAccession>ON374813</primaryAccession> <!-- # A/chicken/EGYPT/A15669/2018 -->
+		<primaryAccession>MW137976</primaryAccession> <!-- # A/chicken/Egypt/A17969/2019 -->
+		<primaryAccession>MN865976</primaryAccession> <!-- # A/dove/China/31B6/2011 -->
+		<primaryAccession>OM938362</primaryAccession> <!-- # A/chicken/Bangladesh/46129/2020 -->
+		<primaryAccession>KX859331</primaryAccession> <!-- # A/ferret/Maryland/P10-UMD_CIP046_RGJS08/2008 -->
+		<primaryAccession>MZ872933</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/939/2019 -->
+		<primaryAccession>LC374927</primaryAccession> <!-- # A/chicken/Japan/AQ-HE28-28/2016 -->
+		<primaryAccession>MW205032</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-756/2017 -->
+		<primaryAccession>MW205182</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-805/2017 -->
+		<primaryAccession>MK287814</primaryAccession> <!-- # A/chicken/Ashanti/18VIR1513-32/2018 -->
+		<primaryAccession>FJ793296</primaryAccession> <!-- # A/duck/Jiangsu/9/2004 -->
+		<primaryAccession>CY055144</primaryAccession> <!-- # A/Hong Kong/33982/2009 -->
+		<primaryAccession>MZ873026</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/915/2018 -->
+		<primaryAccession>MN865998</primaryAccession> <!-- # A/pheasant/China/49B2/2013 -->
+		<primaryAccession>CY073804</primaryAccession> <!-- # A/duck/Malaysia/2001 -->
+		<primaryAccession>MF113104</primaryAccession> <!-- # A/chicken/Jiangxi/17/2011 -->
+		<primaryAccession>MW109028</primaryAccession> <!-- # A/duck/Xinjiang/10.13_WLMQXL007-O/2018 -->
+		<primaryAccession>MW105828</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDZT019-O/2018 -->
+		<primaryAccession>KU042494</primaryAccession> <!-- # A/chicken/Zhejiang/C45/2013 -->
+		<primaryAccession>MZ543217</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/843/2018 -->
+		<primaryAccession>KF746766</primaryAccession> <!-- # A/chicken/Hebei/274/2009 -->
+		<primaryAccession>KU042486</primaryAccession> <!-- # A/chicken/Zhejiang/C71926/2013 -->
+		<primaryAccession>MH180612</primaryAccession> <!-- # A/chicken/Pakistan/37/2015 -->
+		<primaryAccession>MF673315</primaryAccession> <!-- # A/chicken/Jordan/70/2004 -->
+		<primaryAccession>MW137678</primaryAccession> <!-- # A/chicken/Egypt/Q18036E/2019 -->
+		<primaryAccession>MK250001</primaryAccession> <!-- # A/chicken/Qingyuan/zd201601/2016 -->
+		<primaryAccession>CY093092</primaryAccession> <!-- # A/quail/Lebanon/272/2010 -->
+		<primaryAccession>MG957529</primaryAccession> <!-- # A/duck/Bangladesh/32503/2017 -->
+		<primaryAccession>KU042471</primaryAccession> <!-- # A/pigeon/Zhejiang/P5/2013 -->
+		<primaryAccession>ON374469</primaryAccession> <!-- # A/chicken/Egypt/D19290C/2020 -->
+		<primaryAccession>MK796817</primaryAccession> <!-- # A/chicken/Algeria/8BBD/2017 -->
+		<primaryAccession>MG042219</primaryAccession> <!-- # A/quail/Bangladesh/31244/2016 -->
+		<primaryAccession>OM938196</primaryAccession> <!-- # A/quail/Bangladesh/46266/2020 -->
+		<primaryAccession>KF188298</primaryAccession> <!-- # A/chicken/Beijing/1/1994 -->
+		<primaryAccession>MT421039</primaryAccession> <!-- # A/American black duck/Maine/ME-Y17-331/2017 -->
+		<primaryAccession>MZ150609</primaryAccession> <!-- # A/chicken/Nigeria/IM-C11-15T_19VIR8425-4/2019 -->
+		<primaryAccession>CY157506</primaryAccession> <!-- # A/northern shoveler/California/6535/2009 -->
+		<primaryAccession>CY023436</primaryAccession> <!-- # A/silky chicken/Shantou/1169/2005(H9N2) -->
+		<primaryAccession>KY575200</primaryAccession> <!-- # A/American wigeon/Mexico-Sonora/769/2008 -->
+		<primaryAccession>MZ543225</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/848/2018 -->
+		<primaryAccession>MZ543019</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/886/2018 -->
+		<primaryAccession>MW104708</primaryAccession> <!-- # A/chicken/Henan/11.28_LYGL009-O/2016 -->
+		<primaryAccession>MH889097</primaryAccession> <!-- # A/chicken/Shandong/3541/2017 -->
+		<primaryAccession>MZ542885</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/897/2018 -->
+		<primaryAccession>MW104700</primaryAccession> <!-- # A/chicken/Henan/11.24_LYGL006-O/2016 -->
+		<primaryAccession>MH665557</primaryAccession> <!-- # A/chicken/Sichuan/3362/2016 -->
+		<primaryAccession>MW106940</primaryAccession> <!-- # A/chicken/Shanxi/6.28_TGRL011-O/2018 -->
+		<primaryAccession>MW936031</primaryAccession> <!-- # A/duck/Vietnam/HN4869/2018 -->
+		<primaryAccession>MZ873113</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/916/2018 -->
+		<primaryAccession>MH135482</primaryAccession> <!-- # A/duck/Bangladesh/33132/2017 -->
+		<primaryAccession>KJ643712</primaryAccession> <!-- # A/environment/Bangladesh/18317/2012 -->
+		<primaryAccession>MH597159</primaryAccession> <!-- # A/ruddy turnstone/Delaware/1016398/2003 -->
+		<primaryAccession>MZ150690</primaryAccession> <!-- # A/chicken/Nigeria/SK-LC17-19C_19VIR8424-10/2019 -->
+		<primaryAccession>MG280707</primaryAccession> <!-- # A/chicken/Anhui/WB/2014 -->
+		<primaryAccession>KP287087</primaryAccession> <!-- # A/chicken/Jiangxi/1218/2014 -->
+		<primaryAccession>OL371899</primaryAccession> <!-- # A/wild waterbird/Western Australia/AS15-1167-71/2015 -->
+		<primaryAccession>CY023108</primaryAccession> <!-- # A/chicken/Shantou/5714/2001(H9N2) -->
+		<primaryAccession>MT261567</primaryAccession> <!-- # A/chicken/Egypt/S16700D/2019 -->
+		<primaryAccession>MW547762</primaryAccession> <!-- # A/aquatic bird/Cheonan/408/2012 -->
+		<primaryAccession>CY024676</primaryAccession> <!-- # A/chicken/Shantou/1890/2001(H9N2) -->
+		<primaryAccession>KP185790</primaryAccession> <!-- # A/chicken/Guangdong/34/2011 -->
+		<primaryAccession>GU474578</primaryAccession> <!-- # A/environment/Hunan/1-81/2007 -->
+		<primaryAccession>KP866072</primaryAccession> <!-- # A/chicken/Guangdong/1494/2009 -->
+		<primaryAccession>KP285129</primaryAccession> <!-- # A/chicken/Jiangxi/19436/2013 -->
+		<primaryAccession>KJ643647</primaryAccession> <!-- # A/quail/Bangladesh/18521/2012 -->
+		<primaryAccession>MW137762</primaryAccession> <!-- # A/chicken/Egypt/S16704A/2019 -->
+		<primaryAccession>MN101056</primaryAccession> <!-- # A/Duck/China/E1831/2014 -->
+		<primaryAccession>MW105860</primaryAccession> <!-- # A/chicken/Jiangxi/11.18_NCDZT4Y2-O/2016 -->
+		<primaryAccession>MW871750</primaryAccession> <!-- # A/chicken/Indonesia/5907T/2019 -->
+		<primaryAccession>MW104668</primaryAccession> <!-- # A/chicken/Henan/10.28_LYGL003-C/2016 -->
+		<primaryAccession>MW137726</primaryAccession> <!-- # A/chicken/Egypt/Q17897C/2019 -->
+		<primaryAccession>KJ643632</primaryAccession> <!-- # A/environment/Bangladesh/18849/2013 -->
+		<primaryAccession>EU532052</primaryAccession> <!-- # A/chicken/Shandong/B4/2007 -->
+		<primaryAccession>KP413357</primaryAccession> <!-- # A/chicken/Dongguan/3225/2013 -->
+		<primaryAccession>JQ254968</primaryAccession> <!-- # A/chicken/Israel/1067/2010 -->
+		<primaryAccession>KF881487</primaryAccession> <!-- # A/chicken/Egypt/S5018C/2012 -->
+		<primaryAccession>ON374274</primaryAccession> <!-- # A/chicken/Egypt/N19604C/2021 -->
+		<primaryAccession>KT164855</primaryAccession> <!-- # A/chicken/Hubei/2014 -->
+		<primaryAccession>MZ873072</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/931/2019 -->
+		<primaryAccession>CY038446</primaryAccession> <!-- # A/chicken/Pakistan/UDL-03/2005(H9N2) -->
+		<primaryAccession>MW531612</primaryAccession> <!-- # A/chicken/Benin/19-A-10-1339-E_20VIR6511-13/2019 -->
+		<primaryAccession>KF260136</primaryAccession> <!-- # A/chicken/Hong Kong/TC18/2011 -->
+		<primaryAccession>MH560168</primaryAccession> <!-- # A/chicken/Vietnam/H7F-14-HG4-480/2014 -->
+		<primaryAccession>MW105516</primaryAccession> <!-- # A/chicken/Jiangxi/1.12_NCDZT83G2-OC/2017 -->
+		<primaryAccession>MH560161</primaryAccession> <!-- # A/chicken/Vietnam/H7F-14-CB4-19/2014 -->
+		<primaryAccession>KC821269</primaryAccession> <!-- # A/chicken/Hebei/YT/2010 -->
+		<primaryAccession>CY023380</primaryAccession> <!-- # A/chicken/Shantou/6319/2004(H9N2) -->
+		<primaryAccession>MN880193</primaryAccession> <!-- # A/chicken/China/LF/2014 -->
+		<primaryAccession>KM609731</primaryAccession> <!-- # A/chicken/Shandong/qd1013/2012 -->
+		<primaryAccession>MH375879</primaryAccession> <!-- # A/chicken/JinShui/JS1002/2018 -->
+		<primaryAccession>JF916725</primaryAccession> <!-- # A/duck/Fujian/MH/2003 -->
+		<primaryAccession>CY157522</primaryAccession> <!-- # A/northern pintail/California/2789/2011 -->
+		<primaryAccession>MW205106</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-791/2017 -->
+		<primaryAccession>CY023740</primaryAccession> <!-- # A/chicken/Guangxi/1032/2005(H9N2) -->
+		<primaryAccession>MZ150649</primaryAccession> <!-- # A/chicken/Nigeria/OY-CK97-101T_19VIR8425-15/2019 -->
+		<primaryAccession>MH578934</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/163/2003 -->
+		<primaryAccession>MW105852</primaryAccession> <!-- # A/chicken/Jiangxi/11.18_NCDZT2Y2-O/2016 -->
+		<primaryAccession>FJ464661</primaryAccession> <!-- # A/chicken/Israel/1525/2006 -->
+		<primaryAccession>KM609747</primaryAccession> <!-- # A/chicken/Liaoning/0704/2012 -->
+		<primaryAccession>MN853390</primaryAccession> <!-- # A/chicken/China/111C8/2012 -->
+		<primaryAccession>KP285233</primaryAccession> <!-- # A/chicken/Jiangxi/21481/2013 -->
+		<primaryAccession>KC555080</primaryAccession> <!-- # A/white bellied bustard/United Arab Emirates/D1520/2011 -->
+		<primaryAccession>MW109412</primaryAccession> <!-- # A/environment/Hunan/8.25_YYGKZ12-E/2016 -->
+		<primaryAccession>KM609758</primaryAccession> <!-- # A/chicken/Beijing/0311/2013 -->
+		<primaryAccession>KU042914</primaryAccession> <!-- # A/chicken/Pakistan/10A/2015 -->
+		<primaryAccession>MZ872707</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/947/2019 -->
+		<primaryAccession>JN543561</primaryAccession> <!-- # A/chicken/Korea/333/2008 -->
+		<primaryAccession>MH560164</primaryAccession> <!-- # A/chicken/Vietnam/H7F-14-BN4-342/2014 -->
+		<primaryAccession>KP287487</primaryAccession> <!-- # A/duck/Jiangxi/36477/2013 -->
+		<primaryAccession>MG781070</primaryAccession> <!-- # A/pigeon/Anhui/DGG4/2015 -->
+		<primaryAccession>KC757892</primaryAccession> <!-- # A/chicken/Bangladesh/11154/2011 -->
+		<primaryAccession>KM609754</primaryAccession> <!-- # A/chicken/Beijing/16/2013 -->
+		<primaryAccession>MZ150721</primaryAccession> <!-- # A/guinea fowl/Nigeria/LA-GF21-26-28T_19VIR8425-2/2019 -->
+		<primaryAccession>KY635702</primaryAccession> <!-- # A/quail/Bangladesh/25987/2015 -->
+		<primaryAccession>ON374661</primaryAccession> <!-- # A/chicken/Egypt/A18720/2020 -->
+		<primaryAccession>MH889081</primaryAccession> <!-- # A/chicken/Shandong/3442/2017 -->
+		<primaryAccession>KJ426365</primaryAccession> <!-- # A/chicken/Jiangsu/DD6/2013 -->
+		<primaryAccession>KM519969</primaryAccession> <!-- # A/chicken/India/80998/2008 -->
+		<primaryAccession>MW749829</primaryAccession> <!-- # A/quail/Bangladesh/45755/2020 -->
+		<primaryAccession>JN543553</primaryAccession> <!-- # A/chicken/Korea/2203/2006 -->
+		<primaryAccession>MN647314</primaryAccession> <!-- # A/chicken/Hubei/S0895/2014 -->
+		<primaryAccession>KF260122</primaryAccession> <!-- # A/chicken/Hong Kong/FL96/2010 -->
+		<primaryAccession>KU042481</primaryAccession> <!-- # A/chicken/Zhejiang/C7195/2013 -->
+		<primaryAccession>JN543544</primaryAccession> <!-- # A/chicken/Korea/168/2006 -->
+		<primaryAccession>LC364024</primaryAccession> <!-- # A/chicken/Vietnam/HU7-15/2017 -->
+		<primaryAccession>KF260133</primaryAccession> <!-- # A/chicken/Hong Kong/CRA45/2010 -->
+		<primaryAccession>KP866063</primaryAccession> <!-- # A/chicken/Shanghai/4/2006 -->
+		<primaryAccession>MZ543265</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/832/2018 -->
+		<primaryAccession>ON374435</primaryAccession> <!-- # A/duck/Egypt/D19288B/2020 -->
+		<primaryAccession>MH180600</primaryAccession> <!-- # A/chicken/Pakistan/802/2015 -->
+		<primaryAccession>ON374805</primaryAccession> <!-- # A/chicken/Egypt/A14733/2017 -->
+		<primaryAccession>MZ873278</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/921/2018 -->
+		<primaryAccession>MH130198</primaryAccession> <!-- # A/mallard/Korea/M198/2013 -->
+		<primaryAccession>CY023780</primaryAccession> <!-- # A/chicken/Hunan/2536/2005(H9N2) -->
+		<primaryAccession>KY785834</primaryAccession> <!-- # A/chicken/Korea/C41/2009 -->
+		<primaryAccession>MH135598</primaryAccession> <!-- # A/chicken/Bangladesh/33338/2017 -->
+		<primaryAccession>KC757936</primaryAccession> <!-- # A/environment/Bangladesh/8463/2010 -->
+		<primaryAccession>CY023612</primaryAccession> <!-- # A/chicken/Fujian/7884/2005(H9N2) -->
+		<primaryAccession>MW466002</primaryAccession> <!-- # A/duck/Bangladesh/43418/2020 -->
+		<primaryAccession>ON374290</primaryAccession> <!-- # A/chicken/Egypt/S18755C/2020 -->
+		<primaryAccession>MW103372</primaryAccession> <!-- # A/chicken/Guangdong/01.18_SZBJ010-C/2017 -->
+		<primaryAccession>CY133377</primaryAccession> <!-- # A/mallard/Missouri/10OS4670/2010 -->
+		<primaryAccession>CY023196</primaryAccession> <!-- # A/chicken/Shantou/1404/2003(H9N2) -->
+		<primaryAccession>KC821260</primaryAccession> <!-- # A/chicken/Shandong/sd01/2010 -->
+		<primaryAccession>KU042469</primaryAccession> <!-- # A/pigeon/Zhejiang/P3/2013 -->
+		<primaryAccession>MH180650</primaryAccession> <!-- # A/chicken/Pakistan/995/2015 -->
+		<primaryAccession>MW104316</primaryAccession> <!-- # A/chicken/Guizhou/1.31_ZYLJJ021-O/2018 -->
+		<primaryAccession>KY785741</primaryAccession> <!-- # A/chicken/Korea/SL-4P/2002 -->
+		<primaryAccession>KY415948</primaryAccession> <!-- # A/duck/Ganzhou/GZ188/2016 -->
+		<primaryAccession>ON376795</primaryAccession> <!-- # A/chicken/China/2094/2021 -->
+		<primaryAccession>OM019059</primaryAccession> <!-- # A/chicken/Hebei/HS8/2019 -->
+		<primaryAccession>ON374226</primaryAccession> <!-- # A/chicken/Egypt/S18985A/2020 -->
+		<primaryAccession>MZ543082</primaryAccession> <!-- # A/Wild bird/MUWRP-Uganda/863/2018 -->
+		<primaryAccession>EU753294</primaryAccession> <!-- # A/chicken/Shanghai/1/2001 -->
+		<primaryAccession>MW101775</primaryAccession> <!-- # A/chicken/Hunan/7.21_YYGKy7-O/2016 -->
+		<primaryAccession>MW205166</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-716/2017 -->
+		<primaryAccession>MZ873334</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/911/2018 -->
+		<primaryAccession>ON374218</primaryAccession> <!-- # A/chicken/Egypt/N19764B/2021 -->
+		<primaryAccession>OM938218</primaryAccession> <!-- # A/chicken/Bangladesh/46330/2020 -->
+		<primaryAccession>MH791584</primaryAccession> <!-- # A/environment/Bangladesh/34573/2018 -->
+		<primaryAccession>CY024708</primaryAccession> <!-- # A/chicken/Shantou/3778/2001(H9N2) -->
+		<primaryAccession>KP414609</primaryAccession> <!-- # A/chicken/Dongguan/3409/2013 -->
+		<primaryAccession>MK287813</primaryAccession> <!-- # A/chicken/Ashanti/18VIR1513-23/2018 -->
+		<primaryAccession>MW108812</primaryAccession> <!-- # A/duck/Jiangxi/4.30_NCNP81N2-OC/2017 -->
+		<primaryAccession>KJ426281</primaryAccession> <!-- # A/chicken/Anhui/02/2008 -->
+		<primaryAccession>KT285353</primaryAccession> <!-- # A/chicken/India/01CL1619/2012 -->
+		<primaryAccession>MW108996</primaryAccession> <!-- # A/duck/Jiangxi/9.22_NCDZT98Z3-OC/2018 -->
+		<primaryAccession>KU042500</primaryAccession> <!-- # A/chicken/Zhejiang/C55/2013 -->
+		<primaryAccession>FJ793384</primaryAccession> <!-- # A/chicken/Jiangsu/1/1998 -->
+		<primaryAccession>MW101739</primaryAccession> <!-- # A/chicken/Jiangxi/01.31_NCDZT72I3-OC/2018 -->
+		<primaryAccession>KP414505</primaryAccession> <!-- # A/chicken/Shenzhen/2588/2013 -->
+		<primaryAccession>MW871800</primaryAccession> <!-- # A/chicken/Indonesia/4966T/2018 -->
+		<primaryAccession>KX000705</primaryAccession> <!-- # A/quail/Egypt/D10106/2014 -->
+		<primaryAccession>KY785810</primaryAccession> <!-- # A/chicken/Korea/C31/2009 -->
+		<primaryAccession>KF972025</primaryAccession> <!-- # A/wild waterfowl/Dongting/C4317/2012 -->
+		<primaryAccession>KC757831</primaryAccession> <!-- # A/chicken/Bangladesh/8411/2010 -->
+		<primaryAccession>KC757906</primaryAccession> <!-- # A/environment/Bangladesh/9457/2010 -->
+		<primaryAccession>GQ477302</primaryAccession> <!-- # A/swine/Shandong/3/2003 -->
+		<primaryAccession>OL370116</primaryAccession> <!-- # A/wild waterbird/Western Australia/AS15-0827-35/2015 -->
+		<primaryAccession>MH180619</primaryAccession> <!-- # A/chicken/Pakistan/30/2015 -->
+		<primaryAccession>MN865902</primaryAccession> <!-- # A/goose/China/146G30/2013 -->
+		<primaryAccession>MK078574</primaryAccession> <!-- # A/Mink/China/WM01/2014 -->
+		<primaryAccession>MH791642</primaryAccession> <!-- # A/chicken/Bangladesh/34637/2018 -->
+		<primaryAccession>ON374178</primaryAccession> <!-- # A/chicken/Egypt/D19486A/2020 -->
+		<primaryAccession>MN101003</primaryAccession> <!-- # A/chicken/China/D1033/2013 -->
+		<primaryAccession>MW871811</primaryAccession> <!-- # A/chicken/Indonesia/5789T/2019 -->
+		<primaryAccession>MW103436</primaryAccession> <!-- # A/chicken/Guangdong/07.19_SZBJ016-C/2017 -->
+		<primaryAccession>FJ464658</primaryAccession> <!-- # A/turkey/Israel/900/2007 -->
+		<primaryAccession>LC208475</primaryAccession> <!-- # A/chicken/Japan/AQ-HE14/2015 -->
+		<primaryAccession>MZ873033</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/952/2019 -->
+		<primaryAccession>JF795114</primaryAccession> <!-- # A/chicken/Shandong/LY-1/2008 -->
+		<primaryAccession>MZ873409</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/1082/2019 -->
+		<primaryAccession>LC426774</primaryAccession> <!-- # A/chicken/Vietnam/HU3-9/2015 -->
+		<primaryAccession>ON374881</primaryAccession> <!-- # A/chicken/EGYPT/A15333/2018 -->
+		<primaryAccession>KP178524</primaryAccession> <!-- # A/ostrich/Hebei/179/2014 -->
+		<primaryAccession>MW871647</primaryAccession> <!-- # A/chicken/Indonesia/4975C/2018 -->
+		<primaryAccession>LC070021</primaryAccession> <!-- # A/chicken/Vietnam/HU1-1050/2014 -->
+		<primaryAccession>ON374926</primaryAccession> <!-- # A/chicken/Egypt/A18504/2020 -->
+		<primaryAccession>MN866006</primaryAccession> <!-- # A/sparrow/China/69B15/2014 -->
+		<primaryAccession>AB841276</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM417/2013 -->
+		<primaryAccession>MW107036</primaryAccession> <!-- # A/chicken/Yunnan/09.20_DQBHZ002-C/2018 -->
+		<primaryAccession>CY023532</primaryAccession> <!-- # A/chicken/Shantou/22504/2005(H9N2) -->
+		<primaryAccession>MZ542869</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/879/2018 -->
+		<primaryAccession>MT261562</primaryAccession> <!-- # A/chicken/Egypt/S16705A/2019 -->
+		<primaryAccession>KU042458</primaryAccession> <!-- # A/quail/Zhejiang/A1/2013 -->
+		<primaryAccession>KX000725</primaryAccession> <!-- # A/quail/Egypt/D9842/2014 -->
+		<primaryAccession>CY041438</primaryAccession> <!-- # A/sanderling/Delaware/482/2006 -->
+		<primaryAccession>MW104612</primaryAccession> <!-- # A/chicken/Henan/02.16_LYGL002-O/2017 -->
+		<primaryAccession>MW103180</primaryAccession> <!-- # A/chicken/Fujian/6.22_FZHX0627-O/2017 -->
+		<primaryAccession>KU042470</primaryAccession> <!-- # A/pigeon/Zhejiang/P4/2013 -->
+		<primaryAccession>KJ643788</primaryAccession> <!-- # A/chicken/Bangladesh/18408/2012 -->
+		<primaryAccession>LC497157</primaryAccession> <!-- # A/chicken/Vietnam/HU9-549/2018 -->
+		<primaryAccession>KU042490</primaryAccession> <!-- # A/chicken/Zhejiang/C16/2013 -->
+		<primaryAccession>KU042498</primaryAccession> <!-- # A/chicken/Zhejiang/C52/2013 -->
+		<primaryAccession>MW102780</primaryAccession> <!-- # A/chicken/Fujian/1.17_FZHX0101-C/2017 -->
+		<primaryAccession>MN093835</primaryAccession> <!-- # A/turledove/China/120B9/2015 -->
+		<primaryAccession>MW105740</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDZT003-O/2018 -->
+		<primaryAccession>KM609730</primaryAccession> <!-- # A/chicken/Shandong/qd1115/2012 -->
+		<primaryAccession>KP336383</primaryAccession> <!-- # A/northern pintail/Alaska/2011-0703/2011 -->
+		<primaryAccession>MG831959</primaryAccession> <!-- # A/broiler chicken/Casablanca/16VIR9564-1/2016 -->
+		<primaryAccession>MT261491</primaryAccession> <!-- # A/chicken/Egypt/N16946C/2019 -->
+		<primaryAccession>CY024412</primaryAccession> <!-- # A/pheasant/Shantou/6607/2004(H9N2) -->
+		<primaryAccession>KU042468</primaryAccession> <!-- # A/quail/Zhejiang/2A6/2013 -->
+		<primaryAccession>MZ150681</primaryAccession> <!-- # A/chicken/Nigeria/SK-LC14-16T_19VIR8424-13/2019 -->
+		<primaryAccession>MW104628</primaryAccession> <!-- # A/chicken/Henan/02.16_LYGL012-O/2017 -->
+		<primaryAccession>GU474570</primaryAccession> <!-- # A/environment/Hunan/1-70/2007 -->
+		<primaryAccession>FJ793312</primaryAccession> <!-- # A/chicken/Anhui/1/1998 -->
+		<primaryAccession>MW205132</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-765/2017 -->
+		<primaryAccession>KP178492</primaryAccession> <!-- # A/ostrich/Beijing/712/2013 -->
+		<primaryAccession>MN101031</primaryAccession> <!-- # A/chicken/China/E278/2014 -->
+		<primaryAccession>MZ543058</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/902/2018 -->
+		<primaryAccession>MH135460</primaryAccession> <!-- # A/chicken/Bangladesh/33111/2017 -->
+		<primaryAccession>KP866071</primaryAccession> <!-- # A/chicken/Guangdong/1214/2009 -->
+		<primaryAccession>MT261676</primaryAccession> <!-- # A/chicken/Egypt/S16704C/2019 -->
+		<primaryAccession>KX598764</primaryAccession> <!-- # A/chicken/Hainan/SIC33/2014 -->
+		<primaryAccession>MZ873239</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/917/2018 -->
+		<primaryAccession>KU042459</primaryAccession> <!-- # A/quail/Zhejiang/A2/2013 -->
+		<primaryAccession>MW108756</primaryAccession> <!-- # A/duck/Jiangxi/4.30_NCNP63N2-OC/2017 -->
+		<primaryAccession>MZ872957</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/920/2018 -->
+		<primaryAccession>AB753205</primaryAccession> <!-- # A/Rock Pigeon/Vietnam/6/2009 -->
+		<primaryAccession>MN093952</primaryAccession> <!-- # A/duck/China/208D11/2015 -->
+		<primaryAccession>KX470454</primaryAccession> <!-- # A/turkey/Poland/09/2014 -->
+		<primaryAccession>KC821264</primaryAccession> <!-- # A/chicken/Shandong/06/2010 -->
+		<primaryAccession>MZ543090</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/861/2018 -->
+		<primaryAccession>MW102804</primaryAccession> <!-- # A/chicken/Fujian/1.17_FZHX0113-C/2017 -->
+		<primaryAccession>MW205083</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-742/2017 -->
+		<primaryAccession>KP285169</primaryAccession> <!-- # A/chicken/Jiangxi/20446/2013 -->
+		<primaryAccession>MT407109</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/9313/2016 -->
+		<primaryAccession>CY024076</primaryAccession> <!-- # A/pheasant/Shantou/511/2003(H9N2) -->
+		<primaryAccession>KX598738</primaryAccession> <!-- # A/chicken/Fujian/SIC5/2013 -->
+		<primaryAccession>MZ543209</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/839/2018 -->
+		<primaryAccession>KC757982</primaryAccession> <!-- # A/environment/Bangladesh/5144/2009 -->
+		<primaryAccession>MW531596</primaryAccession> <!-- # A/chicken/Benin/19-A-06-832-E_20VIR6511-51/2019 -->
+		<primaryAccession>KF188253</primaryAccession> <!-- # A/quail/Bangladesh/907/2009 -->
+		<primaryAccession>KC951126</primaryAccession> <!-- # A/chicken/Guangdong/LG1/2013 -->
+		<primaryAccession>MZ542853</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/838/2018 -->
+		<primaryAccession>MW106604</primaryAccession> <!-- # A/chicken/Ningxia/10.28_XXYN021-C/2016 -->
+		<primaryAccession>KY794623</primaryAccession> <!-- # A/duck/Guangdong/222/2015 -->
+		<primaryAccession>CY023484</primaryAccession> <!-- # A/chicken/Shantou/9909/2005(H9N2) -->
+		<primaryAccession>MW105900</primaryAccession> <!-- # A/chicken/Jiangxi/11.29_NCDZT20H2-C/2016 -->
+		<primaryAccession>AF508714</primaryAccession> <!-- # A/Chicken/Beijing/8/98 -->
+		<primaryAccession>HQ221614</primaryAccession> <!-- # A/duck/Korea/SH0909/2009 -->
+		<primaryAccession>KF768216</primaryAccession> <!-- # A/duck/Guangxi/NN/2006 -->
+		<primaryAccession>KC757839</primaryAccession> <!-- # A/chicken/Bangladesh/10450/2011 -->
+		<primaryAccession>HQ221605</primaryAccession> <!-- # A/chicken/Korea/SH0802/2008 -->
+		<primaryAccession>MT090315</primaryAccession> <!-- # A/chicken/Bangladesh/40926/2019 -->
+		<primaryAccession>MK053866</primaryAccession> <!-- # A/chicken/Shanghai/07/2018 -->
+		<primaryAccession>KP285137</primaryAccession> <!-- # A/chicken/Jiangxi/19448/2013 -->
+		<primaryAccession>GQ202050</primaryAccession> <!-- # A/chicken/Hebei/7/2008 -->
+		<primaryAccession>MW101805</primaryAccession> <!-- # A/chicken/Guangdong/4.24_SZBJ004-O/2017 -->
+		<primaryAccession>MW466126</primaryAccession> <!-- # A/environment/Bangladesh/43464/2020 -->
+		<primaryAccession>KP185823</primaryAccession> <!-- # A/pigeon/Hubei/269/2012 -->
+		<primaryAccession>CY079650</primaryAccession> <!-- # A/northern shoveler/Interior Alaska/8BM3470/2008 -->
+		<primaryAccession>JN543540</primaryAccession> <!-- # A/chicken/Korea/895/2005 -->
+		<primaryAccession>MW102424</primaryAccession> <!-- # A/chicken/Hunan/10.27_YYGK89B4-OC/2018 -->
+		<primaryAccession>KX900510</primaryAccession> <!-- # A/chicken/Shandong/903/2013 -->
+		<primaryAccession>MZ542979</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/883/2018 -->
+		<primaryAccession>CY024580</primaryAccession> <!-- # A/chicken/Shantou/212/2000(H9N2) -->
+		<primaryAccession>MW137769</primaryAccession> <!-- # A/chicken/Egypt/Q18041A/2019 -->
+		<primaryAccession>LC497189</primaryAccession> <!-- # A/chicken/Vietnam/HU9-843/2018 -->
+		<primaryAccession>MW102011</primaryAccession> <!-- # A/chicken/Fujian/3.15_FZHX0028-C/2018 -->
+		<primaryAccession>MW103924</primaryAccession> <!-- # A/chicken/Guangdong/5.24_SZBJ020-C/2017 -->
+		<primaryAccession>ON374613</primaryAccession> <!-- # A/chicken/Egypt/A18505/2020 -->
+		<primaryAccession>KT356801</primaryAccession> <!-- # A/environment/Hunan/25998/2014 -->
+		<primaryAccession>OL371123</primaryAccession> <!-- # A/wild duck/Tasmania/13-1724-1/2013 -->
+		<primaryAccession>KC162240</primaryAccession> <!-- # A/baikal teal/Xianghai/421/2011 -->
+		<primaryAccession>MW101605</primaryAccession> <!-- # A/pigeon/Henan/01.28_LYGL004-C/2017 -->
+		<primaryAccession>ON374850</primaryAccession> <!-- # A/pigeon/Egypt/A18093/2019 -->
+		<primaryAccession>MW102026</primaryAccession> <!-- # A/chicken/Guangdong/7.20_DGCP025-O/2017 -->
+		<primaryAccession>EU753302</primaryAccession> <!-- # A/chicken/Shanghai/2/2001 -->
+		<primaryAccession>FJ793368</primaryAccession> <!-- # A/chicken/Jiangsu/1/2002 -->
+		<primaryAccession>MW871703</primaryAccession> <!-- # A/chicken/Indonesia/4958T/2018 -->
+		<primaryAccession>KF178675</primaryAccession> <!-- # A/environment/Zhejiang/13/2013 -->
+		<primaryAccession>MZ542893</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/890/2018 -->
+		<primaryAccession>JF916709</primaryAccession> <!-- # A/duck/Fujian/FQ2/2007 -->
+		<primaryAccession>MZ872995</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/929/2019 -->
+		<primaryAccession>KM609733</primaryAccession> <!-- # A/chicken/Shandong/qd0917/2013 -->
+		<primaryAccession>FJ793352</primaryAccession> <!-- # A/chicken/Henan/1/2005 -->
+		<primaryAccession>KF972033</primaryAccession> <!-- # A/wild waterfowl/Dongting/C4326/2012 -->
+		<primaryAccession>KT362000</primaryAccession> <!-- # A/chicken/Bangladesh/23618/2014 -->
+		<primaryAccession>MH180613</primaryAccession> <!-- # A/chicken/Pakistan/66/2015 -->
+		<primaryAccession>MZ873255</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/913/2018 -->
+		<primaryAccession>MH135367</primaryAccession> <!-- # A/chicken/Bangladesh/33649/2017 -->
+		<primaryAccession>MW103652</primaryAccession> <!-- # A/chicken/Guangdong/10.25_SZBJ016-O/2017 -->
+		<primaryAccession>MH068211</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2222/2017 -->
+		<primaryAccession>MW107996</primaryAccession> <!-- # A/duck/Hunan/09.27_YYGKZ81-O/2016 -->
+		<primaryAccession>KC821281</primaryAccession> <!-- # A/chicken/Shandong/11/2011 -->
+		<primaryAccession>OL371699</primaryAccession> <!-- # A/wild waterbird/Western Australia/18-0456-302/2018 -->
+		<primaryAccession>MT607630</primaryAccession> <!-- # A/environment/Tunisia/117/2018 -->
+		<primaryAccession>CY024444</primaryAccession> <!-- # A/pheasant/Shantou/7315/2004(H9N2) -->
+		<primaryAccession>CY038470</primaryAccession> <!-- # A/chicken/Pakistan/UDL-02/2008(H9N2) -->
+		<primaryAccession>AF508707</primaryAccession> <!-- # A/chicken/Pakistan/5/99 -->
+		<primaryAccession>CY023524</primaryAccession> <!-- # A/chicken/Shantou/22054/2005(H9N2) -->
+		<primaryAccession>KC821253</primaryAccession> <!-- # A/chicken/Shandong/JL/2008 -->
+		<primaryAccession>HQ221620</primaryAccession> <!-- # A/duck/Korea/SH0915/2009 -->
+		<primaryAccession>MW165091</primaryAccession> <!-- # A/chicken/Morocco/AS32/2019 -->
+		<primaryAccession>KC758006</primaryAccession> <!-- # A/environment/Bangladesh/8202/2010 -->
+		<primaryAccession>MH180625</primaryAccession> <!-- # A/chicken/Pakistan/151/2015 -->
+		<primaryAccession>MW137863</primaryAccession> <!-- # A/chicken/Egypt/D17949B/2019 -->
+		<primaryAccession>JN543548</primaryAccession> <!-- # A/chicken/Korea/801/2006 -->
+		<primaryAccession>MZ543305</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/841/2018 -->
+		<primaryAccession>MG645329</primaryAccession> <!-- # A/Duck/Bangladesh/VP06/2016 -->
+		<primaryAccession>MW102036</primaryAccession> <!-- # A/chicken/Jiangxi/2.16_SRGFYK072-C/2017 -->
+		<primaryAccession>KF768205</primaryAccession> <!-- # A/Chinese francolin/Guangxi/B7/2010 -->
+		<primaryAccession>KF972121</primaryAccession> <!-- # A/wild waterfowl/Dongting/PC2574/2012 -->
+		<primaryAccession>MH489471</primaryAccession> <!-- # A/chicken/Jiangsu/LY2/2017 -->
+		<primaryAccession>MH135650</primaryAccession> <!-- # A/chicken/Bangladesh/33648/2017 -->
+		<primaryAccession>MN101012</primaryAccession> <!-- # A/chicken/China/D2032/2013 -->
+		<primaryAccession>MH180618</primaryAccession> <!-- # A/chicken/Pakistan/986/2015 -->
+		<primaryAccession>MZ873392</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/910/2018 -->
+		<primaryAccession>MZ873056</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/918/2018 -->
+		<primaryAccession>JF323016</primaryAccession> <!-- # A/chicken/Tunisia/12/2010 -->
+		<primaryAccession>MZ542940</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/901/2018 -->
+		<primaryAccession>MZ543154</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/866/2018 -->
+		<primaryAccession>KX867829</primaryAccession> <!-- # A/swine/Jiangsu/C1/2008 -->
+		<primaryAccession>MW935553</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5608/2019 -->
+		<primaryAccession>KF751661</primaryAccession> <!-- # A/migratory bird/Tunisia/51/2010 -->
+		<primaryAccession>MW935849</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5140/2018 -->
+		<primaryAccession>EF063540</primaryAccession> <!-- # A/quail/Dubai/303/2000 -->
+		<primaryAccession>AF508710</primaryAccession> <!-- # A/chicken/Iran/11T/99 -->
+		<primaryAccession>MT090380</primaryAccession> <!-- # A/chicken/Bangladesh/40960/2019 -->
+		<primaryAccession>MZ543042</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/826/2018 -->
+		<primaryAccession>MG042209</primaryAccession> <!-- # A/quail/Bangladesh/29997/2016 -->
+		<primaryAccession>AF222675</primaryAccession> <!-- # A/Quail/Hong Kong/SSP10/99(H9N2) -->
+		<primaryAccession>ON374106</primaryAccession> <!-- # A/chicken/Egypt/D19479/2020 -->
+		<primaryAccession>KF768193</primaryAccession> <!-- # A/chicken/Guangxi/DX/2008 -->
+		<primaryAccession>MW104692</primaryAccession> <!-- # A/chicken/Henan/11.24_LYGL005-O/2016 -->
+		<primaryAccession>MW102812</primaryAccession> <!-- # A/chicken/Fujian/1.17_FZHX0114-O/2017 -->
+		<primaryAccession>CY023940</primaryAccession> <!-- # A/duck/Shantou/5753/2001(H9N2) -->
+		<primaryAccession>MW871898</primaryAccession> <!-- # A/chicken/Indonesia/4967T/2018 -->
+		<primaryAccession>MW101863</primaryAccession> <!-- # A/chicken/Hainan/10.29_HKPL006-O/2017 -->
+		<primaryAccession>MW102185</primaryAccession> <!-- # A/chicken/Fujian/8.24_FZHX0016-O/2017 -->
+		<primaryAccession>KX783328</primaryAccession> <!-- # A/environment/Zhongshan/ZS201602/2016 -->
+		<primaryAccession>MW105844</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDZT024-O/2018 -->
+		<primaryAccession>KP285273</primaryAccession> <!-- # A/chicken/Jiangxi/28601/2013 -->
+		<primaryAccession>MW106140</primaryAccession> <!-- # A/chicken/Jiangxi/4.30_NCDZT58N2-OC/2017 -->
+		<primaryAccession>MW871677</primaryAccession> <!-- # A/chicken/Indonesia/4976T/2018 -->
+		<primaryAccession>MW104348</primaryAccession> <!-- # A/chicken/Guizhou/10.28_ZYLJJ004-C/2018 -->
+		<primaryAccession>MZ873224</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/982/2019 -->
+		<primaryAccession>KU042487</primaryAccession> <!-- # A/chicken/Zhejiang/C1/2013 -->
+		<primaryAccession>JN852791</primaryAccession> <!-- # A/chicken/Korea/KNUGJ09/2009 -->
+		<primaryAccession>KC758082</primaryAccession> <!-- # A/environment/Bangladesh/10234/2011 -->
+		<primaryAccession>MW101773</primaryAccession> <!-- # A/chicken/Hunan/7.21_YYGKy4-O/2016 -->
+		<primaryAccession>MH180620</primaryAccession> <!-- # A/chicken/Pakistan/976/2015 -->
+		<primaryAccession>MZ150601</primaryAccession> <!-- # A/chicken/Nigeria/EN-B11-15T_19VIR8425-14/2019 -->
+		<primaryAccession>MH135571</primaryAccession> <!-- # A/chicken/Bangladesh/33113/2017 -->
+		<primaryAccession>HQ221612</primaryAccession> <!-- # A/chicken/Korea/SH0907/2009 -->
+		<primaryAccession>KX783321</primaryAccession> <!-- # A/environment/Zhongshan/ZS201501/2015 -->
+		<primaryAccession>CY087175</primaryAccession> <!-- # A/chicken/Tibet/S1/2009 -->
+		<primaryAccession>KF260213</primaryAccession> <!-- # A/chicken/Rizhao/651/2013 -->
+		<primaryAccession>MH791718</primaryAccession> <!-- # A/environment/Bangladesh/34022/2017 -->
+		<primaryAccession>EU502896</primaryAccession> <!-- # A/swine/Jiangxi/1/2004 -->
+		<primaryAccession>KM609723</primaryAccession> <!-- # A/chicken/Shandong/yt0106/2012 -->
+		<primaryAccession>CY038430</primaryAccession> <!-- # A/chicken/Pakistan/UDL-01/2006(H9N2) -->
+		<primaryAccession>MH180606</primaryAccession> <!-- # A/chicken/Pakistan/979/2015 -->
+		<primaryAccession>MF996788</primaryAccession> <!-- # A/mink/China/02/2014 -->
+		<primaryAccession>KJ907699</primaryAccession> <!-- # A/great bustard/InnerMongolia/IM-E2/2012 -->
+		<primaryAccession>MW104100</primaryAccession> <!-- # A/chicken/Guangdong/7.20_DGCP023-C/2017 -->
+		<primaryAccession>KF881686</primaryAccession> <!-- # A/chicken/Egypt/D7100/2013 -->
+		<primaryAccession>MK240284</primaryAccession> <!-- # A/chicken/Algeria/220/2017 -->
+		<primaryAccession>KJ643759</primaryAccession> <!-- # A/chicken/Bangladesh/18301/2012 -->
+		<primaryAccession>MZ872803</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/945/2019 -->
+		<primaryAccession>KY983211</primaryAccession> <!-- # A/northern pintail/California/HS050A/2015 -->
+		<primaryAccession>CY023604</primaryAccession> <!-- # A/chicken/Fujian/7386/2005(H9N2) -->
+		<primaryAccession>MW107044</primaryAccession> <!-- # A/chicken/Yunnan/09.20_DQBHZ002-O/2018 -->
+		<primaryAccession>EF063541</primaryAccession> <!-- # A/chicken/Dubai/338/2001 -->
+		<primaryAccession>JN543550</primaryAccession> <!-- # A/chicken/Korea/845/2006 -->
+		<primaryAccession>ON374509</primaryAccession> <!-- # A/chicken/Egypt/A18507/2020 -->
+		<primaryAccession>CY038454</primaryAccession> <!-- # A/chicken/Pakistan/UDL-03/2007(H9N2) -->
+		<primaryAccession>MZ542971</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/878/2018 -->
+		<primaryAccession>MW104796</primaryAccession> <!-- # A/chicken/Hunan/03.07_YYGK82L3-OC/2018 -->
+		<primaryAccession>CY024460</primaryAccession> <!-- # A/pheasant/Shantou/7501/2004(H9N2) -->
+		<primaryAccession>JF917107</primaryAccession> <!-- # A/Korean native chicken/Korea/K040110/2010 -->
+		<primaryAccession>EU753326</primaryAccession> <!-- # A/chicken/Shanghai/14/2001 -->
+		<primaryAccession>KU042484</primaryAccession> <!-- # A/chicken/Zhejiang/C71916/2013 -->
+		<primaryAccession>MN082558</primaryAccession> <!-- # A/sparrow/China/92B7/2014 -->
+		<primaryAccession>MK072973</primaryAccession> <!-- # A/chicken/China/Laihang/2014 -->
+		<primaryAccession>JQ639782</primaryAccession> <!-- # A/chicken/Guangdong/TS/2004 -->
+		<primaryAccession>KC821257</primaryAccession> <!-- # A/chicken/Shandong/zc2/2009 -->
+		<primaryAccession>KM576114</primaryAccession> <!-- # A/mink/Shandong/F10/2013 -->
+		<primaryAccession>ON374346</primaryAccession> <!-- # A/chicken/Egypt/A19618/2021 -->
+		<primaryAccession>FJ464652</primaryAccession> <!-- # A/avian/Israel/314/2008 -->
+		<primaryAccession>KX156645</primaryAccession> <!-- # A/pika/Menyuan/01/2008 -->
+		<primaryAccession>KF260139</primaryAccession> <!-- # A/chicken/Hong Kong/JV75/2011 -->
+		<primaryAccession>MW105588</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL007-O/2018 -->
+		<primaryAccession>MW101564</primaryAccession> <!-- # A/chicken/Chongqing/10.28_RCTYH003-O/2018 -->
+		<primaryAccession>KF357834</primaryAccession> <!-- # A/duck/Zhejiang/D488/2013 -->
+		<primaryAccession>MW104580</primaryAccession> <!-- # A/chicken/Henan/01.28_LYGL008-O/2017 -->
+		<primaryAccession>KJ643844</primaryAccession> <!-- # A/environment/Bangladesh/18894/2013 -->
+		<primaryAccession>KU042483</primaryAccession> <!-- # A/chicken/Zhejiang/C71914/2013 -->
+		<primaryAccession>MW104724</primaryAccession> <!-- # A/chicken/Henan/11.28_LYGL011-C/2016 -->
+		<primaryAccession>MW103644</primaryAccession> <!-- # A/chicken/Guangdong/10.25_SZBJ014-O/2017 -->
+		<primaryAccession>CY023668</primaryAccession> <!-- # A/chicken/Fujian/10954/2005(H9N2) -->
+		<primaryAccession>EF063538</primaryAccession> <!-- # A/quail/Dubai/301/2000 -->
+		<primaryAccession>MH791615</primaryAccession> <!-- # A/quail/Bangladesh/34042/2017 -->
+		<primaryAccession>MH180611</primaryAccession> <!-- # A/chicken/Pakistan/975/2016 -->
+		<primaryAccession>EU753350</primaryAccession> <!-- # A/chicken/Shanghai/2/2002 -->
+		<primaryAccession>MZ542987</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/898/2018 -->
+		<primaryAccession>MW107868</primaryAccession> <!-- # A/duck/Henan/12.23_LYGL001-O/2016 -->
+		<primaryAccession>KF746791</primaryAccession> <!-- # A/chicken/Shandong/251/2007 -->
+		<primaryAccession>MW105580</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL006-O/2018 -->
+		<primaryAccession>CY005150</primaryAccession> <!-- # A/mallard/Alberta/11/1991 -->
+		<primaryAccession>MW159207</primaryAccession> <!-- # A/chicken/Benin/19-A-01-160-E/2019 -->
+		<primaryAccession>KJ426284</primaryAccession> <!-- # A/chicken/Jiangsu/02/2008 -->
+		<primaryAccession>KY785826</primaryAccession> <!-- # A/chicken/Korea/C40/2009 -->
+		<primaryAccession>MH560173</primaryAccession> <!-- # A/chicken/Vietnam/H7F-LC4-26/2014 -->
+		<primaryAccession>KU042466</primaryAccession> <!-- # A/quail/Zhejiang/2A4/2013 -->
+		<primaryAccession>MF113130</primaryAccession> <!-- # A/chicken/Jiangxi/21/2011 -->
+		<primaryAccession>MW106852</primaryAccession> <!-- # A/chicken/Shanxi/02.28_TGRL015-O/2018 -->
+		<primaryAccession>ON374015</primaryAccession> <!-- # A/chicken/EGYPT/A15582/2018 -->
+		<primaryAccession>CY023468</primaryAccession> <!-- # A/chicken/Shantou/5269/2005(H9N2) -->
+		<primaryAccession>MW103516</primaryAccession> <!-- # A/chicken/Guangdong/08.29_SZBJ026-O/2017 -->
+		<primaryAccession>MW104436</primaryAccession> <!-- # A/chicken/Guizhou/6.30_ZYLJJ007-O/2018 -->
+		<primaryAccession>KY616764</primaryAccession> <!-- # A/quail/Bangladesh/24007/2014 -->
+		<primaryAccession>MW749705</primaryAccession> <!-- # A/chicken/Bangladesh/45567/2020 -->
+		<primaryAccession>MH180617</primaryAccession> <!-- # A/chicken/Pakistan/974/2015 -->
+		<primaryAccession>KF971961</primaryAccession> <!-- # A/wild waterfowl/Dongting/2123/2011 -->
+		<primaryAccession>MW205049</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-790/2017 -->
+		<primaryAccession>MZ872987</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/938/2019 -->
+		<primaryAccession>MW105772</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDZT008-O/2018 -->
+		<primaryAccession>ON374653</primaryAccession> <!-- # A/chicken/Egypt/S14165/2017 -->
+		<primaryAccession>MF996802</primaryAccession> <!-- # A/mink/China/01/2014 -->
+		<primaryAccession>KJ426282</primaryAccession> <!-- # A/chicken/Shandong/03/2008 -->
+		<primaryAccession>MW106932</primaryAccession> <!-- # A/chicken/Shanxi/12.01_TGYL020-O/2016 -->
+		<primaryAccession>MH791824</primaryAccession> <!-- # A/chicken/Bangladesh/34004/2017 -->
+		<primaryAccession>KF260154</primaryAccession> <!-- # A/chicken/Hong Kong/FY6W/2012 -->
+		<primaryAccession>KF768184</primaryAccession> <!-- # A/chicken/Guangxi/066C10/2010 -->
+		<primaryAccession>MH180616</primaryAccession> <!-- # A/chicken/Pakistan/973/2015 -->
+		<primaryAccession>CY024636</primaryAccession> <!-- # A/chicken/Shantou/1126/2001(H9N2) -->
+		<primaryAccession>KP414335</primaryAccession> <!-- # A/chicken/Shenzhen/1047/2013 -->
+		<primaryAccession>MG957625</primaryAccession> <!-- # A/quail/Bangladesh/32020/2017 -->
+		<primaryAccession>MH135583</primaryAccession> <!-- # A/quail/Bangladesh/32935/2017 -->
+		<primaryAccession>MH560163</primaryAccession> <!-- # A/chicken/Vietnam/H7F-14-HN4-564/2014 -->
+		<primaryAccession>KP285257</primaryAccession> <!-- # A/chicken/Jiangxi/23797/2013 -->
+		<primaryAccession>ON374685</primaryAccession> <!-- # A/chicken/Egypt/A18610/2020 -->
+		<primaryAccession>GQ202044</primaryAccession> <!-- # A/chicken/Hebei/C4/2008 -->
+		<primaryAccession>MW159224</primaryAccession> <!-- # A/chicken/Benin/19-A-03-397-E/2019 -->
+		<primaryAccession>MW107844</primaryAccession> <!-- # A/duck/Henan/01.01_LYGL011-O/2017 -->
+		<primaryAccession>MW105820</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDZT012-O/2018 -->
+		<primaryAccession>ON374234</primaryAccession> <!-- # A/chicken/Egypt/N19764C/2021 -->
+		<primaryAccession>MW159185</primaryAccession> <!-- # A/chicken/Benin/19-A-03-407-E/2019 -->
+		<primaryAccession>MN101107</primaryAccession> <!-- # A/chicken/China/G236/2016 -->
+		<primaryAccession>MK796825</primaryAccession> <!-- # A/chicken/Algeria/19BBD/2017 -->
+		<primaryAccession>MW106636</primaryAccession> <!-- # A/chicken/Ningxia/12.01_XXYN012-O/2016 -->
+		<primaryAccession>CY144487</primaryAccession> <!-- # A/ruddy turnstone/Delaware/AI03-114/2003 -->
+		<primaryAccession>MH597122</primaryAccession> <!-- # A/ruddy turnstone/Delaware/1016391/2003 -->
+		<primaryAccession>CY005144</primaryAccession> <!-- # A/mallard duck/ALB/321/1988 -->
+		<primaryAccession>KP414409</primaryAccession> <!-- # A/chicken/Shenzhen/1638/2013 -->
+		<primaryAccession>MW108108</primaryAccession> <!-- # A/duck/Hunan/10.27_YYGK55B2-O/2016 -->
+		<primaryAccession>MH715335</primaryAccession> <!-- # A/chicken/Shandong/k147/2017 -->
+		<primaryAccession>MZ872811</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/978/2019 -->
+		<primaryAccession>MH068227</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2229/2017 -->
+		<primaryAccession>MG781102</primaryAccession> <!-- # A/wild bird/Anhui/S102/2014 -->
+		<primaryAccession>MW101837</primaryAccession> <!-- # A/chicken/Guangdong/8.22_HLYM003-O/2018 -->
+		<primaryAccession>MH889105</primaryAccession> <!-- # A/chicken/Jiangsu/3596/2017 -->
+		<primaryAccession>JF795148</primaryAccession> <!-- # A/chicken/Shandong/01/2009 -->
+		<primaryAccession>MW103260</primaryAccession> <!-- # A/chicken/Fujian/6.22_FZHX0664-C/2017 -->
+		<primaryAccession>KJ426362</primaryAccession> <!-- # A/chicken/Jiangsu/TM38/2013 -->
+		<primaryAccession>CY006022</primaryAccession> <!-- # A/Wild Duck/Nanchang/2-0480/2000 -->
+		<primaryAccession>MK287810</primaryAccession> <!-- # A/chicken/Brong-Ahafo/18VIR1513-13/2017 -->
+		<primaryAccession>KU042478</primaryAccession> <!-- # A/chicken/Zhejiang/C493/2013 -->
+		<primaryAccession>MK796824</primaryAccession> <!-- # A/chicken/Algeria/18BBD/2017 -->
+		<primaryAccession>MW104964</primaryAccession> <!-- # A/chicken/Hunan/12.27_YYGK31J2-O/2016 -->
+		<primaryAccession>MW871683</primaryAccession> <!-- # A/chicken/Indonesia/4968T/2018 -->
+		<primaryAccession>ON374314</primaryAccession> <!-- # A/chicken/Egypt/N19598C/2021 -->
+		<primaryAccession>MG042454</primaryAccession> <!-- # A/chicken/Bangladesh/31267/2016 -->
+		<primaryAccession>CY157514</primaryAccession> <!-- # A/green winged teal/California/6588/2009 -->
+		<primaryAccession>CY024036</primaryAccession> <!-- # A/duck/Shantou/7488/2004(H9N2) -->
+		<primaryAccession>KC821255</primaryAccession> <!-- # A/chicken/Shandong/LY/2008 -->
+		<primaryAccession>JQ364984</primaryAccession> <!-- # A/chicken/Iran/EBGV-88/2010 -->
+		<primaryAccession>MW106908</primaryAccession> <!-- # A/chicken/Shanxi/12.01_TGYL010-C/2016 -->
+		<primaryAccession>MZ150617</primaryAccession> <!-- # A/chicken/Nigeria/KD-CK107-111OR_19VIR8424-19/2019 -->
+		<primaryAccession>KU042504</primaryAccession> <!-- # A/chicken/Zhejiang/3C2/2013 -->
+		<primaryAccession>KF881621</primaryAccession> <!-- # A/chicken/Egypt/D7099/2013 -->
+		<primaryAccession>MH560176</primaryAccession> <!-- # A/chicken/Vietnam/H7F-LC4-371/2014 -->
+		<primaryAccession>HM998926</primaryAccession> <!-- # A/swine/Yangzhou/1/2008 -->
+		<primaryAccession>KF188386</primaryAccession> <!-- # A/guinea fowl/Hong Kong/NT101/2003 -->
+		<primaryAccession>MK287816</primaryAccession> <!-- # A/chicken/Brong-Ahafo/18VIR1513-5/2017 -->
+		<primaryAccession>ON374338</primaryAccession> <!-- # A/chicken/Egypt/N19598A/2021 -->
+		<primaryAccession>FJ464662</primaryAccession> <!-- # A/chicken/Israel/1548/2006 -->
+		<primaryAccession>MW159232</primaryAccession> <!-- # A/chicken/Benin/19-A-01-168-E/2019 -->
+		<primaryAccession>MZ543162</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/868/2018 -->
+		<primaryAccession>CY184185</primaryAccession> <!-- # A/mallard/Sweden/99785/2009 -->
+		<primaryAccession>MW101989</primaryAccession> <!-- # A/chicken/Fujian/1.25_FZHX0008-O/2018 -->
+		<primaryAccession>MW104884</primaryAccession> <!-- # A/chicken/Hunan/1.17_YYGKK113-OC/2017 -->
+		<primaryAccession>KT361966</primaryAccession> <!-- # A/environment/Bangladesh/23571/2014 -->
+		<primaryAccession>KF042129</primaryAccession> <!-- # A/chicken/Zhejiang/C487/2013 -->
+		<primaryAccession>AY633280</primaryAccession> <!-- # A/mallard/Alberta/321/88 -->
+		<primaryAccession>KU042489</primaryAccession> <!-- # A/chicken/Zhejiang/C3/2013 -->
+		<primaryAccession>KU042493</primaryAccession> <!-- # A/chicken/Zhejiang/C38/2013 -->
+		<primaryAccession>ON374789</primaryAccession> <!-- # A/pigeon/Egypt/A18094/2019 -->
+		<primaryAccession>MW101638</primaryAccession> <!-- # A/chicken/Jiangxi/1.11_NCDZT40F2-OC/2017 -->
+		<primaryAccession>MW205035</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-713/2017 -->
+		<primaryAccession>KY635721</primaryAccession> <!-- # A/environment/Bangladesh/26218/2015 -->
+		<primaryAccession>KF714779</primaryAccession> <!-- # A/chicken/Hunan/1/2012 -->
+		<primaryAccession>KY212942</primaryAccession> <!-- # A/duck/ShanDong/JN1/2015 -->
+		<primaryAccession>CY075058</primaryAccession> <!-- # A/swine/Guangxi/10/2007 -->
+		<primaryAccession>KJ426285</primaryAccession> <!-- # A/chicken/Henan/12/2008 -->
+		<primaryAccession>MW205183</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-718/2017 -->
+		<primaryAccession>MW108556</primaryAccession> <!-- # A/duck/Jiangxi/09.22_NCNP52C2-O/2016 -->
+		<primaryAccession>KC757998</primaryAccession> <!-- # A/chicken/Bangladesh/5209/2009 -->
+		<primaryAccession>MW105372</primaryAccession> <!-- # A/chicken/Jiangxi/1.11_NCDZT31F2-OC/2017 -->
+		<primaryAccession>CY023572</primaryAccession> <!-- # A/chicken/Fujian/5214/2005(H9N2) -->
+		<primaryAccession>KF768247</primaryAccession> <!-- # A/chicken/Guangxi/LF/2007 -->
+		<primaryAccession>KF972049</primaryAccession> <!-- # A/wild waterfowl/Dongting/C4329/2012 -->
+		<primaryAccession>MH180643</primaryAccession> <!-- # A/chicken/Pakistan/981/2015 -->
+		<primaryAccession>MK240248</primaryAccession> <!-- # A/chicken/Algeria/204/2017 -->
+		<primaryAccession>JN543554</primaryAccession> <!-- # A/chicken/Korea/2304/2006 -->
+		<primaryAccession>CY038398</primaryAccession> <!-- # A/chicken/Pakistan/UDL-01/2007(H9N2) -->
+		<primaryAccession>KF260078</primaryAccession> <!-- # A/chicken/Hong Kong/AP167W/2006 -->
+		<primaryAccession>CY005157</primaryAccession> <!-- # A/mallard/ALB/17/1991 -->
+		<primaryAccession>MW104108</primaryAccession> <!-- # A/chicken/Guangdong/7.20_DGCP050-O/2017 -->
+		<primaryAccession>KC555088</primaryAccession> <!-- # A/pheasant/United Arab Emirates/D1521/2011 -->
+		<primaryAccession>MK240276</primaryAccession> <!-- # A/chicken/Algeria/216/2017 -->
+		<primaryAccession>KF178683</primaryAccession> <!-- # A/environment/Zhejiang/14/2013 -->
+		<primaryAccession>CY023476</primaryAccession> <!-- # A/chicken/Shantou/6781/2005(H9N2) -->
+		<primaryAccession>MT421431</primaryAccession> <!-- # A/mallard/Maine/ME-Y17-347/2017 -->
+		<primaryAccession>MZ872771</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/946/2019 -->
+		<primaryAccession>CY087183</primaryAccession> <!-- # A/chicken/Tibet/S4/2009 -->
+		<primaryAccession>CY023564</primaryAccession> <!-- # A/chicken/Fujian/4820/2005(H9N2) -->
+		<primaryAccession>MW165123</primaryAccession> <!-- # A/chicken/Morocco/AS29/2018 -->
+		<primaryAccession>JQ254963</primaryAccession> <!-- # A/turkey/Israel/311/2009 -->
+		<primaryAccession>CY023732</primaryAccession> <!-- # A/chicken/Guangxi/521/2005(H9N2) -->
+		<primaryAccession>MZ502874</primaryAccession> <!-- # A/wild bird /Shandong/11706/2019 -->
+		<primaryAccession>MH579341</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/66/2003 -->
+		<primaryAccession>MW871673</primaryAccession> <!-- # A/chicken/Indonesia/5811T/2019 -->
+		<primaryAccession>KT362008</primaryAccession> <!-- # A/chicken/Bangladesh/23426/2014 -->
+		<primaryAccession>KY785749</primaryAccession> <!-- # A/chicken/Korea/YS3-4P/2002 -->
+		<primaryAccession>KP414593</primaryAccession> <!-- # A/chicken/Dongguan/3315/2013 -->
+		<primaryAccession>ON374454</primaryAccession> <!-- # A/chicken/Egypt/A19669/2021 -->
+		<primaryAccession>MH791587</primaryAccession> <!-- # A/quail/Bangladesh/34615/2018 -->
+		<primaryAccession>MW871926</primaryAccession> <!-- # A/chicken/Indonesia/4660T/2018 -->
+		<primaryAccession>MW101644</primaryAccession> <!-- # A/environment/Jiangxi/1.11_NCNP65E2-E/2017 -->
+		<primaryAccession>FJ793344</primaryAccession> <!-- # A/chicken/Henan/1/2004 -->
+		<primaryAccession>KJ643624</primaryAccession> <!-- # A/chicken/Bangladesh/18549/2012 -->
+		<primaryAccession>KF188356</primaryAccession> <!-- # A/chicken/Dubai/339/2001 -->
+		<primaryAccession>AF508726</primaryAccession> <!-- # A/Quail/Shanghai/8/96 -->
+		<primaryAccession>MK627668</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/464/2011 -->
+		<primaryAccession>MT090488</primaryAccession> <!-- # A/chicken/Bangladesh/40498/2019 -->
+		<primaryAccession>KC821267</primaryAccession> <!-- # A/chicken/Hebei/ZR/2010 -->
+		<primaryAccession>MW105324</primaryAccession> <!-- # A/chicken/Jiangxi/1.11_NCDZT20F2-OC/2017 -->
+		<primaryAccession>KP285785</primaryAccession> <!-- # A/chicken/Jiangxi/17913/2013 -->
+		<primaryAccession>ON374122</primaryAccession> <!-- # A/chicken/Egypt/N19599A/2021 -->
+		<primaryAccession>GU086257</primaryAccession> <!-- # A/chicken/Korea/A146/2009 -->
+		<primaryAccession>CY024724</primaryAccession> <!-- # A/chicken/Shantou/5028/2001(H9N2) -->
+		<primaryAccession>MW871850</primaryAccession> <!-- # A/chicken/Indonesia/5904T/2019 -->
+		<primaryAccession>MW103580</primaryAccession> <!-- # A/chicken/Guangdong/10.21_SZBJ003-O/2016 -->
+		<primaryAccession>MW159257</primaryAccession> <!-- # A/chicken/Benin/19-A-01-140-E/2019 -->
+		<primaryAccession>MH791911</primaryAccession> <!-- # A/environment/Bangladesh/34092/2017 -->
+		<primaryAccession>KM609752</primaryAccession> <!-- # A/chicken/Hebei/0721/2013 -->
+		<primaryAccession>KP185793</primaryAccession> <!-- # A/chicken/Hainan/I22/2011 -->
+		<primaryAccession>MH180641</primaryAccession> <!-- # A/chicken/Pakistan/908/2016 -->
+		<primaryAccession>MH667597</primaryAccession> <!-- # A/chicken/Shandong/3435/2017 -->
+		<primaryAccession>FJ793304</primaryAccession> <!-- # A/duck/Zhejiang/3/2002 -->
+		<primaryAccession>CY184121</primaryAccession> <!-- # A/mallard/Sweden/4932/2004 -->
+		<primaryAccession>KY616758</primaryAccession> <!-- # A/environment/Bangladesh/23641/2014 -->
+		<primaryAccession>KM609741</primaryAccession> <!-- # A/chicken/Shandong/qd0107/2013 -->
+		<primaryAccession>MK603220</primaryAccession> <!-- # A/chicken/Kasoor/SI36/2017 -->
+		<primaryAccession>MH180601</primaryAccession> <!-- # A/chicken/Pakistan/803/2015 -->
+		<primaryAccession>KC758098</primaryAccession> <!-- # A/environment/Bangladesh/11173/2011 -->
+		<primaryAccession>KF971969</primaryAccession> <!-- # A/wild waterfowl/Dongting/C2148/2011 -->
+		<primaryAccession>CY023508</primaryAccession> <!-- # A/chicken/Shantou/19465/2005(H9N2) -->
+		<primaryAccession>KU042505</primaryAccession> <!-- # A/chicken/Zhejiang/3C7/2013 -->
+		<primaryAccession>KF059321</primaryAccession> <!-- # A/chicken/Beijing/11/2013 -->
+		<primaryAccession>MT407093</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/9074/2016 -->
+		<primaryAccession>MW104868</primaryAccession> <!-- # A/chicken/Hunan/09.27_YYGKZ37-O/2016 -->
+		<primaryAccession>MZ872965</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/936/2019 -->
+		<primaryAccession>JN543559</primaryAccession> <!-- # A/chicken/Korea/801/2007 -->
+		<primaryAccession>MT090301</primaryAccession> <!-- # A/chicken/Bangladesh/38208/2019 -->
+		<primaryAccession>MW749702</primaryAccession> <!-- # A/quail/Bangladesh/45741/2020 -->
+		<primaryAccession>ON374210</primaryAccession> <!-- # A/chicken/Egypt/N19600D/2021 -->
+		<primaryAccession>MZ873326</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/981/2019 -->
+		<primaryAccession>AB753212</primaryAccession> <!-- # A/Japanese Quail/Vietnam/7/2009 -->
+		<primaryAccession>KU143456</primaryAccession> <!-- # A/duck/Wuhan/WHYF05/2014 -->
+		<primaryAccession>KP285209</primaryAccession> <!-- # A/chicken/Jiangxi/20506/2013 -->
+		<primaryAccession>KF746743</primaryAccession> <!-- # A/chicken/Beijing/243/2005 -->
+		<primaryAccession>KF972009</primaryAccession> <!-- # A/wild waterfowl/Dongting/C4296/2012 -->
+		<primaryAccession>MZ873048</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/927/2019 -->
+		<primaryAccession>OK255518</primaryAccession> <!-- # A/White-fronted Goose/South Korea/KNU2020-152/2020 -->
+		<primaryAccession>MZ150657</primaryAccession> <!-- # A/chicken/Nigeria/RV-C11-15OR_19VIR8424-15/2019 -->
+		<primaryAccession>KF260093</primaryAccession> <!-- # A/chicken/Hong Kong/WF4/2007 -->
+		<primaryAccession>MW871952</primaryAccession> <!-- # A/chicken/Indonesia/4652T/2018 -->
+		<primaryAccession>EF612746</primaryAccession> <!-- # A/swine/Guangxi/58/2005 -->
+		<primaryAccession>ON374066</primaryAccession> <!-- # A/chicken/Egypt/A19165/2020 -->
+		<primaryAccession>CY038438</primaryAccession> <!-- # A/chicken/Pakistan/UDL-02/2006(H9N2) -->
+		<primaryAccession>MW466041</primaryAccession> <!-- # A/environment/Bangladesh/43513/2020 -->
+		<primaryAccession>MW105564</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL005-C/2018 -->
+		<primaryAccession>HM998918</primaryAccession> <!-- # A/swine/Taizhou/5/2008 -->
+		<primaryAccession>MW103428</primaryAccession> <!-- # A/chicken/Guangdong/07.19_SZBJ013-C/2017 -->
+		<primaryAccession>MW159263</primaryAccession> <!-- # A/chicken/Benin/19-A-01-154-E/2019 -->
+		<primaryAccession>FJ793328</primaryAccession> <!-- # A/chicken/Henan/1/2002 -->
+		<primaryAccession>MW102269</primaryAccession> <!-- # A/chicken/Guangdong/10.25_SZBJ018-O/2017 -->
+		<primaryAccession>MW102468</primaryAccession> <!-- # A/chicken/Anhui/1.20_YHZGS017-O/2019 -->
+		<primaryAccession>KC555096</primaryAccession> <!-- # A/quail/United Arab Emirates/D1556/2011 -->
+		<primaryAccession>CY023180</primaryAccession> <!-- # A/chicken/Shantou/944/2003(H9N2) -->
+		<primaryAccession>KP285121</primaryAccession> <!-- # A/chicken/Jiangxi/18980/2013 -->
+		<primaryAccession>MW104644</primaryAccession> <!-- # A/chicken/Henan/02.16_LYGL014-O/2017 -->
+		<primaryAccession>KU646988</primaryAccession> <!-- # A/Anas platyrhynchos/Belgium/24311pcs5/2012 -->
+		<primaryAccession>ON374023</primaryAccession> <!-- # A/chicken/EGYPT/A15659/2018 -->
+		<primaryAccession>MK796816</primaryAccession> <!-- # A/chicken/Algeria/6BBD/2017 -->
+		<primaryAccession>MF673331</primaryAccession> <!-- # A/chicken/Jordan/45/2004 -->
+		<primaryAccession>LC497093</primaryAccession> <!-- # A/chicken/Vietnam/HU9-60/2018 -->
+		<primaryAccession>MW466135</primaryAccession> <!-- # A/environment/Bangladesh/41351/2019 -->
+		<primaryAccession>KP414831</primaryAccession> <!-- # A/chicken/Shenzhen/2121/2013 -->
+		<primaryAccession>KF881390</primaryAccession> <!-- # A/chicken/Egypt/S7025E/2013 -->
+		<primaryAccession>KF881736</primaryAccession> <!-- # A/chicken/Egypt/S5442E/2012 -->
+		<primaryAccession>MN101013</primaryAccession> <!-- # A/chicken/China/D2115/2013 -->
+		<primaryAccession>MW159321</primaryAccession> <!-- # A/chicken/Benin/19-A-01-161-E/2019 -->
+		<primaryAccession>CY036281</primaryAccession> <!-- # A/ferret/Maryland/P10-UMD/2008(H9N2) -->
+		<primaryAccession>MW106124</primaryAccession> <!-- # A/chicken/Jiangxi/4.30_NCDZT55N2-OC/2017 -->
+		<primaryAccession>KP414385</primaryAccession> <!-- # A/chicken/Shenzhen/1488/2013 -->
+		<primaryAccession>CY043916</primaryAccession> <!-- # A/shorebird/Delaware/249/2006 -->
+		<primaryAccession>MW108548</primaryAccession> <!-- # A/duck/Jiangxi/09.22_NCNP51C2-O/2016 -->
+		<primaryAccession>KC209499</primaryAccession> <!-- # A/wild bird/Korea/8G39/2005 -->
+		<primaryAccession>MW105612</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL010-O/2018 -->
+		<primaryAccession>MW873041</primaryAccession> <!-- # A/duck/Vietnam/HN6422/2020 -->
+		<primaryAccession>MW107540</primaryAccession> <!-- # A/duck/Fujian/3.16_FZHX0321-O/2017 -->
+		<primaryAccession>KT356795</primaryAccession> <!-- # A/environment/Hunan/18355/2014 -->
+		<primaryAccession>MW133967</primaryAccession> <!-- # A/White-fronted Goose/Ukraine/Novomikhalivka -4-23-12/2010 -->
+		<primaryAccession>MT261600</primaryAccession> <!-- # A/chicken/Egypt/S16705D/2019 -->
+		<primaryAccession>MK796819</primaryAccession> <!-- # A/chicken/Algeria/10BBD/2017 -->
+		<primaryAccession>CY023796</primaryAccession> <!-- # A/chicken/Hunan/3369/2005(H9N2) -->
+		<primaryAccession>CY240883</primaryAccession> <!-- # A/environment/New Jersey/UGAI16-0877/2016 -->
+		<primaryAccession>MZ873310</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/907/2018 -->
+		<primaryAccession>MZ873270</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/933/2019 -->
+		<primaryAccession>KF260135</primaryAccession> <!-- # A/chicken/Hong Kong/NT10/2011 -->
+		<primaryAccession>MZ872731</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/975/2019 -->
+		<primaryAccession>EU502904</primaryAccession> <!-- # A/swine/Jiangxi/wx2/2004 -->
+		<primaryAccession>KY415937</primaryAccession> <!-- # A/chicken/Yuhuan/YH15/2016 -->
+		<primaryAccession>MW105644</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL014-O/2018 -->
+		<primaryAccession>KC757884</primaryAccession> <!-- # A/environment/Bangladesh/907/2009 -->
+		<primaryAccession>MH114046</primaryAccession> <!-- # A/Falco tinnunculus/Tianjin/04/2017 -->
+		<primaryAccession>FJ793288</primaryAccession> <!-- # A/duck/Jiangsu/3/2005 -->
+		<primaryAccession>ON329042</primaryAccession> <!-- # A/chicken/China/2042/2020 -->
+		<primaryAccession>MW205151</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-789/2017 -->
+		<primaryAccession>MW101812</primaryAccession> <!-- # A/chicken/Guizhou/12.20_ZYLJJ002-C/2017 -->
+		<primaryAccession>KC821259</primaryAccession> <!-- # A/chicken/Shandong/zc12/2009 -->
+		<primaryAccession>MG781078</primaryAccession> <!-- # A/wild bird/Anhui/BLH12/2015 -->
+		<primaryAccession>MG957624</primaryAccession> <!-- # A/chicken/Bangladesh/32287/2017 -->
+		<primaryAccession>EU532049</primaryAccession> <!-- # A/chicken/Beijing/L1/2005 -->
+		<primaryAccession>MW102124</primaryAccession> <!-- # A/chicken/Yunnan/12.22_DQXBL001-O/2018 -->
+		<primaryAccession>MW102113</primaryAccession> <!-- # A/chicken/Xinjiang/12.24_WLMQXL023-O/2018 -->
+		<primaryAccession>MW101637</primaryAccession> <!-- # A/chicken/Jiangxi/1.11_NCJD3G2-OC/2017 -->
+		<primaryAccession>EU532051</primaryAccession> <!-- # A/chicken/Jiangsu/L1/2004 -->
+		<primaryAccession>KU042491</primaryAccession> <!-- # A/chicken/Zhejiang/C19/2013 -->
+		<primaryAccession>CY024660</primaryAccession> <!-- # A/chicken/Shantou/1608/2001(H9N2) -->
+		<primaryAccession>EU753278</primaryAccession> <!-- # A/chicken/Shanghai/2/1999 -->
+		<primaryAccession>LC028180</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM719/2014 -->
+		<primaryAccession>KC758074</primaryAccession> <!-- # A/environment/Bangladesh/11597/2011 -->
+		<primaryAccession>KF768228</primaryAccession> <!-- # A/chicken/Guangxi/067C4/2010 -->
+		<primaryAccession>MZ872972</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/944/2019 -->
+		<primaryAccession>KC821282</primaryAccession> <!-- # A/chicken/Sichuan/02/2011 -->
+		<primaryAccession>KJ643601</primaryAccession> <!-- # A/chicken/Bangladesh/19870/2013 -->
+		<primaryAccession>MH180615</primaryAccession> <!-- # A/chicken/Pakistan/971/2015 -->
+		<primaryAccession>KM070514</primaryAccession> <!-- # A/chicken/Guangxi/LS/2013 -->
+		<primaryAccession>MZ277341</primaryAccession> <!-- # A/Greater white-fronted goose/Iran/C238_2020/2019 -->
+		<primaryAccession>KF260217</primaryAccession> <!-- # A/chicken/Rizhao/1313/2013 -->
+		<primaryAccession>AF523512</primaryAccession> <!-- # (A/Duck/Shantou/830/00(H9N2)) -->
+		<primaryAccession>KP414481</primaryAccession> <!-- # A/chicken/Dongguan/2309/2013 -->
+		<primaryAccession>ON374733</primaryAccession> <!-- # A/chicken/Egypt/N14782D/2017 -->
+		<primaryAccession>KX977751</primaryAccession> <!-- # A/bewicks swan/Netherlands/4/2006 -->
+		<primaryAccession>KF972081</primaryAccession> <!-- # A/wild waterfowl/Dongting/PC2540/2012 -->
+		<primaryAccession>LC208515</primaryAccession> <!-- # A/duck/Japan/AQ-HE28/2015 -->
+		<primaryAccession>MW102572</primaryAccession> <!-- # A/chicken/Anhui/9.29_YHZGS025-C/2018 -->
+		<primaryAccession>KM576106</primaryAccession> <!-- # A/mink/Shandong/F6/2013 -->
+		<primaryAccession>CY043868</primaryAccession> <!-- # A/gadwall/Netherlands/1/2006 -->
+		<primaryAccession>KM455876</primaryAccession> <!-- # A/Lengshuitan/11197/2013 -->
+		<primaryAccession>MH517588</primaryAccession> <!-- # A/environment/Chile/C21617/2017 -->
+		<primaryAccession>MH579160</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/73/2003 -->
+		<primaryAccession>HQ221617</primaryAccession> <!-- # A/duck/Korea/SH0912/2009 -->
+		<primaryAccession>MW871764</primaryAccession> <!-- # A/chicken/Indonesia/5799T/2019 -->
+		<primaryAccession>ON680925</primaryAccession> <!-- # A/chicken/Bangladesh/IVL-BD-H9N2/2019 -->
+		<primaryAccession>MN866027</primaryAccession> <!-- # A/chicken/China/NN1/2011 -->
+		<primaryAccession>CY077146</primaryAccession> <!-- # A/sanderling/Delaware/449/2006 -->
+		<primaryAccession>MH180637</primaryAccession> <!-- # A/chicken/Pakistan/831/2016 -->
+		<primaryAccession>MW105260</primaryAccession> <!-- # A/chicken/Jiangxi/07.29_NCDZTY78-O/2016 -->
+		<primaryAccession>AB753181</primaryAccession> <!-- # A/Chinese Hwamei/Vietnam/38/2006 -->
+		<primaryAccession>MZ542901</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/882/2018 -->
+		<primaryAccession>ON374677</primaryAccession> <!-- # A/chicken/Egypt/F14014E/2017 -->
+		<primaryAccession>KY777709</primaryAccession> <!-- # A/wild waterfowl/Korea/25/2008 -->
+		<primaryAccession>MZ543122</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/873/2018 -->
+		<primaryAccession>MW101627</primaryAccession> <!-- # A/chicken/Jiangxi/6.26_NCDZT66R2-OC/2017 -->
+		<primaryAccession>KP414521</primaryAccession> <!-- # A/chicken/Dongguan/2701/2013 -->
+		<primaryAccession>KC821280</primaryAccession> <!-- # A/chicken/Shandong/07/2011 -->
+		<primaryAccession>KM609722</primaryAccession> <!-- # A/chicken/Shandong/yt0711/2013 -->
+		<primaryAccession>ON374709</primaryAccession> <!-- # A/chicken/Egypt/A18498/2020 -->
+		<primaryAccession>CY023676</primaryAccession> <!-- # A/chicken/Fujian/11302/2005(H9N2) -->
+		<primaryAccession>MW106764</primaryAccession> <!-- # A/chicken/Shandong/10.28_TAWM023-O/2016 -->
+		<primaryAccession>MN880177</primaryAccession> <!-- # A/chicken/China/CX/2013 -->
+		<primaryAccession>KP414256</primaryAccession> <!-- # A/silkie chicken/Shenzhen/452/2013 -->
+		<primaryAccession>MH135540</primaryAccession> <!-- # A/quail/Bangladesh/33163/2017 -->
+		<primaryAccession>KP285113</primaryAccession> <!-- # A/chicken/Jiangxi/18957/2013 -->
+		<primaryAccession>MW531564</primaryAccession> <!-- # A/chicken/Benin/19-A-06-808-E_20VIR6511-41/2019 -->
+		<primaryAccession>CY023708</primaryAccession> <!-- # A/chicken/Guangxi/2441/2004(H9N2) -->
+		<primaryAccession>KF746814</primaryAccession> <!-- # A/chicken/Shandong/244/2002 -->
+		<primaryAccession>FJ464660</primaryAccession> <!-- # A/chicken/Israel/1033/2007 -->
+		<primaryAccession>MW101746</primaryAccession> <!-- # A/duck/Jiangxi/1.05_NCNP76V2-OC/2018 -->
+		<primaryAccession>KU042480</primaryAccession> <!-- # A/chicken/Zhejiang/C4910/2013 -->
+		<primaryAccession>MH180651</primaryAccession> <!-- # A/chicken/Pakistan/996/2015 -->
+		<primaryAccession>HQ893766</primaryAccession> <!-- # A/swine/Guangdong/L1/2010 -->
+		<primaryAccession>KP285297</primaryAccession> <!-- # A/chicken/Jiangxi/29099/2013 -->
+		<primaryAccession>MF113122</primaryAccession> <!-- # A/chicken/Jiangxi/20/2011 -->
+		<primaryAccession>CY024012</primaryAccession> <!-- # A/duck/Shantou/3728/2003(H9N2) -->
+		<primaryAccession>HQ221606</primaryAccession> <!-- # A/chicken/Korea/HC09/2009 -->
+		<primaryAccession>MH180629</primaryAccession> <!-- # A/chicken/Pakistan/403/2015 -->
+		<primaryAccession>KM609721</primaryAccession> <!-- # A/chicken/Shandong/zc0606/2012 -->
+		<primaryAccession>MW159212</primaryAccession> <!-- # A/chicken/Benin/19-A-03-394-E/2019 -->
+		<primaryAccession>GU474586</primaryAccession> <!-- # A/feces/Hunan/2-28/2007 -->
+		<primaryAccession>MW466180</primaryAccession> <!-- # A/environment/Bangladesh/43468/2020 -->
+		<primaryAccession>MF568506</primaryAccession> <!-- # A/chicken/Hubei/01/2015 -->
+		<primaryAccession>MZ543233</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/875/2018 -->
+		<primaryAccession>MF795003</primaryAccession> <!-- # A/chicken/Daye/DY0602/2017 -->
+		<primaryAccession>MW101872</primaryAccession> <!-- # A/chicken/Guangdong/12.04_SZBJ009-O/2017 -->
+		<primaryAccession>ON373999</primaryAccession> <!-- # A/chicken/EGYPT/A15066/2018 -->
+		<primaryAccession>KC767263</primaryAccession> <!-- # A/chicken/Shaanxi/11/2012 -->
+		<primaryAccession>ON374597</primaryAccession> <!-- # A/chicken/Egypt/D18592/2020 -->
+		<primaryAccession>MH134912</primaryAccession> <!-- # A/mallard/Chile/C14590/2016 -->
+		<primaryAccession>MZ873247</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/932/2019 -->
+		<primaryAccession>MZ873209</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/923/2019 -->
+		<primaryAccession>MW106628</primaryAccession> <!-- # A/chicken/Ningxia/11.28_XXYN021-C/2016 -->
+		<primaryAccession>MW205174</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-822/2018 -->
+		<primaryAccession>CY133637</primaryAccession> <!-- # A/northern shoveler/Arkansas/11OS386/2011 -->
+		<primaryAccession>KF178699</primaryAccession> <!-- # A/environment/Zhejiang/16/2013 -->
+		<primaryAccession>MW109468</primaryAccession> <!-- # A/environment/Jiangxi/1.11_NCDZT84F2-E/2017 -->
+		<primaryAccession>ON374533</primaryAccession> <!-- # A/chicken/Egypt/N14499B/2017 -->
+		<primaryAccession>MN101009</primaryAccession> <!-- # A/chicken/China/D1910/2013 -->
+		<primaryAccession>MW102029</primaryAccession> <!-- # A/chicken/Guangdong/7.20_DGCP021-O/2017 -->
+		<primaryAccession>KP414641</primaryAccession> <!-- # A/chicken/Dongguan/3839/2013 -->
+		<primaryAccession>OM019055</primaryAccession> <!-- # A/chicken/Hebei/BD2/2016 -->
+		<primaryAccession>KX598739</primaryAccession> <!-- # A/chicken/Guangdong/SIC2/2012 -->
+		<primaryAccession>KY635812</primaryAccession> <!-- # A/quail/Bangladesh/28122/2016 -->
+		<primaryAccession>OM019058</primaryAccession> <!-- # A/chicken/Neimenggu/NMG7/2018 -->
+		<primaryAccession>MW105556</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL004-O/2018 -->
+		<primaryAccession>MW873650</primaryAccession> <!-- # A/green-winged teal/Alaska/AK20-459/2020 -->
+		<primaryAccession>MK796823</primaryAccession> <!-- # A/chicken/Algeria/17BBD/2017 -->
+		<primaryAccession>MZ543011</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/880/2018 -->
+		<primaryAccession>KP178516</primaryAccession> <!-- # A/ostrich/Beijing/293/2013 -->
+		<primaryAccession>CY024668</primaryAccession> <!-- # A/chicken/Shantou/1610/2001(H9N2) -->
+		<primaryAccession>ON374525</primaryAccession> <!-- # A/chicken/Egypt/N14500A/2017 -->
+		<primaryAccession>MW109460</primaryAccession> <!-- # A/environment/Jiangxi/08.26_NCDZTY94-E/2016 -->
+		<primaryAccession>EF063544</primaryAccession> <!-- # A/chicken/Dubai/463/2003 -->
+		<primaryAccession>KF972017</primaryAccession> <!-- # A/wild waterfowl/Dongting/C4316/2012 -->
+		<primaryAccession>ON374911</primaryAccession> <!-- # A/pigeon/Egypt/D14794/2017 -->
+		<primaryAccession>MW101857</primaryAccession> <!-- # A/chicken/Guizhou/10.28_ZYLJJ011-C/2018 -->
+		<primaryAccession>JF906210</primaryAccession> <!-- # A/chicken/China/AH-10-01/2010 -->
+		<primaryAccession>KP055065</primaryAccession> <!-- # A/chicken/Beijing/3/1999 -->
+		<primaryAccession>MZ543066</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/856/2018 -->
+		<primaryAccession>ON374565</primaryAccession> <!-- # A/chicken/EGYPT/A15801/2018 -->
+		<primaryAccession>CY023164</primaryAccession> <!-- # A/chicken/Shantou/4608/2002(H9N2) -->
+		<primaryAccession>KM285401</primaryAccession> <!-- # A/chicken/Shandong/818/2012 -->
+		<primaryAccession>KC555104</primaryAccession> <!-- # A/pheasant/United Arab Emirates/D1307.B/2011 -->
+		<primaryAccession>MZ150585</primaryAccession> <!-- # A/chicken/Nigeria/EN-CK26-30T_19VIR8425-19/2019 -->
+		<primaryAccession>LC536732</primaryAccession> <!-- # A/chicken/Japan/AQ-HE30-35C2/2018 -->
+		<primaryAccession>MW104260</primaryAccession> <!-- # A/chicken/Guizhou/06.30_ZYLJJ002-O/2018 -->
+		<primaryAccession>CY023724</primaryAccession> <!-- # A/chicken/Guangxi/187/2005(H9N2) -->
+		<primaryAccession>MW104228</primaryAccession> <!-- # A/chicken/Guangxi/8.25_NNXH001-O/2018 -->
+		<primaryAccession>KP285217</primaryAccession> <!-- # A/chicken/Jiangxi/20935/2013 -->
+		<primaryAccession>KF260081</primaryAccession> <!-- # A/chicken/Hong Kong/SF379/2006 -->
+		<primaryAccession>MW105708</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL024-O/2018 -->
+		<primaryAccession>KY415947</primaryAccession> <!-- # A/chicken/Ganzhou/GZ86/2016 -->
+		<primaryAccession>MH889089</primaryAccession> <!-- # A/chicken/Shandong/3446/2017 -->
+		<primaryAccession>GU474594</primaryAccession> <!-- # A/environment/Hunan/2-84/2007 -->
+		<primaryAccession>MT090182</primaryAccession> <!-- # A/environment/Bangladesh/38157/2019 -->
+		<primaryAccession>KF746752</primaryAccession> <!-- # A/chicken/Shandong/384/2011 -->
+		<primaryAccession>JN852807</primaryAccession> <!-- # A/chicken/Korea/KNUWSJ09/2009 -->
+		<primaryAccession>MT090568</primaryAccession> <!-- # A/chicken/Bangladesh/40818/2019 -->
+		<primaryAccession>MW101958</primaryAccession> <!-- # A/environment/Jiangxi/2.06_SRXZJG014-E/2017 -->
+		<primaryAccession>AY633168</primaryAccession> <!-- # A/mallard/Alberta/17/91 -->
+		<primaryAccession>MT090615</primaryAccession> <!-- # A/chicken/Bangladesh/40819/2019 -->
+		<primaryAccession>FJ464651</primaryAccession> <!-- # A/avian/Israel/313/2008 -->
+		<primaryAccession>AB836743</primaryAccession> <!-- # A/chicken/Quang Ninh/26/2013 -->
+		<primaryAccession>KX879593</primaryAccession> <!-- # A/swine/Hong Kong/9/98 -->
+		<primaryAccession>MH791586</primaryAccession> <!-- # A/environment/Bangladesh/34574/2018 -->
+		<primaryAccession>MZ873080</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/943/2019 -->
+		<primaryAccession>KF260157</primaryAccession> <!-- # A/chicken/Hong Kong/WF1W/2012 -->
+		<primaryAccession>KM609748</primaryAccession> <!-- # A/chicken/Liaoning/0517/2013 -->
+		<primaryAccession>CY023748</primaryAccession> <!-- # A/chicken/Guangxi/1428/2005(H9N2) -->
+		<primaryAccession>CY184129</primaryAccession> <!-- # A/mallard/Sweden/7146/2004 -->
+		<primaryAccession>KJ643743</primaryAccession> <!-- # A/chicken/Bangladesh/19565/2013 -->
+		<primaryAccession>KY415950</primaryAccession> <!-- # A/chicken/Ganzhou/GZ140/2016 -->
+		<primaryAccession>KY115379</primaryAccession> <!-- # A/chicken/Myanmar/NK-4/2015 -->
+		<primaryAccession>MZ150705</primaryAccession> <!-- # A/guinea fowl/Nigeria/KD-GF120-122OR_19VIR8424-18/2019 -->
+		<primaryAccession>KX783329</primaryAccession> <!-- # A/environment/Zhongshan/ZS201603/2016 -->
+		<primaryAccession>AF508713</primaryAccession> <!-- # A/Chicken/Korea/99029/99 -->
+		<primaryAccession>MH180634</primaryAccession> <!-- # A/chicken/Pakistan/826/2016 -->
+		<primaryAccession>KM609746</primaryAccession> <!-- # A/chicken/Liaoning/1116/2012 -->
+		<primaryAccession>ON374557</primaryAccession> <!-- # A/chicken/Egypt/S18527/2020 -->
+		<primaryAccession>KJ426278</primaryAccession> <!-- # A/chicken/Jiangsu/07/2009 -->
+		<primaryAccession>JN543552</primaryAccession> <!-- # A/chicken/Korea/2128/2006 -->
+		<primaryAccession>MH560159</primaryAccession> <!-- # A/chicken/Vietnam/H7F-14-CB4-2/2014 -->
+		<primaryAccession>KM609750</primaryAccession> <!-- # A/chicken/Jilin/0519/2012 -->
+		<primaryAccession>KX000780</primaryAccession> <!-- # A/quail/Egypt/D10105/2014 -->
+		<primaryAccession>KF881651</primaryAccession> <!-- # A/chicken/Egypt/S4454E/2011 -->
+		<primaryAccession>KC758022</primaryAccession> <!-- # A/environment/Bangladesh/8465/2010 -->
+		<primaryAccession>MN101043</primaryAccession> <!-- # A/chicken/China/E907/2014 -->
+		<primaryAccession>KU042465</primaryAccession> <!-- # A/quail/Zhejiang/2A3/2013 -->
+		<primaryAccession>KC821273</primaryAccession> <!-- # A/chicken/Guangdong/01/2011 -->
+		<primaryAccession>MW749765</primaryAccession> <!-- # A/chicken/Bangladesh/45776/2020 -->
+		<primaryAccession>AF508716</primaryAccession> <!-- # A/Chicken/Guangdong/11/97 -->
+		<primaryAccession>MT261703</primaryAccession> <!-- # A/chicken/Egypt/S16703B/2019 -->
+		<primaryAccession>KX421154</primaryAccession> <!-- # A/swine/Yantai/16/2012 -->
+		<primaryAccession>MW159148</primaryAccession> <!-- # A/chicken/Togo/EC-54/2019 -->
+		<primaryAccession>ON374397</primaryAccession> <!-- # A/chicken/Egypt/N19600A/2021 -->
+		<primaryAccession>MW107876</primaryAccession> <!-- # A/duck/Henan/2.16_LYGL004-O/2017 -->
+		<primaryAccession>MW105700</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL023-O/2018 -->
+		<primaryAccession>MW101851</primaryAccession> <!-- # A/chicken/Guangdong/08.29_SZBJ024-O/2017 -->
+		<primaryAccession>MH068291</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2457/2017 -->
+		<primaryAccession>MN865986</primaryAccession> <!-- # A/sparrow/China/35B15/2012 -->
+		<primaryAccession>MZ872835</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/977/2019 -->
+		<primaryAccession>MW205149</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-737/2017 -->
+		<primaryAccession>MW873079</primaryAccession> <!-- # A/duck/Vietnam/HN6426/2020 -->
+		<primaryAccession>FJ464649</primaryAccession> <!-- # A/chicken/Israel/215/2007 -->
+		<primaryAccession>MW936198</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5134/2018 -->
+		<primaryAccession>JN540068</primaryAccession> <!-- # A/chicken/Sihala/NARC-12103/2008 -->
+		<primaryAccession>MZ543249</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/862/2018 -->
+		<primaryAccession>GU121386</primaryAccession> <!-- # A/black-billed magpie/Guangxi/29/2005 -->
+		<primaryAccession>MZ543281</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/833/2018 -->
+		<primaryAccession>MG977500</primaryAccession> <!-- # A/environment/Bangladesh/32463/2017 -->
+		<primaryAccession>KF881679</primaryAccession> <!-- # A/chicken/Egypt/D4907A/2012 -->
+		<primaryAccession>ON374405</primaryAccession> <!-- # A/chicken/Egypt/N19072B/2020 -->
+		<primaryAccession>MW104604</primaryAccession> <!-- # A/chicken/Henan/01.28_LYGL012-O/2017 -->
+		<primaryAccession>KF971985</primaryAccession> <!-- # A/wild waterfowl/Dongting/C2150/2011 -->
+		<primaryAccession>MZ872787</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/967/2019 -->
+		<primaryAccession>MH560167</primaryAccession> <!-- # A/chicken/Vietnam/H7F-14-HG4-413/2014 -->
+		<primaryAccession>MH489447</primaryAccession> <!-- # A/chicken/Anhui/LH66/2017 -->
+		<primaryAccession>KM609724</primaryAccession> <!-- # A/chicken/Shandong/wf1206/2012 -->
+		<primaryAccession>MW107676</primaryAccession> <!-- # A/duck/Fujian/7.20_FZHX0052-C/2017 -->
+		<primaryAccession>CY023308</primaryAccession> <!-- # A/silky chicken/Shantou/1826/2004(H9N2) -->
+		<primaryAccession>JF795090</primaryAccession> <!-- # A/chicken/Shandong/BD/2010 -->
+		<primaryAccession>ON374693</primaryAccession> <!-- # A/chicken/Egypt/A18605/2020 -->
+		<primaryAccession>MW102852</primaryAccession> <!-- # A/chicken/Fujian/1.25_FZHX0003-O/2018 -->
+		<primaryAccession>MW101569</primaryAccession> <!-- # A/chicken/Henan/02.16_LYGL006-O/2017 -->
+		<primaryAccession>MW205023</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-767/2017 -->
+		<primaryAccession>MH489455</primaryAccession> <!-- # A/chicken/Anhui/LH99/2017 -->
+		<primaryAccession>KU042906</primaryAccession> <!-- # A/chicken/Pakistan/13A/2015 -->
+		<primaryAccession>MW109516</primaryAccession> <!-- # A/environment/Jiangxi/2.06_SRXZJG011-E/2017 -->
+		<primaryAccession>MH018681</primaryAccession> <!-- # A/chicken/Shandong/LY1/2017 -->
+		<primaryAccession>MZ872755</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/974/2019 -->
+		<primaryAccession>MW102032</primaryAccession> <!-- # A/duck/Guangdong/8.30_DGCP050-O/2017 -->
+		<primaryAccession>ON374895</primaryAccession> <!-- # A/chicken/EGYPT/A15553C/2018 -->
+		<primaryAccession>MW101967</primaryAccession> <!-- # A/chicken/Fujian/1.17_FZHX0117-O/2017 -->
+		<primaryAccession>MN101117</primaryAccession> <!-- # A/chicken/China/G591/2016 -->
+		<primaryAccession>EU365375</primaryAccession> <!-- # A/chicken/Hubei/C1/2007 -->
+		<primaryAccession>KY776432</primaryAccession> <!-- # A/wild waterfowl/Korea/7/2010 -->
+		<primaryAccession>MW466147</primaryAccession> <!-- # A/environment/Bangladesh/43514/2020 -->
+		<primaryAccession>KY785858</primaryAccession> <!-- # A/chicken/Korea/C54/2009 -->
+		<primaryAccession>MW101767</primaryAccession> <!-- # A/duck/Hunan/08.25_YYGK97V2-OC/2017 -->
+		<primaryAccession>KX859327</primaryAccession> <!-- # A/ferret/Maryland/P10-UMD_CIP046_RGJS07/2008 -->
+		<primaryAccession>ON374621</primaryAccession> <!-- # A/chicken/Egypt/S18643C/2020 -->
+		<primaryAccession>EU532045</primaryAccession> <!-- # A/chicken/Shandong/B2/2007 -->
+		<primaryAccession>MF673323</primaryAccession> <!-- # A/chicken/Jordan/13/2003 -->
+		<primaryAccession>KY794631</primaryAccession> <!-- # A/goose/Guangdong/A11/2016 -->
+		<primaryAccession>KU042473</primaryAccession> <!-- # A/pigeon/Zhejiang/2P5/2013 -->
+		<primaryAccession>MZ872747</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/948/2019 -->
+		<primaryAccession>KF260092</primaryAccession> <!-- # A/chicken/Hong Kong/TP178/2007 -->
+		<primaryAccession>KF881337</primaryAccession> <!-- # A/chicken/Egypt/D7108E/2013 -->
+		<primaryAccession>KC821284</primaryAccession> <!-- # A/chicken/Shandong/05/2011 -->
+		<primaryAccession>MH489511</primaryAccession> <!-- # A/chicken/Anhui/AH480/2017 -->
+		<primaryAccession>MW159168</primaryAccession> <!-- # A/chicken/Togo/EC-171/2019 -->
+		<primaryAccession>MW935947</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN4930/2018 -->
+		<primaryAccession>KF260130</primaryAccession> <!-- # A/chicken/Hong Kong/YU219/2010 -->
+		<primaryAccession>MZ872699</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/962/2019 -->
+		<primaryAccession>KF881382</primaryAccession> <!-- # A/chicken/Egypt/F7297B/2013 -->
+		<primaryAccession>KF260212</primaryAccession> <!-- # A/chicken/Rizhao/437/2013 -->
+		<primaryAccession>KF042131</primaryAccession> <!-- # A/chicken/Zhejiang/C497/2013 -->
+		<primaryAccession>MT261486</primaryAccession> <!-- # A/chicken/Egypt/S16693/2019 -->
+		<primaryAccession>KC821258</primaryAccession> <!-- # A/chicken/Shandong/zc11/2009 -->
+		<primaryAccession>MH180610</primaryAccession> <!-- # A/chicken/Pakistan/40/2015 -->
+		<primaryAccession>MW680766</primaryAccession> <!-- # A/chicken/China/07/2020 -->
+		<primaryAccession>MH180644</primaryAccession> <!-- # A/chicken/Pakistan/982/2016 -->
+		<primaryAccession>MW106116</primaryAccession> <!-- # A/chicken/Jiangxi/4.30_NCDZT52N2-OC/2017 -->
+		<primaryAccession>EU662955</primaryAccession> <!-- # A/chicken/Korea/S21/2004 -->
+		<primaryAccession>MT261549</primaryAccession> <!-- # A/chicken/Egypt/N16735D/2019 -->
+		<primaryAccession>MW871973</primaryAccession> <!-- # A/chicken/Indonesia/4950T/2018 -->
+		<primaryAccession>KX598727</primaryAccession> <!-- # A/chicken/Hubei/SIC3/2012 -->
+		<primaryAccession>MK367683</primaryAccession> <!-- # A/chicken/ShangDong/1635/2018 -->
+		<primaryAccession>KX000747</primaryAccession> <!-- # A/duck/Egypt/C9787/2014 -->
+		<primaryAccession>AF508725</primaryAccession> <!-- # A/Duck/Nanjing/1/97 -->
+		<primaryAccession>MH180605</primaryAccession> <!-- # A/chicken/Pakistan/978/2015 -->
+		<primaryAccession>ON374362</primaryAccession> <!-- # A/chicken/Egypt/D19290D/2020 -->
+		<primaryAccession>KR002655</primaryAccession> <!-- # A/chicken/Shandong/196/2011 -->
+		<primaryAccession>KC757876</primaryAccession> <!-- # A/chicken/Bangladesh/11315/2011 -->
+		<primaryAccession>KC758014</primaryAccession> <!-- # A/chicken/Bangladesh/10897/2011 -->
+		<primaryAccession>KF881744</primaryAccession> <!-- # A/duck/Jiangsu/1-MA/2008 -->
+		<primaryAccession>KM609727</primaryAccession> <!-- # A/chicken/Shandong/wf0514/2013 -->
+		<primaryAccession>CY023492</primaryAccession> <!-- # A/chicken/Shantou/14907/2005(H9N2) -->
+		<primaryAccession>JN653679</primaryAccession> <!-- # A/chicken/Hubei/10/2009 -->
+		<primaryAccession>KT285345</primaryAccession> <!-- # A/chicken/India/01CL1826/2012 -->
+		<primaryAccession>MW102173</primaryAccession> <!-- # A/chicken/Fujian/03.15_FZHX0025-C/2018 -->
+		<primaryAccession>ON374162</primaryAccession> <!-- # A/chicken/Egypt/S19714/2021 -->
+		<primaryAccession>MF673371</primaryAccession> <!-- # A/chicken/Jordan/10/2003 -->
+		<primaryAccession>MZ542908</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/896/2018 -->
+		<primaryAccession>KP285153</primaryAccession> <!-- # A/chicken/Jiangxi/19981/2013 -->
+		<primaryAccession>AF222678</primaryAccession> <!-- # A/Chicken/Hong Kong/KC12/99(H9N2) -->
+		<primaryAccession>KM609757</primaryAccession> <!-- # A/chicken/Beijing/0331/2013 -->
+		<primaryAccession>KJ426367</primaryAccession> <!-- # A/chicken/Jiangsu/YZ0657/2012 -->
+		<primaryAccession>OM938040</primaryAccession> <!-- # A/chicken/Bangladesh/46059/2020 -->
+		<primaryAccession>MH068235</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2232/2017 -->
+		<primaryAccession>MH135637</primaryAccession> <!-- # A/duck/Bangladesh/33127/2017 -->
+		<primaryAccession>CY043860</primaryAccession> <!-- # A/Eurasian wigeon/Netherlands/3/2005 -->
+		<primaryAccession>KF260085</primaryAccession> <!-- # A/pheasant/Hong Kong/NT458/2006 -->
+		<primaryAccession>MZ543178</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/874/2018 -->
+		<primaryAccession>MW159177</primaryAccession> <!-- # A/chicken/Benin/19-A-01-145-E/2019 -->
+		<primaryAccession>KP285417</primaryAccession> <!-- # A/chicken/Jiangxi/28563/2013 -->
+		<primaryAccession>MW159202</primaryAccession> <!-- # A/chicken/Benin/19-A-03-402-E/2019 -->
+		<primaryAccession>MZ873003</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/965/2019 -->
+		<primaryAccession>FJ464663</primaryAccession> <!-- # A/turkey/Israel/1608/2006 -->
+		<primaryAccession>KP027615</primaryAccession> <!-- # A/chicken/Egypt/SCU8/2014 -->
+		<primaryAccession>MZ150625</primaryAccession> <!-- # A/chicken/Nigeria/LA-CK1-34-35T_19VIR8425-11/2019 -->
+		<primaryAccession>LC374935</primaryAccession> <!-- # A/chicken/Japan/AQ-HE28-50/2016 -->
+		<primaryAccession>KF188308</primaryAccession> <!-- # A/chicken/Hong Kong/TP38/2003 -->
+		<primaryAccession>MW165100</primaryAccession> <!-- # A/chicken/Morocco/M5/2017 -->
+		<primaryAccession>MG957595</primaryAccession> <!-- # A/quail/Bangladesh/32525/2017 -->
+		<primaryAccession>MW101584</primaryAccession> <!-- # A/chicken/Shandong/11.28_TAWM002-O/2016 -->
+		<primaryAccession>MW137902</primaryAccession> <!-- # A/chicken/Egypt/S16704B/2019 -->
+		<primaryAccession>MW531588</primaryAccession> <!-- # A/chicken/Benin/19-A-06-825-E_20VIR6511-48/2019 -->
+		<primaryAccession>CY125738</primaryAccession> <!-- # A/American green-winged teal/Interior Alaska/10BM16586R0/2010 -->
+		<primaryAccession>KP414473</primaryAccession> <!-- # A/chicken/Shenzhen/2172/2013 -->
+		<primaryAccession>KF357835</primaryAccession> <!-- # A/duck/Zhejiang/D486/2013 -->
+		<primaryAccession>JQ356893</primaryAccession> <!-- # A/chicken/Zhejiang/329/2011 -->
+		<primaryAccession>MH135349</primaryAccession> <!-- # A/chicken/Bangladesh/32957/2017 -->
+		<primaryAccession>MZ872779</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/940/2019 -->
+		<primaryAccession>CY041270</primaryAccession> <!-- # A/pink-footed goose/Netherlands/1/2006 -->
+		<primaryAccession>ON374077</primaryAccession> <!-- # A/chicken/Egypt/S19338D/2020 -->
+		<primaryAccession>KU042499</primaryAccession> <!-- # A/chicken/Zhejiang/C54/2013 -->
+		<primaryAccession>KC757966</primaryAccession> <!-- # A/chicken/Bangladesh/2075/2009 -->
+		<primaryAccession>KC821262</primaryAccession> <!-- # A/chicken/Shandong/05/2010 -->
+		<primaryAccession>MZ873262</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/914/2018 -->
+		<primaryAccession>MN865910</primaryAccession> <!-- # A/chicken/China/155C4/2013 -->
+		<primaryAccession>MH135334</primaryAccession> <!-- # A/chicken/Bangladesh/32958/2017 -->
+		<primaryAccession>MZ543186</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/870/2018 -->
+		<primaryAccession>KP414649</primaryAccession> <!-- # A/chicken/Dongguan/3964/2013 -->
+		<primaryAccession>EU516307</primaryAccession> <!-- # A/swine/Shandong/w4/2003 -->
+		<primaryAccession>KM609759</primaryAccession> <!-- # A/chicken/Beijing/0309/2013 -->
+		<primaryAccession>EU516315</primaryAccession> <!-- # A/swine/Guangdong/wxl/2004 -->
+		<primaryAccession>MW106444</primaryAccession> <!-- # A/chicken/Jiangxi/5.26_NCNP3Q2-OC/2017 -->
+		<primaryAccession>MZ542932</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/891/2018 -->
+		<primaryAccession>MZ872763</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/956/2019 -->
+		<primaryAccession>MW101817</primaryAccession> <!-- # A/chicken/Guizhou/1.31_ZYLJJ015-O/2018 -->
+		<primaryAccession>KT285337</primaryAccession> <!-- # A/chicken/India/09CL1359/2013 -->
+		<primaryAccession>CY102732</primaryAccession> <!-- # A/shorebird/Delaware Bay/127/2003 -->
+		<primaryAccession>MW107852</primaryAccession> <!-- # A/duck/Henan/1.28_LYGL001-C/2017 -->
+		<primaryAccession>MW205137</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-714/2017 -->
+		<primaryAccession>KJ643804</primaryAccession> <!-- # A/environment/Bangladesh/18530/2012 -->
+		<primaryAccession>MZ543130</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/860/2018 -->
+		<primaryAccession>AF508722</primaryAccession> <!-- # A/Chicken/Shandong/6/96 -->
+		<primaryAccession>MZ873121</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/955/2019 -->
+		<primaryAccession>MH135425</primaryAccession> <!-- # A/quail/Bangladesh/33793/2017 -->
+		<primaryAccession>MW106924</primaryAccession> <!-- # A/chicken/Shanxi/12.01_TGYL014-O/2016 -->
+		<primaryAccession>CY093100</primaryAccession> <!-- # A/quail/Lebanon/273/2010 -->
+		<primaryAccession>CY023460</primaryAccession> <!-- # A/silky chicken/Shantou/3581/2005(H9N2) -->
+		<primaryAccession>MT261511</primaryAccession> <!-- # A/chicken/Egypt/S16695/2019 -->
+		<primaryAccession>MN101014</primaryAccession> <!-- # A/chicken/China/D2120/2013 -->
+		<primaryAccession>CY023340</primaryAccession> <!-- # A/chicken/Shantou/2994/2004(H9N2) -->
+		<primaryAccession>MT261393</primaryAccession> <!-- # A/chicken/Egypt/S16700B/2019 -->
+		<primaryAccession>KU042476</primaryAccession> <!-- # A/chicken/Zhejiang/C488/2013 -->
+		<primaryAccession>HM060075</primaryAccession> <!-- # A/thick-billed murre/Alaska/44145-186/2006 -->
+		<primaryAccession>KC821275</primaryAccession> <!-- # A/chicken/Shandong/02/2011 -->
+		<primaryAccession>CY041430</primaryAccession> <!-- # A/laughing gull/Delaware/12/2006 -->
+		<primaryAccession>KF881557</primaryAccession> <!-- # A/chicken/Egypt/D7436C/2013 -->
+		<primaryAccession>AF523508</primaryAccession> <!-- # (A/Duck/Shantou/2143/00(H9N2)) -->
+		<primaryAccession>KX598737</primaryAccession> <!-- # A/chicken/Guangxi/SIC15/2013 -->
+		<primaryAccession>MW165146</primaryAccession> <!-- # A/chicken/Morocco/SF1/2016 -->
+		<primaryAccession>KF881345</primaryAccession> <!-- # A/chicken/Egypt/D5490B/2012 -->
+		<primaryAccession>KF746856</primaryAccession> <!-- # A/chicken/Beijing/243/2010 -->
+		<primaryAccession>MW102265</primaryAccession> <!-- # A/chicken/Guangdong/10.25_SZBJ007-O/2017 -->
+		<primaryAccession>LC497165</primaryAccession> <!-- # A/chicken/Vietnam/HU9-567/2018 -->
+		<primaryAccession>MN101015</primaryAccession> <!-- # A/chicken/China/D2239/2013 -->
+		<primaryAccession>KU042479</primaryAccession> <!-- # A/chicken/Zhejiang/C496/2013 -->
+		<primaryAccession>MG781086</primaryAccession> <!-- # A/wild bird/Anhui/L258/2014 -->
+		<primaryAccession>KF971977</primaryAccession> <!-- # A/wild waterfowl/Dongting/C2149/2011 -->
+		<primaryAccession>CY180143</primaryAccession> <!-- # A/green-winged teal/Wisconsin/228/1976 -->
+		<primaryAccession>KF260163</primaryAccession> <!-- # A/chicken/Hong Kong/YU262W/2012 -->
+		<primaryAccession>MW109636</primaryAccession> <!-- # A/environment/Jiangxi/2.22_NCNP70K2-E/2017 -->
+		<primaryAccession>KX351202</primaryAccession> <!-- # A/chicken/Dubai/D2506.A/2015 -->
+		<primaryAccession>CY125762</primaryAccession> <!-- # A/northern shoveler/Interior Alaska/10BM16764R0/2010 -->
+		<primaryAccession>MW103380</primaryAccession> <!-- # A/chicken/Guangdong/01.18_SZBJ011-C/2017 -->
+		<primaryAccession>MW205120</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-751/2017 -->
+		<primaryAccession>JN540076</primaryAccession> <!-- # A/chicken/Attock/NARC-14994/2009 -->
+		<primaryAccession>MW106748</primaryAccession> <!-- # A/chicken/Shandong/1.26_TAWL021-C/2019 -->
+		<primaryAccession>MW102003</primaryAccession> <!-- # A/chicken/Fujian/3.15_FZHX0014-C/2018 -->
+		<primaryAccession>MZ873096</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/934/2019 -->
+		<primaryAccession>MH135477</primaryAccession> <!-- # A/quail/Bangladesh/33376/2017 -->
+		<primaryAccession>LC497173</primaryAccession> <!-- # A/chicken/Vietnam/HU9-646/2018 -->
+		<primaryAccession>KC821254</primaryAccession> <!-- # A/chicken/Beijing/HD/2008 -->
+		<primaryAccession>CY023772</primaryAccession> <!-- # A/chicken/Hunan/774/2002(H9N2) -->
+		<primaryAccession>JN852799</primaryAccession> <!-- # A/chicken/Korea/KNUSWR09/2009 -->
+		<primaryAccession>MZ543034</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/900/2018 -->
+		<primaryAccession>HQ425338</primaryAccession> <!-- # A/duck/Fujian/FQ107/2007 -->
+		<primaryAccession>MW101845</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDZT004-C/2018 -->
+		<primaryAccession>MW531620</primaryAccession> <!-- # A/chicken/Benin/19-A-11-1478-E_20VIR6511-10/2019 -->
+		<primaryAccession>KJ426279</primaryAccession> <!-- # A/chicken/Henan/01/2009 -->
+		<primaryAccession>MW159335</primaryAccession> <!-- # A/chicken/Benin/19-A-01-141-E/2019 -->
+		<primaryAccession>MW255957</primaryAccession> <!-- # A/chicken/China/17/2016 -->
+		<primaryAccession>KM609740</primaryAccession> <!-- # A/chicken/Shandong/qd01417/2013 -->
+		<primaryAccession>MW137879</primaryAccession> <!-- # A/chicken/Egypt/F17123A/2019 -->
+		<primaryAccession>MW107908</primaryAccession> <!-- # A/duck/Hunan/03.07_YYGK29L3-OC/2018 -->
+		<primaryAccession>MH489487</primaryAccession> <!-- # A/chicken/Jiangsu/TM314/2017 -->
+		<primaryAccession>HM751190</primaryAccession> <!-- # A/chicken/Shandong/SG1/2009 -->
+		<primaryAccession>HM751174</primaryAccession> <!-- # A/chicken/Shandong/WL/2009 -->
+		<primaryAccession>KF881398</primaryAccession> <!-- # A/chicken/Egypt/S5018D/2012 -->
+		<primaryAccession>MZ873216</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/926/2019 -->
+		<primaryAccession>MW871740</primaryAccession> <!-- # A/chicken/Indonesia/4977T/2018 -->
+		<primaryAccession>MW109444</primaryAccession> <!-- # A/environment/Jiangxi/07.29_NCDZTZ5-E/2016 -->
+		<primaryAccession>CY097634</primaryAccession> <!-- # A/northern shoveler/Missouri/298/2009 -->
+		<primaryAccession>KX000724</primaryAccession> <!-- # A/quail/Egypt/D10093/2014 -->
+		<primaryAccession>KY635508</primaryAccession> <!-- # A/chicken/Bangladesh/26223/2015 -->
+		<primaryAccession>KM609744</primaryAccession> <!-- # A/chicken/Shandong/lc0523/2013 -->
+		<primaryAccession>KF178691</primaryAccession> <!-- # A/environment/Zhejiang/15/2013 -->
+		<primaryAccession>KX783323</primaryAccession> <!-- # A/environment/Zhongshan/ZS201503/2015 -->
+		<primaryAccession>MW159311</primaryAccession> <!-- # A/chicken/Benin/19-A-01-146-E/2019 -->
+		<primaryAccession>KM609729</primaryAccession> <!-- # A/chicken/Shandong/qd1224/2012 -->
+		<primaryAccession>KM609732</primaryAccession> <!-- # A/chicken/Shandong/qd0920/2012 -->
+		<primaryAccession>HQ221611</primaryAccession> <!-- # A/chicken/Korea/SH0906/2009 -->
+		<primaryAccession>KC821271</primaryAccession> <!-- # A/chicken/Jiangsu/TS/2010 -->
+		<primaryAccession>KF260149</primaryAccession> <!-- # A/silkie chicken/Hong Kong/YU595W/2011 -->
+		<primaryAccession>MF147545</primaryAccession> <!-- # A/mallard duck/Netherlands/19/2005 -->
+		<primaryAccession>MW531628</primaryAccession> <!-- # A/chicken/Benin/20-A-03-2026-E_20VIR6511-12/2020 -->
+		<primaryAccession>MZ873318</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/908/2018 -->
+		<primaryAccession>MW871965</primaryAccession> <!-- # A/chicken/Indonesia/4957T/2018 -->
+		<primaryAccession>ON374781</primaryAccession> <!-- # A/chicken/Egypt/S14187B/2017 -->
+		<primaryAccession>MH667589</primaryAccession> <!-- # A/chicken/Shandong/3426/2016 -->
+		<primaryAccession>KM609734</primaryAccession> <!-- # A/chicken/Shandong/qd0808/2013 -->
+		<primaryAccession>KF972113</primaryAccession> <!-- # A/wild waterfowl/Dongting/PC2562/2012 -->
+		<primaryAccession>CY031263</primaryAccession> <!-- # A/duck/Hong Kong/702/1979(H9N2) -->
+		<primaryAccession>MW159301</primaryAccession> <!-- # A/chicken/Benin/19-A-01-156-E/2019 -->
+		<primaryAccession>KJ426287</primaryAccession> <!-- # A/chicken/Henan/Z01/2007 -->
+		<primaryAccession>ON374058</primaryAccession> <!-- # A/chicken/Egypt/S19338B/2020 -->
+		<primaryAccession>KM609756</primaryAccession> <!-- # A/chicken/Beijing/0512/2013 -->
+		<primaryAccession>CY184169</primaryAccession> <!-- # A/mallard/Portugal/83695/2009 -->
+		<primaryAccession>KX783325</primaryAccession> <!-- # A/environment/Zhongshan/ZS201505/2015 -->
+		<primaryAccession>MW104988</primaryAccession> <!-- # A/chicken/Hunan/12.27_YYGK36J2-C/2016 -->
+		<primaryAccession>KP285145</primaryAccession> <!-- # A/chicken/Jiangxi/19934/2013 -->
+		<primaryAccession>MZ543114</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/854/2018 -->
+		<primaryAccession>KM922688</primaryAccession> <!-- # A/chicken/India/82588/2008 -->
+		<primaryAccession>KP719926</primaryAccession> <!-- # A/ostrich/Yunnan/438/2014 -->
+		<primaryAccession>MW165114</primaryAccession> <!-- # A/chicken/Morocco/AS76/2019 -->
+		<primaryAccession>HQ221619</primaryAccession> <!-- # A/chicken/Korea/SH0914/2009 -->
+		<primaryAccession>MG781118</primaryAccession> <!-- # A/wild bird/Anhui/S93/2014 -->
+		<primaryAccession>MH489479</primaryAccession> <!-- # A/chicken/Shandong/WF75/2017 -->
+		<primaryAccession>MN780593</primaryAccession> <!-- # A/chicken/ShanXi/1784/2019 -->
+		<primaryAccession>MW105276</primaryAccession> <!-- # A/chicken/Jiangxi/08.26_NCDZTY33-O/2016 -->
+		<primaryAccession>MN101118</primaryAccession> <!-- # A/chicken/China/H634/2017 -->
+		<primaryAccession>MW101774</primaryAccession> <!-- # A/chicken/Hunan/7.21_YYGKy5-O/2016 -->
+		<primaryAccession>ON374034</primaryAccession> <!-- # A/chicken/Egypt/S18992/2020 -->
+		<primaryAccession>KJ643704</primaryAccession> <!-- # A/quail/Bangladesh/19462/2013 -->
+		<primaryAccession>CY038478</primaryAccession> <!-- # A/chicken/Pakistan/UDL-03/2008(H9N2) -->
+		<primaryAccession>MW165102</primaryAccession> <!-- # A/chicken/Morocco/AS77/2019 -->
+		<primaryAccession>MW871817</primaryAccession> <!-- # A/chicken/Indonesia/5927T/2019 -->
+		<primaryAccession>KM609743</primaryAccession> <!-- # A/chicken/Shandong/lc0830/2012 -->
+		<primaryAccession>AF523507</primaryAccession> <!-- # (A/Duck/Shantou/1881/00(H9N2)) -->
+		<primaryAccession>MW104292</primaryAccession> <!-- # A/chicken/Guizhou/1.31_ZYLJJ008-C/2018 -->
+		<primaryAccession>KC757847</primaryAccession> <!-- # A/environment/Bangladesh/9350/2010 -->
+		<primaryAccession>MK159017</primaryAccession> <!-- # A/chicken/Iran/UT-Barin/2017 -->
+		<primaryAccession>KM609755</primaryAccession> <!-- # A/chicken/Beijing/1115/2013 -->
+		<primaryAccession>MN101114</primaryAccession> <!-- # A/chicken/China/G861/2016 -->
+		<primaryAccession>KT356796</primaryAccession> <!-- # A/environment/Hunan/18370/2014 -->
+		<primaryAccession>KP866059</primaryAccession> <!-- # A/chicken/Shanghai/5/2003 -->
+		<primaryAccession>MF673307</primaryAccession> <!-- # A/chicken/Jordan/55/2004 -->
+		<primaryAccession>MW109708</primaryAccession> <!-- # A/environment/Jiangxi/8.30_NCDZTZ11-E/2016 -->
+		<primaryAccession>MW205111</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-814/2018 -->
+		<primaryAccession>KY785756</primaryAccession> <!-- # A/chicken/Korea/C3/2009 -->
+		<primaryAccession>MW102208</primaryAccession> <!-- # A/duck/Fujian/1.25_FZHX0036-C/2018 -->
+		<primaryAccession>CY126487</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/201/1996 -->
+		<primaryAccession>KP417558</primaryAccession> <!-- # A/chicken/Shenzhen/2130/2013 -->
+		<primaryAccession>MZ502930</primaryAccession> <!-- # A/wild bird /Shandong/11442/2019 -->
+		<primaryAccession>FJ793408</primaryAccession> <!-- # A/chicken/Shandong/1/2000 -->
+		<primaryAccession>MN520603</primaryAccession> <!-- # A/chicken/Sfax/40/2016 -->
+		<primaryAccession>KC757787</primaryAccession> <!-- # A/duck/Bangladesh/1231/2009 -->
+		<primaryAccession>KF260161</primaryAccession> <!-- # A/chicken/Hong Kong/YU150W/2012 -->
+		<primaryAccession>MT261541</primaryAccession> <!-- # A/chicken/Egypt/S16701B/2019 -->
+		<primaryAccession>FJ384755</primaryAccession> <!-- # A/chicken/Jiangsu/7/2002 -->
+		<primaryAccession>FJ464654</primaryAccession> <!-- # A/chicken/Israel/402/2007 -->
+		<primaryAccession>MW101790</primaryAccession> <!-- # A/chicken/Guangdong/2.06_SZBJ021-C/2018 -->
+		<primaryAccession>KC758090</primaryAccession> <!-- # A/environment/Bangladesh/10307/2011 -->
+		<primaryAccession>MW104660</primaryAccession> <!-- # A/chicken/Henan/02.28_LYGL003-O/2017 -->
+		<primaryAccession>MW205070</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-811/2017 -->
+		<primaryAccession>MW466031</primaryAccession> <!-- # A/chicken/Bangladesh/41240/2019 -->
+		<primaryAccession>ON374050</primaryAccession> <!-- # A/chicken/Egypt/N19598D/2021 -->
+		<primaryAccession>GQ202058</primaryAccession> <!-- # A/chicken/Hebei/A/2007 -->
+		<primaryAccession>KY608251</primaryAccession> <!-- # A/goose/Jiangsu/JD564/2012 -->
+		<primaryAccession>MW531580</primaryAccession> <!-- # A/chicken/Benin/19-A-06-822-E_20VIR6511-47/2019 -->
+		<primaryAccession>ON374114</primaryAccession> <!-- # A/chicken/Egypt/S19326B/2020 -->
+		<primaryAccession>KC757990</primaryAccession> <!-- # A/chicken/Bangladesh/8996/2010 -->
+		<primaryAccession>MT261612</primaryAccession> <!-- # A/chicken/Egypt/F16772D/2019 -->
+		<primaryAccession>KY635775</primaryAccession> <!-- # A/chicken/Bangladesh/26115/2015 -->
+		<primaryAccession>MW102916</primaryAccession> <!-- # A/chicken/Fujian/3.15_FZHX0022-O/2018 -->
+		<primaryAccession>ON374330</primaryAccession> <!-- # A/chicken/Egypt/N19072C/2020 -->
+		<primaryAccession>ON374370</primaryAccession> <!-- # A/chicken/Egypt/D19292/2020 -->
+		<primaryAccession>KJ801492</primaryAccession> <!-- # A/chicken/Fujian/FZ02/2011 -->
+		<primaryAccession>MH135368</primaryAccession> <!-- # A/duck/Bangladesh/33135/2017 -->
+		<primaryAccession>MW871779</primaryAccession> <!-- # A/chicken/Indonesia/5023T/2018 -->
+		<primaryAccession>MZ872659</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/957/2019 -->
+		<primaryAccession>AY043027</primaryAccession> <!-- # A/Guangzhou/333/99(H9N2) -->
+		<primaryAccession>KX185889</primaryAccession> <!-- # A/chicken/Guangxi/C1228/2015 -->
+		<primaryAccession>GU050299</primaryAccession> <!-- # A/avian/Saudi Arabia/910136/2006 -->
+		<primaryAccession>KP414497</primaryAccession> <!-- # A/chicken/Shenzhen/2477/2013 -->
+		<primaryAccession>KJ643868</primaryAccession> <!-- # A/environment/Bangladesh/18846/2013 -->
+		<primaryAccession>MZ543050</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/904/2018 -->
+		<primaryAccession>MZ543257</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/850/2018 -->
+		<primaryAccession>ON374389</primaryAccession> <!-- # A/chicken/Egypt/N19600C/2021 -->
+		<primaryAccession>KF260144</primaryAccession> <!-- # A/chicken/Hong Kong/TSTB32W/2011 -->
+		<primaryAccession>MW137739</primaryAccession> <!-- # A/chicken/Egypt/S16965D/2019 -->
+		<primaryAccession>KP287368</primaryAccession> <!-- # A/chicken/Jiangxi/1247/2014 -->
+		<primaryAccession>MF673379</primaryAccession> <!-- # A/chicken/Jordan/47/2003 -->
+		<primaryAccession>AF508709</primaryAccession> <!-- # A/duck/Germany/113/95 -->
+		<primaryAccession>AF523510</primaryAccession> <!-- # (A/Duck/Shantou/2088/01(H9N2)) -->
+		<primaryAccession>MW105436</primaryAccession> <!-- # A/chicken/Jiangxi/1.11_NCNP2E2-OC/2017 -->
+		<primaryAccession>MZ543003</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/892/2018 -->
+		<primaryAccession>KP081537</primaryAccession> <!-- # A/chicken/Anhui/1/2008 -->
+		<primaryAccession>KM609728</primaryAccession> <!-- # A/chicken/Shandong/wf0202/2012 -->
+		<primaryAccession>MH107190</primaryAccession> <!-- # A/chicken/kenitra/IAPP16S-04P_16w/2016 -->
+		<primaryAccession>ON374258</primaryAccession> <!-- # A/chicken/Egypt/N19078B/2020 -->
+		<primaryAccession>MW101938</primaryAccession> <!-- # A/chicken/Guangdong/8.30_DGCP025-O/2017 -->
+		<primaryAccession>JX273138</primaryAccession> <!-- # A/chicken/Egypt/S4456B/2011 -->
+		<primaryAccession>MW101848</primaryAccession> <!-- # A/chicken/Hainan/10.31_008-O/2018 -->
+		<primaryAccession>MH489439</primaryAccession> <!-- # A/chicken/Anhui/AH450/2017 -->
+		<primaryAccession>CY024628</primaryAccession> <!-- # A/chicken/Shantou/2098/2000(H9N2) -->
+		<primaryAccession>MH068667</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI17-3019/2017 -->
+		<primaryAccession>KJ426288</primaryAccession> <!-- # A/chicken/Jiangsu/01/2007 -->
+		<primaryAccession>CY023156</primaryAccession> <!-- # A/chicken/Shantou/4342/2002(H9N2) -->
+		<primaryAccession>ON374645</primaryAccession> <!-- # A/pigeon/Egypt/A18092/2019 -->
+		<primaryAccession>FJ464655</primaryAccession> <!-- # A/chicken/Israel/449/2007 -->
+		<primaryAccession>MW102244</primaryAccession> <!-- # A/goose/Fujian/3.15_FZHX0011-O/2018 -->
+		<primaryAccession>GU050291</primaryAccession> <!-- # A/avian/Saudi Arabia/910135/2006 -->
+		<primaryAccession>CY023684</primaryAccession> <!-- # A/chicken/Fujian/11488/2005(H9N2) -->
+		<primaryAccession>ON374007</primaryAccession> <!-- # A/chicken/EGYPT/A15660/2018 -->
+		<primaryAccession>CY125754</primaryAccession> <!-- # A/northern pintail/Interior Alaska/10BM14807R2/2010 -->
+		<primaryAccession>GU053190</primaryAccession> <!-- # A/chicken/Korea/MS96-CE6/1996 -->
+		<primaryAccession>KC757950</primaryAccession> <!-- # A/chicken/Bangladesh/9029/2010 -->
+		<primaryAccession>MF510856</primaryAccession> <!-- # A/chicken/Burkina Faso/17RS93-19/2017 -->
+		<primaryAccession>MW466068</primaryAccession> <!-- # A/environment/Bangladesh/43509/2020 -->
+		<primaryAccession>MK287811</primaryAccession> <!-- # A/chicken/Brong-Ahafo/18VIR1513-11/2017 -->
+		<primaryAccession>ON374306</primaryAccession> <!-- # A/chicken/Egypt/D19486B/2020 -->
+		<primaryAccession>KJ643812</primaryAccession> <!-- # A/chicken/Bangladesh/18857/2013 -->
+		<primaryAccession>MF794995</primaryAccession> <!-- # A/chicken/Jingmen/JM0305/2017 -->
+		<primaryAccession>KP285193</primaryAccession> <!-- # A/chicken/Jiangxi/20482/2013 -->
+		<primaryAccession>KC821263</primaryAccession> <!-- # A/chicken/Hebei/fx05/2010 -->
+		<primaryAccession>KP027631</primaryAccession> <!-- # A/chicken/Egypt/SCU20/2014 -->
+		<primaryAccession>MW103820</primaryAccession> <!-- # A/chicken/Guangdong/4.24_SZBJ007-O/2017 -->
+		<primaryAccession>MF440732</primaryAccession> <!-- # A/Beijing/1/2016 -->
+		<primaryAccession>AF508715</primaryAccession> <!-- # A/Chicken/Guangdong/10/00 -->
+		<primaryAccession>KX598756</primaryAccession> <!-- # A/chicken/Guangdong/SIC41/2015 -->
+		<primaryAccession>JN828574</primaryAccession> <!-- # A/quail/Egypt/113413v/2011 -->
+		<primaryAccession>MW105716</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDZT001-C/2018 -->
+		<primaryAccession>MW105652</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL015-O/2018 -->
+		<primaryAccession>CY023932</primaryAccession> <!-- # A/duck/Shantou/5459/2001(H9N2) -->
+		<primaryAccession>MZ543106</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/865/2018 -->
+		<primaryAccession>ON374085</primaryAccession> <!-- # A/chicken/Egypt/S18755A/2020 -->
+		<primaryAccession>MK287815</primaryAccession> <!-- # A/chicken/Ashanti/18VIR1513-33/2018 -->
+		<primaryAccession>KP286650</primaryAccession> <!-- # A/chicken/Jiangxi/23786/2013 -->
+		<primaryAccession>MW104548</primaryAccession> <!-- # A/chicken/Henan/01.01_LYGL005-C/2017 -->
+		<primaryAccession>MH135614</primaryAccession> <!-- # A/duck/Bangladesh/33138/2017 -->
+		<primaryAccession>CY041278</primaryAccession> <!-- # A/Bewick's swan/Netherlands/5/2007 -->
+		<primaryAccession>GU064948</primaryAccession> <!-- # A/chicken/Tripura/105131/2008 -->
+		<primaryAccession>CY038414</primaryAccession> <!-- # A/chicken/Pakistan/UDL-01/2005(H9N2) -->
+		<primaryAccession>MH498554</primaryAccession> <!-- # A/chicken/Egypt/D13646A/2017 -->
+		<primaryAccession>KC821256</primaryAccession> <!-- # A/chicken/Henan/DY/2009 -->
+		<primaryAccession>MH579053</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/173/2003 -->
+		<primaryAccession>MW106084</primaryAccession> <!-- # A/chicken/Jiangxi/4.30_NCDZT45N2-OC/2017 -->
+		<primaryAccession>MH560170</primaryAccession> <!-- # A/chicken/Vietnam/H7F-14-BN4-315/2014 -->
+		<primaryAccession>CY023540</primaryAccession> <!-- # A/chukkar/Shantou/338/2002(H9N2) -->
+		<primaryAccession>ON505896</primaryAccession> <!-- # A/Mallard(Anas platyrhynchos)/South Korea/KNU2021-41/2021 -->
+		<primaryAccession>MW531556</primaryAccession> <!-- # A/chicken/Benin/19-A-06-803-E_20VIR6511-39/2019 -->
+		<primaryAccession>ON374581</primaryAccession> <!-- # A/chicken/Egypt/Q14260A/2017 -->
+		<primaryAccession>HQ871936</primaryAccession> <!-- # A/chicken/Korea/GH2/2007 -->
+		<primaryAccession>FJ464656</primaryAccession> <!-- # A/chicken/Israel/524/2008 -->
+		<primaryAccession>MW102700</primaryAccession> <!-- # A/chicken/Fujian/03.15_FZHX0026-O/2018 -->
+		<primaryAccession>HM370053</primaryAccession> <!-- # A/chicken/Uchal/8286/2006 -->
+		<primaryAccession>MW935957</primaryAccession> <!-- # A/duck/Vietnam/HN4933/2018 -->
+		<primaryAccession>MZ502946</primaryAccession> <!-- # A/wild bird /Shandong/11452/2019 -->
+		<primaryAccession>KP414673</primaryAccession> <!-- # A/chicken/Dongguan/4189/2013 -->
+		<primaryAccession>KF881644</primaryAccession> <!-- # A/chicken/Egypt/S7022D/2013 -->
+		<primaryAccession>MN101108</primaryAccession> <!-- # A/chicken/China/G1435/2016 -->
+		<primaryAccession>MZ150713</primaryAccession> <!-- # A/guinea fowl/Nigeria/KD-GF152-154T_19VIR8425-1/2019 -->
+		<primaryAccession>MW102236</primaryAccession> <!-- # A/goose/Fujian/3.15_FZHX0001-C/2018 -->
+		<primaryAccession>GU474602</primaryAccession> <!-- # A/feces/Hunan/3-91/2007 -->
+		<primaryAccession>MT421031</primaryAccession> <!-- # A/American black duck/Maine/ME-Y17-326/2017 -->
+		<primaryAccession>KF260091</primaryAccession> <!-- # A/chicken/Hong Kong/NT449/2007 -->
+		<primaryAccession>MK007976</primaryAccession> <!-- # A/pigeon/Egypt/S11755/2015 -->
+		<primaryAccession>KJ643696</primaryAccession> <!-- # A/quail/Bangladesh/20177/2013 -->
+		<primaryAccession>EU753318</primaryAccession> <!-- # A/chicken/Shanghai/12/2001 -->
+		<primaryAccession>KF260160</primaryAccession> <!-- # A/chicken/Hong Kong/YU148/2012 -->
+		<primaryAccession>KP866095</primaryAccession> <!-- # A/chicken/Guangdong/C76/2012 -->
+		<primaryAccession>MZ150633</primaryAccession> <!-- # A/chicken/Nigeria/OG-BL17-21T_19VIR8424-6/2019 -->
+		<primaryAccession>ON374517</primaryAccession> <!-- # A/chicken/Egypt/F18299C/2020 -->
+		<primaryAccession>MW105204</primaryAccession> <!-- # A/chicken/Hunan/7.26_YYGK45V3-OC/2018 -->
+		<primaryAccession>MW101618</primaryAccession> <!-- # A/chicken/Jiangxi/6.26_NCDZT53R2-OC/2017 -->
+		<primaryAccession>CY023700</primaryAccession> <!-- # A/chicken/Guangxi/1857/2004(H9N2) -->
+		<primaryAccession>KF975500</primaryAccession> <!-- # A/chicken/Pakistan/289-186/2010 -->
+		<primaryAccession>MK007987</primaryAccession> <!-- # A/quail/Egypt/S13424/2016 -->
+		<primaryAccession>KY785733</primaryAccession> <!-- # A/chicken/Korea/GS-3P/2005 -->
+		<primaryAccession>KP414327</primaryAccession> <!-- # A/chicken/Shenzhen/1036/2013 -->
+		<primaryAccession>MZ150697</primaryAccession> <!-- # A/chicken/Nigeria/SK-LC6-10T_19VIR8425-10/2019 -->
+		<primaryAccession>MN853381</primaryAccession> <!-- # A/chicken/China/116C4/2012 -->
+		<primaryAccession>KX000859</primaryAccession> <!-- # A/pigeon/Egypt/S10408B/2014 -->
+		<primaryAccession>MG042437</primaryAccession> <!-- # A/quail/Bangladesh/29564/2016 -->
+		<primaryAccession>KF971953</primaryAccession> <!-- # A/wild waterfowl/Dongting/C2032/2011 -->
+		<primaryAccession>MW108772</primaryAccession> <!-- # A/duck/Jiangxi/4.30_NCNP68N2-OC/2017 -->
+		<primaryAccession>MN101119</primaryAccession> <!-- # A/chicken/China/H1620/2017 -->
+		<primaryAccession>MH180609</primaryAccession> <!-- # A/chicken/Pakistan/19/2015 -->
+		<primaryAccession>KM609738</primaryAccession> <!-- # A/chicken/Shandong/qd0307/2013 -->
+		<primaryAccession>CY023204</primaryAccession> <!-- # A/chicken/Shantou/1689/2003(H9N2) -->
+		<primaryAccession>JX437687</primaryAccession> <!-- # A/egret/Hunan/1/2012 -->
+		<primaryAccession>KY785772</primaryAccession> <!-- # A/chicken/Korea/C14/2009 -->
+		<primaryAccession>JN852783</primaryAccession> <!-- # A/duck/Korea/KNUDPJ09/2009 -->
+		<primaryAccession>MZ873040</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/951/2019 -->
+		<primaryAccession>GU086258</primaryAccession> <!-- # A/chicken/Korea/A170/2009 -->
+		<primaryAccession>MW105780</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDZT009-O/2018 -->
+		<primaryAccession>MZ542861</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/844/2018 -->
+		<primaryAccession>EU532053</primaryAccession> <!-- # A/chicken/Tianjin/B1/2004 -->
+		<primaryAccession>KF972041</primaryAccession> <!-- # A/wild waterfowl/Dongting/C4327/2012 -->
+		<primaryAccession>AF222681</primaryAccession> <!-- # A/Silky Chicken/Hong Kong/SF44/99(H9N2) -->
+		<primaryAccession>MW104756</primaryAccession> <!-- # A/chicken/Henan/12.23_LYGL004-O/2016 -->
+		<primaryAccession>MW936055</primaryAccession> <!-- # A/duck/Vietnam/HN4863/2018 -->
+		<primaryAccession>CY184153</primaryAccession> <!-- # A/mallard/Sweden/67860/2007 -->
+		<primaryAccession>MW380634</primaryAccession> <!-- # A/Bean Goose(Anser fabalis)/South Korea/KNU 2019-16/2019 -->
+		<primaryAccession>MF673355</primaryAccession> <!-- # A/chicken/Jordan/56/2003 -->
+		<primaryAccession>LC331899</primaryAccession> <!-- # A/chicken/Vietnam/HU4-2/2015 -->
+		<primaryAccession>MW375775</primaryAccession> <!-- # A/gray headed gull/Tunisia/216/2018 -->
+		<primaryAccession>KM609749</primaryAccession> <!-- # A/chicken/Jilin/1031/2012 -->
+		<primaryAccession>MH560166</primaryAccession> <!-- # A/chicken/Vietnam/H7F-14-BN4-437/2014 -->
+		<primaryAccession>MW101674</primaryAccession> <!-- # A/chicken/Hunan/08.25_YYGK22V2-OC/2017 -->
+		<primaryAccession>OM019056</primaryAccession> <!-- # A/chicken/China/CZ6/2019 -->
+		<primaryAccession>MW205098</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-712/2017 -->
+		<primaryAccession>OL370595</primaryAccession> <!-- # A/grey teal/South Australia/18-2812337-30/2018 -->
+		<primaryAccession>MW101939</primaryAccession> <!-- # A/chicken/Xinjiang/3.18_WLMQXL023-C/2017 -->
+		<primaryAccession>OL371819</primaryAccession> <!-- # A/wild waterbird/Western Australia/AS15-0827-30/2015 -->
+		<primaryAccession>MW104876</primaryAccession> <!-- # A/chicken/Hunan/09.27_YYGKZ49-O/2016 -->
+		<primaryAccession>EU753310</primaryAccession> <!-- # A/chicken/Shanghai/7/2001 -->
+		<primaryAccession>ON374701</primaryAccession> <!-- # A/chicken/Egypt/D18579A/2020 -->
+		<primaryAccession>MW103524</primaryAccession> <!-- # A/chicken/Guangdong/1.18_SZBJ008-O/2017 -->
+		<primaryAccession>MW531604</primaryAccession> <!-- # A/chicken/Benin/19-A-07-972-E_20VIR6511-3/2019 -->
+		<primaryAccession>MW103668</primaryAccession> <!-- # A/chicken/Guangdong/12.04_SZBJ007-O/2017 -->
+		<primaryAccession>MZ150729</primaryAccession> <!-- # A/guinea fowl/Nigeria/OG-GF6-8T_19VIR8424-5/2019 -->
+		<primaryAccession>CY023996</primaryAccession> <!-- # A/duck/Shantou/3577/2003(H9N2) -->
+		<primaryAccession>MH135411</primaryAccession> <!-- # A/chicken/Bangladesh/33107/2017 -->
+		<primaryAccession>MZ150641</primaryAccession> <!-- # A/chicken/Nigeria/OY-CK51-55T_19VIR8425-5/2019 -->
+		<primaryAccession>MW105668</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL017-O/2018 -->
+		<primaryAccession>MW103932</primaryAccession> <!-- # A/chicken/Guangdong/5.24_SZBJ033-C/2017 -->
+		<primaryAccession>MZ542948</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/885/2018 -->
+		<primaryAccession>AF508711</primaryAccession> <!-- # A/chicken/Saudi Arabia/532/99 -->
+		<primaryAccession>ON374797</primaryAccession> <!-- # A/chicken/EGYPT/D15830D/2018 -->
+		<primaryAccession>MH180645</primaryAccession> <!-- # A/chicken/Pakistan/984/2015 -->
+		<primaryAccession>JN543547</primaryAccession> <!-- # A/chicken/Korea/711/2006 -->
+		<primaryAccession>ON374757</primaryAccession> <!-- # A/chicken/Egypt/A18503/2020 -->
+		<primaryAccession>CY184177</primaryAccession> <!-- # A/mallard/Sweden/99668/2009 -->
+		<primaryAccession>CY023332</primaryAccession> <!-- # A/chicken/Shantou/2692/2004(H9N2) -->
+		<primaryAccession>JF795074</primaryAccession> <!-- # A/chicken/Shandong/03/2010 -->
+		<primaryAccession>MW104212</primaryAccession> <!-- # A/chicken/Guangdong/9.28_SZBJ024-O/2017 -->
+		<primaryAccession>KF260156</primaryAccession> <!-- # A/chicken/Hong Kong/WF3/2012 -->
+		<primaryAccession>KC757958</primaryAccession> <!-- # A/environment/Bangladesh/10306/2011 -->
+		<primaryAccession>KM609725</primaryAccession> <!-- # A/chicken/Shandong/wf12010/2012 -->
+		<primaryAccession>DQ485228</primaryAccession> <!-- # A/chicken/China/Guangxi17/2000 -->
+		<primaryAccession>AF523506</primaryAccession> <!-- # (A/Duck/Shantou/2144/00(H9N2)) -->
+		<primaryAccession>KF260151</primaryAccession> <!-- # A/chicken/Hong Kong/CSW530/2011 -->
+		<primaryAccession>KC821285</primaryAccession> <!-- # A/chicken/Hebei/FL/2011 -->
+		<primaryAccession>MH560172</primaryAccession> <!-- # A/chicken/Vietnam/H7F-CB4-35/2014 -->
+		<primaryAccession>KF881455</primaryAccession> <!-- # A/chicken/Egypt/D4905B/2012 -->
+		<primaryAccession>MW104524</primaryAccession> <!-- # A/chicken/Hainan/11.26_003-O/2018 -->
+		<primaryAccession>MZ873376</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/987/2019 -->
+		<primaryAccession>CY126236</primaryAccession> <!-- # A/chicken/El Fayoum/CAI25/2011 -->
+		<primaryAccession>MW105972</primaryAccession> <!-- # A/chicken/Jiangxi/2.28_NCDZT74K3-OC/2018 -->
+		<primaryAccession>CY023588</primaryAccession> <!-- # A/chicken/Fujian/6188/2005(H9N2) -->
+		<primaryAccession>CY023316</primaryAccession> <!-- # A/chicken/Shantou/1926/2004(H9N2) -->
+		<primaryAccession>KY635773</primaryAccession> <!-- # A/chicken/Bangladesh/28182/2016 -->
+		<primaryAccession>MW936114</primaryAccession> <!-- # A/duck/Vietnam/HN4940/2018 -->
+		<primaryAccession>MH560160</primaryAccession> <!-- # A/chicken/Vietnam/H7F-14-CB4-18/2014 -->
+		<primaryAccession>MH791811</primaryAccession> <!-- # A/duck/Bangladesh/34286/2017 -->
+		<primaryAccession>MZ872723</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/966/2019 -->
+		<primaryAccession>ON374485</primaryAccession> <!-- # A/chicken/Egypt/A18497/2020 -->
+		<primaryAccession>CY023956</primaryAccession> <!-- # A/duck/Shantou/4103/2002(H9N2) -->
+		<primaryAccession>KT362042</primaryAccession> <!-- # A/chicken/Bangladesh/23527/2014 -->
+		<primaryAccession>MZ872949</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/950/2019 -->
+		<primaryAccession>MW101998</primaryAccession> <!-- # A/chicken/Fujian/3.15_FZHX0025-O/2018 -->
+		<primaryAccession>CY031271</primaryAccession> <!-- # A/duck/Hong Kong/702/1979-chicken adapted(H9N2) -->
+		<primaryAccession>CY023548</primaryAccession> <!-- # A/chicken/Fujian/3080/2005(H9N2) -->
+		<primaryAccession>LC427535</primaryAccession> <!-- # A/chicken/Vietnam/HU7-998/2017 -->
+		<primaryAccession>CY099349</primaryAccession> <!-- # A/chicken/India/IVRI-0004/2010 -->
+		<primaryAccession>MZ502898</primaryAccession> <!-- # A/wild bird /Shandong/11187/2019 -->
+		<primaryAccession>MW110348</primaryAccession> <!-- # A/pigeon/Henan/01.01_LYGL002-O/2017 -->
+		<primaryAccession>MZ872941</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/922/2019 -->
+		<primaryAccession>KF972097</primaryAccession> <!-- # A/wild waterfowl/Dongting/PC2559/2012 -->
+		<primaryAccession>KU042501</primaryAccession> <!-- # A/chicken/Zhejiang/C58/2013 -->
+		<primaryAccession>MW165141</primaryAccession> <!-- # A/chicken/Morocco/AS71/2019 -->
+		<primaryAccession>KP178500</primaryAccession> <!-- # A/ostrich/Hebei/28/2013 -->
+		<primaryAccession>HM751158</primaryAccession> <!-- # A/chicken/Shandong/PD/2009 -->
+		<primaryAccession>AY790309</primaryAccession> <!-- # A/Swine/Korea/S452/2004 (H9N2) -->
+		<primaryAccession>ON374298</primaryAccession> <!-- # A/chicken/Egypt/N19302B/2020 -->
+		<primaryAccession>MW102038</primaryAccession> <!-- # A/environment/Jiangxi/2.16_SRGFYK083-E/2017 -->
+		<primaryAccession>LC431374</primaryAccession> <!-- # A/turkey/New York/11275/1999 -->
+		<primaryAccession>MW105636</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL013-O/2018 -->
+		<primaryAccession>KC821252</primaryAccession> <!-- # A/chicken/Hebei/DF/2008 -->
+		<primaryAccession>KF746758</primaryAccession> <!-- # A/chicken/Jiangsu/245/2004 -->
+		<primaryAccession>OM019057</primaryAccession> <!-- # A/chicken/Hebei/BD1/2016 -->
+		<primaryAccession>KC757974</primaryAccession> <!-- # A/pigeon/Bangladesh/4303/2009 -->
+		<primaryAccession>KC821268</primaryAccession> <!-- # A/chicken/Beijing/HD/2010 -->
+		<primaryAccession>HM751198</primaryAccession> <!-- # A/chicken/Shandong/SG2/2009 -->
+		<primaryAccession>JQ254988</primaryAccession> <!-- # A/chicken/Israel/1302/2010 -->
+		<primaryAccession>KF188370</primaryAccession> <!-- # A/chicken/Hong Kong/G9/1997 -->
+		<primaryAccession>KX349959</primaryAccession> <!-- # A/duck/Nanjing/06/2003 -->
+		<primaryAccession>JF795098</primaryAccession> <!-- # A/chicken/Shandong/H/2009 -->
+		<primaryAccession>KC779055</primaryAccession> <!-- # A/swine/Henan/Y1/2009 -->
+		<primaryAccession>KX783322</primaryAccession> <!-- # A/environment/Zhongshan/ZS201502/2015 -->
+		<primaryAccession>MH068387</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI17-1978/2017 -->
+		<primaryAccession>KC821266</primaryAccession> <!-- # A/chicken/Shandong/11/2010 -->
+		<primaryAccession>MW103548</primaryAccession> <!-- # A/chicken/Guangdong/1.25_SZBJ012-O/2018 -->
+		<primaryAccession>ON505888</primaryAccession> <!-- # A/Bean Goose(Anser fabalis)/South Korea/KNU2021-39/2021 -->
+		<primaryAccession>EU835744</primaryAccession> <!-- # A/chicken/Henan/L3/2008 -->
+		<primaryAccession>KP178532</primaryAccession> <!-- # A/ostrich/Hebei/182/2014 -->
+		<primaryAccession>CY024436</primaryAccession> <!-- # A/partridge/Shantou/7075/2004(H9N2) -->
+		<primaryAccession>KP414457</primaryAccession> <!-- # A/chicken/Shenzhen/2014/2013 -->
+		<primaryAccession>MW105676</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL019-O/2018 -->
+		<primaryAccession>MT261629</primaryAccession> <!-- # A/chicken/Egypt/S16705C/2019 -->
+		<primaryAccession>KC821261</primaryAccession> <!-- # A/chicken/Shandong/sd02/2010 -->
+		<primaryAccession>KF768233</primaryAccession> <!-- # A/duck/Guangxi/RX/2009 -->
+		<primaryAccession>KM411632</primaryAccession> <!-- # A/chicken/Shandong/Li-2/2010 -->
+		<primaryAccession>MW137716</primaryAccession> <!-- # A/chicken/Egypt/Q18036B/2019 -->
+		<primaryAccession>MW873289</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN6414/2020 -->
+		<primaryAccession>DQ485220</primaryAccession> <!-- # A/chicken/China/Guangxi14/2000 -->
+		<primaryAccession>MN101112</primaryAccession> <!-- # A/chicken/China/G328/2016 -->
+		<primaryAccession>ON374573</primaryAccession> <!-- # A/chicken/Egypt/A18607/2020 -->
+		<primaryAccession>MZ543170</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/876/2018 -->
+		<primaryAccession>MW531636</primaryAccession> <!-- # A/chicken/Benin/20-A-03-2027-E_20VIR6511-11/2020 -->
+		<primaryAccession>KJ426360</primaryAccession> <!-- # A/chicken/Shandong/WF0513/2012 -->
+		<primaryAccession>KU042496</primaryAccession> <!-- # A/chicken/Zhejiang/C47/2013 -->
+		<primaryAccession>MW165080</primaryAccession> <!-- # A/chicken/Morocco/AS14/2018 -->
+		<primaryAccession>KP285881</primaryAccession> <!-- # A/chicken/Jiangxi/9696/2013 -->
+		<primaryAccession>MZ873232</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/930/2019 -->
+		<primaryAccession>KY794639</primaryAccession> <!-- # A/duck/Guangdong/A9/2016 -->
+		<primaryAccession>MH560174</primaryAccession> <!-- # A/chicken/Vietnam/H7F-LC4-51/2014 -->
+		<primaryAccession>MN908069</primaryAccession> <!-- # A/Ruddy Turnstone/Delaware/418/2019 -->
+		<primaryAccession>MH791689</primaryAccession> <!-- # A/quail/Bangladesh/34294/2017 -->
+		<primaryAccession>MK796820</primaryAccession> <!-- # A/chicken/Algeria/12BBD/2017 -->
+		<primaryAccession>MZ543241</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/831/2018 -->
+		<primaryAccession>KF972001</primaryAccession> <!-- # A/wild waterfowl/Dongting/C3109 /2011 -->
+		<primaryAccession>KU042492</primaryAccession> <!-- # A/chicken/Zhejiang/C31/2013 -->
+		<primaryAccession>ON374903</primaryAccession> <!-- # A/chicken/Egypt/N14498A/2017 -->
+		<primaryAccession>LC364301</primaryAccession> <!-- # A/chicken/Vietnam/HU8-1599/2017 -->
+		<primaryAccession>KF260155</primaryAccession> <!-- # A/chicken/Hong Kong/YO6/2012 -->
+		<primaryAccession>KF059317</primaryAccession> <!-- # A/chicken/Tianjin/614/2012 -->
+		<primaryAccession>KF188269</primaryAccession> <!-- # A/duck/Hong Kong/Y439/1997 -->
+		<primaryAccession>CY146517</primaryAccession> <!-- # A/mallard/Arkansas/AI09-5649/2009 -->
+		<primaryAccession>MW108180</primaryAccession> <!-- # A/duck/Hunan/12.24_YYGK81E4-O/2018 -->
+		<primaryAccession>KC821283</primaryAccession> <!-- # A/chicken/Shandong/03/2011 -->
+		<primaryAccession>MH114054</primaryAccession> <!-- # A/Accipiter gentilis schvedowi/Tianjin/22/2017 -->
+		<primaryAccession>KP414657</primaryAccession> <!-- # A/chicken/Dongguan/4068/2013 -->
+		<primaryAccession>KX867837</primaryAccession> <!-- # A/chicken/Anhui/AH120/2015 -->
+		<primaryAccession>KM609742</primaryAccession> <!-- # A/chicken/Shandong/lc0903/2013 -->
+		<primaryAccession>JQ364985</primaryAccession> <!-- # A/chicken/Iran/ZMT-101/1998 -->
+		<primaryAccession>MW159278</primaryAccession> <!-- # A/chicken/Benin/19-A-01-163-E/2019 -->
+		<primaryAccession>JF795082</primaryAccession> <!-- # A/chicken/Shandong/BD/2008 -->
+		<primaryAccession>ON374421</primaryAccession> <!-- # A/chicken/Egypt/D19290A/2020 -->
+		<primaryAccession>ON374637</primaryAccession> <!-- # A/chicken/Egypt/A18717/2020 -->
+		<primaryAccession>MZ873294</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/912/2018 -->
+		<primaryAccession>ON376823</primaryAccession> <!-- # A/chicken/China/2106/2021 -->
+		<primaryAccession>MW106612</primaryAccession> <!-- # A/chicken/Ningxia/11.01_XXYN015-O/2016 -->
+		<primaryAccession>KM519977</primaryAccession> <!-- # A/chicken/India/82565/2008 -->
+		<primaryAccession>KX783324</primaryAccession> <!-- # A/environment/Zhongshan/ZS201504/2015 -->
+		<primaryAccession>MW935889</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5136/2018 -->
+		<primaryAccession>MW101866</primaryAccession> <!-- # A/chicken/Hainan/1.14_HKPL004-O/2018 -->
+		<primaryAccession>FJ534540</primaryAccession> <!-- # A/chicken/Henan/1.2/2008 -->
+		<primaryAccession>MW101850</primaryAccession> <!-- # A/chicken/Guangdong/08.29_SZBJ004-O/2017 -->
+		<primaryAccession>KP285425</primaryAccession> <!-- # A/chicken/Jiangxi/30772/2013 -->
+		<primaryAccession>CY206689</primaryAccession> <!-- # A/mallard/Southcentral Alaska/12ML00951/2014 -->
+		<primaryAccession>CY006019</primaryAccession> <!-- # A/Quail/Nanchang/2-0460/2000 -->
+		<primaryAccession>OK255510</primaryAccession> <!-- # A/Wild Duck/South Korea/KNU2020-110/2020 -->
+		<primaryAccession>KJ725016</primaryAccession> <!-- # A/turtledove/Guangxi/49B6/2013 -->
+		<primaryAccession>MW101615</primaryAccession> <!-- # A/chicken/Jiangxi/4.30_NCDZT50N2-OC/2017 -->
+		<primaryAccession>MZ873088</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/961/2019 -->
+		<primaryAccession>MW165156</primaryAccession> <!-- # A/chicken/Morocco/AS13/2018 -->
+		<primaryAccession>MH560165</primaryAccession> <!-- # A/chicken/Vietnam/H7F-14-BN4-423/2014 -->
+		<primaryAccession>KJ643820</primaryAccession> <!-- # A/environment/Bangladesh/20199/2013 -->
+		<primaryAccession>KU042482</primaryAccession> <!-- # A/chicken/Zhejiang/C7199/2013 -->
+		<primaryAccession>AF222672</primaryAccession> <!-- # A/Quail/Hong Kong/A17/99(H9N2) -->
+		<primaryAccession>KF881578</primaryAccession> <!-- # A/chicken/Egypt/S5442C/2012 -->
+		<primaryAccession>CY075034</primaryAccession> <!-- # A/swine/Guangxi/7/2007 -->
+		<primaryAccession>MG042215</primaryAccession> <!-- # A/duck/Bangladesh/31298/2016 -->
+		<primaryAccession>MH560169</primaryAccession> <!-- # A/chicken/Vietnam/NCVD-15A13/2015 -->
+		<primaryAccession>MH791731</primaryAccession> <!-- # A/environment/Bangladesh/34578/2018 -->
+		<primaryAccession>CY087191</primaryAccession> <!-- # A/duck/Tibet/S2/2009 -->
+		<primaryAccession>CY194169</primaryAccession> <!-- # A/mallard/Southcentral Alaska/12ML01469/2014 -->
+		<primaryAccession>OM938288</primaryAccession> <!-- # A/quail/Bangladesh/46264/2020 -->
+		<primaryAccession>EU982312</primaryAccession> <!-- # A/turkey/TX/10-49-89/1989 -->
+		<primaryAccession>JF795066</primaryAccession> <!-- # A/chicken/Shandong/02/2010 -->
+		<primaryAccession>MN880185</primaryAccession> <!-- # A/chicken/China/C/2013 -->
+		<primaryAccession>ON374413</primaryAccession> <!-- # A/chicken/Egypt/A19245/2020 -->
+		<primaryAccession>KJ643616</primaryAccession> <!-- # A/environment/Bangladesh/19336/2013 -->
+		<primaryAccession>MW106812</primaryAccession> <!-- # A/chicken/Shanxi/01.01_TGYL011-C/2017 -->
+		<primaryAccession>MZ542877</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/887/2018 -->
+		<primaryAccession>MW109020</primaryAccession> <!-- # A/duck/Xinjiang/10.13_WLMQXL001-O/2018 -->
+		<primaryAccession>MW105548</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL003-O/2018 -->
+		<primaryAccession>CY024492</primaryAccession> <!-- # A/pheasant/Shantou/111/2005(H9N2) -->
+		<primaryAccession>MZ872739</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/959/2019 -->
+		<primaryAccession>KJ426283</primaryAccession> <!-- # A/chicken/Guangdong/01/2008 -->
+		<primaryAccession>KP289322</primaryAccession> <!-- # A/environment/Hunan/20502/2013 -->
+		<primaryAccession>EU532047</primaryAccession> <!-- # A/chicken/Hebei/B1/2001 -->
+		<primaryAccession>MW102210</primaryAccession> <!-- # A/duck/Fujian/10.23_FZHX0142-C/2018 -->
+		<primaryAccession>CY024716</primaryAccession> <!-- # A/chicken/Shantou/4208/2001(H9N2) -->
+		<primaryAccession>MT261683</primaryAccession> <!-- # A/chicken/Egypt/S16703D/2019 -->
+		<primaryAccession>KF975495</primaryAccession> <!-- # A/chicken/Pakistan/283-11/2010 -->
+		<primaryAccession>KF746773</primaryAccession> <!-- # A/chicken/Shandong/382/2009 -->
+		<primaryAccession>KF260080</primaryAccession> <!-- # A/chicken/Hong Kong/NT406/2006 -->
+		<primaryAccession>MW205191</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-782/2017 -->
+		<primaryAccession>CY023924</primaryAccession> <!-- # A/duck/Shantou/5401/2001(H9N2) -->
+		<primaryAccession>CY206232</primaryAccession> <!-- # A/blue-winged teal/Texas/AI12-3658/2012 -->
+		<primaryAccession>MW493173</primaryAccession> <!-- # A/Falcated duck/South Korea/JB42-93/2020 -->
+		<primaryAccession>JN540060</primaryAccession> <!-- # A/chicken/Sawabi/NARC-2434/2006 -->
+		<primaryAccession>CY144478</primaryAccession> <!-- # A/ruddy turnstone/Delaware/AI03-123/2003 -->
+		<primaryAccession>MK240243</primaryAccession> <!-- # A/chicken/Algeria/210/2017 -->
+		<primaryAccession>MW105916</primaryAccession> <!-- # A/chicken/Jiangxi/11.29_NCNP37H2-O/2016 -->
+		<primaryAccession>MW871650</primaryAccession> <!-- # A/chicken/Indonesia/5975T/2019 -->
+		<primaryAccession>AF508720</primaryAccession> <!-- # A/Chicken/Ningxia/5/99 -->
+		<primaryAccession>AB262467</primaryAccession> <!-- # A/duck/Hokkaido/9/99 -->
+		<primaryAccession>HQ117890</primaryAccession> <!-- # A/chicken/Guangxi/KMIII/1999 -->
+		<primaryAccession>KT157828</primaryAccession> <!-- # A/chicken/Shandong/YT819/2015 -->
+		<primaryAccession>MW104764</primaryAccession> <!-- # A/chicken/Henan/12.23_LYGL006-O/2016 -->
+		<primaryAccession>KU366364</primaryAccession> <!-- # A/duck/Jiangxi/7554/2007 -->
+		<primaryAccession>KU042495</primaryAccession> <!-- # A/chicken/Zhejiang/C46/2013 -->
+		<primaryAccession>KU143454</primaryAccession> <!-- # A/duck/Wenzhou/YHQL64/2014 -->
+		<primaryAccession>KT361976</primaryAccession> <!-- # A/chicken/Bangladesh/23529/2014 -->
+		<primaryAccession>MH791625</primaryAccession> <!-- # A/environment/Bangladesh/34270/2017 -->
+		<primaryAccession>MW101992</primaryAccession> <!-- # A/chicken/Fujian/3.15_FZHX0013-O/2018 -->
+		<primaryAccession>JQ254978</primaryAccession> <!-- # A/chicken/Israel/1184/2010 -->
+		<primaryAccession>MH135678</primaryAccession> <!-- # A/chicken/Bangladesh/33386/2017 -->
+		<primaryAccession>KU042503</primaryAccession> <!-- # A/chicken/Zhejiang/W41/2013 -->
+		<primaryAccession>KF746823</primaryAccession> <!-- # A/chicken/Shandong/241/2001 -->
+		<primaryAccession>AF508718</primaryAccession> <!-- # A/Chicken/Heilongjiang/10/97 -->
+		<primaryAccession>ON374170</primaryAccession> <!-- # A/pigeon/Egypt/D19471/2020 -->
+		<primaryAccession>MF682665</primaryAccession> <!-- # A/mallard duck/Netherlands/1/2005 -->
+		<primaryAccession>MW106884</primaryAccession> <!-- # A/chicken/Shanxi/06.28_TGRL001-O/2018 -->
+		<primaryAccession>KF260214</primaryAccession> <!-- # A/chicken/Rizhao/723/2013 -->
+		<primaryAccession>KF260087</primaryAccession> <!-- # A/chicken/Hong Kong/HH45/2007 -->
+		<primaryAccession>MH560171</primaryAccession> <!-- # A/chicken/Vietnam/H7F-14-BN4-339/2014 -->
+		<primaryAccession>MF113062</primaryAccession> <!-- # A/chicken/Jiangxi/12/2011 -->
+		<primaryAccession>LC208483</primaryAccession> <!-- # A/chicken/Japan/AQ-HE61/2015 -->
+		<primaryAccession>KF746781</primaryAccession> <!-- # A/chicken/Henan/323/2008 -->
+		<primaryAccession>MW105684</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL022-O/2018 -->
+		<primaryAccession>MW466431</primaryAccession> <!-- # A/quail/Bangladesh/41265/2019 -->
+		<primaryAccession>CY024684</primaryAccession> <!-- # A/silky chicken/Shantou/2619/2001(H9N2) -->
+		<primaryAccession>KP285201</primaryAccession> <!-- # A/chicken/Jiangxi/20489/2013 -->
+		<primaryAccession>CY023788</primaryAccession> <!-- # A/chicken/Hunan/2903/2005(H9N2) -->
+		<primaryAccession>MZ872667</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/976/2019 -->
+		<primaryAccession>MT261444</primaryAccession> <!-- # A/chicken/Egypt/F16774B/2019 -->
+		<primaryAccession>MW105300</primaryAccession> <!-- # A/chicken/Jiangxi/09.22_NCNP19C2-O/2016 -->
+		<primaryAccession>MW105836</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDZT021-O/2018 -->
+		<primaryAccession>MW109452</primaryAccession> <!-- # A/environment/Jiangxi/08.26_NCDZTY92-E/2016 -->
+		<primaryAccession>KU042485</primaryAccession> <!-- # A/chicken/Zhejiang/C71921/2013 -->
+		<primaryAccession>KP287136</primaryAccession> <!-- # A/chicken/Jiangxi/36240/2013 -->
+		<primaryAccession>MW101701</primaryAccession> <!-- # A/chicken/Hunan/08.25_YYGK38V2-OC/2017 -->
+		<primaryAccession>KX783327</primaryAccession> <!-- # A/environment/Zhongshan/ZS201601/2016 -->
+		<primaryAccession>AF222824</primaryAccession> <!-- # A/Swine/Hong Kong/9/98 -->
+		<primaryAccession>MZ543026</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/872/2018 -->
+		<primaryAccession>MT261635</primaryAccession> <!-- # A/chicken/Egypt/S16702D/2019 -->
+		<primaryAccession>KX867853</primaryAccession> <!-- # A/Guangdong/W1/2004 -->
+		<primaryAccession>MZ150593</primaryAccession> <!-- # A/chicken/Nigeria/AB-L1-4T_19VIR8425-12/2019 -->
+		<primaryAccession>KF260134</primaryAccession> <!-- # A/chicken/Hong Kong/CRA45W/2010 -->
+		<primaryAccession>MZ872691</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/954/2019 -->
+		<primaryAccession>KX867845</primaryAccession> <!-- # A/chicken/Jiangsu/JS4539/2014 -->
+		<primaryAccession>ON374266</primaryAccession> <!-- # A/chicken/Egypt/N19606C/2021 -->
+		<primaryAccession>ON374858</primaryAccession> <!-- # A/chicken/EGYPT/A15802/2018 -->
+		<primaryAccession>MK240301</primaryAccession> <!-- # A/chicken/Algeria/225/2017 -->
+		<primaryAccession>ON374242</primaryAccession> <!-- # A/chicken/Egypt/S18985B/2020 -->
+		<primaryAccession>CY077088</primaryAccession> <!-- # A/chicken/Hubei/01/1999 -->
+		<primaryAccession>MF113096</primaryAccession> <!-- # A/duck/Jiangxi/16/2011 -->
+		<primaryAccession>KJ643655</primaryAccession> <!-- # A/quail/Bangladesh/18210/2012 -->
+		<primaryAccession>MN101098</primaryAccession> <!-- # A/chicken/China/F2219/2015 -->
+		<primaryAccession>MG042238</primaryAccession> <!-- # A/chicken/Bangladesh/30030/2016 -->
+		<primaryAccession>CY023948</primaryAccession> <!-- # A/duck/Shantou/32/2002(H9N2) -->
+		<primaryAccession>OM938310</primaryAccession> <!-- # A/chicken/Bangladesh/46338/2020 -->
+		<primaryAccession>MW103604</primaryAccession> <!-- # A/chicken/Guangdong/10.21_SZBJ007-O/2016 -->
+		<primaryAccession>KF260150</primaryAccession> <!-- # A/chicken/Hong Kong/YO173W/2011 -->
+		<primaryAccession>KX000783</primaryAccession> <!-- # A/chicken/Egypt/F10993B/2015 -->
+		<primaryAccession>JF795106</primaryAccession> <!-- # A/chicken/Shandong/KD/2009 -->
+		<primaryAccession>ON374322</primaryAccession> <!-- # A/chicken/Egypt/N19604D/2021 -->
+		<primaryAccession>KJ426286</primaryAccession> <!-- # A/chicken/Jiangsu/03/2007 -->
+		<primaryAccession>ON374138</primaryAccession> <!-- # A/chicken/Egypt/N19766D/2021 -->
+		<primaryAccession>KU143457</primaryAccession> <!-- # A/chicken/Wuhan/JXQL01/2015 -->
+		<primaryAccession>FJ464650</primaryAccession> <!-- # A/chicken/Israel/292/2008 -->
+		<primaryAccession>CY024060</primaryAccession> <!-- # A/partridge/Shantou/4525/2002(H9N2) -->
+		<primaryAccession>ON374250</primaryAccession> <!-- # A/chicken/Egypt/S19708B/2021 -->
+		<primaryAccession>KP412436</primaryAccession> <!-- # A/sparrow/Shanghai/09/2013 -->
+		<primaryAccession>AB874679</primaryAccession> <!-- # A/duck/Chiba/1/2007 -->
+		<primaryAccession>ON374493</primaryAccession> <!-- # A/chicken/Egypt/S18643D/2020 -->
+		<primaryAccession>FJ793376</primaryAccession> <!-- # A/chicken/Jiangsu/1/2004 -->
+		<primaryAccession>MZ277373</primaryAccession> <!-- # A/Greater white-fronted goose/Iran/C268_2020/2019 -->
+		<primaryAccession>MW159236</primaryAccession> <!-- # A/chicken/Benin/19-A-03-392-E/2019 -->
+		<primaryAccession>MZ150665</primaryAccession> <!-- # A/chicken/Nigeria/RV-CK16-20T_19VIR8424-4/2019 -->
+		<primaryAccession>MW101567</primaryAccession> <!-- # A/chicken/Henan/01.28_LYGL011-C/2017 -->
+		<primaryAccession>MW108780</primaryAccession> <!-- # A/duck/Jiangxi/4.30_NCNP69N2-OC/2017 -->
+		<primaryAccession>CY023596</primaryAccession> <!-- # A/chicken/Fujian/6960/2005(H9N2) -->
+		<primaryAccession>KY785897</primaryAccession> <!-- # A/quail/Hong Kong/G1/1997 -->
+		<primaryAccession>KP285505</primaryAccession> <!-- # A/duck/Jiangxi/20147/2013 -->
+		<primaryAccession>MF673363</primaryAccession> <!-- # A/chicken/Jordan/14/2003 -->
+		<primaryAccession>HQ221604</primaryAccession> <!-- # A/duck/Korea/CBU08107/2008 -->
+		<primaryAccession>MN765090</primaryAccession> <!-- # A/chicken/Shandong/1784/2019 -->
+		<primaryAccession>MZ543146</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/867/2018 -->
+		<primaryAccession>KC821251</primaryAccession> <!-- # A/chicken/Hebei/TS/2008 -->
+		<primaryAccession>MG042343</primaryAccession> <!-- # A/quail/Bangladesh/31043/2016 -->
+		<primaryAccession>MG645326</primaryAccession> <!-- # A/layer chicken/Bangladesh/VP03/2016 -->
+		<primaryAccession>MH285326</primaryAccession> <!-- # A/duck/Cambodia/Z684W41M1/2015 -->
+		<primaryAccession>MW871839</primaryAccession> <!-- # A/chicken/Indonesia/4974T/2018 -->
+		<primaryAccession>MZ542963</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/889/2018 -->
+		<primaryAccession>MW159285</primaryAccession> <!-- # A/chicken/Benin/19-A-03-395-E/2019 -->
+		<primaryAccession>KP285185</primaryAccession> <!-- # A/chicken/Jiangxi/20478/2013 -->
+		<primaryAccession>LC426806</primaryAccession> <!-- # A/duck/Vietnam/HU3-600/2015 -->
+		<primaryAccession>MG957571</primaryAccession> <!-- # A/chicken/Bangladesh/31974/2017 -->
+		<primaryAccession>LC042047</primaryAccession> <!-- # A/duck/Hokkaido/K04/2014 -->
+		<primaryAccession>CY024572</primaryAccession> <!-- # A/chicken/Shantou/94/2000(H9N2) -->
+		<primaryAccession>MW106156</primaryAccession> <!-- # A/chicken/Jiangxi/4.30_NCDZT61N2-OC/2017 -->
+		<primaryAccession>ON374629</primaryAccession> <!-- # A/pigeon/Egypt/A18091/2019 -->
+		<primaryAccession>CY023820</primaryAccession> <!-- # A/chicken/Hunan/4444/2005(H9N2) -->
+		<primaryAccession>MN101008</primaryAccession> <!-- # A/chicken/China/D1900/2013 -->
+		<primaryAccession>CY023628</primaryAccession> <!-- # A/partridge/Shantou/354/2002(H9N2) -->
+		<primaryAccession>JX094858</primaryAccession> <!-- # A/chicken/Korea/01310/2001 -->
+		<primaryAccession>LC000608</primaryAccession> <!-- # A/chicken/Long An/63/2014 -->
+		<primaryAccession>MT261590</primaryAccession> <!-- # A/chicken/Egypt/S16692/2019 -->
+		<primaryAccession>KJ568317</primaryAccession> <!-- # A/mallard/Ohio/13OS3856/2013 -->
+		<primaryAccession>HQ221616</primaryAccession> <!-- # A/chicken/Korea/SH0911/2009 -->
+		<primaryAccession>MK250037</primaryAccession> <!-- # A/chicken/Qingyuan/zd201602/2016 -->
+		<primaryAccession>MW936210</primaryAccession> <!-- # A/duck/Vietnam/HN4730/2018 -->
+		<primaryAccession>KJ643663</primaryAccession> <!-- # A/chicken/Bangladesh/18283/2012 -->
+		<primaryAccession>CY024516</primaryAccession> <!-- # A/Guinea fowl/Shantou/8955/2005(H9N2) -->
+		<primaryAccession>ON374717</primaryAccession> <!-- # A/chicken/Egypt/S18523C/2020 -->
+		<primaryAccession>KC821272</primaryAccession> <!-- # A/chicken/Shandong/09/2011 -->
+		<primaryAccession>JN543541</primaryAccession> <!-- # A/chicken/Korea/50/2006 -->
+		<primaryAccession>LC497141</primaryAccession> <!-- # A/chicken/Vietnam/HU9-506/2018 -->
+		<primaryAccession>CY103003</primaryAccession> <!-- # A/sanderling/Delaware Bay/449/2006 -->
+		<primaryAccession>KM609736</primaryAccession> <!-- # A/chicken/Shandong/qd0427/2012 -->
+		<primaryAccession>MW108836</primaryAccession> <!-- # A/duck/Jiangxi/4.30_NCNP95N2-OC/2017 -->
+		<primaryAccession>MT261621</primaryAccession> <!-- # A/chicken/Egypt/S16703C/2019 -->
+		<primaryAccession>FJ464659</primaryAccession> <!-- # A/chicken/Israel/933/2007 -->
+		<primaryAccession>MH180604</primaryAccession> <!-- # A/chicken/Pakistan/977/2015 -->
+		<primaryAccession>ON374429</primaryAccession> <!-- # A/chicken/Egypt/A19610/2021 -->
+		<primaryAccession>KF142485</primaryAccession> <!-- # A/duck/Jiangsu/1/2008 -->
+		<primaryAccession>CY024692</primaryAccession> <!-- # A/chicken/Shantou/2712/2001(H9N2) -->
+		<primaryAccession>ON374443</primaryAccession> <!-- # A/chicken/Egypt/A19246/2020 -->
+		<primaryAccession>MH180608</primaryAccession> <!-- # A/chicken/Pakistan/411/2015 -->
+		<primaryAccession>KF972057</primaryAccession> <!-- # A/wild waterfowl/Dongting/C4429/2012 -->
+		<primaryAccession>KP285809</primaryAccession> <!-- # A/chicken/Jiangxi/19407/2013 -->
+		<primaryAccession>ON374918</primaryAccession> <!-- # A/chicken/EGYPT/A15073/2018 -->
+		<primaryAccession>MZ150673</primaryAccession> <!-- # A/chicken/Nigeria/RV-CK6-10T_19VIR8425-6/2019 -->
+		<primaryAccession>MN101115</primaryAccession> <!-- # A/chicken/China/G46/2016 -->
+		<primaryAccession>MW103492</primaryAccession> <!-- # A/chicken/Guangdong/08.29_SZBJ022-O/2017 -->
+		<primaryAccession>KM609735</primaryAccession> <!-- # A/chicken/Shandong/qd0516/2012 -->
+		<primaryAccession>MW871824</primaryAccession> <!-- # A/chicken/Indonesia/4986T/2018 -->
+		<primaryAccession>MW159159</primaryAccession> <!-- # A/chicken/Benin/18-A-12-23-E/2018 -->
+		<primaryAccession>KC693644</primaryAccession> <!-- # A/white-fronted goose/Korea/20-36/2007 -->
+		<primaryAccession>AF523514</primaryAccession> <!-- # (A/Wild Duck/Shantou/4808/01(H9N2)) -->
+		<primaryAccession>MW101825</primaryAccession> <!-- # A/chicken/Guizhou/7.27_ZYLJJ006-O/2018 -->
+		<primaryAccession>JQ254983</primaryAccession> <!-- # A/chicken/Israel/1293/2010 -->
+		<primaryAccession>KP178508</primaryAccession> <!-- # A/ostrich/Beijing/142/2013 -->
+		<primaryAccession>CY006024</primaryAccession> <!-- # A/chicken/Nanchang/4-301/2001 -->
+		<primaryAccession>MW159330</primaryAccession> <!-- # A/chicken/Benin/19-A-01-179-E/2019 -->
+		<primaryAccession>FJ464653</primaryAccession> <!-- # A/chicken/Israel/386/2007 -->
+		<primaryAccession>JN543558</primaryAccession> <!-- # A/chicken/Korea/575/2007 -->
+		<primaryAccession>KP414529</primaryAccession> <!-- # A/chicken/Dongguan/2754/2013 -->
+		<primaryAccession>JF795140</primaryAccession> <!-- # A/chicken/Shandong/WF/1998 -->
+		<primaryAccession>KU143453</primaryAccession> <!-- # A/chicken/Wenzhou/YHQL04/2014 -->
+		<primaryAccession>KJ643767</primaryAccession> <!-- # A/environment/Bangladesh/19842/2013 -->
+		<primaryAccession>MK250371</primaryAccession> <!-- # A/chicken/Shaoguan/zd201603/2017 -->
+		<primaryAccession>MZ502954</primaryAccession> <!-- # A/wild bird /Shandong/4629/2019 -->
+		<primaryAccession>JQ254958</primaryAccession> <!-- # A/chicken/Israel/32/2009 -->
+		<primaryAccession>MH791914</primaryAccession> <!-- # A/environment/Bangladesh/34343/2017 -->
+		<primaryAccession>KC986290</primaryAccession> <!-- # A/chicken/Bangladesh/VP01/2006 -->
+		<primaryAccession>MW104452</primaryAccession> <!-- # A/chicken/Guizhou/6.30_ZYLJJ014-O/2018 -->
+		<primaryAccession>MN520602</primaryAccession> <!-- # A/chicken/Mahdia/803/2015 -->
+		<primaryAccession>MH180652</primaryAccession> <!-- # A/chicken/Pakistan/997/2015 -->
+		<primaryAccession>KU042464</primaryAccession> <!-- # A/quail/Zhejiang/2A2/2013 -->
+		<primaryAccession>MZ872826</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/963/2019 -->
+		<primaryAccession>AF523519</primaryAccession> <!-- # (A/Duck/Hong Kong/289/78(H9N2)) -->
+		<primaryAccession>MT090393</primaryAccession> <!-- # A/chicken/Bangladesh/38150/2019 -->
+		<primaryAccession>MW137789</primaryAccession> <!-- # A/chicken/Egypt/D17949C/2019 -->
+		<primaryAccession>MW935990</primaryAccession> <!-- # A/duck/Vietnam/HN4935/2018 -->
+		<primaryAccession>KM609737</primaryAccession> <!-- # A/chicken/Shandong/qd0312/2013 -->
+		<primaryAccession>MZ542916</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/893/2018 -->
+		<primaryAccession>MZ543098</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/871/2018 -->
+		<primaryAccession>KU042510</primaryAccession> <!-- # A/chicken/Zhejiang/4C105/2013 -->
+		<primaryAccession>KP289321</primaryAccession> <!-- # A/environment/Hunan/26018/2014 -->
+		<primaryAccession>MH068411</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI17-2002/2017 -->
+		<primaryAccession>MW104620</primaryAccession> <!-- # A/chicken/Henan/02.16_LYGL011-O/2017 -->
+		<primaryAccession>MW107532</primaryAccession> <!-- # A/duck/Fujian/3.16_FZHX0314-O/2017 -->
+		<primaryAccession>KM113285</primaryAccession> <!-- # A/chicken/Guangdong/C1122/2011 -->
+		<primaryAccession>MH579269</primaryAccession> <!-- # A/ruddy turnstone/Delaware Bay/293/2003 -->
+		<primaryAccession>MH991807</primaryAccession> <!-- # A/wild birds/Hubei/52/2014 -->
+		<primaryAccession>MW103396</primaryAccession> <!-- # A/chicken/Guangdong/01.18_SZBJ014-O/2017 -->
+		<primaryAccession>MW102908</primaryAccession> <!-- # A/chicken/Fujian/12.7_FZHX1213-O/2016 -->
+		<primaryAccession>MW108508</primaryAccession> <!-- # A/duck/Jiangxi/09.22_NCDZT41C2-O/2016 -->
+		<primaryAccession>AF523513</primaryAccession> <!-- # (A/Duck/Shantou/1043/00(H9N2)) -->
+		<primaryAccession>ON374186</primaryAccession> <!-- # A/chicken/Egypt/S19338A/2020 -->
+		<primaryAccession>MW205088</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-739/2017 -->
+		<primaryAccession>MZ543138</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/858/2018 -->
+		<primaryAccession>AB753196</primaryAccession> <!-- # A/Japanese Quail/Vietnam/4/2009 -->
+		<primaryAccession>KC821279</primaryAccession> <!-- # A/chicken/Shandong/06/2011 -->
+		<primaryAccession>AF523518</primaryAccession> <!-- # (A/Duck/Hong Kong/86/76(H9N2)) -->
+		<primaryAccession>MZ872919</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/942/2019 -->
+		<primaryAccession>MZ542924</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/899/2018 -->
+		<primaryAccession>ON374042</primaryAccession> <!-- # A/chicken/Egypt/S19712/2021 -->
+		<primaryAccession>ON374669</primaryAccession> <!-- # A/chicken/Egypt/F18299B/2020 -->
+		<primaryAccession>KM113229</primaryAccession> <!-- # A/chicken/Guangxi/C1435/2012 -->
+		<primaryAccession>KX859440</primaryAccession> <!-- # A/guineafowl/Hong Kong/WF10_CIP046_RGAO031/1999 -->
+		<primaryAccession>KJ013301</primaryAccession> <!-- # A/bean goose/Korea/220/2011 -->
+		<primaryAccession>MW104428</primaryAccession> <!-- # A/chicken/Guizhou/6.30_ZYLJJ005-O/2018 -->
+		<primaryAccession>MW110316</primaryAccession> <!-- # A/pigeon/Guizhou/11.30_ZYLJJ015-C/2016 -->
+		<primaryAccession>KY616789</primaryAccession> <!-- # A/quail/Bangladesh/24008/2014 -->
+		<primaryAccession>ON374130</primaryAccession> <!-- # A/chicken/Egypt/S19326A/2020 -->
+		<primaryAccession>MW104572</primaryAccession> <!-- # A/chicken/Henan/01.01_LYGL009-O/2017 -->
+		<primaryAccession>MW101776</primaryAccession> <!-- # A/chicken/Jiangxi/8.26_NCDZTY76-O/2016 -->
+		<primaryAccession>CY024148</primaryAccession> <!-- # A/partridge/Shantou/3987/2003(H9N2) -->
+		<primaryAccession>LC208507</primaryAccession> <!-- # A/duck/Japan/AQ-HE5/2015 -->
+		<primaryAccession>KC757914</primaryAccession> <!-- # A/chicken/Bangladesh/10401/2011 -->
+		<primaryAccession>MZ543273</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/827/2018 -->
+		<primaryAccession>ON374866</primaryAccession> <!-- # A/chicken/EGYPT/N15888/2018 -->
+		<primaryAccession>MW159246</primaryAccession> <!-- # A/chicken/Benin/19-A-01-165-E/2019 -->
+		<primaryAccession>MF113091</primaryAccession> <!-- # A/chicken/Jiangxi/15/2011 -->
+		<primaryAccession>HQ221618</primaryAccession> <!-- # A/chicken/Korea/SH0913/2009 -->
+		<primaryAccession>MG280629</primaryAccession> <!-- # A/chicken/Shandong/C9QH/2011 -->
+		<primaryAccession>CY144703</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/AI06-539/2006 -->
+		<primaryAccession>LC374943</primaryAccession> <!-- # A/chicken/Japan/AQ-HE28-57/2016 -->
+		<primaryAccession>CY023916</primaryAccession> <!-- # A/duck/Shantou/3549/2001(H9N2) -->
+		<primaryAccession>MW104980</primaryAccession> <!-- # A/chicken/Hunan/12.27_YYGK34J2-C/2016 -->
+		<primaryAccession>KF972105</primaryAccession> <!-- # A/wild waterfowl/Dongting/PC2560/2012 -->
+		<primaryAccession>DQ485212</primaryAccession> <!-- # A/chicken/China/Guangxi1/2000 -->
+		<primaryAccession>CY023444</primaryAccession> <!-- # A/silky chicken/Shantou/2131/2005(H9N2) -->
+		<primaryAccession>GU050283</primaryAccession> <!-- # A/avian/Saudi Arabia/910134/2006 -->
+		<primaryAccession>KF260099</primaryAccession> <!-- # A/pheasant/Hong Kong/WF288W/2007 -->
+		<primaryAccession>MW531644</primaryAccession> <!-- # A/duck/Benin/19-A-06-801-E_20VIR6511-1/2019 -->
+		<primaryAccession>CY038422</primaryAccession> <!-- # A/chicken/Pakistan/UDL-02/2005(H9N2) -->
+		<primaryAccession>MZ543074</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/846/2018 -->
+		<primaryAccession>LC000600</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM694/2014 -->
+		<primaryAccession>MW105628</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL012-O/2018 -->
+		<primaryAccession>MW103420</primaryAccession> <!-- # A/chicken/Guangdong/07.19_SZBJ003-C/2017 -->
+		<primaryAccession>MW106524</primaryAccession> <!-- # A/chicken/Jiangxi/6.26_NCDZT65R2-OC/2017 -->
+		<primaryAccession>KP185821</primaryAccession> <!-- # A/pigeon/Hubei/228/2012 -->
+		<primaryAccession>MZ277349</primaryAccession> <!-- # A/Eurasian teal/Iran/C137_2020/2019 -->
+		<primaryAccession>MG957606</primaryAccession> <!-- # A/chicken/Bangladesh/31975/2017 -->
+		<primaryAccession>MH791931</primaryAccession> <!-- # A/chicken/Bangladesh/34321/2017 -->
+		<primaryAccession>KP336391</primaryAccession> <!-- # A/emperor goose/Alaska/2011-0713/2011 -->
+		<primaryAccession>MW106980</primaryAccession> <!-- # A/chicken/Xinjiang/12.24_WLMQXL024-O/2018 -->
+		<primaryAccession>MW934937</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5609/2019 -->
+		<primaryAccession>CY130058</primaryAccession> <!-- # A/turkey/Wisconsin/1/1966 -->
+		<primaryAccession>MZ872683</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/973/2019 -->
+		<primaryAccession>GU474610</primaryAccession> <!-- # A/environment/Hunan/5-38/2007 -->
+		<primaryAccession>ON374874</primaryAccession> <!-- # A/chicken/EGYPT/A15573/2018 -->
+		<primaryAccession>KX000709</primaryAccession> <!-- # A/chicken/Egypt/F9516B/2014 -->
+		<primaryAccession>MW106044</primaryAccession> <!-- # A/chicken/Jiangxi/4.30_NCDZT25N2-OC/2017 -->
+		<primaryAccession>MH134658</primaryAccession> <!-- # A/mallard/Chile/C14592/2016 -->
+		<primaryAccession>MW934719</primaryAccession> <!-- # A/Muscovy duck/Vietnam/HN5908/2019 -->
+		<primaryAccession>MZ873019</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/924/2019 -->
+		<primaryAccession>KX783326</primaryAccession> <!-- # A/environment/Zhongshan/ZS201506/2015 -->
+		<primaryAccession>MW104516</primaryAccession> <!-- # A/chicken/Hainan/10.31_001-C/2018 -->
+		<primaryAccession>MH180603</primaryAccession> <!-- # A/chicken/Pakistan/409/2015 -->
+		<primaryAccession>CY075969</primaryAccession> <!-- # A/northern shoveler/Washington/44249-604/2006 -->
+		<primaryAccession>KP285089</primaryAccession> <!-- # A/chicken/Jiangxi/18922/2013 -->
+		<primaryAccession>MW397162</primaryAccession> <!-- # A/chicken/Shandong/16-MA/2005 -->
+		<primaryAccession>KF260211</primaryAccession> <!-- # A/chicken/Rizhao/249/2013 -->
+		<primaryAccession>MW102940</primaryAccession> <!-- # A/chicken/Fujian/3.15_FZHX0030-O/2018 -->
+		<primaryAccession>CY023580</primaryAccession> <!-- # A/chicken/Fujian/5683/2005(H9N2) -->
+		<primaryAccession>KM609726</primaryAccession> <!-- # A/chicken/Shandong/wf0712/2013 -->
+		<primaryAccession>MW205012</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-773/2017 -->
+		<primaryAccession>MW102040</primaryAccession> <!-- # A/duck/Zhejiang/4.29_HZBX008-O/2018 -->
+		<primaryAccession>KP415415</primaryAccession> <!-- # A/chicken/Jiangxi/30801/2013 -->
+		<primaryAccession>ON374154</primaryAccession> <!-- # A/chicken/Egypt/N19304A/2020 -->
+		<primaryAccession>MF465804</primaryAccession> <!-- # A/dove/Guangxi/96B8/2014 -->
+		<primaryAccession>KF746831</primaryAccession> <!-- # A/chicken/Hebei/274/2004 -->
+		<primaryAccession>MZ873103</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/925/2019 -->
+		<primaryAccession>FJ581433</primaryAccession> <!-- # A/chicken/Zhejiang/HJ/2007 -->
+		<primaryAccession>KF972065</primaryAccession> <!-- # A/wild waterfowl/Dongting/C4430/2012 -->
+		<primaryAccession>ON374202</primaryAccession> <!-- # A/chicken/Egypt/S19326D/2020 -->
+		<primaryAccession>KU042467</primaryAccession> <!-- # A/quail/Zhejiang/2A5/2013 -->
+		<primaryAccession>KP285761</primaryAccession> <!-- # A/chicken/Jiangxi/10269/2013 -->
+		<primaryAccession>KF260148</primaryAccession> <!-- # A/chicken/Hong Kong/YU551W/2011 -->
+		<primaryAccession>CY206769</primaryAccession> <!-- # A/mallard/Southcentral Alaska/12ML01015/2014 -->
+		<primaryAccession>MN101030</primaryAccession> <!-- # A/chicken/China/E262/2014 -->
+		<primaryAccession>CY130457</primaryAccession> <!-- # A/mallard/Interior Alaska/10BM02980R0/2010 -->
+		<primaryAccession>MW105748</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDZT004-O/2018 -->
+		<primaryAccession>MW108788</primaryAccession> <!-- # A/duck/Jiangxi/4.30_NCNP73N2-OC/2017 -->
+		<primaryAccession>HM590773</primaryAccession> <!-- # A/black-billed magpie/Guangxi/31/2005 -->
+		<primaryAccession>MZ543297</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/829/2018 -->
+		<primaryAccession>MW108748</primaryAccession> <!-- # A/duck/Jiangxi/4.30_NCDZT99N2-OC/2017 -->
+		<primaryAccession>CY038406</primaryAccession> <!-- # A/chicken/Pakistan/UDL-04/2006(H9N2) -->
+		<primaryAccession>KF260152</primaryAccession> <!-- # A/chicken/Hong Kong/CSW533/2011 -->
+		<primaryAccession>AF508723</primaryAccession> <!-- # A/Chicken/Shijiazhuang/2/99 -->
+		<primaryAccession>MW103468</primaryAccession> <!-- # A/chicken/Guangdong/07.19_SZBJ023-C/2017 -->
+		<primaryAccession>MW106892</primaryAccession> <!-- # A/chicken/Shanxi/12.01_TGYL001-O/2016 -->
+		<primaryAccession>MF575215</primaryAccession> <!-- # A/Eurasian wigeon/Netherlands/4/2005 -->
+		<primaryAccession>MH180633</primaryAccession> <!-- # A/chicken/Pakistan/825/2016 -->
+		<primaryAccession>CY038462</primaryAccession> <!-- # A/chicken/Pakistan/UDL-01/2008(H9N2) -->
+		<primaryAccession>KJ426277</primaryAccession> <!-- # A/chicken/Fujian/01/2009 -->
+		<primaryAccession>MH667576</primaryAccession> <!-- # A/chicken/Shandong/3424/2016 -->
+		<primaryAccession>KF768241</primaryAccession> <!-- # A/duck/Guangxi/NN/2005 -->
+		<primaryAccession>MF673387</primaryAccession> <!-- # A/chicken/Jordan/11/2003 -->
+		<primaryAccession>JF795050</primaryAccession> <!-- # A/chicken/Shandong/02/2008 -->
+		<primaryAccession>GU474554</primaryAccession> <!-- # A/environment/Hunan/1-18/2007 -->
+		<primaryAccession>ON374501</primaryAccession> <!-- # A/chicken/Egypt/A18716/2020 -->
+		<primaryAccession>KP286661</primaryAccession> <!-- # A/chicken/Jiangxi/25941/2013 -->
+		<primaryAccession>MW104532</primaryAccession> <!-- # A/chicken/Henan/01.01_LYGL002-O/2017 -->
+		<primaryAccession>KY785873</primaryAccession> <!-- # A/duck/Korea/D26/2009 -->
+		<primaryAccession>MW105988</primaryAccession> <!-- # A/chicken/Jiangxi/2.28_NCDZT94K3-OC/2018 -->
+		<primaryAccession>KP866061</primaryAccession> <!-- # A/chicken/Shanghai/2/2004 -->
+		<primaryAccession>MW101784</primaryAccession> <!-- # A/chicken/Hunan/3.07_YYGK60L3-OC/2018 -->
+		<primaryAccession>MW137708</primaryAccession> <!-- # A/chicken/Egypt/Q17812B/2019 -->
+		<primaryAccession>OM938166</primaryAccession> <!-- # A/quail/Bangladesh/46103/2020 -->
+		<primaryAccession>MH135457</primaryAccession> <!-- # A/duck/Bangladesh/33351/2017 -->
+		<primaryAccession>JQ904464</primaryAccession> <!-- # A/chicken/Shandong/1/2008 -->
+		<primaryAccession>ON374382</primaryAccession> <!-- # A/chicken/Egypt/N18851C/2020 -->
+		<primaryAccession>MW749812</primaryAccession> <!-- # A/chicken/Bangladesh/45782/2020 -->
+		<primaryAccession>CY024620</primaryAccession> <!-- # A/silky chicken/Shantou/1818/2000(H9N2) -->
+		<primaryAccession>MG781094</primaryAccession> <!-- # A/wild bird/Anhui/L281/2014 -->
+		<primaryAccession>MW109324</primaryAccession> <!-- # A/environment/Anhui/2.22_YHZGS005-E/2019 -->
+		<primaryAccession>MT261641</primaryAccession> <!-- # A/chicken/Egypt/F16774A/2019 -->
+		<primaryAccession>ON374773</primaryAccession> <!-- # A/chicken/Egypt/A18496/2020 -->
+		<primaryAccession>JF745934</primaryAccession> <!-- # A/mallard/PT/27972-B139/2007 -->
+		<primaryAccession>MW103724</primaryAccession> <!-- # A/chicken/Guangdong/2.06_SZBJ021-O/2018 -->
+		<primaryAccession>KF059315</primaryAccession> <!-- # A/chicken/Shandong/zc4/2012 -->
+		<primaryAccession>MW105268</primaryAccession> <!-- # A/chicken/Jiangxi/08.26_NCDZT11Y3-C/2016 -->
+		<primaryAccession>MH879803</primaryAccession> <!-- # A/chicken/Iraq/4/2016 -->
+		<primaryAccession>MT090444</primaryAccession> <!-- # A/quail/Bangladesh/40420/2019 -->
+		<primaryAccession>KR234080</primaryAccession> <!-- # A/mandarin duck/Korea/K12-256/2012 -->
+		<primaryAccession>CY075042</primaryAccession> <!-- # A/swine/Guangxi/8/2007 -->
+		<primaryAccession>FJ464657</primaryAccession> <!-- # A/chicken/Israel/728/2007 -->
+		<primaryAccession>KF178667</primaryAccession> <!-- # A/environment/Zhejiang/09/2013 -->
+		<primaryAccession>MZ542995</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/895/2018 -->
+		<primaryAccession>MZ873011</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/949/2019 -->
+		<primaryAccession>KY785818</primaryAccession> <!-- # A/chicken/Korea/C36/2009 -->
+		<primaryAccession>MK673900</primaryAccession> <!-- # A/India/TCM2581/2019 -->
+		<primaryAccession>ON374194</primaryAccession> <!-- # A/chicken/Egypt/S18755B/2020 -->
+		<primaryAccession>AF508724</primaryAccession> <!-- # A/Chicken/Shenzhen/9/97 -->
+		<primaryAccession>ON374282</primaryAccession> <!-- # A/chicken/Egypt/S19326C/2020 -->
+		<primaryAccession>MW397170</primaryAccession> <!-- # A/chicken/Shandong/16/2005 -->
+		<primaryAccession>MW104924</primaryAccession> <!-- # A/chicken/Hunan/10.27_YYGK22B2-C/2016 -->
+		<primaryAccession>KF972073</primaryAccession> <!-- # A/wild waterfowl/Dongting/PC2539/2012 -->
+		<primaryAccession>MW103444</primaryAccession> <!-- # A/chicken/Guangdong/07.19_SZBJ017-C/2017 -->
+		<primaryAccession>MZ277363</primaryAccession> <!-- # A/Greater white-fronted goose/Iran/C239_2020/2019 -->
+		<primaryAccession>KJ643852</primaryAccession> <!-- # A/chicken/Bangladesh/18224/2012 -->
+		<primaryAccession>KC758113</primaryAccession> <!-- # A/environment/Bangladesh/10313/2011 -->
+		<primaryAccession>MG042256</primaryAccession> <!-- # A/chicken/Bangladesh/31624/2016 -->
+		<primaryAccession>MW493165</primaryAccession> <!-- # A/Falcated duck/South Korea/JB42-30/2020 -->
+		<primaryAccession>CY031287</primaryAccession> <!-- # A/duck/Hong Kong/702/1979-quail adapted(H9N2) -->
+		<primaryAccession>JN543542</primaryAccession> <!-- # A/chicken/Korea/69/2006 -->
+		<primaryAccession>CY038486</primaryAccession> <!-- # A/chicken/Pakistan/UDL-04/2007(H9N2) -->
+		<primaryAccession>KJ643751</primaryAccession> <!-- # A/quail/Bangladesh/19475/2013 -->
+		<primaryAccession>MW159272</primaryAccession> <!-- # A/chicken/Benin/18-A-12-34-E/2018 -->
+		<primaryAccession>MW749795</primaryAccession> <!-- # A/quail/Bangladesh/45745/2020 -->
+		<primaryAccession>KJ643860</primaryAccession> <!-- # A/chicken/Bangladesh/18276/2012 -->
+		<primaryAccession>ON374549</primaryAccession> <!-- # A/chicken/EGYPT/A15803/2018 -->
+		<primaryAccession>KF260129</primaryAccession> <!-- # A/chicken/Hong Kong/YU218/2010 -->
+		<primaryAccession>CY081268</primaryAccession> <!-- # A/chicken/Saudi Arabia/CP7/1998 -->
+		<primaryAccession>MF425649</primaryAccession> <!-- # A/quail/Guangxi/198Q39/2015 -->
+		<primaryAccession>KU042472</primaryAccession> <!-- # A/pigeon/Zhejiang/2P4/2013 -->
+		<primaryAccession>MW104596</primaryAccession> <!-- # A/chicken/Henan/01.28_LYGL012-C/2017 -->
+		<primaryAccession>KX978755</primaryAccession> <!-- # A/gadwall duck/Netherlands/2/2006 -->
+		<primaryAccession>LC028359</primaryAccession> <!-- # A/muscovy duck/Quang Ninh/11/2013 -->
+		<primaryAccession>MH665597</primaryAccession> <!-- # A/chicken/Shandong/3383/2016 -->
+		<primaryAccession>MT090296</primaryAccession> <!-- # A/chicken/Bangladesh/40619/2019 -->
+		<primaryAccession>MW104716</primaryAccession> <!-- # A/chicken/Henan/11.28_LYGL010-O/2016 -->
+		<primaryAccession>KM609739</primaryAccession> <!-- # A/chicken/Shandong/qd0225/2013 -->
+		<primaryAccession>CY205207</primaryAccession> <!-- # A/mallard/Maryland/13OS0755/2013 -->
+		<primaryAccession>MW108988</primaryAccession> <!-- # A/duck/Jiangxi/9.22_NCDZT80Z3-OC/2018 -->
+		<primaryAccession>KJ643836</primaryAccession> <!-- # A/environment/Bangladesh/18311/2012 -->
+		<primaryAccession>KC821270</primaryAccession> <!-- # A/chicken/Shandong/HL/2010 -->
+		<primaryAccession>AF222825</primaryAccession> <!-- # A/Swine/Hong Kong/10/98 -->
+		<primaryAccession>MW104236</primaryAccession> <!-- # A/chicken/Guangxi/8.25_NNXH004-O/2018 -->
+		<primaryAccession>MZ873302</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/928/2019 -->
+		<primaryAccession>KC758059</primaryAccession> <!-- # A/chicken/Bangladesh/8413/2010 -->
+		<primaryAccession>KF059316</primaryAccession> <!-- # A/chicken/Tianjin/61/2012 -->
+		<primaryAccession>MF673347</primaryAccession> <!-- # A/chicken/Jordan/12/2003 -->
+		<primaryAccession>JN653678</primaryAccession> <!-- # A/chicken/Anhui/10/2009 -->
+		<primaryAccession>FJ793320</primaryAccession> <!-- # A/chicken/Anhui/2/2002 -->
+		<primaryAccession>MN520600</primaryAccession> <!-- # A/chicken/Tunis/478/2013 -->
+		<primaryAccession>OL370947</primaryAccession> <!-- # A/wild bird/Victoria/20-03245-0029/2020 -->
+		<primaryAccession>ON374477</primaryAccession> <!-- # A/chicken/Egypt/D19293/2020 -->
+		<primaryAccession>MW103204</primaryAccession> <!-- # A/chicken/Fujian/6.22_FZHX0631-O/2017 -->
+		<primaryAccession>AB983226</primaryAccession> <!-- # A/muscovy duck/Vietnam/LBM675/2014 -->
+		<primaryAccession>EU532046</primaryAccession> <!-- # A/chicken/Shandong/B3/2007 -->
+		<primaryAccession>MW104748</primaryAccession> <!-- # A/chicken/Henan/12.23_LYGL003-O/2016 -->
+		<primaryAccession>CY076089</primaryAccession> <!-- # A/northern shoveler/California/44363-062/2007 -->
+		<primaryAccession>MH136842</primaryAccession> <!-- # A/chicken/Israel/1163/2011 -->
+		<primaryAccession>MW105660</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL016-O/2018 -->
+		<primaryAccession>KP285097</primaryAccession> <!-- # A/chicken/Jiangxi/18946/2013 -->
+		<primaryAccession>MW104244</primaryAccession> <!-- # A/chicken/Guangxi/8.25_NNXH007-O/2018 -->
+		<primaryAccession>AF508712</primaryAccession> <!-- # A/pheasant/Ireland/PV18/97 -->
+		<primaryAccession>AF222676</primaryAccession> <!-- # A/Pheasant/Hong Kong/SSP11/99(H9N2) -->
+		<primaryAccession>KP027623</primaryAccession> <!-- # A/chicken/Egypt/SCU9/2014 -->
+		<primaryAccession>MT950692</primaryAccession> <!-- # A/chicken/India/12CL103075/2015 -->
+		<primaryAccession>KM609745</primaryAccession> <!-- # A/chicken/Shaanxi/xa0414/2013 -->
+		<primaryAccession>KU143455</primaryAccession> <!-- # A/chicken/Taizhou/TZJF05/2015 -->
+		<primaryAccession>LC379970</primaryAccession> <!-- # A/chicken/Egypt/CL42/2013 -->
+		<primaryAccession>MH489463</primaryAccession> <!-- # A/chicken/Jiangsu/TM306/2017 -->
+		<primaryAccession>KY983168</primaryAccession> <!-- # A/northern pintail/California/HS050B/2015 -->
+		<primaryAccession>MW105444</primaryAccession> <!-- # A/chicken/Jiangxi/1.12_NCDZT33G2-OC/2017 -->
+		<primaryAccession>MT261501</primaryAccession> <!-- # A/chicken/Egypt/S16688C/2019 -->
+		<primaryAccession>EF063539</primaryAccession> <!-- # A/quail/Dubai/302/2000 -->
+		<primaryAccession>LC431366</primaryAccession> <!-- # A/turkey/Minnesota/38391-6/1995 -->
+		<primaryAccession>MN865894</primaryAccession> <!-- # A/chicken/China/141C10/2013 -->
+		<primaryAccession>MH180647</primaryAccession> <!-- # A/chicken/Pakistan/987/2016 -->
+		<primaryAccession>KP414698</primaryAccession> <!-- # A/chicken/Dongguan/3250/2013 -->
+		<primaryAccession>KY785850</primaryAccession> <!-- # A/chicken/Korea/C51/2009 -->
+		<primaryAccession>KX838870</primaryAccession> <!-- # A/ferret/Maryland/P10-UMD/2012 -->
+		<primaryAccession>KF260128</primaryAccession> <!-- # A/chicken/Hong Kong/YU214/2010 -->
+		<primaryAccession>MW103484</primaryAccession> <!-- # A/chicken/Guangdong/08.29_SZBJ011-O/2017 -->
+		<primaryAccession>MW104740</primaryAccession> <!-- # A/chicken/Henan/12.23_LYGL001-O/2016 -->
+		<primaryAccession>JF795058</primaryAccession> <!-- # A/chicken/Shandong/02/2009 -->
+		<primaryAccession>MW531572</primaryAccession> <!-- # A/chicken/Benin/19-A-06-810-E_20VIR6511-42/2019 -->
+		<primaryAccession>MZ872795</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/937/2019 -->
+		<primaryAccession>MZ872675</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/964/2019 -->
+		<primaryAccession>FJ464647</primaryAccession> <!-- # A/chicken/Israel/1638/2006 -->
+		<primaryAccession>AF508719</primaryAccession> <!-- # A/Chicken/Henan/62/00 -->
+		<primaryAccession>KF260162</primaryAccession> <!-- # A/chicken/Hong Kong/HH117/2012 -->
+		<primaryAccession>KX130847</primaryAccession> <!-- # A/chicken/Guangxi/C227/2015 -->
+		<primaryAccession>KP285177</primaryAccession> <!-- # A/chicken/Jiangxi/20457/2013 -->
+		<primaryAccession>MW101836</primaryAccession> <!-- # A/chicken/Guangdong/8.22_HLYM002-O/2018 -->
+		<primaryAccession>GU474562</primaryAccession> <!-- # A/feces/Hunan/1-23/2007 -->
+		<primaryAccession>MZ873401</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/1083/2019 -->
+		<primaryAccession>CY024612</primaryAccession> <!-- # A/chicken/Shantou/1690/2000(H9N2) -->
+		<primaryAccession>MK053842</primaryAccession> <!-- # A/chicken/Shanghai/02/2018 -->
+		<primaryAccession>MW871842</primaryAccession> <!-- # A/chicken/Indonesia/5788T/2019 -->
+		<primaryAccession>MH180649</primaryAccession> <!-- # A/chicken/Pakistan/994/2015 -->
+		<primaryAccession>MN520599</primaryAccession> <!-- # A/chicken/Nabeul/812/2012 -->
+		<primaryAccession>MW106620</primaryAccession> <!-- # A/chicken/Ningxia/11.01_XXYN024-C/2016 -->
+		<primaryAccession>KP866060</primaryAccession> <!-- # A/chicken/Shanghai/6/2003 -->
+		<primaryAccession>MN101044</primaryAccession> <!-- # A/chicken/China/E911/2014 -->
+		<primaryAccession>MW101961</primaryAccession> <!-- # A/environment/Jiangxi/2.06_SRWYDM007-E/2017 -->
+		<primaryAccession>MG645325</primaryAccession> <!-- # A/layer chicken/Bangladesh/VP02/2016 -->
+		<primaryAccession>CY075050</primaryAccession> <!-- # A/swine/Guangxi/9/2007 -->
+		<primaryAccession>MW105932</primaryAccession> <!-- # A/chicken/Jiangxi/12.22_NCDZT38I2-C/2016 -->
+		<primaryAccession>KF260082</primaryAccession> <!-- # A/chicken/Hong Kong/TC176/2006 -->
+		<primaryAccession>MW108804</primaryAccession> <!-- # A/duck/Jiangxi/4.30_NCNP77N2-OC/2017 -->
+		<primaryAccession>MW749714</primaryAccession> <!-- # A/chicken/Bangladesh/45690/2020 -->
+		<primaryAccession>CY024596</primaryAccession> <!-- # A/chicken/Shantou/1322/2000(H9N2) -->
+		<primaryAccession>ON374146</primaryAccession> <!-- # A/chicken/Egypt/D19481/2020 -->
+		<primaryAccession>KY785842</primaryAccession> <!-- # A/chicken/Korea/C47/2009 -->
+		<primaryAccession>MW104636</primaryAccession> <!-- # A/chicken/Henan/02.16_LYGL013-O/2017 -->
+		<primaryAccession>MH180621</primaryAccession> <!-- # A/chicken/Pakistan/632/2015 -->
+		<primaryAccession>KJ426280</primaryAccession> <!-- # A/chicken/Shandong/07/2009 -->
+		<primaryAccession>MW104588</primaryAccession> <!-- # A/chicken/Henan/01.28_LYGL010-O/2017 -->
+		<primaryAccession>KF059318</primaryAccession> <!-- # A/chicken/Tianjin/120/2013 -->
+		<primaryAccession>CY023964</primaryAccession> <!-- # A/duck/Shantou/4359/2002(H9N2) -->
+		<primaryAccession>KY785780</primaryAccession> <!-- # A/chicken/Korea/C15/2009 -->
+		<primaryAccession>MG957592</primaryAccession> <!-- # A/chicken/Bangladesh/32390/2017 -->
+		<primaryAccession>CY023148</primaryAccession> <!-- # A/chicken/Shantou/4144/2002(H9N2) -->
+		<primaryAccession>HM060077</primaryAccession> <!-- # A/thick-billed murre/Alaska/44085-155/2006 -->
+		<primaryAccession>EU982320</primaryAccession> <!-- # A/turkey/TX/4-1-81/1981 -->
+		<primaryAccession>EU532048</primaryAccession> <!-- # A/chicken/Shandong/B1/1998 -->
+		<primaryAccession>MH489495</primaryAccession> <!-- # A/chicken/Jiangsu/TM315/2017 -->
+		<primaryAccession>MW871860</primaryAccession> <!-- # A/chicken/Indonesia/4782T/2018 -->
+		<primaryAccession>KF881463</primaryAccession> <!-- # A/chicken/Egypt/S7404/2013 -->
+		<primaryAccession>MW105292</primaryAccession> <!-- # A/chicken/Jiangxi/09.22_NCNP16C2-O/2016 -->
+		<primaryAccession>KC821265</primaryAccession> <!-- # A/chicken/Shandong/10/2010 -->
+		<primaryAccession>KC757862</primaryAccession> <!-- # A/environment/Bangladesh/5745/2010 -->
+		<primaryAccession>MH068467</primaryAccession> <!-- # A/ruddy turnstone/New Jersey/UGAI17-2707/2017 -->
+		<primaryAccession>MG042317</primaryAccession> <!-- # A/chicken/Bangladesh/31066/2016 -->
+		<primaryAccession>KJ643796</primaryAccession> <!-- # A/quail/Bangladesh/18514/2012 -->
+		<primaryAccession>KP414282</primaryAccession> <!-- # A/chicken/Shenzhen/754/2013 -->
+		<primaryAccession>EU753286</primaryAccession> <!-- # A/chicken/Shanghai/3/2000 -->
+		<primaryAccession>CY076727</primaryAccession> <!-- # A/chicken/Emirates/R66/2002 -->
+		<primaryAccession>MZ873384</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/984/2019 -->
+		<primaryAccession>KP285793</primaryAccession> <!-- # A/chicken/Jiangxi/18445/2013 -->
+		<primaryAccession>MN865886</primaryAccession> <!-- # A/chicken/China/137C2/2013 -->
+		<primaryAccession>KU217319</primaryAccession> <!-- # A/Zhongshan/201501/2015 -->
+		<primaryAccession>MG781110</primaryAccession> <!-- # A/wild bird/Anhui/S66/2014 -->
+		<primaryAccession>MW104732</primaryAccession> <!-- # A/chicken/Henan/11.28_LYGL011-O/2016 -->
+		<primaryAccession>MW493193</primaryAccession> <!-- # A/chicken/China/chicken/2014 -->
+		<primaryAccession>MW105604</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL009-O/2018 -->
+		<primaryAccession>MW105980</primaryAccession> <!-- # A/chicken/Jiangxi/2.28_NCDZT87K3-OC/2018 -->
+		<primaryAccession>MZ873286</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/935/2019 -->
+		<primaryAccession>MT975579</primaryAccession> <!-- # A/chicken/India/01CL103080/2016 -->
+		<primaryAccession>LC431168</primaryAccession> <!-- # A/swine/Hong Kong/10/1998 -->
+		<primaryAccession>MW107860</primaryAccession> <!-- # A/duck/Henan/12.23_LYGL001-C/2016 -->
+		<primaryAccession>CY005877</primaryAccession> <!-- # A/goose/MN/5733-1/1980 -->
+		<primaryAccession>KY794615</primaryAccession> <!-- # A/chicken/Guangdong/835/2016 -->
+		<primaryAccession>MT261592</primaryAccession> <!-- # A/chicken/Egypt/A16777/2019 -->
+		<primaryAccession>MW165126</primaryAccession> <!-- # A/chicken/Togo/EC-122/2019 -->
+		<primaryAccession>JQ254973</primaryAccession> <!-- # A/chicken/Israel/1167/2010 -->
+		<primaryAccession>KF971993</primaryAccession> <!-- # A/wild waterfowl/Dongting/C2203/2011 -->
+		<primaryAccession>CY184161</primaryAccession> <!-- # A/mallard/Portugal/83660/2009 -->
+		<primaryAccession>FJ793416</primaryAccession> <!-- # A/chicken/Shandong/1/2003 -->
+		<primaryAccession>MW205064</primaryAccession> <!-- # A/chicken/Uganda/MUWRP-815/2018 -->
+		<primaryAccession>MZ872715</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/953/2019 -->
+		<primaryAccession>CY099365</primaryAccession> <!-- # A/chicken/India/IVRI-0011/2011 -->
+		<primaryAccession>JN869550</primaryAccession> <!-- # A/chicken/Guangdong/ZCY/2011 -->
+		<primaryAccession>KF881509</primaryAccession> <!-- # A/chicken/Egypt/S7018B/2013 -->
+		<primaryAccession>KJ426363</primaryAccession> <!-- # A/chicken/Jiangsu/TM55/2013 -->
+		<primaryAccession>ON374765</primaryAccession> <!-- # A/chicken/Egypt/D17949A/2019 -->
+		<primaryAccession>MH791820</primaryAccession> <!-- # A/environment/Bangladesh/34095/2017 -->
+		<primaryAccession>MT090477</primaryAccession> <!-- # A/chicken/Bangladesh/40618/2019 -->
+		<primaryAccession>MK796821</primaryAccession> <!-- # A/chicken/Algeria/13BBD/2017 -->
+		<primaryAccession>MH180640</primaryAccession> <!-- # A/chicken/Pakistan/845/2016 -->
+		<primaryAccession>KP285801</primaryAccession> <!-- # A/chicken/Jiangxi/18901/2013 -->
+		<primaryAccession>CY024020</primaryAccession> <!-- # A/duck/Shantou/163/2004(H9N2) -->
+		<primaryAccession>MH107182</primaryAccession> <!-- # A/chicken/Fes/Pmc1_23/2016 -->
+		<primaryAccession>MW104652</primaryAccession> <!-- # A/chicken/Henan/02.16_LYGL015-O/2017 -->
+		<primaryAccession>KU042497</primaryAccession> <!-- # A/chicken/Zhejiang/C50/2013 -->
+		<primaryAccession>MW108796</primaryAccession> <!-- # A/duck/Jiangxi/4.30_NCNP76N2-OC/2017 -->
+		<primaryAccession>MW103452</primaryAccession> <!-- # A/chicken/Guangdong/07.19_SZBJ019-C/2017 -->
+		<primaryAccession>MG957566</primaryAccession> <!-- # A/quail/Bangladesh/32518/2017 -->
+		<primaryAccession>LC426790</primaryAccession> <!-- # A/chicken/Vietnam/HU3-373/2015 -->
+		<primaryAccession>KX377334</primaryAccession> <!-- # A/greater white-fronted goose/Alaska/81081/2008 -->
+		<primaryAccession>MH180635</primaryAccession> <!-- # A/chicken/Pakistan/827/2016 -->
+		<primaryAccession>MZ502882</primaryAccession> <!-- # A/wild bird /Shandong/11449/2019 -->
+		<primaryAccession>MW106132</primaryAccession> <!-- # A/chicken/Jiangxi/4.30_NCDZT57N2-OC/2017 -->
+		<primaryAccession>MT261696</primaryAccession> <!-- # A/chicken/Egypt/S16702A/2019 -->
+		<primaryAccession>MH068203</primaryAccession> <!-- # A/environment/South Carolina/UGAI17-2216/2017 -->
+		<primaryAccession>ON374605</primaryAccession> <!-- # A/chicken/EGYPT/S15530C/2018 -->
+		<primaryAccession>MW255949</primaryAccession> <!-- # A/chicken/China/07/2016 -->
+		<primaryAccession>MZ873064</primaryAccession> <!-- # A/chicken/MUWRP-Uganda/941/2019 -->
+		<primaryAccession>MZ502906</primaryAccession> <!-- # A/wild bird /Shandong/4870/2019 -->
+		<primaryAccession>KT699060</primaryAccession> <!-- # A/Anser fabalis/Anhui/L139/2014 -->
+		<primaryAccession>HM370060</primaryAccession> <!-- # A/chicken/Uchal/8293/2006 -->
+		<primaryAccession>MW106900</primaryAccession> <!-- # A/chicken/Shanxi/12.01_TGYL002-O/2016 -->
+		<primaryAccession>LC427337</primaryAccession> <!-- # A/chicken/Vietnam/HU3-739/2015 -->
+		<primaryAccession>EU753342</primaryAccession> <!-- # A/chicken/Shanghai/1/2002 -->
+		<primaryAccession>MW104676</primaryAccession> <!-- # A/chicken/Henan/10.28_LYGL010-C/2016 -->
+		<primaryAccession>MN101125</primaryAccession> <!-- # A/chicken/China/H630/2017 -->
+		<primaryAccession>MH791922</primaryAccession> <!-- # A/chicken/Bangladesh/34322/2017 -->
+		<primaryAccession>MW101786</primaryAccession> <!-- # A/chicken/Guangdong/2.06_SZBJ009-O/2018 -->
+		<primaryAccession>MW105724</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDZT002-O/2018 -->
+		<primaryAccession>KC758044</primaryAccession> <!-- # A/chicken/Bangladesh/8415/2010 -->
+		<primaryAccession>MN866035</primaryAccession> <!-- # A/chicken/China/NN2/2011 -->
+		<primaryAccession>MW103660</primaryAccession> <!-- # A/chicken/Guangdong/10.25_SZBJ019-O/2017 -->
+		<primaryAccession>MW105532</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL001-O/2018 -->
+		<primaryAccession>KU042509</primaryAccession> <!-- # A/chicken/Zhejiang/4C91/2013 -->
+		<primaryAccession>MW104772</primaryAccession> <!-- # A/chicken/Henan/12.23_LYGL009-O/2016 -->
+		<primaryAccession>ON374541</primaryAccession> <!-- # A/chicken/Egypt/A18495/2020 -->
+		<primaryAccession>CY080419</primaryAccession> <!-- # A/mallard/France/090360/2009 -->
+		<primaryAccession>MW102031</primaryAccession> <!-- # A/duck/Guangdong/8.30_DGCP06-O/2017 -->
+		<primaryAccession>MW105596</primaryAccession> <!-- # A/chicken/Jiangxi/10.31_NCDGL008-O/2018 -->
+	</specificPrimaryAccessions>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

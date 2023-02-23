@@ -6,45 +6,50 @@
 	</figTreeAnnotation>
 	
 	<figTreeAnnotation>
+		<annotationName>pubmed_id</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.pubmed_id')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
 		<annotationName>length</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.length')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>name</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.name')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-								
-	<figTreeAnnotation>
-		<annotationName>isolate</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.isolate')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-				
+												
 	<figTreeAnnotation>
 		<annotationName>iso_region</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.iso_region')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.iso_region')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 		
 	<figTreeAnnotation>
 		<annotationName>iso_country</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.iso_country')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.iso_country')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 		
 	<figTreeAnnotation>
 		<annotationName>iso_year</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.iso_year')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.iso_year')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 		
 	<figTreeAnnotation>
 		<annotationName>iso_host</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.iso_host')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.iso_host')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
+	<figTreeAnnotation>
+		<annotationName>iso_source</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.iso_source')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>subtype</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.subtype')}</valueFreemarkerTemplate>
+		<annotationName>cg_subtype</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.cg_subtype')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
+	<figTreeAnnotation>
+		<annotationName>hn_subtype</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.hn_subtype')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
 	<figTreeAnnotation>
 		<annotationName>strain</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.strain')}</valueFreemarkerTemplate>

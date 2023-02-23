@@ -1,10 +1,17 @@
   
-
-  # Import NCBI sources 
-  import source sources/ibv-filter-ncbi-refseqs/
+  # Import IBV reference sources 
+  import source sources/ibv-ncbi-refseqs-seg1
+  import source sources/ibv-ncbi-refseqs-seg2
+  import source sources/ibv-ncbi-refseqs-seg3
+  import source sources/ibv-ncbi-refseqs-seg4
+  import source sources/ibv-ncbi-refseqs-seg5
+  import source sources/ibv-ncbi-refseqs-seg6
+  import source sources/ibv-ncbi-refseqs-seg7
+  import source sources/ibv-ncbi-refseqs-seg8
   
+  # Import NCBI nuccore sources 
   import source ../../../../Sources/flu/ncbi-ibv-nuccore-1970-2005
-  #import source ../../../../Sources/flu/ncbi-ibv-nuccore-2015-2020
-  #import source ../../../../Sources/flu/ncbi-ibv-nuccore-2010-2015
-  #import source ../../../../Sources/flu/ncbi-ibv-nuccore-2005-2010
+  import source ../../../../Sources/flu/ncbi-ibv-nuccore-2015-2020
+  import source ../../../../Sources/flu/ncbi-ibv-nuccore-2010-2015
+  import source ../../../../Sources/flu/ncbi-ibv-nuccore-2005-2010
   

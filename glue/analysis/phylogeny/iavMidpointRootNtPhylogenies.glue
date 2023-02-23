@@ -1,0 +1,45 @@
+
+  module fluPhyloUtility
+  
+	reroot-phylogeny \
+      --inputFile trees/iav/iav_seg1.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/iav/iav_seg1_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/iav/iav_seg2.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/iav/iav_seg2_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/iav/iav_seg3.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/iav/iav_seg3_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/iav/iav_seg4.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/iav/iav_seg4_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/iav/iav_seg5.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/iav/iav_seg5_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+ 
+	reroot-phylogeny \
+      --inputFile trees/iav/iav_seg6.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/iav/iav_seg6_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+ 
+	reroot-phylogeny \
+      --inputFile trees/iav/iav_seg7.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/iav/iav_seg7_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+ 
+	reroot-phylogeny \
+      --inputFile trees/iav/iav_seg8.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/iav/iav_seg8_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+ 
+    exit
+
