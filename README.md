@@ -65,7 +65,7 @@ Once you have updated the 'LoadSources.glue' file for the relevant influenza vir
 
 ## Usage
 
-For detailed instructions on how to use Flu-GLUE for your comparative genomic analysis, refer to the [reference documentation](http://glue-tools.cvr.gla.ac.uk/).
+For detailed instructions on how to use Flu-GLUE for your comparative genomic analysis, refer to the GLUE software environment's [reference documentation](http://glue-tools.cvr.gla.ac.uk/).
 
 ## Data Sources
 
