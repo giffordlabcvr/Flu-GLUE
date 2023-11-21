@@ -43,7 +43,7 @@ First, however, you should download these sequences from GenBank via GLUE. For t
 
 For influenza A virus (IAV) the number of available GenBank sequence entire is much larger than for other influenza virus species. Accordingly, we have implemented a ‘plug-and-play’ approach to IAV analysis wherein researchers separately download sequence entries for each IAV subtype, using the files in [this directory]([https://www.ncbi.nlm.nih.gov/nuccore](https://github.com/giffordlabcvr/Flu-GLUE/tree/main/glue/build/genus/iav/download). For example:
 
-`GLUE> project flu run file glue/build/genus/iav/download/downloadNcbiSequencesIavH1N1.glue`
+`GLUE> project flu run file glue/build/genus/iav/download/downloadNcbiSequencesIavH5N1.glue`
 
 Once segment sequences have been downloaded, they can be exported and stored on your hard drive. Use the following GLUE commands to export sources for each segment:
 
