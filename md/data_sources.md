@@ -29,7 +29,7 @@ A tabular file containing information about all IAV complete genome sequences wa
 
 - **IAV Isolate Subtyping**: IAV isolates were divided into subtypes based on the hemagglutinin (H) and neuraminidase (N) genes, following established conventions. A BLAST-based genotyping procedure was performed to validate the subtype of each IAV isolate in the complete genome set.
 
-- **Clade Definition**: Clades were defined for the other six IAV segments on the basis of an extensive phylogenetic invetsigation of IAV segment diversity. A BLAST-based genotyping was performed for each complete genome isolate to provide taxonomic information for these six segments.
+- **Clade Definition**: For each of the other IAV segments (i.e. those that do not encode hemagglutinin or neuraminidase) clades were defined on the basis of an extensive phylogenetic investigation. A BLAST-based genotyping was performed for each complete genome isolate to provide taxonomic information for these six segments.
 
 This thorough data processing ensures the integrity, accuracy, and completeness of the influenza virus sequence data contained in Flu-GLUE.
 
