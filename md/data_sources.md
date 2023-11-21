@@ -6,7 +6,7 @@ All influenza virus sequence data utilized in Flu-GLUE were sourced from [NCBI N
 
 ### Validation and Normalization
 
-For each influenza A virus species, an extensive validation and normalization process was applied to the sequence and isolate data associated with GenBank entries. The following steps were performed:
+For each influenza virus species, an extensive validation and normalization process was applied to the sequence and isolate data associated with GenBank entries. The following steps were performed:
 
 1. **Grouping Entries**: Entries from the same isolate were grouped together.
 2. **Validation of Segment Numbers**: The segment number of each individual sequence was validated, addressing potential missing or incorrect information in GenBank.
