@@ -43,7 +43,7 @@ First, however, you should download these sequences from GenBank via GLUE. For t
 
 `GLUE> project flu run file glue/build/genus/icv/icvDownloadCurated.glue`
 
-For influenza A virus (IAV) the number of available GenBank sequence entire is much larger than for other influenza virus species. Accordingly, we have implemented a ‘plug-and-play’ approach to IAV analysis wherein researchers separately download sequence entries for each IAV subtype, using the files in [this directory](https://github.com/giffordlabcvr/Flu-GLUE/tree/main/glue/build/genus/iav/download/).
+For influenza A virus (IAV) the number of available GenBank sequence entire is much larger than for other influenza virus species. Accordingly, we have implemented a ‘plug-and-play’ approach to IAV analysis wherein researchers separately download sequence entries for each IAV subtype, using the files in [this directory](https://github.com/giffordlabcvr/Flu-GLUE/tree/main/glue/build/genus/iav/download/). For example:
 
 `GLUE> project flu run file glue/build/genus/iav/download/downloadNcbiSequencesIavH5N1.glue`
 
