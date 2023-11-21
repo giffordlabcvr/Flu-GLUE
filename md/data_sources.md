@@ -23,7 +23,7 @@ For each influenza virus species, an extensive validation and normalization proc
 
 ### Tabular File Production
 
-A tabular file containing information about all IAV complete genome sequences was produced. This includes isolate information and the GenBank accession number of each segment.
+A tabular file containing information about all IAV complete genome sequences was produced for each influenza virus species (see [this directory](https://github.com/giffordlabcvr/Flu-GLUE/tree/main/tabular/genus). The files include starndardized isolate information and the GenBank accession number of each segment.
 
 ### Subtyping and Clade Definition
 
