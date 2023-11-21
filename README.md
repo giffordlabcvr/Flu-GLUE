@@ -19,8 +19,6 @@ Flu-GLUE is a sequence-oriented resource for comparative genomic analysis of inf
 
 - **GLUE Framework Integration**: Built on the GLUE software framework, Flu-GLUE offers an extensible platform for efficient, standardized, and reproducible computational genomic analysis of influenza viruses.
 
-- **Automated Updates**: Flu-GLUE provides an automatically-updated collection of influenza sequence data, ensuring users have access to the latest information for their analyses.
-
 - **Phylogenetic Structure**: The data in Flu-GLUE is organized in a phylogenetically-structured manner, allowing users to explore evolutionary relationships easily.
 
 - **Rich Annotations**: Each sequence is annotated with gene features, enabling rigorous comparative genomic analysis related to conservation, adaptation, structural context, and genotype-to-phenotype associations.
