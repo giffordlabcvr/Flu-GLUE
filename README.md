@@ -65,11 +65,9 @@ Once you have updated the 'LoadSources.glue' file for the relevant influenza vir
 
 `run file glue/build/genus/icv/buildIcvExtension.glue`
 
-
-
 ## Usage
 
-For detailed instructions on how to use Flu-GLUE for your comparative genomic analysis, refer to the [Usage Guide](./docs/usage.md).
+For detailed instructions on how to use Flu-GLUE for your comparative genomic analysis, refer to the [reference documentation](http://glue-tools.cvr.gla.ac.uk/).
 
 ## Data Sources
 
