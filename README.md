@@ -78,7 +78,7 @@ Flu-GLUE relies on the following data sources:
 - [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore)
 - [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy)
 
-Additional flu sequence data can be imported from FASTA files. Each FASTA file should have a unique sequence ID and be stored in a separate file. FASTA data can be imported by using GLUE's '[fastaImporter](http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/fastaImporter)' module type.
+Additional influenza virus sequence data can be imported from FASTA files. Each FASTA file should have a unique sequence ID and be stored in a separate file. FASTA data can be imported by using GLUE's '[fastaImporter](http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/fastaImporter)' module type.
 
 For more information on the data sources and how they are integrated, see [Data Sources](./md/data_sources.md).
 
