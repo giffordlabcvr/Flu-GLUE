@@ -1,0 +1,17 @@
+<textFilePopulator>
+	<columnDelimiterRegex>\t</columnDelimiterRegex>
+	
+	<textFileColumn>
+		<identifier>true</identifier>
+		<header>sequenceID</header>
+		<property>sequenceID</property>
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>segment</header>
+		<property>rec_segment</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+	
+</textFilePopulator>
+
