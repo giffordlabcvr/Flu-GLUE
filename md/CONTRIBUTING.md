@@ -40,14 +40,14 @@ If you want to contribute directly to the codebase:
 
 ## Code of Conduct
 
-Please review and adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Report any unacceptable behavior to [your.email@example.com](mailto:your.email@example.com).
+Please review and adhere to our [Code of Conduct](./code_of_conduct.md). By participating, you are expected to uphold this code. Report any unacceptable behavior to [robert.gifford@glasgow.ac.uk](mailto:robert.gifford@glasgow.ac.uk).
 
 ## Style Guide
 
-Follow our [Style Guide](./docs/style_guide.md) to maintain consistency across the codebase.
+Please follow the existing code style within the GLUE project to maintain consistency across the codebase.
 
 ## License
 
-By contributing to Flu-GLUE, you agree that your contributions will be licensed under the [MIT License](./LICENSE).
+By contributing to Flu-GLUE, you agree that your contributions will be licensed under the [GNU Affero General Public License v. 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
 Thank you for contributing to Flu-GLUE!
