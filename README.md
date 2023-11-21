@@ -57,19 +57,19 @@ Once segment sequences have been downloaded, they can be exported and stored on 
 
 These commands will export directories containing the curated, segment-specific sequences for each influenza virus species or IAV subtype. Note that for IAV, curated sequences are restricted to complete genome isolates (i.e. isolates for which each individual segment has been sequenced).
 
-Store the exported source directories in a sensible place on your hard drive, then update the input 'LoadSources.glue' file for the relevant influenza virus species so that when the extension layer is built, these sequences will be loaded. 
+Store the exported source directories in a sensible place on your hard drive (e.g. the 'sources' folder in the Flu-GLUE project folder), then update the input 'LoadSources.glue' file for the relevant influenza virus species so that when the extension layer is built, these sequences will be loaded. 
 
-For example, for ICV, you would update [this file](https://github.com/giffordlabcvr/Flu-GLUE/blob/main/glue/build/genus/icv/icvLoadSources.glue). The 'import source' commands for each segment should point to the relevant directory. For example, to import the 'segment 1' sequences for ICV:
+For example, for ICV, update [this file](https://github.com/giffordlabcvr/Flu-GLUE/blob/main/glue/build/genus/icv/icvLoadSources.glue). The 'import source' commands for each segment should point to the relevant directory. For example, to import the 'segment 1' sequences for ICV:
 
 `import source path/to/source/folder/icv-ncbi-curated-segment-1`
 
-Once you have updated the 'LoadSources.glue' file for the relevant influenza virus species, you can build the extension layer for that virus by running the relevant extension layer build file. For example, for ICV:
+Once the 'LoadSources.glue' file for the relevant influenza virus species has been updated, the extension layer for that virus can be built by running the relevant extension layer build file. For example, for ICV:
 
 `run file glue/build/genus/icv/buildIcvExtension.glue`
 
 ## Usage
 
-For detailed instructions on how to use Flu-GLUE for your comparative genomic analysis, refer to the GLUE software environment's [reference documentation](http://glue-tools.cvr.gla.ac.uk/).
+For detailed instructions on how to use Flu-GLUE for comparative genomic analysis of influenza viruses, refer to the GLUE software environment's [reference documentation](http://glue-tools.cvr.gla.ac.uk/).
 
 ## Data Sources
 
@@ -77,6 +77,8 @@ Flu-GLUE relies on the following data sources:
 
 - [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore)
 - [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy)
+
+Additional flu sequence data can be imported from FASTA files. Each FASTA file should have a unique sequence ID and be stored in a separate file. FASTA data can be imported by using GLUE's '[fastaImporter](http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/fastaImporter)' module type.
 
 For more information on the data sources and how they are integrated, see [Data Sources](./md/data_sources.md).
 
