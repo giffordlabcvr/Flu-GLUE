@@ -25,7 +25,7 @@ For each influenza virus species, an extensive validation and normalization proc
 
 A tabular file containing information about all IAV complete genome sequences was produced for each influenza virus species (see [this directory](https://github.com/giffordlabcvr/Flu-GLUE/tree/main/tabular/genus). The files include starndardized isolate information and the GenBank accession number of each segment.
 
-### Subtyping and Clade Definition
+### Subtyping and Clade Definition for IAV
 
 - **IAV Isolate Subtyping**: IAV isolates were divided into subtypes based on the hemagglutinin (H) and neuraminidase (N) proteins on the virus surface. A BLAST-based genotyping procedure was performed to validate the subtype of each IAV isolate in the complete genome set.
 
