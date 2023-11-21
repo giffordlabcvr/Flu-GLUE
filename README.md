@@ -6,7 +6,6 @@ Flu-GLUE is a sequence-oriented resource for comparative genomic analysis of inf
 
 ## Table of Contents
 
-- [Introduction](#flu-glue-comparative-genomic-analysis-of-influenza-viruses)
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Installation](#installation)
@@ -28,7 +27,45 @@ Flu-GLUE is a sequence-oriented resource for comparative genomic analysis of inf
 
 ## Installation
 
-To get started with Flu-GLUE, follow the [installation instructions](#) available in the [Installation Guide](./docs/installation.md).
+If you have not done so already, install the GLUE software framework by following the [installation instructions](http://glue-tools.cvr.gla.ac.uk/#/installation) on the GLUE web site. 
+
+Assuming you have installed GLUE correctly, you can now build the Flu-GLUE project. Note the Flu-GLUE project has a layered structure. This approach simplifies project management because it allows data items that are likely to be used across a wide range of analysis contexts to be maintained separately from those only required for more specialized purposes. The ‘base’ layer of Flu-GLUE contains only a minimal set of essential data items required for comparative analysis of influenzaviruses.
+
+To build the base (or 'core') project, start the GLUE command line interpreter, and at the GLUE command prompt, run the 'buildCoreProject.glue' file as follows:
+
+`GLUE> run file buildCoreProject.glue`
+
+Once the core project has been constructed, influenza virus species-specific extension layers containing larger numbers of sequences can be constructed. 
+
+First, however, you should download these sequences from GenBank via GLUE. For three influenza virus species - influenza B virus (IBV),  influenza C virus (ICV), and  influenza D virus (IDV), the number of GenBank entries is small enough that all sequences can be downloaded. For example:
+
+`GLUE> project flu run file glue/build/genus/icv/icvDownloadCurated.glue`
+
+For influenza A virus (IAV) the number of available GenBank sequence entire is much larger than for other influenza virus species. Accordingly, we have implemented a ‘plug-and-play’ approach to IAV analysis wherein researchers separately download sequence entries for each IAV subtype, using the files in [this directory]([https://www.ncbi.nlm.nih.gov/nuccore](https://github.com/giffordlabcvr/Flu-GLUE/tree/main/glue/build/genus/iav/download). For example:
+
+`GLUE> project flu run file glue/build/genus/iav/download/downloadNcbiSequencesIavH1N1.glue`
+
+Once segment sequences have been downloaded, they can be exported and stored on your hard drive. Use the following GLUE commands to export sources for each segment:
+
+`GLUE> project flu export source icv-ncbi-curated-segment-1`
+
+`GLUE> project flu export source icv-ncbi-curated-segment-2`
+
+...etc. Remember that ICV & IDV have seven segments, whereas IAV and IBV have eight!
+
+These commands will export directories containing the curated, segment-specific sequences for each influenza virus species or IAV subtype. Note that for IAV, curated sequences are restricted to complete genome isolates (i.e. isolates for which each individual segment has been sequenced).
+
+Store the exported source directories in a sensible place on your hard drive, then update the input 'LoadSources.glue' file for the relevant influenza virus species so that when the extension layer is built, these sequences will be loaded. 
+
+For example, for ICV, you would update [this file](https://github.com/giffordlabcvr/Flu-GLUE/blob/main/glue/build/genus/icv/icvLoadSources.glue). The 'import source' commands for each segment should point to the relevant directory. For example, to import the 'segment 1' sequences for ICV:
+
+`import source path/to/source/folder/icv-ncbi-curated-segment-1`
+
+Once you have updated the 'LoadSources.glue' file for the relevant influenza virus species, you can build the extension layer for that virus by running the relevant extension layer build file. For example, for ICV:
+
+`run file glue/build/genus/icv/buildIcvExtension.glue`
+
+
 
 ## Usage
 
