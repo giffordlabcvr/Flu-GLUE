@@ -74,7 +74,7 @@ Flu-GLUE relies on the following data sources:
 - [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore)
 - [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy)
 
-For more information on the data sources and how they are integrated, see [Data Sources](./docs/data_sources.md).
+For more information on the data sources and how they are integrated, see [Data Sources](./md/data_sources.md).
 
 ## Contributing
 
