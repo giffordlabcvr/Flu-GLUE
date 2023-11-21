@@ -69,6 +69,8 @@ Once the 'LoadSources.glue' file for the relevant influenza virus species has be
 
 ## Usage
 
+GLUE contains an interactive command line environment focused on the development and use of GLUE projects by bioinformaticians. This provides a range of productivity-oriented features such as automatic command completion, command history and interactive paging through tabular data. 
+
 For detailed instructions on how to use Flu-GLUE for comparative genomic analysis of influenza viruses, refer to the GLUE software environment's [reference documentation](http://glue-tools.cvr.gla.ac.uk/).
 
 ## Data Sources
