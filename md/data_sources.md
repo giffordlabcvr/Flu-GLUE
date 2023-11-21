@@ -1,8 +1,10 @@
 # Data Sources
 
+All influenza virus sequence data utilized in Flu-GLUE were sourced from [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore).
+
 ## Influenza Virus Sequence Data Processing
 
-All influenza virus sequence data utilized in Flu-GLUE were sourced from [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore).
+To improve the data quality in Flu-GLUE, we performed extensive processing of GenBank sequence data, as described below.
 
 ### Validation and Normalization
 
