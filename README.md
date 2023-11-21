@@ -4,6 +4,10 @@
 
 Flu-GLUE is a sequence-oriented resource for comparative genomic analysis of influenza viruses, developed using the GLUE software framework. It provides a freely accessible, public-facing platform that offers a phylogenetically-structured collection of all publicly available influenza sequence data. Sequence data are richly annotated with gene features and isolate-associated information.
 
+GLUE (**G**enes **L**inked by **U**nderlying **E**volution) is a data-centric bioinformatics environment for virus sequence data, with a focus on variation, evolution and sequence interpretation.
+
+You can learn more about it on the [GLUE web site](http://glue-tools.cvr.gla.ac.uk).
+
 ## Table of Contents
 
 - [Overview](#overview)
