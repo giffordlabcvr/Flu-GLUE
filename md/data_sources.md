@@ -31,4 +31,5 @@ A tabular file containing information about all IAV complete genome sequences wa
 
 - **Clade Definition**: Clades were defined for the other six IAV segments, providing taxonomic information for all segments of complete genome IAV isolates.
 
-This thorough data processing ensures the integrity, accuracy, and completeness of the influenza virus sequence data used in Flu-GLUE for comparative genomic analysis.
+This thorough data processing ensures the integrity, accuracy, and completeness of the influenza virus sequence data contained in Flu-GLUE.
+
