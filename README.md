@@ -4,7 +4,7 @@
 
 Flu-GLUE is a sequence-oriented resource for comparative genomic analysis of influenza viruses, developed using the GLUE software framework. It provides a freely accessible, public-facing platform that offers a phylogenetically-structured collection of all publicly available influenza sequence data. 
 
-Sequences from the NCBI nucleotide database are curated along with complementary sequence metadata and are integrated together using [GLUE](http://glue-tools.cvr.gla.ac.uk/) (**G**enes **L**inked by **U**nderlying **E**volution) - a data-centric software package for capturing virus sequence data and organising it along evolutionary lines. 
+Sequences from the NCBI nucleotide database are curated along with complementary sequence metadata and are integrated together using [GLUE](https://github.com/giffordlabcvr/gluetools) (**G**enes **L**inked by **U**nderlying **E**volution) - a data-centric software package for capturing virus sequence data and organising it along evolutionary lines. 
 
 Sequence data are richly annotated with gene features and isolate-associated information. Flu-GLUE also contains reference sequences for all influenzavirus species and subtypes, multiple sequence alignments, and clade defintions for all influenza virus segments.
 
