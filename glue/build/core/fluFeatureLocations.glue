@@ -69,8 +69,10 @@ reference REF_S4_IAV_MASTER_NC_002017
   feature-location S4_whole_genome add segment 1 1778
   add feature-location S4_5UTR
   feature-location S4_5UTR add segment 1 32
+  add feature-location HA-SP
+  feature-location HA-SP add segment 33 83
   add feature-location HA
-  feature-location HA add segment 33 1733
+  feature-location HA add segment 84 1733
   add feature-location HA-UFO
   feature-location HA-UFO add segment 2 130
   add feature-location S4_3UTR

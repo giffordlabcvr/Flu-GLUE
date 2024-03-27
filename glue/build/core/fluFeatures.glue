@@ -163,6 +163,14 @@ feature S4_whole_genome set field displayName "Segment 4"
 create feature S4_5UTR -p S4_whole_genome "Segment 4 5' untranslated region"
 feature S4_5UTR set field displayName "5' UTR"
 
+create feature HA-SP -p S4_whole_genome "HA signal peptide region"
+feature HA-SP
+  set field displayName HA-SP
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  #set metatag CODON_LABELER_MODULE fluSeg4Kuiken2006CodonLabeler
+  exit
+
 create feature HA -p S4_whole_genome "HA coding sequence"
 feature HA
   set field displayName HA
