@@ -36,12 +36,8 @@ feature PB2_B
   #set metatag CODON_LABELER_MODULE fluSeg2Kuiken2006CodonLabeler
   exit
 
-
-
 create feature S1_3UTR -p S1_whole_genome "Segment 1 3' untranslated region"
 feature S1_3UTR set field displayName "3' UTR"
-
-
 
 create feature S2_whole_genome "Segment 2"
 feature S2_whole_genome set field displayName "Segment 2"
