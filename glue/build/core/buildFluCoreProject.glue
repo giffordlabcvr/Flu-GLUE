@@ -6,27 +6,27 @@ project flu
   # create modules
   run file glue/build/core/fluModules.glue
 
-  # Import reference sequences 
-  run file glue/build/core/fluImportSources.glue
-
-  # Import reference sequences 
-  run file glue/build/core/fluLoadSequenceData.glue
-
-  #  Load linked isolate-level data for reference sequences
-  run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
-
   # Define genome features
   run file glue/build/core/fluFeatures.glue
 
-  # Create reference sequences
-  run file glue/build/core/fluReferences.glue
-  run file glue/build/core/fluReferencesIav.glue
-  #run file glue/build/core/fluReferencesIbv.glue
+  # Import sequences 
+  run file glue/build/core/fluImportSources.glue
+  run file glue/build/core/fluLoadSequenceData.glue
 
-  # Define genome features
+  # Load isolate data and link to imported sequences
+  run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
+
+  # Define species master reference sequences
+  run file glue/build/core/fluReferences.glue
+
+  # Define subtype-level reference sequences
+  run file glue/build/core/fluReferencesIav.glue
+  run file glue/build/core/fluReferencesIbv.glue
+
+  # Define feature locations on master reference sequences
   run file glue/build/core/fluFeatureLocations.glue
 
-  # Import root alignments
+  # Import alignments
   run file glue/build/core/fluLoadUnconstrainedAlignments.glue
 
   # Define constrained alignment tree
@@ -36,11 +36,11 @@ project flu
   run file glue/build/core/fluExtendAlignmentTreeIcv.glue
   run file glue/build/core/fluExtendAlignmentTreeIdv.glue
 
-  # Derive constrained alignments from unconstrained
-  run file glue/build/core/fluDeriveConstrainedRootAlignments.glue
-
   # Compute IAV alignments
   run file glue/build/core/fluComputeAlignmentsIav.glue
+
+  # Derive constrained alignments from unconstrained
+  run file glue/build/core/fluDeriveConstrainedRootAlignments.glue
 
   # Define variations
   run file glue/build/core/iavVariations.glue

@@ -3,7 +3,7 @@ var segments = [ 1, 2, 3, 4, 5, 6, 7, 8 ];
 var strainObjs;
 
 glue.inMode("module/tabularUtility", function() {
-	strainObjs = glue.tableToObjects(glue.command(["load-tabular", "tabular/genus/iav/iav-strains.complete.out.tsv"]));
+	strainObjs = glue.tableToObjects(glue.command(["load-tabular", "tabular/genus/iav/iav-strains.complete.out-all.tsv"]));
 });
 //glue.logInfo("strainObjs", strainObjs);
 

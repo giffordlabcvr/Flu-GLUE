@@ -8,3 +8,6 @@
 
   create module -f modules/build/core/rootAlignmentImporter.xml  
   create module -f modules/build/core/unconstrainedAlignmentImporter.xml 
+
+  create module -f modules/analysis/phylogeny/fluRaxmlPhylogenyGenerator.xml 
+  create module -f modules/analysis/phylogeny/fluFigTreeAnnotationExporter.xml 

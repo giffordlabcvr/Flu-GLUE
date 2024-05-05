@@ -2,6 +2,7 @@ schema-project flu
 
   create custom-table isolate --idFieldLength 200
   create custom-table host
+  create custom-table aa_mutation
 
   table sequence
     
@@ -36,8 +37,7 @@ schema-project flu
   exit
 
 
-  table isolate
-  
+  table isolate 
     create field iso_host VARCHAR 100
     create field iso_source VARCHAR 200
     create field iso_country VARCHAR 100
@@ -48,24 +48,31 @@ schema-project flu
     create field lab_host VARCHAR 100
     create field cg_subtype VARCHAR 50
     create field hn_subtype VARCHAR 50
-    # true if isolate has at least one "complete segment" sequence for each of the 8 segments
-    create field complete_genome BOOLEAN
-    
-  exit
+    create field complete_genome BOOLEAN   # true if isolate has at least one "complete segment" sequence for each of the 8 segments
+    exit
+
+
+  table aa_mutation
+    create field species VARCHAR 10
+    create field gene VARCHAR 20
+    create field reference VARCHAR 20
+    create field position INTEGER
+    create field aa VARCHAR 5
+    create field type TEXT
+    exit
+
 
   table host
-  
     create field taxon_name VARCHAR 100
     create field taxonomic_level VARCHAR 100
     create field common_name VARCHAR 100
-
     exit
 
 
   table alignment
     create field clade_category VARCHAR 20
     create field phylogeny CLOB
-  exit 
+    exit 
 
 
   table member_floc_note
