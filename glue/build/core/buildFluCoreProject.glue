@@ -20,8 +20,8 @@ project flu
   run file glue/build/core/fluReferences.glue
 
   # Define subtype-level reference sequences
-  run file glue/build/core/fluReferencesIav.glue
-  run file glue/build/core/fluReferencesIbv.glue
+  run file glue/build/core/fluReferencesIavSubtypes.glue
+  run file glue/build/core/fluReferencesIbvSubtypes.glue
 
   # Define feature locations on master reference sequences
   run file glue/build/core/fluFeatureLocations.glue

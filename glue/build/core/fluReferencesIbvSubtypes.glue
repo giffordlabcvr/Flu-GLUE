@@ -1,8 +1,9 @@
 # Reference lists for IBV reference strains and associated genome segments
 
 # Influenza B Virus (B/Victoria/504/2000) reference sequences
-create reference REF_S1_IBV_Victoria_AY504599 ibv-ncbi-refseqs-seg1 AY504599
-create reference REF_S2_IBV_Victoria_AY504600 ibv-ncbi-refseqs-seg2 AY504600
+create reference REF_S2_IBV_Victoria_AY504600 ibv-ncbi-refseqs-seg1 AY504600
+create reference REF_S1_IBV_Victoria_AY504599 ibv-ncbi-refseqs-seg2 AY504599
+
 create reference REF_S3_IBV_Victoria_AY504601 ibv-ncbi-refseqs-seg3 AY504601
 create reference REF_S4_IBV_Victoria_AY504602 ibv-ncbi-refseqs-seg4 AY504602
 create reference REF_S5_IBV_Victoria_AY504603 ibv-ncbi-refseqs-seg5 AY504603
@@ -29,4 +30,15 @@ create reference REF_S5_IBV_Lee40_NC_002208 ibv-ncbi-refseqs-seg5 NC_002208
 create reference REF_S6_IBV_Lee40_NC_002209 ibv-ncbi-refseqs-seg6 NC_002209
 create reference REF_S7_IBV_Lee40_NC_002210 ibv-ncbi-refseqs-seg7 NC_002210
 create reference REF_S8_IBV_Lee40_NC_002211 ibv-ncbi-refseqs-seg8 NC_002211
+
+# Influenza B Virus (B/Hong Kong/8/1973) reference sequences
+create reference REF_S1_IBV_HK73_CQ903173 ibv-ncbi-refseqs-seg1 CQ903173
+create reference REF_S2_IBV_HK73_CQ903172 ibv-ncbi-refseqs-seg2 CQ903172
+create reference REF_S3_IBV_HK73_CQ903174 ibv-ncbi-refseqs-seg3 CQ903174
+create reference REF_S4_IBV_HK73_CQ903175 ibv-ncbi-refseqs-seg4 CQ903175
+create reference REF_S5_IBV_HK73_CQ903177 ibv-ncbi-refseqs-seg5 CQ903177
+create reference REF_S6_IBV_HK73_CQ903177 ibv-ncbi-refseqs-seg6 CQ903176
+create reference REF_S7_IBV_HK73_CQ903178 ibv-ncbi-refseqs-seg7 CQ903178
+create reference REF_S8_IBV_HK73_CQ903179 ibv-ncbi-refseqs-seg8 CQ903179
+
 
