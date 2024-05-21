@@ -17,9 +17,11 @@ project flu
 
   # Import sequences 
   run file glue/build/core/fluImportSources.glue
+
+  # Import sequence-associated data
   run file glue/build/core/fluLoadSequenceData.glue
 
-  # Load isolate data and link to imported sequences
+  # Import isolate data and link to imported sequences
   run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
 
   # Define species master reference sequences
