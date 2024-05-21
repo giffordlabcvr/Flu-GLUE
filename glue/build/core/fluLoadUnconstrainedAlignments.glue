@@ -3,21 +3,14 @@
 module fluUnconstrainedAlignmentImporter
 
   import AL_UNC_ROOT_SEG_1    -f alignments/root/PB2.aln.fna
-  
   import AL_UNC_ROOT_SEG_2    -f alignments/root/PB1.aln.fna
-  
   import AL_UNC_ROOT_SEG_3    -f alignments/root/PA.aln.fna
-  
   import AL_UNC_ROOT_SEG_4_AB -f alignments/root/HA-seg4-AB.aln.fna
   import AL_UNC_ROOT_SEG_4_CD -f alignments/root/HEF-seg4-CD.aln.fna
-
   import AL_UNC_ROOT_SEG_5    -f alignments/root/NP.aln.fna
-  
   import AL_UNC_ROOT_SEG_6_AB -f alignments/root/NA-seg6-AB.aln.fna
   import AL_UNC_ROOT_SEG_6_CD -f alignments/root/M-seg6-CD.aln.fna
-  
   import AL_UNC_ROOT_SEG_7_AB -f alignments/root/M.aln.fna
-  
   import AL_UNC_ROOT_SEG_8    -f alignments/root/NS.aln.fna
 
   exit

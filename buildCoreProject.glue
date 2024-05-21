@@ -48,11 +48,6 @@ project flu
   # Derive constrained alignments from unconstrained
   run file glue/build/core/fluDeriveConstrainedRootAlignments.glue
 
-  # Define variations
-  run file glue/build/core/iavVariations.glue
-  run file glue/build/core/ibvVariations.glue
-  run file glue/build/core/icvVariations.glue
-
   # Validate
   validate
 
