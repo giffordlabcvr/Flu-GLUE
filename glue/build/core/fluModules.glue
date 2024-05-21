@@ -6,9 +6,13 @@
   # Alignment importers
   create module -f modules/build/core/rootAlignmentImporter.xml  
   create module -f modules/build/core/fluUnconstrainedAlignmentImporter.xml 
-  
+ 
   # This 'GenbankXmlPopulator' module is the preferred importer for all GenBank influenza sequences
   create module -f modules/build/core/fluGenbankXmlPopulator.xml
+
+  # Phylogeny generation
+  create module -f modules/analysis/phylogeny/fluRaxmlPhylogenyGenerator.xml 
+  create module -f modules/analysis/phylogeny/fluFigTreeAnnotationExporter.xml 
  
   # IAV aligners
   create module -f modules/build/core/alignment/iavCompoundAlignerS1.xml 

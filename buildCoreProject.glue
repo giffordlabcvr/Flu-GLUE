@@ -32,9 +32,6 @@ project flu
   # Define feature locations on master reference sequences
   run file glue/build/core/fluFeatureLocations.glue
 
-  # Import alignments
-  run file glue/build/core/fluLoadUnconstrainedAlignments.glue
-
   # Define constrained alignment tree
   run file glue/build/core/fluDefineConstrainedAlignmentTree.glue
   run file glue/build/core/fluExtendAlignmentTreeIav.glue
@@ -42,11 +39,15 @@ project flu
   run file glue/build/core/fluExtendAlignmentTreeIcv.glue
   run file glue/build/core/fluExtendAlignmentTreeIdv.glue
 
-  # Compute IAV alignments
-  run file glue/build/core/fluComputeAlignmentsIav.glue
+  # Import alignments
+  run file glue/build/core/fluLoadUnconstrainedAlignments.glue
 
-  # Derive constrained alignments from unconstrained
+  # Derive constrained alignments from unconstrained alignments (cross-species)
   run file glue/build/core/fluDeriveConstrainedRootAlignments.glue
+
+  # Compute IAV and IBV alignments
+  run file glue/build/core/fluComputeAlignmentsIav.glue
+  run file glue/build/core/fluComputeAlignmentsIbv.glue
 
   # Validate
   validate

@@ -3,7 +3,7 @@
 
 # ALPHAINFLUENZAVIRUS
 
-reference REF_S1_IAV_MASTER_NC_002023
+reference REF_IAV_S1_MASTER_NC_002023
 
   add feature-location S1_whole_genome
   feature-location S1_whole_genome add segment 1 2341
@@ -22,7 +22,7 @@ reference REF_S1_IAV_MASTER_NC_002023
   feature-location S1_3UTR add segment 2308 2341
   exit
 
-reference REF_S2_IAV_MASTER_NC_002021
+reference REF_IAV_S2_MASTER_NC_002021
 
   add feature-location S2_whole_genome
   feature-location S2_whole_genome add segment 1 2341
@@ -40,7 +40,7 @@ reference REF_S2_IAV_MASTER_NC_002021
   feature-location S2_3UTR add segment 2299 2341
   exit
 
-reference REF_S3_IAV_MASTER_NC_002022
+reference REF_IAV_S3_MASTER_NC_002022
 
   add feature-location S3_whole_genome
   feature-location S3_whole_genome add segment 1 2233
@@ -63,7 +63,7 @@ reference REF_S3_IAV_MASTER_NC_002022
   feature-location S3_3UTR add segment 2176 2233
   exit
   
-reference REF_S4_IAV_MASTER_NC_002017
+reference REF_IAV_S4_MASTER_NC_002017
 
   add feature-location S4_whole_genome
   feature-location S4_whole_genome add segment 1 1778
@@ -79,7 +79,7 @@ reference REF_S4_IAV_MASTER_NC_002017
   feature-location S4_3UTR add segment 1734 1778
   exit
 
-reference REF_S5_IAV_MASTER_NC_002019
+reference REF_IAV_S5_MASTER_NC_002019
 
   add feature-location S5_whole_genome
   feature-location S5_whole_genome add segment 1 1565
@@ -93,7 +93,7 @@ reference REF_S5_IAV_MASTER_NC_002019
   feature-location S5_3UTR add segment 1543 1565
   exit
 
-reference REF_S6_IAV_MASTER_NC_002018
+reference REF_IAV_S6_MASTER_NC_002018
 
   add feature-location S6_whole_genome
   feature-location S6_whole_genome add segment 1 1413
@@ -107,7 +107,7 @@ reference REF_S6_IAV_MASTER_NC_002018
   feature-location S6_3UTR add segment 1386 1413
   exit
 
-reference REF_S7_IAV_MASTER_NC_002016
+reference REF_IAV_S7_MASTER_NC_002016
 
   add feature-location S7_whole_genome
   feature-location S7_whole_genome add segment 1 1027
@@ -133,7 +133,7 @@ reference REF_S7_IAV_MASTER_NC_002016
   feature-location S7_3UTR add segment 1008 1027
   exit
 
-reference REF_S8_IAV_MASTER_NC_002020 
+reference REF_IAV_S8_MASTER_NC_002020 
 
   add feature-location S8_whole_genome
   feature-location S8_whole_genome add segment 1 890
@@ -163,7 +163,7 @@ reference REF_S8_IAV_MASTER_NC_002020
 # BETAINFLUENZAVIRUS
 
 # Add feature locations
-reference REF_S1_IBV_CQ903172
+reference REF_IBV_S1_CQ903172
   add feature-location S2_whole_genome
   feature-location S2_whole_genome add segment 1 2368
   add feature-location S2_5UTR
@@ -174,7 +174,7 @@ reference REF_S1_IBV_CQ903172
   feature-location S2_3UTR add segment 2280 2368
   exit
 
-reference REF_S2_IBV_CQ903173
+reference REF_IBV_S2_CQ903173
   add feature-location S1_whole_genome
   feature-location S1_whole_genome add segment 1 2396
   add feature-location S1_5UTR
@@ -185,7 +185,7 @@ reference REF_S2_IBV_CQ903173
   feature-location S1_3UTR add segment 2337 2396
   exit  
   
-reference REF_S3_IBV_CQ903174 
+reference REF_IBV_S3_CQ903174 
   add feature-location S3_whole_genome
   feature-location S3_whole_genome add segment 1 2307
   add feature-location S3_5UTR
@@ -196,7 +196,7 @@ reference REF_S3_IBV_CQ903174
   feature-location S3_3UTR add segment 2211 2307
   exit
   
-reference REF_S4_IBV_CQ903175
+reference REF_IBV_S4_CQ903175
   add feature-location S4_whole_genome
   feature-location S4_whole_genome add segment 1 1882
   add feature-location S4_5UTR
@@ -207,7 +207,7 @@ reference REF_S4_IBV_CQ903175
   feature-location S4_3UTR add segment 1789 1882
   exit
 
-reference REF_S5_IBV_CQ903177
+reference REF_IBV_S5_CQ903177
   add feature-location S5_whole_genome
   feature-location S5_whole_genome add segment 1 1841
   add feature-location S5_5UTR
@@ -218,7 +218,7 @@ reference REF_S5_IBV_CQ903177
   feature-location S5_3UTR add segment 1741 1841
   exit
 
-reference REF_S6_IBV_CQ903176
+reference REF_IBV_S6_CQ903176
   add feature-location S6_whole_genome
   feature-location S6_whole_genome add segment 1 1557
   add feature-location S6_5UTR
@@ -231,7 +231,7 @@ reference REF_S6_IBV_CQ903176
   feature-location S6_3UTR add segment 1455 1557
   exit
 
-reference REF_S7_IBV_CQ903178
+reference REF_IBV_S7_CQ903178
   add feature-location S7_whole_genome
   feature-location S7_whole_genome add segment 1 1191
   add feature-location S7_5UTR
@@ -244,7 +244,7 @@ reference REF_S7_IBV_CQ903178
   feature-location S7_3UTR add segment 1101 1191
   exit
 
-reference REF_S8_IBV_CQ903179
+reference REF_IBV_S8_CQ903179
   add feature-location S8_whole_genome
   feature-location S8_whole_genome add segment 1 1096
   add feature-location S8_5UTR
@@ -265,7 +265,7 @@ reference REF_S8_IBV_CQ903179
 
 # GAMMAINFLUENZAVIRUS
 
-reference REF_S1_ICV_NC_006307
+reference REF_ICV_S1_NC_006307
 
   add feature-location S1_whole_genome
   feature-location S1_whole_genome add segment 1 2365
@@ -277,7 +277,7 @@ reference REF_S1_ICV_NC_006307
   feature-location S1_3UTR add segment 2347 2365  
   exit
 
-reference REF_S2_ICV_NC_006308
+reference REF_ICV_S2_NC_006308
 
   add feature-location S2_whole_genome
   feature-location S2_whole_genome add segment 1 2363
@@ -289,7 +289,7 @@ reference REF_S2_ICV_NC_006308
   feature-location S2_3UTR add segment 2283 2363  
   exit
 
-reference REF_S3_ICV_NC_006309
+reference REF_ICV_S3_NC_006309
 
   add feature-location S3_whole_genome
   feature-location S3_whole_genome add segment 1 2183
@@ -301,7 +301,7 @@ reference REF_S3_ICV_NC_006309
   feature-location S3_3UTR add segment 2152 2183  
   exit
 
-reference REF_S4_ICV_NC_006310
+reference REF_ICV_S4_NC_006310
 
   add feature-location S4_whole_genome
   feature-location S4_whole_genome add segment 1 2073
@@ -313,7 +313,7 @@ reference REF_S4_ICV_NC_006310
   feature-location S4_3UTR add segment 1990 2073  
   exit
 
-reference REF_S5_ICV_NC_006311
+reference REF_ICV_S5_NC_006311
 
   add feature-location S5_whole_genome
   feature-location S5_whole_genome add segment 1 1807
@@ -326,7 +326,7 @@ reference REF_S5_ICV_NC_006311
   exit 
 
 
-reference REF_S6_ICV_NC_006312
+reference REF_ICV_S6_NC_006312
 
   add feature-location S6_whole_genome
   feature-location S6_whole_genome add segment 1 1180
@@ -348,7 +348,7 @@ reference REF_S6_ICV_NC_006312
   exit
 
 
-reference REF_S7_ICV_NC_006306
+reference REF_ICV_S7_NC_006306
 
   add feature-location S7_whole_genome
   feature-location S7_whole_genome add segment 1 935  
@@ -367,7 +367,7 @@ reference REF_S7_ICV_NC_006306
 
 # DELTAINFLUENZAVIRUS
 
-reference REF_S1_IDV_NC_036616
+reference REF_IDV_S1_NC_036616
 
   add feature-location S1_whole_genome
   feature-location S1_whole_genome add segment 1 2364  
@@ -379,7 +379,7 @@ reference REF_S1_IDV_NC_036616
   feature-location S1_3UTR add segment 2334 2364  
   exit
   
-reference REF_S2_IDV_NC_036615
+reference REF_IDV_S2_NC_036615
 
   add feature-location S2_whole_genome
   feature-location S2_whole_genome add segment 1 2330
@@ -391,7 +391,7 @@ reference REF_S2_IDV_NC_036615
   feature-location S2_3UTR add segment 2288 2330  
   exit
   
-reference REF_S3_IDV_NC_036619
+reference REF_IDV_S3_NC_036619
 
   add feature-location S3_whole_genome
   feature-location S3_whole_genome add segment 1 2195
@@ -403,7 +403,7 @@ reference REF_S3_IDV_NC_036619
   feature-location S3_3UTR add segment 2156 2195  
   exit
   
-reference REF_S4_IDV_NC_036618
+reference REF_IDV_S4_NC_036618
 
   add feature-location S4_whole_genome
   feature-location S4_whole_genome add segment 1 2049
@@ -415,7 +415,7 @@ reference REF_S4_IDV_NC_036618
   feature-location S4_3UTR add segment 2020 2049  
   exit
   
-reference REF_S5_IDV_NC_036617
+reference REF_IDV_S5_NC_036617
 
   add feature-location S5_whole_genome
   feature-location S5_whole_genome add segment 1 1775
@@ -427,7 +427,7 @@ reference REF_S5_IDV_NC_036617
   feature-location S5_3UTR add segment 1687 1775  
   exit
   
-reference REF_S6_IDV_NC_036620
+reference REF_IDV_S6_NC_036620
 
   add feature-location S6_whole_genome
   feature-location S6_whole_genome add segment 1 1219
@@ -439,7 +439,7 @@ reference REF_S6_IDV_NC_036620
   feature-location S6_3UTR add segment 1193 1219  
   exit
   
-reference REF_S7_IDV_NC_036621
+reference REF_IDV_S7_NC_036621
 
   add feature-location S7_whole_genome
   feature-location S7_whole_genome add segment 1 868
