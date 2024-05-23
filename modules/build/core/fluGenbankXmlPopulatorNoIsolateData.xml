@@ -1,0 +1,50 @@
+<genbankXmlPopulator>
+
+	<gbPrimaryAccession>
+		<propertyPopulator property="gb_primary_accession"/>
+	</gbPrimaryAccession>
+	<gbAccessionVersion>
+		<propertyPopulator property="gb_accession_version"/>
+	</gbAccessionVersion>
+	
+	<!-- #### TOP LEVEL DATA -->	
+	<gbLength>
+		<propertyPopulator property="length"/>
+	</gbLength>
+	<gbUpdateDate>
+		<propertyPopulator property="gb_update_date"/>
+	</gbUpdateDate>
+	<gbCreateDate>
+		<propertyPopulator property="gb_create_date"/>
+	</gbCreateDate>
+
+
+	<!-- #### ORGANISM -->			
+	<gbOrganism>
+		<propertyPopulator property="full_name">
+		</propertyPopulator>
+	</gbOrganism>
+	
+
+	<!-- #### PUBMED ID -->	
+	<gbReference>
+		<gbRefPubmed>
+			<propertyPopulator property="pubmed_id"/>
+		</gbRefPubmed>
+	</gbReference>
+	
+	
+	<gbFeature key="source">
+			
+		<!-- #### SEGMENT -->			
+		<gbQualifier name="segment">
+			<propertyPopulator property="gb_segment">
+				<matchPattern>(\d+)</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+				<overwriteExistingNonNull>false</overwriteExistingNonNull>
+			</propertyPopulator>
+		</gbQualifier>
+		
+	</gbFeature>
+	
+</genbankXmlPopulator>

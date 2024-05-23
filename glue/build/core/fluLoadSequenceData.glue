@@ -1,7 +1,7 @@
 
   #  Link reference sequences to isolate table 
-  run script glue/build/core/fluLoadSequenceDataNcbiRefseqs.js
+  #run script glue/build/core/fluLoadSequenceDataNcbiRefseqs.js
 
   # Import reference sequence data from GenBank XML
-  module fluGenbankXmlPopulator populate
+  module fluGenbankXmlPopulatorNoIsolateData populate
 

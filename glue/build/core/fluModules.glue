@@ -7,8 +7,8 @@
   create module -f modules/build/core/rootAlignmentImporter.xml  
   create module -f modules/build/core/fluUnconstrainedAlignmentImporter.xml 
  
-  # This 'GenbankXmlPopulator' module is the preferred importer for all GenBank influenza sequences
-  create module -f modules/build/core/fluGenbankXmlPopulator.xml
+  # This 'GenbankXmlPopulator' module is the preferred importer for reference sequences
+  create module -f modules/build/core/fluGenbankXmlPopulatorNoIsolateData.xml
 
   # Phylogeny generation
   create module -f modules/analysis/phylogeny/fluRaxmlPhylogenyGenerator.xml 

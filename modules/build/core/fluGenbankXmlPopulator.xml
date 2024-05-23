@@ -37,13 +37,9 @@
 	<gbFeature key="source">
 	
 		<gbQualifier name="isolate">
-			<propertyPopulator property="isolate_name"/>
+			<propertyPopulator property="isolate.isolate_name"/>
 		</gbQualifier>
 		
-		<gbQualifier name="strain">
-			<propertyPopulator property="strain"/>
-		</gbQualifier>
-
 		<gbQualifier name="serotype">
 			<propertyPopulator property="gb_subtype"/>
 		</gbQualifier>
@@ -2040,9 +2036,6 @@
 
 									
 			</propertyPopulator>
-	
-			
-			
 			
 		</gbQualifier>
 

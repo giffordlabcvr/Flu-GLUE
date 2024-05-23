@@ -7,37 +7,26 @@ schema-project flu
   table sequence
     
     # GenBank entry information
+    create field full_name VARCHAR 200
     create field gb_primary_accession VARCHAR
     create field gb_accession_version VARCHAR
     create field gb_create_date DATE
     create field gb_update_date DATE
     create field length INTEGER
-  
-    # Sequence & diversity information
-    create field name VARCHAR 100  
-    create field full_name VARCHAR 200
-    create field genus VARCHAR 50
-    create field gb_subtype VARCHAR 50
-    create field rec_subtype VARCHAR 50
-    create field strain VARCHAR 150
-    create field isolate_name VARCHAR 150
-    
-    # Segment information
+    create field pubmed_id VARCHAR 50
+
+    # Taxonomic & segment-related information
+    create field species VARCHAR 100  
     create field gb_segment INTEGER
     create field rec_segment VARCHAR
-    create field complete_segment BOOLEAN
-        
-    # Booleans
-    create field excluded BOOLEAN 
-    create field excluded_reason VARCHAR 100
-	
-	# Study link (if any)
-    create field pubmed_id VARCHAR 50
+    create field rec_subtype VARCHAR 50 # Specific to each segment (unlike HN classifications which apply to isolates)
 
   exit
 
 
-  table isolate 
+  table isolate
+  
+    create field strain VARCHAR 150
     create field iso_host VARCHAR 100
     create field iso_source VARCHAR 200
     create field iso_country VARCHAR 100
@@ -48,35 +37,45 @@ schema-project flu
     create field lab_host VARCHAR 100
     create field cg_subtype VARCHAR 50
     create field hn_subtype VARCHAR 50
+    create field gb_subtype VARCHAR 50
     create field complete_genome BOOLEAN   # true if isolate has at least one "complete segment" sequence for each of the 8 segments
+    
     exit
 
 
   table aa_mutation
+  
     create field species VARCHAR 10
     create field gene VARCHAR 20
     create field reference VARCHAR 20
     create field position INTEGER
     create field aa VARCHAR 5
     create field type VARCHAR 20
+    
     exit
 
 
   table host
+    
     create field taxon_name VARCHAR 100
     create field taxonomic_level VARCHAR 100
     create field common_name VARCHAR 100
+    
     exit
 
 
   table alignment
+    
     create field clade_category VARCHAR 20
     create field phylogeny CLOB
+    
     exit 
 
 
   table member_floc_note
+  	
   	create field ref_nt_coverage_pct DOUBLE
+  	
   	exit
 
 

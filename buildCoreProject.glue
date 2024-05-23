@@ -22,7 +22,7 @@ project flu
   run file glue/build/core/fluLoadSequenceData.glue
 
   # Import isolate data and link to imported sequences
-  run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
+  #run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
 
   # Define species master reference sequences
   run file glue/build/core/references/fluReferences.glue

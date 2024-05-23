@@ -7,13 +7,8 @@ _.each(species, function(virus) {
 
 	_.each(segments, function(segment) {
 
-        if (virus == 'ICV' && segment == 8) {
-        
-        	
-        }
-        else if (virus == 'IDV' && segment == 8) {
-        
-        	// Do nothing
+        if (virus == 'ICV' && segment == 8 || virus == 'IDV' && segment == 8) {                
+        	// Do nothing because there is no segment 8 in ICV or IDV
         }
         else {
 
@@ -33,23 +28,18 @@ _.each(species, function(virus) {
 				glue.inMode("sequence/"+sourceName+"/"+seqId, function() {
 			
 					if (virus == 'iav') {
-						glue.command(["set", "field", "name", 'IAV']);				
-						glue.command(["set", "field", "genus", 'Alphainfluenzavirus']);
+						glue.command(["set", "field", "species", 'IAV']);				
 					}
 					if (virus == 'ibv') {			
-						glue.command(["set", "field", "name", 'IBV']);	
-						glue.command(["set", "field", "genus", 'Betainfluenzavirus']);
+						glue.command(["set", "field", "species", 'IBV']);	
 					}
 					if (virus == 'icv') {
-						glue.command(["set", "field", "name", 'ICV']);	
-						glue.command(["set", "field", "genus", 'Gammainfluenzavirus']);
+						glue.command(["set", "field", "species", 'ICV']);	
 					}
 					if (virus == 'idv') {			
-						glue.command(["set", "field", "name", 'IDV']);	
-						glue.command(["set", "field", "genus", 'Deltainfluenzavirus']);
+						glue.command(["set", "field", "species", 'IDV']);	
 					}
-			
-			
+					
 				});
 
 			});
