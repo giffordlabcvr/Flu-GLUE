@@ -25,25 +25,21 @@ project flu
   run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
 
   # Define species master reference sequences
-  run file glue/build/core/fluReferences.glue
-  run file glue/build/core/fluReferencesIavSubtypes.glue
-  run file glue/build/core/fluReferencesIbvSubtypes.glue
+  run file glue/build/core/references/fluReferences.glue
+  run file glue/build/core/references/fluReferencesIavSubtypes.glue
+  run file glue/build/core/references/fluReferencesIbvSubtypes.glue
 
   # Define feature locations on master reference sequences
   run file glue/build/core/fluFeatureLocations.glue
 
   # Define constrained alignment tree
-  run file glue/build/core/fluDefineConstrainedAlignmentTree.glue
-  run file glue/build/core/fluExtendAlignmentTreeIav.glue
-  run file glue/build/core/fluExtendAlignmentTreeIbv.glue
-  run file glue/build/core/fluExtendAlignmentTreeIcv.glue
-  run file glue/build/core/fluExtendAlignmentTreeIdv.glue
+  run file glue/build/core/fluAlignmentTree.glue
 
   # Import alignments
   run file glue/build/core/fluLoadUnconstrainedAlignments.glue
 
   # Derive constrained alignments from unconstrained alignments (cross-species)
-  run file glue/build/core/fluDeriveConstrainedRootAlignments.glue
+  run file glue/build/core/fluDeriveConstrainedRootMsas.glue
 
   # Compute IAV and IBV alignments
   run file glue/build/core/fluComputeAlignmentsIav.glue
