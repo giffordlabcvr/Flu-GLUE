@@ -1,9 +1,6 @@
 # Build IAV extension project
 project flu
 
-  # Create extension modules  
-  run file glue/build/extension/iav/iavModules.glue
-
   # Import sources 
   run file glue/build/extension/iav/iavLoadSources.glue
   

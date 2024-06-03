@@ -1,0 +1,35 @@
+delete module icvNcbiRefseqImporterSegment1
+delete module icvNcbiRefseqImporterSegment2
+delete module icvNcbiRefseqImporterSegment3
+delete module icvNcbiRefseqImporterSegment4
+delete module icvNcbiRefseqImporterSegment5
+delete module icvNcbiRefseqImporterSegment6
+delete module icvNcbiRefseqImporterSegment7
+
+# Create modules
+create module -f modules/download/refseq/icvNcbiRefseqImporterSegment1.xml
+create module -f modules/download/refseq/icvNcbiRefseqImporterSegment2.xml
+create module -f modules/download/refseq/icvNcbiRefseqImporterSegment3.xml
+create module -f modules/download/refseq/icvNcbiRefseqImporterSegment4.xml
+create module -f modules/download/refseq/icvNcbiRefseqImporterSegment5.xml
+create module -f modules/download/refseq/icvNcbiRefseqImporterSegment6.xml
+create module -f modules/download/refseq/icvNcbiRefseqImporterSegment7.xml
+
+# Download NCBI sequences 
+module icvNcbiRefseqImporterSegment1 import
+module icvNcbiRefseqImporterSegment2 import
+module icvNcbiRefseqImporterSegment3 import
+module icvNcbiRefseqImporterSegment4 import
+module icvNcbiRefseqImporterSegment5 import
+module icvNcbiRefseqImporterSegment6 import
+module icvNcbiRefseqImporterSegment7 import
+
+# Export sources 
+export source icv-ncbi-refseqs-seg1
+export source icv-ncbi-refseqs-seg2
+export source icv-ncbi-refseqs-seg3
+export source icv-ncbi-refseqs-seg4
+export source icv-ncbi-refseqs-seg5
+export source icv-ncbi-refseqs-seg6
+export source icv-ncbi-refseqs-seg7
+

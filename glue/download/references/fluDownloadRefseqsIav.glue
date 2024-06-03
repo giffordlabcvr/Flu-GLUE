@@ -8,14 +8,14 @@ delete module iavNcbiRefseqImporterSegment7
 delete module iavNcbiRefseqImporterSegment8
 
 # Create modules
-create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment1.xml
-create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment2.xml
-create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment3.xml
-create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment4.xml
-create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment5.xml
-create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment6.xml
-create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment7.xml
-create module -f modules/build/core/downloads/iavNcbiRefseqImporterSegment8.xml
+create module -f modules/download/refseq/iavNcbiRefseqImporterSegment1.xml
+create module -f modules/download/refseq/iavNcbiRefseqImporterSegment2.xml
+create module -f modules/download/refseq/iavNcbiRefseqImporterSegment3.xml
+create module -f modules/download/refseq/iavNcbiRefseqImporterSegment4.xml
+create module -f modules/download/refseq/iavNcbiRefseqImporterSegment5.xml
+create module -f modules/download/refseq/iavNcbiRefseqImporterSegment6.xml
+create module -f modules/download/refseq/iavNcbiRefseqImporterSegment7.xml
+create module -f modules/download/refseq/iavNcbiRefseqImporterSegment8.xml
 
 # Download NCBI sequences 
 module iavNcbiRefseqImporterSegment1 import
