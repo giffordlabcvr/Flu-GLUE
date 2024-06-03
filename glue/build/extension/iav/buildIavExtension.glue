@@ -2,22 +2,22 @@
 project flu
 
   # Create extension modules  
-  run file glue/build/genus/iav/iavModules.glue
+  run file glue/build/extension/iav/iavModules.glue
 
   # Import sources 
-  run file glue/build/genus/iav/iavLoadSources.glue
+  run file glue/build/extension/iav/iavLoadSources.glue
   
   # Import data from GenBank XML
   module genbankXmlPopulator populate -w "source.name like 'iav-ncbi-curated-segment-%'"
 
   # Link sequences to isolate table and load genus-level level data.
-  run script glue/build/genus/iav/iavLoadSequenceDataNcbiCurated.js
+  run script glue/build/extension/iav/iavLoadSequenceDataNcbiCurated.js
 
   # Link sequences to isolate table and load strain level data.
-  run script glue/build/genus/iav/iavLoadIsolateDataNcbiCurated.js  
+  run script glue/build/extension/iav/iavLoadIsolateDataNcbiCurated.js  
    
   # Define constrained alignment tree for extension project
-  run file glue/build/genus/iav/iavAlignmentTree.glue
+  run file glue/build/extension/iav/iavAlignmentTree.glue
    
   # Validate
   validate

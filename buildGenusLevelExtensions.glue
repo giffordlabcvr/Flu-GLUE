@@ -1,6 +1,6 @@
 
-run file glue/build/genus/iav/buildIavExtension.glue
-run file glue/build/genus/ibv/buildIbvExtension.glue
-run file glue/build/genus/icv/buildIcvExtension.glue
-run file glue/build/genus/idv/buildIdvExtension.glue
+run file glue/build/extension/iav/buildIavExtension.glue
+#run file glue/build/extension/ibv/buildIbvExtension.glue
+#run file glue/build/extension/icv/buildIcvExtension.glue
+#run file glue/build/extension/idv/buildIdvExtension.glue
 

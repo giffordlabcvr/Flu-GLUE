@@ -1,0 +1,69 @@
+<blastSequenceRecogniser>
+
+  <blastRunner>
+    <generalSearch>
+      <word_size>8</word_size>
+    </generalSearch>
+    <restrictSearchOrResults>
+    </restrictSearchOrResults>
+  </blastRunner>
+  
+<referenceSequence>REF_IAV_S1_MASTER_NC_002023</referenceSequence>
+<referenceSequence>REF_IAV_S2_MASTER_NC_002021</referenceSequence>
+<referenceSequence>REF_IAV_S3_MASTER_NC_002022</referenceSequence>
+<referenceSequence>REF_IAV_S4_MASTER_NC_002017</referenceSequence>
+<referenceSequence>REF_IAV_S5_MASTER_NC_002019</referenceSequence>
+<referenceSequence>REF_IAV_S6_MASTER_NC_002018</referenceSequence>
+<referenceSequence>REF_IAV_S7_MASTER_NC_002016</referenceSequence>
+<referenceSequence>REF_IAV_S8_MASTER_NC_002020</referenceSequence>
+
+<recognitionCategory>
+<id>1</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IAV_S1_MASTER_NC_002023</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>2</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IAV_S2_MASTER_NC_002021</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>3</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IAV_S3_MASTER_NC_002022</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>4</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IAV_S4_MASTER_NC_002017</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>5</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IAV_S5_MASTER_NC_002019</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>6</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IAV_S6_MASTER_NC_002018</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>7</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IAV_S7_MASTER_NC_002016</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>8</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IAV_S8_MASTER_NC_002020</referenceSequence>
+</recognitionCategory>
+
+
+</blastSequenceRecogniser>

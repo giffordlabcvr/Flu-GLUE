@@ -1,19 +1,19 @@
 project flu
 
   # Import sources 
-  run file glue/build/genus/idv/idvLoadSources.glue
+  run file glue/build/extension/idv/idvLoadSources.glue
   
   # Import data from GenBank XML
   module genbankXmlPopulator populate -w "source.name like 'idv-ncbi-curated-segment-%'"
 
   # Link sequences to isolate table and load genus-level level data.
-  run script glue/build/genus/idv/idvLoadSequenceDataNcbiCurated.js
+  run script glue/build/extension/idv/idvLoadSequenceDataNcbiCurated.js
 
   # Link sequences to isolate table and load strain level data.
-  run script glue/build/genus/idv/idvLoadIsolateDataNcbiCurated.js  
+  run script glue/build/extension/idv/idvLoadIsolateDataNcbiCurated.js  
    
   # Define constrained alignment tree for extension project
-  run file glue/build/genus/idv/idvAlignmentTree.glue
+  run file glue/build/extension/idv/idvAlignmentTree.glue
    
   # Validate
   validate
