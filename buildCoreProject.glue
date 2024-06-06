@@ -30,8 +30,8 @@ project flu
   run file glue/build/core/fluReferencesIbvSubtypes.glue
 
   # Do segment recognition
-  #run script glue/build/core/doSegmentRecognitionIav.js
-  #run script glue/build/core/doSegmentRecognitionIbv.js
+  run script glue/build/core/doSegmentRecognitionIav.js
+  run script glue/build/core/doSegmentRecognitionIbv.js
   #run script glue/build/core/doSegmentRecognitionIcv.js
   #run script glue/build/core/doSegmentRecognitionIdv.js
 
@@ -42,14 +42,14 @@ project flu
   run file glue/build/core/fluAlignmentTree.glue
 
   # Import alignments
-  #run file glue/build/core/fluLoadUnconstrainedAlignments.glue
+  run file glue/build/core/fluLoadUnconstrainedAlignments.glue
 
   # Derive constrained alignments from unconstrained alignments (cross-species)
-  #run file glue/build/core/fluDeriveConstrainedMsasRoot.glue
+  run file glue/build/core/fluDeriveConstrainedMsasRoot.glue
 
   # Compute IAV and IBV inter-subtype alignments
-  #run file glue/build/core/fluComputeAlignmentsIav.glue
-  #run file glue/build/core/fluComputeAlignmentsIbv.glue
+  run file glue/build/core/fluComputeAlignmentsIav.glue
+  run file glue/build/core/fluComputeAlignmentsIbv.glue
 
   # Compute IAV and IBV inter-subtype phylogenies
 
