@@ -163,7 +163,7 @@ reference REF_IAV_S8_MASTER_NC_002020
 # BETAINFLUENZAVIRUS
 
 # Add feature locations
-reference REF_IBV_S1_CQ903172
+reference REF_IBV_S1_CQ903173 
   add feature-location S2_whole_genome
   feature-location S2_whole_genome add segment 1 2368
   add feature-location S2_5UTR
@@ -174,7 +174,7 @@ reference REF_IBV_S1_CQ903172
   feature-location S2_3UTR add segment 2280 2368
   exit
 
-reference REF_IBV_S2_CQ903173
+reference REF_IBV_S2_CQ903172
   add feature-location S1_whole_genome
   feature-location S1_whole_genome add segment 1 2396
   add feature-location S1_5UTR
@@ -196,15 +196,15 @@ reference REF_IBV_S3_CQ903174
   feature-location S3_3UTR add segment 2211 2307
   exit
   
-reference REF_IBV_S4_CQ903175
+reference REF_IBV_S4_CY018773
   add feature-location S4_whole_genome
-  feature-location S4_whole_genome add segment 1 1882
+  feature-location S4_whole_genome add segment 1 1837
   add feature-location S4_5UTR
-  feature-location S4_5UTR add segment 1 33
+  feature-location S4_5UTR add segment 1 11
   add feature-location HA
-  feature-location HA add segment 34 1788
+  feature-location HA add segment 12 1763
   add feature-location S4_3UTR
-  feature-location S4_3UTR add segment 1789 1882
+  feature-location S4_3UTR add segment 1764 1837
   exit
 
 reference REF_IBV_S5_CQ903177

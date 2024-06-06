@@ -7,9 +7,9 @@
     <GBSeq_moltype>cRNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>31-DEC-2021</GBSeq_update-date>
+    <GBSeq_update-date>22-FEB-2024</GBSeq_update-date>
     <GBSeq_create-date>31-DEC-2021</GBSeq_create-date>
-    <GBSeq_definition>Influenza A virus (A/swine/Spain/45600-2/2017(HxNx)) segment 3 polymerase PA (PA) and PA-X protein (PA-X) genes, complete cds</GBSeq_definition>
+    <GBSeq_definition>Influenza A virus (A/swine/Spain/45600-2/2017(H1N2)) segment 3 polymerase PA (PA) and PA-X protein (PA-X) genes, complete cds</GBSeq_definition>
     <GBSeq_primary-accession>MZ945739</GBSeq_primary-accession>
     <GBSeq_accession-version>MZ945739.1</GBSeq_accession-version>
     <GBSeq_other-seqids>
@@ -19,10 +19,34 @@
     <GBSeq_project>PRJNA399763</GBSeq_project>
     <GBSeq_source>Influenza A virus</GBSeq_source>
     <GBSeq_organism>Influenza A virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus influenzae</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2233</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Encinas,P.</GBAuthor>
+          <GBAuthor>Del Real,G.</GBAuthor>
+          <GBAuthor>Dutta,J.</GBAuthor>
+          <GBAuthor>Khan,Z.</GBAuthor>
+          <GBAuthor>van Bakel,H.</GBAuthor>
+          <GBAuthor>Del Burgo,M.A.M.</GBAuthor>
+          <GBAuthor>Garcia-Sastre,A.</GBAuthor>
+          <GBAuthor>Nelson,M.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evolution of influenza A virus in intensive and free-range swine farms in Spain</GBReference_title>
+        <GBReference_journal>Virus Evol 7 (2), veab099 (2021)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/ve/veab099</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>35039784</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
         <GBReference_position>1..2233</GBReference_position>
         <GBReference_authors>
           <GBAuthor>Encinas,P.</GBAuthor>
@@ -32,14 +56,14 @@
         <GBReference_journal>Unpublished</GBReference_journal>
       </GBReference>
       <GBReference>
-        <GBReference_reference>2</GBReference_reference>
+        <GBReference_reference>3</GBReference_reference>
         <GBReference_position>1..2233</GBReference_position>
         <GBReference_consortium>NIAID Centers of Excellence for Influenza Research and Surveillance (CEIRS)</GBReference_consortium>
         <GBReference_title>Direct Submission</GBReference_title>
         <GBReference_journal>Submitted (27-AUG-2021) CEIRS Data Processing and Coordinating Center, Center for Research on Influenza Pathogenesis (CRIP), New York, NY 10029-6574, USA</GBReference_journal>
       </GBReference>
     </GBSeq_references>
-    <GBSeq_comment>This submission was made by the CEIRS Data Processing and Coordinating Center (DPCC) on behalf of the Center for Research on Influenza Pathogenesis (CRIP). This work was supported by National Institute of Allergy and Infectious Diseases, National Institutes of Health, grant HHSN272201400008C.; ##Assembly-Data-START## ; Assembly Method :: Trinity/Inchworm v. r20140413p1 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_comment>This submission was made by the CEIRS Data Processing and Coordinating Center (DPCC) on behalf of the Center for Research on Influenza Pathogenesis (CRIP) and Instituto Nacional de Investigacion y Tecnologia Agraria y Alimentaria (INIA-CSIC). This work was supported by National Institute of Allergy and Infectious Diseases, National Institutes of Health, grant HHSN272201400008C.; ##Assembly-Data-START## ; Assembly Method :: Trinity/Inchworm v. r20140413p1 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
     <GBSeq_feature-table>
       <GBFeature>
         <GBFeature_key>source</GBFeature_key>
@@ -66,7 +90,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>serotype</GBQualifier_name>
-            <GBQualifier_value>HxNx</GBQualifier_value>
+            <GBQualifier_value>H1N2</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>isolation_source</GBQualifier_name>

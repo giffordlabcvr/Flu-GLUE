@@ -29,6 +29,26 @@ schema-project flu
   exit
 
 
+  #~# Create schema extension for virus isolates
+
+  table isolate
+  
+    create field isolate_id VARCHAR 150
+    create field iso_host VARCHAR 100
+    create field iso_source VARCHAR 200
+    create field iso_country VARCHAR 100
+    create field iso_region VARCHAR 200
+    create field iso_year INTEGER 
+    create field iso_month VARCHAR
+    create field iso_day INTEGER
+    create field lab_host VARCHAR 100
+    create field cg_subtype VARCHAR 50
+    create field gb_subtype VARCHAR 50
+    create field complete_genome BOOLEAN   # true if isolate has at least one "complete segment" sequence for each of the 8 segments
+    
+    exit
+
+
   #~# Create schema extension for amino acid replacements
 
   table flu_replacement
@@ -47,27 +67,6 @@ schema-project flu
     create field miyata_distance DOUBLE
     create field parent_feature VARCHAR
     create field parent_codon_label VARCHAR
-    exit
-
-
-  #~# Create schema extension for virus isolates
-
-  table isolate
-  
-    create field strain VARCHAR 150
-    create field iso_host VARCHAR 100
-    create field iso_source VARCHAR 200
-    create field iso_country VARCHAR 100
-    create field iso_region VARCHAR 200
-    create field iso_year INTEGER 
-    create field iso_month VARCHAR
-    create field iso_day INTEGER
-    create field lab_host VARCHAR 100
-    create field cg_subtype VARCHAR 50
-    create field hn_subtype VARCHAR 50
-    create field gb_subtype VARCHAR 50
-    create field complete_genome BOOLEAN   # true if isolate has at least one "complete segment" sequence for each of the 8 segments
-    
     exit
 
 
@@ -98,13 +97,12 @@ schema-project flu
   	
   	exit
 
+  #~# Create links between tables
 
   create link variation flu_replacement -m ONE_TO_ONE
   create link flu_replacement flu_replacement_sequence -m ONE_TO_MANY
   create link sequence flu_replacement_sequence -m ONE_TO_MANY
-
   create link isolate sequence -m ONE_TO_MANY
-  
   create link isolate host -m ONE_TO_ONE
 
 

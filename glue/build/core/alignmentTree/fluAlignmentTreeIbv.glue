@@ -8,7 +8,7 @@ alignment AL_ROOT_SEG_1-2_All_PB2
   # Add segment members
   add member -w "source.name = 'ibv-ncbi-refseqs-seg1'"
 
-  extract child AL_IBV_SEG1 --refName REF_IBV_S1_CQ903172
+  extract child AL_IBV_SEG1 --refName REF_IBV_S1_CQ903173
   demote member AL_IBV_SEG1 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg1'"
   exit
 
@@ -17,7 +17,7 @@ alignment AL_ROOT_SEG_2-1_All_PB1
   # Add segment members
   add member -w "source.name = 'ibv-ncbi-refseqs-seg2'"
   
-  extract child AL_IBV_SEG2 --refName REF_IBV_S2_CQ903173
+  extract child AL_IBV_SEG2 --refName REF_IBV_S2_CQ903172
   demote member AL_IBV_SEG2 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg2'"
   exit
 
@@ -35,7 +35,7 @@ alignment AL_ROOT_SEG_4_AB_HA
   # Add segment members
   add member -w "source.name = 'ibv-ncbi-refseqs-seg4'"
   
-  extract child AL_IBV_SEG4 --refName REF_IBV_S4_CQ903175
+  extract child AL_IBV_SEG4 --refName REF_IBV_S4_CY018773
   demote member AL_IBV_SEG4 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg4'"
   exit
 

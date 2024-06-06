@@ -1,53 +1,51 @@
 var segments = [ 1, 2, 3, 4, 5, 6, 7, 8 ];
 
-var strainObjs;
+var isolateObjs;
 glue.inMode("module/tabularUtility", function() {
-	strainObjs = glue.tableToObjects(glue.command(["load-tabular", "tabular/core/flu-refseqs.isolates.tsv"]));
+	isolateObjs = glue.tableToObjects(glue.command(["load-tabular", "tabular/core/flu-refseqs.isolates.tsv"]));
 });
-//glue.logInfo("strainObjs", strainObjs);
+//glue.logInfo("isolateObjs", isolateObjs);
 
-var strainIDtoStrainObjs = {};
+var isolateIDtoisolateObjs = {};
 var i = 2;
 
-_.each(strainObjs, function(strainObj) {
+_.each(isolateObjs, function(isolateObj) {
 
 	glue.logInfo("row", i);
-	//glue.logInfo("StrainObj", strainObj);
+	//glue.logInfo("isolateObj", isolateObj);
 
 	i++;
 
-	var strainPK = strainObjToStrainPK(strainObj);
-	glue.logInfo("strain public key", strainPK);
+	var isolatePK = isolateObjToisolatePK(isolateObj);
+	glue.logInfo("isolate public key", isolatePK);
 
-	var virus = strainObj["virus_name"];
+	var virus = isolateObj["virus_name"];
 	
-	glue.command(["create", "custom-table-row", "isolate", strainPK]);
+	glue.command(["create", "custom-table-row", "isolate", isolatePK]);
 
 	_.each(segments, function(segment) {
 
 		// Skip segent 8 for ICV and IDV
-		if (virus == 'icv' && segment == 8) {
-	
-		
-		}
-		else if (virus == 'idv' && segment == 8) {
+		if (virus == 'icv' && segment == 8 || virus == 'idv' && segment == 8 ) {
 	
 			// Do nothing
+			return;
 		}
 		else {
 
 			var key = 'segment' + segment + '_accession';
-			var segmentSeqID = strainObj[key];
+			var segmentSeqID = isolateObj[key];
 		
 			var sourceName = virus + '-ncbi-refseqs-seg' + segment;
 	
-			glue.inMode("custom-table-row/isolate/"+strainPK, function() {
+			glue.inMode("custom-table-row/isolate/"+isolatePK, function() {
 
 
 				//glue.logInfo("Linking sequence", segmentSeqID);
 				glue.command(["add", "link-target", "sequence", "sequence/"+sourceName+"/"+segmentSeqID]);
 
 				var metadataFields = [
+				                      "isolate_id",
 									  "iso_source",
 									  "iso_country",
 									  "iso_region",
@@ -57,14 +55,14 @@ _.each(strainObjs, function(strainObj) {
 									  "iso_host",
 									  "lab_host",
 									  "cg_subtype",
-									  "hn_subtype"];
+									  "gb_subtype"];
 
 				_.each(metadataFields, function(metadataField) {
 
-					var value = handleNull(strainObj[metadataField]);
+					var value = handleNull(isolateObj[metadataField]);
 					if (value) {
 				
-						//glue.logInfo("strainObj", strainObj)
+						//glue.logInfo("isolateObj", isolateObj)
 						//glue.logInfo("field", metadataField);
 						//glue.logInfo("value", value);
 						glue.command(["set", "field", metadataField, value]);
@@ -77,31 +75,6 @@ _.each(strainObjs, function(strainObj) {
 
 			});
 
-
-			// Set the recogniser segment field
-			glue.inMode("sequence/"+sourceName+"/"+segmentSeqID, function() {
-			
-				glue.command(["set", "field", "rec_segment", segment]);
-						
-			});
-
-			// Set the recogniser subtype field for IAV
-			if (virus == 'iav') {
-
-				var completeGenomeSubtype = strainObj["cg_subtype"];	
-				var genomeSubtypeArray = completeGenomeSubtype.split("|");
-				//glue.logInfo("genomeSubtypeArray", genomeSubtypeArray); die;
-
-				glue.inMode("sequence/"+sourceName+"/"+segmentSeqID, function() {
-			
-					var index = segment - 1;
-					var recSubtype = genomeSubtypeArray[index];
-					glue.command(["set", "field", "rec_subtype", recSubtype]);				
-
-				});
-				
-			}
-
 		}
 	
 	});
@@ -113,10 +86,10 @@ _.each(strainObjs, function(strainObj) {
 
 // Subroutines
 
-function strainObjToStrainPK(strainObj) {
+function isolateObjToisolatePK(isolateObj) {
 	
-	var strainPK = strainObj["strain_id"];
-	return strainPK.replace(/\//g, '|');
+	var isolatePK = isolateObj["isolate_id"];
+	return isolatePK.replace(/\//g, '|');
 	
 }
 
