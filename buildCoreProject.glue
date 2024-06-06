@@ -51,7 +51,11 @@ project flu
   run file glue/build/core/fluComputeAlignmentsIav.glue
   run file glue/build/core/fluComputeAlignmentsIbv.glue
 
-  # Compute IAV and IBV inter-subtype phylogenies
+  # Build phylogenies
+  #run file glue/build/core/phylogeny/
+
+  # Import phylogenies
+  run file glue/build/core/phylogeny/iavImportPhylogenies.glue
 
 
 

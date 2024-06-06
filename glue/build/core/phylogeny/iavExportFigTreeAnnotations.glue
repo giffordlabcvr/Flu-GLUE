@@ -1,3 +1,6 @@
+  delete module fluFigTreeAnnotationExporter
+  create module -f modules/build/phylogeny/fluFigTreeAnnotationExporter.xml
+
   module fluFigTreeAnnotationExporter 
 
     export figtree-annotation AL_IAV_SEG1 -f trees/iav/iav_seg1_nt_annotations.tsv
