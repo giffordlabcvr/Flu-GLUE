@@ -16,9 +16,10 @@
   # This 'GenbankXmlPopulator' module is the preferred importer for reference sequences
   create module -f modules/build/fluGenbankXmlPopulatorNoIsolateData.xml
 
-  # Phylogeny generation
-  create module -f modules/analysis/phylogeny/fluRaxmlPhylogenyGenerator.xml 
-  create module -f modules/analysis/phylogeny/fluFigTreeAnnotationExporter.xml 
+  # Phylogeny generation  
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/build/phylogeny/fluPhyloUtility.xml
+  create module -f modules/build/phylogeny/fluFigTreeAnnotationExporter.xml
  
   # IAV aligners
   create module -f modules/build/alignment/iavCompoundAlignerS1.xml 
