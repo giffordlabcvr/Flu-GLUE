@@ -60,6 +60,30 @@ feature IAV_PB1
   #set metatag CODON_LABELER_MODULE fluSeg2Kuiken2006CodonLabeler
   exit
 
+create feature IBV_PB1 -p IBV_S2_whole_genome "IBV PB1 coding sequence"
+feature IBV_PB1
+  set field displayName PB1
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  #set metatag CODON_LABELER_MODULE fluSeg2Kuiken2006CodonLabeler
+  exit
+
+create feature ICV_PB1 -p ICV_S2_whole_genome "ICV PB1 coding sequence"
+feature ICV_PB1
+  set field displayName PB1
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  #set metatag CODON_LABELER_MODULE fluSeg2Kuiken2006CodonLabeler
+  exit
+
+create feature IDV_PB1 -p IDV_S2_whole_genome "IDV PB1 coding sequence"
+feature IDV_PB1
+  set field displayName PB1
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  #set metatag CODON_LABELER_MODULE fluSeg2Kuiken2006CodonLabeler
+  exit
+  
 create feature IAV_PB1-N40 -p IAV_S2_whole_genome "PB1-N40 coding sequence"
 feature IAV_PB1-N40
   set field displayName PB1-N40
@@ -84,14 +108,6 @@ feature IAV_PB1-UFO
   #set metatag CODON_LABELER_MODULE fluSeg2Kuiken2006CodonLabeler
   exit
 
-create feature IBV_PB1 -p IBV_S2_whole_genome "PB1_B coding sequence"
-feature IBV_PB1
-  set field displayName PB1_B
-  set metatag OWN_CODON_NUMBERING true
-  set metatag CODES_AMINO_ACIDS true
-  #set metatag CODON_LABELER_MODULE fluSeg2Kuiken2006CodonLabeler
-  exit
-
 
 
 # Segment 3
@@ -105,7 +121,7 @@ feature IAV_PA
   #set metatag CODON_LABELER_MODULE fluSeg3Kuiken2006CodonLabeler
   exit
 
-create feature IBV_PA -p IAV_S3_whole_genome "IAV PA coding sequence"
+create feature IBV_PA -p IBV_S3_whole_genome "IBV PA coding sequence"
 feature IBV_PA
   set field displayName PA
   set metatag OWN_CODON_NUMBERING true
@@ -152,7 +168,7 @@ feature ICV_P3
   set metatag CODES_AMINO_ACIDS true
   exit 
 
-create feature IDV_P3 -p ICV_S3_whole_genome "IDV P3 coding sequence"
+create feature IDV_P3 -p IDV_S3_whole_genome "IDV P3 coding sequence"
 feature IDV_P3
   set field displayName P3
   set metatag OWN_CODON_NUMBERING true
@@ -164,23 +180,31 @@ feature IDV_P3
 # Segment 4
 
 
-create feature IAV_HA-SP -p IAV_S4_whole_genome "HA signal peptide region"
-feature IAV_HA-SP
-  set field displayName HA-SP
-  set metatag OWN_CODON_NUMBERING true
-  set metatag CODES_AMINO_ACIDS true
-  #set metatag CODON_LABELER_MODULE fluSeg4Kuiken2006CodonLabeler
-  exit
-
-create feature IAV_HA -p IAV_S4_whole_genome "HA coding sequence"
+create feature IAV_HA -p IAV_S4_whole_genome "IAV HA coding sequence"
 feature IAV_HA
   set field displayName HA
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg4Kuiken2006CodonLabeler
   exit
-  
-create feature IAV_HA-UFO -p IAV_S4_whole_genome "HA coding sequence"
+
+create feature IBV_HA -p IBV_S4_whole_genome "IBV HA coding sequence"
+feature IBV_HA
+  set field displayName HA
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  #set metatag CODON_LABELER_MODULE fluSeg4Kuiken2006CodonLabeler
+  exit
+
+create feature IAV_HA-SP -p IAV_S4_whole_genome "IAV HA signal peptide region"
+feature IAV_HA-SP
+  set field displayName HA-SP
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  #set metatag CODON_LABELER_MODULE fluSeg4Kuiken2006CodonLabeler
+  exit
+    
+create feature IAV_HA-UFO -p IAV_S4_whole_genome "IAV HA-UFO coding sequence"
 feature IAV_HA-UFO
   set field displayName HA-UFO
   set metatag OWN_CODON_NUMBERING true
@@ -217,7 +241,7 @@ feature IAV_NP
   #set metatag CODON_LABELER_MODULE fluSeg5Kuiken2006CodonLabeler
   exit
   
-create feature IAV_NP-ext -p IAV_S5_whole_genome "NP-ext coding sequence"
+create feature IAV_NP-ext -p IAV_S5_whole_genome "IAV NP-ext coding sequence"
 feature IAV_NP-ext
   set field displayName NP-ext
   set metatag OWN_CODON_NUMBERING true
@@ -225,7 +249,7 @@ feature IAV_NP-ext
   #set metatag CODON_LABELER_MODULE fluSeg5Kuiken2006CodonLabeler
   exit
   
-create feature IBV_NP -p IBV_S5_whole_genome "NP coding sequence"
+create feature IBV_NP -p IBV_S5_whole_genome "IBV NP coding sequence"
 feature IBV_NP
   set field displayName NP
   set metatag OWN_CODON_NUMBERING true
@@ -233,7 +257,7 @@ feature IBV_NP
   #set metatag CODON_LABELER_MODULE fluSeg5Kuiken2006CodonLabeler
   exit
   
-create feature ICV_NP -p ICV_S5_whole_genome "NP coding sequence"
+create feature ICV_NP -p ICV_S5_whole_genome "ICV NP coding sequence"
 feature ICV_NP
   set field displayName NP
   set metatag OWN_CODON_NUMBERING true
@@ -241,7 +265,7 @@ feature ICV_NP
   #set metatag CODON_LABELER_MODULE fluSeg5Kuiken2006CodonLabeler
   exit
   
-create feature IDV_NP -p IDV_S5_whole_genome "NP coding sequence"
+create feature IDV_NP -p IDV_S5_whole_genome "IDV NP coding sequence"
 feature IDV_NP
   set field displayName NP
   set metatag OWN_CODON_NUMBERING true
@@ -252,26 +276,34 @@ feature IDV_NP
 
 # Segment 6
 
-# IAV only
-create feature NA -p IAV_S6_whole_genome "NA coding sequence"
-feature NA
+# IAV & IBV
+create feature IAV_NA -p IAV_S6_whole_genome "IAV NA coding sequence"
+feature IAV_NA
   set field displayName NA
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg6Kuiken2006CodonLabeler
   exit
 
-create feature NA43 -p IAV_S6_whole_genome "NA43 coding sequence"
-feature NA43
+create feature IBV_NA -p IBV_S6_whole_genome "IBV NA coding sequence"
+feature IBV_NA
+  set field displayName NA
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  #set metatag CODON_LABELER_MODULE fluSeg6Kuiken2006CodonLabeler
+  exit
+
+# IAV only
+create feature IAV_NA43 -p IAV_S6_whole_genome "IAV NA43 coding sequence"
+feature IAV_NA43
   set field displayName NA43
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   exit
 
-
 # IBV only
-create feature NB -p IBV_S6_whole_genome "NA coding sequence"
-feature NB
+create feature IBV_NB -p IBV_S6_whole_genome "IBV NB coding sequence"
+feature IBV_NB
   set field displayName NB
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
@@ -279,8 +311,9 @@ feature NB
   exit
 
 
-# ICV
-create feature ICV_P42 -p IAV_S6_whole_genome "ICV P42 coding sequence"
+# ICV & IDV
+
+create feature ICV_P42 -p ICV_S6_whole_genome "ICV P42 coding sequence"
 feature ICV_P42
   set field displayName P42
   set metatag OWN_CODON_NUMBERING true
@@ -288,36 +321,40 @@ feature ICV_P42
   #set metatag CODON_LABELER_MODULE fluSeg6Kuiken2006CodonLabeler
   exit
 
-create feature CM1 -p IAV_S6_whole_genome "ICV CM1 coding sequence"
-feature CM1
-  set field displayName CM1
-  set metatag OWN_CODON_NUMBERING true
-  set metatag CODES_AMINO_ACIDS true
-  #set metatag CODON_LABELER_MODULE fluSeg7Kuiken2006CodonLabeler
-  exit
-
-create feature CM2 -p IAV_S6_whole_genome "ICV CM2 coding sequence"
-feature CM2
-  set field displayName CM2
-  set metatag OWN_CODON_NUMBERING true
-  set metatag CODES_AMINO_ACIDS true
-  exit
-  
-create feature M1_prime -p IAV_S6_whole_genome "ICV M1 prime coding sequence"
-feature M1_prime
-  set field displayName M1_prime
-  set metatag OWN_CODON_NUMBERING true
-  set metatag CODES_AMINO_ACIDS true
-  exit
-
-# IDV
-create feature IDV_P42 -p IAV_S6_whole_genome "IDV P42 coding sequence"
+create feature IDV_P42 -p IDV_S6_whole_genome "IDV P42 coding sequence"
 feature IDV_P42
   set field displayName P42
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg6Kuiken2006CodonLabeler
   exit
+
+
+
+# ICV
+
+create feature ICV_CM1 -p ICV_S6_whole_genome "ICV CM1 coding sequence"
+feature ICV_CM1
+  set field displayName CM1
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  #set metatag CODON_LABELER_MODULE fluSeg7Kuiken2006CodonLabeler
+  exit
+
+create feature ICV_CM2 -p ICV_S6_whole_genome "ICV CM2 coding sequence"
+feature ICV_CM2
+  set field displayName CM2
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+  
+create feature ICV_M1_prime -p ICV_S6_whole_genome "ICV M1_prime coding sequence"
+feature ICV_M1_prime
+  set field displayName M1_prime
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+
 
 
 # Segment 7
@@ -332,7 +369,7 @@ feature IAV_M1
   
 create feature IAV_M2 -p IAV_S7_whole_genome "IAV M2 coding sequence"
 feature IAV_M2
-  set field displayName IAV_M2
+  set field displayName M2
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg7Kuiken2006CodonLabeler
@@ -340,7 +377,7 @@ feature IAV_M2
   
 create feature IAV_M3 -p IAV_S7_whole_genome "IAV M3 coding sequence"
 feature IAV_M3
-  set field displayName IAV_M3
+  set field displayName M3
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg7Kuiken2006CodonLabeler
@@ -348,7 +385,7 @@ feature IAV_M3
 
 create feature IAV_M4 -p IAV_S7_whole_genome "IAV M4 coding sequence"
 feature IAV_M4
-  set field displayName IAV_M4
+  set field displayName M4
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg7Kuiken2006CodonLabeler
@@ -356,7 +393,7 @@ feature IAV_M4
 
 create feature IAV_M42 -p IAV_S7_whole_genome "IAV M42 coding sequence"
 feature IAV_M42
-  set field displayName IAV_M42
+  set field displayName M42
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg7Kuiken2006CodonLabeler
@@ -364,7 +401,7 @@ feature IAV_M42
 
 create feature IBV_M1 -p IBV_S7_whole_genome "IBV M1 coding sequence"
 feature IBV_M1
-  set field displayName IBV_M1
+  set field displayName M1
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg7Kuiken2006CodonLabeler
@@ -372,21 +409,21 @@ feature IBV_M1
 
 create feature IBV_BM2 -p IBV_S7_whole_genome "BM2 coding sequence"
 feature IBV_BM2
-  set field displayName IBV_BM2
+  set field displayName BM2
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg7Kuiken2006CodonLabeler
   exit
 
-create feature CNEP -p ICV_S7_whole_genome "ICV CNEP coding sequence"
-feature CNEP
+create feature ICV_CNEP -p ICV_S7_whole_genome "CNEP coding sequence"
+feature ICV_CNEP
   set field displayName CNEP
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   exit
 
-create feature DNEP -p IDV_S7_whole_genome "IDV DNEP coding sequence"
-feature DNEP
+create feature IDV_DNEP -p IDV_S7_whole_genome "DNEP coding sequence"
+feature IDV_DNEP
   set field displayName DNEP
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
@@ -394,7 +431,7 @@ feature DNEP
   
 create feature ICV_NS1 -p ICV_S7_whole_genome "ICV NS1 coding sequence"
 feature ICV_NS1
-  set field displayName ICV_NS1
+  set field displayName NS1
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg8Kuiken2006CodonLabeler
@@ -402,7 +439,7 @@ feature ICV_NS1
 
 create feature IDV_NS1 -p IDV_S7_whole_genome "IDV NS1 coding sequence"
 feature IDV_NS1
-  set field displayName IDV_NS1
+  set field displayName NS1
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg8Kuiken2006CodonLabeler
@@ -413,7 +450,7 @@ feature IDV_NS1
 
 create feature IAV_NS1 -p IAV_S8_whole_genome "IAV NS1 coding sequence"
 feature IAV_NS1
-  set field displayName IAV_NS1
+  set field displayName NS1
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg8Kuiken2006CodonLabeler
@@ -421,15 +458,38 @@ feature IAV_NS1
 
 create feature IAV_NEP -p IAV_S8_whole_genome "IAV NEP coding sequence"
 feature IAV_NEP
-  set field displayName IAV_NEP
+  set field displayName NEP
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg8Kuiken2006CodonLabeler
   exit
 
+create feature IAV_tNS1 -p IAV_S8_whole_genome "IAV tNS1 coding sequence"
+feature IAV_tNS1
+  set field displayName tNS1
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+  
+create feature IAV_NS3 -p IAV_S8_whole_genome "IAV NS3 coding sequence"
+feature IAV_NS3
+  set field displayName NS3
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  #set metatag CODON_LABELER_MODULE fluSeg8Kuiken2006CodonLabeler
+  exit
+
+create feature IAV_NEG8 -p IAV_S8_whole_genome "IAV NEG8 coding sequence"
+feature IAV_NEG8
+  set field displayName NEG8
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  #set metatag CODON_LABELER_MODULE fluSeg8Kuiken2006CodonLabeler
+  exit
+  
 create feature IBV_NS1 -p IBV_S8_whole_genome "IBV NS1 coding sequence"
 feature IBV_NS1
-  set field displayName IBV_NS1
+  set field displayName NS1
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg8Kuiken2006CodonLabeler
@@ -437,34 +497,11 @@ feature IBV_NS1
 
 create feature IBV_NEP -p IBV_S8_whole_genome "IBV NEP coding sequence"
 feature IBV_NEP
-  set field displayName IBV_NEP
+  set field displayName NEP
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg8Kuiken2006CodonLabeler
   exit
 
-create feature tNS1 -p IAV_S8_whole_genome "IAV tNS1 coding sequence"
-feature tNS1
-  set field displayName tNS1
-  set metatag OWN_CODON_NUMBERING true
-  set metatag CODES_AMINO_ACIDS true
-  exit
-  
-create feature NS3 -p IAV_S8_whole_genome "IAV NS3 coding sequence"
-feature NS3
-  set field displayName NS3
-  set metatag OWN_CODON_NUMBERING true
-  set metatag CODES_AMINO_ACIDS true
-  #set metatag CODON_LABELER_MODULE fluSeg8Kuiken2006CodonLabeler
-  exit
-
-create feature NEG8 -p IAV_S8_whole_genome "IAV NEG8 coding sequence"
-feature NEG8
-  set field displayName NEG8
-  set metatag OWN_CODON_NUMBERING true
-  set metatag CODES_AMINO_ACIDS true
-  #set metatag CODON_LABELER_MODULE fluSeg8Kuiken2006CodonLabeler
-  exit
-  
 
 

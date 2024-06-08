@@ -21,18 +21,18 @@ project flu
   run file glue/build/core/fluImportSources.glue
 
   # Import sequence-associated data
-  run file glue/build/core/fluLoadSequenceData.glue
+  #run file glue/build/core/fluLoadSequenceData.glue
 
   # Import isolate data and link to imported sequences
-  run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
+  #run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
 
-  # Define species master reference sequences
+  # Define reference sequences
   run file glue/build/core/fluReferences.glue
   run file glue/build/core/fluReferencesIavSubtypes.glue
   run file glue/build/core/fluReferencesIbvSubtypes.glue
 
   # Do segment recognition
-  run script glue/build/core/doSegmentRecognitionIav.js
+  #run script glue/build/core/doSegmentRecognitionIav.js
   #run script glue/build/core/doSegmentRecognitionIbv.js
   #run script glue/build/core/doSegmentRecognitionIcv.js
   #run script glue/build/core/doSegmentRecognitionIdv.js
@@ -50,8 +50,8 @@ project flu
   run file glue/build/core/fluDeriveConstrainedMsasRoot.glue
 
   # Compute IAV and IBV inter-subtype alignments
-  #run file glue/build/core/fluComputeAlignmentsIav.glue
-  #run file glue/build/core/fluComputeAlignmentsIbv.glue
+  run file glue/build/core/fluComputeAlignmentsIav.glue
+  run file glue/build/core/fluComputeAlignmentsIbv.glue
 
   # Build phylogenies
   #run file glue/build/core/phylogeny/
