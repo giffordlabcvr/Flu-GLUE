@@ -46,13 +46,13 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>hn_subtype</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.hn_subtype')}</valueFreemarkerTemplate>
+		<annotationName>gb_subtype</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.gb_subtype')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	
 	<figTreeAnnotation>
-		<annotationName>strain</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.strain')}</valueFreemarkerTemplate>
+		<annotationName>isolate_id</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.isolate_id')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 </figTreeAnnotationExporter>

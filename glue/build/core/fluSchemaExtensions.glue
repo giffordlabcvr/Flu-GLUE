@@ -26,6 +26,9 @@ schema-project flu
     create field rec_segment VARCHAR
     create field rec_subtype VARCHAR 50 # Specific to each segment (unlike HN classifications which apply to isolates)
 
+    # true if variations are present in the sequence
+    create field variation_present BOOLEAN
+
   exit
 
 

@@ -1,0 +1,17 @@
+# Delete any previously created alignments of same name
+multi-delete alignment -w "name like 'IAV_SEG%'"
+
+# Create constrained alignment tree for refseqs sequence alignments
+
+alignment AL_IAV_SEG1
+
+  #extract child AL_IAV_SEG1_A --refName REF_IAV_S1_MASTER_NC_002023
+  #demote member AL_IAV_SEG1_A -w "sequence.subtype.name = 'iav-ncbi-refseqs-seg1'"
+  exit
+
+alignment AL_IAV_SEG2
+
+  #extract child AL_IAV_SEG1 --refName REF_IAV_S1_MASTER_NC_002023
+  #demote member AL_IAV_SEG1 -w "sequence.source.name = 'iav-ncbi-refseqs-seg1'"
+  exit
+

@@ -13,7 +13,9 @@ project flu
   run file glue/build/core/fluModules.glue
 
   # Define genome features
-  run file glue/build/core/fluFeatures.glue
+  run file glue/build/core/fluFeaturesNonCoding.glue
+  run file glue/build/core/fluFeaturesCoding.glue
+  #run file glue/build/core/fluFeatures.glue
 
   # Import sequences 
   run file glue/build/core/fluImportSources.glue
@@ -30,7 +32,7 @@ project flu
   run file glue/build/core/fluReferencesIbvSubtypes.glue
 
   # Do segment recognition
-  #run script glue/build/core/doSegmentRecognitionIav.js
+  run script glue/build/core/doSegmentRecognitionIav.js
   #run script glue/build/core/doSegmentRecognitionIbv.js
   #run script glue/build/core/doSegmentRecognitionIcv.js
   #run script glue/build/core/doSegmentRecognitionIdv.js
@@ -48,10 +50,14 @@ project flu
   run file glue/build/core/fluDeriveConstrainedMsasRoot.glue
 
   # Compute IAV and IBV inter-subtype alignments
-  run file glue/build/core/fluComputeAlignmentsIav.glue
-  run file glue/build/core/fluComputeAlignmentsIbv.glue
+  #run file glue/build/core/fluComputeAlignmentsIav.glue
+  #run file glue/build/core/fluComputeAlignmentsIbv.glue
 
-  # Compute IAV and IBV inter-subtype phylogenies
+  # Build phylogenies
+  #run file glue/build/core/phylogeny/
+
+  # Import phylogenies
+  #run file glue/build/core/phylogeny/iavImportPhylogenies.glue
 
 
 

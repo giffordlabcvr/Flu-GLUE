@@ -3,8 +3,11 @@
 		<codonAwareBlastAligner>
 			<featureName>PB2</featureName>
 		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>PB2-S1</featureName>
+		</codonAwareBlastAligner>
 		<blastAligner>
-			<featureName>S1_whole_genome</featureName>
+			<featureName>IAV_S1_whole_genome</featureName>
 		</blastAligner>
 	</aligners>
 </compoundAligner>

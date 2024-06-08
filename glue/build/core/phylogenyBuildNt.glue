@@ -1,0 +1,20 @@
+  
+  # Alphainfluenzavirus
+  run file glue/build/core/phylogeny/iavReconstructPhylogenies.glue
+  run file glue/build/core/phylogeny/iavMidpointRootPhylogenies.glue
+  run file glue/build/core/phylogeny/iavExportFigTreeAnnotations.glue
+  
+  # Betainfluenzavirus
+  #run file glue/build/core/phylogeny/ibvReconstructNtPhylogenies.glue
+  #run file glue/build/core/phylogeny/ibvMidpointRootNtPhylogenies.glue
+  #run file glue/build/core/phylogeny/ibvExportFigTreeAnnotationsNt.glue
+  
+  # Gammainfluenzavirus
+  #run file glue/build/core/phylogeny/icvReconstructNtPhylogenies.glue
+  #run file glue/build/core/phylogeny/icvMidpointRootNtPhylogenies.glue
+  #run file glue/build/core/phylogeny/icvExportFigTreeAnnotationsNt.glue
+  
+  # Deltainfluenzavirus
+  #run file glue/build/core/phylogeny/idvReconstructNtPhylogenies.glue
+  #run file glue/build/core/phylogeny/idvMidpointRootNtPhylogenies.glue
+  #run file glue/build/core/phylogeny/idvExportFigTreeAnnotationsNt.glue

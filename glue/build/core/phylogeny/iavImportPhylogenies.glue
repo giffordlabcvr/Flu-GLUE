@@ -1,0 +1,62 @@
+delete module iavPhyloImporter
+create module -t phyloImporter iavPhyloImporter
+
+module iavPhyloImporter
+
+  import phylogeny AL_IAV_SEG1 \
+  --recursive \
+  --anyAlignment \
+  --whereClause "sequence.source.name = 'iav-ncbi-refseqs-seg1' and referenceMember = false" \
+  --inputFile trees/iav/iav_seg1_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS \
+  --fieldName phylogeny
+
+  import phylogeny AL_IAV_SEG2 \
+  --recursive \
+  --anyAlignment \
+  --whereClause "sequence.source.name = 'iav-ncbi-refseqs-seg2' and referenceMember = false" \
+  --inputFile trees/iav/iav_seg2_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS \
+  --fieldName phylogeny
+
+  import phylogeny AL_IAV_SEG3 \
+  --recursive \
+  --anyAlignment \
+  --whereClause "sequence.source.name = 'iav-ncbi-refseqs-seg3' and referenceMember = false" \
+  --inputFile trees/iav/iav_seg3_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS \
+  --fieldName phylogeny
+
+  import phylogeny AL_IAV_SEG4 \
+  --recursive \
+  --anyAlignment \
+  --whereClause "sequence.source.name = 'iav-ncbi-refseqs-seg4' and referenceMember = false" \
+  --inputFile trees/iav/iav_seg4_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS \
+  --fieldName phylogeny
+
+  import phylogeny AL_IAV_SEG5 \
+  --recursive \
+  --anyAlignment \
+  --whereClause "sequence.source.name = 'iav-ncbi-refseqs-seg5' and referenceMember = false" \
+  --inputFile trees/iav/iav_seg5_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS \
+  --fieldName phylogeny
+
+  import phylogeny AL_IAV_SEG6 \
+  --recursive \
+  --anyAlignment \
+  --whereClause "sequence.source.name = 'iav-ncbi-refseqs-seg6' and referenceMember = false" \
+  --inputFile trees/iav/iav_seg6_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS \
+  --fieldName phylogeny
+
+  import phylogeny AL_IAV_SEG7 \
+  --recursive \
+  --anyAlignment \
+  --whereClause "sequence.source.name = 'iav-ncbi-refseqs-seg7' and referenceMember = false" \
+  --inputFile trees/iav/iav_seg7_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS \
+  --fieldName phylogeny
+
+  import phylogeny AL_IAV_SEG8 \
+  --recursive \
+  --anyAlignment \
+  --whereClause "sequence.source.name = 'iav-ncbi-refseqs-seg8' and referenceMember = false" \
+  --inputFile trees/iav/iav_seg8_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS \
+  --fieldName phylogeny
+
+  exit
