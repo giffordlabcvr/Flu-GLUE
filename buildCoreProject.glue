@@ -13,7 +13,9 @@ project flu
   run file glue/build/core/fluModules.glue
 
   # Define genome features
-  run file glue/build/core/fluFeatures.glue
+  run file glue/build/core/fluFeaturesNonCoding.glue
+  run file glue/build/core/fluFeaturesCoding.glue
+  #run file glue/build/core/fluFeatures.glue
 
   # Import sequences 
   run file glue/build/core/fluImportSources.glue

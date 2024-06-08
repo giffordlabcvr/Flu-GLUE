@@ -9,8 +9,8 @@ reference REF_IAV_S1_MASTER_NC_002023
   feature-location S1_whole_genome add segment 1 2341
   add feature-location S1_5UTR
   feature-location S1_5UTR add segment 1 27
-  add feature-location PB2
-  feature-location PB2 add segment 28 2307
+  add feature-location IAV_PB2
+  feature-location IAV_PB2 add segment 28 2307
   add feature-location PB2-S1
   feature-location PB2-S1 
     add segment 28 1512 --spliceIndex 1
