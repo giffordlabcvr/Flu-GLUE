@@ -1,13 +1,13 @@
 <compoundAligner>
 	<aligners>
 		<codonAwareBlastAligner>
-			<featureName>PB1</featureName>
+			<featureName>IAV_PB1</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>PB1-N40</featureName>
+			<featureName>IAV_PB1-N40</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>PB1-F2</featureName>
+			<featureName>IAV_PB1-F2</featureName>
 		</codonAwareBlastAligner>
 		<blastAligner>
 			<featureName>IAV_S2_whole_genome</featureName>

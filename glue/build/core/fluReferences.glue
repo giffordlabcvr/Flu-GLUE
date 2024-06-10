@@ -1,39 +1,7 @@
 
-# Influenza A virus MASTER references (A/Puerto Rico/8/1934(H1N1))
-create reference REF_IAV_S1_MASTER_NC_002023 iav-ncbi-refseqs-seg1 NC_002023
-create reference REF_IAV_S2_MASTER_NC_002021 iav-ncbi-refseqs-seg2 NC_002021
-create reference REF_IAV_S3_MASTER_NC_002022 iav-ncbi-refseqs-seg3 NC_002022
-create reference REF_IAV_S4_MASTER_NC_002017 iav-ncbi-refseqs-seg4 NC_002017
-create reference REF_IAV_S5_MASTER_NC_002019 iav-ncbi-refseqs-seg5 NC_002019
-create reference REF_IAV_S6_MASTER_NC_002018 iav-ncbi-refseqs-seg6 NC_002018
-create reference REF_IAV_S7_MASTER_NC_002016 iav-ncbi-refseqs-seg7 NC_002016
-create reference REF_IAV_S8_MASTER_NC_002020 iav-ncbi-refseqs-seg8 NC_002020
+  run file glue/build/core/reference/fluReferencesIav.glue
+  run file glue/build/core/reference/fluReferencesIbv.glue
+  run file glue/build/core/reference/fluReferencesIcv.glue
+  run file glue/build/core/reference/fluReferencesIdv.glue
 
-# Influenza B virus MASTER references (B/Hong Kong/8/1973)
-create reference REF_IBV_S1_CQ903173 ibv-ncbi-refseqs-seg1 CQ903173
-create reference REF_IBV_S2_CQ903172 ibv-ncbi-refseqs-seg2 CQ903172
-create reference REF_IBV_S3_CQ903174 ibv-ncbi-refseqs-seg3 CQ903174
-create reference REF_IBV_S4_CY018773 ibv-ncbi-refseqs-seg4 CY018773
-create reference REF_IBV_S5_CQ903177 ibv-ncbi-refseqs-seg5 CQ903177
-create reference REF_IBV_S6_CQ903176 ibv-ncbi-refseqs-seg6 CQ903176
-create reference REF_IBV_S7_CQ903178 ibv-ncbi-refseqs-seg7 CQ903178
-create reference REF_IBV_S8_CQ903179 ibv-ncbi-refseqs-seg8 CQ903179
-
-# Influenza C virus references for segments 1-7 (C/Ann Arbor/1/50)
-create reference REF_ICV_S1_NC_006307 icv-ncbi-refseqs-seg1 NC_006307
-create reference REF_ICV_S2_NC_006308 icv-ncbi-refseqs-seg2 NC_006308
-create reference REF_ICV_S3_NC_006309 icv-ncbi-refseqs-seg3 NC_006309
-create reference REF_ICV_S4_NC_006310 icv-ncbi-refseqs-seg4 NC_006310
-create reference REF_ICV_S5_NC_006311 icv-ncbi-refseqs-seg5 NC_006311
-create reference REF_ICV_S6_NC_006312 icv-ncbi-refseqs-seg6 NC_006312
-create reference REF_ICV_S7_NC_006306 icv-ncbi-refseqs-seg7 NC_006306
-
-# Influenza D virus references for segments 1-7 (D/swine/Oklahoma/1334/2011) 
-create reference REF_IDV_S1_NC_036616 idv-ncbi-refseqs-seg1 NC_036616
-create reference REF_IDV_S2_NC_036615 idv-ncbi-refseqs-seg2 NC_036615
-create reference REF_IDV_S3_NC_036619 idv-ncbi-refseqs-seg3 NC_036619
-create reference REF_IDV_S4_NC_036618 idv-ncbi-refseqs-seg4 NC_036618
-create reference REF_IDV_S5_NC_036617 idv-ncbi-refseqs-seg5 NC_036617
-create reference REF_IDV_S6_NC_036620 idv-ncbi-refseqs-seg6 NC_036620
-create reference REF_IDV_S7_NC_036621 idv-ncbi-refseqs-seg7 NC_036621
 

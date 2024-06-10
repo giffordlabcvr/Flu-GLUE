@@ -1,1 +1,133 @@
-(((alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/LC270268:0.00101482307318115014,(alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/LC128433:0.00048694488662792489,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/LC318668:0.00000100000050002909)93:0.00044892566136372819)100:0.02411803413753736344,(alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392485:0.00599451481518652012,(((alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392506:0.00463629006632194224,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/MK054184:0.01180545306586130994)44:0.00088616953600081547,(alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392471:0.00302324914967397069,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KF425662:0.00492807096437075220)89:0.00193940133384518597)67:0.00052370744842381500,(alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392492:0.00268259116233740286,((alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KU171127:0.00000100000050002909,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KU171126:0.00000100000050002909)100:0.00470411950587321104,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KU171128:0.00374099073496794677)100:0.00299975875961919908)98:0.00322417644299173318)40:0.00000100000050002909)100:0.01264339583726057509)100:0.001050308024369441295,((alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM015494:0.00098181577151915502,(alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM015501:0.00048886124531595499,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM015508:0.00197527938720948922)61:0.00000100000050002909)100:0.00830369956157930855,(alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392478:0.00443096014260938465,((alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KF425655:0.00000100000050002909,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KF425669:0.00000100000050002909)100:0.00643402241978056726,(((alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KT581412:0.00350321349091969663,(((alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KT592526:0.00147359128905263188,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/MG720235:0.00250387885975791782)53:0.00000100000050002909,((alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KX768827:0.00298433703695273568,(alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KX768820:0.00098404112745664285,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KX768834:0.00048794469652702240)100:0.00299252883660361272)66:0.00046293717372973076,(alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/MK101121:0.00504206229179778032,(alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KT592533:0.00147913820134634678,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KX768841:0.00297163826607147125)80:0.00098034597510508899)41:0.00048657303705963890)10:0.00000100000050002909)36:0.00000100000050002909,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KT592522:0.00294582348142233838)100:0.00495955392710574743)88:0.00096903144162288905,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392499:0.00449151841086091463)89:0.00097976942891557202,(alignment/AL_IDV_SEG4/member/idv-ncbi-refseqs-seg4/NC_036618:0.00000100000050002909,alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KU171129:0.00000100000050002909)100:0.00147307840055484088)98:0.00196001183905207066)53:0.00000100000050002909)59:0.00017936426371859855)100:0.012330667681643601685);
+#NEXUS
+begin taxa;
+	dimensions ntax=31;
+	taxlabels
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KF425655'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KF425662'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KF425669'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM015494'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM015501'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM015508'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392471'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392478'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392485'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392492'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392499'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392506'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KT581412'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KT592522'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KT592526'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KT592533'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KU171126'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KU171127'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KU171128'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KU171129'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KX768820'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KX768827'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KX768834'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KX768841'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/LC128433'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/LC270268'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/LC318668'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/MG720235'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/MK054184'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/MK101121'
+	'alignment/AL_IDV_SEG4/member/idv-ncbi-refseqs-seg4/NC_036618'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/LC270268':0.001015,('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/LC128433':4.87E-4,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/LC318668':1.0E-6)[&label=93]:4.49E-4)[&label=100]:0.024118,('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392485':0.005995,((('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392506':0.004636,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/MK054184':0.011805)[&label=44]:8.86E-4,('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392471':0.003023,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KF425662':0.004928)[&label=89]:0.001939)[&label=67]:5.24E-4,('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392492':0.002683,(('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KU171127':1.0E-6,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KU171126':1.0E-6)[&label=100]:0.004704,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KU171128':0.003741)[&label=100]:0.003)[&label=98]:0.003224)[&label=40]:1.0E-6)[&label=100]:0.012643)[&label=100]:0.00105,(('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM015494':9.82E-4,('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM015501':4.89E-4,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM015508':0.001975)[&label=61]:1.0E-6)[&label=100]:0.008304,('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392478':0.004431,(('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KF425655':1.0E-6,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KF425669':1.0E-6)[&label=100]:0.006434,((('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KT581412':0.003503,((('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KT592526':0.001474,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/MG720235':0.002504)[&label=53]:1.0E-6,(('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KX768827':0.002984,('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KX768820':9.84E-4,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KX768834':4.88E-4)[&label=100]:0.002993)[&label=66]:4.63E-4,('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/MK101121':0.005042,('alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KT592533':0.001479,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KX768841':0.002972)[&label=80]:9.8E-4)[&label=41]:4.87E-4)[&label=10]:1.0E-6)[&label=36]:1.0E-6,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KT592522':0.002946)[&label=100]:0.00496)[&label=88]:9.69E-4,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KM392499':0.004492)[&label=89]:9.8E-4,('alignment/AL_IDV_SEG4/member/idv-ncbi-refseqs-seg4/NC_036618':1.0E-6,'alignment/AL_IDV_SEG4/member/idv-ncbi-curated-segment-4/KU171129':1.0E-6)[&label=100]:0.001473)[&label=98]:0.00196)[&label=53]:1.0E-6)[&label=59]:1.79E-4)[&label=100]:0.012331);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

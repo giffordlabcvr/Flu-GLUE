@@ -1,16 +1,16 @@
 <compoundAligner>
 	<aligners>
 		<codonAwareBlastAligner>
-			<featureName>PA</featureName>
+			<featureName>IAV_PA</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>PA-N155</featureName>
+			<featureName>IAV_PA-N155</featureName>
 		</codonAwareBlastAligner>	
 		<codonAwareBlastAligner>
-			<featureName>PA-N182</featureName>
+			<featureName>IAV_PA-N182</featureName>
 		</codonAwareBlastAligner>	
 		<codonAwareBlastAligner>
-			<featureName>PA-X</featureName>
+			<featureName>IAV_PA-X</featureName>
 		</codonAwareBlastAligner>	
 		<blastAligner>
 			<featureName>IAV_S3_whole_genome</featureName>

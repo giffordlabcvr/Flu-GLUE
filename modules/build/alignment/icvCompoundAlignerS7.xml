@@ -1,10 +1,10 @@
 <compoundAligner>
 	<aligners>
 		<codonAwareBlastAligner>
-			<featureName>cdNS1</featureName>
+			<featureName>ICV_NS1</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>CNEP</featureName>
+			<featureName>ICV_CNEP</featureName>
 		</codonAwareBlastAligner>
 		<blastAligner>
 			<featureName>ICV_S7_whole_genome</featureName>

@@ -15,27 +15,18 @@ project flu
   # Define genome features
   run file glue/build/core/fluFeaturesNonCoding.glue
   run file glue/build/core/fluFeaturesCoding.glue
-  #run file glue/build/core/fluFeatures.glue
-
+ 
   # Import sequences 
   run file glue/build/core/fluImportSources.glue
 
   # Import sequence-associated data
-  #run file glue/build/core/fluLoadSequenceData.glue
+  run file glue/build/core/fluLoadSequenceData.glue
 
   # Import isolate data and link to imported sequences
-  #run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
+  run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
 
   # Define reference sequences
   run file glue/build/core/fluReferences.glue
-  run file glue/build/core/fluReferencesIavSubtypes.glue
-  run file glue/build/core/fluReferencesIbvSubtypes.glue
-
-  # Do segment recognition
-  #run script glue/build/core/doSegmentRecognitionIav.js
-  #run script glue/build/core/doSegmentRecognitionIbv.js
-  #run script glue/build/core/doSegmentRecognitionIcv.js
-  #run script glue/build/core/doSegmentRecognitionIdv.js
 
   # Define feature locations on master reference sequences
   run file glue/build/core/fluFeatureLocations.glue
@@ -57,8 +48,10 @@ project flu
   #run file glue/build/core/phylogeny/
 
   # Import phylogenies
-  #run file glue/build/core/phylogeny/iavImportPhylogenies.glue
-
+  run file glue/build/core/phylogeny/iavImportPhylogenies.glue
+  #run file glue/build/core/phylogeny/ibvImportPhylogenies.glue
+  #run file glue/build/core/phylogeny/icvImportPhylogenies.glue
+  #run file glue/build/core/phylogeny/idvImportPhylogenies.glue
 
 
   # Validate

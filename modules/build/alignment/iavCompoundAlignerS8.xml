@@ -1,16 +1,16 @@
 <compoundAligner>
 	<aligners>
 		<codonAwareBlastAligner>
-			<featureName>NS1</featureName>
+			<featureName>IAV_NS1</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>NS3</featureName>
+			<featureName>IAV_NS3</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>NEP</featureName>
+			<featureName>IAV_NEP</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>NEG8</featureName>
+			<featureName>IAV_NEG8</featureName>
 		</codonAwareBlastAligner>
 		<blastAligner>
 			<featureName>IAV_S8_whole_genome</featureName>

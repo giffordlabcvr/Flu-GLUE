@@ -8,7 +8,7 @@ alignment AL_ROOT_SEG_1-2_All_PB2
   # Add segment members
   add member -w "source.name = 'icv-ncbi-refseqs-seg1'"
 
-  extract child AL_ICV_SEG1 --refName REF_ICV_S1_NC_006307
+  extract child AL_ICV_SEG1 --refName REF_ICV_S1_MASTER_NC_006307
   demote member AL_ICV_SEG1 -w "sequence.source.name = 'icv-ncbi-refseqs-seg1'"
   exit
 
@@ -17,7 +17,7 @@ alignment AL_ROOT_SEG_2-1_All_PB1
   # Add segment members
   add member -w "source.name = 'icv-ncbi-refseqs-seg2'"
   
-  extract child AL_ICV_SEG2 --refName REF_ICV_S2_NC_006308
+  extract child AL_ICV_SEG2 --refName REF_ICV_S2_MASTER_NC_006308
   demote member AL_ICV_SEG2 -w "sequence.source.name = 'icv-ncbi-refseqs-seg2'"
   exit
 
@@ -26,7 +26,7 @@ alignment AL_ROOT_SEG_3_All_PA
   # Add segment members
   add member -w "source.name = 'icv-ncbi-refseqs-seg3'"
   
-  extract child AL_ICV_SEG3 --refName REF_ICV_S3_NC_006309
+  extract child AL_ICV_SEG3 --refName REF_ICV_S3_MASTER_NC_006309
   demote member AL_ICV_SEG3 -w "sequence.source.name = 'icv-ncbi-refseqs-seg3'"
   exit
 
@@ -35,7 +35,7 @@ alignment AL_ROOT_SEG_4_AB_HA
   # Add segment members
   add member -w "source.name = 'icv-ncbi-refseqs-seg4'"
   
-  extract child AL_ICV_SEG4 --refName REF_ICV_S4_NC_006310
+  extract child AL_ICV_SEG4 --refName REF_ICV_S4_MASTER_NC_006310
   demote member AL_ICV_SEG4 -w "sequence.source.name = 'icv-ncbi-refseqs-seg4'"
   exit
 
@@ -45,7 +45,7 @@ alignment AL_ROOT_SEG_5_All_NP
   # Add segment members
   add member -w "source.name = 'icv-ncbi-refseqs-seg5'"
   
-  extract child AL_ICV_SEG5 --refName REF_ICV_S5_NC_006311
+  extract child AL_ICV_SEG5 --refName REF_ICV_S5_MASTER_NC_006311
   demote member AL_ICV_SEG5 -w "sequence.source.name = 'icv-ncbi-refseqs-seg5'"
   exit
 
@@ -55,7 +55,7 @@ alignment AL_ROOT_SEG_6_AB_NA
   # Add segment members
   add member -w "source.name = 'icv-ncbi-refseqs-seg6'"
   
-  extract child AL_ICV_SEG6 --refName REF_ICV_S6_NC_006312
+  extract child AL_ICV_SEG6 --refName REF_ICV_S6_MASTER_NC_006312
   demote member AL_ICV_SEG6 -w "sequence.source.name = 'icv-ncbi-refseqs-seg6'"  
   exit
 
@@ -64,7 +64,7 @@ alignment AL_ROOT_SEG_7_AB_M
   # Add segment members
   add member -w "source.name = 'icv-ncbi-refseqs-seg7'"
 
-  extract child AL_ICV_SEG7 --refName REF_ICV_S7_NC_006306
+  extract child AL_ICV_SEG7 --refName REF_ICV_S7_MASTER_NC_006306
   demote member AL_ICV_SEG7 -w "sequence.source.name = 'icv-ncbi-refseqs-seg7'"
   exit
 

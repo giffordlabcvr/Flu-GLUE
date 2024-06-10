@@ -30,7 +30,7 @@
    add member -w "rec_segment = 4 and species = 'IBV'"
    exit
    
- create alignment  AL_ROOT_SEG_4_CD_HEF -r REF_ICV_S4_NC_006310 
+ create alignment  AL_ROOT_SEG_4_CD_HEF -r REF_ICV_S4_MASTER_NC_006310 
  alignment AL_ROOT_SEG_4_CD_HEF
    set field displayName "Influenzavirus rec_segment 4 CD"
    add member -w "rec_segment = 4 and species = 'ICV'"
@@ -50,7 +50,7 @@
    add member -w "rec_segment = 6 and species = 'IBV'"
    exit
  
- create alignment  AL_ROOT_SEG_6_CD_M -r REF_ICV_S6_NC_006312  
+ create alignment  AL_ROOT_SEG_6_CD_M -r REF_ICV_S6_MASTER_NC_006312  
  alignment AL_ROOT_SEG_6_CD_M
    set field displayName "Influenzavirus rec_segment 6 CD"
    add member -w "rec_segment = 6 and species = 'ICV'"
@@ -66,7 +66,7 @@
    exit
 
 
- create alignment  AL_ROOT_SEG_7_CD_NS -r REF_ICV_S7_NC_006306  
+ create alignment  AL_ROOT_SEG_7_CD_NS -r REF_ICV_S7_MASTER_NC_006306  
  alignment AL_ROOT_SEG_7_CD_NS
    set field displayName "Influenzavirus rec_segment 7"
    add member -w "rec_segment = 7 and species = 'ICV'"
