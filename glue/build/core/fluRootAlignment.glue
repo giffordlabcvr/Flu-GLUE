@@ -1,0 +1,9 @@
+
+  # Root level
+  #run file glue/build/core/alignmentTree/fluAlignmentTreeRoot.glue
+
+  # Import alignments
+  run file glue/build/core/fluLoadUnconstrainedAlignmentsRoot.glue
+
+  # Derive constrained alignments from unconstrained alignments (cross-species)
+  #run file glue/build/core/fluDeriveConstrainedMsasRoot.glue

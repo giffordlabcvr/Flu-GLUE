@@ -1,0 +1,38 @@
+delete module iavNcbiTestsetImporterSegment1
+delete module iavNcbiTestsetImporterSegment2
+delete module iavNcbiTestsetImporterSegment3
+delete module iavNcbiTestsetImporterSegment4
+delete module iavNcbiTestsetImporterSegment5
+delete module iavNcbiTestsetImporterSegment6
+delete module iavNcbiTestsetImporterSegment7
+delete module iavNcbiTestsetImporterSegment8
+
+# Create modules
+#create module -f modules/download/testset/iavNcbiTestsetImporterSegment1.xml
+#create module -f modules/download/testset/iavNcbiTestsetImporterSegment2.xml
+#create module -f modules/download/testset/iavNcbiTestsetImporterSegment3.xml
+create module -f modules/download/testset/iavNcbiTestsetImporterSegment4.xml
+#create module -f modules/download/testset/iavNcbiTestsetImporterSegment5.xml
+#create module -f modules/download/testset/iavNcbiTestsetImporterSegment6.xml
+#create module -f modules/download/testset/iavNcbiTestsetImporterSegment7.xml
+#create module -f modules/download/testset/iavNcbiTestsetImporterSegment8.xml
+
+# Download NCBI sequences 
+#module iavNcbiTestsetImporterSegment1 import
+#module iavNcbiTestsetImporterSegment2 import
+#module iavNcbiTestsetImporterSegment3 import
+module iavNcbiTestsetImporterSegment4 import
+#module iavNcbiTestsetImporterSegment5 import
+#module iavNcbiTestsetImporterSegment6 import
+#module iavNcbiTestsetImporterSegment7 import
+#module iavNcbiTestsetImporterSegment8 import
+
+# Export sources 
+#export source iav-ncbi-testset-seg1
+#export source iav-ncbi-testset-seg2
+#export source iav-ncbi-testset-seg3
+export source iav-ncbi-testset-seg4
+#export source iav-ncbi-testset-seg5
+#export source iav-ncbi-testset-seg6
+#export source iav-ncbi-testset-seg7
+#export source iav-ncbi-testset-seg8

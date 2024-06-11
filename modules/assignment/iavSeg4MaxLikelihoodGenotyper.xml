@@ -3,23 +3,13 @@
 	<useSingleReference>true</useSingleReference>
 
 	<cladeCategory>
-		<name>species</name>	
-		<displayName>Species</displayName>	
-		<whereClause>displayName = '4_AB_HA' and clade_category = 'species'</whereClause>
-		<distanceScalingExponent>-3.0</distanceScalingExponent>
-		<distanceCutoff>0.4</distanceCutoff>
-		<finalCladeCutoff>80.0</finalCladeCutoff>
-	</cladeCategory>
-
-	<cladeCategory>
 		<name>subtype</name>	
 		<displayName>Subtype</displayName>	
-		<whereClause>displayName like '1%' and clade_category = 'subtype'</whereClause>
+		<whereClause>parent.name = 'AL_IAV_SEG4'</whereClause>
 		<distanceScalingExponent>-3.0</distanceScalingExponent>
-	    <distanceCutoff>0.1</distanceCutoff>
+	    <distanceCutoff>0.3</distanceCutoff>
 		<finalCladeCutoff>80.0</finalCladeCutoff>		
 	</cladeCategory>
-	
 
 </maxLikelihoodGenotyper>
 

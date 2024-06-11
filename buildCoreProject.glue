@@ -31,28 +31,20 @@ project flu
   # Define feature locations on master reference sequences
   run file glue/build/core/fluFeatureLocations.glue
 
+  # Import alignments
+  run file glue/build/core/fluLoadUnconstrainedAlignmentsSpecies.glue
+
   # Define constrained alignment tree
   run file glue/build/core/fluAlignmentTree.glue
 
-  # Import alignments
-  run file glue/build/core/fluLoadUnconstrainedAlignments.glue
-
-  # Derive constrained alignments from unconstrained alignments (cross-species)
-  #run file glue/build/core/fluDeriveConstrainedMsasRoot.glue
-
-  # Compute IAV and IBV inter-subtype alignments
-  run file glue/build/core/fluComputeAlignmentsIav.glue
-  run file glue/build/core/fluComputeAlignmentsIbv.glue
-
-  # Build phylogenies
-  #run file glue/build/core/phylogeny/
+  # Derive constrained alignments from unconstrained alignments
+  run file glue/build/core/fluDeriveConstrainedMsasSpecies.glue
 
   # Import phylogenies
   run file glue/build/core/phylogeny/iavImportPhylogenies.glue
   #run file glue/build/core/phylogeny/ibvImportPhylogenies.glue
   #run file glue/build/core/phylogeny/icvImportPhylogenies.glue
   #run file glue/build/core/phylogeny/idvImportPhylogenies.glue
-
 
   # Validate
   validate

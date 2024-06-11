@@ -8,8 +8,6 @@ alignment AL_IAV_SEG1
 
 	add member -w "species = 'IAV' and rec_segment = 1"
 
-	#extract child AL_IAV_SEG1_A --refName REF_IAV_S1_MASTER_NC_002023
-	#demote member AL_IAV_SEG1_A -w "sequence.subtype.name = 'iav-ncbi-refseqs-seg1'"
 	exit
 
 create alignment AL_IAV_SEG2 -r REF_IAV_S2_MASTER_NC_002021 
@@ -20,8 +18,6 @@ alignment AL_IAV_SEG2
 
 	add member -w "species = 'IAV' and rec_segment = 2"
 
-	#extract child AL_IAV_SEG2 --refName REF_IAV_S2_MASTER_NC_002021
-	#demote member AL_IAV_SEG2 -w "sequence.source.name = 'iav-ncbi-refseqs-seg2'"
 	exit
 
 create alignment AL_IAV_SEG3 -r REF_IAV_S3_MASTER_NC_002022 
@@ -32,8 +28,6 @@ alignment AL_IAV_SEG3
 
 	add member -w "species = 'IAV' and rec_segment = 3"
 
-	#extract child AL_IAV_SEG3 --refName REF_IAV_S3_MASTER_NC_002022
-	#demote member AL_IAV_SEG3 -w "sequence.source.name = 'iav-ncbi-refseqs-seg3'"
 	exit
 
 create alignment AL_IAV_SEG4 -r REF_IAV_S4_MASTER_NC_002017 
@@ -159,114 +153,114 @@ alignment AL_IAV_SEG8
 	exit
 
 
-  alignment AL_IAV_SEG4_H10
-    set field displayName "H10"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_H10
+	set field displayName "H10"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG4_H7
-    set field displayName "H7"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_H7
+	set field displayName "H7"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG4_H4
-    set field displayName "H4"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_H4
+	set field displayName "H4"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG4_H3
-    set field displayName "H3"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_H3
+	set field displayName "H3"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG4_HX
-    set field displayName "HX"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_HX
+	set field displayName "HX"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG4_H11
-    set field displayName "H11"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_H11
+	set field displayName "H11"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG4_H6
-    set field displayName "H6"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_H6
+	set field displayName "H6"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG4_H1
-    set field displayName "H1"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_H1
+	set field displayName "H1"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG4_H5
-    set field displayName "H5"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_H5
+	set field displayName "H5"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG4_H2
-    set field displayName "H2"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_H2
+	set field displayName "H2"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG4_H8
-    set field displayName "H8"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_H8
+	set field displayName "H8"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG4_H12
-    set field displayName "H12"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_H12
+	set field displayName "H12"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG4_H9
-    set field displayName "H9"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG4_H9
+	set field displayName "H9"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG6_N5
-    set field displayName "N5"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG6_N5
+	set field displayName "N5"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG6_N8
-    set field displayName "N8"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG6_N8
+	set field displayName "N8"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG6_N4
-    set field displayName "N4"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG6_N4
+	set field displayName "N4"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG6_N1
-    set field displayName "N1"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG6_N1
+	set field displayName "N1"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG6_N2
-    set field displayName "N2"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG6_N2
+	set field displayName "N2"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG6_N3
-    set field displayName "N3"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG6_N3
+	set field displayName "N3"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG6_N7
-    set field displayName "N7"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG6_N7
+	set field displayName "N7"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG6_N9
-    set field displayName "N9"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG6_N9
+	set field displayName "N9"
+	set field clade_category "subtype" 
 	exit
 
-  alignment AL_IAV_SEG6_N6
-    set field displayName "N6"
-    set field clade_category "subtype" 
+alignment AL_IAV_SEG6_N6
+	set field displayName "N6"
+	set field clade_category "subtype" 
 	exit
 
 

@@ -1,0 +1,15 @@
+# Import unconstrained alignment
+
+module fluUnconstrainedAlignmentImporter
+
+  import AL_UNC_IAV_SEG_1 -f alignments/species/iav-seg1.aln.fna
+  import AL_UNC_IAV_SEG_2 -f alignments/species/iav-seg2.aln.fna
+  import AL_UNC_IAV_SEG_3 -f alignments/species/iav-seg3.aln.fna
+  import AL_UNC_IAV_SEG_4 -f alignments/species/iav-seg4.aln.fna
+  import AL_UNC_IAV_SEG_5 -f alignments/species/iav-seg5.aln.fna
+  import AL_UNC_IAV_SEG_6 -f alignments/species/iav-seg6.aln.fna
+  import AL_UNC_IAV_SEG_7 -f alignments/species/iav-seg7.aln.fna
+  import AL_UNC_IAV_SEG_8 -f alignments/species/iav-seg8.aln.fna
+
+  exit
+

@@ -1,0 +1,26 @@
+<maxLikelihoodGenotyper>
+	<maxLikelihoodPlacerModuleName>iavSeg6MaxLikelihoodPlacer</maxLikelihoodPlacerModuleName>
+	<useSingleReference>true</useSingleReference>
+
+	<cladeCategory>
+		<name>species</name>	
+		<displayName>Species</displayName>	
+		<whereClause>displayName = 'IAV segment 6' and clade_category = 'species'</whereClause>
+		<distanceScalingExponent>-3.0</distanceScalingExponent>
+		<distanceCutoff>0.4</distanceCutoff>
+		<finalCladeCutoff>80.0</finalCladeCutoff>
+	</cladeCategory>
+
+	<cladeCategory>
+		<name>subtype</name>	
+		<displayName>Subtype</displayName>	
+		<whereClause>displayName like 'N%' and clade_category = 'subtype'</whereClause>
+		<distanceScalingExponent>-3.0</distanceScalingExponent>
+	    <distanceCutoff>0.3</distanceCutoff>
+		<finalCladeCutoff>80.0</finalCladeCutoff>		
+	</cladeCategory>
+
+</maxLikelihoodGenotyper>
+
+
+

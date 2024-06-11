@@ -1,0 +1,14 @@
+project flu
+
+	delete source iav-ncbi-testset-seg4
+	import source sources/iav-ncbi-testset-seg4/
+	
+	delete module iavSeg4MaxLikelihoodGenotyper
+	delete module iavSeg4MaxLikelihoodPlacer
+
+	create module -f modules/assignment/iavSeg4MaxLikelihoodGenotyper.xml
+	create module -f modules/assignment/iavSeg4MaxLikelihoodPlacer.xml
+
+	module iavSeg4MaxLikelihoodGenotyper genotype sequence -w "source.name = 'iav-ncbi-testset-seg4'"
+
+	exit
