@@ -1,0 +1,171 @@
+# Create constrained alignment tree for refseqs sequence alignments
+
+alignment AL_ROOT_SEG_1-2_All_PB2
+
+	set field displayName "1_2_All_PB2"
+	set field clade_category "species"
+
+	# Add segment members
+	add member -w "source.name = 'iav-ncbi-refseqs-seg1'"
+	add member -w "source.name = 'ibv-ncbi-refseqs-seg1'"
+	add member -w "source.name = 'icv-ncbi-refseqs-seg1'"
+	add member -w "source.name = 'idv-ncbi-refseqs-seg1'"
+
+	extract child AL_IAV_SEG1 --refName REF_IAV_S1_MASTER_NC_002023
+	demote member AL_IAV_SEG1 -w "sequence.source.name = 'iav-ncbi-refseqs-seg1'"
+
+	extract child AL_IBV_SEG1 --refName REF_IBV_S1_MASTER_CQ903172
+	demote member AL_IBV_SEG1 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg1'"
+
+	extract child AL_ICV_SEG1 --refName REF_ICV_S1_MASTER_NC_006307
+	demote member AL_ICV_SEG1 -w "sequence.source.name = 'icv-ncbi-refseqs-seg1'"
+
+	extract child AL_IDV_SEG1 --refName REF_IDV_S1_MASTER_NC_036616
+	demote member AL_IDV_SEG1 -w "sequence.source.name = 'idv-ncbi-refseqs-seg1'"	
+
+	exit
+
+alignment AL_ROOT_SEG_2-1_All_PB1
+
+	set field displayName "1_2_All_PB1"
+	set field clade_category "species"
+
+	# Add segment members
+	add member -w "source.name = 'iav-ncbi-refseqs-seg2'"
+	add member -w "source.name = 'ibv-ncbi-refseqs-seg2'"
+	add member -w "source.name = 'icv-ncbi-refseqs-seg2'"
+	add member -w "source.name = 'idv-ncbi-refseqs-seg2'"
+	
+	extract child AL_IAV_SEG2 --refName REF_IAV_S2_MASTER_NC_002021
+	demote member AL_IAV_SEG2 -w "sequence.source.name = 'iav-ncbi-refseqs-seg2'"
+
+	extract child AL_IBV_SEG2 --refName REF_IBV_S2_MASTER_CQ903173
+	demote member AL_IBV_SEG2 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg2'"
+
+	extract child AL_ICV_SEG2 --refName REF_ICV_S2_MASTER_NC_006308
+	demote member AL_ICV_SEG2 -w "sequence.source.name = 'icv-ncbi-refseqs-seg2'"
+
+	extract child AL_IDV_SEG2 --refName REF_IDV_S2_MASTER_NC_036615
+	demote member AL_IDV_SEG2 -w "sequence.source.name = 'idv-ncbi-refseqs-seg2'"
+
+	exit
+
+
+alignment AL_ROOT_SEG_3_All_PA
+
+	set field displayName "3_All_PA"
+	set field clade_category "species"
+
+	# Add segment members
+	add member -w "source.name = 'iav-ncbi-refseqs-seg3'"
+	add member -w "source.name = 'ibv-ncbi-refseqs-seg3'"
+	add member -w "source.name = 'icv-ncbi-refseqs-seg3'"
+	add member -w "source.name = 'idv-ncbi-refseqs-seg3'"
+	
+	extract child AL_IAV_SEG3 --refName REF_IAV_S3_MASTER_NC_002022
+	demote member AL_IAV_SEG3 -w "sequence.source.name = 'iav-ncbi-refseqs-seg3'"
+
+	extract child AL_IBV_SEG3 --refName REF_IBV_S3_MASTER_CQ903174
+	demote member AL_IBV_SEG3 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg3'"
+
+	extract child AL_ICV_SEG3 --refName REF_ICV_S3_MASTER_NC_006309
+	demote member AL_ICV_SEG3 -w "sequence.source.name = 'icv-ncbi-refseqs-seg3'"
+
+	extract child AL_IDV_SEG3 --refName REF_IDV_S3_MASTER_NC_036619
+	demote member AL_IDV_SEG3 -w "sequence.source.name = 'idv-ncbi-refseqs-seg3'"
+
+
+	exit
+
+alignment AL_ROOT_SEG_4_AB_HA
+
+	set field displayName "4_AB_HA"
+	set field clade_category "species"
+
+	# Add segment members
+	add member -w "source.name = 'iav-ncbi-refseqs-seg4'"
+	add member -w "source.name = 'ibv-ncbi-refseqs-seg4'"
+	
+	extract child AL_IAV_SEG4 --refName REF_IAV_S4_MASTER_NC_002017
+	demote member AL_IAV_SEG4 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4'"
+
+	extract child AL_IBV_SEG4 --refName REF_IBV_S4_MASTER_CY018773
+	demote member AL_IBV_SEG4 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg4'"
+	
+	exit
+
+
+alignment AL_ROOT_SEG_5_All_NP
+
+	set field displayName "5_All_NP"
+	set field clade_category "species"
+
+	# Add segment members
+	add member -w "source.name = 'iav-ncbi-refseqs-seg5'"
+	add member -w "source.name = 'ibv-ncbi-refseqs-seg5'"
+	add member -w "source.name = 'icv-ncbi-refseqs-seg5'"
+	add member -w "source.name = 'idv-ncbi-refseqs-seg5'"
+	
+	extract child AL_IAV_SEG5 --refName REF_IAV_S5_MASTER_NC_002019
+	demote member AL_IAV_SEG5 -w "sequence.source.name = 'iav-ncbi-refseqs-seg5'"
+	exit
+
+alignment AL_ROOT_SEG_6_AB_NA
+
+	set field displayName "6_AB_NA"
+	set field clade_category "species"
+
+	# Add segment members
+	add member -w "source.name = 'iav-ncbi-refseqs-seg6'"
+	add member -w "source.name = 'ibv-ncbi-refseqs-seg6'"
+	
+	extract child AL_IAV_SEG6 --refName REF_IAV_S6_MASTER_NC_002018
+	demote member AL_IAV_SEG6 -w "sequence.source.name = 'iav-ncbi-refseqs-seg6'"	
+
+	extract child AL_IBV_SEG6 --refName REF_IBV_S6_MASTER_CQ903176
+	demote member AL_IBV_SEG6 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg6'"  
+	exit
+
+alignment AL_ROOT_SEG_7_AB_M
+
+	set field displayName "7_AB_M"
+	set field clade_category "species"
+
+	# Add segment members
+	add member -w "source.name = 'iav-ncbi-refseqs-seg7'"
+	add member -w "source.name = 'ibv-ncbi-refseqs-seg7'"
+
+	extract child AL_IAV_SEG7 --refName REF_IAV_S7_MASTER_NC_002016
+	demote member AL_IAV_SEG7 -w "sequence.source.name = 'iav-ncbi-refseqs-seg7'"
+	exit
+
+
+alignment AL_ROOT_SEG_8_AB_NS
+
+	set field displayName "8_AB_M"
+	set field clade_category "species"
+
+	# Add segment members
+	add member -w "source.name = 'iav-ncbi-refseqs-seg8'"
+	add member -w "source.name = 'ibv-ncbi-refseqs-seg8'"
+	
+	extract child AL_IAV_SEG8 --refName REF_IAV_S8_MASTER_NC_002020
+	demote member AL_IAV_SEG8 -w "sequence.source.name = 'iav-ncbi-refseqs-seg8'"
+
+	extract child AL_IBV_SEG8 --refName REF_IBV_S8_MASTER_CQ903179
+	demote member AL_IBV_SEG8 -w "sequence.source.name = 'ibv-ncbi-refseqs-seg8'"
+
+	exit
+
+aligment AL_ROOT_SEG_4_CD_HEF
+
+	exit
+
+aligment AL_ROOT_SEG_6_CD_M
+
+	exit
+
+aligment AL_ROOT_SEG_7_CD_NS
+
+	exit
+

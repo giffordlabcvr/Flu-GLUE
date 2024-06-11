@@ -38,7 +38,7 @@ project flu
   run file glue/build/core/fluLoadUnconstrainedAlignments.glue
 
   # Derive constrained alignments from unconstrained alignments (cross-species)
-  run file glue/build/core/fluDeriveConstrainedMsasRoot.glue
+  #run file glue/build/core/fluDeriveConstrainedMsasRoot.glue
 
   # Compute IAV and IBV inter-subtype alignments
   run file glue/build/core/fluComputeAlignmentsIav.glue

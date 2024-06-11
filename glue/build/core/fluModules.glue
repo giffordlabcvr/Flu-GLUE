@@ -4,10 +4,10 @@
   create module -t tabularUtility  
 
   # Segment recogniser modules
-  create module -f modules/build/iavSegmentRecogniser.xml
-  create module -f modules/build/ibvSegmentRecogniser.xml 
-  create module -f modules/build/icvSegmentRecogniser.xml
-  create module -f modules/build/idvSegmentRecogniser.xml 
+  create module -f modules/assignment/iavSegmentRecogniser.xml
+  create module -f modules/assignment/ibvSegmentRecogniser.xml 
+  create module -f modules/assignment/icvSegmentRecogniser.xml
+  create module -f modules/assignment/idvSegmentRecogniser.xml 
   
   # Alignment importers
   create module -f modules/build/rootAlignmentImporter.xml  

@@ -26,9 +26,12 @@ _.each(species, function(virus) {
 			_.each(seqIds, function(seqId) {
 
 				glue.inMode("sequence/"+sourceName+"/"+seqId, function() {
+
+					glue.command(["set", "field", "rec_segment", segment]);				
 			
 					if (virus == 'iav') {
 						glue.command(["set", "field", "species", 'IAV']);				
+
 					}
 					if (virus == 'ibv') {			
 						glue.command(["set", "field", "species", 'IBV']);	

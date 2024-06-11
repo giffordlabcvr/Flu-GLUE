@@ -1,0 +1,58 @@
+# Create constrained alignment tree for refseqs sequence alignments
+
+create alignment AL_ICV_SEG1 -r REF_ICV_S1_MASTER_NC_006307 
+alignment AL_ICV_SEG1
+
+	set field displayName "ICV segment 1"
+	add member -w "species = 'ICV' and rec_segment = 1"
+
+	exit
+
+create alignment AL_ICV_SEG2 -r REF_ICV_S2_MASTER_NC_006308 
+alignment AL_ICV_SEG2
+
+	set field displayName "ICV segment 2"
+	add member -w "species = 'ICV' and rec_segment = 2"
+
+	exit
+
+create alignment AL_ICV_SEG3 -r REF_ICV_S3_MASTER_NC_006309 
+alignment AL_ICV_SEG3
+
+	set field displayName "ICV segment 3"
+	add member -w "species = 'ICV' and rec_segment = 3"
+
+	exit
+
+create alignment AL_ICV_SEG4 -r REF_ICV_S4_MASTER_NC_006310 
+alignment AL_ICV_SEG4
+
+	set field displayName "ICV segment 4"
+	add member -w "species = 'ICV' and rec_segment = 4"
+
+	exit
+  
+create alignment AL_ICV_SEG5 -r REF_ICV_S5_MASTER_NC_006311   
+alignment AL_ICV_SEG5
+
+	set field displayName "ICV segment 5"
+	add member -w "species = 'ICV' and rec_segment = 5"
+
+	exit
+
+create alignment AL_ICV_SEG6 -r REF_ICV_S6_MASTER_NC_006312   
+alignment AL_ICV_SEG6
+
+	set field displayName "ICV segment 6"
+	add member -w "species = 'ICV' and rec_segment = 6"
+
+	exit
+
+create alignment AL_ICV_SEG7 -r REF_ICV_S7_MASTER_NC_006306   
+alignment AL_ICV_SEG7
+
+	set field displayName "ICV segment 7"
+	add member -w "species = 'ICV' and rec_segment = 7"
+
+	exit
+

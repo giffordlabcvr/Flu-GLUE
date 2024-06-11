@@ -1,0 +1,65 @@
+# Create constrained alignment tree for refseqs sequence alignments
+
+create alignment AL_IBV_SEG1 -r REF_IBV_S1_MASTER_CQ903172 
+alignment AL_IBV_SEG1
+
+	set field displayName "IBV segment 1"
+	add member -w "species = 'IBV' and rec_segment = 1"
+
+	exit
+
+create alignment AL_IBV_SEG2 -r REF_IBV_S2_MASTER_CQ903173 
+alignment AL_IBV_SEG2
+
+	set field displayName "IBV segment 2"
+	add member -w "species = 'IBV' and rec_segment = 2"
+
+	exit
+
+create alignment AL_IBV_SEG3 -r REF_IBV_S3_MASTER_CQ903174 
+alignment AL_IBV_SEG3
+
+	set field displayName "IBV segment 3"
+	add member -w "species = 'IBV' and rec_segment = 3"
+
+	exit
+
+create alignment AL_IBV_SEG4 -r REF_IBV_S4_MASTER_CY018773 
+alignment AL_IBV_SEG4
+
+	set field displayName "IBV segment 4"
+	add member -w "species = 'IBV' and rec_segment = 4"
+
+	exit
+  
+create alignment AL_IBV_SEG5 -r REF_IBV_S5_MASTER_CQ903177   
+alignment AL_IBV_SEG5
+
+	set field displayName "IBV segment 5"
+	add member -w "species = 'IBV' and rec_segment = 5"
+
+	exit
+
+create alignment AL_IBV_SEG6 -r REF_IBV_S6_MASTER_CQ903176   
+alignment AL_IBV_SEG6
+
+	set field displayName "IBV segment 6"
+	add member -w "species = 'IBV' and rec_segment = 6"
+
+	exit
+
+create alignment AL_IBV_SEG7 -r REF_IBV_S7_MASTER_CQ903178   
+alignment AL_IBV_SEG7
+
+	set field displayName "IBV segment 7"
+	add member -w "species = 'IBV' and rec_segment = 7"
+
+	exit
+
+create alignment AL_IBV_SEG8 -r REF_IBV_S8_MASTER_CQ903179   
+alignment AL_IBV_SEG8
+
+	set field displayName "IBV segment 8"
+	add member -w "species = 'IBV' and rec_segment = 8"
+
+	exit

@@ -1,17 +1,272 @@
-# Delete any previously created alignments of same name
-multi-delete alignment -w "name like 'IAV_SEG%'"
-
 # Create constrained alignment tree for refseqs sequence alignments
 
+create alignment AL_IAV_SEG1 -r REF_IAV_S1_MASTER_NC_002023 
 alignment AL_IAV_SEG1
 
-  #extract child AL_IAV_SEG1_A --refName REF_IAV_S1_MASTER_NC_002023
-  #demote member AL_IAV_SEG1_A -w "sequence.subtype.name = 'iav-ncbi-refseqs-seg1'"
-  exit
+	set field displayName "IAV segment 1"
+	set field clade_category "species"
 
+	add member -w "species = 'IAV' and rec_segment = 1"
+
+	#extract child AL_IAV_SEG1_A --refName REF_IAV_S1_MASTER_NC_002023
+	#demote member AL_IAV_SEG1_A -w "sequence.subtype.name = 'iav-ncbi-refseqs-seg1'"
+	exit
+
+create alignment AL_IAV_SEG2 -r REF_IAV_S2_MASTER_NC_002021 
 alignment AL_IAV_SEG2
 
-  #extract child AL_IAV_SEG1 --refName REF_IAV_S1_MASTER_NC_002023
-  #demote member AL_IAV_SEG1 -w "sequence.source.name = 'iav-ncbi-refseqs-seg1'"
-  exit
+	set field displayName "IAV segment 2"
+	set field clade_category "species"
+
+	add member -w "species = 'IAV' and rec_segment = 2"
+
+	#extract child AL_IAV_SEG2 --refName REF_IAV_S2_MASTER_NC_002021
+	#demote member AL_IAV_SEG2 -w "sequence.source.name = 'iav-ncbi-refseqs-seg2'"
+	exit
+
+create alignment AL_IAV_SEG3 -r REF_IAV_S3_MASTER_NC_002022 
+alignment AL_IAV_SEG3
+
+	set field displayName "IAV segment 3"
+	set field clade_category "species"
+
+	add member -w "species = 'IAV' and rec_segment = 3"
+
+	#extract child AL_IAV_SEG3 --refName REF_IAV_S3_MASTER_NC_002022
+	#demote member AL_IAV_SEG3 -w "sequence.source.name = 'iav-ncbi-refseqs-seg3'"
+	exit
+
+create alignment AL_IAV_SEG4 -r REF_IAV_S4_MASTER_NC_002017 
+alignment AL_IAV_SEG4
+
+	set field displayName "IAV segment 4"
+	set field clade_category "species"
+
+	add member -w "species = 'IAV' and rec_segment = 4"
+
+	extract child AL_IAV_SEG4_H10 --refName REF_IAV_S4_H10N2_CY241063
+	demote member AL_IAV_SEG4_H10 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'H10N%'"
+
+	extract child AL_IAV_SEG4_H7 --refName REF_IAV_S4_H7N9_CY067678
+	demote member AL_IAV_SEG4_H7 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'H7N%'"
+
+	extract child AL_IAV_SEG4_H4 --refName REF_IAV_S4_H4N9_MW875653
+	demote member AL_IAV_SEG4_H4 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'H4N%'"
+
+	extract child AL_IAV_SEG4_H3 --refName REF_IAV_S4_H3N8_CY079171
+	demote member AL_IAV_SEG4_H3 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'H3N%'"
+
+	extract child AL_IAV_SEG4_HX --refName REF_IAV_S4_HXN6_MF147944
+	demote member AL_IAV_SEG4_HX -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'HXN%'"
+
+	extract child AL_IAV_SEG4_H11 --refName REF_IAV_S4_H11N7_MW857526
+	demote member AL_IAV_SEG4_H11 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'H11N%'"
+
+	extract child AL_IAV_SEG4_H6 --refName REF_IAV_S4_H6N6_MW109584
+	demote member AL_IAV_SEG4_H6 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'H6N%'"
+
+	extract child AL_IAV_SEG4_H1 --refName REF_IAV_S4_MASTER_NC_002017
+	demote member AL_IAV_SEG4_H1 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'H1N%'"
+
+	extract child AL_IAV_SEG4_H5 --refName REF_IAV_S4_H5N2_MZ565044
+	demote member AL_IAV_SEG4_H5 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'H5N%'"
+
+	extract child AL_IAV_SEG4_H2 --refName REF_IAV_S4_H2N2_LC371842
+	demote member AL_IAV_SEG4_H2 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'H2N%'"
+
+	extract child AL_IAV_SEG4_H8 --refName REF_IAV_S4_H8N2_LC029898
+	demote member AL_IAV_SEG4_H8 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'H8N%'"
+
+	extract child AL_IAV_SEG4_H12 --refName REF_IAV_S4_H12N5_OL370767
+	demote member AL_IAV_SEG4_H12 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'H12N%'"
+
+	extract child AL_IAV_SEG4_H9 --refName REF_IAV_S4_H9N1_MH578773
+	demote member AL_IAV_SEG4_H9 -w "sequence.source.name = 'iav-ncbi-refseqs-seg4' and sequence.isolate.gb_subtype like 'H9N%'"
+	exit
+  
+  
+create alignment AL_IAV_SEG5 -r REF_IAV_S5_MASTER_NC_002019   
+alignment AL_IAV_SEG5
+
+	set field displayName "IAV segment 5"
+	set field clade_category "species"
+
+	add member -w "species = 'IAV' and rec_segment = 5"
+
+	#extract child AL_IAV_SEG5 --refName REF_IAV_S5_MASTER_NC_002019
+	#demote member AL_IAV_SEG5 -w "sequence.source.name = 'iav-ncbi-refseqs-seg5'"
+	exit
+
+
+create alignment AL_IAV_SEG6 -r REF_IAV_S6_MASTER_NC_002018   
+alignment AL_IAV_SEG6
+
+	set field displayName "IAV segment 6"
+	set field clade_category "species"
+
+	add member -w "species = 'IAV' and rec_segment = 6"
+
+	extract child AL_IAV_SEG6_N5 --refName REF_IAV_S6_H9N5_OL371513
+	demote member AL_IAV_SEG6_N5 -w "sequence.source.name = 'iav-ncbi-refseqs-seg6' and sequence.isolate.gb_subtype like '%N5'"
+
+	extract child AL_IAV_SEG6_N8 --refName REF_IAV_S6_HXN8_KX978990
+	demote member AL_IAV_SEG6_N8 -w "sequence.source.name = 'iav-ncbi-refseqs-seg6' and sequence.isolate.gb_subtype like '%N8'"
+
+	extract child AL_IAV_SEG6_N4 --refName REF_IAV_S6_H8N4_CY096650
+	demote member AL_IAV_SEG6_N4 -w "sequence.source.name = 'iav-ncbi-refseqs-seg6' and sequence.isolate.gb_subtype like '%N4'"
+
+	extract child AL_IAV_SEG6_N1 --refName REF_IAV_S6_MASTER_NC_002018
+	demote member AL_IAV_SEG6_N1 -w "sequence.source.name = 'iav-ncbi-refseqs-seg6' and sequence.isolate.gb_subtype like '%N1'"
+
+	extract child AL_IAV_SEG6_N2 --refName REF_IAV_S6_H1N2_MW848668
+	demote member AL_IAV_SEG6_N2 -w "sequence.source.name = 'iav-ncbi-refseqs-seg6' and sequence.isolate.gb_subtype like '%N2'"
+
+	extract child AL_IAV_SEG6_N3 --refName REF_IAV_S6_H2N3_MN988216
+	demote member AL_IAV_SEG6_N3 -w "sequence.source.name = 'iav-ncbi-refseqs-seg6' and sequence.isolate.gb_subtype like '%N3'"
+
+	extract child AL_IAV_SEG6_N7 --refName REF_IAV_S6_H10N7_KX977605
+	demote member AL_IAV_SEG6_N7 -w "sequence.source.name = 'iav-ncbi-refseqs-seg6' and sequence.isolate.gb_subtype like '%N7'"
+
+	extract child AL_IAV_SEG6_N9 --refName REF_IAV_S6_H10N9_MW547707
+	demote member AL_IAV_SEG6_N9 -w "sequence.source.name = 'iav-ncbi-refseqs-seg6' and sequence.isolate.gb_subtype like '%N9'"
+
+	extract child AL_IAV_SEG6_N6 --refName REF_IAV_S6_H11N6_GQ247863
+	demote member AL_IAV_SEG6_N6 -w "sequence.source.name = 'iav-ncbi-refseqs-seg6' and sequence.isolate.gb_subtype like '%N6'"
+	exit
+
+create alignment AL_IAV_SEG7 -r REF_IAV_S7_MASTER_NC_002016   
+alignment AL_IAV_SEG7
+
+	set field displayName "IAV segment 7"
+	set field clade_category "species"
+
+	add member -w "species = 'IAV' and rec_segment = 7"
+
+	#extract child AL_IAV_SEG7 --refName REF_IAV_S7_MASTER_NC_002016
+	#demote member AL_IAV_SEG7 -w "sequence.source.name = 'iav-ncbi-refseqs-seg7'"
+	exit
+
+create alignment AL_IAV_SEG8 -r REF_IAV_S8_MASTER_NC_002020   
+alignment AL_IAV_SEG8
+
+	set field displayName "IAV segment 8"
+	set field clade_category "species"
+
+	add member -w "species = 'IAV' and rec_segment = 8"
+
+	#extract child AL_IAV_SEG8 --refName REF_IAV_S8_MASTER_NC_002020
+	#demote member AL_IAV_SEG8 -w "sequence.source.name = 'iav-ncbi-refseqs-seg8'"
+	exit
+
+
+  alignment AL_IAV_SEG4_H10
+    set field displayName "H10"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG4_H7
+    set field displayName "H7"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG4_H4
+    set field displayName "H4"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG4_H3
+    set field displayName "H3"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG4_HX
+    set field displayName "HX"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG4_H11
+    set field displayName "H11"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG4_H6
+    set field displayName "H6"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG4_H1
+    set field displayName "H1"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG4_H5
+    set field displayName "H5"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG4_H2
+    set field displayName "H2"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG4_H8
+    set field displayName "H8"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG4_H12
+    set field displayName "H12"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG4_H9
+    set field displayName "H9"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG6_N5
+    set field displayName "N5"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG6_N8
+    set field displayName "N8"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG6_N4
+    set field displayName "N4"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG6_N1
+    set field displayName "N1"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG6_N2
+    set field displayName "N2"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG6_N3
+    set field displayName "N3"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG6_N7
+    set field displayName "N7"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG6_N9
+    set field displayName "N9"
+    set field clade_category "subtype" 
+	exit
+
+  alignment AL_IAV_SEG6_N6
+    set field displayName "N6"
+    set field clade_category "subtype" 
+	exit
+
 

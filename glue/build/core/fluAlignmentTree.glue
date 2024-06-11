@@ -1,12 +1,10 @@
 
   # Root level
-  run file glue/build/core/alignmentTree/fluAlignmentTreeRoot.glue
+  #run file glue/build/core/alignmentTree/fluAlignmentTreeRoot.glue
 
   # Species level
-  run file glue/build/core/alignmentTree/fluAlignmentTreeIavSpecies.glue
-  run file glue/build/core/alignmentTree/fluAlignmentTreeIdvSpecies.glue
-  run file glue/build/core/alignmentTree/fluAlignmentTreeIcvSpecies.glue
-  run file glue/build/core/alignmentTree/fluAlignmentTreeIbvSpecies.glue
+  run file glue/build/core/alignmentTree/fluAlignmentTreeIavSubtype.glue
+  run file glue/build/core/alignmentTree/fluAlignmentTreeIdvSubtype.glue
+  run file glue/build/core/alignmentTree/fluAlignmentTreeIcvSubtype.glue
+  run file glue/build/core/alignmentTree/fluAlignmentTreeIbvSubtype.glue
 
-  # Subtype level
-  #run file glue/build/core/alignmentTree/fluAlignmentTreeIavSubtype.glue
