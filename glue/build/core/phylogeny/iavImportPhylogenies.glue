@@ -45,12 +45,12 @@ module iavPhyloImporter
   --inputFile trees/iav/iav_seg6_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS \
   --fieldName phylogeny
 
-  import phylogeny AL_IAV_SEG7 \
-  --recursive \
-  --anyAlignment \
-  --whereClause "sequence.source.name = 'iav-ncbi-refseqs-seg7' and referenceMember = false" \
-  --inputFile trees/iav/iav_seg7_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS \
-  --fieldName phylogeny
+#  import phylogeny AL_IAV_SEG7 \
+#  --recursive \
+#  --anyAlignment \
+#  --whereClause "sequence.source.name = 'iav-ncbi-refseqs-seg7' and referenceMember = false" \
+#  --inputFile trees/iav/iav_seg7_MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS \
+#  --fieldName phylogeny
 
   import phylogeny AL_IAV_SEG8 \
   --recursive \

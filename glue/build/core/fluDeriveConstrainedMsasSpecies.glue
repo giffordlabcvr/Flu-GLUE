@@ -2,36 +2,36 @@
   
   # Derive constrained alignment segments from unconstrained alignments
   
-  alignment AL_IAV_SEG_1
-	derive segments AL_UNC_IAV_SEG_1 -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_IAV_SEG1
+	derive segments AL_UNC_IAV_SEG_1  --recursive -a --existingMembersOnly --mergeStrategy OVERWRITE
 	exit
 
-  alignment AL_IAV_SEG_2
-	derive segments AL_UNC_ROOT_SEG_2 -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_IAV_SEG2
+	derive segments AL_UNC_IAV_SEG_2  --recursive -a --existingMembersOnly --mergeStrategy OVERWRITE
 	exit
 
-  alignment AL_IAV_SEG_3
-    derive segments AL_UNC_ROOT_SEG_3 -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_IAV_SEG3
+    derive segments AL_UNC_IAV_SEG_3  --recursive -a --existingMembersOnly --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_IAV_SEG_4
-    derive segments AL_UNC_ROOT_SEG_4 -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_IAV_SEG4
+    derive segments AL_UNC_IAV_SEG_4  --recursive -a --existingMembersOnly --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_IAV_SEG_5
-	derive segments AL_UNC_ROOT_SEG_5 -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_IAV_SEG5
+	derive segments AL_UNC_IAV_SEG_5  --recursive -a --existingMembersOnly --mergeStrategy OVERWRITE
 	exit
 
-  alignment AL_IAV_SEG_6
-    derive segments AL_UNC_ROOT_SEG_6 -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_IAV_SEG6
+    derive segments AL_UNC_IAV_SEG_6  --recursive -a --existingMembersOnly --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_IAV_SEG_7
-	derive segments AL_UNC_ROOT_SEG_7 -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_IAV_SEG7
+	derive segments AL_UNC_IAV_SEG_7  --recursive -a --existingMembersOnly --mergeStrategy OVERWRITE
 	exit
 
-  alignment AL_IAV_SEG_8
-	derive segments AL_UNC_ROOT_SEG_8 -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_IAV_SEG8
+	derive segments AL_UNC_IAV_SEG_8  --recursive -a --existingMembersOnly --mergeStrategy OVERWRITE
 	exit
 
 
