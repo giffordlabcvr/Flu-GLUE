@@ -1,0 +1,38 @@
+	# This GLUE script downloads from GenBank IDV sequences representing 114 isolates
+
+ 	# Delete previous modules if they exist
+	delete module idvNcbiImporterNcbiCuratedSegment1 
+	delete module idvNcbiImporterNcbiCuratedSegment2 
+	delete module idvNcbiImporterNcbiCuratedSegment3 
+	delete module idvNcbiImporterNcbiCuratedSegment4 
+	delete module idvNcbiImporterNcbiCuratedSegment5 
+	delete module idvNcbiImporterNcbiCuratedSegment6 
+	delete module idvNcbiImporterNcbiCuratedSegment7
+
+ 	# Create the download modules
+	create module -f modules/download/curated//idv/idvNcbiImporterNcbiCuratedSegment1.xml 
+	create module -f modules/download/curated//idv/idvNcbiImporterNcbiCuratedSegment2.xml 
+	create module -f modules/download/curated//idv/idvNcbiImporterNcbiCuratedSegment3.xml 
+	create module -f modules/download/curated//idv/idvNcbiImporterNcbiCuratedSegment4.xml 
+	create module -f modules/download/curated//idv/idvNcbiImporterNcbiCuratedSegment5.xml 
+	create module -f modules/download/curated//idv/idvNcbiImporterNcbiCuratedSegment6.xml 
+	create module -f modules/download/curated//idv/idvNcbiImporterNcbiCuratedSegment7.xml
+
+	# Download segment sequences - each is downloaded to a separate source
+	module idvNcbiImporterNcbiCuratedSegment1 import 
+	module idvNcbiImporterNcbiCuratedSegment2 import 
+	module idvNcbiImporterNcbiCuratedSegment3 import 
+	module idvNcbiImporterNcbiCuratedSegment4 import 
+	module idvNcbiImporterNcbiCuratedSegment5 import 
+	module idvNcbiImporterNcbiCuratedSegment6 import 
+	module idvNcbiImporterNcbiCuratedSegment7 import
+
+	# Export segment sequences
+	export source idv-ncbi-curated-segment1 
+	export source idv-ncbi-curated-segment2 
+	export source idv-ncbi-curated-segment3 
+	export source idv-ncbi-curated-segment4 
+	export source idv-ncbi-curated-segment5 
+	export source idv-ncbi-curated-segment6 
+	export source idv-ncbi-curated-segment7
+
