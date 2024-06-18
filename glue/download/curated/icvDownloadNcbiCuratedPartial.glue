@@ -1,0 +1,38 @@
+	# This GLUE script downloads from GenBank ICV sequences representing 299 isolates
+
+ 	# Delete previous modules if they exist
+	delete module icvNcbiImporterNcbiCuratedPartialSegment1 
+	delete module icvNcbiImporterNcbiCuratedPartialSegment2 
+	delete module icvNcbiImporterNcbiCuratedPartialSegment3 
+	delete module icvNcbiImporterNcbiCuratedPartialSegment4 
+	delete module icvNcbiImporterNcbiCuratedPartialSegment5 
+	delete module icvNcbiImporterNcbiCuratedPartialSegment6 
+	delete module icvNcbiImporterNcbiCuratedPartialSegment7
+
+ 	# Create the download modules
+	create module -f modules/download/curated//icv/icvNcbiImporterNcbiCuratedPartialSegment1.xml 
+	create module -f modules/download/curated//icv/icvNcbiImporterNcbiCuratedPartialSegment2.xml 
+	create module -f modules/download/curated//icv/icvNcbiImporterNcbiCuratedPartialSegment3.xml 
+	create module -f modules/download/curated//icv/icvNcbiImporterNcbiCuratedPartialSegment4.xml 
+	create module -f modules/download/curated//icv/icvNcbiImporterNcbiCuratedPartialSegment5.xml 
+	create module -f modules/download/curated//icv/icvNcbiImporterNcbiCuratedPartialSegment6.xml 
+	create module -f modules/download/curated//icv/icvNcbiImporterNcbiCuratedPartialSegment7.xml
+
+	# Download segment sequences - each is downloaded to a separate source
+	module icvNcbiImporterNcbiCuratedPartialSegment1 import 
+	module icvNcbiImporterNcbiCuratedPartialSegment2 import 
+	module icvNcbiImporterNcbiCuratedPartialSegment3 import 
+	module icvNcbiImporterNcbiCuratedPartialSegment4 import 
+	module icvNcbiImporterNcbiCuratedPartialSegment5 import 
+	module icvNcbiImporterNcbiCuratedPartialSegment6 import 
+	module icvNcbiImporterNcbiCuratedPartialSegment7 import
+
+	# Export segment sequences
+	export source icv-ncbi-curated-partial-segment1 
+	export source icv-ncbi-curated-partial-segment2 
+	export source icv-ncbi-curated-partial-segment3 
+	export source icv-ncbi-curated-partial-segment4 
+	export source icv-ncbi-curated-partial-segment5 
+	export source icv-ncbi-curated-partial-segment6 
+	export source icv-ncbi-curated-partial-segment7
+
