@@ -40,8 +40,12 @@ project flu
   # Derive constrained alignments from unconstrained alignments
   run file glue/build/core/fluDeriveConstrainedMsasSpecies.glue
 
+  # Compute MSAs
+  #run file glue/build/core/fluComputeAlignmentsIbv.glue
+  #run file glue/build/core/fluComputeAlignmentsIav.glue
+
   # Import phylogenies
-  run file glue/build/core/phylogeny/iavImportPhylogenies.glue
+  #run file glue/build/core/phylogeny/iavImportPhylogenies.glue
   #run file glue/build/core/phylogeny/ibvImportPhylogenies.glue
   #run file glue/build/core/phylogeny/icvImportPhylogenies.glue
   #run file glue/build/core/phylogeny/idvImportPhylogenies.glue
