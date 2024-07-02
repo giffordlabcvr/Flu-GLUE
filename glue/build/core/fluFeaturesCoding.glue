@@ -24,10 +24,10 @@ feature IAV_PB2-UFO
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg1Kuiken2006CodonLabeler
   exit
-
-create feature IBV_PB2 -p IBV_S1_whole_genome "IBV PB2_B coding sequence"
-feature IBV_PB2
-  set field displayName PB2_B
+  
+create feature IBV_PB1 -p IBV_S1_whole_genome "IBV PB1 coding sequence"
+feature IBV_PB1
+  set field displayName PB1
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg2Kuiken2006CodonLabeler
@@ -60,9 +60,9 @@ feature IAV_PB1
   #set metatag CODON_LABELER_MODULE fluSeg2Kuiken2006CodonLabeler
   exit
 
-create feature IBV_PB1 -p IBV_S2_whole_genome "IBV PB1 coding sequence"
-feature IBV_PB1
-  set field displayName PB1
+create feature IBV_PB2 -p IBV_S2_whole_genome "IBV PB2_B coding sequence"
+feature IBV_PB2
+  set field displayName PB2_B
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   #set metatag CODON_LABELER_MODULE fluSeg2Kuiken2006CodonLabeler
