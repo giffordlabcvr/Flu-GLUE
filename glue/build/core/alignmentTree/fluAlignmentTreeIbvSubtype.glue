@@ -1,6 +1,6 @@
 # Create constrained alignment tree for refseqs sequence alignments
 
-create alignment AL_IBV_SEG1 -r REF_IBV_S1_MASTER_CQ903172 
+create alignment AL_IBV_SEG1 -r REF_IBV_S1_MASTER_CQ903173 
 alignment AL_IBV_SEG1
 
 	set field displayName "IBV segment 1"
@@ -8,7 +8,7 @@ alignment AL_IBV_SEG1
 
 	exit
 
-create alignment AL_IBV_SEG2 -r REF_IBV_S2_MASTER_CQ903173 
+create alignment AL_IBV_SEG2 -r REF_IBV_S2_MASTER_CQ903172
 alignment AL_IBV_SEG2
 
 	set field displayName "IBV segment 2"

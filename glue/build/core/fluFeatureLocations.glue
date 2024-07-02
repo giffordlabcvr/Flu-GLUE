@@ -163,35 +163,29 @@ reference REF_IAV_S8_MASTER_NC_002020
 # BETAINFLUENZAVIRUS
 
 # Add feature locations
-reference REF_IBV_S1_MASTER_CQ903172 
+reference REF_IBV_S1_MASTER_CQ903173 
 
   add feature-location IBV_S1_whole_genome
-  feature-location IBV_S1_whole_genome add segment 1 2396
-  
+  feature-location IBV_S1_whole_genome add segment 1 2368
   add feature-location IBV_S1_5UTR
-  feature-location IBV_S1_5UTR add segment 1 23
-  
-  add feature-location IBV_PB2
-  feature-location IBV_PB2 add segment 24 2336
-  
+  feature-location IBV_S1_5UTR add segment 1 20
+  add feature-location IBV_PB1
+  feature-location IBV_PB1 add segment 21 2279
   add feature-location IBV_S1_3UTR
-  feature-location IBV_S1_3UTR add segment 2337 2396
+  feature-location IBV_S1_3UTR add segment 2280 2368
 
   exit
 
-reference REF_IBV_S2_MASTER_CQ903173
+reference REF_IBV_S2_MASTER_CQ903172
 
   add feature-location IBV_S2_whole_genome
-  feature-location IBV_S2_whole_genome add segment 1 2368
-  
+  feature-location IBV_S2_whole_genome add segment 1 2396
   add feature-location IBV_S2_5UTR
-  feature-location IBV_S2_5UTR add segment 1 20
-  
-  add feature-location IBV_PB1
-  feature-location IBV_PB1 add segment 21 2279
-  
+  feature-location IBV_S2_5UTR add segment 1 23
+  add feature-location IBV_PB2
+  feature-location IBV_PB2 add segment 24 2336
   add feature-location IBV_S2_3UTR
-  feature-location IBV_S2_3UTR add segment 2280 2368
+  feature-location IBV_S2_3UTR add segment 2337 2396
 
   exit  
   
