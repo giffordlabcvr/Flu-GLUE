@@ -15,7 +15,6 @@
  
  # Genbank XML-Populator modules
   create module -f modules/build/fluGenbankXmlPopulatorNoIsolateData.xml
-  create module -f modules/build/fluGenbankXmlPopulator.xml
 
   # Phylogeny generation  
   create module -t raxmlPhylogenyGenerator

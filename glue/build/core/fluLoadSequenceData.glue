@@ -3,6 +3,4 @@
   run script glue/build/core/fluLoadSequenceDataNcbiRefseqs.js
 
   # Import reference sequence data from GenBank XML
-  #module fluGenbankXmlPopulatorNoIsolateData populate
-  module fluGenbankXmlPopulator populate
-
+  module fluGenbankXmlPopulatorNoIsolateData populate
