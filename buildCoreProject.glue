@@ -45,12 +45,19 @@ project flu
   run file glue/build/core/fluComputeAlignmentsIav.glue
 
   # Import phylogenies
-  #run file glue/build/core/phylogeny/iavImportPhylogenies.glue
-  #run file glue/build/core/phylogeny/ibvImportPhylogenies.glue
-  run file glue/build/core/phylogeny/icvImportPhylogenies.glue
-  run file glue/build/core/phylogeny/idvImportPhylogenies.glue
+  #run file glue/build/core/iavImportPhylogenies.glue
+  #run file glue/build/core/ibvImportPhylogenies.glue
+  run file glue/build/core/icvImportPhylogenies.glue
+  run file glue/build/core/idvImportPhylogenies.glue
 
   # Validate
   validate
+
+  # Extension projects
+  #run file glue/build/extension/iav/buildIavExtension.glue
+  #run file glue/build/extension/ibv/buildIbvExtension.glue
+  #run file glue/build/extension/icv/buildIcvExtension.glue
+  #run file glue/build/extension/idv/buildIdvExtension.glue
+
 
 exit
