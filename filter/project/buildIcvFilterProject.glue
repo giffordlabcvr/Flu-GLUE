@@ -1,0 +1,80 @@
+delete project icv_filter
+
+create project icv_filter "GLUE project for filtering influenza C virus (ICV) data" --minVersion 1.1.41
+
+schema-project icv_filter
+
+  run file glue/icv/icvFilterSchemaExtensions.glue
+  exit
+
+project icv_filter
+
+
+  #~# Reference project build
+
+  # Create extension modules  
+  run file glue/icv/icvFilterModules.glue
+
+  # Set up ISO countries  
+  run file glue/m49_countries/populateM49All.glue
+
+  # Define genome features
+  run file glue/all/fluFeaturesNonCoding.glue
+  run file glue/all/fluFeaturesCoding.glue
+
+  # Import sources
+  run file glue/icv/icvFilterLoadSources.glue
+
+  # Import data from GenBank XML
+  module icvFilterGenbankXmlPopulator populate
+ 	
+  # Import cleaned tabular data 
+  run file glue/icv/icvImportDataRefseqs.glue
+
+  # Compute the unconstrained reference MSAs
+  run file glue/icv/icvComputeUnconstrainedMsas.glue
+  
+  # Define references
+  run file glue/icv/icvFilterReferences.glue
+
+  # Define feature locations
+  run file glue/icv/icvFeatureLocations.glue
+
+  # Run segment recogniser
+  run script glue/icv/icvRecogniseSegmentsRefseq.js
+
+  # Define alignment tree
+  run file glue/icv/icvAlignmentTree.glue
+
+  # Compute MSAs
+  run file glue/icv/icvComputeAlignments.glue
+
+  # Compute phylogenies
+  run file glue/icv/icvBuildPhylogenies.glue
+
+  # Import phylogenies
+  run file glue/icv/icvImportPhylogenies.glue
+
+
+  #~# Process NCBI nuccore build
+
+  # NCBI nuccore sequences
+  import source /Users/rob/Sources/flu/flu-filter/icv-ncbi-nuccore
+
+  # Extract data from GenBank for NCBI nuccore set
+  module icvFilterGenbankXmlPopulator populate -w "source.name = 'icv-ncbi-nuccore'"
+
+  # Run segment recogniser
+  run script glue/icv/icvRecogniseSegmentsNuccore.js
+
+  # Do segment 4 classification
+  run script glue/icv/icvSeg4ClassifyNuccore.js
+
+  # Add nuccore sequences to alignment tree
+  #run file glue/icv/icvAlignmentTreeNuccore.glue
+        
+  # Validate
+  validate
+
+  exit
+  

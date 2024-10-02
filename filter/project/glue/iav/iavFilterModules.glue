@@ -1,0 +1,14 @@
+  create module -f modules/core/iavFilterGenbankXmlPopulator.xml
+  
+  create module -f modules/filter/iav/iavSegmentRecogniser.xml
+  create module -f modules/filter/iav/iavSubtypeRecogniserSegment1.xml
+  create module -f modules/filter/iav/iavSubtypeRecogniserSegment2.xml
+  create module -f modules/filter/iav/iavSubtypeRecogniserSegment3.xml
+  create module -f modules/filter/iav/iavSubtypeRecogniserSegment4.xml
+  create module -f modules/filter/iav/iavSubtypeRecogniserSegment5.xml
+  create module -f modules/filter/iav/iavSubtypeRecogniserSegment6.xml
+  create module -f modules/filter/iav/iavSubtypeRecogniserSegment7.xml
+  create module -f modules/filter/iav/iavSubtypeRecogniserSegment8.xml
+
+  create module -f modules/core/tabularUtilityCsv.xml
+  create module -f modules/core/tabularUtilityTab.xml

@@ -1,0 +1,6 @@
+
+# Download NCBI sequences 
+
+create module -f modules/iavNcbiImporterReferences.xml
+
+module iavNcbiImporterReferences import

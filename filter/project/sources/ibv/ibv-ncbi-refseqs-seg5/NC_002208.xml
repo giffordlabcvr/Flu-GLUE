@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>NC_002208</GBSeq_locus>
+    <GBSeq_length>1841</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Influenza B virus (B/Lee/1940) segment 5, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>NC_002208</GBSeq_primary-accession>
+    <GBSeq_accession-version>NC_002208.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>ref|NC_002208.1|</GBSeqid>
+      <GBSeqid>gnl|NCBI_GENOMES|15299</GBSeqid>
+      <GBSeqid>gi|8486154</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Influenza B virus (B/Lee/1940)</GBSeq_source>
+    <GBSeq_organism>Influenza B virus (B/Lee/1940)</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Betainfluenzavirus; Betainfluenzavirus influenzae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1841</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Briedis,D.J.</GBAuthor>
+          <GBAuthor>Tobin,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Influenza B virus genome: complete nucleotide sequence of the influenza B/lee/40 virus genome RNA segment 5 encoding the nucleoprotein and comparison with the B/Singapore/222/79 nucleoprotein</GBReference_title>
+        <GBReference_journal>Virology 133 (2), 448-455 (1984)</GBReference_journal>
+        <GBReference_pubmed>6324462</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1841</GBReference_position>
+        <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-JUN-2000) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence is identical to K01395.; Sequence below, when reported in [1], was flanked on 5' end by non-viral (vector) sequence 'aagcggctggtc'.~ Mia 18-MAY-1987 review.; COMPLETENESS: full length.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1841</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1841</GBInterval_to>
+            <GBInterval_accession>NC_002208.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza B virus (B/Lee/1940)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>B/Lee/1940</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:518987</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>5</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>58..1740</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>58</GBInterval_from>
+            <GBInterval_to>1740</GBInterval_to>
+            <GBInterval_accession>NC_002208.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>FLUBVsRNA-5gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:26824002</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>58..1740</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>58</GBInterval_from>
+            <GBInterval_to>1740</GBInterval_to>
+            <GBInterval_accession>NC_002208.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>FLUBVsRNA-5gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_056661.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:26824002</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSNMDIDSINTGTIDKTPEELTPGTSGATRPIIKPATLAPPSNKRTRNPSPERTTTSSETDIGRKIQKKQTPTEIKKSVYKMVVKLGEFYNQMMVKAGLNDDMERNLIQNAQAVERILLAATDDKKTEYQKKRNARDVKEGKEEIDHNKTGGTFYKMVRDDKTIYFSPIKITFLKEEVKTMYKTTMGSDGFSGLNHIMIGHSQMNDVCFQRSKGLKRVGLDPSLISTFAGSTLPRRSGTTGVAIKGGGTLVDEAIRFIGRAMADRGLLRDIKAKTAYEKILLNLKNKCSAPQQKALVDQVIGSRNPGIADIEDLTLLARSMVVVRPSVASKVVLPISIYAKIPQLGFNTEEYSMVGYEAMALYNMATPVSILRMGDDAKDKSQLFFMSCFGAAYEDLRVLSALTGTEFKPRSALKCKGFHVPAKEQVEGMGAALMSIKLQFWAPMTRSGGNEVSGEGGSGQISCSPVFAVERPIALSKQAVRRMLSMNVEGRDADVKGNLLKMMNDSMAKKTSGNAFIGKKMFQISDKNKVNPIEIPIKQTIPNFFFGRDTAEDYDDLDY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggcagaagcacagcattttcttgtgagcttcgagcactaataaaactgaaaatcaaaatgtccaacatggatattgacagtataaataccggaacaatcgataaaacaccagaagaactgactcccggaaccagtggggcaaccagaccaatcatcaagccagcaacccttgctccgccaagcaacaaacgaacccgaaatccatctccagaaaggacaaccacaagcagtgaaaccgatatcggaaggaaaatccaaaagaaacaaaccccaacagagataaagaagagcgtctacaaaatggtggtaaaactgggtgaattctacaaccagatgatggtcaaagctggacttaatgatgacatggaaaggaatctaattcaaaatgcacaagctgtggagagaatcctattggctgcaactgatgacaagaaaactgaataccaaaagaaaaggaatgccagagatgtcaaagaagggaaggaagaaatagaccacaacaagacaggaggcaccttttataagatggtaagagatgataaaaccatctacttcagccctataaaaattacctttttaaaagaagaggtgaaaacaatgtacaagaccaccatggggagtgatggtttcagtggactaaatcacattatgattggacattcacagatgaacgatgtctgtttccaaagatcaaagggactgaaaagggttggacttgacccttcattaatcagtacttttgccggaagcacactacccagaagatcaggtacaactggtgttgcaatcaaaggaggtggaactttagtggatgaagccatccgatttataggaagagcaatggcagacagagggctactgagagacatcaaggccaagacggcctatgaaaagattcttctgaatctgaaaaacaagtgctctgcgccgcaacaaaaggctctagttgatcaagtgatcggaagtaggaacccagggattgcagacatagaagacctaactctgcttgccagaagcatggtagttgtcagaccctctgtagcgagcaaagtggtgcttcccataagcatttatgctaaaatacctcaactaggattcaataccgaagaatactctatggttgggtatgaagccatggctctttataatatggcaacacctgtttccatattaagaatgggagatgacgcaaaagataaatctcaactattcttcatgtcgtgcttcggagctgcctatgaagatctaagagtgttatctgcactaacgggcaccgaatttaagcctagatcagcactaaaatgcaagggtttccatgtcccggctaaggagcaagtagaaggaatgggggcagctctgatgtccatcaagcttcagttctgggccccaatgaccagatctggagggaatgaagtaagtggagaaggagggtctggtcaaataagttgcagccctgtgtttgcagtagaaagacctattgctctaagcaagcaagctgtaagaagaatgctgtcaatgaacgttgaaggacgtgatgcagatgtcaaaggaaatctactcaaaatgatgaatgattcaatggcaaagaaaaccagtggaaatgctttcattgggaagaaaatgtttcaaatatcagacaaaaacaaagtcaatcccattgagattccaattaagcagaccatccccaatttcttctttgggagggacacagcagaggattatgatgacctcgattattaaagcaataaaatagacactatggctgtgactgtttcagtacgtttgggatgtgggtgtttactcttattgaaataaatgtaaaaaatgctgttgtttctact</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA485481</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

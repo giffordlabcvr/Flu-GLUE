@@ -1,0 +1,9 @@
+
+  # Genotypes only import (used in set-up only)
+  create module -f modules/icv/icvSideDataImporterGenotypes.xml
+  module icvSideDataImporterGenotypes populate -f tabular/archive/icv-seg4-genotypes.tsv
+  
+  # Import cleaned, validated reference sequence
+  #module icvTextFilePopulatorRefSet populate -f tabular/icv.refseqs.data.tsv
+
+  

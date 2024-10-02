@@ -1,0 +1,8 @@
+
+  
+  # Derive constrained alignments from unconstrained alignments
+
+  alignment AL_IBV_SEG4
+	derive segments AL_UNC_TREE_IBV --recursive --existingMembersOnly --allMembers --mergeStrategy OVERWRITE
+	exit
+

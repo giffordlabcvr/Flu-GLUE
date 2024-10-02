@@ -1,0 +1,3 @@
+console set cmd-output-file-format tab
+console set next-cmd-output-file ibv-genbank-processed.tsv
+list sequence sequenceID full_name isolate gb_segment rec_segment rec_subtype gb_subtype gb_year gb_month gb_day gb_source gb_lab_host pubmed_id length gb_host gb_country gb_place_sampled m49_country.m49_region m49_country.m49_intermediate_region m49_country.m49_sub_region -w "source.name like 'ibv-ncbi-nuccore%'" 

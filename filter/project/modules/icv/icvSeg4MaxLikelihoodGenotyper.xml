@@ -1,0 +1,15 @@
+<maxLikelihoodGenotyper>
+	<maxLikelihoodPlacerModuleName>icvSeg4MaxLikelihoodPlacer</maxLikelihoodPlacerModuleName>
+	<useSingleReference>true</useSingleReference>
+
+	<cladeCategory>
+		<name>subtype</name>	
+		<displayName>Subtype</displayName>	
+		<whereClause>parent.name = 'AL_ICV_SEG4'</whereClause>
+		<distanceScalingExponent>-3.0</distanceScalingExponent>
+	    <distanceCutoff>0.015</distanceCutoff>
+		<finalCladeCutoff>75.0</finalCladeCutoff>		
+	</cladeCategory>
+
+</maxLikelihoodGenotyper>
+

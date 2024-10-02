@@ -1,0 +1,59 @@
+<blastSequenceRecogniser>
+	<blastRunner/>
+	
+	<referenceSequence>REF_S4_IBV_M10298</referenceSequence>
+	<referenceSequence>REF_S4_IBV_CY033876</referenceSequence>
+	<referenceSequence>REF_S4_IBV_NC_002207</referenceSequence>
+	<referenceSequence>REF_S4_IBV_CY115151</referenceSequence>
+	
+	<recognitionCategory>
+		<id>HongKong</id>
+		<minimumIdentityPct>80</minimumIdentityPct>
+	  	<minimumBitScore>500</minimumBitScore>
+	  	<minimumTotalAlignLength>300</minimumTotalAlignLength>
+	  	<referenceSequence>REF_S4_IBV_M10298</referenceSequence>
+	</recognitionCategory>
+	
+	<recognitionCategory>
+		<id>Yamagata</id>
+		<minimumIdentityPct>80</minimumIdentityPct>
+	  	<minimumBitScore>500</minimumBitScore>
+	  	<minimumTotalAlignLength>300</minimumTotalAlignLength>
+	  	<referenceSequence>REF_S4_IBV_CY033876</referenceSequence>
+	</recognitionCategory>
+	
+	<recognitionCategory>
+		<id>Lee</id>
+		<minimumIdentityPct>80</minimumIdentityPct>
+	  	<minimumBitScore>500</minimumBitScore>
+	  	<minimumTotalAlignLength>300</minimumTotalAlignLength>
+	  	<referenceSequence>REF_S4_IBV_NC_002207</referenceSequence>
+	</recognitionCategory>
+	
+	<recognitionCategory>
+		<id>Victoria</id>
+		<minimumIdentityPct>80</minimumIdentityPct>
+	  	<minimumBitScore>500</minimumBitScore>
+	  	<minimumTotalAlignLength>300</minimumTotalAlignLength>
+	  	<referenceSequence>REF_S4_IBV_CY115151</referenceSequence>
+	</recognitionCategory>
+
+
+	<!-- if one category result has an HSP with an identity percent more than 1.5 higher than the highest identity percent 
+         score in a second category result, the second category result is discarded -->
+	<maxIdentityPctCategoryResultResolver>
+		<minDifference>1.5</minDifference>
+	</maxIdentityPctCategoryResultResolver>
+	<!-- if one category result has an HSP with a bit score more than 15 higher than the highest bit score in a second category result, 
+		 the second category result is discarded -->
+	<maxBitScoreCategoryResultResolver>
+		<minDifference>15</minDifference>
+	</maxBitScoreCategoryResultResolver>
+	<!-- if one category result has an HSP with a total alignment length more 50 higher than the total alignment length in a second category result, 
+		 the second category result is discarded -->
+	<totalAlignLengthCategoryResultResolver>
+		<minDifference>50</minDifference>
+	</totalAlignLengthCategoryResultResolver>
+	
+</blastSequenceRecogniser>
+

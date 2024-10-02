@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>CY110753</GBSeq_locus>
+    <GBSeq_length>1027</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>02-OCT-2012</GBSeq_update-date>
+    <GBSeq_create-date>02-OCT-2012</GBSeq_create-date>
+    <GBSeq_definition>Influenza B virus (B/Wuhan/4/2009) matrix protein 1 (M1) and BM2 protein (BM2) genes, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>CY110753</GBSeq_primary-accession>
+    <GBSeq_accession-version>CY110753.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gnl|WIV|WIV-04.7</GBSeqid>
+      <GBSeqid>gb|CY110753.1|</GBSeqid>
+      <GBSeqid>gi|407767731</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza B virus (B/Wuhan/4/2009)</GBSeq_source>
+    <GBSeq_organism>Influenza B virus (B/Wuhan/4/2009)</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Betainfluenzavirus; Betainfluenzavirus influenzae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1027</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zhu,N.</GBAuthor>
+          <GBAuthor>Li,P.</GBAuthor>
+          <GBAuthor>Yu,J.</GBAuthor>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>Zhao,J.</GBAuthor>
+          <GBAuthor>Xia,H.</GBAuthor>
+          <GBAuthor>Tang,S.</GBAuthor>
+          <GBAuthor>Zhang,Z.</GBAuthor>
+          <GBAuthor>Kou,Z.</GBAuthor>
+          <GBAuthor>Yin,S.</GBAuthor>
+          <GBAuthor>Fan,Z.</GBAuthor>
+          <GBAuthor>Li,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular characterization of influenza B viruses isolated in east-central China in 2009-2010</GBReference_title>
+        <GBReference_journal>Virus Genes (2012) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s11262-012-0826-6</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>23011776</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1027</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zhu,N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-FEB-2012) Virus Resource and Information, Wuhan Institute Of Virology,Chinese Academy Of Sciences, Xiao Hong Shan No.44, Wuhan, Hubei 430071, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1027</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1027</GBInterval_to>
+            <GBInterval_accession>CY110753.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza B virus (B/Wuhan/4/2009)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>B/Wuhan/4/2009</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1148454</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>7</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>China: Hubei</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>31-May-2009</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..713</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>713</GBInterval_to>
+            <GBInterval_accession>CY110753.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>M1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..713</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>713</GBInterval_to>
+            <GBInterval_accession>CY110753.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>M1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>matrix protein 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AFU34599.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>SLTEDGEGKAELAEKLHCWFGGKEFDLDSALEWIKNKRCLTDIQKALIGASICFLKPKDQERKRRFITEPLSGMGTTATKKKGLILAERKMRRCVSFHEAFEIAEGHESSALLYCLMVMYLNPGNYSMQVKLGTLCALCEKQASHSHRAHSRAARSSVPGVRREMQMVSAMNTAKTMNGMGKGEGVQKLAEELQSNIGVLRSLGASQKNGEGIAKDVMEVLKQSSMGNSALVKKYL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>713..&gt;1027</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>713</GBInterval_from>
+            <GBInterval_to>1027</GBInterval_to>
+            <GBInterval_accession>CY110753.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>BM2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>713..&gt;1027</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>713</GBInterval_from>
+            <GBInterval_to>1027</GBInterval_to>
+            <GBInterval_accession>CY110753.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>BM2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>BM2 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AFU34600.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MLEPFQILSICSFILSALHFMAWTIGHLNQIKRGINTKIRIKGPNKETINREVSILRHSYQKEIQAKETMKEVLSDNMEVLNDHIIIEGLSAEEIIKMGETVLEI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tttcattgacagaagatggagaaggcaaagcagaactagcagaaaaattacactgttggtttggtgggaaagaatttgacctagactctgccttggaatggataaaaaacaaaagatgcttaactgatatacaaaaggcactaattggtgcctctatatgctttttaaaacccaaagaccaggaaagaaaaagaagattcatcacagagcccttatcaggaatgggaacaacagcaacaaaaaagaaaggcctgattctggctgagagaaaaatgagaagatgtgtgagctttcatgaagcatttgaaatagcagaaggccatgaaagctcagcgctactatactgtctcatggtcatgtacctgaatcctggaaattattcaatgcaagtaaaactaggaacgctctgtgctttatgcgagaaacaagcatcacattcacacagggctcatagcagagcagcgagatcttcagtgcctggagtgagacgagaaatgcagatggtctcagctatgaacacagcaaaaacaatgaatggaatgggaaaaggagaaggcgtccaaaagctggcagaagagctgcaaagcaacattggagtgctgagatctcttggggcaagtcaaaagaatggggaagggattgcaaaggatgtaatggaagtgctaaagcagagctccatgggaaattcagctcttgtgaagaaatatctataatgctcgaaccatttcagattctttcaatttgttcttttatcttatcagctctccatttcatggcttggacaatagggcatttgaatcaaataaaaagaggaataaacacgaaaatacgaataaaaggtccaaacaaagagacaataaacagagaggtatcaattttgagacacagttaccaaaaagaaatccaggccaaagaaacaatgaaggaagtactctctgacaacatggaggtattgaatgaccacataataattgaggggctttctgccgaagagataataaaaatgggtgaaacagttttggagata</GBSeq_sequence>
+  </GBSeq>

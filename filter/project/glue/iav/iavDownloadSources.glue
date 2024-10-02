@@ -1,0 +1,15 @@
+
+# Download NCBI sequences 
+
+create module -f modules/filter/iav/iavNcbiImporter1970_1990.xml
+create module -f modules/filter/iav/iavNcbiImporter1990_2005.xml
+create module -f modules/filter/iav/iavNcbiImporter2005_2010.xml
+create module -f modules/filter/iav/iavNcbiImporter2010_2015.xml
+create module -f modules/filter/iav/iavNcbiImporter2015_2020.xml
+
+module iavNcbiImporter1970_1990 import
+module iavNcbiImporter1990_2005 import
+#module iavNcbiImporter2005_2010 import
+#module iavNcbiImporter2010_2015 import
+#module iavNcbiImporter2015_2020 import
+
