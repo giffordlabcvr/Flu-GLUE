@@ -59,8 +59,9 @@ project icv_filter
   #~# Process NCBI nuccore build
 
   # NCBI nuccore sequences
-  import source /Users/rob/Sources/flu/flu-filter/icv-ncbi-nuccore
-
+  #import source /Users/rob/Sources/flu/flu-filter/icv-ncbi-nuccore
+  import source /Users/robertgifford/Sources/flu/icv-ncbi-nuccore
+  
   # Extract data from GenBank for NCBI nuccore set
   module icvFilterGenbankXmlPopulator populate -w "source.name = 'icv-ncbi-nuccore'"
 
