@@ -7,12 +7,12 @@ delete module iavNcbiImporter2015_2020
 delete module iavNcbiImporter2020_2024
 
 # Create importer modules
-create module -f modules/filter/iav/iavNcbiImporter1970_1990.xml
-create module -f modules/filter/iav/iavNcbiImporter1990_2005.xml
-create module -f modules/filter/iav/iavNcbiImporter2005_2010.xml
-create module -f modules/filter/iav/iavNcbiImporter2010_2015.xml
-create module -f modules/filter/iav/iavNcbiImporter2015_2020.xml
-create module -f modules/filter/iav/iavNcbiImporter2020_2024.xml
+create module -f modules/iav/download/iavNcbiImporter1970_1990.xml
+create module -f modules/iav/download/iavNcbiImporter1990_2005.xml
+create module -f modules/iav/download/iavNcbiImporter2005_2010.xml
+create module -f modules/iav/download/iavNcbiImporter2010_2015.xml
+create module -f modules/iav/download/iavNcbiImporter2015_2020.xml
+create module -f modules/iav/download/iavNcbiImporter2020_2024.xml
 
 # Run import
 module iavNcbiImporter1970_1990 import
