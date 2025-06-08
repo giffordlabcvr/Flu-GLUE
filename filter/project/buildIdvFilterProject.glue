@@ -30,23 +30,23 @@ project idv_filter
  
   # Import cleaned tabular data 
   run file glue/idv/idvImportDataRefseqs.glue
-
-  # Compute the unconstrained reference MSAs
-  run file glue/idv/idvComputeUnconstrainedMsas.glue
   
-  # Define references
+  # Define reference sequences
   run file glue/idv/idvFilterReferences.glue
 
-  # Define feature locations
+  # Define feature locations on reference sequences
   run file glue/idv/idvFeatureLocations.glue
 
-  # Define alignment tree
+  # Compute the unconstrained reference MSAs using MAFFT
+  run file glue/idv/idvComputeUnconstrainedMsas.glue
+
+  # Define constrained alignment tree
   run file glue/idv/idvAlignmentTree.glue
 
-  # Compute MSAs
+  # Compute constrained MSAs
   run file glue/idv/idvComputeAlignments.glue
 
-  # Compute phylogenies
+  # Compute reference phylogenies (one per segment)
   run file glue/idv/idvBuildPhylogenies.glue
 
   # Import phylogenies
@@ -65,13 +65,8 @@ project idv_filter
   # Run segment recogniser
   run script glue/idv/idvRecogniseSegmentsNuccore.js
 
-  # Do segment 4 classification
+  # Do segment 4 classification via MLCA
   run script glue/idv/idvSeg4ClassifyNuccore.js
-
-  # Add nuccore sequences to alignment tree
-  #run file glue/idv/idvAlignmentTreeNuccore.glue
- 
-  # Compute alignments (not needed for filter)
         
   # Validate
   validate
