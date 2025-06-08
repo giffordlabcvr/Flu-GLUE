@@ -1,112 +1,105 @@
 schema-project flu
 
-  #~# Custom tables
+	#~# Extensions to sequence table
 
-  create custom-table isolate --idFieldLength 200
-  create custom-table host
-  create custom-table flu_replacement
-  create custom-table flu_replacement_sequence --idFieldLength 200
+	table sequence
 
-  #~# Extensions to sequence table
+		# GenBank entry information
+		create field full_name VARCHAR 200
+		create field gb_primary_accession VARCHAR           # 'gb' = GenBank
+		create field gb_accession_version VARCHAR
+		create field gb_create_date DATE
+		create field gb_update_date DATE
+		create field length INTEGER
+		create field pubmed_id VARCHAR 50
 
-  table sequence
-    
-    # GenBank entry information
-    create field full_name VARCHAR 200
-    create field gb_primary_accession VARCHAR
-    create field gb_accession_version VARCHAR
-    create field gb_create_date DATE
-    create field gb_update_date DATE
-    create field length INTEGER
-    create field pubmed_id VARCHAR 50
+		# Taxonomic & segment-related information
+		create field species VARCHAR 100                     # IAV, IBV, ICV, or IDV
+		create field gb_segment INTEGER                      # Segment as stated in GenBank
+		create field rec_segment VARCHAR                     # Segment assigned by recogniser (may differ from gb_segment)
+		create field rec_subtype VARCHAR 50                  # Specific to each segment (unlike HN classifications which apply to isolates)
+		create field mlca_subtype VARCHAR 50                 # e.g. H1 for segment 4
 
-    # Taxonomic & segment-related information
-    create field species VARCHAR 100  
-    create field gb_segment INTEGER
-    create field rec_segment VARCHAR
-    create field rec_subtype VARCHAR 50 # Specific to each segment (unlike HN classifications which apply to isolates)
+	exit
+	
 
-    # true if variations are present in the sequence
-    create field variation_present BOOLEAN
+	#~# Extensions to alignment table
 
-  exit
+	table alignment
 
+		create field clade_category VARCHAR 20
+		create field phylogeny CLOB
 
-  #~# Create schema extension for virus isolates
-
-  table isolate
-  
-    create field isolate_id VARCHAR 150
-    create field iso_host VARCHAR 100
-    create field iso_source VARCHAR 200
-    create field iso_country VARCHAR 100
-    create field iso_region VARCHAR 200
-    create field iso_year INTEGER 
-    create field iso_month VARCHAR
-    create field iso_day INTEGER
-    create field lab_host VARCHAR 100
-    create field cg_subtype VARCHAR 50
-    create field gb_subtype VARCHAR 50
-    create field complete_genome BOOLEAN   # true if isolate has at least one "complete segment" sequence for each of the 8 segments
-    
-    exit
+	exit 
 
 
-  #~# Create schema extension for amino acid replacements
+	#~# Extension to 'feature location note' table
 
-  table flu_replacement
-    create field display_name VARCHAR
-    create field codon_label VARCHAR
-    create field codon_label_int INTEGER
-    create field reference_aa VARCHAR
-    create field reference_nt INTEGER
-    create field replacement_aa VARCHAR
-    create field num_seqs INTEGER
-    create field radical_hanada_category_i BOOLEAN
-    create field radical_hanada_category_ii BOOLEAN
-    create field radical_hanada_category_iii BOOLEAN
-    create field grantham_distance_double DOUBLE
-    create field grantham_distance_int INTEGER
-    create field miyata_distance DOUBLE
-    create field parent_feature VARCHAR
-    create field parent_codon_label VARCHAR
-    exit
+	table member_floc_note
+
+		create field ref_nt_coverage_pct DOUBLE
+
+	exit
 
 
-  #~# Create schema extension for host taxonomic data
+	#~# Custom tables
 
-  table host
-    
-    create field taxon_name VARCHAR 100
-    create field taxonomic_level VARCHAR 100
-    create field common_name VARCHAR 100
-    
-    exit
+	create custom-table isolate --idFieldLength 200
+	
+	table isolate
 
-  #~# Extensions to alignment table
+		create custom-table isolate
 
-  table alignment
-    
-    create field clade_category VARCHAR 20
-    create field phylogeny CLOB
-    
-    exit 
+		# Primary ID for the isolate 
+		create field isolate_id VARCHAR 200                  # Derived from naming convention (e.g. A/Pennsylvania/34/2016 or A/swine/Belgium/Gent-150/2016)
 
-  #~# Extension to 'feature location note' table
+		# GenBank and inferred subtypes
+		create field gb_subtype VARCHAR 20                   # Subtype as stated in GenBank
+		create field rec_subtype VARCHAR 20                  # Recogniser-based
+		create field mlca_subtype VARCHAR 50                 # e.g. H1N1 from segments 4 + 6 using MLCA
+		create field cg_subtype VARCHAR 50                   # Concatenated recogniser-based subtypes from all segments
 
-  table member_floc_note
-  	
-  	create field ref_nt_coverage_pct DOUBLE
-  	
-  	exit
+		# Year, month, and day of sample collection (if available)
+		create field iso_year INTEGER
+		create field iso_month INTEGER
+		create field iso_day INTEGER
 
-  #~# Create links between tables
+		# Geographic metadata
+		create field iso_country VARCHAR 100
+		create field iso_place_name VARCHAR 200
 
-  create link variation flu_replacement -m ONE_TO_ONE
-  create link flu_replacement flu_replacement_sequence -m ONE_TO_MANY
-  create link sequence flu_replacement_sequence -m ONE_TO_MANY
-  create link isolate sequence -m ONE_TO_MANY
-  create link isolate host -m ONE_TO_ONE
+		# Origin type: 'host' (animal or human) or 'environment'
+		create field origin_type VARCHAR 50
+		create field host VARCHAR 200                        # Host species (for origin_type = 'host'), as per GenBank host field
+		create field sample_type VARCHAR 100                 # Sample type: blood, swab, tissue, air, etc. (applies to either origin_type)
+		create field sample_notes TEXT                       # Free-text notes about sample context
 
+		# Accession numbers for segment sequences (null if unavailable)
+		create field segment1_accession VARCHAR 20
+		create field segment2_accession VARCHAR 20
+		create field segment3_accession VARCHAR 20
+		create field segment4_accession VARCHAR 20
+		create field segment5_accession VARCHAR 20
+		create field segment6_accession VARCHAR 20
+		create field segment7_accession VARCHAR 20
+		create field segment8_accession VARCHAR 20
+
+		# Derived metadata
+		create field is_complete BOOLEAN                     # Indicates whether all 8 segments are available
+		create field segment_count INTEGER
+	
+	exit
+
+
+	#~# Create links between tables
+
+	create link isolate sequence -m ONE_TO_MANY
+
+
+	#~# m49 country/region extension
+
+	run file glue/m49_countries/m49SchemaExtension.glue 
+    create link isolate m49_country -m MANY_TO_ONE
 
 exit
+

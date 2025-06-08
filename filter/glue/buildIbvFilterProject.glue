@@ -15,8 +15,8 @@ project ibv_filter
   # Create extension modules  
   run file glue/ibv/ibvFilterModules.glue
 
-  # Set up ISO countries  
-  run file glue/m49_countries/populateM49All.glue
+  # Set up ISO countries (uses build logic and data from Flu-GLUE core)
+  run file ../../glue/build/core/fluPopulateM49All.glue --workingDir ../../
 
   # Define genome features
   run file glue/all/fluFeaturesNonCoding.glue
