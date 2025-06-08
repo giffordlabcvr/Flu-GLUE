@@ -2,6 +2,8 @@
 
   # Basic modules
   create module -t tabularUtility  
+  create module -f modules/build/tabularUtilityCsv.xml
+  create module -f modules/build/tabularUtilityTab.xml
 
   # Segment recogniser modules
   create module -f modules/assignment/iavSegmentRecogniser.xml

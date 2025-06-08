@@ -45,17 +45,33 @@ _.each(isolateObjs, function(isolateObj) {
 				glue.command(["add", "link-target", "sequence", "sequence/"+sourceName+"/"+segmentSeqID]);
 
 				var metadataFields = [
-				                      "isolate_id",
-									  "iso_source",
-									  "iso_country",
-									  "iso_region",
-									  "iso_year",
-									  "iso_month",
-									  "iso_day",
-									  "iso_host",
-									  "lab_host",
-									  "cg_subtype",
-									  "gb_subtype"];
+						  "isolate_id",
+						  "sample_type",
+						  "iso_place_name", // still valid
+						  "iso_year",
+						  "iso_month",
+						  "iso_day",
+						  "host",
+						  "lab_host",
+						  "cg_subtype",
+						  "gb_subtype",
+						  "rec_subtype",
+						  "mlca_subtype",
+						  "origin_type"
+				];
+
+				var metadataFields = [
+						  "isolate_id",
+						  "iso_source",
+						  "iso_country",
+						  "iso_region",
+						  "iso_year",
+						  "iso_month",
+						  "iso_day",
+						  "iso_host",
+						  "lab_host",
+						  "cg_subtype",
+						  "gb_subtype"];
 
 				_.each(metadataFields, function(metadataField) {
 

@@ -12,6 +12,9 @@ project flu
   # create modules
   run file glue/build/core/fluModules.glue
 
+  # Set up M49 standard for country & region data
+  run file glue/build/core/m49_countries/populateM49All.glue
+
   # Define genome features
   run file glue/build/core/reference/fluFeaturesNonCoding.glue
   run file glue/build/core/reference/fluFeaturesCoding.glue
@@ -20,7 +23,7 @@ project flu
   run file glue/build/core/fluImportSources.glue
 
   # Import sequence-associated data
-  run file glue/build/core/metadata/fluLoadSequenceData.glue
+  run file glue/build/core/metadata/fluLoadSequenceMetadata.glue
 
   # Import isolate data and link to imported sequences
   run script glue/build/core/metadata/fluLoadIsolateDataNcbiRefseqs.js
@@ -45,10 +48,10 @@ project flu
   run file glue/build/core/msa/fluComputeAlignmentsIav.glue
 
   # Import phylogenies
-  #run file glue/build/core/iavImportPhylogenies.glue
-  #run file glue/build/core/ibvImportPhylogenies.glue
-  run file glue/build/core/icvImportPhylogenies.glue
-  run file glue/build/core/idvImportPhylogenies.glue
+  run file glue/build/core/phylogeny/iavImportPhylogenies.glue
+  run file glue/build/core/phylogeny/ibvImportPhylogenies.glue
+  run file glue/build/core/phylogeny/icvImportPhylogenies.glue
+  run file glue/build/core/phylogeny/idvImportPhylogenies.glue
 
   # Validate
   validate

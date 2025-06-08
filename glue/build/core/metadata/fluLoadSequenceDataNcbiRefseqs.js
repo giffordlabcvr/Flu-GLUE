@@ -31,7 +31,6 @@ _.each(species, function(virus) {
 			
 					if (virus == 'iav') {
 						glue.command(["set", "field", "species", 'IAV']);				
-
 					}
 					if (virus == 'ibv') {			
 						glue.command(["set", "field", "species", 'IBV']);	

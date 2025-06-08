@@ -48,8 +48,6 @@ schema-project flu
 	
 	table isolate
 
-		create custom-table isolate
-
 		# Primary ID for the isolate 
 		create field isolate_id VARCHAR 200                  # Derived from naming convention (e.g. A/Pennsylvania/34/2016 or A/swine/Belgium/Gent-150/2016)
 
@@ -61,7 +59,7 @@ schema-project flu
 
 		# Year, month, and day of sample collection (if available)
 		create field iso_year INTEGER
-		create field iso_month INTEGER
+		create field iso_month VARCHAR 10
 		create field iso_day INTEGER
 
 		# Geographic metadata
@@ -72,7 +70,6 @@ schema-project flu
 		create field origin_type VARCHAR 50
 		create field host VARCHAR 200                        # Host species (for origin_type = 'host'), as per GenBank host field
 		create field sample_type VARCHAR 100                 # Sample type: blood, swab, tissue, air, etc. (applies to either origin_type)
-		create field sample_notes TEXT                       # Free-text notes about sample context
 
 		# Accession numbers for segment sequences (null if unavailable)
 		create field segment1_accession VARCHAR 20
@@ -98,7 +95,7 @@ schema-project flu
 
 	#~# m49 country/region extension
 
-	run file glue/m49_countries/m49SchemaExtension.glue 
+	run file glue/build/core/m49_countries/m49SchemaExtension.glue 
     create link isolate m49_country -m MANY_TO_ONE
 
 exit
