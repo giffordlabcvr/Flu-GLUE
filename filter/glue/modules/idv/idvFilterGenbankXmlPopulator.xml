@@ -60,7 +60,7 @@
 			<propertyPopulator property="gb_lab_host"/>
 		</gbQualifier>
 				
-		<gbQualifier name="country">
+		<gbQualifier name="geo_loc_name">
 			<propertyPopulator property="gb_country">
 				<matchPattern>([^:]+)</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
