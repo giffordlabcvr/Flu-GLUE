@@ -7,48 +7,51 @@ run file glue/build/core/fluSchemaExtensions.glue
 project flu
 
   # load project settings
-  run file glue/build/core/projectSettings.glue
+  run file glue/build/core/fluProjectSettings.glue
 
   # create modules
   run file glue/build/core/fluModules.glue
 
+  # Set up M49 standard for country & region data
+  run file glue/build/core/m49_countries/populateM49All.glue
+
   # Define genome features
-  run file glue/build/core/fluFeaturesNonCoding.glue
-  run file glue/build/core/fluFeaturesCoding.glue
+  run file glue/build/core/reference/fluFeaturesNonCoding.glue
+  run file glue/build/core/reference/fluFeaturesCoding.glue
  
   # Import sequences 
   run file glue/build/core/fluImportSources.glue
 
   # Import sequence-associated data
-  run file glue/build/core/fluLoadSequenceData.glue
+  run file glue/build/core/metadata/fluLoadSequenceMetadata.glue
 
   # Import isolate data and link to imported sequences
-  run script glue/build/core/fluLoadIsolateDataNcbiRefseqs.js
+  run script glue/build/core/metadata/fluLoadIsolateDataNcbiRefseqs.js
 
   # Define reference sequences
-  run file glue/build/core/fluReferences.glue
+  run file glue/build/core/reference/fluReferences.glue
 
   # Define feature locations on master reference sequences
-  run file glue/build/core/fluFeatureLocations.glue
+  run file glue/build/core/reference/fluFeatureLocations.glue
 
   # Import alignments
-  run file glue/build/core/fluLoadUnconstrainedAlignmentsSpecies.glue
+  run file glue/build/core/msa/fluLoadUnconstrainedAlignmentsSpecies.glue
 
   # Define constrained alignment tree
-  run file glue/build/core/fluAlignmentTree.glue
+  run file glue/build/core/msa/fluAlignmentTree.glue
 
   # Derive constrained alignments from unconstrained alignments
-  run file glue/build/core/fluDeriveConstrainedMsasSpecies.glue
+  run file glue/build/core/msa/fluDeriveConstrainedMsasSpecies.glue
 
   # Compute MSAs
-  run file glue/build/core/fluComputeAlignmentsIbv.glue
-  run file glue/build/core/fluComputeAlignmentsIav.glue
+  run file glue/build/core/msa/fluComputeAlignmentsIbv.glue
+  run file glue/build/core/msa/fluComputeAlignmentsIav.glue
 
   # Import phylogenies
-  #run file glue/build/core/iavImportPhylogenies.glue
-  #run file glue/build/core/ibvImportPhylogenies.glue
-  run file glue/build/core/icvImportPhylogenies.glue
-  run file glue/build/core/idvImportPhylogenies.glue
+  run file glue/build/core/phylogeny/iavImportPhylogenies.glue
+  run file glue/build/core/phylogeny/ibvImportPhylogenies.glue
+  run file glue/build/core/phylogeny/icvImportPhylogenies.glue
+  run file glue/build/core/phylogeny/idvImportPhylogenies.glue
 
   # Validate
   validate
