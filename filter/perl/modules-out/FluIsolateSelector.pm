@@ -18,93 +18,6 @@ our @EXPORT_OK = qw(select_isolate_subsets stratify_isolates select_isolates);
 
 # ------------------ Subroutine Definitions ------------------
 
-sub get_region_setting {
-
-	my ($country_region_data_ref) = @_;
-
-	# Offer options for top-level stratification 
-    my $list_question = "
-
-	 Please select granularity for categorisation of regions:";
-
-  	my %options;
-  	$options{1} = 'country';
-  	$options{2} = 'sub-region';
-  	$options{3} = 'region';
-  	print "
-	 # Option 1: Country";
-	print "
-	 # Option 2: Sub-region";
-	print "
-	 # Option 3: Region";
-    my $choice = $console->ask_list_question($list_question, 3);  
-    my $setting = $options{$choice};
-    
-    return $setting;  
- 		
-}
-
-sub get_country_region_data {
-
-	my ($data_ref) = @_;
-
-    # Read in the file with ISO region data
-    my @data_file;
-    unless ($fileio->read_file($country_region_data_path, \@data_file)) {
-        die "
-	 # Error reading file '$country_region_data_path'
-
-";
-    }
-	
-    # Set up column headers
-    my $header_row = shift @data_file;
-    chomp $header_row;
-    my @header_columns = split("	", $header_row);
-
-	# Index the data by country
-	foreach my $line (@data_file) {
-	
-        #chomp $line;
-        my %result;
-        
-        @result{@header_columns} = split("	", $line);
-		#$devtools->print_hash(\%result); die;
-        my $country  = $result{'name'};
-        my $region  = $result{'region'};
-        my $subregion  = $result{'sub-region'};
-
-		if ($data_ref->{$country}) {
-
-			$data_ref->{'country'} = $country;
-			if ($region) { 
-				$data_ref->{'region'} = $region;
-			}
-			if ($subregion) {
-				$data_ref->{'sub-region'} = $subregion;
-			}
-		
-		}
-		else {
-			my %country_data;
-			$country_data{'country'} = $country;
-			if ($region) {
-				$country_data{'region'} = $region; 
-			}
-			else {
-				die;
-			}
-			if ($subregion) { 
-				$country_data{'sub-region'} = $subregion; 
-			}
-			$data_ref->{$country} = \%country_data;
-						
-		}
-	
-	}
-
-}
-
 sub show_stratification_summary {
 
 	my ($stratified_ref, $select_ref) = @_;
@@ -357,6 +270,93 @@ sub select_isolates {
 
 	} until ($done);
 	
+
+}
+
+sub get_region_setting {
+
+	my ($country_region_data_ref) = @_;
+
+	# Offer options for top-level stratification 
+    my $list_question = "
+
+	 Please select granularity for categorisation of regions:";
+
+  	my %options;
+  	$options{1} = 'country';
+  	$options{2} = 'sub-region';
+  	$options{3} = 'region';
+  	print "
+	 # Option 1: Country";
+	print "
+	 # Option 2: Sub-region";
+	print "
+	 # Option 3: Region";
+    my $choice = $console->ask_list_question($list_question, 3);  
+    my $setting = $options{$choice};
+    
+    return $setting;  
+ 		
+}
+
+sub get_country_region_data {
+
+	my ($data_ref) = @_;
+
+    # Read in the file with ISO region data
+    my @data_file;
+    unless ($fileio->read_file($country_region_data_path, \@data_file)) {
+        die "
+	 # Error reading file '$country_region_data_path'
+
+";
+    }
+	
+    # Set up column headers
+    my $header_row = shift @data_file;
+    chomp $header_row;
+    my @header_columns = split("	", $header_row);
+
+	# Index the data by country
+	foreach my $line (@data_file) {
+	
+        #chomp $line;
+        my %result;
+        
+        @result{@header_columns} = split("	", $line);
+		#$devtools->print_hash(\%result); die;
+        my $country  = $result{'name'};
+        my $region  = $result{'region'};
+        my $subregion  = $result{'sub-region'};
+
+		if ($data_ref->{$country}) {
+
+			$data_ref->{'country'} = $country;
+			if ($region) { 
+				$data_ref->{'region'} = $region;
+			}
+			if ($subregion) {
+				$data_ref->{'sub-region'} = $subregion;
+			}
+		
+		}
+		else {
+			my %country_data;
+			$country_data{'country'} = $country;
+			if ($region) {
+				$country_data{'region'} = $region; 
+			}
+			else {
+				die;
+			}
+			if ($subregion) { 
+				$country_data{'sub-region'} = $subregion; 
+			}
+			$data_ref->{$country} = \%country_data;
+						
+		}
+	
+	}
 
 }
 
