@@ -29,7 +29,6 @@ use BLAST;
 
 # Flu Filter modules
 #use FluBlastBatcher;
-use FluIO;
 use FluIsolateUtils;
 
 ############################################################################
@@ -60,6 +59,7 @@ my $console    = Console->new();
 my $seqio      = SeqIO->new();
 my $blast_obj  = BLAST->new();
 
+my $isolate_utils = FluIsolateUtils->new($fileio, $devtools);
 #my $batcher  = FluBlastBatcher->new($fileio, $blast_obj, $devtools);
 
 ############################################################################
@@ -126,6 +126,16 @@ sub main {
             my %ordered_by_isolate;
 			batch_blast_against_rsl($file1);
 		}
+		elsif (($mode eq 4) and $file1) {
+			remove_sequences_from_source_directory($file1, $file2);
+		}
+		elsif (($mode eq 5) and $file1) {
+			summarise_influenza_sequence_set($file1);
+		}
+		elsif (($mode eq 6) and $file1) {
+			convert_iav_strain_names_to_data_fields($file1);
+		}
+
 	}
 	else {
 		die $USAGE;
@@ -151,30 +161,28 @@ sub create_isolate_database {
     my ($datafile, $species, $console) = @_;
 
     # Step 1: Adjust the expected segment list based on species (e.g. IAV = 8 segments)
-    my $num_segments = get_num_segments($species);
-    my $isolate_utils = FluIsolateUtils->new($fileio, $num_segments, $devtools);
-    my $fluio  = FluIO->new($fileio,  $num_segments, $module_path, $glue_dl_code_directory, $devtools);
+    my $segment_number = get_segment_number($species);
 
     # Step 2: Organize sequences into isolate groups based on ID
     my (%ordered_by_isolate, %null_isolate_entries);
-    $isolate_utils->order_by_isolate($datafile, \%ordered_by_isolate, \%null_isolate_entries);
+    order_by_isolate($datafile, \%ordered_by_isolate, \%null_isolate_entries);
 
     # Step 3: Check for metadata consistency within each isolate group
     my (%consistent, %inconsistent);
-    $isolate_utils->check_consistency(\%ordered_by_isolate, \%consistent, \%inconsistent);
+    check_consistency(\%ordered_by_isolate, \%consistent, \%inconsistent);
 
     # Step 4: Export inconsistent entries to a diagnostic TSV file
     my $outfile_inconsistent = $species . "_inconsistent_isolate_entries.tsv";
-    $fluio->export_gb_entries_from_isolate_hash($outfile_inconsistent, \%inconsistent);
+    export_gb_entries_from_isolate_hash($outfile_inconsistent, \%inconsistent);
 
     # Step 5: Assess segment completeness for consistent isolate entries
     my (%complete, %incomplete);
-    $isolate_utils->check_completeness(\%consistent, \%complete, \%incomplete, $species);
+    check_completeness(\%consistent, \%complete, \%incomplete, $species);
 
     # Step 6: Compress segment entries so only one sequence per segment per isolate remains
     my (%compressed_complete, %compressed_incomplete);
-    $isolate_utils->compress_isolates(\%complete, \%compressed_complete);
-    $isolate_utils->compress_isolates(\%incomplete, \%compressed_incomplete);
+    compress_isolates(\%complete, \%compressed_complete);
+    compress_isolates(\%incomplete, \%compressed_incomplete);
 
     # Step 7 (Optional): For IAV only, determine the complete genome lineage
     if ($species eq 'iav') {
@@ -185,25 +193,25 @@ sub create_isolate_database {
     # Step 8: Export tabular summary for complete and incomplete isolates
     my $outfile_complete   = $species . "_complete_isolates.tsv";
     my $outfile_incomplete = $species . "_incomplete_isolates.tsv";
-    $fluio->write_isolate_data_table(\%compressed_complete, $outfile_complete, $species);
-    $fluio->write_isolate_data_table(\%compressed_incomplete, $outfile_incomplete, $species);
+    write_isolate_data_table(\%compressed_complete, $outfile_complete, $species);
+    write_isolate_data_table(\%compressed_incomplete, $outfile_incomplete, $species);
 
     # Step 9: Optionally generate GLUE code for downloading complete isolates
     my $num_complete_isolates = scalar keys %compressed_complete;
     if ($num_complete_isolates <= 1000) {
-        #my $ask = "\n\t  Do you want to export GLUE modules and code for downloading these isolates?";
-        #my $answer = $console->ask_yes_no_question($ask);
-        #if ($answer eq 'y') {
-        #    $fluio->create_glue_download_program_logic(\%compressed_complete, $species, "ncbi-curated", "NcbiCurated");
-        #}
+        my $ask = "\n\t  Do you want to export GLUE modules and code for downloading these isolates?";
+        my $answer = $console->ask_yes_no_question($ask);
+        if ($answer eq 'y') {
+            create_glue_download_program_logic(\%compressed_complete, $species, "ncbi-curated", "NcbiCurated");
+        }
     }
 }
 
 #***************************************************************************
-# Subroutine:  get_num_segments
-# Description: adjust number of segments based on the influenzavirus species
+# Subroutine:  get_segment_number
+# Description: adjust segment number based on the influenzavirus species
 #***************************************************************************
-sub get_num_segments {
+sub get_segment_number {
 
 	my ($species) = @_;
 
@@ -211,21 +219,21 @@ sub get_num_segments {
 	unless ($species) { die $USAGE; }
 	$species = lc $species; # Make lowercase
 
-	my $num_segments = undef;
-	
+	my $segment_num = undef;
+	}
 	if ($species eq 'iav' or $species eq 'ibv') {
 
-		$num_segments = 8;
+		$segment_num = 8;
 	}
 	elsif ($species eq 'icv' or $species eq 'idv') {
 
-		$num_segments = 7;
+		$segment_num = 7;
 	}
 	else {	
 	    die "\n\t Invalid value for --species. Must be one of: iav, ibv, icv, idv\n\n\n"
 
 	}
-	return $num_segments;
+	return $segment_num;
 }
 
 ############################################################################
@@ -271,6 +279,12 @@ sub show_help_page {
 	$HELP  .= "\n\t  -m=3  Identify most-similar reference sequences via batch BLAST";
 	$HELP  .= "\n\t         • Compares input sequences against a reference sequence library (RSL)";
 	$HELP  .= "\n\t         • Selects one or more representatives per isolate for tree-building";
+
+	#$HELP  .= "\n\n\t ### Utility Functions\n"; 
+	#$HELP  .= "\n\t  -m=4  Remove selected sequences from a source directory based on isolate IDs";
+	#$HELP  .= "\n\t  -m=5  Summarize sequence sets: sample sizes, segment coverage, metadata completeness";
+	#$HELP  .= "\n\t  -m=6  Parse influenza strain names into structured metadata fields";
+
 
 	print $HELP;
 }
