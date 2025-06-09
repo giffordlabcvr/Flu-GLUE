@@ -18,9 +18,8 @@ our @EXPORT_OK = qw(remove_sequences_from_source_directory);
 # ------------------ Subroutine Definitions ------------------
 
 sub remove_sequences_from_source_directory {
-    my ($datafile1, $datafile2, $fileio, $devtools) = @_;
 
-	my ($datafile1, $datafile2) = @_;
+    my ($datafile1, $datafile2, $fileio, $devtools) = @_;
 
 	# The reference sequence data
 	my @datafile1;

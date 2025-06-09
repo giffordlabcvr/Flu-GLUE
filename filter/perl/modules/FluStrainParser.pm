@@ -18,9 +18,8 @@ our @EXPORT_OK = qw(convert_iav_strain_names_to_data_fields);
 # ------------------ Subroutine Definitions ------------------
 
 sub convert_iav_strain_names_to_data_fields {
+ 
     my ($datafile, $fileio, $devtools) = @_;
-
-	my ($datafile) = @_;
 
 	my @data_file;
 	$fileio->read_file($datafile, \@data_file);

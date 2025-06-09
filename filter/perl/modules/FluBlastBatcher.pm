@@ -18,9 +18,8 @@ our @EXPORT_OK = qw(batch_blast_against_rsl);
 # ------------------ Subroutine Definitions ------------------
 
 sub batch_blast_against_rsl {
-    my ($infile, $seqio, $fileio, $blast_obj, $lib_path, $tmp_path, $output_path) = @_;
 
-	my ($infile) = @_;
+    my ($infile, $seqio, $fileio, $blast_obj, $lib_path, $tmp_path, $output_path) = @_;
 
 	unless ($lib_path and $tmp_path and $output_path) { die; }
 

@@ -18,9 +18,8 @@ our @EXPORT_OK = qw(summarise_influenza_sequence_set);
 # ------------------ Subroutine Definitions ------------------
 
 sub summarise_influenza_sequence_set {
-    my ($datafile, $fileio, $devtools) = @_;
 
-	my ($datafile) = @_;
+    my ($datafile, $fileio, $devtools) = @_;
 
 	my @data_file;
 	$fileio->read_file($datafile, \@data_file);
