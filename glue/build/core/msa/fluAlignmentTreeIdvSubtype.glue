@@ -4,7 +4,7 @@ create alignment AL_IDV_SEG1 -r REF_IDV_S1_MASTER_NC_036616
 alignment AL_IDV_SEG1
 
 	set field displayName "IDV segment 1"
-	add member -w "species = 'IDV' and rec_segment = 1"
+	add member -w "isolate.species = 'IDV' and segment = 1"
 
 	exit
 
@@ -12,7 +12,7 @@ create alignment AL_IDV_SEG2 -r REF_IDV_S2_MASTER_NC_036615
 alignment AL_IDV_SEG2
 
 	set field displayName "IDV segment 2"
-	add member -w "species = 'IDV' and rec_segment = 2"
+	add member -w "isolate.species = 'IDV' and segment = 2"
 
 	exit
 
@@ -20,7 +20,7 @@ create alignment AL_IDV_SEG3 -r REF_IDV_S3_MASTER_NC_036619
 alignment AL_IDV_SEG3
 
 	set field displayName "IDV segment 3"
-	add member -w "species = 'IDV' and rec_segment = 3"
+	add member -w "isolate.species = 'IDV' and segment = 3"
 
 	exit
 
@@ -28,7 +28,7 @@ create alignment AL_IDV_SEG4 -r REF_IDV_S4_MASTER_NC_036618
 alignment AL_IDV_SEG4
 
 	set field displayName "IDV segment 4"
-	add member -w "species = 'IDV' and rec_segment = 4"
+	add member -w "isolate.species = 'IDV' and segment = 4"
 
 	exit
   
@@ -36,7 +36,7 @@ create alignment AL_IDV_SEG5 -r REF_IDV_S5_MASTER_NC_036617
 alignment AL_IDV_SEG5
 
 	set field displayName "IDV segment 5"
-	add member -w "species = 'IDV' and rec_segment = 5"
+	add member -w "isolate.species = 'IDV' and segment = 5"
 
 	exit
 
@@ -44,7 +44,7 @@ create alignment AL_IDV_SEG6 -r REF_IDV_S6_MASTER_NC_036620
 alignment AL_IDV_SEG6
 
 	set field displayName "IDV segment 6"
-	add member -w "species = 'IDV' and rec_segment = 6"
+	add member -w "isolate.species = 'IDV' and segment = 6"
 
 	exit
 
@@ -52,7 +52,7 @@ create alignment AL_IDV_SEG7 -r REF_IDV_S7_MASTER_NC_036621
 alignment AL_IDV_SEG7
 
 	set field displayName "IDV segment 7"
-	add member -w "species = 'IDV' and rec_segment = 7"
+	add member -w "isolate.species = 'IDV' and segment = 7"
 
 	exit
 

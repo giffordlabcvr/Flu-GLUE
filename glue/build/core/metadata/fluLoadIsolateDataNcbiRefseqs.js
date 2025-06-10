@@ -19,14 +19,14 @@ _.each(isolateObjs, function(isolateObj) {
 	var isolatePK = isolateObjToisolatePK(isolateObj);
 	glue.logInfo("isolate public key", isolatePK);
 
-	var virus = isolateObj["virus_name"];
+	var species = isolateObj["species"];
 	
 	glue.command(["create", "custom-table-row", "isolate", isolatePK]);
 
 	_.each(segments, function(segment) {
 
 		// Skip segent 8 for ICV and IDV
-		if (virus == 'icv' && segment == 8 || virus == 'idv' && segment == 8 ) {
+		if (species == 'ICV' && segment == 8 || species == 'IDV' && segment == 8 ) {
 	
 			// Do nothing
 			return;
@@ -36,7 +36,7 @@ _.each(isolateObjs, function(isolateObj) {
 			var key = 'segment' + segment + '_accession';
 			var segmentSeqID = isolateObj[key];
 		
-			var sourceName = virus + '-ncbi-refseqs-seg' + segment;
+			var sourceName = species + '-ncbi-refseqs-seg' + segment;
 	
 			glue.inMode("custom-table-row/isolate/"+isolatePK, function() {
 
@@ -46,16 +46,23 @@ _.each(isolateObjs, function(isolateObj) {
 
 				var metadataFields = [
 				                      "isolate_id",
+				                      "species",
+									  "origin_type",
+									  "sample_type",
 									  "iso_source",
 									  "iso_country",
 									  "iso_region",
 									  "iso_year",
 									  "iso_month",
 									  "iso_day",
-									  "iso_host",
+									  "host",
 									  "lab_host",
-									  "cg_subtype",
-									  "gb_subtype"];
+									  "gb_serotype",
+									  "rec_serotype",
+									  "mlca_serotype",
+									  "genome_lineage"];
+
+
 
 				_.each(metadataFields, function(metadataField) {
 
@@ -82,10 +89,7 @@ _.each(isolateObjs, function(isolateObj) {
 });
 
 
-
-
 // Subroutines
-
 function isolateObjToisolatePK(isolateObj) {
 	
 	var isolatePK = isolateObj["isolate_id"];

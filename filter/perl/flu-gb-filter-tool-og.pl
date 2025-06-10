@@ -158,7 +158,7 @@ sub create_isolate_database {
     # Step 2: Organize sequences into isolate groups based on ID
     my (%ordered_by_isolate, %null_isolate_entries);
     $isolate_utils->order_by_isolate($datafile, \%ordered_by_isolate, \%null_isolate_entries);
-	$devtools->print_hash(\%ordered_by_isolate); die;
+	#$devtools->print_hash(\%ordered_by_isolate); die;
 
     # Step 3: Check for metadata consistency within each isolate group
     my (%consistent, %inconsistent);

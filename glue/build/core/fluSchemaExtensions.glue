@@ -6,7 +6,7 @@ schema-project flu
 
 		# GenBank entry information
 		create field full_name VARCHAR 200
-		create field gb_primary_accession VARCHAR           # 'gb' = GenBank
+		create field gb_primary_accession VARCHAR            # 'gb' = GenBank
 		create field gb_accession_version VARCHAR
 		create field gb_create_date DATE
 		create field gb_update_date DATE
@@ -14,11 +14,10 @@ schema-project flu
 		create field pubmed_id VARCHAR 50
 
 		# Taxonomic & segment-related information
-		create field species VARCHAR 100                     # IAV, IBV, ICV, or IDV
-		create field gb_segment INTEGER                      # Segment as stated in GenBank
-		create field rec_segment VARCHAR                     # Segment assigned by recogniser (may differ from gb_segment)
-		create field rec_subtype VARCHAR 50                  # Specific to each segment (unlike HN classifications which apply to isolates)
-		create field mlca_subtype VARCHAR 50                 # e.g. H1 for segment 4
+		create field segment INTEGER                         # Segment 
+		create field gb_lineage VARCHAR 50                   # Genbank-derived (e.g. H1 for segment 4 of a virus labelled H1N1 in GenBank)   
+		create field rec_lineage VARCHAR 20                  # BLAST-recogniser-based
+		create field mlca_lineage VARCHAR 50                 # MLCA-based
 
 	exit
 	
@@ -50,12 +49,13 @@ schema-project flu
 
 		# Primary ID for the isolate 
 		create field isolate_id VARCHAR 200                  # Derived from naming convention (e.g. A/Pennsylvania/34/2016 or A/swine/Belgium/Gent-150/2016)
+		create field species VARCHAR 100                     # IAV, IBV, ICV, or IDV
 
-		# GenBank and inferred subtypes
-		create field gb_subtype VARCHAR 20                   # Subtype as stated in GenBank
-		create field rec_subtype VARCHAR 20                  # Recogniser-based
-		create field mlca_subtype VARCHAR 50                 # e.g. H1N1 from segments 4 + 6 using MLCA
-		create field cg_subtype VARCHAR 50                   # Concatenated recogniser-based subtypes from all segments
+		# GenBank and inferred serotypes
+		create field gb_serotype VARCHAR 20                  # Serotype as stated in GenBank (species-specific segment ser e.g. H1N1 from segements 4 + 6 for IAV)
+		create field rec_serotype VARCHAR 20                 # Recogniser-based serotype
+		create field mlca_serotype VARCHAR 50                # MLCA-based serotype
+		create field genome_lineage VARCHAR 50               # Concatenated recogniser-based lineages from all segments, in segment order
 
 		# Year, month, and day of sample collection (if available)
 		create field iso_year INTEGER

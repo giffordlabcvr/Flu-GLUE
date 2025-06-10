@@ -13,7 +13,7 @@ project flu
   run file glue/build/core/fluModules.glue
 
   # Set up M49 standard for country & region data
-  run file glue/build/core/m49_countries/populateM49All.glue
+  #run file glue/build/core/m49_countries/populateM49All.glue
 
   # Define genome features
   run file glue/build/core/reference/fluFeaturesNonCoding.glue
@@ -49,7 +49,7 @@ project flu
 
   # Import phylogenies
   run file glue/build/core/phylogeny/iavImportPhylogenies.glue
-  run file glue/build/core/phylogeny/ibvImportPhylogenies.glue
+  #run file glue/build/core/phylogeny/ibvImportPhylogenies.glue
   run file glue/build/core/phylogeny/icvImportPhylogenies.glue
   run file glue/build/core/phylogeny/idvImportPhylogenies.glue
 

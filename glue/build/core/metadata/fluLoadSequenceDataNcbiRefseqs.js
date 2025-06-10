@@ -1,9 +1,9 @@
 
 var segments = [ 1, 2, 3, 4, 5, 6, 7, 8 ];
 
-var species = [ 'iav', 'ibv', 'icv', 'idv' ];
+var viruses = [ 'IAV', 'IBV', 'ICV', 'IDV' ];
 
-_.each(species, function(virus) {
+_.each(viruses, function(virus) {
 
 	_.each(segments, function(segment) {
 
@@ -27,21 +27,8 @@ _.each(species, function(virus) {
 
 				glue.inMode("sequence/"+sourceName+"/"+seqId, function() {
 
-					glue.command(["set", "field", "rec_segment", segment]);				
-			
-					if (virus == 'iav') {
-						glue.command(["set", "field", "species", 'IAV']);				
-					}
-					if (virus == 'ibv') {			
-						glue.command(["set", "field", "species", 'IBV']);	
-					}
-					if (virus == 'icv') {
-						glue.command(["set", "field", "species", 'ICV']);	
-					}
-					if (virus == 'idv') {			
-						glue.command(["set", "field", "species", 'IDV']);	
-					}
-					
+					glue.command(["set", "field", "segment", segment]);				
+								
 				});
 
 			});

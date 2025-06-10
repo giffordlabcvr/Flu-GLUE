@@ -18,14 +18,12 @@
 		<propertyPopulator property="gb_create_date"/>
 	</gbCreateDate>
 
-
 	<!-- #### ORGANISM -->			
 	<gbOrganism>
 		<propertyPopulator property="full_name">
 		</propertyPopulator>
 	</gbOrganism>
 	
-
 	<!-- #### PUBMED ID -->	
 	<gbReference>
 		<gbRefPubmed>
@@ -33,18 +31,5 @@
 		</gbRefPubmed>
 	</gbReference>
 	
-	
-	<gbFeature key="source">
-			
-		<!-- #### SEGMENT -->			
-		<gbQualifier name="segment">
-			<propertyPopulator property="gb_segment">
-				<matchPattern>(\d+)</matchPattern>
-				<outputTemplate>${g1}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</propertyPopulator>
-		</gbQualifier>
-		
-	</gbFeature>
 	
 </genbankXmlPopulator>
