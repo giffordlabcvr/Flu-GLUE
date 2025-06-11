@@ -40,43 +40,45 @@ _.each(isolateObjs, function(isolateObj) {
 	
 			glue.inMode("custom-table-row/isolate/"+isolatePK, function() {
 
-
-				//glue.logInfo("Linking sequence", segmentSeqID);
-				glue.command(["add", "link-target", "sequence", "sequence/"+sourceName+"/"+segmentSeqID]);
-
-				var metadataFields = [
-				                      "isolate_id",
-				                      "species",
-									  "origin_type",
-									  "sample_type",
-									  "iso_source",
-									  "iso_country",
-									  "iso_region",
-									  "iso_year",
-									  "iso_month",
-									  "iso_day",
-									  "host",
-									  "lab_host",
-									  "gb_serotype",
-									  "rec_serotype",
-									  "mlca_serotype",
-									  "genome_lineage"];
-
-
-
-				_.each(metadataFields, function(metadataField) {
-
-					var value = handleNull(isolateObj[metadataField]);
-					if (value) {
+				if (segmentSeqID) {
 				
-						//glue.logInfo("isolateObj", isolateObj)
-						//glue.logInfo("field", metadataField);
-						//glue.logInfo("value", value);
-						glue.command(["set", "field", metadataField, value]);
+					//glue.logInfo("Linking sequence", segmentSeqID);
+					glue.command(["add", "link-target", "sequence", "sequence/"+sourceName+"/"+segmentSeqID]);
 
-					}
+					var metadataFields = [
+										  "isolate_id",
+										  "species",
+										  "origin_type",
+										  "sample_type",
+										  "iso_source",
+										  "iso_country",
+										  "iso_region",
+										  "iso_year",
+										  "iso_month",
+										  "iso_day",
+										  "host",
+										  "lab_host",
+										  "gb_serotype",
+										  "rec_serotype",
+										  "mlca_serotype",
+										  "genome_lineage"];
 
-				});
+
+
+					_.each(metadataFields, function(metadataField) {
+
+						var value = handleNull(isolateObj[metadataField]);
+						if (value) {
+				
+							//glue.logInfo("isolateObj", isolateObj)
+							//glue.logInfo("field", metadataField);
+							//glue.logInfo("value", value);
+							glue.command(["set", "field", metadataField, value]);
+
+						}
+
+					});
+				}
 		
 				glue.command(["set", "field", 'is_complete', 'TRUE']);
 

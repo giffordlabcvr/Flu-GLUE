@@ -254,7 +254,7 @@ sub show_title {
 #***************************************************************************
 sub show_help_page {
 
-    my $HELP   = "\n\n\t ### Influenza Sequence Data Filtering Tools";
+    my $HELP   = "\n\n\t ### GenBank Influenza Sequence Data Filtering Tools";
 
 	$HELP .= "\n\t ### usage: $0 -m[options] -i[infile] -s=[influenzavirus species]";
 
