@@ -1,6 +1,6 @@
 
 var ncbiNuccoreSeg4;
-var whereClause = "source.name = 'ibv-ncbi-nuccore' and rec_segment = 4";
+var whereClause = "source.name = 'icv-ncbi-nuccore' and rec_segment = 4";
 ncbiNuccoreSeg4 = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "-w", whereClause]));
 //glue.log("INFO", "RESULT WAS ", ncbiNuccoreSeg4);
 
@@ -9,15 +9,15 @@ var processed = 0;
 _.each(ncbiNuccoreSeg4, function(ncbiNuccoreSeg4) {
 
 	var sequenceID = ncbiNuccoreSeg4.sequenceID;
-	var sourceName ='ibv-ncbi-nuccore';
+	var sourceName ='icv-ncbi-nuccore';
 
 	var whereClause = "sequenceID = '" + sequenceID + "'";
 	//glue.log("INFO", "ID RESULT WAS ", sequenceID);
 
 	var subtypeResults;
-	glue.inMode("/module/ibvSeg4MaxLikelihoodGenotyper", function() {
+	glue.inMode("/module/icvSeg4MaxLikelihoodGenotyper", function() {
 		subtypeResults = glue.command(["genotype", "sequence", "-w", whereClause]);
-		//glue.log("INFO", "ibv subtype RESULT WAS ", subtypeResults);			
+		//glue.log("INFO", "icv subtype RESULT WAS ", subtypeResults);			
 	});
 
 	var subtypeRows = subtypeResults.genotypeCommandResult.row;
