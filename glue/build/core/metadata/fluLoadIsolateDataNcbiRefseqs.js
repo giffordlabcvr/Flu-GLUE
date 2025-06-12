@@ -23,70 +23,47 @@ _.each(isolateObjs, function(isolateObj) {
 	
 	glue.command(["create", "custom-table-row", "isolate", isolatePK]);
 
-	_.each(segments, function(segment) {
+	var foundSegments = 0;
+	var expectedSegments = (species == 'ICV' || species == 'IDV') ? 7 : 8;
 
-		// Skip segent 8 for ICV and IDV
-		if (species == 'ICV' && segment == 8 || species == 'IDV' && segment == 8 ) {
-	
-			// Do nothing
-			return;
-		}
-		else {
+	glue.inMode("custom-table-row/isolate/" + isolatePK, function() {
+
+		_.each(segments, function(segment) {
+		
+			if ((species == 'ICV' || species == 'IDV') && segment == 8) return;
 
 			var key = 'segment' + segment + '_accession';
 			var segmentSeqID = isolateObj[key];
-		
 			var sourceName = species + '-ncbi-refseqs-seg' + segment;
-	
-			glue.inMode("custom-table-row/isolate/"+isolatePK, function() {
 
-				if (segmentSeqID) {
-				
-					//glue.logInfo("Linking sequence", segmentSeqID);
-					glue.command(["add", "link-target", "sequence", "sequence/"+sourceName+"/"+segmentSeqID]);
+			if (segmentSeqID) {
+				foundSegments++;
+				glue.command(["add", "link-target", "sequence", "sequence/" + sourceName + "/" + segmentSeqID]);
 
-					var metadataFields = [
-										  "isolate_id",
-										  "species",
-										  "origin_type",
-										  "sample_type",
-										  "iso_source",
-										  "iso_country",
-										  "iso_region",
-										  "iso_year",
-										  "iso_month",
-										  "iso_day",
-										  "host",
-										  "lab_host",
-										  "gb_serotype",
-										  "rec_serotype",
-										  "mlca_serotype",
-										  "genome_lineage"];
+				var metadataFields = [
+					"isolate_id", "species", "origin_type", "sample_type", "iso_source", "iso_country",
+					"iso_region", "iso_year", "iso_month", "iso_day", "host", "lab_host",
+					"gb_serotype", "rec_serotype", "mlca_serotype", "genome_lineage"
+				];
 
+				_.each(metadataFields, function(metadataField) {
+					var value = handleNull(isolateObj[metadataField]);
+					if (value) {
+						glue.command(["set", "field", metadataField, value]);
+					}
+				});
+			}
+		});
 
-
-					_.each(metadataFields, function(metadataField) {
-
-						var value = handleNull(isolateObj[metadataField]);
-						if (value) {
-				
-							//glue.logInfo("isolateObj", isolateObj)
-							//glue.logInfo("field", metadataField);
-							//glue.logInfo("value", value);
-							glue.command(["set", "field", metadataField, value]);
-
-						}
-
-					});
-				}
-		
-				glue.command(["set", "field", 'is_complete', 'TRUE']);
-
-			});
-
+		// Set segment count and completeness
+		glue.command(["set", "field", "segment_count", foundSegments.toString()]);
+		if (foundSegments == expectedSegments) {
+			glue.command(["set", "field", "is_complete", "TRUE"]);
+		} else {
+			glue.command(["set", "field", "is_complete", "FALSE"]);
 		}
-	
 	});
+
 
 });
 

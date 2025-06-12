@@ -52,7 +52,7 @@ schema-project flu
 		create field species VARCHAR 100                     # IAV, IBV, ICV, or IDV
 
 		# GenBank and inferred serotypes
-		create field gb_serotype VARCHAR 20                  # Serotype as stated in GenBank (species-specific segment ser e.g. H1N1 from segements 4 + 6 for IAV)
+		create field gb_serotype VARCHAR 20                  # Serotype as stated in GenBank (species-specific segment serotype e.g. H1N1 from segements 4 + 6 for IAV)
 		create field rec_serotype VARCHAR 20                 # Recogniser-based serotype
 		create field mlca_serotype VARCHAR 50                # MLCA-based serotype
 		create field genome_lineage VARCHAR 50               # Concatenated recogniser-based lineages from all segments, in segment order
