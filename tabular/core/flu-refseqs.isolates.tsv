@@ -185,8 +185,10 @@ D/swine/Oklahoma/1334/2011	IDV	-	-	-	D/OK	2011	MAR	21	host	-	-	Sus scrofa	USA	-	
 D/bovine/Yamagata/1/2019	IDV	-	-	-	-	2019	-	-	-	-	-	Bos taurus	Japan		LC494105	LC494106	LC494107	LC494108	LC494109	LC494110	LC494111	
 B/Germany/9318/2019	IBV	-	Victoria	-	Victoria	2019	MAR	16	host	NP Swab	-	Homo sapiens	Germany	NULL	MK946995	MK946994	MK946993	MK946988	MK946991	MK946990	MK946989	MK946992
 B/Gyeongbuk/923/2018	IBV	-	Victoria	-	Victoria	2018	FEB	5	host	napharyngeal swab	-	Homo sapiens	South Korea	Gyeonbuk	MN822677	MN822678	MN822676	MN822671	MN822674	MN822673	MN822672	MN822675
-B/Hong Kong/8/1973	IBV	-	HongKong	-	HongKong	1973	-	-	host			Homo sapiens	China	Hong Kong	CQ903173	CQ903172	CQ903174	CY018773	CQ903177	CQ903176	CQ903178	CQ903179
-B/Lee/40	IBV	-	Lee	-	Lee	1940			host			Homo sapiens	USA	New York	NC_002204	NC_002205	NC_002206	NC_002207	NC_002208	NC_002209	NC_002210	NC_002211
+B/Hong Kong/8/1973	IBV	-	Yamagata	-	Yamagata	1973	-	-	host			Homo sapiens	China	Hong Kong	CQ903173	CQ903172	CQ903174	CY018773	CQ903177	CQ903176	CQ903178	CQ903179
+B/Hong Kong/8/1973(2)	IBV		Yamagata	-	Yamagata	1973	-	-	host			Homo sapiens	China	Hong Kong				M10298				
+B/Lee/40	IBV	-	Yamagata	-	Yamagata	1940			host			Homo sapiens	USA	New York	NC_002204	NC_002205	NC_002206	NC_002207	NC_002208	NC_002209	NC_002210	NC_002211
+B/Lee/40(2)	IBV		Yamagata	-	Yamagata	1940			host			Homo sapiens	USA	New York				CQ903175				
 B/Maine/10/2018	IBV	-	Victoria	-	Victoria	2018	FEB	20	host	-	-	Homo sapiens	USA	Maine	MH233781	MH233782	MH233783	MH233784	MH233785	MH233786	MH233787	MH233788
 B/Mississippi/02/2017	IBV	-	Victoria	-	Victoria	2017	JAN	18	host	-	-	Homo sapiens	USA	Mississippi	CY222163	CY222162	CY222164	CY222165	CY222166	CY222167	CY222168	CY222169
 B/New York/1255/2011	IBV	-	Victoria	-	Victoria	2011	FEB	2	host	-	-	Homo sapiens	USA	New York, Madison County	CY175640	CY175639	CY175638	CY175633	CY175636	CY175635	CY175634	CY175637
@@ -204,8 +206,16 @@ B/Wuhan/4/2009	IBV	-	Victoria	-	Victoria	2009	MAY	31	host	-	-	Homo sapiens	China
 B/Yamagata/16/88	IBV	-	Yamagata	-	Yamagata	1988			host			Homo sapiens	Japan	Yamagata	CY018772	CY018771	CY018770	CY018765	CY018768	CY018767	CY018766	CY018769
 B/Nicaragua/9151_03/2017	IBV	-	Victoria	-	Victoria	2017	JUL	15	host	-	-	Homo sapiens	Nicaragua	Managua	MK961943	MK961942	MK961941	MK961936	MK961939	MK961938	MK961937	MK961940
 B/Texas/10124/2019	IBV	-	Victoria	-	Victoria	2019	NOV	19	host	-	-	Homo sapiens	USA	Texas	MT600866	MT600865	MT600864	MT600859	MT600862	MT600861	MT600860	
+B/Texas/10124/2019(2)	IBV	-	Victoria	-	Victoria	2019	NOV	19	host	-	-	Homo sapiens	USA	Texas								MT600863
 B/Pennsylvania/5/2007	IBV	-	Victoria	-	Victoria	2007	-	-	host	-	-	Homo sapiens	USA	Pennsylvania	OQ034462	OQ034461	OQ034463	OQ034464	OQ034465	OQ034466	OQ034467	
+B/Pennsylvania/5/2007(2)	IBV	-	Victoria	-	Victoria	2007	-	-	host	-	-	Homo sapiens	USA	Pennsylvania								OQ034468
 B/Brisbane/60/2008	IBV	-	Victoria	-	Victoria	2008	-	-	host	-	-	Homo sapiens	Australia	Brisbane				CY115151				
-B/China/MDCK/2021	IBV		Victoria	-	Victoria	2021	-	-	host	throat swab		Homo sapiens	China					OQ028246				
-B/China/MDCK/2021(2)	IBV		Victoria	-	Victoria	2021	-	-	host	throat swab		Homo sapiens	China					OQ028654				
-B/China/MDCK/2021(3)	IBV		Victoria	-	Victoria	2021	-	-	host	throat swab		Homo sapiens	China					OP999643				
+B/China/MDCK/2021	IBV	-	Victoria	-	Victoria	2021	-	-	host	throat swab		Homo sapiens	China					OQ028246				
+B/China/MDCK/2021(2)	IBV	-	Victoria	-	Victoria	2021	-	-	host	throat swab		Homo sapiens	China					OQ028654				
+B/China/MDCK/2021(3)	IBV	-	Victoria	-	Victoria	2021	-	-	host	throat swab		Homo sapiens	China					OP999643				
+B/China/MDCK/2021(4)	IBV	-	Victoria	-	Victoria	2021	-	-	host	throat swab		Homo sapiens	China					OQ061212				
+B/Saudi Arabia/Riyadh55/2020	IBV	-	Victoria	-	Victoria	2020	DEC	23	host	Nasopharyngeal Aspirates		Homo sapiens	Saudi Arabia					OQ380849				
+B/Human/New York City/PV22452/2020	IBV	-	Victoria	-	Victoria	2020	NOV	13	host	nasal swab		Homo sapiens	USA	New York City				ON041202				
+B/India/Pun1924024/2019	IBV	-	Victoria	-	Victoria	2019	OCT	29	host	Egg passage(s)		Homo sapiens	India					MN945457				
+Influenza B virus (B/Florida/4/2006)	IBV	-	Yamagata	-	Yamagata	2006	-	-	host			Homo sapiens	USA					CY033876				
+B/India/Pun1922338/2019	IBV	-	Victoria	-	Victoria	2019	AUG	23	host			Homo sapiens	India					MN945463				
