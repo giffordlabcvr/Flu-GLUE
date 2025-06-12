@@ -44,8 +44,8 @@ project flu
   run file glue/build/core/msa/fluDeriveConstrainedMsasSpecies.glue
 
   # Compute MSAs
-  run file glue/build/core/msa/fluComputeAlignmentsIbv.glue
-  run file glue/build/core/msa/fluComputeAlignmentsIav.glue
+  #run file glue/build/core/msa/fluComputeAlignmentsIbv.glue
+  #run file glue/build/core/msa/fluComputeAlignmentsIav.glue
 
   # Import phylogenies
   run file glue/build/core/phylogeny/iavImportPhylogenies.glue
