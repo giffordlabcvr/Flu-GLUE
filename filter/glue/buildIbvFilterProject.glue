@@ -31,20 +31,17 @@ project ibv_filter
   # Define references
   run file glue/ibv/ibvFilterReferences.glue
 
+  # Define feature locations
+  run file glue/ibv/ibvFeatureLocations.glue
+
   # Import cleaned tabular data 
   run file glue/ibv/ibvImportDataRefseqs.glue
 
   # Do segment recognition
-  run script glue/ibv/ibvRecogniseSegmentsRefseq.js
+  #run script glue/ibv/ibvRecogniseSegmentsRefseq.js
 
   # Import the unconstrained reference MSAs
   run file glue/ibv/ibvImportUnconstrainedAlignments.glue
-
-  # Define feature locations
-  run file glue/ibv/ibvFeatureLocations.glue
-
-  # Compute MSAs
-  run file glue/ibv/ibvComputeAlignments.glue
 
   # Define alignment tree
   run file glue/ibv/ibvAlignmentTree.glue
@@ -53,8 +50,11 @@ project ibv_filter
   # Derive constrained MSAs from unconstrained
   run file glue/ibv/ibvDeriveConstrainedMsas.glue
 
+  # Compute MSAs
+  #run file glue/ibv/ibvComputeAlignments.glue
+
   # Compute phylogenies using RAXML
-  run file glue/ibv/ibvBuildPhylogenies.glue
+  #run file glue/ibv/ibvBuildPhylogenies.glue
 
   # Import phylogenies
   run file glue/ibv/ibvImportPhylogenies.glue
@@ -62,10 +62,10 @@ project ibv_filter
   #~# Process NCBI nuccore build
 
   # NCBI nuccore sequences
-  #import source /Users/robertgifford/Sources/flu/ibv-ncbi-nuccore-1970-2005
+  import source /Users/robertgifford/Sources/flu/ibv-ncbi-nuccore-1970-2005
   #import source /Users/robertgifford/Sources/flu/ibv-ncbi-nuccore-2010-2015
   #import source /Users/robertgifford/Sources/flu/ibv-ncbi-nuccore-2005-2010
-  import source /Users/robertgifford/Sources/flu/ibv-ncbi-nuccore-2015-2020
+  #import source /Users/robertgifford/Sources/flu/ibv-ncbi-nuccore-2015-2020
 
   # Extract data from GenBank for NCBI nuccore set
   module ibvFilterGenbankXmlPopulator populate
