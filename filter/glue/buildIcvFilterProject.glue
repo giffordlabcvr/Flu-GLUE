@@ -68,6 +68,9 @@ project icv_filter
   # Run segment recogniser
   run script glue/icv/icvRecogniseSegmentsNuccore.js
 
+  # Remove short sequences
+  run script glue/icv/icvRemoveShortSequences.js
+
   # Do segment 4 classification
   run script glue/icv/icvSeg4ClassifyNuccore.js
 
