@@ -27,8 +27,8 @@
 
 	<!-- #### Exclude patent sequences etc-->	
 	<gbDivision>
-		<propertyPopulator property="lab_construct">
-			<matchPattern>PATENT</matchPattern>
+		<propertyPopulator property="patent_related">
+			<matchPattern>PAT</matchPattern>
 			<outputTemplate>true</outputTemplate>
 		</propertyPopulator>
 	</gbDivision>
@@ -39,6 +39,20 @@
 		<gbRefPubmed>
 			<propertyPopulator property="pubmed_id"/>
 		</gbRefPubmed>
+
+		<gbRefJournal>
+			<propertyPopulator property="gb_ref_journal"/>
+		</gbRefJournal>
+
+		<gbRefDoi>
+			<propertyPopulator property="gb_ref_doi"/>
+		</gbRefDoi>
+
+		<gbRefTitle>
+			<propertyPopulator property="gb_ref_title"/>
+		</gbRefTitle>
+
+
 	</gbReference>
 	
 	
