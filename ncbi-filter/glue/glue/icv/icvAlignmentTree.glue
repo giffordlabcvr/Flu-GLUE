@@ -1,0 +1,129 @@
+
+#~#  Create constrained alignment tree for refseqs sequence alignments
+
+create alignment AL_ICV_SEG1 -r REF_ICV_S1_MASTER_NC_006307 
+alignment AL_ICV_SEG1
+
+	set field displayName "ICV segment 1"
+	add member -w "rec_segment = 1"
+
+	exit
+
+create alignment AL_ICV_SEG2 -r REF_ICV_S2_MASTER_NC_006308 
+alignment AL_ICV_SEG2
+
+	set field displayName "ICV segment 2"
+	add member -w "rec_segment = 2"
+
+	exit
+
+create alignment AL_ICV_SEG3 -r REF_ICV_S3_MASTER_NC_006309 
+alignment AL_ICV_SEG3
+
+	set field displayName "ICV segment 3"
+	add member -w "rec_segment = 3"
+
+	exit
+
+create alignment AL_ICV_SEG4 -r REF_ICV_S4_MASTER_NC_006310 
+alignment AL_ICV_SEG4
+
+	set field displayName "ICV segment 4"
+	add member -w "rec_segment = 4"
+
+	exit
+  
+create alignment AL_ICV_SEG5 -r REF_ICV_S5_MASTER_NC_006311   
+alignment AL_ICV_SEG5
+
+	set field displayName "ICV segment 5"
+	add member -w "rec_segment = 5"
+
+	exit
+
+create alignment AL_ICV_SEG6 -r REF_ICV_S6_MASTER_NC_006312   
+alignment AL_ICV_SEG6
+
+	set field displayName "ICV segment 6"
+	add member -w "rec_segment = 6"
+
+	exit
+
+create alignment AL_ICV_SEG7 -r REF_ICV_S7_MASTER_NC_006306   
+alignment AL_ICV_SEG7
+
+	set field displayName "ICV segment 7"
+	add member -w "rec_segment = 7"
+
+	exit
+
+alignment AL_ICV_SEG4
+
+	set field displayName "ICV segment 4"
+	set field clade_category "species"
+
+	extract child AL_ICV_SEG4_Taylor --refName REF_ICV_S4_AB035357
+	demote member AL_ICV_SEG4_Taylor -w "sequence.gb_subtype = 'Taylor'"
+
+	extract child AL_ICV_SEG4_Mississippi --refName REF_ICV_S4_LC122635
+	demote member AL_ICV_SEG4_Mississippi -w "sequence.gb_subtype = 'Mississippi'"
+
+	extract child AL_ICV_SEG4_SaoPaolo --refName REF_ICV_S4_LC122644
+	demote member AL_ICV_SEG4_SaoPaolo -w "sequence.gb_subtype = 'SaoPaolo'"
+
+	extract child AL_ICV_SEG4_Yamagata --refName REF_ICV_S4_LC122633
+	demote member AL_ICV_SEG4_Yamagata -w "sequence.gb_subtype = 'Yamagata'"
+
+	extract child AL_ICV_SEG4_Aichi --refName REF_ICV_S4_AB899777
+	demote member AL_ICV_SEG4_Aichi -w "sequence.gb_subtype = 'Aichi'"
+
+	extract child AL_ICV_SEG4_Kanagawa --refName REF_ICV_S4_LC122674
+	demote member AL_ICV_SEG4_Kanagawa -w "sequence.gb_subtype = 'Kanagawa'"
+
+	exit
+ 
+ 
+#~#  Set clade category values in subtype-level alignments
+
+alignment AL_ICV_SEG4_Taylor
+
+	set field displayName "ICV S4 Subtype Taylor"
+	set field clade_category "subtype"
+
+	exit
+
+alignment AL_ICV_SEG4_Mississippi
+
+	set field displayName "ICV S4 Subtype Mississippi"
+	set field clade_category "subtype"
+
+	exit
+
+alignment AL_ICV_SEG4_SaoPaolo
+
+	set field displayName "ICV S4 Subtype Sao Paolo"
+ 	set field clade_category "subtype"
+
+	exit
+
+alignment AL_ICV_SEG4_Yamagata
+
+	set field displayName "ICV S4 Subtype Yamagata"
+	set field clade_category "subtype"
+
+	exit
+	
+alignment AL_ICV_SEG4_Aichi
+
+	set field displayName "ICV S4 Subtype Aichi"
+	set field clade_category "subtype"
+
+	exit
+
+alignment AL_ICV_SEG4_Kanagawa
+
+	set field displayName "ICV S4 Subtype Kanagawa"
+	set field clade_category "subtype"
+
+	exit
+

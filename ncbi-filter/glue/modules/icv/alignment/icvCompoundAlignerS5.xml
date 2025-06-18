@@ -1,0 +1,10 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>ICV_NP</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>ICV_S5_whole_genome</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

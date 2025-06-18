@@ -1,0 +1,7 @@
+  module unconstrainedAlignmentImporter
+
+    #~# Root-level
+    
+    import AL_UNC_TREE_IBV  -f alignments/ibv/ibv.seg4.aln.fas
+        
+    exit

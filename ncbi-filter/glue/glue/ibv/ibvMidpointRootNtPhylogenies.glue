@@ -1,0 +1,44 @@
+
+
+  module fluPhyloUtility 
+	reroot-phylogeny \
+      --inputFile trees/ibv/ibv_seg1.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/ibv/ibv_seg1MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/ibv/ibv_seg2.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/ibv/ibv_seg2MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/ibv/ibv_seg3.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/ibv/ibv_seg3MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/ibv/ibv_seg4.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/ibv/ibv_seg4MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/ibv/ibv_seg5.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/ibv/ibv_seg5MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+ 
+	reroot-phylogeny \
+      --inputFile trees/ibv/ibv_seg6.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/ibv/ibv_seg6MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+ 
+	reroot-phylogeny \
+      --inputFile trees/ibv/ibv_seg7.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/ibv/ibv_seg7MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+ 
+ 	reroot-phylogeny \
+      --inputFile trees/ibv/ibv_seg8.nt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/ibv/ibv_seg8MidpointRerooted.nt.tree NEWICK_BOOTSTRAPS
+
+    exit

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>NC_007368</GBSeq_locus>
+    <GBSeq_length>1467</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>30-AUG-2005</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/New York/392/2004(H3N2)) segment 6, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>NC_007368</GBSeq_primary-accession>
+    <GBSeq_accession-version>NC_007368.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gnl|REF_NIGSP|NIGSP-NYS-00392.NA</GBSeqid>
+      <GBSeqid>ref|NC_007368.1|</GBSeqid>
+      <GBSeqid>gi|73919135</GBSeqid>
+      <GBSeqid>gnl|NCBI_GENOMES|18701</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Influenza A virus (A/New York/392/2004(H3N2))</GBSeq_source>
+    <GBSeq_organism>Influenza A virus (A/New York/392/2004(H3N2))</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1467</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ghedin,E.</GBAuthor>
+          <GBAuthor>Miller,N.</GBAuthor>
+          <GBAuthor>Zaborsky,J.</GBAuthor>
+          <GBAuthor>Feldblyum,T.</GBAuthor>
+          <GBAuthor>Subbu,V.</GBAuthor>
+          <GBAuthor>Shumway,M.</GBAuthor>
+          <GBAuthor>Sitz,J.</GBAuthor>
+          <GBAuthor>Kosack,D.</GBAuthor>
+          <GBAuthor>Koo,H.</GBAuthor>
+          <GBAuthor>Salzberg,S.L.</GBAuthor>
+          <GBAuthor>Griesemer,S.</GBAuthor>
+          <GBAuthor>St. George,K.</GBAuthor>
+          <GBAuthor>Bennett,R.</GBAuthor>
+          <GBAuthor>Taylor,J.</GBAuthor>
+          <GBAuthor>Bao,Y.</GBAuthor>
+          <GBAuthor>Bolotov,P.</GBAuthor>
+          <GBAuthor>Dernovoy,D.</GBAuthor>
+          <GBAuthor>Lipman,D.J.</GBAuthor>
+          <GBAuthor>Tatusova,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The NIAID Influenza Genome Sequencing Project</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1467</GBReference_position>
+        <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-AUG-2005) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1467</GBReference_position>
+        <GBReference_consortium>The NIAID Influenza Genome Sequencing Consortium</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-AUG-2005) on behalf of TIGR/Wadsworth-NYSDOH/NCBI, National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence was derived from CY002066.; COMPLETENESS: full length.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1467</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1467</GBInterval_to>
+            <GBInterval_accession>NC_007368.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus (A/New York/392/2004(H3N2))</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/New York/392/2004</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H3N2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>gender:M; age:16y</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:335341</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lab_host</GBQualifier_name>
+            <GBQualifier_value>RhMK 1 passage(s)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA: Tompkins County, NY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>21-Dec-2004</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>20..1429</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>1429</GBInterval_to>
+            <GBInterval_accession>NC_007368.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>FLUAVH3N2_s6p1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:3655154</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>20..1429</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>1429</GBInterval_to>
+            <GBInterval_accession>NC_007368.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>FLUAVH3N2_s6p1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>neuraminidase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>YP_308842.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:3655154</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNPNQKIITIGSVSLTISTICFFMQIAILITTVTLHFKQYEFNSPPNNQVMLCEPTIIERNITEIVYLTNTTIEKEMCPKLAEYRNWSKPQCDITGFAPFSKDNSIRLSAGGDIWVTREPYVSCDPDKCYQFALGQGTTLNNVHSNDTVHDRTPYRTLLMNELGVPFHLGTKQVCIAWSSSSCHDGKAWLHVCVTGDDKNATASFIYNGRLVDSIVSWSKKILRTQESECVCINGTCTVVMTDGSASGKADTKILFIEEGKIIHTSTLSGSAQHVEECSCYPRYPGVRCVCRDNWKGSNRPIVDINIKDYSIVSSYVCSGLVGDTPRKNDSSSSSHCLDPNNEEGGHGVKGWAFDDGNDVWMGRTISEKLRSGYETFKVIEGWSKPNSKLQINRQVIVDRGNRSGYSGIFSVEGKSCINRCFYVELIRGRKEETEVLWTSNSIVVFCGTSGTYGTGSWPDGADINLMPI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcaaaagcaggagtaaagatgaatccaaatcaaaagataataacgattggctctgtttctctcaccatttccacaatatgcttcttcatgcaaattgccatcctgataaccactgtaacattgcatttcaagcaatatgaattcaactcccccccaaacaaccaagtgatgctgtgtgaaccaacaataatagaaagaaacataacagagatagtgtatctgaccaacaccaccatagagaaggaaatgtgccccaaactagcagaatacagaaattggtcaaagccgcaatgtgacattacaggatttgcacctttttctaaggacaattcgattaggctttccgctggtggggacatctgggtgacaagagaaccttatgtgtcatgcgaccctgacaagtgttaccaatttgcccttggacagggaacaacactaaacaacgtgcattcaaatgacacagtacatgataggaccccttatcggaccctattgatgaatgaattaggtgttccatttcatctggggaccaagcaagtgtgcatagcatggtccagctcaagttgtcacgatggaaaagcatggctgcatgtttgtgtaacgggggatgataaaaatgcaactgctagcttcatttacaatgggaggcttgtagatagtattgtttcatggtccaaaaaaatcctcaggacccaggagtcagaatgcgtttgtatcaatggaacttgtacagtagtaatgactgatgggagtgcttcaggaaaagctgatactaaaatactattcattgaggaggggaaaatcattcatactagcacattgtcaggaagtgctcagcatgtcgaggagtgctcctgctatcctcgatatcctggtgtcagatgtgtctgcagagacaactggaaaggctccaataggcccatcgtagatataaacataaaggattatagcattgtttccagttatgtgtgctcagggcttgttggagacacacccagaaaaaacgacagctccagcagtagccattgcttggatcctaacaatgaagaaggtggtcatggagtgaaaggctgggcctttgatgatggaaatgacgtgtggatgggaagaacgatcagcgagaagttacgctcaggatatgaaaccttcaaagtcattgaaggctggtccaaacctaattccaaattgcagataaataggcaagtcatagttgacagaggtaataggtccggttattctggtattttctctgttgaaggcaaaagctgcatcaatcggtgcttttatgtggagttgataaggggaagaaaagaggaaactgaagtcttgtggacctcaaacagtattgttgtgttttgtggcacctcaggtacatatggaacaggctcatggcctgatggggcggacatcaatctcatgcctatataagctttcgcaattttagaaaaaaactccttgtttctact</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA485481</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

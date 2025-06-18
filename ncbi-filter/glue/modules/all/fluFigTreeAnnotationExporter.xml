@@ -1,0 +1,50 @@
+<figTreeAnnotationExporter>
+
+	<figTreeAnnotation>
+		<annotationName>sequenceID</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>pubmed_id</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.pubmed_id')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+													
+	<figTreeAnnotation>
+		<annotationName>gb_place_sampled</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_place_sampled')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
+	<figTreeAnnotation>
+		<annotationName>gb_country</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_country')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
+	<figTreeAnnotation>
+		<annotationName>gb_year</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_year')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
+	<figTreeAnnotation>
+		<annotationName>gb_host</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_host')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
+	<figTreeAnnotation>
+		<annotationName>gb_source</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_source')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>gb_subtype</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_subtype')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>isolate_id</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+</figTreeAnnotationExporter>
+
+                                                                                    

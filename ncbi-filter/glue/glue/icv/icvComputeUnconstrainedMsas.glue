@@ -1,0 +1,6 @@
+
+  #~# Create and compute unconstrained alignments (needed for genotyping)
+  
+  create alignment AL_UNC_ICV_SEG_4
+  alignment AL_UNC_ICV_SEG_4 add member -w "source.name = 'icv-ncbi-refseqs-seg4'"
+  compute alignment AL_UNC_ICV_SEG_4 fluMafftAligner

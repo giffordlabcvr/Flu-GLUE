@@ -1,0 +1,13 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>IBV_NB</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>IBV_NA</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>IBV_S6_whole_genome</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

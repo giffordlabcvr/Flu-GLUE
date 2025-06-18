@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK968546</GBSeq_locus>
+    <GBSeq_length>1467</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>20-DEC-2020</GBSeq_update-date>
+    <GBSeq_create-date>20-DEC-2020</GBSeq_create-date>
+    <GBSeq_definition>Influenza A virus (A/chicken/Hamadan/RIV-1/2017(H9N2)) segment 6 neuraminidase (NA) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MK968546</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK968546.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK968546.1|</GBSeqid>
+      <GBSeqid>gi|1667546288</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza A virus</GBSeq_source>
+    <GBSeq_organism>Influenza A virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1467</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bashashati,M.</GBAuthor>
+          <GBAuthor>Fallah Mehrabadi,M.H.</GBAuthor>
+          <GBAuthor>Molouki,A.</GBAuthor>
+          <GBAuthor>Banani,M.</GBAuthor>
+          <GBAuthor>Motamed,N.</GBAuthor>
+          <GBAuthor>Ameghi Roudsari,A.</GBAuthor>
+          <GBAuthor>Taghizadeh,M.</GBAuthor>
+          <GBAuthor>Mojahedi,Z.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-MAY-2019) Department of Avian Disease Research and Diagnostic, Razi Vaccine and Serum Research Institute, Shahid Beheshti Street, Karaj, Alborz 3197619751, Iran</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1467</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1467</GBInterval_to>
+            <GBInterval_accession>MK968546.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza A virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A/chicken/Hamadan/RIV-1/2017</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>H9N2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>RIV-1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>trachea, lung</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>chicken</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11320</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Iran: Hamadan</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Sep-2017</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>20..1429</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>1429</GBInterval_to>
+            <GBInterval_accession>MK968546.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>20..1429</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>1429</GBInterval_to>
+            <GBInterval_accession>MK968546.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>neuraminidase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QCU44689.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNPNQKIIALGSASLTVATVCLLIQIAILVTTMTLHFNQSECTNSSKNHVVHCDSVMIERNITEVVHLNGTIIEKESCPKAAEYKNWSKPQCQITGFVPFSKDNSIRLSAGGDIWVTREPYVSCGLGRCYQFALGQGTTLNNKHSNGTTHDRSPYRTLLMSELGVPFHLGTKQVCIAWSSSSCHDGRAWLHVCVTGDDRNATASIIYDGMLTDSIGSWSQNILRTQESECVCINGTCTVVMTDGSASGRADTKILFIKEGRIVHISPLSGSAQHVEECSCYPRYPEVRCICRDNWKGSNRPVLYVNMVDYNIDSSYVCSGLVGDTPRNDDISRSSNCRDPNNERGGPGVKGWAFDDGNDVWMGRTIEKDSRAGYETFKVIGGWTMANSKSQINRQVIVDSDNRSGYSGIFSVEGKTCINRCFYIELIRGRPQETRVWWTSNSIIVFCGTSGTYGTGSWPDGADINFMPI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcaaaagcaggagtgaaaatgaatccaaaccagaagataatagcacttggctctgcttctctgactgttgcgacagtatgtttactcattcaaattgccatcttagtaacgactatgacactacacttcaatcagagcgaatgcaccaactcttcgaaaaatcatgtagtgcattgcgactcggtcatgatagagaggaacataacagaggtagtgcatttgaatggtactatcatagagaaggaaagttgtcccaaagcagcagaatacaagaattggtcaaaacctcaatgtcaaattacagggtttgtccctttctccaaggacaactcaattaggctttctgcaggtggggacatttgggtaacgagagagccttatgtgtcgtgtggtctcggtagatgttaccaatttgcacttggacagggaaccactttaaacaacaaacactcaaatggcacaacacatgacagaagtccttataggactcttttaatgagcgaactgggtgttccatttcatttgggaaccaaacaagtatgtattgcgtggtccagctcaagctgtcatgatggtagagcatggttgcatgtctgtgtcactggggatgatagaaatgctactgctagcattatttatgacggaatgcttactgacagtattggttcatggtctcaaaacatcctcagaactcaggagtcggaatgtgtttgcatcaatggaacttgtacagtggtaatgactgatggaagtgcatcaggaagggctgacactaaaatactattcattaaagaagggagaattgtccacattagtccactgtcaggaagtgcccagcatgtagaggaatgctcttgttaccctcgatacccagaagttagatgtatttgcagagacaattggaaaggctccaatagacccgtactatatgtaaatatggtagattataatattgattccagttatgtgtgctcaggacttgttggtgacacaccaagaaatgatgacatctcccgcagcagcaactgcagggatcccaacaacgagagaggtggtccaggagtgaaagggtgggcttttgacgatggaaatgacgtttggatgggacgaacaatcgagaaagattcacgcgcaggttatgagacgttcaaagtaattggtggttggacaatggctaattccaagtcacagataaacaggcaagtcatagttgacagtgataacaggtctgggtattctggtatattctccgttgagggcaaaacctgtatcaacaggtgtttttatatagagttgataagagggagaccacaggagaccagagtgtggtggacttcaaatagcatcattgtattttgtgggacttcaggtacctatggaacaggctcatggcctgatggagcggatatcaatttcatgccgatataagctttcgcaattttagaaaaaaactccttgtttctact</GBSeq_sequence>
+  </GBSeq>

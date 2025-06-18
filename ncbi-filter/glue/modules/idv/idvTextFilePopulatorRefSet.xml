@@ -1,0 +1,113 @@
+<textFilePopulator>
+	<columnDelimiterRegex>\t</columnDelimiterRegex>
+	
+	<textFileColumn>
+		<identifier>true</identifier>
+		<header>sequenceID</header>
+		<property>sequenceID</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+
+	<textFileColumn>
+		<header>isolate</header>
+		<property>isolate</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+
+	<textFileColumn>
+		<header>full_name</header>
+		<property>full_name</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>isolate</header>
+		<property>isolate</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+
+	<textFileColumn>
+		<header>gb_segment</header>
+		<property>gb_segment</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+
+	<textFileColumn>
+		<header>rec_segment</header>
+		<property>rec_segment</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+
+	<textFileColumn>
+		<header>gb_subtype</header>
+		<property>gb_subtype</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+
+	<textFileColumn>
+		<header>rec_subtype</header>
+		<property>rec_subtype</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>gb_year</header>
+		<property>gb_year</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 		
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>gb_month</header>
+		<property>gb_month</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 		
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>gb_day</header>
+		<property>gb_day</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+
+	<textFileColumn>
+		<header>gb_country</header>
+		<property>gb_country</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+	
+	<isoCountryTextFileColumn codeStyle="ALPHA_3">
+		<header>gb_country</header>
+		<property>m49_country</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>  
+	</isoCountryTextFileColumn>
+	
+	<textFileColumn>
+		<header>gb_host</header>
+		<property>gb_host</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 		
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>gb_lab_host</header>
+		<property>gb_lab_host</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 		
+	</textFileColumn>
+
+	<textFileColumn>
+		<header>gb_source</header>
+		<property>gb_source</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>pubmed_id</header>
+		<property>pubmed_id</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 		
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>length</header>
+		<property>length</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 		
+	</textFileColumn>
+	
+</textFilePopulator>

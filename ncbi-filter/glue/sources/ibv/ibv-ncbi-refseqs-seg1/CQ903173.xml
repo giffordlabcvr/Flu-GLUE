@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>CQ903173</GBSeq_locus>
+    <GBSeq_length>2368</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>17-NOV-2004</GBSeq_update-date>
+    <GBSeq_create-date>16-NOV-2004</GBSeq_create-date>
+    <GBSeq_definition>Sequence 2 from Patent WO2004094466</GBSeq_definition>
+    <GBSeq_primary-accession>CQ903173</GBSeq_primary-accession>
+    <GBSeq_accession-version>CQ903173.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|CQ903173.1|</GBSeqid>
+      <GBSeqid>pat|WO|2004094466|2</GBSeqid>
+      <GBSeqid>gi|55784981</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza B virus</GBSeq_source>
+    <GBSeq_organism>Influenza B virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Orthomyxoviridae; Influenzavirus B</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2368</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kawaoka,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Recombinant influenza viruses holding a mutation in a transmembrane protein gene</GBReference_title>
+        <GBReference_journal>WO2004094466-A2 2 04-NOV-2004 WISCONSIN ALUMNI RESEARCH FOUNDATION (US)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2368</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2368</GBInterval_to>
+            <GBInterval_accession>CQ903173.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza B virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11520</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Lee/40</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcagaagcggagctttaagatgaatataaatccatattttcttttcatagatgtacctatacaggcagcaatttcaacaacattcccatacaccggtgttcccccttattctcatggaacgggaacaggctacacaatagacaccgtgattagaacacacgagtactcaaacaagggaaaacaatacatttctgatgttacaggatgtgtaatggtagatccaacaaatgggccattacccgaagacaatgaaccgagtgcctatgcacaattggattgtgttctggaggctttggatagaatggatgaagaacatccaggtctgtttcaagcagcctcacagaatgccatggaggcactaatggtcacaacagtggacaaattgactcaggggagacagacctttgattggacggtgtgtagaaaccaacctgctgcaacggcactgaacacaacaataacctcttttaggttgaatgatttaaatggagccgacaagggtggattagtgcccttttgccaagatatcattgattcattagacaaacctgaaatgattttcttctcagtaaagaatataaagaaaaaattgcctgctaaaaacagaaagggtttccttataaaaagaatacctatgaaggtaaaagacagaataacaagagtggaatacatcaaaagagcattatcattaaacacaatgactaaagatgctgaaagaggcaaactaaaaagaagagcaattgccaccgctgggatacaaatcagaggatttgtattagtagttgaaaacttggctaaaaatatctgtgaaaatctagagcaaagtggtttacccgtaggtgggaacgaaaagaaggccaaactatcaaatgcagtggctaaaatgctcagtaattgtccaccaggagggatcagtatgactgtgacaggagacaatactaaatggaatgaatgcttaaatccaagaatctttttggctatgactgaaagaataaccagagacagcccaatttggttccgggatttttgtagtatagcaccggtcttgttctccaataaaatagctagattgggaaaagggttcatgataacaagtaaaacaaaaagactaaaagctcaaataccttgtcccgatctgtttaatataccattagaaagatataatgaagaaacaagggcaaaactgaaaaagctaaaacctttcttcaatgaagaaggaacggcatctctttcgccaggaatgatgatgggaatgtttaatatgctatctacagtattaggagtagccgcactagggataaaaaacattggaaacaaagaatacttatgggatggactgcagtcttccgatgattttgctctgtttgttaatgcaaaagatgaagagacatgtatggaaggaataaacgatttttaccgaacatgtaagctattgggaataaacatgagcaaaaagaaaagttactgtaatgaaactgggatgtttgaatttaccagcatgttttacagagatggatttgtatctaattttgcaatggaactcccttcatttggagtcgctggagtgaatgaatcagcagacatggcaataggaatgacaataataaagaacaatatgatcaacaatgggatgggcccagcaacggcacaaacagccatacaattattcatagctgattatagatacacctacaaatgccacaggggagattccaaagtggaagggaagagaatgaaaattataaaggagctatgggaaaacactaaaggaagagatggtctattagtagcagatggtgggcctaatctttacaatttgagaaacctgcatattccagaaatagtattaaaatacaacataatggaccctgagtacaaaggacggttactgcatcctcaaaatccctttgtaggacatttgtctattgagggtatcaaagaagcagatataacacctgcacatggcccaataaagaaaatggactacgatgcggtatctggaactcatagttggagaaccaaaaggaacagatctatactaaacactgatcagaggaacatgattcttgaggaacaatgctacgctaagtgttgcaacctttttgaggcttgctttaacagtgcgtcatacaggaaaccagtaggccagcacagcatgcttgaagctatggcccacagattaagaatggatgcacgactggactatgagtcaggaaggatgtcaaaagaggatttcgaaaaagcaatggctcaccttggtgagattgggtacatgtaagctccggaaatgtctatggggttattggtcatcgttgaatacatgcggtgcacaaatgattaaaatgaaaaaaggctcgtgtttctact</GBSeq_sequence>
+  </GBSeq>

@@ -1,3 +1,0 @@
-console set cmd-output-file-format tab
-console set next-cmd-output-file iav-genbank-processed.tsv
-project iav_filter list sequence -s iso_host sequenceID gb_subtype rec_subtype strain gb_segment rec_segment iso_host iso_source iso_country lab_host iso_year iso_month iso_day length pubmed_id

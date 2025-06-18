@@ -1,0 +1,112 @@
+#~#  Create constrained alignment tree for refseqs sequence alignments
+
+create alignment AL_IDV_SEG1 -r REF_IDV_S1_MASTER_NC_036616 
+alignment AL_IDV_SEG1
+
+	set field displayName "IDV segment 1"
+	add member -w "rec_segment = 1"
+
+	exit
+
+create alignment AL_IDV_SEG2 -r REF_IDV_S2_MASTER_NC_036615 
+alignment AL_IDV_SEG2
+
+	set field displayName "IDV segment 2"
+	add member -w "rec_segment = 2"
+
+	exit
+
+create alignment AL_IDV_SEG3 -r REF_IDV_S3_MASTER_NC_036619 
+alignment AL_IDV_SEG3
+
+	set field displayName "IDV segment 3"
+	add member -w "rec_segment = 3"
+
+	exit
+
+create alignment AL_IDV_SEG4 -r REF_IDV_S4_MASTER_NC_036618 
+alignment AL_IDV_SEG4
+
+	set field displayName "IDV segment 4"
+	add member -w "rec_segment = 4"
+
+	exit
+  
+create alignment AL_IDV_SEG5 -r REF_IDV_S5_MASTER_NC_036617   
+alignment AL_IDV_SEG5
+
+	set field displayName "IDV segment 5"
+	add member -w "rec_segment = 5"
+
+	exit
+
+create alignment AL_IDV_SEG6 -r REF_IDV_S6_MASTER_NC_036620   
+alignment AL_IDV_SEG6
+
+	set field displayName "IDV segment 6"
+	add member -w "rec_segment = 6"
+
+	exit
+
+create alignment AL_IDV_SEG7 -r REF_IDV_S7_MASTER_NC_036621   
+alignment AL_IDV_SEG7
+
+	set field displayName "IDV segment 7"
+	add member -w "rec_segment = 7"
+
+	exit
+
+#~#  Segment 4 subtype alignments
+
+alignment AL_IDV_SEG4
+
+	set field displayName "IDV segment 4"
+	set field clade_category "species"
+
+	extract child AL_IDV_SEG4_D660 --refName REF_IDV_S4_KF425669
+	demote member AL_IDV_SEG4_D660 -w "sequence.gb_subtype = 'D/660'"
+
+	extract child AL_IDV_SEG4_Yama2016 --refName REF_IDV_S4_LC270268
+	demote member AL_IDV_SEG4_Yama2016 -w "sequence.gb_subtype = 'D/Yama2016'"
+
+	extract child AL_IDV_SEG4_Yama2019 --refName REF_IDV_S4_LC494108
+	demote member AL_IDV_SEG4_Yama2019 -w "sequence.gb_subtype = 'D/Yama2019'"
+
+	extract child AL_IDV_SEG4_DOK --refName REF_IDV_S4_KF425655
+	demote member AL_IDV_SEG4_DOK -w "sequence.gb_subtype = 'D/OK'"
+	exit
+ 
+ 
+#~#  Set clade category values in subtype-level alignments
+ 
+alignment AL_IDV_SEG4_D660
+
+	set field displayName "IDV S4 Subtype D/660"
+	set field clade_category "subtype"
+
+	exit
+
+alignment AL_IDV_SEG4_Yama2019
+
+	set field displayName "IDV S4 Subtype D/Yama2019"
+	set field clade_category "subtype"
+
+	exit
+
+alignment AL_IDV_SEG4_Yama2016
+
+	set field displayName "IDV S4 Subtype D/Yama2016"
+	set field clade_category "subtype"
+
+	exit
+
+alignment AL_IDV_SEG4_DOK
+
+	set field displayName "IDV S4 Subtype D/OK"
+ 	set field clade_category "subtype"
+
+	exit
+
+
+
+

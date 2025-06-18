@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH828692</GBSeq_locus>
+    <GBSeq_length>2183</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>16-APR-2022</GBSeq_update-date>
+    <GBSeq_create-date>16-APR-2022</GBSeq_create-date>
+    <GBSeq_definition>Influenza C virus (C/Vietnam/1290/2014) segment 3 polymerase P3 (P3) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MH828692</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH828692.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH828692.1|</GBSeqid>
+      <GBSeqid>gi|2221769346</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza C virus</GBSeq_source>
+    <GBSeq_organism>Influenza C virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Gammainfluenzavirus; Gammainfluenzavirus influenzae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2183</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lu,L.</GBAuthor>
+          <GBAuthor>Robertson,G.</GBAuthor>
+          <GBAuthor>Ashworth,J.</GBAuthor>
+          <GBAuthor>Pham Hong,A.</GBAuthor>
+          <GBAuthor>Shi,T.</GBAuthor>
+          <GBAuthor>Ivens,A.</GBAuthor>
+          <GBAuthor>Thwaites,G.</GBAuthor>
+          <GBAuthor>Baker,S.</GBAuthor>
+          <GBAuthor>Woolhouse,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Epidemiology and Phylogenetic Analysis of Viral Respiratory Infections in Vietnam</GBReference_title>
+        <GBReference_journal>Front Microbiol 11, 833 (2020)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3389/fmicb.2020.00833</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>32499763</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2183</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lu,L.</GBAuthor>
+          <GBAuthor>Robertson,G.</GBAuthor>
+          <GBAuthor>Ivens,A.</GBAuthor>
+          <GBAuthor>Woolhouse,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (31-AUG-2018) Centre for Immunity, Infection and Evolution, University of Edinburgh, Charlotte Auerbach Road, Edinburgh EH9 3FL, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: CLC Assembly v. 5.0.4 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2183</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2183</GBInterval_to>
+            <GBInterval_accession>MH828692.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza C virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>C/Vietnam/1290/2014</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>nasopharyngeal swab</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11552</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Viet Nam</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>16-Apr-2014</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>22..2151</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>22</GBInterval_from>
+            <GBInterval_to>2151</GBInterval_to>
+            <GBInterval_accession>MH828692.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>P3</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>22..2151</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>22</GBInterval_from>
+            <GBInterval_to>2151</GBInterval_to>
+            <GBInterval_accession>MH828692.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>P3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase P3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>UOQ23213.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSKTFAEIAEAFLEPEAVRIAKEAIEEYGDHERKIIQIGIHFQVCCMFCDEYLGANGNDRFVLIEGRKRGTAVSLQNELCKSYDLEPLPFLCDIFDREEKQFVEIGITRKADDSYFQSKFGKLGNSCKIFVFSYDGRLDKNCEGPMEEQKLRIFSFLATAADFLRKENMFNEIFLPDDEETIIEMKKGKTFLKLRDESVPLPFQTYEQMKDYCEKFKGNPRELASKVSQMQSNIKLPIKHYEQNKFRQIRLPKGPMAPYTHKFLMEEAWMFTKISDPERSRAGEILIDFFKKGNLSAIRPKDKPLQGKYPIHYKNLWNQIKAAIADRTMIINENDHSEFLGGIGRASKKIPEISLTQDIITTEGLKQSENKLPEPRSFPKWFNAEWMWAIKDSDLTGWVPMAEYPPADNELEDYAEHLNKTMEGVLQGTNCAREMGKCILTVGALMTECRLFPGKIKVVPIYARSKERKSMQEGLPVPSEMDCLFGICVKSKSHLNKDDGMYTIITFEFSIREPNLEKHQKYTVFEAGHTTVRMKKGDSVIGREVPLYLYCRTTALSKIKNDWLSKARRCFITTMDTVETICLRESAKAEENLVEKTLNEKQMWIGKKNGELIAQPLREALRVQLVQQFYFCIYNDSQLEGFCNEQKKILMALEGDKKNKSSFGFNPEGLLEKIEECLINNPMCLFMAQRLNELVIEASKRGAKFFKTD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcagaagcaggggatccgaaatgtcaaaaacttttgccgaaatagcagaggctttcttagagccagaagctgtaagaatagccaaagaagcaatagaagaatatggggatcatgaaagaaaaataatacaaattggaatacactttcaagtttgctgtatgttctgtgatgagtatttgggtgcaaatgggaatgatagatttgtgctcattgaaggaagaaaaagaggaactgcagtgtctttacaaaatgagctatgtaaaagctatgatctcgaaccactaccttttctttgtgacatttttgacagagaagaaaaacaattcgttgagattggaataacaagaaaagcagatgatagctattttcaatccaagtttggtaaacttggaaatagctgcaaaatatttgtattctcctatgatggaagattggacaaaaattgtgaaggccctatggaggaacaaaaattgagaattttcagttttctcgcaactgctgctgattttcttaggaaagaaaacatgttcaacgaaatcttcttaccagacgatgaagaaaccatcattgaaatgaagaaaggaaaaacatttctaaaattaagggatgaaagtgttcctttacctttccaaacttatgaacagatgaaagattattgtgaaaaatttaaaggaaatccaagagaattagcttctaaagtaagccaaatgcaaagcaacattaaattgccaataaaacactatgaacagaataaatttcgacaaatacgtctaccaaagggaccaatggcaccctatacccacaagttcttaatggaagaagcatggatgtttacaaagattagtgatcctgaaagatcaagagctggtgaaattctcattgatttcttcaagaaagggaatctttctgcaatcagacccaaagacaaacccttacaagggaaatatcccatacattacaaaaatctttggaatcagattaaagcagcaatagctgatagaaccatgataataaatgaaaatgatcattcagagtttcttggaggaattggaagagcctccaaaaagatcccagagatttctctaacccaagatataataacaacagaaggattaaaacaatcagaaaataagctaccagagccaagatctttccctaaatggttcaatgctgagtggatgtgggcaataaaagactctgatcttactggatgggtgcccatggctgaataccctcctgctgataatgaattggaagattacgctgaacatctaaataaaaccatggaaggggtcttacaaggaacaaattgcgcaagagaaatgggaaaatgcattcttactgttggggcactaatgactgaatgtagactatttcctgggaaaataaaagtggtgcccatatatgctagaagtaaagaaaggaaatcaatgcaagaaggacttccggtgccctcagaaatggactgtttatttggtatatgcgtcaaatcaaaatcacatttaaacaaggatgatggaatgtacacaataataacatttgaattttcaataagagagcctaatttagaaaaacatcaaaaatatactgtatttgaagctggacatacaacagttagaatgaagaaaggagattcagttattggaagagaagtccctctttatttatactgtaggacaactgctctttccaaaattaagaatgactggctatcaaaagctagaagatgtttcattacaactatggacacagtggaaactatatgtttgagagagtcagcaaaggctgaagaaaatctagttgaaaaaacactaaacgaaaaacaaatgtggattgggaagaaaaatggagagttaattgctcaacctttaagagaagccttaagggtacagttggtacaacaattttatttttgcatatataatgacagtcaattggaaggcttttgtaatgagcagaagaaaatcctaatggctcttgaaggtgacaagaaaaataaatcatcttttggatttaatcctgaaggattattagaaaagattgaagagtgtcttataaacaatccgatgtgcctttttatggctcaaaggttgaatgaacttgtgattgaggcctcaaaaagaggcgctaagtttttcaaaactgattgatcattataagaaaaaatccccttgctactgct</GBSeq_sequence>
+  </GBSeq>

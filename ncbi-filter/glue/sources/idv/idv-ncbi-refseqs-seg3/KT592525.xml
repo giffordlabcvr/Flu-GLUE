@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KT592525</GBSeq_locus>
+    <GBSeq_length>2193</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>23-NOV-2015</GBSeq_update-date>
+    <GBSeq_create-date>23-NOV-2015</GBSeq_create-date>
+    <GBSeq_definition>Influenza D virus (D/bovine/Italy/46484/2015) segment 3 polymerase P3 (P3) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KT592525</GBSeq_primary-accession>
+    <GBSeq_accession-version>KT592525.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KT592525.1|</GBSeqid>
+      <GBSeqid>gi|928194071</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza D virus (D/bovine/Italy/46484/2015)</GBSeq_source>
+    <GBSeq_organism>Influenza D virus (D/bovine/Italy/46484/2015)</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Deltainfluenzavirus; Deltainfluenzavirus influenzae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2193</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Chiapponi,C.</GBAuthor>
+          <GBAuthor>Faccini,S.</GBAuthor>
+          <GBAuthor>De Mattia,A.</GBAuthor>
+          <GBAuthor>Baioni,L.</GBAuthor>
+          <GBAuthor>Barbieri,I.</GBAuthor>
+          <GBAuthor>Rosignoli,C.</GBAuthor>
+          <GBAuthor>Nigrelli,A.</GBAuthor>
+          <GBAuthor>Foni,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Detection of Influenza D Virus among Swine and Cattle, Italy</GBReference_title>
+        <GBReference_journal>Emerging Infect. Dis. 22 (2), 352-354 (2016)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3201/eid2202.151439</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26812282</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2193</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Chiapponi,C.</GBAuthor>
+          <GBAuthor>Faccini,S.</GBAuthor>
+          <GBAuthor>De Mattia,A.</GBAuthor>
+          <GBAuthor>Baioni,L.</GBAuthor>
+          <GBAuthor>Barbieri,I.</GBAuthor>
+          <GBAuthor>Nigrelli,A.</GBAuthor>
+          <GBAuthor>Foni,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (26-AUG-2015) OIE Reference Laboratory for Swine Influenza, Istituto Zooprofilattico Sperimentale Della Lombardia E Dell'emilia Romagna, Brescia, Italy</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank Accession Numbers KT592523-KT592529 represent sequences from the 7 segments of Influenza D virus (D/bovine/Italy/46484/2015).; ##Assembly-Data-START## ; Assembly Method :: DNAstar v. 11.0 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2193</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2193</GBInterval_to>
+            <GBInterval_accession>KT592525.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza D virus (D/bovine/Italy/46484/2015)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>D/bovine/Italy/46484/2015</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>bovine</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1706853</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Italy</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2015</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>20..2152</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>2152</GBInterval_to>
+            <GBInterval_accession>KT592525.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>P3</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>20..2152</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>2152</GBInterval_to>
+            <GBInterval_accession>KT592525.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>P3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase P3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ALE66287.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSSVIREIAKRFLEQATINIAEEVVKEYGDHERTMISVGVHFQACCLISDEYTLEDETTPRYVLLEGLKRQEAISKQNNICSTLGLEPLRNLADIFDRKTRRFLEVGITKRESDEYYQEKFNKIGNDMDIHVFTYEGKYFSNNPNGLEDIQKTRIFTFLSFVSDELRKENMFTEMYVTEEGAPELEMYKSKLFVAMRDESVPLPYINYEHLRTRCETFKRNQAECEAKVADVASRLKIKLEHLEENKLRPLEIPKEKEAPYTHKFLMKDAWFFAKPHDSERAQPQQILYDFFEAANMGFMTTSPKPIFGKQGLMYHSLWGQTKRAIKDKRNELEPSEQRDFLCGIGRASKKIQEDKWQESKEEEFKQEETKGAAKRGFPTWFNEEWLWAMRDSGDGDNKIGDWIPMAEMPPCKNEMEDYAKKMCEELESKIQGTNCAREMSKLIHTIGSLHTECRNFPGKVKIVPIYCRGTLRGESTDCLFGIAIKGKSHLNKDDGMYTVVTFEFSTEEPNPSKHEKYTVFEAGTVPVEAVVLTPKRERVLKEKKLFXYCRTTGMSKLKNDWFSKCRRCLIPTMETVEQIVLKECALKEENRVSEVLENKRAWIAHENGENLTRLVSTKLKDLCRMLIVTQFYYCIYNDNQLEGFCNEQKKFLMFLQADKDSKSAFTFNQKGLYEKIEECIVSNPLCIFLADRLNKLFLVAKSNGAKYFE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ataagcaggagatttagaaatgtctagtgtaatcagagaaatcgcaaagcgattcttggaacaagcaacgataaacatcgctgaagaagtggtcaaagaatatggagaccatgaaagaacaatgatatctgttggagttcatttccaagcttgctgccttataagtgatgaatatacccttgaggatgagacaaccccaagatacgttcttttggagggattgaaaagacaagaggctataagcaaacagaataacatttgctccactttgggattggagcccttgagaaatctagcagatatttttgatcgaaaaacaagaagattccttgaggtaggaattacaaagagagaatccgatgagtattaccaggaaaagttcaacaaaataggaaatgacatggacatacatgttttcacatatgaaggcaaatacttcagcaacaatcccaatgggttggaagacatccaaaagacaagaatttttacattcctatcttttgtgtcagacgaattgagaaaagagaacatgttcacagaaatgtatgttacagaagaaggggcacctgagcttgaaatgtacaagtcaaagcttttcgttgcgatgagagacgagagcgtgcctttgccttacataaactatgagcaccttaggacaagatgtgaaacattcaaaagaaatcaggctgaatgcgaagcaaaggtagcggatgtggcttcacggctaaaaatcaaactggaacatctagaagaaaataaactgcggccgctagagataccgaaggagaaagaggctccctatacacacaaatttttgatgaaagatgcttggttctttgcaaaacctcatgattcggagagagcacaaccacaacagatattgtatgatttctttgaagcagcaaacatggggttcatgacgacgtccccaaaaccgatattcggaaagcaaggactaatgtatcactccctctgggggcagacaaaaagagcaataaaggacaagagaaatgagttggagccttcagaacagagagacttcctttgtggaattggaagagcctccaagaaaatacaggaggacaaatggcaagaatccaaagaggaagagtttaaacaagaagagactaaaggggcagctaagagggggttcccaacatggtttaatgaagaatggctttgggcaatgagggactcaggggatggggacaataaaataggggattggatacccatggcagaaatgcctccctgcaagaatgagatggaagattatgcaaaaaagatgtgtgaagaattagaatccaaaatacagggaacaaattgtgctagggaaatgtccaagttgatacatacaattgggagcttacatacagaatgtaggaactttccaggaaaggtcaagatagtgcctatatactgcagagggacactgagaggggaatcaactgactgtttgtttggaatagcaataaaagggaaatcccatttaaacaaagatgatggaatgtatactgttgtaacttttgagttttccactgaagaaccaaatccaagcaaacatgaaaaatatacggtcttcgaagctggaacagtgcctgtggaagccgtggtgttaactcccaaaagggaaagagttctcaaagagaagaaattgttcstttattgcagaactactggaatgagcaaattaaagaacgattggttttctaaatgcaggagatgtcttataccaacaatggagactgtagagcagatagtgctgaaagaatgcgctctgaaagaagaaaacagagtttcagaggtgttggagaataagagagcttggattgcccatgagaacggagagaatcttactagattggtatcaacaaagctcaaagacttgtgtagaatgctaattgtgacacaattttattactgtatatataacgacaatcaattggaaggattctgtaacgagcaaaagaaattccttatgtttcttcaagcagataaggactcaaaatctgcatttacttttaatcagaaagggttatatgaaaaaattgaagagtgtattgtcagcaatccattatgtattttcctagctgataggctaaacaaattatttcttgtagccaagtccaatggagctaagtactttgaatgaccaaaggccttgtaatgttaaaaatctccttgctactgctg</GBSeq_sequence>
+  </GBSeq>
