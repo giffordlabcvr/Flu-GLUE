@@ -150,27 +150,30 @@ sub create_isolate_database {
 
     my ($datafile, $species, $console) = @_;
 
-    # Step 1: Adjust the expected segment list based on species (e.g. IAV = 8 segments)
+    # Adjust the expected segment list based on species (e.g. IAV = 8 segments)
     my $num_segments = get_num_segments($species);
-    my $isolate_utils = FluIsolateUtils->new($fileio, $num_segments, $devtools);
+
+    # Instantiate our tools 
+    my $isolate_utils = FluIsolateUtils->new($fileio, $num_segments, $species, $devtools);
     my $fluio  = FluIO->new($fileio,  $num_segments, $module_path, $glue_dl_code_directory, $devtools);
 
-    # Step 2: Organize sequences into isolate groups based on ID
+    # Organize sequences into isolate groups based on ID
     my (%ordered_by_isolate, %null_isolate_entries);
     $isolate_utils->order_by_isolate($datafile, \%ordered_by_isolate, \%null_isolate_entries);
-	#$devtools->print_hash(\%ordered_by_isolate); die;
-
-    # Step 3: Check for metadata consistency within each isolate group
+ 
+    # Check for metadata consistency within each isolate group
     my (%consistent, %inconsistent);
     $isolate_utils->check_consistency(\%ordered_by_isolate, \%consistent, \%inconsistent);
 
-    # Step 4: Export inconsistent entries to a diagnostic TSV file
+    # Export inconsistent entries to a diagnostic TSV file
     my $outfile_inconsistent = $species . "_inconsistent_isolate_entries.tsv";
     $fluio->export_gb_entries_from_isolate_hash($outfile_inconsistent, \%inconsistent);
 
-    # Step 5: Assess segment completeness for consistent isolate entries
+    # Assess segment completeness for consistent isolate entries
     my (%complete, %incomplete);
     $isolate_utils->check_completeness(\%consistent, \%complete, \%incomplete, $species);
+	#$devtools->print_hash(\%complete); die;
+	#$devtools->print_hash(\%incomplete); die;
 
     # Step 6: Compress segment entries so only one sequence per segment per isolate remains
     my (%compressed_complete, %compressed_incomplete);

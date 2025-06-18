@@ -7,17 +7,9 @@
 package FluIsolateUtils;
 
 ############################################################################
-# Import statements/packages (externally developed packages)
+# Import statements
 ############################################################################
 use strict;
-
-############################################################################
-# Import statements/packages (internally developed packages)
-############################################################################
-
-############################################################################
-# Globals
-############################################################################
 
 ############################################################################
 # LIFECYCLE
@@ -29,17 +21,18 @@ use strict;
 #***************************************************************************
 sub new {
 
-    my ($class, $fileio, $num_segments, $devtools) = @_;
+    my ($class, $fileio, $num_segments, $species, $devtools) = @_;
 
-	# Member variables
     my $self = {
         fileio        => $fileio,
         devtools      => $devtools,
         num_segments  => $num_segments,
-   };
+        species       => $species,
+    };
     bless $self, $class;
     return $self;
 }
+
 
 ############################################################################
 # Subroutine Definitions
@@ -130,6 +123,7 @@ sub check_consistency {
 				my $entry = $entries->{$sequenceID};
 
 				foreach my $field (keys %consistent_values) {
+				
 					if (defined $consistent_values{$field}) {
 						if ($entry->{$field} ne '-' && $entry->{$field} ne $consistent_values{$field}) {
 							$is_consistent = 0;
@@ -138,6 +132,7 @@ sub check_consistency {
 					}
 					else {
 						if ($entry->{$field} ne '-') {
+						
 							$consistent_values{$field} = $entry->{$field};
 						}
 					}
@@ -150,6 +145,7 @@ sub check_consistency {
 		}
 
 		if ($is_consistent) {
+		
 			# Fill in missing values
 			for (my $segment_num = 1; $segment_num <= $self->{num_segments}; $segment_num++) {
 
@@ -180,67 +176,135 @@ sub check_consistency {
 #            $compressed_ref (hash reference to store compressed isolates)
 #***************************************************************************
 sub compress_isolates {
-
     my ($self, $isolates_ref, $compressed_ref) = @_;
 
+    my $species = $self->{species};
+    my $devtools = $self->{devtools};
+
+    # Define which segments are used for serotype determination
+    my %serotype_segment = (
+        iav => [4, 6],
+        ibv => [4],
+        icv => [4],
+        idv => [4],
+    );
+
     foreach my $isolate_id (keys %$isolates_ref) {
-		
-		#print "\n\t Print ISOLATE $isolate_id";
-        
+    
         my $uncompressed_isolate_ref = $isolates_ref->{$isolate_id};
-        #$devtools->print_hash($uncompressed_isolate_ref);
-        
         my %compressed_isolate;
-		my $initialised = undef;
-		for (my $segment_num = 1; $segment_num <= $self->{num_segments}; $segment_num++) {
-        
+        my $initialised = undef;
+        my @lineages;
+	    my %serotype_data;
+
+        for (my $segment_num = 1; $segment_num <= $self->{num_segments}; $segment_num++) {
+           
             if ($uncompressed_isolate_ref->{$segment_num}) {
             
-				my $entries = $uncompressed_isolate_ref->{$segment_num};
-				#$devtools->print_hash($entries);
-				my $longest_entry;
-				my $max_length = 0;
+                my $entries = $uncompressed_isolate_ref->{$segment_num};
+                my $longest_entry;
+                my $max_length = 0;
+
+
 				foreach my $sequenceID (keys %$entries) {
 					my $entry_ref = $entries->{$sequenceID};
-					#$devtools->print_hash($entry_ref);
 					
-					unless ($initialised) {           		
-            			#%compressed_isolate = ;
-            			$compressed_isolate{isolate}     = $entry_ref->{isolate};
-            			$compressed_isolate{rec_subtype} = $entry_ref->{rec_subtype};
-            			$compressed_isolate{gb_subtype}  = $entry_ref->{gb_subtype};
-            			$compressed_isolate{rec_subtype} = $entry_ref->{rec_subtype};
-            			$compressed_isolate{iso_host}    = $entry_ref->{iso_host};
-            			$compressed_isolate{pubmed_id}   = $entry_ref->{pubmed_id};
-            			$compressed_isolate{iso_day}     = $entry_ref->{iso_day};
-            			$compressed_isolate{iso_month}   = $entry_ref->{iso_month};
-            			$compressed_isolate{iso_year}    = $entry_ref->{iso_year};
-            			$compressed_isolate{iso_country} = $entry_ref->{iso_country};
-             			$compressed_isolate{iso_source}  = $entry_ref->{iso_source};
-            			$compressed_isolate{lab_host}    = $entry_ref->{lab_host};
-            			$compressed_isolate{'length'}    = $entry_ref->{'length'};
-            			$compressed_isolate{rec_segment} = $entry_ref->{rec_segment};
-            			$initialised = 1;
-            		}
-					
-					if ($entry_ref->{length} > $max_length) {
+					#$devtools->print_hash($entry_ref); die;
+
+					unless ($initialised) {
+						$compressed_isolate{isolate}        = $entry_ref->{isolate};
+						$compressed_isolate{iso_host}       = $entry_ref->{gb_host};
+						$compressed_isolate{pubmed_id}      = $entry_ref->{pubmed_id};
+						$compressed_isolate{iso_day}        = $entry_ref->{gb_day};
+						$compressed_isolate{iso_month}      = $entry_ref->{gb_month};
+						$compressed_isolate{iso_year}       = $entry_ref->{gb_year};
+						$compressed_isolate{iso_country}    = $entry_ref->{gb_country};
+						$compressed_isolate{iso_place_name} = $entry_ref->{gb_place_name};
+						$compressed_isolate{lab_host}       = $entry_ref->{gb_lab_host};
+						$compressed_isolate{sample_type}    = $entry_ref->{gb_source};
+
+						# Derive origin_type and host
+						my $host_str = $entry_ref->{gb_host} // '';
+						my $isolate_str = $entry_ref->{isolate} // '';
+
+						if (
+							$host_str =~ /^environment$/i ||
+							$host_str =~ /environmental|air|water|surface/i ||
+							$isolate_str =~ m#^[A-Z]/environment/#i
+						) {
+							$compressed_isolate{origin_type} = 'environment';
+							$compressed_isolate{host}        = '-';
+						} else {
+							$compressed_isolate{origin_type} = 'host';
+							$compressed_isolate{host}        = $host_str ne '' ? $host_str : '-';
+						}
+
+						$initialised = 1;
+					}
+
+
+					my $prefer_this = 0;
+
+					# Prefer entries with serotype data if this segment is designated for serotyping
+					if (grep { $_ == $segment_num } @{ $serotype_segment{$species} || [] }) {
+						if (defined $entry_ref->{rec_subtype} && $entry_ref->{rec_subtype} ne '-') {
+							$prefer_this = 1;
+						}
+					}
+
+					if (
+						!$longest_entry ||
+						$prefer_this ||
+						($entry_ref->{length} > $max_length && !$prefer_this)
+					) {
 						$max_length = $entry_ref->{length};
 						$longest_entry = $entry_ref;
 					}
+					
+					
 				}
 
-				# Store the longest entry for this segment
-				my $key = 'segment' . $segment_num . '_accession';
-				#$devtools->print_hash($longest_entry); die;
-				$compressed_isolate{$key} = $longest_entry->{sequenceID};
 
+
+                # Assign accession number for the segment
+                my $key = 'segment' . $segment_num . '_accession';
+                $compressed_isolate{$key} = $longest_entry->{sequenceID};
+
+                # Capture subtype info if segment is used for serotyping
+                if (grep { $_ == $segment_num } @{ $serotype_segment{$species} || [] }) {
+                    $serotype_data{rec_serotype}  ||= $longest_entry->{rec_subtype}  if $longest_entry->{rec_subtype} ne '-';
+                    $serotype_data{gb_serotype}   ||= $longest_entry->{gb_subtype}   if $longest_entry->{gb_subtype}  ne '-';
+                    $serotype_data{mlca_serotype} ||= $longest_entry->{rec_subtype} if $longest_entry->{rec_subtype} ne '-';
+                }
+
+                # Accumulate for genome_lineage (may contain dashes)
+                push @lineages, ($longest_entry->{rec_subtype} || '-');
+            } else {
+                push @lineages, '-';  # No segment, placeholder
             }
         }
         
+        
+        
+
+        $compressed_isolate{gb_serotype}    = $serotype_data{gb_subtype}   || '-';
+        $compressed_isolate{rec_serotype}   = $serotype_data{rec_subtype}  || '-';
+        $compressed_isolate{mlca_serotype}  = $serotype_data{mlca_serotype}|| '-';
+
+        # Create genome_lineage from all segments' recogniser-based subtypes
+        my $lineage_string = join('|', @lineages);
+        $compressed_isolate{genome_lineage} = $lineage_string;
+
+		#$devtools->print_hash(\%compressed_isolate);
+
         $compressed_ref->{$isolate_id} = \%compressed_isolate;
-    
     }
 }
+
+
+
+
+
 
 #***************************************************************************
 # Subroutine:  check_completeness

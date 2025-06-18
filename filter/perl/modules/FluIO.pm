@@ -61,9 +61,10 @@ sub write_isolate_data_table {
     my ($self, $isolates_ref, $output_file, $species) = @_;
 
     # Create header line
-    my @header_fields = qw [ isolate gb_subtype rec_subtype  
+    my @header_fields = qw [ isolate gb_serotype rec_serotype mlca_serotype genome_lineage
                              iso_year iso_month iso_day
-                             iso_host iso_source iso_country 
+                             origin_type iso_host sample_type
+                             iso_country iso_place_name
                              segment1_accession segment2_accession segment3_accession segment4_accession 
                              segment5_accession segment6_accession segment7_accession ];
 
@@ -82,14 +83,19 @@ sub write_isolate_data_table {
         # Initialize a hash to store row data
         my %row_data = (
             isolate => $isolate_id,
-            gb_subtype => '-',
-            rec_subtype => '-',
+            gb_serotype => '-',
+            rec_serotype => '-',
+            mlca_serotype => '-',
+            genome_lineage => '-',
             iso_year => '-',
             iso_month => '-',
             iso_day => '-',
+            origin_type => '-',
             iso_host => '-',
-            iso_source => '-',
+            sample_type => '-',
             iso_country => '-',
+            iso_place_name => '-',
+            
             segment1_accession => '-',
             segment2_accession => '-',
             segment3_accession => '-',
@@ -107,11 +113,15 @@ sub write_isolate_data_table {
 		$row_data{iso_year} = $isolate_ref->{iso_year} if $isolate_ref->{iso_year};
 		$row_data{iso_month} = $isolate_ref->{iso_month} if $isolate_ref->{iso_month};
 		$row_data{iso_day} = $isolate_ref->{iso_day} if $isolate_ref->{iso_day};
+		$row_data{origin_type} = $isolate_ref->{origin_type} if $isolate_ref->{origin_type};
 		$row_data{iso_host} = $isolate_ref->{iso_host} if $isolate_ref->{iso_host};
-		$row_data{iso_source} = $isolate_ref->{iso_source} if $isolate_ref->{iso_source};
+		$row_data{sample_type} = $isolate_ref->{sample_type} if $isolate_ref->{sample_type};
 		$row_data{iso_country} = $isolate_ref->{iso_country} if $isolate_ref->{iso_country};
-		$row_data{gb_subtype} = $isolate_ref->{gb_subtype} if $isolate_ref->{gb_subtype};
-		$row_data{rec_subtype} = $isolate_ref->{rec_subtype} if $isolate_ref->{rec_subtype};
+		$row_data{iso_place_name} = $isolate_ref->{iso_place_name} if $isolate_ref->{iso_place_name};
+		$row_data{gb_serotype} = $isolate_ref->{gb_serotype} if $isolate_ref->{gb_serotype};
+		$row_data{rec_serotype} = $isolate_ref->{rec_serotype} if $isolate_ref->{rec_serotype};
+		$row_data{mlca_serotype} = $isolate_ref->{mlca_serotype} if $isolate_ref->{mlca_serotype};
+		$row_data{genome_lineage} = $isolate_ref->{genome_lineage} if $isolate_ref->{genome_lineage};
 		$row_data{segment1_accession} = $isolate_ref->{segment1_accession} if $isolate_ref->{segment1_accession};
 		$row_data{segment2_accession} = $isolate_ref->{segment2_accession} if $isolate_ref->{segment2_accession};
 		$row_data{segment3_accession} = $isolate_ref->{segment3_accession} if $isolate_ref->{segment3_accession};
@@ -151,9 +161,10 @@ sub export_gb_entries_from_isolate_hash {
     # Create header line
     my @output;
     my @header_fields = qw [ sequenceID isolate gb_segment rec_segment 
-                             gb_subtype rec_subtype                               
+                             gb_serotype rec_serotype mlca_genotype genome_lineage                              
                              iso_year iso_month iso_day
-                             iso_host iso_source iso_country iso_place_name
+                             origin_type iso_host sample_type 
+                             iso_country iso_place_name
                              pubmed_id length ];
     my $header = join("\t", @header_fields);
     push (@output, "$header\n");
@@ -178,13 +189,16 @@ sub export_gb_entries_from_isolate_hash {
 					push (@row_values, $sequence_id);
 					my $gb_segment = '-';
 					my $rec_segment = '-';
-					my $gb_subtype = '-';
-					my $rec_subtype = '-';
+					my $gb_serotype = '-';
+					my $mlca_serotype = '-';
+					my $rec_serotype = '-';
+					my $genome_lineage = '-';
 					my $iso_year = '-';
 					my $iso_month = '-';
 					my $iso_day = '-';
+					my $origin_type = '-';
 					my $iso_host = '-';
-					my $iso_source = '-';
+					my $sample_type = '-';
 					my $iso_country = '-';
 					my $iso_place_name = '-';
 					my $pubmed_id = '-';
@@ -195,11 +209,17 @@ sub export_gb_entries_from_isolate_hash {
 					if ($gb_entry_details->{rec_segment}) {
 						$rec_segment =  $gb_entry_details->{rec_segment};		
 					}										
-					if ($gb_entry_details->{gb_subtype}) {
-						$gb_subtype =  $gb_entry_details->{gb_subtype};		
+					if ($gb_entry_details->{gb_serotype}) {
+						$gb_serotype =  $gb_entry_details->{gb_serotype};		
 					}
-					if ($gb_entry_details->{rec_subtype}) {
-						$rec_subtype =  $gb_entry_details->{rec_subtype};		
+					if ($gb_entry_details->{rec_serotype}) {
+						$rec_serotype =  $gb_entry_details->{rec_serotype};		
+					}
+					if ($gb_entry_details->{mlca_serotype}) {
+						$rec_serotype =  $gb_entry_details->{mlca_serotype};		
+					}
+					if ($gb_entry_details->{genome_lineage}) {
+						$rec_serotype =  $gb_entry_details->{genome_lineage};		
 					}
 					if ($gb_entry_details->{iso_year}) {
 						$iso_year =  $gb_entry_details->{iso_year};		
@@ -210,11 +230,14 @@ sub export_gb_entries_from_isolate_hash {
 					if ($gb_entry_details->{iso_day}) {
 						$iso_day =  $gb_entry_details->{iso_day};		
 					}
+					if ($gb_entry_details->{origin_type}) {
+						$origin_type =  $gb_entry_details->{origin_type};		
+					}
 					if ($gb_entry_details->{iso_host}) {
 						$iso_host =  $gb_entry_details->{iso_host};		
 					}
-					if ($gb_entry_details->{iso_source}) {
-						$iso_source =  $gb_entry_details->{iso_source};		
+					if ($gb_entry_details->{sample_type}) {
+						$sample_type =  $gb_entry_details->{sample_type};		
 					}
 					if ($gb_entry_details->{iso_country}) {
 						$iso_country =  $gb_entry_details->{iso_country};		
@@ -230,12 +253,14 @@ sub export_gb_entries_from_isolate_hash {
 					push (@row_values, $isolate_id);
 					push (@row_values, $gb_segment);
 					push (@row_values, $rec_segment);
-					push (@row_values, $gb_subtype);
-					push (@row_values, $rec_subtype);
+					push (@row_values, $gb_serotype);
+					push (@row_values, $rec_serotype);
 					push (@row_values, $iso_year);
 					push (@row_values, $iso_month);
 					push (@row_values, $iso_day);
-					push (@row_values, $iso_source);
+					push (@row_values, $origin_type);
+					push (@row_values, $iso_host);
+					push (@row_values, $sample_type);
 					push (@row_values, $iso_country);
 					push (@row_values, $iso_place_name);
 					push (@row_values, $pubmed_id);

@@ -6,61 +6,60 @@ run file glue/build/core/fluSchemaExtensions.glue
 
 project flu
 
-  # load project settings
-  run file glue/build/core/fluProjectSettings.glue
+	# load project settings
+	run file glue/build/core/fluProjectSettings.glue
 
-  # create modules
-  run file glue/build/core/fluModules.glue
+	# create modules
+	run file glue/build/core/fluModules.glue
 
-  # Set up M49 standard for country & region data
-  #run file glue/build/core/m49_countries/populateM49All.glue
+	# Set up M49 standard for country & region data
+	#run file glue/build/core/m49_countries/populateM49All.glue
 
-  # Define genome features
-  run file glue/build/core/reference/fluFeaturesNonCoding.glue
-  run file glue/build/core/reference/fluFeaturesCoding.glue
- 
-  # Import sequences 
-  run file glue/build/core/fluImportSources.glue
+	# Define genome features
+	run file glue/build/core/reference/fluFeaturesNonCoding.glue
+	run file glue/build/core/reference/fluFeaturesCoding.glue
 
-  # Import sequence-associated data
-  run file glue/build/core/metadata/fluLoadSequenceMetadata.glue
+	# Import sequences 
+	run file glue/build/core/fluImportSources.glue
 
-  # Import isolate data and link to imported sequences
-  run script glue/build/core/metadata/fluLoadIsolateDataNcbiRefseqs.js
+	# Import sequence-associated data
+	run file glue/build/core/metadata/fluLoadSequenceMetadata.glue
 
-  # Define reference sequences
-  run file glue/build/core/reference/fluReferences.glue
+	# Import isolate data and link to imported sequences
+	run script glue/build/core/metadata/fluLoadIsolateDataNcbiRefseqs.js
 
-  # Define feature locations on master reference sequences
-  run file glue/build/core/reference/fluFeatureLocations.glue
+	# Define reference sequences
+	run file glue/build/core/reference/fluReferences.glue
 
-  # Import alignments
-  run file glue/build/core/msa/fluLoadUnconstrainedAlignmentsSpecies.glue
+	# Define feature locations on master reference sequences
+	run file glue/build/core/reference/fluFeatureLocations.glue
 
-  # Define constrained alignment tree
-  run file glue/build/core/msa/fluAlignmentTree.glue
+	# Import alignments
+	run file glue/build/core/msa/fluLoadUnconstrainedAlignmentsSpecies.glue
 
-  # Derive constrained alignments from unconstrained alignments
-  run file glue/build/core/msa/fluDeriveConstrainedMsasSpecies.glue
+	# Define constrained alignment tree
+	run file glue/build/core/msa/fluAlignmentTree.glue
 
-  # Compute MSAs
-  run file glue/build/core/msa/fluComputeAlignmentsIbv.glue
-  run file glue/build/core/msa/fluComputeAlignmentsIav.glue
+	# Derive constrained alignments from unconstrained alignments
+	run file glue/build/core/msa/fluDeriveConstrainedMsasSpecies.glue
 
-  # Import phylogenies
-  run file glue/build/core/phylogeny/iavImportPhylogenies.glue
-  run file glue/build/core/phylogeny/ibvImportPhylogenies.glue
-  run file glue/build/core/phylogeny/icvImportPhylogenies.glue
-  run file glue/build/core/phylogeny/idvImportPhylogenies.glue
+	# Compute MSAs
+	run file glue/build/core/msa/fluComputeAlignmentsIbv.glue
+	run file glue/build/core/msa/fluComputeAlignmentsIav.glue
 
-  # Validate
-  validate
+	# Import phylogenies
+	run file glue/build/core/phylogeny/iavImportPhylogenies.glue
+	run file glue/build/core/phylogeny/ibvImportPhylogenies.glue
+	run file glue/build/core/phylogeny/icvImportPhylogenies.glue
+	run file glue/build/core/phylogeny/idvImportPhylogenies.glue
 
-  # Extension projects
-  #run file glue/build/extension/iav/buildIavExtension.glue
-  #run file glue/build/extension/ibv/buildIbvExtension.glue
-  #run file glue/build/extension/icv/buildIcvExtension.glue
-  #run file glue/build/extension/idv/buildIdvExtension.glue
+	# Import isolate tables for extension
+	run script glue/build/extension/iav/importIavIsolateTable.js
+	run script glue/build/extension/iav/importIbvIsolateTable.js
+	run script glue/build/extension/iav/importIcvIsolateTable.js
+	run script glue/build/extension/iav/importIdvIsolateTable.js
 
+	# Validate
+	validate
 
 exit
