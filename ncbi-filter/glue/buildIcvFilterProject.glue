@@ -60,6 +60,9 @@ project icv_filter
 
   # NCBI nuccore sequences
   import source /Users/robertgifford/Sources/flu/icv-ncbi-nuccore
+
+  # Remove reference sequences from nuccore source
+  run script glue/icv/icvDeleteRefseqsFromNuccore.js
   
   # Extract data from GenBank for NCBI nuccore set
   module icvFilterGenbankXmlPopulator populate -w "source.name = 'icv-ncbi-nuccore'"
