@@ -1,0 +1,5 @@
+
+  # Genotypes only import (used in set-up only)
+  create module -f modules/idv/idvSideDataImporterGenotypes.xml
+  module idvSideDataImporterGenotypes populate -f tabular/nuccore-genotypes/idv-nuccore-seg4-genotypes.tsv
+  
