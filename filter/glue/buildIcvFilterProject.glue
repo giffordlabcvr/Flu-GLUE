@@ -43,7 +43,7 @@ project icv_filter
   # Run segment recogniser
   run script glue/icv/icvRecogniseSegmentsRefseq.js
 
-  # Define alignment tree
+  # Define alignment tree (required for MLCA-based genotyper)
   run file glue/icv/icvAlignmentTree.glue
 
   # Compute MSAs
@@ -71,11 +71,23 @@ project icv_filter
   # Remove short sequences
   run script glue/icv/icvRemoveShortSequences.js
 
-  # Do segment 4 classification
-  run script glue/icv/icvSeg4ClassifyNuccore.js
+  # Remove patent sequences
+  run script glue/icv/icvRemovePatentSequences.js
 
-  # Add nuccore sequences to alignment tree
-  #run file glue/icv/icvAlignmentTreeNuccore.glue
+  # Remove patent sequences
+  run script glue/icv/icvRemovePatentSequences.js
+
+  # Fill isolate from full name
+  run script glue/icv/icvFillIsolateFromFullName.js
+
+  # Fill missing country from isolate
+  run script glue/icv/icvFillMissingCountryFromIsolate.js
+
+  # Do segment 4 classification
+  #run script glue/icv/icvSeg4ClassifyNuccore.js
+
+  # Or just import segment 4 classifications from previous run
+  run file glue/icv/icvImportGenotypesNuccore.glue
         
   # Validate
   validate

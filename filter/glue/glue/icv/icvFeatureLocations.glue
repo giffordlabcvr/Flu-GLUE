@@ -47,6 +47,74 @@ reference REF_ICV_S4_MASTER_NC_006310
   add feature-location ICV_S4_3UTR
   feature-location ICV_S4_3UTR add segment 1990 2073  
   exit
+   
+  
+# C/Mississippi reference
+reference REF_ICV_S4_LC122635
+
+  add feature-location ICV_S4_whole_genome
+  feature-location ICV_S4_whole_genome add segment 1 1983
+  add feature-location ICV_HEF
+  feature-location ICV_HEF add segment 1 1947
+  add feature-location ICV_S4_3UTR
+  feature-location ICV_S4_3UTR add segment 1948 1983  
+  exit
+
+# C/Aichi reference
+reference REF_ICV_S4_AB899777
+
+  add feature-location ICV_S4_whole_genome
+  feature-location ICV_S4_whole_genome add segment 1 1926
+  add feature-location ICV_HEF
+  feature-location ICV_HEF add segment 1 1926
+  exit
+
+
+# C/Taylor reference
+reference REF_ICV_S4_AB035357
+
+  add feature-location ICV_S4_whole_genome
+  feature-location ICV_S4_whole_genome add segment 1 1987
+  add feature-location ICV_HEF
+  feature-location ICV_HEF add segment 1 1938
+  add feature-location ICV_S4_3UTR
+  feature-location ICV_S4_3UTR add segment 1939 1987  
+  exit
+
+
+# C/Yamagata reference
+reference REF_ICV_S4_LC122633
+
+  add feature-location ICV_S4_whole_genome
+  feature-location ICV_S4_whole_genome add segment 1 1986
+  add feature-location ICV_HEF
+  feature-location ICV_HEF add segment 1 1950
+  exit
+
+
+# C/Kanagawa reference
+reference REF_ICV_S4_LC122674
+
+  add feature-location ICV_S4_whole_genome
+  feature-location ICV_S4_whole_genome add segment 1 1986
+  add feature-location ICV_HEF
+  feature-location ICV_HEF add segment 1 1950
+  add feature-location ICV_S4_3UTR
+  feature-location ICV_S4_3UTR add segment 1951 1986  
+  exit
+
+
+# C/Sao Paolo reference
+reference REF_ICV_S4_LC122644
+
+  add feature-location ICV_S4_whole_genome
+  feature-location ICV_S4_whole_genome add segment 1 1926
+  add feature-location ICV_HEF
+  feature-location ICV_HEF add segment 1 1926
+  exit
+
+
+
 
 reference REF_ICV_S5_MASTER_NC_006311
 
