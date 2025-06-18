@@ -30,7 +30,7 @@ _.each(ncbiNuccoreSeg4, function(ncbiNuccoreSeg4) {
 		//var genoResultElements = subtypeResult.split('_');
 		//var subtype = genoResultElements[1];
 		//var clade = genoResultElements[1];
-		var subtype = subtypeResult.replace("AL_IBV_SEG4_", "");
+		var subtype = subtypeResult.replace("AL_ICV_SEG4_", "");
 		glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
 		
 			glue.command(["set", "field", "rec_subtype", subtype]);

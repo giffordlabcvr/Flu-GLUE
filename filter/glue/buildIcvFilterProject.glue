@@ -50,7 +50,7 @@ project icv_filter
   run file glue/icv/icvComputeAlignments.glue
 
   # Compute phylogenies
-  run file glue/icv/icvBuildPhylogenies.glue
+  #run file glue/icv/icvBuildPhylogenies.glue
 
   # Import phylogenies
   run file glue/icv/icvImportPhylogenies.glue
@@ -59,14 +59,10 @@ project icv_filter
   #~# Process NCBI nuccore build
 
   # NCBI nuccore sequences
-  #import source /Users/rob/Sources/flu/flu-filter/icv-ncbi-nuccore
   import source /Users/robertgifford/Sources/flu/icv-ncbi-nuccore
   
   # Extract data from GenBank for NCBI nuccore set
   module icvFilterGenbankXmlPopulator populate -w "source.name = 'icv-ncbi-nuccore'"
-
-  # Run segment recogniser
-  run script glue/icv/icvRecogniseSegmentsNuccore.js
 
   # Remove short sequences
   run script glue/icv/icvRemoveShortSequences.js
@@ -74,8 +70,14 @@ project icv_filter
   # Remove patent sequences
   run script glue/icv/icvRemovePatentSequences.js
 
-  # Remove patent sequences
-  run script glue/icv/icvRemovePatentSequences.js
+  # Run segment recogniser
+  run script glue/icv/icvRecogniseSegmentsNuccore.js
+
+  # Do segment 4 classification
+  #run script glue/icv/icvSeg4ClassifyNuccore.js
+
+  # Or just import segment 4 classifications from previous run
+  run file glue/icv/icvImportGenotypesNuccore.glue
 
   # Fill isolate from full name
   run script glue/icv/icvFillIsolateFromFullName.js
@@ -83,14 +85,8 @@ project icv_filter
   # Fill missing country from isolate
   run script glue/icv/icvFillMissingCountryFromIsolate.js
 
-  # Do segment 4 classification
-  #run script glue/icv/icvSeg4ClassifyNuccore.js
-
-  # Or just import segment 4 classifications from previous run
-  run file glue/icv/icvImportGenotypesNuccore.glue
         
   # Validate
   validate
 
   exit
-  

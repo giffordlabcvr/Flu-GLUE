@@ -167,6 +167,7 @@ sub check_consistency {
 		}
 
     }
+
 }
 
 #***************************************************************************
@@ -300,8 +301,6 @@ sub compress_isolates {
         $compressed_ref->{$isolate_id} = \%compressed_isolate;
     }
 }
-
-
 
 
 

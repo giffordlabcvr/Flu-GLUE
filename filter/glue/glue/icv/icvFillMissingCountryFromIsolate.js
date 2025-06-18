@@ -1,6 +1,7 @@
 // Infer Missing gb_country / m49_country from Isolate Name
 
 var placeToCountry = {
+
   "Sapporo": { country: "Japan", m49: "JPN" },
   "Kanagawa": { country: "Japan", m49: "JPN" },
   "Kyoto": { country: "Japan", m49: "JPN" },
@@ -25,7 +26,6 @@ var placeToCountry = {
   "Johannesburg": { country: "South Africa", m49: "ZAF" },
 
   "Sao Paulo": { country: "Brazil", m49: "BRA" },
-
 
   "Paris": { country: "France", m49: "FRA" },
   "Berlin": { country: "Germany", m49: "DEU" },
@@ -60,9 +60,11 @@ if (result.listResult && result.listResult.row) {
 		var place = match[1];
 		if (placeToCountry[place]) {
 		  glue.inMode("sequence/icv-ncbi-nuccore/" + sequenceID, function() {
+		  
 			glue.command(["set", "field", "gb_place_sampled", place]);
-			glue.command(["set", "field", "gb_country", placeToCountry[place].country]);
-			// glue.command(["set", "field", "m49_country", placeToCountry[place].m49]);
+			glue.command(["set", "field", "gb_country", placeToCountry[place].country]);			
+			glue.command(["set", "link-target", "m49_country", "iso_alpha3", placeToCountry[place].m49]);
+			
 		  });
 		  glue.log("INFO", "Set geo info for " + sequenceID + " based on place: " + place);
 		} else {
