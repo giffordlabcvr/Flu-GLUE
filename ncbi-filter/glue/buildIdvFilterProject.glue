@@ -1,0 +1,74 @@
+delete project idv_filter
+
+create project idv_filter "GLUE project for filtering influenza D virus (IDV) data" --minVersion 1.1.41
+
+schema-project idv_filter
+
+  run file glue/idv/idvFilterSchemaExtensions.glue
+  exit
+
+project idv_filter
+
+
+  #~# Reference project build
+
+  # Create extension modules  
+  run file glue/idv/idvFilterModules.glue
+
+  # Set up ISO countries  
+  run file glue/m49_countries/populateM49All.glue
+
+  # Define genome features
+  run file glue/all/fluFeaturesNonCoding.glue
+  run file glue/all/fluFeaturesCoding.glue
+
+  # Import sources
+  run file glue/idv/idvFilterLoadSources.glue
+
+  # Import data from GenBank XML
+  module idvFilterGenbankXmlPopulator populate
+ 
+  # Import cleaned tabular data 
+  run file glue/idv/idvImportDataRefseqs.glue
+  
+  # Define reference sequences
+  run file glue/idv/idvFilterReferences.glue
+
+  # Define feature locations on reference sequences
+  run file glue/idv/idvFeatureLocations.glue
+
+  # Compute the unconstrained reference MSAs using MAFFT
+  run file glue/idv/idvComputeUnconstrainedMsas.glue
+
+  # Define constrained alignment tree
+  run file glue/idv/idvAlignmentTree.glue
+
+  # Compute constrained MSAs
+  run file glue/idv/idvComputeAlignments.glue
+
+  # Compute reference phylogenies (one per segment)
+  run file glue/idv/idvBuildPhylogenies.glue
+
+  # Import phylogenies
+  run file glue/idv/idvImportPhylogenies.glue
+
+
+  #~# Process NCBI nuccore build
+
+  # NCBI nuccore sequences
+   import source /Users/robertgifford/Sources/flu/idv-ncbi-nuccore
+  
+  # Extract data from GenBank for NCBI nuccore set
+  module idvFilterGenbankXmlPopulator populate -w "source.name = 'idv-ncbi-nuccore'"
+
+  # Run segment recogniser
+  run script glue/idv/idvRecogniseSegmentsNuccore.js
+
+  # Do segment 4 classification via MLCA
+  run script glue/idv/idvSeg4ClassifyNuccore.js
+        
+  # Validate
+  validate
+
+  exit
+  

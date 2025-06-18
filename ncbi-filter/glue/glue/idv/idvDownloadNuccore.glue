@@ -1,0 +1,11 @@
+# Delete any existing importer
+delete module idvNcbiImporter
+
+# Create and configure importer module
+create module -f modules/idv/download/idvNcbiImporter.xml
+
+# Run the import
+module idvNcbiImporter import
+
+# Export the imported source
+export source idv-ncbi-nuccore

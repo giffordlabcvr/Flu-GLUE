@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>CY222164</GBSeq_locus>
+    <GBSeq_length>2276</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>17-MAR-2017</GBSeq_update-date>
+    <GBSeq_create-date>17-MAR-2017</GBSeq_create-date>
+    <GBSeq_definition>Influenza B virus (B/Mississippi/02/2017) polymerase PA (PA) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>CY222164</GBSeq_primary-accession>
+    <GBSeq_accession-version>CY222164.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gnl|CDC|CDC-3025628636_ZZYPOKS5_v1.3</GBSeqid>
+      <GBSeqid>gb|CY222164.1|</GBSeqid>
+      <GBSeqid>gi|1160548808</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza B virus (B/Mississippi/02/2017)</GBSeq_source>
+    <GBSeq_organism>Influenza B virus (B/Mississippi/02/2017)</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Betainfluenzavirus; Betainfluenzavirus influenzae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2276</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Jernigan,D.</GBAuthor>
+          <GBAuthor>Wentworth,D.</GBAuthor>
+          <GBAuthor>Katz,J.</GBAuthor>
+          <GBAuthor>Barnes,J.</GBAuthor>
+          <GBAuthor>Garten,R.</GBAuthor>
+          <GBAuthor>Xu,X.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Influenza Sequencing Activity group</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2276</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Jernigan,D.</GBAuthor>
+          <GBAuthor>Wentworth,D.</GBAuthor>
+          <GBAuthor>Katz,J.</GBAuthor>
+          <GBAuthor>Barnes,J.</GBAuthor>
+          <GBAuthor>Garten,R.</GBAuthor>
+          <GBAuthor>Xu,X.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (17-MAR-2017) WHO Collaborating Center for Surveillance, Epidemiology and Control of Influenza, Influenza Division, Centers for Disease Control and Prevention, 1600 Clifton Road, N.E., Atlanta, GA 30333, United States</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##FluData-START## ; EPI_ISOLATE_ID :: EPI_ISL_255235 ; NAME :: B/Mississippi/02/2017 ; TYPE :: B ; Segment_name :: PA ; HOST_AGE :: 20 ; HOST_GENDER :: F ; PASSAGE :: C1 (2017-02-06) ; LOCATION :: United States / Mississippi ; COLLECT_DATE :: 18-Jan-2017 ; Lineage :: Victoria ; RESIST_TO_OSELTAMIVIR :: Sensitive ; RESIST_TO_ZANAMVIR :: Sensitive ; SPECIMEN_ID :: 170902000021 ORIGINAL ; CHARACTERIZATION :: B/BRISBANE/60/2008-LIKE ; SENDER_LAB :: Mississippi Public Health Laboratory ; SEQLAB_SAMPLE_ID :: 3025628636 ; EPI_SEQUENCE_ID :: EPI954992 ; ##FluData-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2276</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2276</GBInterval_to>
+            <GBInterval_accession>CY222164.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza B virus (B/Mississippi/02/2017)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>B/Mississippi/02/2017</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens; gender F; age 20</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1962036</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>USA: Mississippi</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>18-Jan-2017</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>passage details: C1 (2017-02-06);
+type: Victoria</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>16..2196</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>16</GBInterval_from>
+            <GBInterval_to>2196</GBInterval_to>
+            <GBInterval_accession>CY222164.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>PA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>16..2196</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>16</GBInterval_from>
+            <GBInterval_to>2196</GBInterval_to>
+            <GBInterval_accession>CY222164.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>PA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase PA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AQZ37241.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDTFITRNFQTTIIQKAKNTMAEFSEDPELQPAMLFNICVHLEVCYVISDMNFLDEEGKAYTALEGQGKEQNLRPQYEVIEGMPRTIAWMVQRSLAQEHGIETPKYLADLFDYKTKRFIEVGITKGLADDYFWKKKEKLGNSMELMIFSYNQDYSLSNESSLDEEGKGRVLSRLTELQAELSLKNLWQVLIGEEDVEKGIDFKLGQTISRLRDISVPAGFSNFEGMRSYIDNIDPKGAIERNLARMSPLVSVTPKKLTWEDLRPIGPHIYDHELPEVPYNAFLLMSDELGLANMTEGKSKKPKTLAKECLEKYSTLRDQTDPILIMKSEKANENFLWKLWRDCVNTISNKEASNELQKTNYAKWATGDGLTYQKIMKEVAIDDETMCQEEPKIPNKCRVAAWVQTEMNLLSTLTSKRALDLPEIGPDIAPVEHVGSERRKYFVNEINYCKASTVMMKYVLFHTSLLNESNASMGKYKVIPITNRVVNEKGESFDMLYGLAVKGQSHLRGDTDVVTVVTFEFSSTDPRVDSGKWPKYTVFRIGSLFVSGREKSVYLYCRVNGTNKIQMKWGMEARRCLLQSMQQMEAIVEQESSIQGYDMTKACFKGDRVNSPKTFSIGTQEGKLVKGSFGKALRVIFTKCLMHYVFGNAQLEGFSAESRRLLLLIQALKDRKGPWVFDLEGMYSGIEECISNNPWVIQSVYWFNEWLGFEKEGSKVLESVDEVMDE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtttgatttatcataatggatacttttattacaagaaacttccagactacaataatacaaaaggccaaaaacacaatggcagaatttagtgaagatcctgaattgcaaccagcaatgctattcaatatctgcgtccatctagaggtttgctatgtaataagtgacatgaattttcttgacgaagaaggaaaagcatatacagcattagaaggacaagggaaagaacaaaacttgagaccacaatatgaagtaattgagggaatgccaagaaccatagcatggatggtccagagatccttagctcaagagcatggaatagagactcccaagtatctggctgatttgtttgattacaaaaccaaaagatttatagaagttggaataacaaagggattggctgatgattacttttggaaaaagaaagaaaaattgggaaatagcatggaactgatgatattcagctacaatcaagactactcattaagtaatgaatcctcattggatgaggaagggaaagggagagtgctaagcagactcacagaacttcaggctgaattaagtctgaaaaatttatggcaagttctcataggagaagaagatgttgaaaagggaattgattttaaacttggacagacaatatctagactaagggatatatctgttccagccggtttctccaattttgaaggaatgaggagctacatagacaatatagacccaaaaggagcaatagagagaaatctagcaaggatgtctcccttagtatcagtcacacctaaaaagttaacatgggaggacctaagaccaatagggcctcacatttacgaccatgagctaccagaagttccatataatgcctttcttctaatgtctgatgaactaggattggccaatatgactgagggaaagtccaaaaaaccgaagacattagccaaagaatgtctagaaaagtactcaacactacgggatcaaactgacccaatattaataatgaaaagcgagaaagctaacgaaaatttcttatggaagctttggagagactgtgtaaatacaataagtaataaggaagcgagtaacgagttacagaaaaccaattatgccaaatgggccacaggggatggattaacataccagaaaataatgaaagaagtagcaatagatgacgaaacaatgtgccaagaagagcctaaaatccctaacaaatgtagagtggctgcttgggttcaaacagagatgaatctattgagcactctgacaagtaaaagagctctggacctaccagaaatagggccagacatagcacccgtagagcatgtaggaagtgaaagaaggaaatactttgtcaacgaaatcaactactgtaaggcctctacagttatgatgaagtatgtgctttttcatacttcattgttgaatgaaagcaatgccagcatgggaaaatacaaagtaataccaataaccaacagagtagtaaatgaaaaaggagaaagtttcgacatgctttacggtttggcggttaaaggacaatctcatctgaggggagatactgatgttgtaacagttgtaacttttgaatttagtagtacagatcccagagtggactcaggaaagtggccaaaatacactgtgtttaggattggctccctatttgtgagtgggagggaaaaatctgtgtacttgtactgcagagtgaatggcacaaataagatccaaatgaaatggggaatggaagctagaagatgtttgcttcaatcaatgcaacaaatggaggcaattgttgaacaggaatcatcaatacaaggatatgacatgaccaaagcctgtttcaagggagacagagtgaatagccccaaaactttcagtattggaactcaagaaggaaaactagtaaaaggatcctttggaaaagcactaagagtaatatttactaaatgcttgatgcactatgtatttggaaacgcccaattggaggggtttagtgccgagtctaggagacttctattgttgattcaagcattaaaggacagaaagggtccttgggtgttcgacttagagggaatgtattctggaatagaagaatgtattagcaacaacccttgggtgatacagagtgtatactggttcaatgaatggttgggctttgaaaaggaggggagtaaagtgttggaatcagtggatgaagtaatggatgaataaaaggaaatagtactcaatttggtactattttgttcattatgtatctaaacatccaataaaaagaaacaagaatcaaaaat</GBSeq_sequence>
+  </GBSeq>

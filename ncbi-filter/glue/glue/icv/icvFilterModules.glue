@@ -1,0 +1,29 @@
+  
+  # Phylogeny
+  create module -f modules/all/fluPhyloUtility.xml
+  create module -f modules/all/fluFigTreeAnnotationExporter.xml
+  
+  # Data import
+  create module -t fastaAlignmentImporter unconstrainedAlignmentImporter
+  create module -f modules/icv/icvTextFilePopulatorRefSet.xml
+  create module -f modules/all/tabularUtilityCsv.xml
+  create module -f modules/all/tabularUtilityTab.xml
+  create module -f modules/icv/icvFilterGenbankXmlPopulator.xml  
+ 
+  # Alignment
+  create module -f modules/all/fluMafftAligner.xml  
+  create module -f modules/icv/alignment/icvCompoundAlignerS1.xml 
+  create module -f modules/icv/alignment/icvCompoundAlignerS2.xml 
+  create module -f modules/icv/alignment/icvCompoundAlignerS3.xml 
+  create module -f modules/icv/alignment/icvCompoundAlignerS4.xml 
+  create module -f modules/icv/alignment/icvCompoundAlignerS5.xml 
+  create module -f modules/icv/alignment/icvCompoundAlignerS6.xml 
+  create module -f modules/icv/alignment/icvCompoundAlignerS7.xml 
+
+  # Segment recognition
+  create module -f modules/icv/icvSegmentRecogniser.xml
+
+  # Genotyping
+  create module -f modules/icv/icvSeg4MaxLikelihoodGenotyper.xml
+  create module -f modules/icv/icvSeg4MaxLikelihoodPlacer.xml
+

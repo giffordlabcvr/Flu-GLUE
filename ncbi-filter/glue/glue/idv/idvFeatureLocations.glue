@@ -1,0 +1,92 @@
+# DELTAINFLUENZAVIRUS
+
+reference REF_IDV_S1_MASTER_NC_036616
+
+  add feature-location IDV_S1_whole_genome
+  feature-location IDV_S1_whole_genome add segment 1 2364  
+  add feature-location IDV_S1_5UTR
+  feature-location IDV_S1_5UTR add segment 1 14  
+  add feature-location IDV_PB2
+  feature-location IDV_PB2 add segment 15 2333
+  add feature-location IDV_S1_3UTR
+  feature-location IDV_S1_3UTR add segment 2334 2364  
+  exit
+  
+reference REF_IDV_S2_MASTER_NC_036615
+
+  add feature-location IDV_S2_whole_genome
+  feature-location IDV_S2_whole_genome add segment 1 2330
+  add feature-location IDV_S2_5UTR
+  feature-location IDV_S2_5UTR add segment 1 25
+  add feature-location IDV_PB1
+  feature-location IDV_PB1 add segment 26 2287
+  add feature-location IDV_S2_3UTR
+  feature-location IDV_S2_3UTR add segment 2288 2330  
+  exit
+  
+reference REF_IDV_S3_MASTER_NC_036619
+
+  add feature-location IDV_S3_whole_genome
+  feature-location IDV_S3_whole_genome add segment 1 2195
+  add feature-location IDV_S3_5UTR
+  feature-location IDV_S3_5UTR add segment 1 22
+  add feature-location IDV_P3
+  feature-location IDV_P3 add segment 23 2155
+  add feature-location IDV_S3_3UTR
+  feature-location IDV_S3_3UTR add segment 2156 2195  
+  exit
+  
+reference REF_IDV_S4_MASTER_NC_036618
+
+  add feature-location IDV_S4_whole_genome
+  feature-location IDV_S4_whole_genome add segment 1 2049
+  add feature-location IDV_S4_5UTR
+  feature-location IDV_S4_5UTR add segment 1 24
+  add feature-location IDV_HEF
+  feature-location IDV_HEF add segment 25 2019
+  add feature-location IDV_S4_3UTR
+  feature-location IDV_S4_3UTR add segment 2020 2049  
+  exit
+  
+reference REF_IDV_S5_MASTER_NC_036617
+
+  add feature-location IDV_S5_whole_genome
+  feature-location IDV_S5_whole_genome add segment 1 1775
+  add feature-location IDV_S5_5UTR
+  feature-location IDV_S5_5UTR add segment 1 27
+  add feature-location IDV_NP
+  feature-location IDV_NP add segment 28 1686
+  add feature-location IDV_S5_3UTR
+  feature-location IDV_S5_3UTR add segment 1687 1775  
+  exit
+  
+reference REF_IDV_S6_MASTER_NC_036620
+
+  add feature-location IDV_S6_whole_genome
+  feature-location IDV_S6_whole_genome add segment 1 1219
+  add feature-location IDV_S6_5UTR
+  feature-location IDV_S6_5UTR add segment 1 28
+  add feature-location IDV_P42
+  feature-location IDV_P42 add segment 29 1192
+  add feature-location IDV_S6_3UTR
+  feature-location IDV_S6_3UTR add segment 1193 1219  
+  exit
+  
+reference REF_IDV_S7_MASTER_NC_036621
+
+  add feature-location IDV_S7_whole_genome
+  feature-location IDV_S7_whole_genome add segment 1 868
+  add feature-location IDV_S7_5UTR
+  feature-location IDV_S7_5UTR add segment 1 28
+  add feature-location IDV_NS1
+  feature-location IDV_NS1 add segment 29 760
+  add feature-location IDV_DNEP
+  feature-location IDV_DNEP 
+    add segment 29 218 --spliceIndex 1
+    add segment 484 848 --spliceIndex 2
+	exit
+  add feature-location IDV_S7_3UTR
+  feature-location IDV_S7_3UTR add segment 849 868 
+  exit
+
+

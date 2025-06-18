@@ -1,0 +1,32 @@
+alignment AL_IBV_SEG4
+
+	set field displayName "IBV segment 4"
+	set field clade_category "species"
+
+	extract child AL_IBV_SEG4_Yamagata --refName REF_IBV_S4_MASTER_CY018773
+	demote member AL_IBV_SEG4_Yamagata -w "sequence.gb_subtype = 'Yamagata'"
+
+	extract child AL_IBV_SEG4_Victoria --refName REF_IBV_S4_CY115151
+	demote member AL_IBV_SEG4_Victoria -w "sequence.gb_subtype like 'V%'"
+
+	exit
+ 
+ 
+#~#  Set clade category values in subtype-level alignments
+
+alignment AL_IBV_SEG4_Yamagata
+
+	set field displayName "IBV S4 Subtype Yamagata"
+	set field clade_category "subtype"
+
+	exit
+
+alignment AL_IBV_SEG4_Victoria
+
+	set field displayName "IBV S4 Subtype Victoria"
+	set field clade_category "subtype"
+
+	exit
+
+
+

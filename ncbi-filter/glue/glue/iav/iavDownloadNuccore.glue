@@ -1,0 +1,33 @@
+# Delete importer modules
+delete module iavNcbiImporter1970_1990
+delete module iavNcbiImporter1990_2005
+delete module iavNcbiImporter2005_2010
+delete module iavNcbiImporter2010_2015
+delete module iavNcbiImporter2015_2020
+delete module iavNcbiImporter2020_2024
+
+# Create importer modules
+create module -f modules/iav/download/iavNcbiImporter1970_1990.xml
+create module -f modules/iav/download/iavNcbiImporter1990_2005.xml
+create module -f modules/iav/download/iavNcbiImporter2005_2010.xml
+create module -f modules/iav/download/iavNcbiImporter2010_2015.xml
+create module -f modules/iav/download/iavNcbiImporter2015_2020.xml
+create module -f modules/iav/download/iavNcbiImporter2020_2024.xml
+
+# Run import
+module iavNcbiImporter1970_1990 import
+module iavNcbiImporter1990_2005 import
+module iavNcbiImporter2005_2010 import
+module iavNcbiImporter2010_2015 import
+module iavNcbiImporter2015_2020 import
+module iavNcbiImporter2020_2024 import
+
+# Export imported source
+export source ncbi-iav-nuccore-1970-1990
+export source ncbi-iav-nuccore-1990-2005
+export source ncbi-iav-nuccore-2005-2010
+export source ncbi-iav-nuccore-2010-2015
+export source ncbi-iav-nuccore-2015-2020
+export source ncbi-iav-nuccore-2020-2024
+
+

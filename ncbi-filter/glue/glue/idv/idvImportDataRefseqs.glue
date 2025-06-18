@@ -1,0 +1,9 @@
+
+  # Genotypes only import (used in set-up only)
+  #create module -f modules/idv/idvSideDataImporterGenotypes.xml
+  #module idvSideDataImporterGenotypes populate -f tabular/archive/idv-seg4-genotypes.tsv
+  
+  # Import cleaned, validated reference sequence
+  module idvTextFilePopulatorRefSet populate -f tabular/idv.refseqs.data.tsv
+
+  

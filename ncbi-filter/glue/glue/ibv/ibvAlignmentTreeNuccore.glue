@@ -1,0 +1,10 @@
+
+#~#  Add ncbi-nuccore sequences to alignment tree
+
+alignment AL_IBV_SEG1 add member -w "rec_segment = 1 and source.name = 'ibv-ncbi-nuccore'"
+alignment AL_IBV_SEG2 add member -w "rec_segment = 2 and source.name = 'ibv-ncbi-nuccore'"
+alignment AL_IBV_SEG3 add member -w "rec_segment = 3 and source.name = 'ibv-ncbi-nuccore'"
+alignment AL_IBV_SEG4 add member -w "rec_segment = 4 and source.name = 'ibv-ncbi-nuccore'"
+alignment AL_IBV_SEG5 add member -w "rec_segment = 5 and source.name = 'ibv-ncbi-nuccore'"
+alignment AL_IBV_SEG6 add member -w "rec_segment = 6 and source.name = 'ibv-ncbi-nuccore'"
+alignment AL_IBV_SEG7 add member -w "rec_segment = 7 and source.name = 'ibv-ncbi-nuccore'"

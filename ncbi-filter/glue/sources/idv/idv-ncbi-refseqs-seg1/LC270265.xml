@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LC270265</GBSeq_locus>
+    <GBSeq_length>2364</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-APR-2018</GBSeq_update-date>
+    <GBSeq_create-date>17-JUN-2017</GBSeq_create-date>
+    <GBSeq_definition>Influenza D virus (D/bovine/Miyazaki/B22/2016) viral cRNA, segment 1, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>LC270265</GBSeq_primary-accession>
+    <GBSeq_accession-version>LC270265.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LC270265.1|</GBSeqid>
+      <GBSeqid>gi|1207996328</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza D virus (D/bovine/Miyazaki/B22/2016)</GBSeq_source>
+    <GBSeq_organism>Influenza D virus (D/bovine/Miyazaki/B22/2016)</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Deltainfluenzavirus; Deltainfluenzavirus influenzae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2364</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mekata,H.</GBAuthor>
+          <GBAuthor>Yamamoto,M.</GBAuthor>
+          <GBAuthor>Hamabe,S.</GBAuthor>
+          <GBAuthor>Tanaka,H.</GBAuthor>
+          <GBAuthor>Omatsu,T.</GBAuthor>
+          <GBAuthor>Mizutani,T.</GBAuthor>
+          <GBAuthor>Hause,B.M.</GBAuthor>
+          <GBAuthor>Okabayashi,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular epidemiological survey and phylogenetic analysis of bovine influenza D virus in Japan</GBReference_title>
+        <GBReference_journal>Transbound Emerg Dis 65 (2), e355-e360 (2018)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1111/tbed.12765</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>29143492</GBReference_pubmed>
+        <GBReference_remark>DOI:10.1111/tbed.12765</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2364</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mekata,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (16-MAY-2017) Contact:Hirohisa Mekata University of Miyazaki, Organization for Promotion of Tenure Track; 1-1 Gakuen-Kibanadai-Nishi, Miyazaki, Miyazaki 889-2192, Japan URL :https://www.miyazaki-u.ac.jp/english/</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2364</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2364</GBInterval_to>
+            <GBInterval_accession>LC270265.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza D virus (D/bovine/Miyazaki/B22/2016)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>D/bovine/Miyazaki/B22/2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Bos taurus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2003301</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Japan:Miyazaki</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2016-04-13</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>15..2333</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>15</GBInterval_from>
+            <GBInterval_to>2333</GBInterval_to>
+            <GBInterval_accession>LC270265.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>PB2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>15..2333</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>15</GBInterval_from>
+            <GBInterval_to>2333</GBInterval_to>
+            <GBInterval_accession>LC270265.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>PB2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase PB2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAY00629.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSLLLTLAKEYANLTKDKKSCKLLSQGTVSSYTTFKKWTTSRKEKNPSLRMRWAMGSKFPIMANREILEEAGIPEQWEGIDLWSKKDDVSKLGMVLASPAAITYWNFCGPGVDNSSVIKDVYKAKFMKKERWRETLWGSMNFELVGKQRRVVETQPVEIKLNQKEIKELTMWVLFEDEANLASKFIQENFSLVLSLRELYKGKTVNKDVAAFMIAHQFSPEKRFLPTFGPIRPERMELLHCLGGDFWKIEAVTAGSLNEEQKKRDVRAVARKICLRASVDLFTPAEKIRDYIASVTMRFGTVERTFEDVIRNSDDISAEVTLCKAALGCELGKSMSFGNLNLRKVSGEAETIEKTVYWGLKPIKYKCWRGEETFYCELRKVTCMFRRSEGLDWANIGPGSPEERRELLAMVMIFCRDGRFFESAPVNIDESFFRTRLNREIPYQYVLLKWVRQSRDNLDALLSTRGLIPAHIGQFGKGMGIDGSSSSSMVYKGIMLSKTPIDIVESKEKHRLFLNDNMEAITERGAMVASIMDLSEDNRETFNDVTFNHVDLAVLQDEKTAIIKIYRSLVERINTDDDGIPALIMGKRYLELYQLDEVKDAVGLIPKRMLGAYSYQARQLIQSQIKNDSYSLPEIIKLLPFCYSPPKKMLFDGTFHFKNQMYVRPGINTNLFSFSKTDKSKIYVNGSAVKIKLVLGDDEMDTSLAFVEGFQVCEYDPRAPLVPRRDLRLVGFGKKVRVFVGQGQEKTLVRTSSKRAASHDVSKNIRRMRLEV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggcataagcagaggatgtcactactattaacgctcgcaaaagagtatgcaaatctcacaaaggataagaaatcatgcaaattgctgtcgcaaggaaccgtgtcaagctacaccacttttaagaaatggacaacatcgagaaaagagaaaaacccatcccttcgaatgagatgggcaatgggaagtaagttcccaatcatggcaaacagagaaattttggaagaagctgggataccagagcaatgggaagggatagacctttggtcaaaaaaggatgatgtttccaagttggggatggtattggcgtctccagcagccataacttactggaatttttgtggacctggagtggacaactcttctgtaataaaagatgtttacaaagcaaaatttatgaaaaaagaaagatggagagagactctatggggatcaatgaactttgaactggtgggcaaacaaagaagagtggttgaaactcaaccagtggaaataaaactaaaccaaaaagaaataaaagaactaacgatgtgggttctttttgaagatgaagcaaaccttgcaagcaaattcatacaggaaaatttctcacttgtcctttcattaagagaactttacaagggaaagacagtaaataaagacgttgcagccttcatgattgcccatcaattttctcccgagaaaagattcttacccacttttggtcccattagaccagaaagaatggagttactccactgtttagggggtgacttctggaagatagaagcagtaactgcagggagcctgaacgaagaacaaaagaagagagatgttagagcagtcgccagaaaaatttgccttagagcaagtgtggacttattcactccagcagagaagataagggactatatagcaagtgtaacaatgagatttggaacagtagaaagaacgttcgaagacgtaataagaaacagtgatgacatatctgctgaagtgaccttatgcaaagcggcgcttggatgtgaattgggcaaaagcatgagctttgggaatctcaatctgaggaaagtcagtggagaagcagaaacaatagaaaagacagtatattggggattaaaacccataaaatacaaatgttggagaggagaggaaacattttattgtgaattgaggaaagtaacttgtatgtttagaaggtctgaaggcctagattgggctaacattggacctggttcacctgaagaaagaagagagctcttggcaatggtgatgatattctgcagagatgggagattctttgaatctgcaccagtcaatattgatgaatcattctttaggacaagactaaatagagaaataccttatcaatatgtgctgctaaaatgggtaaggcaatcgagagataacttagatgctttgttgagtacaagaggactgatacctgctcatattggacaattcggaaaaggaatgggaatagatggaagtagctcgtcttctatggtttacaagggaatcatgttgtcgaagacacctatagacatagtggagagcaaagagaagcacaggctgtttttgaatgacaatatggaagcaataacagagagaggagcaatggttgcttccataatggacctatcagaggataatagagaaacatttaacgatgtaacttttaaccatgtcgacttagctgttctccaagatgagaaaactgcaataataaagatatatcgatcactggtggaaagaataaacactgatgatgatggcatacctgccttgataatgggtaaaagatatttagagttgtatcaattagatgaagtaaaagacgcagtcgggctaataccaaaaaggatgctgggggcatattcctatcaggcaagacagcttatacagtcgcagatcaaaaatgacagttatagccttcctgaaataataaaattgctgcctttctgttacagccctccaaagaaaatgttatttgatgggactttccattttaagaatcaaatgtatgttaggcctgggataaacacaaatcttttcagttttagtaagaccgacaaaagcaagatatatgtgaacggaagcgcagtaaaaataaaacttgtgctcggagacgatgaaatggacaccagtcttgcctttgttgaagggtttcaagtttgtgaatatgatccaagagcacctttggtacctagaagggatttgagactggttgggttcggaaagaaagttagagtttttgttggtcagggacaggagaaaaccctggtgaggacgagctccaaaagagccgcctcccatgatgtaagcaaaaacattcgtagaatgcgtctggaagtttgaagcacattgaaaaaatcctcttgctactgct</GBSeq_sequence>
+  </GBSeq>

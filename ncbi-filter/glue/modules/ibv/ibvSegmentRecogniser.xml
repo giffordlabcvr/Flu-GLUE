@@ -1,0 +1,70 @@
+<blastSequenceRecogniser>
+
+  <blastRunner>
+    <generalSearch>
+      <word_size>8</word_size>
+    </generalSearch>
+    <restrictSearchOrResults>
+    </restrictSearchOrResults>
+  </blastRunner>
+
+
+<referenceSequence>REF_IBV_S1_MASTER_CQ903173</referenceSequence>
+<referenceSequence>REF_IBV_S2_MASTER_CQ903172</referenceSequence>
+<referenceSequence>REF_IBV_S3_MASTER_CQ903174</referenceSequence>
+<referenceSequence>REF_IBV_S4_MASTER_CY018773</referenceSequence>
+<referenceSequence>REF_IBV_S5_MASTER_CQ903177</referenceSequence>
+<referenceSequence>REF_IBV_S6_MASTER_CQ903176</referenceSequence>
+<referenceSequence>REF_IBV_S7_MASTER_CQ903178</referenceSequence>
+<referenceSequence>REF_IBV_S8_MASTER_CQ903179</referenceSequence>
+
+<recognitionCategory>
+<id>1</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IBV_S1_MASTER_CQ903173</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>2</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IBV_S2_MASTER_CQ903172</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>3</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IBV_S3_MASTER_CQ903174</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>4</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IBV_S4_MASTER_CY018773</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>5</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IBV_S5_MASTER_CQ903177</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>6</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IBV_S6_MASTER_CQ903176</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>7</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IBV_S7_MASTER_CQ903178</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>8</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_IBV_S8_MASTER_CQ903179</referenceSequence>
+</recognitionCategory>
+
+
+</blastSequenceRecogniser>

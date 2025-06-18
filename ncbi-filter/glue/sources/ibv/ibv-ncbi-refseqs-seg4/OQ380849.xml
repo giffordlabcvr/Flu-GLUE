@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OQ380849</GBSeq_locus>
+    <GBSeq_length>1729</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-FEB-2023</GBSeq_update-date>
+    <GBSeq_create-date>10-FEB-2023</GBSeq_create-date>
+    <GBSeq_definition>Influenza B virus (B/Saudi Arabia/Riyadh-55/2020) clone HA segment 4 hemagglutinin (HA) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>OQ380849</GBSeq_primary-accession>
+    <GBSeq_accession-version>OQ380849.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OQ380849.1|</GBSeqid>
+      <GBSeqid>gi|2440437340</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Influenza B virus</GBSeq_source>
+    <GBSeq_organism>Influenza B virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Insthoviricetes; Articulavirales; Orthomyxoviridae; Betainfluenzavirus; Betainfluenzavirus influenzae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1729</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Aziz,I.M.</GBAuthor>
+          <GBAuthor>Almajhdi,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-FEB-2023) Botany and Microbiology Department, King Saud University, King Khalid street, Riyadh, Saudi Arabia 11451, Saudi Arabia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1729</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1729</GBInterval_to>
+            <GBInterval_accession>OQ380849.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Influenza B virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>B/Saudi Arabia/Riyadh-55/2020</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Riyadh-55</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>Nasopharyngeal Aspirates</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11520</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>HA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Saudi Arabia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>23-Dec-2020</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..1729</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1729</GBInterval_to>
+            <GBInterval_accession>OQ380849.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>HA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..1729</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1729</GBInterval_to>
+            <GBInterval_accession>OQ380849.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>HA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>function</GBQualifier_name>
+            <GBQualifier_value>receptor binding and fusion protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hemagglutinin</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WCL95049.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>LMVVTSNADRICTGITSSNSPHVVKTATQGEVNVTGVIPLTTTPTKSHFANLKGTETRGKLCPKCLNCTDLDVALGRPKCTGKIPSARVSILHEVRPVTSGCFPIMHDRTKIRQLPNLLRGYEHVRLSTHNVINTEDAPGGPYEIGTSGSCPNITNGKGFFATMAWAVPKNKTATNPLTIEVPYICTEEEDQITVWGFHSDDETQMAKLYGDSKPQKFTSSANGVTTHYVSQIGGFPNQTEDGGLPQSGRIVVDYMVQKSGKTGTITYQRGILLPQKVWCASGKSKVIKGSLPLIGEADCLHEKYGGLNKSKPYYTGEHAKAIGNCPIWVKTPLKLANGTKYRPPAKLLKERGFFGAIAGFLEGGWEGMIAGWHGYTSHGAHGVAVAADLKSTQEAINKITKNLNSLSELEVKNLQRLSGAMDELHNEILELDEKVDDLRADTISSQIELAVLLSNEGIINSEDEHLLALERKLKKMLGPSAVEIGNGCFETKHKCNQTCLDRIAAGTFDAGEFSLPTFDSLNITAASLNDDGLDNHTILLYYSTAASSLAVTLMIAIFVVYMVSRDNVSCSICL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>actcatggtagtaacatccaatgcagatcgaatctgcactgggataacatcgtcaaactcacctcatgtcgtcaaaactgctactcaaggggaggtcaatgtgaccggtgtaataccactgacaacaacacccaccaaatctcattttgcaaatctcaaaggaacagaaaccagggggaaactatgcccaaaatgcctcaactgcacagatctggatgtagccttgggcagaccaaaatgcacagggaaaataccctctgcaagggtttcaatactccatgaagtcagacctgttacatctgggtgctttcctataatgcatgatagaacaaaaattagacagctgcctaaccttctccgaggatacgaacatgtcaggttatcaactcacaacgttatcaatacagaagatgcaccaggaggaccctacgaaattggaacctcagggtcttgccctaacattaccaatggaaaaggattcttcgcaacaatggcttgggccgtcccaaaaaacaaaacagcaacaaatccattaacaatagaagtaccatacatttgtacagaagaagaagaccaaattaccgtttgggggttccactctgacgacgagacccaaatggcaaagctctatggggactcaaagccccagaagttcacctcatctgccaacggagtgaccacacattacgtttcacagattggtggcttcccaaatcaaacagaagacggaggactaccacaaagtggcagaattgttgttgattacatggtgcaaaaatctggaaaaacaggaacaattacctatcaaagaggtattttattgcctcaaaaggtgtggtgcgcaagtggcaagagcaaggtaataaaaggatccttgcccttaattggagaagcagattgcctccatgaaaaatacggtggattaaacaaaagcaagccttactacacaggggaacatgcaaaggccataggaaattgcccaatatgggtgaaaacacccttgaagctggccaatggaaccaaatatagacctcctgcaaaactattaaaggaaagaggtttcttcggagccattgctggtttcttagagggaggatgggaaggaatgattgcaggttggcacggatacacatcccatggggcacatggagtagcagtggcagctgaccttaagagcactcaagaggccataaacaagataacaaaaaatctcaactctttgagtgagctggaagtaaagaatcttcaaagactaagcggtgccatggatgaactccacaacgaaatactagaactagatgagaaagtggatgatctcagagctgatacgataagctcacaaatagaactcgcagtcctgctttccaatgaaggaataataaacagtgaagatgaacatctcttggcgcttgaaagaaagctgaagaaaatgctgggcccctctgctgtagagatagggaatggatgctttgaaaccaaacacaagtgcaaccagacctgtctcgacagaatagctgctggtacctttgatgcaggagaattttctctccccacctttgattcactgaatattactgctgcatctttaaatgacgatggattggacaaccatactatactgctttactactcaactgctgcctccagtttggctgtaacactgatgatagctatctttgttgtttatatggtctccagagacaatgtttcttgctccatctgtctataa</GBSeq_sequence>
+  </GBSeq>

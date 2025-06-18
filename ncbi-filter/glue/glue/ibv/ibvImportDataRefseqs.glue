@@ -1,0 +1,9 @@
+
+  # Genotypes only import (used in set-up only)
+  create module -f modules/ibv/ibvSideDataImporterGenotypes.xml
+  module ibvSideDataImporterGenotypes populate -f tabular/ibv.refseqs.data.tsv
+  
+  # Import cleaned, validated reference sequence
+  module ibvTextFilePopulatorRefSet populate -f tabular/ibv.refseqs.data.tsv
+
+  
