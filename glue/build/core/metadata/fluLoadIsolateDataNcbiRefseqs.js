@@ -43,8 +43,15 @@ _.each(isolateObjs, function(isolateObj) {
 				var metadataFields = [
 					"isolate_id", "species", "origin_type", "sample_type", "iso_source", "iso_country",
 					"iso_region", "iso_year", "iso_month", "iso_day", "host", "lab_host",
-					"gb_serotype", "rec_serotype", "mlca_serotype", "genome_lineage"
+					"gb_serotype", "rec_serotype", "mlca_serotype", "genome_lineage",
+                    "segment1_accession", "segment2_accession", "segment3_accession", "segment4_accession",	
+                    "segment5_accession", "segment6_accession",	"segment7_accession"
 				];
+
+				// Conditionally include segment8_accession for IAV and IBV
+				if (species === 'IAV' || species === 'IBV') {
+					metadataFields.push("segment8_accession");
+				}
 
 				_.each(metadataFields, function(metadataField) {
 					var value = handleNull(isolateObj[metadataField]);
@@ -62,6 +69,9 @@ _.each(isolateObjs, function(isolateObj) {
 		} else {
 			glue.command(["set", "field", "is_complete", "FALSE"]);
 		}
+		
+		// Flag this isolate as part of the core project reference dataset
+		glue.command(["set", "field", "is_reference", "TRUE"]);
 	});
 
 

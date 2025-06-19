@@ -82,6 +82,7 @@ schema-project flu
 		create field segment8_accession VARCHAR 20
 
 		# Derived metadata
+		create field is_reference BOOLEAN                    # Indicates an isolate included as part of the core references
 		create field is_complete BOOLEAN                     # Indicates whether all 8 segments are available
 		create field segment_count INTEGER
 	

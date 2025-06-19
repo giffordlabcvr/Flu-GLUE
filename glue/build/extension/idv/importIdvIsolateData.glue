@@ -1,0 +1,4 @@
+
+  # Import isolate data from table
+  create module -f modules/
+  module fluGenbankXmlPopulatorNoIsolateData populate

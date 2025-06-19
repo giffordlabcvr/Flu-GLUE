@@ -56,8 +56,8 @@ project flu
 	# Import isolate tables for extension
 	#run script glue/build/extension/iav/importIavIsolateTable.js
 	#run script glue/build/extension/iav/importIbvIsolateTable.js
-	run script glue/build/extension/iav/importIcvIsolateTable.js
-	#run script glue/build/extension/iav/importIdvIsolateTable.js
+	run script glue/build/extension/icv/icvImportIcvIsolateTable.js
+	#run script glue/build/extension/idv/idvImportIdvIsolateTable.js
 
 	# Validate
 	validate
