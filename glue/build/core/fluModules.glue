@@ -22,6 +22,18 @@
   create module -t raxmlPhylogenyGenerator
   create module -f modules/build/phylogeny/fluPhyloUtility.xml
   create module -f modules/build/phylogeny/fluFigTreeAnnotationExporter.xml
+
+  # IBV genotyping
+  create module -f modules/assignment/ibvSeg4MaxLikelihoodGenotyper.xml 
+  create module -f modules/assignment/ibvSeg4MaxLikelihoodPlacer.xml 
+
+  # ICV genotyping
+  create module -f modules/assignment/icvSeg4MaxLikelihoodGenotyper.xml 
+  create module -f modules/assignment/icvSeg4MaxLikelihoodPlacer.xml 
+
+  # IDV genotyping
+  create module -f modules/assignment/idvSeg4MaxLikelihoodGenotyper.xml 
+  create module -f modules/assignment/idvSeg4MaxLikelihoodPlacer.xml 
  
   # IAV aligners
   create module -f modules/build/alignment/iavCompoundAlignerS1.xml 
